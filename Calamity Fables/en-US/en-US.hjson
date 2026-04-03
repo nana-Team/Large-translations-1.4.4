@@ -121,6 +121,11 @@ Mods: {
 					Despawn: The Desert Scourge dissapears below the shifting sands...
 				}
 
+				ScourgeVsScarab: {
+					SpawnInfo: Offer a [i:{0}][i:{1}][i:{2}] stormlion grub on an [i:{3}] Ancient Altar.
+					Despawn: The rampaging beasts continue their fight without you...
+				}
+
 				Crabulon: {
 					SpawnInfo: Can naturally spawn peeking out in the mushroom caves before its defeat. Draw its attention by using a [i:{0}] hookstaff on mushroom grass.
 					Despawn: The mushroom caves become silent again...
@@ -339,6 +344,8 @@ Mods: {
 			YoblinBucketHoldout.DisplayName: Yoblin Bucket Holdout
 			CoraletiSpearHeld.DisplayName: Coraleti Spear
 			CoraletiSpearShrapnel.DisplayName: Coraleti Shrapnel
+			DesertScourgeDelayedLightningStrike.DisplayName: Desert Scourge Delayed Lightning Strike
+			GunkChunk.DisplayName: Gunk Chunk
 		}
 
 		Items: {
@@ -2558,6 +2565,21 @@ Mods: {
 					At max growth, the spear will shatter into lingering coral fragments
 					'''
 			}
+
+			ScourgeVsScarabTrophyItem: {
+				DisplayName: Scourge VS Scarab Trophy
+				Tooltip: ""
+			}
+
+			ScourgeVsScarabRelicItem: {
+				DisplayName: Scourge VS Scarab Relic
+				Tooltip: ""
+			}
+
+			ScourgeVsScarabMusicBoxItem: {
+				DisplayName: Music Box (Sunbolt Showdown)
+				Tooltip: ""
+			}
 		}
 
 		NPCs: {
@@ -2590,6 +2612,7 @@ Mods: {
 			SandstormSprite.DisplayName: Sandstorm Sprite
 			SpelunkerScarab.DisplayName: Spelunker Scarab
 			BlizzardSprite.DisplayName: Blizzard Sprite
+			ScourgeVsScarab.DisplayName: Desert Scourge & Scarabeus
 		}
 
 		Buffs: {

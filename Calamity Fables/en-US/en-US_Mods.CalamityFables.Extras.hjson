@@ -44,6 +44,8 @@ ArmorSetBonus: {
 
 SirNautilusPhase1Name: Nautilus and Signathion
 HeatHazeSprite: Mirage Sprite
+ScourgeVsScarabHover: "{0}: Wants to kill {1}!"
+ScourgeVsScarabDeathMessage: Scarabeus and Desert Scourge have defeated eachother!?
 
 MapIcons: {
 	SealedChamber: Sealed Chamber
@@ -157,6 +159,14 @@ DeathMessages: {
 		2: "{0} may end up stirred into a healing potion someday."
 		3: "{0} forfeited their body to the mushroom caves."
 		4: "{0} has been harvested."
+	}
+
+	KaijuBattle: {
+		1: Divorce has led {0} to the worst of places.
+		2: "{0} shouldn't interrupt the adults talking."
+		3: "{0} became collateral damage."
+		4: "{0} learnt to not get in the way of others troubles."
+		5: "{0} stuck their nose where it doesn't belong."
 	}
 
 	SandTwisterFall: {
