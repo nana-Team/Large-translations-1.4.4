@@ -120,6 +120,11 @@ Mods: {
 					SpawnInfo: Выманите его из песков пустыни при помощи [i:{0}][i:{1}][i:{2}] личинок — его любимого лакомства.
 					Despawn: Пустынный бич вновь зарывается глубоко в пески пустыни...
 				}
+				
+				ScourgeVsScarab: {
+					SpawnInfo: Используйте [i:{0}][i:{1}][i:{2}] личинки на [i:{3}] древнем алтаре.
+					Despawn: Буйствующие звери продолжают свой бой без вас...
+				}
 
 				Crabulon: {
 					SpawnInfo: Изредка выглядывает из почвы пещер светящихся грибов, если ещё не был убит до этого — потревожьте его в этот момент, чтобы начать бой. В качестве альтернативы, привлеките его внимание [i:{0}] багором, стоя на траве светящихся грибов.
@@ -339,6 +344,8 @@ Mods: {
 			YoblinBucketHoldout.DisplayName: "{$Items.YoblinBucket.DisplayName}"
 			CoraletiSpearHeld.DisplayName: "{$Items.CoraletiSpear.DisplayName}"
 			CoraletiSpearShrapnel.DisplayName: Кораллитовый осколок
+			DesertScourgeDelayedLightningStrike.DisplayName: Удар молнии Пустынного бича
+			GunkChunk.DisplayName: Мерзкий комок
 		}
 
 		Items: {
@@ -1759,22 +1766,22 @@ Mods: {
 			}
 
 			CrabulonMusicBoxItem: {
-				DisplayName: Музыкальная шкатулка (Крабулон, «Mycelium Marionette»)
+				DisplayName: Музыкальная шкатулка (Mycelium Marionette)
 				Tooltip: ""
 			}
 
 			DesertScourgeMusicBoxItem: {
-				DisplayName: Музыкальная шкатулка (Пустынный бич, «The Dessicated Husk»)
+				DisplayName: Музыкальная шкатулка (The Dessicated Husk)
 				Tooltip: ""
 			}
 
 			SealedChamberMusicBoxItem: {
-				DisplayName: Музыкальная шкатулка (Запечатанная пещера, «Sealed Chamber»)
+				DisplayName: Музыкальная шкатулка (Sealed Chamber)
 				Tooltip: ""
 			}
 
 			SirNautilusMusicBoxItem: {
-				DisplayName: Музыкальная шкатулка (Сэр Наутилус, «Beating A Dead Horseman»)
+				DisplayName: Музыкальная шкатулка (Beating A Dead Horseman)
 				Tooltip: ""
 			}
 
@@ -2589,6 +2596,21 @@ Mods: {
 					Достигнув максимального размера, копьё расколется на несколько коралловых осколков
 					'''
 			}
+
+			ScourgeVsScarabTrophyItem: {
+				DisplayName: Трофей Бича и Скарабея
+				Tooltip: ""
+			}
+
+			ScourgeVsScarabRelicItem: {
+				DisplayName: Реликвия Бича и Скарабея
+				Tooltip: ""
+			}
+
+			ScourgeVsScarabMusicBoxItem: {
+				DisplayName: Музыкальная шкатулка (Sunbolt Showdown)
+				Tooltip: ""
+			}
 		}
 
 		NPCs: {
@@ -2621,6 +2643,7 @@ Mods: {
 			SandstormSprite.DisplayName: Дух песчаной бури
 			SpelunkerScarab.DisplayName: Скарабей-валунщик
 			BlizzardSprite.DisplayName: Дух метели
+			ScourgeVsScarab.DisplayName: Пустынный бич и Скарабеус
 		}
 
 		Buffs: {

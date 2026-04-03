@@ -8,6 +8,11 @@ DesertScourge: {
 	Title: Ненасытная оболочка
 }
 
+ScourgeVsScarab: {
+	Name: Бич против Скарабея
+	Title: Змей, пожирающий Солнце
+}
+
 Crabulon: {
 	Name: Крабулон
 	Title: Контролируемая туша
