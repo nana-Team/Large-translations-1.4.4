@@ -45,7 +45,7 @@ ArmorSetBonus: {
 SirNautilusPhase1Name: Наутилус и Сигнатий
 HeatHazeSprite: Дух миража
 ScourgeVsScarabHover: "{0}, желающий убить {1}!"
-ScourgeVsScarabDeathMessage: Скарабеус и Пустынный бич побеждены... сами!?
+ScourgeVsScarabDeathMessage: Скарабеус и Пустынный бич побеждены... друг другом!?
 
 MapIcons: {
 	SealedChamber: Запечатанная пещера
