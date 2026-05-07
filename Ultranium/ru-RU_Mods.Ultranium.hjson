@@ -80,8 +80,8 @@ Buffs: {
 	}
 
 	DreadMinionBuff: {
-		DisplayName: Mini Dread
-		Description: The small dread will fight with you
+		DisplayName: Ужастик
+		Description: За вас сражается маленький ужас
 	}
 
 	ErebusBuff: {
@@ -211,7 +211,11 @@ Items: {
 	BloodHead: {
 		DisplayName: Кровеносная маска
 		Tooltip: ""
-		SetBonus: Увеличивает урон на 7%, максимальный запас маны на 20 ед. и максимальное количество миньонов на 1
+		SetBonus:
+			'''
+			
+			Увеличивает урон на 7%, максимальный запас маны на 20 ед. и максимальное количество миньонов на 1
+			'''
 	}
 
 	BloodLegs: {
@@ -255,7 +259,7 @@ Items: {
 	}
 
 	DreadHeart: {
-		DisplayName: Core of Fear
+		DisplayName: Суть страха
 		Tooltip:
 			'''
 			All projectiles will inflict dread, which deals damage over time to enemies
@@ -325,7 +329,7 @@ Items: {
 	}
 
 	TrueDreadHeart: {
-		DisplayName: True Core of Fear
+		DisplayName: Истинная суть страха
 		Tooltip:
 			'''
 			All projectiles will inflict dread, which deals damage over time to enemies
@@ -536,28 +540,28 @@ Items: {
 	}
 
 	DreadBow: {
-		DisplayName: Bow of Distress
-		Tooltip: Converts arrows into dread bolts
+		DisplayName: Лук боли
+		Tooltip: Превращает стрелы в выстрелы ужаса
 	}
 
 	DreadStaff: {
-		DisplayName: Fear's Flame
-		Tooltip: Casts dread fire balls
+		DisplayName: Пламя ужасания
+		Tooltip: Выпускает огненные шары ужаса
 	}
 
 	DreadSummon: {
-		DisplayName: Dread Staff
-		Tooltip: Summons a dread minion
+		DisplayName: Посох Ужаса
+		Tooltip: Призывает ужаса-миньона
 	}
 
 	DreadSword: {
-		DisplayName: Blade of Terror
-		Tooltip: Fires dread bolts on swing
+		DisplayName: Клинок запугивания
+		Tooltip: При взмахе выпускает выстрелы ужаса
 	}
 
 	DreadTooth: {
-		DisplayName: Dread Tooth
-		Tooltip: Increases armor penetration by 8
+		DisplayName: Клык Ужаса
+		Tooltip: Увеличивает пробивание брони на 8 ед.
 	}
 
 	DreadFlame: {
@@ -571,70 +575,69 @@ Items: {
 	}
 
 	HorrorBody: {
-		DisplayName: Horror Breastplate
+		DisplayName: Кошмарный нагрудник
 		Tooltip:
 			'''
-			7% increased damage and critical strike chance
-			+20 max life and +1 max minions
-			5% increased damage reduction
+			Увеличивает урон и шанс критического удара на 7%
+			Увеличивает максимальный запас маны на 20 ед. и максимальное количество миньонов на 1
+			Увеличивает сопротивление урону на 5%
 			'''
 	}
 
 	HorrorHelm: {
-		DisplayName: Horror Helmet
-		Tooltip: 12% increased melee critical strike chance
+		DisplayName: Кошмарный шлем
+		Tooltip: Увеличивает шанс критического удара ближнего боя на 12%
 		SetBonus:
 			'''
 
-			Melee weapons have a chance to shoot out dread flame bolts
-			10% increased melee damage
+			Оружие ближнего боя с некоторым шансом будет выстреливать пламенем ужаса
+			Увеличивает урон ближнего боя на 10%
 			'''
 	}
 
 	HorrorHood: {
-		DisplayName: Horror Hood
+		DisplayName: Кошмарный капюшон
 		Tooltip:
 			'''
-			12% increased magic critical strike chance
-			+50 max mana
+			Увеличивает шанс магического критического удара на 12%
+			Увеличивает максимальный запас маны на 50 ед.
 			'''
 		SetBonus:
 			'''
 
-			Magic weapons have a chance to shoot out dread flame bolts
-			20% reduced mana cost
+			Магическое оружие с некоторым шансом будет выстреливать пламенем ужаса
+			Снижает расход маны на 20%
 			'''
 	}
 
 	HorrorLegs: {
-		DisplayName: Horror Leggings
-		Tooltip: 8% increased damage, melee speed, and movement speed
+		DisplayName: Кошмарные поножи
+		Tooltip: Увеличивает урон, скорость ближнего боя и скорость передвижения на 8%
 	}
 
 	HorrorMask: {
-		DisplayName: Horror Mask
+		DisplayName: Кошмарная маска
 		Tooltip:
 			'''
-			10% increased summon damage
-			+1 max minions
+			Увеличивает урон призывателя на 10%
+			Увеличивает максимальное количество миньонов на 1
 			'''
 		SetBonus:
 			'''
 
-			Summon weapons will shoot dread flame bolts when used
-			(This effect will still apply if you have maximum minions active)
-			+3 max minions
+			Если активно максимальное количество миньонов, оружие призывателя будет выстреливать пламенем ужаса при использовании
+			Увеличивает максимальное количество миньонов на 3
 			'''
 	}
 
 	HorrorVisor: {
-		DisplayName: Horror Visor
-		Tooltip: 12% increased ranged critical strike chance
+		DisplayName: Кошмарный визор
+		Tooltip: Увеличивает шанс стрелкового критического удара на 12%
 		SetBonus:
 			'''
 
-			Ranged weapons have a chance to shoot out dread flame bolts
-			20% chance to not consume ammo
+			Стрелковое оружие с некоторым шансом будет выстреливать пламенем ужаса
+			Увеличивает шанс не потратить боеприпасы на 20%
 			'''
 	}
 
@@ -704,7 +707,7 @@ Items: {
 	}
 
 	DreadDye: {
-		DisplayName: Horror Dye
+		DisplayName: Кошмарный краситель
 		Tooltip: ""
 	}
 
@@ -1289,9 +1292,9 @@ Items: {
 		Tooltip: Увеличивает урон на 3%
 		SetBonus:
 			'''
-
-			Immunity to all ice related debuffs
-			3% increased damage, melee speed, and movement speed
+			
+			Даёт невосприимчивость ко всем дебаффам, связанных со льдом
+			Увеличивает урон, скорость ближнего боя и скорость передвижения на 3%
 			'''
 	}
 
