@@ -79,7 +79,7 @@ Configs: {
 
 		VictoryDay: {
 			Label: Victory Day
-			Tooltip: Toggles the Victory Day ("Overworld Alt Alt") music.
+			Tooltip: Toggles the Victory Day ("Adventurer's Triumph") music.
 		}
 	}
 }

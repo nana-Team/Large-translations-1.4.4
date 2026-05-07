@@ -1,0 +1,3168 @@
+"Keybinds.Special Ability.DisplayName": Special  Ability
+
+Event: {
+	Name: Abyssal Armageddon
+	SpawnInfo: Use the [i:Ultranium/DarkResonator] during the night
+}
+
+Buffs: {
+	DarkDebuff: {
+		DisplayName: Eldritch Decay
+		Description:
+			'''
+			Nullified life regeneration and decreased damage
+			Rapidly loosing life
+			'''
+	}
+
+	DreadDebuff: {
+		DisplayName: Dread
+		Description:
+			'''
+			Pure fear pulses through your body...
+			Reduced defense and attack damage
+			'''
+	}
+
+	EldritchCooldown: {
+		DisplayName: Eldritch Cool Down
+		Description: You can't use your eldrich empowerment
+	}
+
+	EldritchMagicBuff: {
+		DisplayName: Eldritch Mage Empowerment
+		Description: 1.3x Magic damage, magic weapons cost no mana
+	}
+
+	EldritchMeleeBuff: {
+		DisplayName: Eldritch Warrior Empowerment
+		Description: 1.5x melee damage, however you take 1.3x damage
+	}
+
+	EldritchRangedBuff: {
+		DisplayName: Eldritch Ranger Empowerment
+		Description: 1.3x Ranged damage, 25% chance to not consume ammo
+	}
+
+	EldritchSummonBuff: {
+		DisplayName: Eldritch Summon Empowerment
+		Description: 1.5x summon damage, abyssal eye is empowered
+	}
+
+	EtherealCooldown: {
+		DisplayName: Ethereal Cool Down
+		Description: Xenanis's core is recharging...
+	}
+
+	GlowShroomed: {
+		DisplayName: Glow Shroom'd
+		Description: Defense lowered by 3 and you emit a stange glow
+	}
+
+	AbyssEyeBuff: {
+		DisplayName: Abyssal Monolith
+		Description: The monolith of the abyss watches over you
+	}
+
+	BabySquidBuff: {
+		DisplayName: Baby Squid
+		Description: The Baby Squid will fight for you
+	}
+
+	BloodBuff: {
+		DisplayName: Bloody Dripper
+		Description: The Bloody Dripper will fight along with you
+	}
+
+	DemonBuff: {
+		DisplayName: Shade Demon
+		Description: The Shade Demon will fight for you
+	}
+
+	DreadMinionBuff: {
+		DisplayName: Mini Dread
+		Description: The small dread will fight with you
+	}
+
+	ErebusBuff: {
+		DisplayName: Mini Erebus
+		Description: It looks like its hungry... for souls
+	}
+
+	EyeBuff: {
+		DisplayName: Mini Eye
+		Description: The servant of Cthulhu will fight for you
+	}
+
+	IgnodiumBuff: {
+		DisplayName: Ignodium
+		Description: The mini ignodium will fight with you
+	}
+
+	PumpBuff: {
+		DisplayName: Pumpkin
+		Description: The Living Pumpkin will fight for you!
+	}
+
+	ShadeWispBuff: {
+		DisplayName: Shade Wisp
+		Description: The Shade Wisp will fight along with you
+	}
+
+	ShadowApparitionBuff: {
+		DisplayName: Shadowflame Apparition
+		Description: The Shadowflame Apparition will fight for you
+	}
+
+	StarMinionBuff: {
+		DisplayName: Spacial Star
+		Description: The Spacial Star will fight for you
+	}
+
+	UltrumBuff: {
+		DisplayName: Ultrum
+		Description: The mini ultrum will fight with you
+	}
+
+	WispBuff: {
+		DisplayName: Ethereal Wisp
+		Description: The Ethereal Wisp will fight along with you
+	}
+
+	BabyWormBuff: {
+		DisplayName: Zephyr Serpent
+		Description: It likes to float around you...
+	}
+
+	BatBuff: {
+		DisplayName: Pet Bat
+		Description: Probably wants food or blood or something
+	}
+
+	CacodemonBuff: {
+		DisplayName: Cacodemon
+		Description: It makes weird noises
+	}
+
+	CosmicDjinnBuff: {
+		DisplayName: Cosmic Djinn
+		Description: The cosmic djinn follows you
+	}
+
+	DragonHornetBuff: {
+		DisplayName: Dragon Hornet
+		Description: A long last species...
+	}
+
+	DreadBreadBuff: {
+		DisplayName: Dread Bread
+		Description: Is it a loaf of bread, or a loaf of dread?
+	}
+
+	GuineaPigBuff: {
+		DisplayName: Strange Guinea Pig
+		Description: Small and cute
+	}
+
+	SlimeBuff: {
+		DisplayName: Pet Slime
+		Description: A strange friendly glob with bacteria in it
+	}
+
+	TacoBuff: {
+		DisplayName: The devil on Dylan's shoulder
+		Description: ...
+	}
+
+	WerewolfBuff: {
+		DisplayName: Pet Werewolf
+		Description: It seems to like you
+	}
+
+	ZombieBuff: {
+		DisplayName: Pet Zombie
+		Description: It just aimlessly follows you...
+	}
+
+	ShadowflameDebuff: {
+		DisplayName: Shadowflame
+		Description: Losing life
+	}
+}
+
+Biomes: {
+	DepthsBiome: {
+		DisplayName: Depths Biome
+		TownNPCDialogueName: the Depths Biome
+	}
+
+	ShadowBiome: {
+		DisplayName: Shadow Biome
+		TownNPCDialogueName: the Shadow Biome
+	}
+}
+
+Items: {
+	BloodBody: {
+		DisplayName: Sanguine Chestplate
+		Tooltip: ""
+	}
+
+	BloodHead: {
+		DisplayName: Sanguine Face Mask
+		Tooltip: ""
+		SetBonus:
+			'''
+
+			7% increased damage, +20 max mana, and +1 max minions
+			'''
+	}
+
+	BloodLegs: {
+		DisplayName: Sanguine Leggings
+		Tooltip: ""
+	}
+
+	BloodClot: {
+		DisplayName: Blood Clot
+		Tooltip: '''"A clot of blood obtained from a bloody monster"'''
+	}
+
+	BloodGrimoire: {
+		DisplayName: Bloody Grimoire
+		Tooltip: Conjures a blood dripper minion to fight with you
+	}
+
+	BloodStaff: {
+		DisplayName: Aortic Staff
+		Tooltip: Casts balls of blood
+	}
+
+	BloodSword: {
+		DisplayName: Bloodthorn Blade
+		Tooltip: Shoots a random spread of blood thorns
+	}
+
+	BloodYoyo: {
+		DisplayName: The Gout
+		Tooltip: Randomly fires out lingering blood swirls
+	}
+
+	TendrilKnife: {
+		DisplayName: Tendril Piercer
+		Tooltip: Throws tendril blades that can pierce through enemies
+	}
+
+	CosmicWings: {
+		DisplayName: Cosmic Wings
+		Tooltip: Gives infinite flight time and very fast flight speed
+	}
+
+	DreadHeart: {
+		DisplayName: Core of Fear
+		Tooltip:
+			'''
+			All projectiles will inflict dread, which deals damage over time to enemies
+			You have a chance to erupt dread flame bolts from your body when you are struck
+			'''
+	}
+
+	EtherealCore: {
+		DisplayName: Xenanis' Core
+		Tooltip:
+			'''
+			Increases all damage and crit by 15% when below half health
+			Press the special ability key to unleash a circle of homing ethereal bolts
+			This ability has a 15 second cooldown when used
+			'''
+	}
+
+	FlayerBrain: {
+		DisplayName: Mind of the Mindflayer
+		Tooltip:
+			'''
+			10% increased damage and critical strike chance chance
+			You have a chance to dodge enemy attacks and gain longer invincibility when hit
+			Creates an eldritch aura around the player that damages nearby enemies
+			Disabling the visibility will disable the aura
+			however the other bonuses will become buffed
+			'''
+	}
+
+	GuardianCore: {
+		DisplayName: Guardian's Insignia
+		Tooltip:
+			'''
+			15% increased damage and 10% increased critical strike chance
+			increases max life and max mana by 40
+			+3 max minions
+			20% reduced mana usage
+			'''
+	}
+
+	IceTalon: {
+		DisplayName: Glacieron Talon
+		Tooltip:
+			'''
+			Increases armor penetration by 5
+			Your projectiles have a chance to inflict frostburn on enemies
+			'''
+	}
+
+	MysticTentacle: {
+		DisplayName: Zephyr Squid's Tentacle
+		Tooltip: 10% increased critical strike chance
+	}
+
+	ShadowHeart: {
+		DisplayName: Heart of Erebus
+		Tooltip:
+			'''
+			+60 max life and +30 max mana
+			Grants immunity to the Eldritch Decay debuff
+			Gives bonuses as your health gets lower
+			At 75% health, you gain 15% increased critical strike chance
+			At 50% health, you gain 15% increased damage
+			At 25% health, you gain 15 defense
+			These buffs will stack with each other
+			'''
+	}
+
+	TrueDreadHeart: {
+		DisplayName: True Core of Fear
+		Tooltip:
+			'''
+			All projectiles will inflict dread, which deals damage over time to enemies
+			You have a chance to erupt dread blasts from your body when you are struck
+			Enemies have a chance to explode into dread flame blasts when critically hit
+			'''
+	}
+
+	AldinBag: {
+		DisplayName: Treasure Bag (Aldin)
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	DreadBag: {
+		DisplayName: Treasure Bag (Dread)
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	ErebusBag: {
+		DisplayName: Treasure Bag (Erebus)
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	EtherealBag: {
+		DisplayName: Treasure Bag (Xenanis)
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	IceDragonBag: {
+		DisplayName: Treasure Bag (Glacieron)
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	IgnodiumBag: {
+		DisplayName: Treasure Bag (Ignodium)
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	SquidBag: {
+		DisplayName: Treasure Bag (Zephyr Squid)
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	TrueDreadBag: {
+		DisplayName: Treasure Bag (Absolute Dread)
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	UltrumBag: {
+		DisplayName: Treasure Bag (Ultrum)
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	BloodMoonSummon: {
+		DisplayName: Blood Moon Idol
+		Tooltip: Summons the Blood moon if used at night
+	}
+
+	CoralBait: {
+		DisplayName: Coral Bait
+		Tooltip:
+			'''
+			A strange bait made with coral shards...
+			Attracts the zephyr squid, only when used as bait in the ocean
+			Can be used as normal fishing bait anywhere else
+			'''
+	}
+
+	DarkResonator: {
+		DisplayName: Dark Resonator
+		Tooltip:
+			'''
+			A long lost relic, it's said it can open the rift to the nightmare world...
+			Starts the abyssal armageddon event on use
+			Can only be used during the night
+			'''
+	}
+
+	DarkResonatorBroken: {
+		DisplayName: Rift Artifact
+		Tooltip:
+			'''
+			An ancient artifact of the shadows
+			It seems to be broken, but can possibly be repaired with the right materials...
+			'''
+	}
+
+	DarkResonatorDisabler: {
+		DisplayName: Abyssal Spawn Disabler
+		Tooltip: Using this during the abyssal armageddon event will toggle enemy spawns on and off
+	}
+
+	DepthsKey: {
+		DisplayName: Depths Key
+		Tooltip: "'Charged with the power of darkness'"
+	}
+
+	DreadBeacon: {
+		DisplayName: Beacon of Fear
+		Tooltip:
+			'''
+			The flame is oddly cold...
+			Summons Dread
+			'''
+	}
+
+	ErebusFood: {
+		DisplayName: Eldritch Worm Food
+		Tooltip:
+			'''
+			Summons Erebus upon use
+			Can only be used during the Abyssal Armageddon event
+			Not consumable
+			'''
+	}
+
+	EtherealLantern: {
+		DisplayName: Ethereal Lantern
+		Tooltip:
+			'''
+			Calls forth the ethereal demon
+			Can only be used at night
+			'''
+	}
+
+	IceFood: {
+		DisplayName: Frozen Food
+		Tooltip:
+			'''
+			Attracts the ice dragon
+			Can only be used in the snow biome
+			'''
+	}
+
+	MiniProbe: {
+		DisplayName: Miniature Martian Probe
+		Tooltip: Calls upon the martians
+	}
+
+	NetherBeacon: {
+		DisplayName: Nether Beacon
+		Tooltip:
+			'''
+			Summons The guardian deity of hell
+			Can only be used in the underworld
+			Not Consumable
+			'''
+	}
+
+	UltrumSummon: {
+		DisplayName: Ultranium Sigil
+		Tooltip:
+			'''
+			Summons the guardian deity of nature
+			Can only be used on the surface
+			Not Consumable
+			'''
+	}
+
+	CosmicBlade: {
+		DisplayName: Wrath of the Cosmos
+		Tooltip:
+			'''
+			Fires down a stream of cosmic stars
+			Every 30 swings will send down a bigger cosmic star that explodes into smaller stars
+			'''
+	}
+
+	CosmicBow: {
+		DisplayName: Cosmic Annahilation
+		Tooltip:
+			'''
+			Fires a tight spread of homing cosmic bolts
+			Does not require ammo to use
+			'''
+	}
+
+	CosmicStaff: {
+		DisplayName: Protostar Scepter
+		Tooltip: Casts protostars that explode into bolts
+	}
+
+	DevotedKatana: {
+		DisplayName: Devoted Katana
+		Tooltip:
+			'''
+			Shoots spreads of homing shadow stars
+			~Dedicated Item~
+			'''
+	}
+
+	RayGun: {
+		Tooltip:
+			'''
+			Imagine Pew pew in Terraria, HHHHHHHHHHHHHH im smart as frick.
+			~Developer Item~
+			'''
+		DisplayName: Ray Gun
+	}
+
+	ShadowFlute: {
+		DisplayName: Despairides
+		Tooltip:
+			'''
+			When played, the flute will create a phantom claw that will home in on enemies
+			~Developer Item~
+			'''
+	}
+
+	DreadBow: {
+		DisplayName: Bow of Distress
+		Tooltip: Converts arrows into dread bolts
+	}
+
+	DreadStaff: {
+		DisplayName: Fear's Flame
+		Tooltip: Casts dread fire balls
+	}
+
+	DreadSummon: {
+		DisplayName: Dread Staff
+		Tooltip: Summons a dread minion
+	}
+
+	DreadSword: {
+		DisplayName: Blade of Terror
+		Tooltip: Fires dread bolts on swing
+	}
+
+	DreadTooth: {
+		DisplayName: Dread Tooth
+		Tooltip: Increases armor penetration by 8
+	}
+
+	DreadFlame: {
+		DisplayName: Dread Flame
+		Tooltip: "'The Essence of pure, concentrated fear'"
+	}
+
+	DreadScale: {
+		DisplayName: Dread Scale
+		Tooltip: ""
+	}
+
+	HorrorBody: {
+		DisplayName: Horror Breastplate
+		Tooltip:
+			'''
+			7% increased damage and critical strike chance
+			+20 max life and +1 max minions
+			5% increased damage reduction
+			'''
+	}
+
+	HorrorHelm: {
+		DisplayName: Horror Helmet
+		Tooltip: 12% increased melee critical strike chance
+		SetBonus:
+			'''
+
+			Melee weapons have a chance to shoot out dread flame bolts
+			10% increased melee damage
+			'''
+	}
+
+	HorrorHood: {
+		DisplayName: Horror Hood
+		Tooltip:
+			'''
+			12% increased magic critical strike chance
+			+50 max mana
+			'''
+		SetBonus:
+			'''
+
+			Magic weapons have a chance to shoot out dread flame bolts
+			20% reduced mana cost
+			'''
+	}
+
+	HorrorLegs: {
+		DisplayName: Horror Leggings
+		Tooltip: 8% increased damage, melee speed, and movement speed
+	}
+
+	HorrorMask: {
+		DisplayName: Horror Mask
+		Tooltip:
+			'''
+			10% increased summon damage
+			+1 max minions
+			'''
+		SetBonus:
+			'''
+
+			Summon weapons will shoot dread flame bolts when used
+			(This effect will still apply if you have maximum minions active)
+			+3 max minions
+			'''
+	}
+
+	HorrorVisor: {
+		DisplayName: Horror Visor
+		Tooltip: 12% increased ranged critical strike chance
+		SetBonus:
+			'''
+
+			Ranged weapons have a chance to shoot out dread flame bolts
+			20% chance to not consume ammo
+			'''
+	}
+
+	DreadDisc: {
+		DisplayName: Disc of Dismay
+		Tooltip:
+			'''
+			Throws out discs that scatter dread bolts in random directions
+			Only up to 3 discs can be active at once
+			'''
+	}
+
+	DreadFlameBlaster: {
+		Tooltip:
+			'''
+			'Why melt enemies when you can scorch them with fear?'
+			Spews out a stream of dread fire
+			Will also randomly fire out dread fire balls
+			80% chance to not consume gel
+			'''
+		DisplayName: Foreboding Flame
+	}
+
+	DreadScepter: {
+		DisplayName: Dread Energy Scepter
+		Tooltip:
+			'''
+			Summons stationary dread orbs to shoot bolts at nearby enemies
+			Each orb will last for 30 seconds, and will then explode into a giant circle of bolts upon death
+			Each existing orb takes up 1 minion slot
+			'''
+	}
+
+	DreadSpear: {
+		DisplayName: Inquietude Impaler
+		Tooltip: Fires slightly inaccurate dread scythes
+	}
+
+	DreadTome: {
+		DisplayName: Paranoia
+		Tooltip: Casts dread scythes
+	}
+
+	DreadYoyo: {
+		DisplayName: The Toothball
+		Tooltip: Has a chance to shoot circles of dread teeth on enemy hits
+	}
+
+	FearStaff: {
+		DisplayName: Staff of Horror
+		Tooltip: Casts dread energy bolts
+	}
+
+	NightmareFuel: {
+		DisplayName: Nightmare Fuel
+		Tooltip: ""
+	}
+
+	AuroraDye: {
+		DisplayName: Aurora Crystal Dye
+		Tooltip: ""
+	}
+
+	DepthsDye: {
+		DisplayName: Depths Fog Dye
+		Tooltip: ""
+	}
+
+	DreadDye: {
+		DisplayName: Horror Dye
+		Tooltip: ""
+	}
+
+	EldritchDye: {
+		DisplayName: Eldritch Hades Dye
+		Tooltip: ""
+	}
+
+	EtherealDye: {
+		DisplayName: Ethereal Hades Dye
+		Tooltip: ""
+	}
+
+	IceDragonDye: {
+		DisplayName: Glacial Dye
+		Tooltip: ""
+	}
+
+	IgnodiumDye: {
+		DisplayName: Hell Dye
+		Tooltip: ""
+	}
+
+	UltrumDye: {
+		DisplayName: Nature Dye
+		Tooltip: ""
+	}
+
+	EldritchAegis: {
+		DisplayName: Erebus Bulwark
+		Tooltip:
+			'''
+			Grants immunity to most debuffs and knockback
+			Damage taken from lava is reduced and you can walk on fire blocks
+			Grants you the ice barrier buff when below 25% hp, which reduces damage taken by 25%
+			Grants you the ability to dash
+			Disabling the visibility will disable the dash
+			'''
+	}
+
+	EldritchBoots: {
+		DisplayName: Eldritch Tracers
+		Tooltip:
+			'''
+			Allows flight and slow fall
+			Allows super fast running and extra mobility on ice
+			10% increased movement speed
+			Grants the ability to walk on water and lava
+			Grants immunity to fire blocks and 10 seconds of immunity to lava
+			'''
+	}
+
+	EldritchFlower: {
+		DisplayName: Weeping Rose
+		Tooltip:
+			'''
+			15% increased magic damage
+			Automatically consumes mana potions when needed
+			Increases pick up range for mana stars
+			Magic projectiles inflict the eldritch decay debuff
+			'''
+	}
+
+	EldritchScroll: {
+		DisplayName: Scroll of the Abyss
+		Tooltip:
+			'''
+			15% increased summon damage and minion knockback
+			+2 max minions
+			Minions inflict the eldritch decay debuff
+			'''
+	}
+
+	VoidGauntlet: {
+		DisplayName: Void Gauntlet
+		Tooltip:
+			'''
+			15% increased melee damage and knockback
+			12% increased melee speed
+			Melee projectiles inflict the eldritch decay debuff
+			'''
+	}
+
+	VoidPouch: {
+		DisplayName: Dimensional Ammo Pouch
+		Tooltip:
+			'''
+			15% increased ranged damage
+			50% chance to not consume ammo
+			Ranged projectiles inflict the eldritch decay debuff
+			'''
+	}
+
+	DarkBody: {
+		DisplayName: Darkmatter Chestmail
+		Tooltip:
+			'''
+			12% increased critical strike chance
+			+10 max life and mana, and +2 max minions
+			5% increased damage reduction
+			Enemies are more likely to target you
+			'''
+	}
+
+	DarkHeadGear: {
+		DisplayName: Darkmatter Headgear
+		Tooltip:
+			'''
+			12% increased ranged damage
+			+5 max life
+			'''
+		SetBonus:
+			'''
+
+			10% increased ranged damage and 20% chance to not consume ammo
+			+10 max health
+			Pressing the Special Ability hotkey will grant you the eldritch ranger empowerment buff
+			This buff will cause all ranged weapons to deal 1.3x damage,
+			and a 25% chance to not consume ammo
+			This ability has a 40 second cool down
+			'''
+	}
+
+	DarkHelm: {
+		DisplayName: Darkmatter Helmet
+		Tooltip:
+			'''
+			12% increased melee damage
+			+5 max life
+			'''
+		SetBonus:
+			'''
+
+			10% increased melee damage and melee speed
+			+10 max health
+			Pressing the Special Ability hotkey will grant you the eldritch melee empowerment buff
+			This buff will cause all melee weapons to deal 1.5x damage
+			However, you will also take 1.3x damage
+			This ability has a 40 second cool down
+			'''
+	}
+
+	DarkHood: {
+		DisplayName: Darkmatter Hood
+		Tooltip:
+			'''
+			12% increased magic damage
+			+5 max life and +10 max mana
+			'''
+		SetBonus:
+			'''
+
+			10% increased magic damage and 20% reduced mana usage
+			+10 max health and mana
+			Pressing the Special Ability hotkey will grant you the eldritch magic empowerment buff
+			This buff will cause all magic weapons to deal 1.3x damage,
+			and makes magic weapons cost no mana
+			This ability has a 40 second cool down
+			'''
+	}
+
+	DarkLegs: {
+		DisplayName: Darkmatter Leggings
+		Tooltip:
+			'''
+			+10 max mana and +1 max minions
+			8% increased melee speed and 12% increased movement speed
+			'''
+	}
+
+	DarkMask: {
+		DisplayName: Darkmatter Mask
+		Tooltip:
+			'''
+			8% increased summon damage
+			+5 max life and mana, and +2 max minions
+			'''
+		SetBonus:
+			'''
+
+			Summons an eldritch monolith to fight for you (The monolith does not take up minion slots)
+			Pressing the Special Ability hotkey will grant you the eldritch summon empowerment buff
+			This buff will cause all summons to deal 1.5x damage,
+			as well as causing your monolith to become stronger and shoot faster
+			This ability has a 40 second cool down";
+			'''
+	}
+
+	Caliginus: {
+		DisplayName: Caliginus
+		Tooltip: Summons a mini Erebus to fight with you
+	}
+
+	CavumNigrum: {
+		DisplayName: Cavum Nigrum
+		Tooltip:
+			'''
+			Throws out eldritch discs
+			Has a chance to create lingering images of the disc on enemy hits
+			'''
+	}
+
+	Crepus: {
+		DisplayName: Crepus
+		Tooltip:
+			'''
+			Shoots a spread of green and purple shade arrows
+			Green shade arrows will accelerate quickly
+			Purple arrows move slowly but deal rapid damage
+			'''
+	}
+
+	DarkMatter: {
+		DisplayName: Other-Worldy Essence
+		Tooltip: "'It pulses with an eldritch energy'"
+	}
+
+	ErebusGuitar: {
+		DisplayName: Eld-riff
+		Tooltip:
+			'''
+			'Blasting enemies with the power of eldritch music!'
+			Has 3 different attack modes that can be switched by right clicking
+			Mode 1 will shoot green sound pulses that bounce off of tiles
+			Mode 2 will fire circles of fast moving purple sound pulses
+			Mode 3 will rapidly fire eldritch notes
+			The current mode you are in will be displayed in the corner of the item
+			'''
+	}
+
+	Exitium: {
+		DisplayName: Exitium
+		Tooltip: Fires tentacles when enemies are nearby
+	}
+
+	Inanis: {
+		Tooltip:
+			'''
+			Turns bullets into Void Bolts
+			Has a 20% chance to fire out an eldritch blast
+			35% chance not to consume ammo
+			'''
+		DisplayName: Inanis
+	}
+
+	NightmareScale: {
+		DisplayName: Erebus Scale
+		Tooltip: "'It's slimey'"
+	}
+
+	Nihil: {
+		DisplayName: Nihil
+		Tooltip:
+			'''
+			Creates lingering abyss flames around your cursor
+			The abyss flames will slowly chase nearby enemies
+			'''
+	}
+
+	Noctis: {
+		DisplayName: Noctis
+		Tooltip: Fires a spread of eldritch knives
+	}
+
+	EldritchBlood: {
+		DisplayName: Mind Flayer Blood
+		Tooltip: Eldritch and slimey
+	}
+
+	EldritchGun: {
+		Tooltip:
+			'''
+			Fires out eldritch tentacles
+			Does not require ammo to use
+			'''
+		DisplayName: Death's Raze
+	}
+
+	EldritchScythe: {
+		DisplayName: Soul Harvester
+		Tooltip:
+			'''
+			Throws fast moving tentacle scythe blades
+			These scythe blades will create a circle of tentacles upon death
+			'''
+	}
+
+	EldritchTome: {
+		DisplayName: Yawning Abyss
+		Tooltip: Casts abyssal vortexes
+	}
+
+	FlayerBlade: {
+		DisplayName: Flayer's Lament
+		Tooltip: Creates piercing tentacles
+	}
+
+	FlayerBow: {
+		DisplayName: Life's Diminish
+		Tooltip: Converts all arrows into dark matter arrow bolts
+	}
+
+	FlayerStaff: {
+		Tooltip: Fires A whispering death bolt
+		DisplayName: Death's Whisper
+	}
+
+	SolibusOrba: {
+		DisplayName: Solibus Orba
+		Tooltip: Throws dark spears that chase down enemies
+	}
+
+	Umbra: {
+		DisplayName: Umbra
+		Tooltip: Casts eldritch blasts
+	}
+
+	AbysmalSickle: {
+		DisplayName: Abysmal Sickle
+		Tooltip: Fires a circle of abyssal scythes
+	}
+
+	AbysmalStaff: {
+		DisplayName: Abysmal Trident
+		Tooltip: Conjures abysmal trident bolts
+	}
+
+	EtherealBody: {
+		DisplayName: Occultist Chestmail
+		Tooltip:
+			'''
+			12% increased damage and 6% increased critical strike chance
+			+5 max life and mana
+			+2 max minions
+			'''
+	}
+
+	EtherealHood: {
+		DisplayName: Occultist Hood
+		Tooltip:
+			'''
+			8% increased damage
+			+5 max life and mana
+			+1 max minions
+			'''
+		SetBonus:
+			'''
+
+			Grants increased immune time after being hit
+			Grants the ability to dash
+			Enemies are much less likely to target you
+			'''
+	}
+
+	EtherealLegs: {
+		DisplayName: Occultist Leggings
+		Tooltip:
+			'''
+			6% increased damage and 15% increased movement speed
+			10% increased melee speed
+			+5 max life and mana
+			+1 max minions
+			'''
+	}
+
+	EtherealBow: {
+		DisplayName: Ethereal Bow
+		Tooltip: Has a 50% chance to shoot out Ethereal Bolts
+	}
+
+	EtherealDidgeridoo: {
+		DisplayName: Ethereal Didgeridoo
+		Tooltip: Conujures lingering ethereal notes that create ethereal tentacles upon death
+	}
+
+	EtherealSummon: {
+		DisplayName: Ethereal Staff
+		Tooltip: Summons ethereal wisps that shoots ethereal blasts at enemies
+	}
+
+	EtherealSword: {
+		DisplayName: Ethereal Buster
+		Tooltip: Fires ethereal fire blasts
+	}
+
+	EtherealTome: {
+		DisplayName: Ethereal Spell
+		Tooltip: Casts a spread of ethereal blasts
+	}
+
+	XenanisFlesh: {
+		DisplayName: Ethereal Flesh
+		Tooltip: "'It almost feels alive...'"
+	}
+
+	XenanisWings: {
+		DisplayName: Ethereal Wings
+		Tooltip: Allows flight and slow fall
+	}
+
+	FakeWhoopieCushion: {
+		DisplayName: Whoopie Cushion?
+		Tooltip:
+			'''
+			'May annoy others'
+			Legends say that it's farts can be harvested...
+			'''
+	}
+
+	DepthCrate: {
+		DisplayName: Depths Crate
+		Tooltip: Right click to open
+	}
+
+	HuskmireMaw: {
+		DisplayName: Huskmire Maw
+		Tooltip: ""
+	}
+
+	ShroomFish: {
+		DisplayName: Shroom Fish
+		Tooltip: "'Is it a fish or a squid?'"
+	}
+
+	SpectreFish: {
+		DisplayName: Spectre Fish
+		Tooltip: It seems to be staring at you constantly
+	}
+
+	BrokenIgnodiumSummon: {
+		DisplayName: Ancient Hell Relic
+		Tooltip:
+			'''
+			An ancient artifact of hell
+			Increases melee and ranged damage by 7%
+			+10 max life
+			'''
+	}
+
+	BrokenUltrumSummon: {
+		DisplayName: Ancient Nature Relic
+		Tooltip:
+			'''
+			An ancient artifact of nature
+			Increases magic and summon damage by 7%
+			+20 max mana and +1 max minions
+			'''
+	}
+
+	GuardianShield: {
+		DisplayName: Shield of the Deities
+		Tooltip:
+			'''
+			Grants immunity to most debuffs and knockback
+			Damage taken from lava is reduced and you can walk on fire blocks
+			Grants you the ability to dash
+			Disabling the visibility will disable the dash
+			'''
+	}
+
+	HellFlail: {
+		DisplayName: Hell's Fury
+		Tooltip: Creates a barrage of flame blasts
+	}
+
+	HellGun: {
+		Tooltip:
+			'''
+			Turns bullets into flaming blasts
+			Shoots a giant flame blast every 30 shots
+			The giant blast will deal double the weapon's damage
+			50% chance to not consume ammo
+			'''
+		DisplayName: Nether Blaster
+	}
+
+	HellJavelin: {
+		DisplayName: Igneous Impaler
+		Tooltip:
+			'''
+			Throws fast moving hell javelins
+			Explodes into lingering flames upon enemy hits
+			'''
+	}
+
+	HellScepter: {
+		DisplayName: Igneous Scepter
+		Tooltip:
+			'''
+			Summons a miniature ignodium to fight with you
+			Only one can be summoned at once
+			Does not take up any minion slots
+			'''
+	}
+
+	HellShard: {
+		DisplayName: Ignodium Essence Shard
+		Tooltip: '''"An ancient energy of hell resides within this fragment"'''
+	}
+
+	HellStaff: {
+		DisplayName: Purgatory Staff
+		Tooltip: Conjures spreads of flaming bolts
+	}
+
+	HellThrow: {
+		DisplayName: Hell Throw
+		Tooltip: Creates a damaging flame aura around the yoyo
+	}
+
+	HellTome: {
+		Tooltip: Shoots a molten glob that explodes into bolts when it hits enemies
+		DisplayName: Molten Purge
+	}
+
+	IgnodiumRelic: {
+		DisplayName: Ignodium Relic Shard
+		Tooltip: '''"Perhaps if combined with the other half, it's power can be restored..."'''
+	}
+
+	UltraFlail: {
+		DisplayName: Nature Power Flail
+		Tooltip: Has a chance to create lingering ultranium energy bolts upon striking an enemy
+	}
+
+	UltraniumBow: {
+		DisplayName: Ultranium Pulse Bow
+		Tooltip:
+			'''
+			Fires a spread of nature arrows
+			50% chance to not consume ammo
+			'''
+	}
+
+	UltraniumKunai: {
+		Tooltip: Throws homing Ultranium kunai blades
+		DisplayName: Ultranium Kunai
+	}
+
+	UltraniumScepter: {
+		DisplayName: Nature Scepter
+		Tooltip:
+			'''
+			Summons a miniature ultrum to fight with you
+			Only one can be summoned at once
+			Does not take up any minion slots
+			'''
+	}
+
+	UltraniumStaff: {
+		DisplayName: Ultranium Energy Scepter
+		Tooltip: Fires a barrage of Ultranium blasts
+	}
+
+	UltraniumSword: {
+		DisplayName: Ultranium Blade
+		Tooltip: Fires a spread of nature energy orbs
+	}
+
+	UltraTome: {
+		DisplayName: Ultranium Grimoire
+		Tooltip: Creates a circle of nature blasts that close in on the cursor
+	}
+
+	UltrumRelic: {
+		DisplayName: Ultrum Relic Shard
+		Tooltip: '''"Perhaps if combined with the other half, it's power can be restored..."'''
+	}
+
+	UltrumShard: {
+		DisplayName: Ultrum Essence Shard
+		Tooltip: '''"An ancient energy of nature resides within this fragment"'''
+	}
+
+	IceBody: {
+		DisplayName: Ice Walker's Chestplate
+		Tooltip: 5% increased damage
+	}
+
+	IceHead: {
+		DisplayName: Ice Walker's Helmet
+		Tooltip: 3% increased damage
+		SetBonus:
+			'''
+
+			Immunity to all ice related debuffs
+			3% increased damage, melee speed, and movement speed
+			'''
+	}
+
+	IceLegs: {
+		DisplayName: Ice Walker's Legs
+		Tooltip: 3% increased movement speed
+	}
+
+	GlacialFlail: {
+		DisplayName: Glacial Flail
+		Tooltip: The flail shoots icy bolts at nearby enemies
+	}
+
+	GlacialGun: {
+		Tooltip: Has a chance to shoot ice bolts
+		DisplayName: Glacial Pistol
+	}
+
+	GlacialWand: {
+		DisplayName: Glacial Wand
+		Tooltip: Casts a slow moving ice twister
+	}
+
+	IcePelt: {
+		DisplayName: Glacial Pelt
+		Tooltip: Its really soft and cold
+	}
+
+	FeatherTome: {
+		DisplayName: Featherfall
+		Tooltip: Casts magical feathers down from the sky
+	}
+
+	LunaticFireStaff: {
+		DisplayName: Solar Flare Staff
+		Tooltip: Shoots solar flare bolts
+	}
+
+	LunaticIceStaff: {
+		DisplayName: Ice Mist Staff
+		Tooltip: Shoots a giant ice ball that explodes into a circle of ice shards
+	}
+
+	LunaticStarStaff: {
+		DisplayName: Ancient Light Staff
+		Tooltip: Casts a fast moving ancient light
+	}
+
+	MagmaStorm: {
+		Tooltip: Shoots magma bolts that burn enemies
+		DisplayName: Magma Storm
+	}
+
+	NanotechStaff: {
+		Tooltip:
+			'''
+			Conjures a small lingering nanite
+			Has a chance to shoot a bigger nanite that will not stop moving
+			'''
+		DisplayName: Nanotech Staff
+	}
+
+	ShadowRod: {
+		Tooltip: Conjures a short lived shadow bolt that pierces through enemies
+		DisplayName: Shadow Rod
+	}
+
+	Drip: {
+		DisplayName: The Dripper
+		Tooltip: Shoots Water bolts in random directions
+	}
+
+	DukeYoyo: {
+		DisplayName: The Duke's Throw
+		Tooltip: Fires homing typhoons in random directions
+	}
+
+	Hallow: {
+		DisplayName: Chaos Blade
+		Tooltip: Shoots out a chaos star
+	}
+
+	Hallow2: {
+		DisplayName: True Chaos Blade
+		Tooltip:
+			'''
+			Fires a Chaos star
+			Has a 20% chance to fire out a large chaos blast
+			The chaos blast will home and deal double the swords base damage
+			'''
+	}
+
+	HellstoneYoyo: {
+		DisplayName: Fiery Throw
+		Tooltip: Shoots out fireballs
+	}
+
+	MeteorThrow: {
+		DisplayName: The Asteroid
+		Tooltip: Set enemies ablaze on contact
+	}
+
+	Necrosis: {
+		DisplayName: Necrosis
+		Tooltip: Fires Skulls upon swing
+	}
+
+	RetiYoyo: {
+		DisplayName: Retina Throw
+		Tooltip: Fires Lasers at nearby enemies
+	}
+
+	SolThrow: {
+		DisplayName: Sol Throw
+		Tooltip: Fires solar laser beams at nearby enemies
+	}
+
+	AuroraBody: {
+		DisplayName: Aurora Crystal Breastplate
+		Tooltip: 4% increased summon damage and +1 max minions
+	}
+
+	AuroraHead: {
+		DisplayName: Aurora Crystal Mask
+		Tooltip: 5% increased summon damage
+		SetBonus:
+			'''
+
+			+2 max minions
+			Stars will fall from the sky when you are hit
+			'''
+	}
+
+	AuroraLegs: {
+		DisplayName: Aurora Crystal Greaves
+		Tooltip: 2% increased movement speed
+	}
+
+	ShadowflameBody: {
+		DisplayName: Shadowflame Chestmail
+		Tooltip: 5% increased summon damage and +1 max minions
+	}
+
+	ShadowflameHood: {
+		DisplayName: Shadowflame Cowl
+		Tooltip: 5% increased summon damage and +1 max minions
+		SetBonus:
+			'''
+
+			Your minions will inflict shadow flame on enemies
+			'''
+	}
+
+	ShadowflameLegs: {
+		DisplayName: Shadowflame Pants
+		Tooltip: 3% increased summon damage and +1 max minions
+	}
+
+	AuroraStaff: {
+		DisplayName: Aurora Crystal Staff
+		Tooltip:
+			'''
+			Summons a spacial star to float above you
+			The star will shoot blasts at the cursor when enemies are near
+			'''
+	}
+
+	AuroraBar: {
+		DisplayName: Aurora Crystal Bar
+		Tooltip: Its glow is almost blinding to look at
+	}
+
+	ShadowFlame: {
+		DisplayName: Shadowflame
+		Tooltip: ""
+	}
+
+	ShadowflameStaff: {
+		DisplayName: Shadowflame Staff
+		Tooltip: Summons a Shadowflame Apparition to fight for you
+	}
+
+	StaffOfCthulhu: {
+		DisplayName: Staff of Cthulhu
+		Tooltip: Summons a Servant of Cthulhu to fight for you
+	}
+
+	MushroomBody: {
+		DisplayName: Glowing Mushroom Chestplate
+		Tooltip: ""
+	}
+
+	MushroomHead: {
+		DisplayName: Glowing Mushroom Helmet
+		Tooltip: ""
+		SetBonus:
+			'''
+
+			You constantly emit a faint blue glow
+			You have a chance to spawn lingering mushroom spores around you when hit
+			'''
+	}
+
+	MushroomLegs: {
+		DisplayName: Glowing Mushroom Legs
+		Tooltip: ""
+	}
+
+	ShroomBlade: {
+		DisplayName: Glowing Mushroom Sword
+		Tooltip: Has a chance to fire out a mushroom bolt
+	}
+
+	ShroomBow: {
+		DisplayName: Glowing Mushroom Bow
+		Tooltip: Has a 50% chance to convert arrows into fast moving fungus arrows
+	}
+
+	ShroomScepter: {
+		DisplayName: Fungal Bulb Scepter
+		Tooltip:
+			'''
+			Summons a stationary fungus bulb that shoots spores at enemies
+			Only one bulb can be active at once
+			'''
+	}
+
+	ShroomStaff: {
+		DisplayName: Fungus Staff
+		Tooltip: Fires mushroom spores
+	}
+
+	OceanScale: {
+		DisplayName: Zephyr Chromatophores
+		Tooltip: The skin of the zephyr squid
+	}
+
+	ZephyrBlade: {
+		Tooltip:
+			'''
+			Fires zephyr bubbles on swing
+			Has a chance to shoot an ink bubble that inflicts slowness on enemies
+			'''
+		DisplayName: Zephyr Blade
+	}
+
+	ZephyrKnife: {
+		DisplayName: Zephyr Knife
+		Tooltip:
+			'''
+			Throws out short lived zephyr knives
+			Every 20 throws will throw a water knife
+			The water knife will leave behind lingering bubbles as it flies
+			'''
+	}
+
+	ZephyrScepter: {
+		DisplayName: Zephyr Scepter
+		Tooltip: Summons a baby zephyr squid to fight with you
+	}
+
+	ZephyrTrident: {
+		DisplayName: Zephyr Trident
+		Tooltip:
+			'''
+			A magical spear that works like a normal melee spear
+			Hitting an enemy with the spear itself restores small amounts of mana
+			'''
+	}
+
+	Beeswax: {
+		DisplayName: Beeswax
+		Tooltip: Summons a pet dragon hornet
+	}
+
+	BloodVial: {
+		DisplayName: Vial of Blood
+		Tooltip: Summons a pet bat
+	}
+
+	Brain: {
+		DisplayName: Brain
+		Tooltip: Summons a pet zombie
+	}
+
+	Cabbage: {
+		DisplayName: Mysterious Cabbage
+		Tooltip:
+			'''
+			Summons a strange guinea pig
+			'Makes a great first companion!'
+			'''
+	}
+
+	PetriDish: {
+		DisplayName: Petri Dish
+		Tooltip: Summons a pet slime
+	}
+
+	WolfFang: {
+		DisplayName: Wolf Fang
+		Tooltip: Summons a pet werewolf
+	}
+
+	CosmicIdol: {
+		DisplayName: Cosmic Insignia
+		Tooltip: Summons a pet cosmic djinn
+	}
+
+	DemonicSingularity: {
+		DisplayName: Demonic Singularity
+		Tooltip:
+			'''
+			Summons a pet cacodemon
+			~Developer Item~
+			'''
+	}
+
+	DreadBreadItem: {
+		DisplayName: Suspicious Looking Bread
+		Tooltip: Summons... Dread?
+	}
+
+	Necromicon: {
+		DisplayName: Necromicon
+		Tooltip:
+			'''
+			Summons a horrifying demon
+			~Dedicated Item~
+			'''
+	}
+
+	WormPet: {
+		DisplayName: Mysterious Scale
+		Tooltip: Summons a long lost serpent
+	}
+
+	EldritchPumpkibomb: {
+		DisplayName: Eldritch Pumpki-Bomb
+		Tooltip:
+			'''
+			Throws an eldritch pumpkin bomb that explodes into lingering fire
+			The pumpkin will also explode into tentacles when it hits an enemy
+			'''
+	}
+
+	EldritchPumpkinBlade: {
+		DisplayName: Eldritch Pumpkin Buster
+		Tooltip:
+			'''
+			Fires flaming eldritch seeds
+			Has a chance to shoot out a spread of eldritch bolts that deal twice the sword's damage
+			'''
+	}
+
+	EldritchPumpkinScepter: {
+		DisplayName: Eldritch Pumpkin Scepter
+		Tooltip:
+			'''
+			Summons a stationary eldritch pumpkin that shoots flaming seeds at enemies
+			Only one pumpkin sentry can be active at once
+			'''
+	}
+
+	EldritchPumpkinStaff: {
+		DisplayName: Eldritch Pumpkin Staff
+		Tooltip: Casts a spread of pumpkin fire
+	}
+
+	Pumpkibomb: {
+		DisplayName: Pumpki-Bomb
+		Tooltip: A throwable, explosive pumpkin
+	}
+
+	PumpkinBlade: {
+		DisplayName: Pumpkin Buster
+		Tooltip: Fires pumpkin seeds on swing
+	}
+
+	PumpkinStaff: {
+		DisplayName: Pumpkin Staff
+		Tooltip: Casts a small amount of short lived pumpkin seeds
+	}
+
+	PumpkinSummon: {
+		DisplayName: Pumpkin Scepter
+		Tooltip: Summons a small pumpkin to fight with you
+	}
+
+	CrimsonJavelin: {
+		DisplayName: Crimtane Pike
+		Tooltip: ""
+	}
+
+	DemoniteJavelin: {
+		DisplayName: Demonite Javelin
+		Tooltip: ""
+	}
+
+	HallowedJavelin: {
+		DisplayName: Holy Javelin
+		Tooltip: ""
+	}
+
+	InfernoJavelin: {
+		DisplayName: Lance of Inferno
+		Tooltip: ""
+	}
+
+	Midnight: {
+		Tooltip: Turns normal bullets into midnight blasts
+		DisplayName: Midnight
+	}
+
+	NatureJavelin: {
+		DisplayName: Jungle's Wrath
+		Tooltip: ""
+	}
+
+	NightsJavelin: {
+		DisplayName: Night's Javelin
+		Tooltip: ""
+	}
+
+	SolSpear: {
+		Tooltip:
+			'''
+			Throws a fast moving sol spear
+			The spear will explode into short lived sparks when it touches an enemy or tile
+			'''
+		DisplayName: Spear of the Sol
+	}
+
+	SpazBomb: {
+		DisplayName: Spazma-Bomb
+		Tooltip: Explodes on death, and inflicts the "Cursed Inferno" debuff
+	}
+
+	WaterJavelin: {
+		DisplayName: Ancient Javelin
+		Tooltip: ""
+	}
+
+	TenebrisBody: {
+		DisplayName: Tenebris Chestmail
+		Tooltip: 3% increased damage
+	}
+
+	TenebrisHelm: {
+		DisplayName: Tenebris Helmet
+		Tooltip: 2% increased melee critical strike chance
+		SetBonus:
+			'''
+
+			6% increased melee damage and speed
+			'''
+	}
+
+	TenebrisHood: {
+		DisplayName: Tenebris Hood
+		Tooltip: 2% increased magic critical strike chance
+		SetBonus:
+			'''
+
+			6% increased magic damage
+			'''
+	}
+
+	TenebrisLegs: {
+		DisplayName: Tenebris Greaves
+		Tooltip:
+			'''
+			2% increased damage
+			5% increased movement speed
+			'''
+	}
+
+	TenebrisMask: {
+		DisplayName: Tenebris Mask
+		Tooltip: 2% increased summon damage
+		SetBonus:
+			'''
+
+			+2 max minions and 4% increased summon damage
+			'''
+	}
+
+	TenebrisVisor: {
+		DisplayName: Tenebris Visor
+		Tooltip: 2% increased ranged critical strike
+		SetBonus:
+			'''
+
+			6% increased ranged damage
+			'''
+	}
+
+	DepthsBow: {
+		DisplayName: Cxaxukluth
+		Tooltip:
+			'''
+			Has an uncommon chance to create an eldritch tentacle
+			The eldritch tentacle will deal twice the bow's damage
+			'''
+	}
+
+	DepthsFlail: {
+		DisplayName: Azathoth
+		Tooltip: ""
+	}
+
+	DepthsStaff: {
+		DisplayName: Ny-Rakath
+		Tooltip: Summons a shade demon that shoots demon scythes at nearby enemies
+	}
+
+	DepthsTome: {
+		DisplayName: Nyarlethotep
+		Tooltip: "'Unleash the power of eldritch tentacle magic'"
+	}
+
+	NightmareBar: {
+		DisplayName: Tenebris Alloy
+		Tooltip: "'A dark metal from a nightmarish world'"
+	}
+
+	ShadeWispStaff: {
+		DisplayName: Shadow Wisp Staff
+		Tooltip: Summons a Shade Wisp to fight with you
+	}
+
+	ShadowBlade: {
+		DisplayName: Tenebris Sickle
+		Tooltip: ""
+	}
+
+	ShadowBow: {
+		DisplayName: Shadow Bow
+		Tooltip: ""
+	}
+
+	ShadowEssence: {
+		DisplayName: Shadow Mana
+		Tooltip: "'The Essence of shadow magic'"
+	}
+
+	ShadowStaff: {
+		Tooltip: Casts a shadow bolt
+		DisplayName: Shadow Staff
+	}
+
+	AbyssDragonHead: {
+		DisplayName: Abyssal Dragon Mask
+		Tooltip:
+			'''
+			10% increased melee speed and damage
+			12% increased melee critical strike chance
+			'''
+		SetBonus:
+			'''
+
+			20% increased melee and movement speed
+			'''
+	}
+
+	AbyssHood: {
+		DisplayName: Abyss Warden Hood
+		Tooltip: 5% increased summon damage
+		SetBonus:
+			'''
+
+			While you are below 75%, 50%, and 25% life, you will gain an extra minion slot
+			You will also gain a 15% increase to your summon damage when you are below 50% life
+			The minion slot bonuses will stack with each other
+			'''
+	}
+
+	AbyssSpectralHead: {
+		DisplayName: Spectral Abyss Hood
+		Tooltip:
+			'''
+			Increases maximum mana by 80
+			10% increased magic damage and critical strike chance
+			'''
+		SetBonus:
+			'''
+
+			20% reduced mana usage
+			'''
+	}
+
+	AbyssTitanHead: {
+		DisplayName: Abyss Titan Helmet
+		Tooltip: 10% increased ranged damage and critical strike chance
+		SetBonus:
+			'''
+
+			25% chance to not consume ammo
+			'''
+	}
+
+	AbyssWardenBody: {
+		DisplayName: Abyssal Chestmail
+		Tooltip: 10% increased critical strike chance and +1 max minions
+	}
+
+	AbyssWardenLegs: {
+		DisplayName: Abyssal Greaves
+		Tooltip: 10% increased movement speed
+	}
+
+	GhostBlade: {
+		DisplayName: Phantom's Razor
+		Tooltip: Throws out phantom razors
+	}
+
+	GhostBow: {
+		DisplayName: Phantom Shot
+		Tooltip: Shoots a spread of phantom arrows that can phase through walls
+	}
+
+	GhostScythe: {
+		DisplayName: Phantom Slicer
+		Tooltip: Throws ectoplasmic scythes images
+	}
+
+	StellarBody: {
+		DisplayName: Stellar Stoneplate
+		Tooltip:
+			'''
+			12% increased damage and 6% increased critical strike chance
+			+5 max life and mana
+			+2 max minions
+			'''
+	}
+
+	StellarHead: {
+		DisplayName: Stellar Stone Mask
+		Tooltip:
+			'''
+			5% increased damage
+			+1 max minions
+			'''
+		SetBonus:
+			'''
+
+			You have a chance to unleash a circle of comets when you are hit
+			'''
+	}
+
+	StellarLegs: {
+		DisplayName: Stellar Stone Leggings
+		Tooltip:
+			'''
+			6% increased damage and 15% increased movement speed
+			10% increased melee speed
+			+5 max life and mana
+			+1 max minions
+			'''
+	}
+
+	StellarBar: {
+		DisplayName: Stellar Bar
+		Tooltip: It emnates cold, spacial energy
+	}
+
+	StellarBlade: {
+		DisplayName: Stellar Blade
+		Tooltip: Shoots Stellar Stars
+	}
+
+	StellarDisc: {
+		Tooltip: Throws Returning Stellar Discs
+		DisplayName: Stellar Disc
+	}
+
+	StellarDust: {
+		DisplayName: Stellar Dust
+		Tooltip: "'It Sparkles like the stars in the night'"
+	}
+
+	StellarFracture: {
+		DisplayName: Stellar Fracture
+		Tooltip: Fires a spread of stellar beams
+	}
+
+	StellarHammer: {
+		Tooltip: Throws Stellar Hammers that fall after a while
+		DisplayName: Stellar Hammer
+	}
+
+	StellarJavelin: {
+		DisplayName: Stellar Javelin
+		Tooltip: ""
+	}
+
+	StellarStaff: {
+		DisplayName: Stellar Wand
+		Tooltip: Fires a Stellar swirl bolt
+	}
+
+	StellarTome: {
+		DisplayName: Stellar Tome
+		Tooltip: Casts Stellar Stars from the sky
+	}
+
+	AldinBody: {
+		DisplayName: Cosmic Mage's Body
+		Tooltip: ""
+	}
+
+	AldinHood: {
+		DisplayName: Cosmic Mage's Hood
+		Tooltip: ""
+	}
+
+	AldinRobe: {
+		DisplayName: Cosmic Mage's Robe
+		Tooltip: ""
+	}
+
+	DreadMask: {
+		DisplayName: Dread Mask
+		Tooltip: ""
+	}
+
+	ErebusMask: {
+		DisplayName: Erebus Mask
+		Tooltip: ""
+	}
+
+	IceDragonMask: {
+		DisplayName: Glacieron Mask
+		Tooltip: ""
+	}
+
+	IgnodiumMask: {
+		DisplayName: Ignodium Mask
+		Tooltip: ""
+	}
+
+	MindFlayerMask: {
+		DisplayName: Mind Flayer Mask
+		Tooltip: ""
+	}
+
+	SquidMask: {
+		DisplayName: Zephyr Squid Mask
+		Tooltip: ""
+	}
+
+	UltrumMask: {
+		DisplayName: Ultrum Mask
+		Tooltip: ""
+	}
+
+	XenanisMask: {
+		DisplayName: Xenanis Mask
+		Tooltip: ""
+	}
+
+	FutabaBody: {
+		DisplayName: Futaba Body
+		Tooltip: ~Developer item~
+	}
+
+	FutabaHead: {
+		DisplayName: Futaba Head
+		Tooltip: ~Developer item~
+	}
+
+	FutabaLegs: {
+		DisplayName: Futaba Legs
+		Tooltip: ~Developer item~
+	}
+
+	LuxBody: {
+		DisplayName: Lux's Body
+		Tooltip: ~Developer item~
+	}
+
+	LuxHead: {
+		DisplayName: Lux's Head
+		Tooltip: ~Developer item~
+	}
+
+	LuxLegs: {
+		DisplayName: Lux's Legs
+		Tooltip: ~Developer item~
+	}
+
+	LuxWings: {
+		DisplayName: Lux's Wings
+		Tooltip:
+			'''
+			Allows flight and slow fall
+			~Developer item~
+			'''
+	}
+
+	PoisonBody: {
+		DisplayName: Pois1x's Chestmail
+		Tooltip: ~Developer item~
+	}
+
+	PoisonHead: {
+		DisplayName: Pois1x's Hood
+		Tooltip: ~Developer item~
+	}
+
+	PoisonLegs: {
+		DisplayName: Pois1x's Leggings
+		Tooltip: ~Developer item~
+	}
+
+	RockMask: {
+		DisplayName: RockWizard5's Mask
+		Tooltip: ~Developer item~
+	}
+
+	DepthSnailItem: {
+		DisplayName: Depth Snail
+		Tooltip: "'It's glow is almost hypnotic'"
+	}
+
+	SpectreFishItem: {
+		DisplayName: Spectre Fish
+		Tooltip: "'It seems to be staring into nothing'"
+	}
+
+	TempleShroom: {
+		DisplayName: Temple Shroom
+		Tooltip:
+			'''
+			A strange mushroom that seems to have uprooted itself and begun to walk
+			Very susceptible to heat
+			'''
+	}
+
+	ExistentialDread: {
+		DisplayName: Existential Dread
+		Tooltip: Looks hungry, violent, and dangerous. Probably could eat somebody if left alone. Cool.
+	}
+
+	Moorhsum: {
+		DisplayName: Moorhsum
+		Tooltip:
+			'''
+			A peculiar mushroom native to the underground.
+			Seems useless, only a dead man would care to look at it
+			'''
+	}
+
+	RealityBendingShroom: {
+		DisplayName: Reality-Bending Shroom
+		Tooltip:
+			'''
+			Even touching it seems to distort you
+			Only someone true enough is able to eat this and survive
+			Who is worthy enough has yet to be found, but the truth will be told soon
+			'''
+	}
+
+	SolarShroom: {
+		DisplayName: Piltzintecuhtli
+		Tooltip: The god of the sun that the lizhard's worshiped was a mushroom all along. how dreadful.
+	}
+
+	SoulCrushingDisappointment: {
+		DisplayName: Soul-Crushing Dissapointment
+		Tooltip:
+			'''
+			Oddly resembles the skeletal structure of an animal.
+			Was it always like this, or could have it been alive at some point?
+			'''
+	}
+
+	StrangeUndergrowth: {
+		DisplayName: Strange Undergrowth
+		Tooltip:
+			'''
+			Apperantly an extremely difficult mushroom to grow.
+			Only those with enough perseverance and time could be able to grow them in mass.
+			Makes sense the only guy who has a supply of them is dead.
+			'''
+	}
+
+	TheFart: {
+		DisplayName: The Fart
+		Tooltip:
+			'''
+			A mystical fart cloud that is constantly taking the shape of a mushroom.
+			Its smell is legendary, whether that is a good thing or not is up to you.
+			'''
+	}
+
+	TruffleShroom: {
+		DisplayName: Truffle
+		Tooltip:
+			'''
+			He is probably very upset, and would like to go back to his old body immediately.
+			Its surprising that fungi can achieve this level of sentience.
+			'''
+	}
+
+	GlowShroomItem: {
+		DisplayName: Glow Shroom
+		Tooltip:
+			'''
+			A strange eldritch mushroom from an even stranger land
+			Might have strange effects if eaten
+			'''
+	}
+
+	AuroraOreItem: {
+		DisplayName: Aurora Crystal Shard
+		Tooltip: It glows with a neon energy
+	}
+
+	AbyssalAnglerBanner: {
+		DisplayName: Abyssal Angler Banner
+		Tooltip: Nearby players get a bonus against: Abyssal Angler
+	}
+
+	AbyssEelBanner: {
+		DisplayName: Abyssal Eel Banner
+		Tooltip: Nearby players get a bonus against: Abyssal Eel
+	}
+
+	AbyssJellyBanner: {
+		DisplayName: Abyss Jelly Banner
+		Tooltip: Nearby players get a bonus against: Abyssal Jelly
+	}
+
+	AbyssSharkBanner: {
+		DisplayName: Abyssal Goblin Shark Banner
+		Tooltip: Nearby players get a bonus against: Abyssal Goblin Shark
+	}
+
+	DepthCrawlerBanner: {
+		DisplayName: Depth Crawler Banner
+		Tooltip: Nearby players get a bonus against: Depth Crawler
+	}
+
+	DepthMongerBanner: {
+		DisplayName: Depth Monger Banner
+		Tooltip: Nearby players get a bonus against: Depth Monger
+	}
+
+	DepthSlimeBanner: {
+		DisplayName: Tenebris Mass Banner
+		Tooltip: Nearby players get a bonus against: Tenebris Mass
+	}
+
+	DepthsMimicBanner: {
+		DisplayName: Depths Mimic Banner
+		Tooltip: Nearby players get a bonus against: Depths Mimic
+	}
+
+	ShadeBatBanner: {
+		DisplayName: Shade Bat Banner
+		Tooltip: Nearby players get a bonus against: Depth Bat
+	}
+
+	ShroomMonsterBanner: {
+		DisplayName: Shroom Monster Banner
+		Tooltip: Nearby players get a bonus against: Shroom Monster
+	}
+
+	DreadApparitionBanner: {
+		DisplayName: Dread Apparition Banner
+		Tooltip: Nearby players get a bonus against: Dread Apparition
+	}
+
+	DreadChaserBanner: {
+		DisplayName: Dread Chaser Banner
+		Tooltip: Nearby players get a bonus against: Dread Chaser
+	}
+
+	OrcaBanner: {
+		DisplayName: Orca Banner
+		Tooltip: Nearby players get a bonus against: Orca
+	}
+
+	StellarChaserBanner: {
+		DisplayName: Stellar Chaser Banner
+		Tooltip: Nearby players get a bonus against: Stellar Chaser
+	}
+
+	StellarSlimeBanner: {
+		DisplayName: Stellar Slime Banner
+		Tooltip: Nearby players get a bonus against: Stellar Slime
+	}
+
+	DarkDemonBanner: {
+		DisplayName: Dark Demon Banner
+		Tooltip: Nearby players get a bonus against: Dark Demon
+	}
+
+	EldritchCasterBanner: {
+		DisplayName: Eldritch Caster Banner
+		Tooltip: Nearby players get a bonus against: Eldritch Caster
+	}
+
+	ShadeGhoulBanner: {
+		DisplayName: Shade Ghoul Banner
+		Tooltip: Nearby players get a bonus against: Shade Ghoul
+	}
+
+	ShadowBatBanner: {
+		DisplayName: Shadow Bat Banner
+		Tooltip: Nearby players get a bonus against: Shadow Bat
+	}
+
+	TenebrisSlimeBanner: {
+		DisplayName: Tenebris Slime Banner
+		Tooltip: Nearby players get a bonus against: Tenebris Slime
+	}
+
+	AbyssalCultistBanner: {
+		DisplayName: Abyssal Cultist Banner
+		Tooltip: Nearby players get a bonus against: Abyssal Cultist
+	}
+
+	AbyssalWraithBanner: {
+		DisplayName: Abyssal Wraith Banner
+		Tooltip: Nearby players get a bonus against: Abyssal Wraith
+	}
+
+	AbyssBruteBanner: {
+		DisplayName: Abyssal Brute Banner
+		Tooltip: Nearby players get a bonus against: Abyssal Brute
+	}
+
+	FlayerWraithBanner: {
+		DisplayName: Flayer Wraith Banner
+		Tooltip: Nearby players get a bonus against: Flayer Wraith
+	}
+
+	MotherPhantomBanner: {
+		DisplayName: Mother Phantom Banner
+		Tooltip: Nearby players get a bonus against: Mother Phantom
+	}
+
+	PhantomBanner: {
+		DisplayName: Phantom Banner
+		Tooltip: Nearby players get a bonus against: Phantom
+	}
+
+	Scp2521Banner: {
+		DisplayName: Abyss Strider Banner
+		Tooltip: Nearby players get a bonus against: Abyss Strider
+	}
+
+	ShadeMassBanner: {
+		DisplayName: Shade Mass Banner
+		Tooltip: Nearby players get a bonus against: Shade Mass
+	}
+
+	ShadeSpiritBanner: {
+		DisplayName: Shade Spirit Banner
+		Tooltip: Nearby players get a bonus against: Shade Spirit
+	}
+
+	DepthSnailCageItem: {
+		DisplayName: Depth Snail Cage
+		Tooltip: ""
+	}
+
+	ShadowBedItem: {
+		DisplayName: Eldritch Bed
+		Tooltip: ""
+	}
+
+	ShadowBookcaseItem: {
+		DisplayName: Eldritch Bookcase
+		Tooltip: ""
+	}
+
+	ShadowChairItem: {
+		DisplayName: Eldritch Chair
+		Tooltip: ""
+	}
+
+	ShadowChestItem: {
+		DisplayName: Eldritch Chest
+		Tooltip: ""
+	}
+
+	ShadowClockItem: {
+		DisplayName: Eldritch Clock
+		Tooltip: ""
+	}
+
+	ShadowDoorItem: {
+		DisplayName: Eldritch Door
+		Tooltip: ""
+	}
+
+	ShadowDresserItem: {
+		DisplayName: Eldritch Dresser
+		Tooltip: ""
+	}
+
+	ShadowLampItem: {
+		DisplayName: Eldritch Lamp
+		Tooltip: ""
+	}
+
+	ShadowLanternItem: {
+		DisplayName: Eldritch Lantern
+		Tooltip: ""
+	}
+
+	ShadowPlatformItem: {
+		DisplayName: Eldritch Wood Platform
+		Tooltip: ""
+	}
+
+	ShadowTableItem: {
+		DisplayName: Eldritch Table
+		Tooltip: ""
+	}
+
+	IgnodiumShrineItem: {
+		DisplayName: Ignodium Shrine
+		Tooltip: ""
+	}
+
+	ShrineChestItem: {
+		DisplayName: Guardian Chest
+		Tooltip: ""
+	}
+
+	UltrumShrineItem: {
+		DisplayName: Ultrum Shrine
+		Tooltip: ""
+	}
+
+	AldinMusicBox: {
+		DisplayName: Music Box (Aldin)
+		Tooltip: ""
+	}
+
+	DepthMusicBox: {
+		DisplayName: Music Box (Dark Depths)
+		Tooltip: ""
+	}
+
+	DreadMusicBox: {
+		DisplayName: Music Box (Dread)
+		Tooltip: ""
+	}
+
+	ErebusMusicBox: {
+		DisplayName: Music Box (Erebus)
+		Tooltip: ""
+	}
+
+	EtherealMusicBox: {
+		DisplayName: Music Box (Xenanis)
+		Tooltip: ""
+	}
+
+	FlayerMusicBox: {
+		DisplayName: Music Box (Mindflayer)
+		Tooltip: ""
+	}
+
+	GuardianPhase1Box: {
+		DisplayName: Music Box (Guardians Phase 1)
+		Tooltip: ""
+	}
+
+	GuardianPhase2Box: {
+		DisplayName: Music Box (Guardians Phase 2)
+		Tooltip: ""
+	}
+
+	IceMusicBox: {
+		DisplayName: Music Box (Glacieron)
+		Tooltip: ""
+	}
+
+	ShadowEventBox: {
+		DisplayName: Music Box (Abyssmal Armageddon Wave 1)
+		Tooltip: ""
+	}
+
+	ShadowEventBox2: {
+		DisplayName: Music Box (Abyssal Armageddon Wave 2)
+		Tooltip: ""
+	}
+
+	ShadowMusicBox: {
+		DisplayName: Music Box (Shadow Biome)
+		Tooltip: ""
+	}
+
+	TrueDreadBox: {
+		DisplayName: Music Box (Absolute Dread)
+		Tooltip: ""
+	}
+
+	ZephyrMusicBox: {
+		DisplayName: Music Box (Zephyr Squid)
+		Tooltip: ""
+	}
+
+	AbyssRockItem: {
+		DisplayName: Abyss Chunk
+		Tooltip: It feels rather gooey
+	}
+
+	DarkStoneItem: {
+		DisplayName: Dark Stone
+		Tooltip:
+			'''
+			'It is as dark as the night'
+			Can grow various flora and glowshrooms
+			'''
+	}
+
+	DepthGlowstoneItem: {
+		DisplayName: Depth Glowstone
+		Tooltip: Its glow is suprisingly bright
+	}
+
+	EldritchShingleItem: {
+		DisplayName: Eldritch Shingle
+		Tooltip: ""
+	}
+
+	ShadowWood: {
+		DisplayName: Eldritch Wood
+		Tooltip: ""
+	}
+
+	ShadowWoodWallItem: {
+		DisplayName: Eldritch Wood Wall
+		Tooltip: ""
+	}
+
+	PurpleShadowGrassItem: {
+		DisplayName: Glowshroom Grass
+		Tooltip: Will grow various glowshroom plants and vines
+	}
+
+	ShadowGrassItem: {
+		DisplayName: Eldritch Moss
+		Tooltip: will grow various shadow floras
+	}
+
+	ShadowOre: {
+		DisplayName: Tenebris Ore
+		Tooltip: "'Pulses with abyssal energy'"
+	}
+
+	ShadowStone: {
+		DisplayName: Shadow Stone
+		Tooltip: ""
+	}
+
+	IgnodiumRockItem: {
+		DisplayName: Ignodium Rock
+		Tooltip: ""
+	}
+
+	UltrumRockItem: {
+		DisplayName: Ultrum Rock
+		Tooltip: ""
+	}
+
+	AldinTrophyItem: {
+		DisplayName: Aldin Trophy
+		Tooltip: ""
+	}
+
+	DreadTrophyItem: {
+		DisplayName: Dread Trophy
+		Tooltip: ""
+	}
+
+	ErebusTrophyItem: {
+		DisplayName: Erebus Trophy
+		Tooltip: ""
+	}
+
+	FlayerTrophyItem: {
+		DisplayName: Mind Flayer Trophy
+		Tooltip: ""
+	}
+
+	IceDragonTrophyItem: {
+		DisplayName: Glacieron Trophy
+		Tooltip: ""
+	}
+
+	IgnodiumTrophyItem: {
+		DisplayName: Ignodium Trophy
+		Tooltip: ""
+	}
+
+	SquidTrophyItem: {
+		DisplayName: Zephyr Squid Trophy
+		Tooltip: ""
+	}
+
+	UltrumTrophyItem: {
+		DisplayName: Ultrum Trophy
+		Tooltip: ""
+	}
+
+	XenanisTrophyItem: {
+		DisplayName: Xenanis Trophy
+		Tooltip: ""
+	}
+
+	SanctusStella: {
+		DisplayName: Sanctus Stella
+		Tooltip: ""
+	}
+}
+
+NPCs: {
+	Aldin.DisplayName: ???
+
+	DreadBoss: {
+		DisplayName: Dread
+		SpawnInfo: Use a [i:Ultranium/DreadBeacon] anywhere during the night
+	}
+
+	DreadBossP2.DisplayName: Dread
+	DreadHook.DisplayName: Dread Hook
+	DreadOrbiter.DisplayName: Dread Orbiter
+	DepthSnail.DisplayName: Tenebris Snail
+	SpectreFish.DisplayName: Spectre Fish
+	TempleShroomCritter.DisplayName: Temple Shroom
+	AbyssalAngler.DisplayName: Abyssal Angler
+	AbyssEel.DisplayName: Abyssal Eel
+	AbyssJelly.DisplayName: Abyssal Jelly
+	AbyssShark.DisplayName: Abyssal Goblin Shark
+	DepthCrawler.DisplayName: Depth Crawler
+	DepthMonger.DisplayName: Depth Monger
+	DepthSlime.DisplayName: Tenebris Mass
+	DepthsMimic.DisplayName: Depths Mimic
+	ShadeBat.DisplayName: Shade Bat
+	ShroomMonster.DisplayName: Shroom Monster
+	DreadApparition.DisplayName: Dread Apparition
+	DreadChaser.DisplayName: Dread Chaser
+	Orca.DisplayName: Orca
+	DarkDemon.DisplayName: Dark Demon
+	EldritchCaster.DisplayName: Eldritch Caster
+	ShadeGhoul.DisplayName: Shade Ghoul
+	ShadowBat.DisplayName: Shadow Bat
+	TenebrisSlime.DisplayName: Tenebris Slime
+	StellarChaser.DisplayName: Stellar Chaser
+	StellarSlime.DisplayName: Stellar Slime
+
+	Xenanis: {
+		DisplayName: Xenanis
+		SpawnInfo: Use an [i:Ultranium/EtherealLantern] anywhere at night
+	}
+
+	XenanisClone1.DisplayName: Xenanis Apparition
+	XenanisClone2.DisplayName: Xenanis Apparition
+
+	IceDragon: {
+		DisplayName: Glacieron
+		SpawnInfo: Use [i:Ultranium/IceFood] in the tundra.
+	}
+
+	Ignodium: {
+		DisplayName: Ignodium
+		SpawnInfo: Use a [i:Ultranium/NetherBeacon] in the underworld
+	}
+
+	ZephyrSquid: {
+		DisplayName: Zephyr Squid
+		SpawnInfo: Fish in the ocean while using [i:Ultranium/CoralBait] as bait.
+	}
+
+	AbyssalCultist.DisplayName: Abyssal Cultist
+	AbyssalWraith.DisplayName: Abyssal Wraith
+	FlayerWraith.DisplayName: Flayer Wraith
+	MindFlayer.DisplayName: Mind Flayer
+	MindFlayerClone.DisplayName: Mind Flayer
+	MotherPhantom.DisplayName: Mother Phantom
+	Phantom.DisplayName: Phantom
+	Scp2521.DisplayName: Abyss Strider
+	ShadeMass.DisplayName: Darkmatter Mass
+	ShadeSpirit.DisplayName: Shade Spirit
+	Warden.DisplayName: Abyssal Brute
+	ErebusBody.DisplayName: Erebus
+
+	ErebusHead: {
+		DisplayName: Erebus
+		SpawnInfo: Spawns at the end of the Abyssal Armageddon event, or, use [i:Ultranium/ErebusFood] during the Abyssal Armageddon Event
+	}
+
+	ErebusTail.DisplayName: Erebus
+	RestlessSoul.DisplayName: Restless Soul
+
+	Keeper: {
+		DisplayName: Keeper
+
+		Dialogue: {
+			Talk1: I'm not that short shut up
+			Talk2: Now this do indeed be a bruh moment.
+			Talk3: Yes, i'll have two number nines, a number eight large, and 2 number sevens with a 2 liter coke.
+			Talk4: you ever slap someone so hard that YOU explode?
+			Talk5: yo this ugly ass dog once told me this story about mcdonalds and thought it was neat. It's too long for any mortal to handle though.
+			Talk6: I have indeed been in a number of cults, both as a leader and a follower. You should see some of the stuff people worship.
+			Talk7: I still owe the flying spaghetti monster 21 million.
+			Talk8: I tried telling Glacieron a joke once. All he did was roar and try to eat me, how rude.
+			Talk9: Don't tell Ultrum this but I like Ignodium better lowkey.
+			Talk10: Got dam they done squinch bop dirty
+			Talk11: I can sell you boss summons, but your money is worthless, I want the funny glowing mushrooms. Eating them makes me feel happy and tingly.
+			Winner: djswfsdegerdshtr what?? How did you even find these? I literally had to search across multiple dimensions to find them and you find all of them. phenomenal.
+			Hype: Y E S
+		}
+
+		Currency: Glow Shrooms
+		Aldin: Aldin
+
+		Buttons: {
+			Mushrooms: Mushrooms
+			Prompt: ???
+		}
+
+		TownNPCMood: {
+			Content: I am content.
+			NoHome: I hate not having a home.
+			FarFromHome: I am too far from home.
+			LoveSpace: I love having so much space.
+			DislikeCrowded: I dislike how crowded I am.
+			HateCrowded: I hate how crowded I am.
+			LikeNPC_Princess: I like {NPCName}.
+			Princess_LovesNPC: I like {NPCName}.
+		}
+
+		Census.SpawnCondition: Conditions unknown
+	}
+
+	FakeDread.DisplayName: Dread???
+	FakeDreadHook.DisplayName: Dread Hook
+	TrueDreadOrbiter.DisplayName: Dread Orbiter
+
+	TrueDread: {
+		DisplayName: Absolute Dread
+		SpawnInfo: Use a [i:Ultranium/DreadBeacon] after the guardians of nature and hell have been defeated
+	}
+
+	Ultrum: {
+		DisplayName: Ultrum
+		SpawnInfo: Use an [i:Ultranium/UltrumSummon] on the surface
+	}
+}
+
+Projectiles: {
+	AldinTelegraph.DisplayName: Cosmic Telegraph
+	CosmicBlast.DisplayName: Cosmic Blast Bolt
+	CosmicBlastSpiral.DisplayName: Cosmic Blast Bolt
+	CosmicFireball.DisplayName: Cosmic Fireball
+	CosmicRay.DisplayName: Cosmic Deathbeam
+	CosmicRayArena.DisplayName: Cosmic Deathbeam
+	CosmicRayQuick.DisplayName: Cosmic Deathbeam
+	CosmicRitual.DisplayName: Cosmic Ritual
+	CosmicRitualHuge.DisplayName: Cosmic Ritual Big
+	CosmicStar.DisplayName: Cosmic Star
+	CosmicStarHuge.DisplayName: Cosmic Star
+	CosmicStarSmall.DisplayName: Cosmic Star
+	CosmicWrathBolt.DisplayName: Cosmic Bolt
+	CosmicWrathBolt2.DisplayName: Cosmic Bolt
+	CosmosBolt.DisplayName: Cosmos Blast
+	CosmosBoltHome.DisplayName: Cosmos Bolt
+	HomingStar.DisplayName: Cosmos Star
+	StationaryStar.DisplayName: Cosmic Star
+	DreadBolt.DisplayName: Dread Bolt
+	DreadFlames.DisplayName: Flame Breath
+	DreadOrbiterBolt.DisplayName: Dread Orbital
+	DreadSpit.DisplayName: Dread Spit
+	DreadSpitHoming.DisplayName: Dread Spit
+	DreadTooth.DisplayName: Dread Tooth
+	ToothBall.DisplayName: Tooth Ball
+	ToothBall2.DisplayName: Tooth Ball
+	CasterBolt.DisplayName: Eldritch Glob
+	DarkDemonScythe.DisplayName: Dark Sickle
+	BlackCloneSpawner.DisplayName: Ethereal Rift
+	EtherealCloneFlame.DisplayName: Ethereal Flame
+	EtherealWave.DisplayName: Ethereal Wave
+	PurpleCloneSpawner.DisplayName: Ethereal Rift
+	XenanisTentacle.DisplayName: Ethereal Tentacle
+	XenanisTentacleTip.DisplayName: Ethereal Tentacle
+	EtherealBlast.DisplayName: Ethereal Blast
+	EtherealDeathray.DisplayName: Ethereal Death Ray
+	EtherealFireBall.DisplayName: Ethereal Fireball
+	EtherealLaserRift.DisplayName: Ethereal Portal
+	EtherealLaserRift2.DisplayName: Ethereal Portal 2
+	EtherealPortalBig.DisplayName: Ethereal Swirl
+	EtherealPortalSmall.DisplayName: Ethereal Swirl
+	EtherealSickle.DisplayName: Ethereal Scythe
+	IceSpike.DisplayName: Icicle Bolt
+	IceTwisterLarge.DisplayName: Ice Tornado
+	IceTwisterSmall.DisplayName: Ice Twister
+	IceVortex.DisplayName: Ice Vortex
+	IceWave.DisplayName: Forzen Wave
+	EruptionTelegraph.DisplayName: Eruption Telegraph
+	FlameBlast.DisplayName: Flame Blast
+	FlameBlastSpiral.DisplayName: Flame Blast
+	FlameBolt.DisplayName: Flame Bolt
+	FlameGigaBlast.DisplayName: Giga Flame Blast
+	IgnodiumBeam.DisplayName: Ignodium Bolt
+	IgnodiumBeamTelegraph.DisplayName: Eruption Telegraph
+	Ignodium.DisplayName: Ignodium
+	MoltenGlob.DisplayName: Molten Glob
+	AquaBall.DisplayName: Water Sphere
+	Bubble.DisplayName: Water Bubble
+	InkBubble.DisplayName: Ink Bubble
+	InkCloud.DisplayName: Ink Glob
+	InkGlob.DisplayName: Ink Glob
+	SquidChargeTelegraph.DisplayName: Squid Telegraph
+	WaterHelix1.DisplayName: Water Helix
+	WaterHelix2.DisplayName: Water Helix
+	DarkMatterBolt.DisplayName: Dark Matter
+	DarkMatterBoltGreen.DisplayName: Dark Matter
+	FlayerAura.DisplayName: Flayer Aura
+	FlayerAuraBase.DisplayName: Flayer Aura
+	FlayerSpit.DisplayName: Flayer Spit
+	FlayerVortex.DisplayName: Erebus Vortex
+	MindFlayerSpawner.DisplayName: Flayer Rift
+	FlayerScythe.DisplayName: Flayer Sickle
+	FlayerTentacleBody.DisplayName: Flayer Tentacle
+	FlayerTentacleTop.DisplayName: Flayer Tentacle
+	MotherPhantomBolt.DisplayName: Darkness Bolt
+	PhantomWave.DisplayName: Phantom Wave
+	ShadowPortalSpawner.DisplayName: Shadow Rift
+	SoulOrbiter.DisplayName: Soul Orbiter
+	WardenBolt.DisplayName: Depth Bolt
+	EldritchBlast.DisplayName: Eldritch Blast
+	EldritchEye.DisplayName: Eldritch Eye
+	ErebusBlast.DisplayName: Erebus Spit Blast
+	ErebusDustBolt.DisplayName: Eldritch Bolt
+	ErebusSpawner.DisplayName: Erebus Rift
+	ErebusTentacle.DisplayName: Erebus Tentacle
+	ErebusTentacleTip.DisplayName: Erebus Tentacle
+	ErebusToothBall.DisplayName: Erebus Toothball
+	ErebusVortex.DisplayName: Erebus Vortex
+	ExpandingVortex.DisplayName: Expanding Vortex
+	ShadowFlameBreath.DisplayName: Shadow Flame Breath
+	VortexBolt.DisplayName: Vortex Bolt
+	CosmicBolt.DisplayName: Cosmic Bolt
+	EldritchSpore.DisplayName: Eldritch Spore
+	BigDreadTooth.DisplayName: Dread Tooth
+	BigToothBall.DisplayName: Tooth Ball
+	DreadFireBlast.DisplayName: Dread Blast
+	DreadFire.DisplayName: Dread Flames
+	DreadRay.DisplayName: Dread Death Ray
+	DreadScythe.DisplayName: Dread Scythe
+	GiantDreadOrb.DisplayName: Dread Orb
+	TrueDreadOrbiterBolt.DisplayName: Dread Orbital
+	NatureTornado.DisplayName: Nature Tornado
+	UltraBeam.DisplayName: Ultranium Bolt
+	UltraniumBlast.DisplayName: Ultranium Blast
+	UltraniumBlastSpiral.DisplayName: Ultranium Blast
+	UltrumBeam.DisplayName: Ultranium Bolt
+	UltrumBolt.DisplayName: Nature Bolt
+	UltrumEnergyBolt.DisplayName: Nature Energy Bolt
+	UltrumTelegraph.DisplayName: Ultrum Telegraph
+	Ultrum.DisplayName: Ultrum
+	BloodBall.DisplayName: Blood Bolt
+	BloodMinion.DisplayName: Blood Dripper
+	BloodSwirl.DisplayName: BloodSwirl
+	BloodThorn.DisplayName: Blood Thorn
+	TendrilKnife.DisplayName: Tendril Piercer
+	CosmicBowBolt.DisplayName: Cosmos Bolt
+	CosmicSwordStar.DisplayName: Cosmic Star
+	GiantSwordStar.DisplayName: Cosmic Star
+	Protostar.DisplayName: Cosmic Star
+	ProtostarBolt.DisplayName: Cosmic Blast Bolt
+	DStar.DisplayName: Shadow Star
+	PhantomClaw.DisplayName: Despair Claw
+	RayGunLaser.DisplayName: Ray Gun Laser
+	DreadBowBolt.DisplayName: Dread Bolt
+	DreadFlameBall.DisplayName: Dread Fire Ball
+	DreadMinion.DisplayName: Mini Dread
+	DreadDisc.DisplayName: Disc of Dismay
+	DreadFlameBlast.DisplayName: Dread Flame Bolt
+	DreadParticleBolt.DisplayName: Dread Bolt
+	DreadSickle.DisplayName: Dread Scythe
+	DreadSpear.DisplayName: Spear of Fear
+	DreadSummonOrb.DisplayName: Dread Energy Orb
+	DreadWaveBolt.DisplayName: Dread Bolt
+	DreadYoyo.DisplayName: The Toothball
+	DreadYoyoTooth.DisplayName: Dread Tooth
+	AbyssalEye.DisplayName: Eldritch Monolith
+	DemonMinion.DisplayName: Shade Demon
+	DemonScythe.DisplayName: Shade Sickle
+	EldritchFlail.DisplayName: Azathoth
+	ShadeTentacle.DisplayName: Shade Tentacle
+	ShadeWisp.DisplayName: Shade Wisp
+	ShadowBladeImage.DisplayName: Tenebris Sickle
+	ShadowStaffBolt.DisplayName: Shadow Bolt
+	CavumNigrum.DisplayName: Cavum Nigrum
+	CavumNigrumPortal.DisplayName: Black Hole
+	EldritchKnife.DisplayName: Midnight Knife
+	EldritchNote1.DisplayName: Eldritch Note
+	EldritchNote2.DisplayName: Eldritch Note
+	ErebusGuitarPulse.DisplayName: Eldritch Sound Pulse
+	ErebusGuitarPulsePurple.DisplayName: Eldritch Sound Pulse
+	Exitium.DisplayName: Exitium
+	ExitiumTentacle.DisplayName: Shade Tentacle
+	NoctisBlast.DisplayName: Eldritch Blast
+	ShadeArrow.DisplayName: Shade Arrow
+	ShadeArrowGreen.DisplayName: Shade Arrow
+	DarkMatterArrowBolt.DisplayName: Dark Matter Bolt
+	DarkTentacle.DisplayName: Dark Tentacle
+	DarkTentacleTip.DisplayName: Dark Tentacle
+	DeathBolt.DisplayName: Death Bolt
+	DeathBoltSwirl.DisplayName: Death Bolt
+	EldritchAura1.DisplayName: Eldritch Aura
+	EldritchAuraBase.DisplayName: Eldritch Aura
+	EldritchScythe.DisplayName: Soul Harvester
+	EldritchVortex.DisplayName: Eldritch Vortex
+	SmolErebusBody.DisplayName: Erebus
+	SmolErebusHead.DisplayName: Erebus
+	SmolErebusTail.DisplayName: Erebus Minion
+	SolibusOrba.DisplayName: Solibus Orba
+	VoidBolt.DisplayName: Void Bolt
+	AbyssBolt.DisplayName: Abysmal Bolt
+	AbyssSickle.DisplayName: Abyssal Sickle
+	AbyssSickleInvisible.DisplayName: Abyssal Sickle
+	BigEtherealBlast.DisplayName: Ethereal Blast
+	EtherealBolt.DisplayName: Ethereal Bolt
+	EtherealFlame.DisplayName: Ethereal Flame
+	EtherealNote.DisplayName: Ethereal Note
+	EtherealTentacle.DisplayName: Ethereal Note Tentacle
+	EtherealWisp.DisplayName: Ethereal Wisp
+	WispBolt.DisplayName: Wisp Bolt
+	GhostArrow.DisplayName: Phantom Arrow
+	GhostBlade.DisplayName: Ghostly Boomerang
+	SoulScytheProjectile.DisplayName: Soul Sickle
+	FlameGlob.DisplayName: Flame Glob
+	FlamingBulletBlast.DisplayName: Flame Bolt
+	FlamingBulletBlastBig.DisplayName: Flame Bolt
+	FlareBlast.DisplayName: Hell Bolt
+	HellBeam.DisplayName: Hell Beam
+	HellFlail.DisplayName: Hell's Fury
+	HellJavelin.DisplayName: Igneous Impaler
+	HellThrow.DisplayName: Hell Throw
+	HellThrowAura.DisplayName: Saturn
+	NatureBlast.DisplayName: Ultranium Bolt
+	NatureBlastBase.DisplayName: Ultranium Bolt
+	UltraFlail.DisplayName: Ultranium Power Whip
+	UltraniumArrow.DisplayName: Ultranium Arrow
+	UltraniumEnergyBolt.DisplayName: Ultra Bolt
+	UltraniumKunai.DisplayName: Ultranium Kunai
+	GlacialFlail.DisplayName: Glacial Flail
+	SnowTwister.DisplayName: Snow Twister
+	CultFireExplosion.DisplayName: Flame Explosion
+	CultistFire.DisplayName: Fireblast
+	Feather.DisplayName: Heavenly Feather
+	IceBall.DisplayName: Ice Mist
+	LunaticStar.DisplayName: Ancient Light
+	MagmaBolt.DisplayName: Magma Bolt
+	Nanite.DisplayName: Nanite
+	NaniteBig.DisplayName: Big Nanite
+	ShadowRodBolt.DisplayName: Shadow Bolt
+	BlueStar.DisplayName: Hallowed Star
+	DukeThrow.DisplayName: The Duke's Throw
+	HallowBlast.DisplayName: Hallowed Blast
+	Inferno.DisplayName: The Inferno
+	MeteorThrow.DisplayName: Meteor Throw
+	MiniTyphoon.DisplayName: Typhoon
+	RetiYoyo.DisplayName: Reti-Yoyo
+	SmallHallowBeam.DisplayName: Hallowed Beam
+	SolProjectile.DisplayName: Sol Throw
+	EyeMinion.DisplayName: Mini Eye
+	ShadowApparition.DisplayName: Shadowflame Apparition
+	StarMinion.DisplayName: Spacial Star
+	MushroomBolt.DisplayName: MushroomBolt Bolt
+	ShroomArrow.DisplayName: Fungus Arrow
+	ShroomBulb.DisplayName: Fungus Bolt
+	ShroomSpore.DisplayName: Shroom Spore
+	BabySquid.DisplayName: Baby Squid
+	BabySquidInk.DisplayName: Ink Glob
+	LingerBubble.DisplayName: Water Bubble
+	WaterKnife.DisplayName: Water Knife
+	ZephyrBubble.DisplayName: Water Bubble
+	ZephyrInkBubble.DisplayName: Ink Bubble
+	ZephyrKnife.DisplayName: Zephyr Knife
+	ZephyrTrident.DisplayName: Zephyr Trident
+	ZephyrTridentBolt.DisplayName: Zephyr Bolt
+	BabyWorm.DisplayName: Zephyr Serpent
+	Cacodemon.DisplayName: Cacodemon
+	CosmicDjinn.DisplayName: Cosmic Djinn
+	DragonHornet.DisplayName: Dragon Hornet
+	DreadBread.DisplayName: Dread Bread
+	GuineaPig.DisplayName: Guinea Pig
+	PetBat.DisplayName: Bat
+	SlimePet.DisplayName: Slime
+	StellarChaserPet.DisplayName: Stellar Comet
+	TacoDemon.DisplayName: Taco Demon
+	WerewolfPet.DisplayName: Werewolf
+	ZombiePet.DisplayName: Zombie
+	EldritchPumpkibomb.DisplayName: Pumpkibomb
+	EldritchPumpkinFire.DisplayName: Pumpkin Fire
+	EldritchPumpkinSentry.DisplayName: Eldritch Pumpkin
+	EldritchPumpkinTentacle.DisplayName: Shade Tentacle
+	EldritchSeed.DisplayName: Eldritch Seed
+	Pumpkibomb.DisplayName: Pumpkibomb
+	PumpkinSeed.DisplayName: Pumpkin Seed
+	PumpSlime.DisplayName: Pumpkin Minion
+	C4Boom.DisplayName: C4 Explosion
+	C4Pro.DisplayName: Spazma C4
+	CrimsonJavelin.DisplayName: Crimtane Pike
+	DemoniteJavelin.DisplayName: Demonite Javelin
+	HallowedJavelin.DisplayName: Holy Javelin
+	InfernoJavelin.DisplayName: Inferno Lance
+	MidnightPro.DisplayName: Shadow Bolt
+	NatureJavelin.DisplayName: Jungle's Wrath
+	NightsJavelin.DisplayName: Night's Javelin
+	SkyStar.DisplayName: Sanctus Stella
+	SkyStarExplosion.DisplayName: Holy Explosion
+	SolSparks.DisplayName: Sol Sparks
+	SolSpear.DisplayName: Spear of the Sol
+	WaterJavelin.DisplayName: Ancient Javelin
+	StellarBolt.DisplayName: Stellar Bolt
+	StellarBoltSwirl.DisplayName: Stellar Bolt
+	StellarComet.DisplayName: Stellar Comet Orbtial
+	StellarDisc.DisplayName: Stellar Disc
+	StellarFracture.DisplayName: Stellar Fracture
+	StellarHammer.DisplayName: Stellar Hammer
+	StellarJavelin.DisplayName: Stellar javelin
+	StellarMagicStar.DisplayName: Stellar Magic Star
+	StellarStar.DisplayName: Stellar Star
+	DarkmatterTentacle.DisplayName: Darkmatter Tentacle
+	FlayerTelegraph.DisplayName: Flayer Telegraph
+	EldritchEyeTelegraph.DisplayName: Eldritch Eye Telegraph
+	ShockWave.DisplayName: Shock Wave
+	TheGout.DisplayName: The Gout
+	NihilFlame.DisplayName: Nihil Flame
+	EtherealCoreBolt.DisplayName: Ethereal Core Bolt
+	UltraniumLingerBolt.DisplayName: Ultranium Linger Bolt
+	UltraniumOrb.DisplayName: Ultranium Orb
+	DripProjectile.DisplayName: Drip Projectile
+}
+
+Tiles: {
+	DarkDepthsBanners.MapEntry: Dark Depths Banners
+	MiscBanners.MapEntry: Misc Banners
+	ShadowBanners.MapEntry: Shadow Banners
+	ShadowEventBanners.MapEntry: Shadow Event Banners
+	DepthCrateTile.MapEntry: Depth Crate Tile
+	DepthSnailCage.MapEntry: Depth Snail Cage
+	ShadowBed.MapEntry: Shadow Bed
+	ShadowChair.MapEntry: Shadow Chair
+	ShadowChest.MapEntry: Shadow Chest
+	ShadowClock.MapEntry: Shadow Clock
+	ShadowDoorClosed.MapEntry: Shadow Door Closed
+	ShadowDoorOpen.MapEntry: Shadow Door Open
+	ShadowLantern.MapEntry: Shadow Lantern
+	ShrineChest.MapEntry: Shrine Chest
+	AldinMusicBoxTile.MapEntry: Aldin Music Box Tile
+	DepthMusicBoxTile.MapEntry: Depth Music Box Tile
+	DreadMusicBoxTile.MapEntry: Dread Music Box Tile
+	ErebusMusicBoxTile.MapEntry: Erebus Music Box Tile
+	EtherealMusicBoxTile.MapEntry: Ethereal Music Box Tile
+	FlayerMusicBoxTile.MapEntry: Flayer Music Box Tile
+	GuardianPhase1BoxTile.MapEntry: Guardian Phase1 Box Tile
+	GuardianPhase2BoxTile.MapEntry: Guardian Phase2 Box Tile
+	IceMusicBoxTile.MapEntry: Ice Music Box Tile
+	ShadowEventBoxTile.MapEntry: Shadow Event Box Tile
+	ShadowEventBoxTile2.MapEntry: Shadow Event Box Tile2
+	ShadowMusicBoxTile.MapEntry: Shadow Music Box Tile
+	TrueDreadBoxTile.MapEntry: True Dread Box Tile
+	ZephyrMusicBoxTile.MapEntry: Zephyr Music Box Tile
+	ShadowOreTile.MapEntry: Shadow Ore Tile
+	ShadowTreeSapling.MapEntry: Shadow Tree Sapling
+	AldinTrophy.MapEntry: Aldin Trophy
+	DreadTrophy.MapEntry: Dread Trophy
+	ErebusTrophy.MapEntry: Erebus Trophy
+	FlayerTrophy.MapEntry: Flayer Trophy
+	IceDragonTrophy.MapEntry: Ice Dragon Trophy
+	IgnodiumTrophy.MapEntry: Ignodium Trophy
+	SquidTrophy.MapEntry: Squid Trophy
+	UltrumTrophy.MapEntry: Ultrum Trophy
+	XenanisTrophy.MapEntry: Xenanis Trophy
+}
+
+Status: {
+	AldinSummon: Aldin's true form has been unleashed!
+	HardmodeDread: Something dreadful wanders through out the lands...
+	HardmodeStellar: Spacial creatures wander in the sky
+	AbsoluteDreadNotif: Fear flows through your veins...
+	ErebusNotif: An otherworldy roar echoes through out the world...
+	ShadowRoar1: A strange roar echos in the distance...
+	ShadowRoar2: The otherworldly roar grows louder...
+	ShadowEventEnd: The darkness fades...
+	ShadowEventPhase2: The darkness thickens...
+	ErebusSpawn: The Eldritch Beast has been awoken!
+	SpawnsDisabled: Spawns have been disabled!
+	SpawnsEnabled: Spawns have been enabled!
+	ShadowEventActive: Theres no stopping the darkness now...
+	ShadowEventStart: The Abyssal Armageddon has begun
+	ShadowEventBlock: You can only use the artifact under the darkness of the moon
+	Xenanis: An ethereal aura draws near...
+}
+
+Achievements: {
+	DreadAchievement: {
+		FriendlyName: I've Dreaded This Day
+		Description: Defeat Dread, a physical manifestation of fear and terror.
+	}
+
+	ErebusAchievement: {
+		FriendlyName: A Spooky Future
+		Description: Defeat Erebus, a nightmarish beast from the rift.
+	}
+
+	IceDragonAchievement: {
+		FriendlyName: Cold Front
+		Description: Defeat Glacieron, the ice breathing monster lurking within the tundra.
+	}
+
+	IgnodiumAchievement: {
+		FriendlyName: Fire Hazard
+		Description: Defeat Ignodium, the Sentinel of Fire.
+	}
+
+	MindFlayerAchievement: {
+		FriendlyName: What Even is This???
+		Description: Defeat the Mind Flayer.
+	}
+
+	MushroomAchievement: {
+		FriendlyName: Multiversal Mycologist
+		Description: Collect all of the strange fungi throughout the world and give them to the Keeper.
+	}
+
+	SquidAchievement: {
+		FriendlyName: Squid Games
+		Description: Defeat the Zephyr Squid a zealous cephalopod of the high seas.
+	}
+
+	TrueDreadAchievement: {
+		FriendlyName: This Isn't Over Yet Kid
+		Description: Defeat Absolute Dread, the true and final form of this monstrosity.
+	}
+
+	UltrumAchievement: {
+		FriendlyName: The Ultimate Lifeform
+		Description: Defeat Ultrum, the Sentinel of Life.
+	}
+
+	XenanisAchievement: {
+		FriendlyName: Ethereality
+		Description: Defeat Xenanis, the invader from an unknown world.
+	}
+
+	ShadowAchievement: {
+		FriendlyName: The Dark World
+		Description: Triumph over the Abyssal Armageddon, when creatures from another world break through the sky to destroy.
+	}
+
+	AldinAchievement: {
+		FriendlyName: ???
+		Description: Secret slayer.
+	}
+}

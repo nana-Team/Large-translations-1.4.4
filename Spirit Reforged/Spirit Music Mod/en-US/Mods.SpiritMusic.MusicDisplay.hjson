@@ -81,7 +81,7 @@ TownUnderground: {
 }
 
 VictoryDay: {
-	DisplayName: Overworld Alt Alt (Victory Day Theme)
+	DisplayName: Adventurer's Triumph (Victory Day Theme)
 	Author: "{$BySalvati}"
 }
 

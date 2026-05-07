@@ -22,3 +22,4 @@ Soba Noodles: https://www.youtube.com/@sobanoodles4286
 Иконка мода: sal
 Программирование: GabeHasWon
 Русская локализация: Nexora
+Португальская локализация: Hari

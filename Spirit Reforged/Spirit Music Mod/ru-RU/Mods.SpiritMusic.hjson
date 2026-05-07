@@ -78,8 +78,8 @@ Configs: {
 		}
 
 		VictoryDay: {
-			Label: «Победоносный день»
-			Tooltip: Включает музыкальную тему «победоносного дня»: «Overworld Alt Alt»
+			Label: День победы
+			Tooltip: Включает музыкальную тему «Дня победы»: «Adventurer's Triumph»
 		}
 	}
 }
@@ -161,7 +161,7 @@ Items: {
 	}
 
 	VictoryDayBoxItem: {
-		DisplayName: Музыкальная шкатулка («Победоносный день»)
+		DisplayName: Музыкальная шкатулка («День победы»)
 		Tooltip: ""
 	}
 
@@ -170,4 +170,3 @@ Items: {
 		Tooltip: ""
 	}
 }
-

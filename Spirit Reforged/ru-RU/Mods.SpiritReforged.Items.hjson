@@ -987,7 +987,7 @@ FrostbiteItem: {
 	Tooltip:
 		'''
 		Вызывает перед вами снежную бурю
-		Игнорирует 5 ед. защиты врага
+		Игнорирует 10 ед. защиты врага
 		'''
 }
 
@@ -2141,7 +2141,7 @@ CeremonialDagger: {
 
 Thornball: {
 	DisplayName: Кактусовый шар
-	Tooltip: Прилипает к блокам
+	Tooltip: Прилипает к блокам и замедляет поражённых врагов
 }
 
 SaltBlockDullItem: {
@@ -2537,7 +2537,7 @@ SaltPlatformItem: {
 
 MahakalaMaskBlue: {
 	DisplayName: Маска Махакалы
-	Tooltip: Снижает урон, получаемый от врагов заражений
+	Tooltip: Снижает урон, получаемый от врагов заражений, а также наносимый по ним урон
 }
 
 MahakalaMaskRed: {
@@ -2581,7 +2581,7 @@ TrellisTwoDrywoodItem: {
 }
 
 BronzeGrateItem: {
-	DisplayName: Бронзовая решётка
+	DisplayName: Стена из бронзовой решётки
 	Tooltip: ""
 }
 
@@ -2617,7 +2617,7 @@ SwordStandSandstoneItem: {
 
 RedSandstoneBrickForegroundWallItem: {
 	DisplayName: Передняя стена из красного песчаникового кирпича
-	Tooltip: ""
+	Tooltip: Отображается перед, а не за игроком
 }
 
 SaltPylonItem: {
@@ -2674,10 +2674,10 @@ GoldenBrineShrimpItem: {
 	Tooltip: ""
 }
 
-CorruptStactusBannerItem.DisplayName: Знамя искажённой кактусеницы
-CrimsonStactusBannerItem.DisplayName: Знамя багряной кактусеницы
-DesertStactusBannerItem.DisplayName: Знамя пустынной кактусеницы
-HallowedStactusBannerItem.DisplayName: Знамя освящённой кактусеницы
+CorruptStactusBannerItem.DisplayName: Знамя искажённого стактуса
+CrimsonStactusBannerItem.DisplayName: Знамя багряного стактуса
+DesertStactusBannerItem.DisplayName: Знамя стактуса
+HallowedStactusBannerItem.DisplayName: Знамя освящённого стактуса
 
 AncientBannerItem: {
 	DisplayName: Древнее знамя
@@ -2798,7 +2798,11 @@ GraverobberBannerItem.DisplayName: Знамя расхитителя могил
 
 GiantBag: {
 	DisplayName: Большой мешок
-	Tooltip: "{$CommonTooltips.Backpack}"
+	Tooltip:
+		'''
+		{$CommonTooltips.Backpack}
+		«Излюбленный выбор мошенников и прохвостов со всего мира!»
+		'''
 }
 
 CrackedSandstoneItem: {
@@ -2883,7 +2887,7 @@ CobbledBrickItem: {
 
 BronzeGrateDoorItem: {
 	DisplayName: Бронзовая решётчатая дверь
-	Tooltip: ""
+	Tooltip: Пропускает через себя жидкости, даже если закрыта
 }
 
 CalmingBellItem: {
@@ -2907,8 +2911,8 @@ GildedRedSandstoneItem: {
 }
 
 BronzeGrateBlockItem: {
-	DisplayName: Блок бронзовой решётки
-	Tooltip: ""
+	DisplayName: Бронзовая решётка
+	Tooltip: Пропускает через себя только жидкости
 }
 
 BedouinBreastplate: {
@@ -2951,11 +2955,6 @@ GoldCricketCageItem: {
 	Tooltip: ""
 }
 
-ScarabPetItem: {
-	DisplayName: Скарабейный корм
-	Tooltip: Призывает крошку-скарабея сопровождать вас
-}
-
 CarrotCake: {
 	DisplayName: Морковный торт
 	Tooltip: "{$BuffDescription.WellFed3}"
@@ -2982,7 +2981,7 @@ AdornedBow: {
 
 BagOScarabs: {
 	DisplayName: Мешок с сокровищами (Скарабеус)
-	Tooltip: ""
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 ScarabMask: {
@@ -3013,6 +3012,11 @@ SpaceHeater: {
 ScarabMusicBox: {
 	DisplayName: Музыкальная шкатулка (Скарабеус)
 	Tooltip: ""
+
+	Toggle: {
+		0: Первая фаза
+		1: Вторая фаза
+	}
 }
 
 SpiritTreeTopper: {
@@ -3035,10 +3039,37 @@ IridescentDye: {
 }
 
 ScarabLightPetItem: {
-	DisplayName: Скарабейная лампочка
+	DisplayName: Погремушка-лампочка
 	Tooltip:
 		'''
 		Призывает Скарабейчика
 		«Эврика!»
 		'''
+}
+
+BeetleLicense: {
+	DisplayName: Жучий паспорт
+	Tooltip:
+		'''
+		Используйте, чтобы заселить в городе жука
+		Жук уже есть?
+		Используйте дополнительные паспорта для запуска программы по обмену питомцами!
+		Найдите своего идеального жука!
+		'''
+	LicenseUse: Паспорт телепортируется в жучью службу доставки...
+}
+
+GooeyHiveItem: {
+	DisplayName: Липкий улей
+	Tooltip: ""
+}
+
+ScarabMountItem: {
+	DisplayName: Бутон жимолости
+	Tooltip: Призывает ездового жука-пилюльщика
+}
+
+SandySandstoneItem: {
+	DisplayName: Песчаный песчаник
+	Tooltip: ""
 }
