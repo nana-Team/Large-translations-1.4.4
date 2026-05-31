@@ -3073,3 +3073,83 @@ SandySandstoneItem: {
 	DisplayName: Песчаный песчаник
 	Tooltip: ""
 }
+
+TerracottaTombstoneItem: {
+	DisplayName: Терракотовая надгробная плита
+	Tooltip: ""
+}
+
+TerracottaGraveMarkerItem: {
+	DisplayName: Терракотовая могильная табличка
+	Tooltip: ""
+}
+
+TerracottaGravestoneItem: {
+	DisplayName: Терракотовая могильная плита
+	Tooltip: ""
+}
+
+TerracottaObeliskItem: {
+	DisplayName: Терракотовый обелиск
+	Tooltip: ""
+}
+
+DrywoodTombstoneItem: {
+	DisplayName: Надгробная плита из сухого дерева
+	Tooltip: ""
+}
+
+SavannaGravestoneItem: {
+	DisplayName: Могильная плита саванны
+	Tooltip: ""
+}
+
+DrywoodGraveMarkerItem: {
+	DisplayName: Могильная табличка из сухого дерева
+	Tooltip: ""
+}
+
+DrywoodCrossGraveMarkerItem: {
+	DisplayName: Могильный крест из сухого дерева
+	Tooltip: ""
+}
+
+ModernObeliskItem: {
+	DisplayName: Современный обелиск
+	Tooltip: ""
+}
+
+ModernTombscreenItem: {
+	DisplayName: Современный надгробный экран
+	Tooltip: ""
+}
+
+ModernGravestoneItem: {
+	DisplayName: Современная могильная плита
+	Tooltip: ""
+}
+
+ModernHeadstoneItem: {
+	DisplayName: Современное надгробие
+	Tooltip: ""
+}
+
+SaltHeadstoneItem: {
+	DisplayName: Соляное надгробие
+	Tooltip: ""
+}
+
+SaltTombstoneItem: {
+	DisplayName: Соляная надгробная плита
+	Tooltip: ""
+}
+
+SaltGravestoneItem: {
+	DisplayName: Соляная могильная плита
+	Tooltip: ""
+}
+
+SaltGraveMarkerItem: {
+	DisplayName: Соляная могильная табличка
+	Tooltip: ""
+}

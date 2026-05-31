@@ -4,17 +4,17 @@ ProbablyDelete: {
 }
 
 LushWoodBody: {
-	DisplayName: Нагрудник из дерева изобилия
+	DisplayName: Нагрудник из изобильного дерева
 	Tooltip: Увеличивает урон призывателя на 1 ед.
 }
 
 LushWoodHead: {
-	DisplayName: Шлем из дерева изобилия
+	DisplayName: Шлем из изобильного дерева
 	Tooltip: Увеличивает урон призывателя на 1 ед.
 }
 
 LushWoodLegs: {
-	DisplayName: Поножи из дерева изобилия
+	DisplayName: Поножи из изобильного дерева
 	Tooltip: ""
 }
 
@@ -89,7 +89,7 @@ BackslateTileItem: {
 }
 
 EmbeddedAquamarineItem: {
-	DisplayName: Аквамариновая почва изобилия
+	DisplayName: Аквамариновая изобильная почва
 	Tooltip: ""
 }
 
@@ -134,102 +134,102 @@ Bush3x3Item: {
 }
 
 LushSoilBlock: {
-	DisplayName: Почва изобилия
+	DisplayName: Изобильная почва
 	Tooltip: ""
 }
 
 LushBathtubItem: {
-	DisplayName: Ванна изобилия
+	DisplayName: Ванна из изобильного дерева
 	Tooltip: ""
 }
 
 LushBedItem: {
-	DisplayName: Кровать изобилия
+	DisplayName: Кровать из изобильного дерева
 	Tooltip: ""
 }
 
 LushBookshelfItem: {
-	DisplayName: Книжный шкаф изобилия
+	DisplayName: Книжный шкаф из изобильного дерева
 	Tooltip: ""
 }
 
 LushCandelabraItem: {
-	DisplayName: Люстра изобилия
+	DisplayName: Люстра из изобильного дерева
 	Tooltip: ""
 }
 
 LushCandleItem: {
-	DisplayName: Свеча изобилия
+	DisplayName: Свеча из изобильного дерева
 	Tooltip: ""
 }
 
 LushChairItem: {
-	DisplayName: Стул изобилия
+	DisplayName: Стул из изобильного дерева
 	Tooltip: ""
 }
 
 LushClockItem: {
-	DisplayName: Напольные часы изобилия
+	DisplayName: Напольные часы из изобильного дерева
 	Tooltip: ""
 }
 
 LushDresserItem: {
-	DisplayName: Комод изобилия
+	DisplayName: Комод из изобильного дерева
 	Tooltip: ""
 }
 
 LushLampItem: {
-	DisplayName: Напольная лампа изобилия
+	DisplayName: Напольная лампа из изобильного дерева
 	Tooltip: ""
 }
 
 LushLanternItem: {
-	DisplayName: Фонарь изобилия
+	DisplayName: Фонарь из изобильного дерева
 	Tooltip: ""
 }
 
 LushPianoItem: {
-	DisplayName: Пианино изобилия
+	DisplayName: Пианино из изобильного дерева
 	Tooltip: ""
 }
 
 LushPlatformItem: {
-	DisplayName: Платформа из дерева изобилия
+	DisplayName: Платформа из изобильного дерева
 	Tooltip: ""
 }
 
 LushSinkItem: {
-	DisplayName: Раковина изобилия
+	DisplayName: Раковина из изобильного дерева
 	Tooltip: ""
 }
 
 LushTableItem: {
-	DisplayName: Стол изобилия
+	DisplayName: Стол из изобильного дерева
 	Tooltip: ""
 }
 
 LushWoodDoorItem: {
-	DisplayName: Дверь изобилия
+	DisplayName: Дверь из изобильного дерева
 	Tooltip: ""
 }
 
 LushWoodSofaItem: {
-	DisplayName: Диван изобилия
+	DisplayName: Диван из изобильного дерева
 	Tooltip: ""
 }
 
 LushWorkbenchItem: {
-	DisplayName: Верстак изобилия
+	DisplayName: Верстак из изобильного дерева
 	Tooltip: ""
 }
 
 VerdantWoodBlock: {
-	DisplayName: Древесина изобилия
+	DisplayName: Изобильная древесина
 	Tooltip: ""
 }
 
 VerdantWoodChestBlock: {
-	DisplayName: Сундук из дерева изобилия
+	DisplayName: Сундук из изобильного дерева
 	Tooltip: ""
 }
 
@@ -253,10 +253,10 @@ HardyVineBook: {
 }
 
 LeafBook: {
-	DisplayName: Исследование о листве изобилия
+	DisplayName: Исследование о изобильной листве
 	Tooltip:
 		'''
-		«Впечатляющая углублённость в тему листвы изобилия»
+		«Впечатляющая углублённость в тему изобильной листвы»
 		Нажмите ПКМ, чтобы прочесть
 		'''
 }
@@ -293,13 +293,13 @@ FloatingCrystalItem: {
 	Tooltip:
 		'''
 		Можно поставить в воздухе
-		Можно зацепиться крюком //честно?
+		Можно зацепиться крюком
 		'''
 }
 
 GreenCrystalItem: {
 	DisplayName: Зелёный кристалл
-	Tooltip: «Не такой уж и острый, как может показатся»
+	Tooltip: «Не такой уж и острый, как может показаться»
 }
 
 HangingCrystalItem: {
@@ -469,7 +469,7 @@ MysteriaTreetop: {
 
 MysteriaWood: {
 	DisplayName: Мистерниевое дерево
-	Tooltip: Эти блоки не могут быть изменены молотом
+	// Tooltip: "'Dry and study'"
 }
 
 PeaceTreetopItem: {
@@ -529,13 +529,13 @@ RedDyeBulb: {
 }
 
 RootRopeItem: {
-	DisplayName: Верёвка из корней изобилия
+	DisplayName: Верёвка из изобильных корней
 	Tooltip: ""
 }
 
 VerdantFlowerBulb: {
 	DisplayName: Цветочный бутон
-	Tooltip: Можно посадить только на листву изобилия или на стену из лозы изобилия
+	Tooltip: Можно разместить только на травяные и цветочные стены, а также стены из изобильной листвы и изобильной лозы
 }
 
 VerdantStrongVineMaterial: {
@@ -548,7 +548,7 @@ VerdantStrongVineMaterial: {
 }
 
 VineRopeItem: {
-	DisplayName: Верёвка из лозы изобилия
+	DisplayName: Верёвка из изобильной лозы
 	Tooltip: ""
 }
 
@@ -556,7 +556,7 @@ WaterberryBushItem: {
 	DisplayName: Куст водяники
 	Tooltip:
 		'''
-		Может быть размещён на такой же куст или на листья изобилия
+		Может быть размещён на такой же куст или на изобильную листву
 		Растёт только в воде
 		'''
 }
@@ -589,7 +589,7 @@ HarvestedPickipuffItem: {
 	DisplayName: Пухоцвет (Собранный)
 	Tooltip:
 		'''
-		Можно разместить только на листьях изобилия
+		Можно разместить только на изобильную листву
 		Можно собрать, чтобы получить розовый пух
 		Через некоторое время отрастает заново
 		'''
@@ -604,7 +604,7 @@ PickipuffItem: {
 	DisplayName: Пухоцвет
 	Tooltip:
 		'''
-		Можно разместить только на листьях изобилия
+		Можно разместить только на изобильную листву
 		Можно собрать, чтобы получить розовый пух
 		Через некоторое время отрастает заново
 		'''
@@ -761,17 +761,17 @@ BackslateWallItem: {
 }
 
 LivingLushWoodWallItem: {
-	DisplayName: Стена из живого дерева изобилия
+	DisplayName: Стена из живого изобильного дерева
 	Tooltip: ""
 }
 
 LushSoilWallItem: {
-	DisplayName: Стена из почвы изобилия
+	DisplayName: Стена из изобильной почвы
 	Tooltip: ""
 }
 
 LushWoodWallItem: {
-	DisplayName: Стена из дерева изобилия
+	DisplayName: Стена из изобильного дерева
 	Tooltip: ""
 }
 
@@ -786,7 +786,7 @@ PuffWallItem: {
 }
 
 VerdantLeafWallItem: {
-	DisplayName: Стена из листвы изобилия
+	DisplayName: Стена из изобильной листвы
 	Tooltip: ""
 }
 
@@ -801,12 +801,12 @@ VerdantRedPetalWallItem: {
 }
 
 VerdantVineWallItem: {
-	DisplayName: Стена из лозы изобилия
+	DisplayName: Стена из изобильной лозы
 	Tooltip: ""
 }
 
 WisplantInfusedMudBoulder: {
-	DisplayName: Почва изобилия с цветком духа
+	DisplayName: Изобильная почва с цветком духа
 	Tooltip:
 		'''
 		«Ты просто склеил две штуки, это не магия» — скажут все
@@ -931,11 +931,13 @@ Mudsquid: {
 
 Propellerpad: {
 	DisplayName: Пропеллерпад
-	Tooltip:
+	/* Tooltip:
 		'''
-		Призывает странную лилию
-		Повисните на её лозе, чтобы парить
-		'''
+		Summons an odd, flowing lily pad
+		Hang onto the pad's vine by holding UP to fly around
+		It flies very quickly horizontally, but slowly vertically
+		'Despite it all, you can't stand on this.'
+		''' */
 }
 
 SproutInABoot: {
@@ -969,7 +971,7 @@ VineHook: {
 }
 
 LushWoodCrateItem: {
-	DisplayName: Ящик из дерева изобилия
+	DisplayName: Ящик из изобильного дерева
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
@@ -1061,7 +1063,7 @@ Lightbulb: {
 }
 
 LushLeaf: {
-	DisplayName: Листва изобилия
+	DisplayName: Изобильная листва
 	Tooltip: «Довольно прочная»
 }
 
@@ -1194,19 +1196,19 @@ Halfsprout: {
 }
 
 LivingLushWoodWand: {
-	DisplayName: Посох живой древесины изобилия
+	DisplayName: Посох живой изобильной древесины
 	Tooltip:
 		'''
-		Размещает живую древесину изобилия
-		[c/88FF88:Нажмите ПКМ с этим предметов в руках,] чтобы превратить его в посох листвы изобилия
+		Размещает живую изобильную древесину
+		[c/88FF88:Нажмите ПКМ с этим предметов в руках,] чтобы превратить его в посох изобильной листвы
 		'''
 }
 
 LushLeafWand: {
-	DisplayName: Посох листвы изобилия
+	DisplayName: Посох изобильной листвы
 	Tooltip:
 		'''
-		Размещает листву изобилия
+		Размещает изобильную листву
 		[c/88FF88:Нажмите ПКМ с этим предметов в руках,] чтобы превратить его в посох красных лепестков
 		'''
 }
@@ -1248,7 +1250,7 @@ PinkPetalWand: {
 	Tooltip:
 		'''
 		Размещает блоки розовых лепестков
-		[c/88FF88:Нажмите ПКМ с этим предметов в руках,] чтобы превратить его в посох живой древесины изобилия
+		[c/88FF88:Нажмите ПКМ с этим предметов в руках,] чтобы превратить его в посох живой изобильной древесины
 		'''
 }
 
@@ -1320,31 +1322,31 @@ AquamarineStaff: {
 }
 
 LushDagger: {
-	DisplayName: Шипы изобилия
+	DisplayName: Изобильная щепка
 	Tooltip:
 		'''
-		Выпускаются по три за раз
-		«Это всего лишь часть естественного порядка вещей...» 
+		Бросается по 3 штуки за раз
+		«Излюбленная природная напасть» 
 		'''
 }
 
 LushWoodBow: {
-	DisplayName: Лук из дерева изобилия
+	DisplayName: Лук из изобильного дерева
 	Tooltip: ""
 }
 
 LushWoodHammer: {
-	DisplayName: Молот из дерева изобилия
+	DisplayName: Молот из изобильного дерева
 	Tooltip: ""
 }
 
 LushWoodSword: {
-	DisplayName: Меч из дерева изобилия
+	DisplayName: Меч из изобильного дерева
 	Tooltip: ""
 }
 
 MudBoulderItem: {
-	DisplayName: Комок почвы изобилия
+	DisplayName: Комок изобильной почвы
 	Tooltip: Для маленьких пакостей
 }
 
@@ -1402,9 +1404,9 @@ ApotheoticBeeHelmet: {
 		'''
 		Скрывает рой пчёл
 		При удерживании предмета с уроно призывателя, эти пчёлы окружают ваш курсор и наносят урон врагам
+		Пчёлы усиляются от рюкзака-улья
 		Урон призывателя увеличен на 10%
 		Увеличивает количесво слотов для миньонов на 2
-		Пчёлы усиляются от рюкзака-улья
 		«Беспокоит значительно больше, пока на твоей голове»
 		'''
 }
@@ -1471,12 +1473,12 @@ ApotheoticSoul: {
 }
 
 LushWoodPlankBlock: {
-	DisplayName: Деревянная доска изобилия
+	DisplayName: Доска из изобильного дерева
 	Tooltip: ""
 }
 
 LushPlankWallItem: {
-	DisplayName: Дощатая стена изобилия
+	DisplayName: Дощатая стена из изобильного дерева
 	Tooltip: ""
 }
 
@@ -1524,8 +1526,8 @@ LightbulbLeafItem: {
 }
 
 LushLoomItem: {
-	DisplayName: Станок изобилия
-	Tooltip: Совмещает функционал ткацкого станка из живого дерева и обычного такцого станка
+	DisplayName: Изобильный ткацкий станок
+	Tooltip: Совмещает функционал ткацкого станка из живого дерева и обычного ткацкого станка
 }
 
 TrimmedOvergrownBrickItem: {
@@ -1534,7 +1536,7 @@ TrimmedOvergrownBrickItem: {
 }
 
 BasicTerrariumItem: {
-	DisplayName: Базовый террариум
+	DisplayName: Террариум с растительностью
 	Tooltip: «Можно разглядывать бесконечно»
 }
 
@@ -1594,12 +1596,12 @@ BulbSnailCage: {
 }
 
 LushWingletItem: {
-	DisplayName: Крылунчик изобилия
+	DisplayName: Изобилующий крылунчик
 	Tooltip: «Крошечный и хрупкий»
 }
 
 LushWingletTerrariumItem: {
-	DisplayName: Террариум с крылунчиком изобилия
+	DisplayName: Террариум с изобилующим крылунчиком
 	Tooltip: «...Выглядит довольным!»
 }
 
@@ -1678,7 +1680,7 @@ GlassFlowerItem: {
 }
 
 DropsnailItem: {
-	DisplayName: Падулитка
+	DisplayName: Каплеулитка
 	Tooltip: «Мягкая, холодная.»
 }
 
@@ -1686,9 +1688,9 @@ SmokeBulbItem: {
 	DisplayName: Дымоцвет
 	Tooltip:
 		'''
-		Разместите его и нажмите ПКМ, чтобы включить визуальный эффект дыма
-		'Пахнет... противно'
-		''' 
+		Позволяет включить эффект пара в любом месте
+		«Пахнет... так себе»
+		'''
 }
 
 TearBulbItem: {
@@ -1701,52 +1703,52 @@ TearBulbItem: {
 }
 
 PuffCandleItem: {
-	DisplayName: Пуховая свеча
+	DisplayName: Свеча из розового пуха
 	Tooltip: ""
 }
 
 PuffLampItem: {
-	DisplayName: Пуховая напольная лампа
+	DisplayName: Напольная лампа из розового пуха
 	Tooltip: ""
 }
 
 PuffLanternItem: {
-	DisplayName: Пуховой фонарь
+	DisplayName: Фонарь из розового пуха
 	Tooltip: ""
 }
 
 PuffWorkbenchItem: {
-	DisplayName: Пуховой верстак
+	DisplayName: Верстак из розового пуха
 	Tooltip: ""
 }
 
 PuffDoorItem: {
-	DisplayName: Пуховая дверь
+	DisplayName: Дверь из розового пуха
 	Tooltip: ""
 }
 
 PuffBookcaseItem: {
-	DisplayName: Пуховй шкаф
+	DisplayName: Шкаф из розового пуха
 	Tooltip: ""
 }
 
 PuffDresserItem: {
-	DisplayName: Пуховой комод
+	DisplayName: Комод из розового пуха
 	Tooltip: ""
 }
 
 PuffCandelabraItem: {
-	DisplayName: Пуховой канделябр
+	DisplayName: Подсвечник из розового пуха
 	Tooltip: ""
 }
 
 PuffChairItem: {
-	DisplayName: Пуховой стул
+	DisplayName: Стул из розового пуха
 	Tooltip: ""
 }
 
 PuffSinkItem: {
-	DisplayName: Пуховая раковина
+	DisplayName: Раковина из розового пуха
 	Tooltip: ""
 }
 
@@ -1756,7 +1758,7 @@ TearPlantItem: {
 }
 
 DropsnailCage: {
-	DisplayName: Клетка с падулиткой
+	DisplayName: Террариум с каплеулиткой
 	Tooltip: ""
 }
 
@@ -1771,42 +1773,42 @@ JellydewAquariumItem: {
 }
 
 PuffBathtubItem: {
-	DisplayName: Пуховая ванна
+	DisplayName: Ванна из розового пуха
 	Tooltip: ""
 }
 
 PuffBedItem: {
-	DisplayName: Пуховая кровать
+	DisplayName: Кровать из розового пуха
 	Tooltip: ""
 }
 
 PuffClockItem: {
-	DisplayName: Пуховые часы
+	DisplayName: Напольные часы из розового пуха
 	Tooltip: ""
 }
 
 PuffTableItem: {
-	DisplayName: Пуховой стол
+	DisplayName: Стол из розового пуха
 	Tooltip: ""
 }
 
 PuffPlatformItem: {
-	DisplayName: Пуховая платформа
+	DisplayName: Платформа из розового пуха
 	Tooltip: ""
 }
 
 PuffSofaItem: {
-	DisplayName: Пуховой диван
+	DisplayName: Диван из розового пуха
 	Tooltip: ""
 }
 
 PuffPianoItem: {
-	DisplayName: Пуховое пианино
+	DisplayName: Пианино из розового пуха
 	Tooltip: ""
 }
 
 TearRainEventBox: {
-	DisplayName: Музыкальная коробка ("Of Petrichor")
+	DisplayName: Музыкальная шкатулка ("Of Petrichor")
 	Tooltip: ""
 }
 

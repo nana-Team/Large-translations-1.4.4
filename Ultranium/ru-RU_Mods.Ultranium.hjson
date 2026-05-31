@@ -204,12 +204,12 @@ Biomes: {
 
 Items: {
 	BloodBody: {
-		DisplayName: Кровеносный нагрудник
+		DisplayName: Кровяной нагрудник
 		Tooltip: ""
 	}
 
 	BloodHead: {
-		DisplayName: Кровеносная маска
+		DisplayName: Кровяная маска
 		Tooltip: ""
 		SetBonus:
 			'''
@@ -219,7 +219,7 @@ Items: {
 	}
 
 	BloodLegs: {
-		DisplayName: Кровеносные поножи
+		DisplayName: Кровяные поножи
 		Tooltip: ""
 	}
 
@@ -1263,22 +1263,22 @@ Items: {
 	}
 
 	UltraniumSword: {
-		DisplayName: Ultranium Blade
+		DisplayName: Ультраниумный клинок
 		Tooltip: Fires a spread of nature energy orbs
 	}
 
 	UltraTome: {
-		DisplayName: Ultranium Grimoire
+		DisplayName: Ультраниумный гримуар
 		Tooltip: Creates a circle of nature blasts that close in on the cursor
 	}
 
 	UltrumRelic: {
-		DisplayName: Ultrum Relic Shard
+		DisplayName: Фрагмент реликвии Ультрума
 		Tooltip: '''"Perhaps if combined with the other half, it's power can be restored..."'''
 	}
 
 	UltrumShard: {
-		DisplayName: Ultrum Essence Shard
+		DisplayName: Фрагмент сущности Ультрума
 		Tooltip: '''"An ancient energy of nature resides within this fragment"'''
 	}
 
@@ -3106,28 +3106,28 @@ Status: {
 
 Achievements: {
 	DreadAchievement: {
-		FriendlyName: I've Dreaded This Day
-		Description: Defeat Dread, a physical manifestation of fear and terror.
+		FriendlyName: Это был ужасный день
+		Description: Одержать победу над Ужасом — физическим воплощением страха.
 	}
 
 	ErebusAchievement: {
 		FriendlyName: A Spooky Future
-		Description: Defeat Erebus, a nightmarish beast from the rift.
+		Description: Одержать победу над Эребом — кошмарным чудищем из разлома.
 	}
 
 	IceDragonAchievement: {
-		FriendlyName: Cold Front
-		Description: Defeat Glacieron, the ice breathing monster lurking within the tundra.
+		FriendlyName: Холодный фронт
+		Description: Одержать победу над Ледниконом — ледодышащим монстром, скрывающимся в тундре.
 	}
 
 	IgnodiumAchievement: {
-		FriendlyName: Fire Hazard
-		Description: Defeat Ignodium, the Sentinel of Fire.
+		FriendlyName: Огнеопасность
+		Description: Одержать победу над Игнодиумом — Стражем огня.
 	}
 
 	MindFlayerAchievement: {
-		FriendlyName: What Even is This???
-		Description: Defeat the Mind Flayer.
+		FriendlyName: Что это вообще такое???
+		Description: Одержать победу над Свежателем разума.
 	}
 
 	MushroomAchievement: {
@@ -3136,23 +3136,23 @@ Achievements: {
 	}
 
 	SquidAchievement: {
-		FriendlyName: Squid Games
-		Description: Defeat the Zephyr Squid a zealous cephalopod of the high seas.
+		FriendlyName: Игра в кальмара
+		Description: Одержать победу над Зефирным кальмаром — яростным моллюском из открытого моря.
 	}
 
 	TrueDreadAchievement: {
-		FriendlyName: This Isn't Over Yet Kid
-		Description: Defeat Absolute Dread, the true and final form of this monstrosity.
+		FriendlyName: Это ещё не конец, малец
+		Description: Одержать победу над Абсолютным Ужасом — истинной и финальной формой этого чудовища.
 	}
 
 	UltrumAchievement: {
-		FriendlyName: The Ultimate Lifeform
-		Description: Defeat Ultrum, the Sentinel of Life.
+		FriendlyName: Ультимативная форма жизни
+		Description: Одержать победу над Ультрумом — Стражем жизни.
 	}
 
 	XenanisAchievement: {
-		FriendlyName: Ethereality
-		Description: Defeat Xenanis, the invader from an unknown world.
+		FriendlyName: Эфемерность
+		Description: Одержать победу над Ксенанисом, захватчиком из неизвестного мира.
 	}
 
 	ShadowAchievement: {

@@ -3073,3 +3073,83 @@ SandySandstoneItem: {
 	DisplayName: Sandy Sandstone
 	Tooltip: ""
 }
+
+TerracottaTombstoneItem: {
+	DisplayName: Terracotta Tombstone
+	Tooltip: ""
+}
+
+TerracottaGraveMarkerItem: {
+	DisplayName: Terracotta Grave Marker
+	Tooltip: ""
+}
+
+TerracottaGravestoneItem: {
+	DisplayName: Terracotta Gravestone
+	Tooltip: ""
+}
+
+TerracottaObeliskItem: {
+	DisplayName: Terracotta Obelisk
+	Tooltip: ""
+}
+
+DrywoodTombstoneItem: {
+	DisplayName: Drywood Tombstone
+	Tooltip: ""
+}
+
+SavannaGravestoneItem: {
+	DisplayName: Savanna Gravestone
+	Tooltip: ""
+}
+
+DrywoodGraveMarkerItem: {
+	DisplayName: Drywood Grave Marker
+	Tooltip: ""
+}
+
+DrywoodCrossGraveMarkerItem: {
+	DisplayName: Drywood Cross Grave Marker
+	Tooltip: ""
+}
+
+ModernObeliskItem: {
+	DisplayName: Modern Obelisk
+	Tooltip: ""
+}
+
+ModernTombscreenItem: {
+	DisplayName: Modern Tombscreen
+	Tooltip: ""
+}
+
+ModernGravestoneItem: {
+	DisplayName: Modern Gravestone
+	Tooltip: ""
+}
+
+ModernHeadstoneItem: {
+	DisplayName: Modern Headstone
+	Tooltip: ""
+}
+
+SaltHeadstoneItem: {
+	DisplayName: Salt Headstone
+	Tooltip: ""
+}
+
+SaltTombstoneItem: {
+	DisplayName: Salt Tombstone
+	Tooltip: ""
+}
+
+SaltGravestoneItem: {
+	DisplayName: Salt Gravestone
+	Tooltip: ""
+}
+
+SaltGraveMarkerItem: {
+	DisplayName: Salt Grave Marker
+	Tooltip: ""
+}
