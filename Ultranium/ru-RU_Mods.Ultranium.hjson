@@ -1,4 +1,4 @@
-"Keybinds.Special Ability.DisplayName": Special  Ability
+"Keybinds.Special Ability.DisplayName": Особая способность
 
 Event: {
 	Name: Пустотный армагеддон
@@ -50,8 +50,8 @@ Buffs: {
 	}
 
 	EtherealCooldown: {
-		DisplayName: Ethereal Cool Down
-		Description: Xenanis's core is recharging...
+		DisplayName: Эфемерная перезарядка
+		Description: Ядро Ксенаниса перезаряжается...
 	}
 
 	GlowShroomed: {
@@ -268,35 +268,34 @@ Items: {
 	}
 
 	EtherealCore: {
-		DisplayName: Xenanis' Core
+		DisplayName: Ядро Ксенаниса
 		Tooltip:
 			'''
-			Increases all damage and crit by 15% when below half health
-			Press the special ability key to unleash a circle of homing ethereal bolts
-			This ability has a 15 second cooldown when used
+			Увеличивает урон и шанс критического удара на 15%, если ваше здоровье ниже 50%
+			Нажмите клавишу «Особая способность», чтобы выпустить вокруг себя самонаводящиеся эфемерные выстрелы
+			Эта способность имеет 15 секунд перезарядки
 			'''
 	}
 
 	FlayerBrain: {
-		DisplayName: Mind of the Mindflayer
+		DisplayName: Разум Свежателя разума
 		Tooltip:
 			'''
-			10% increased damage and critical strike chance chance
-			You have a chance to dodge enemy attacks and gain longer invincibility when hit
-			Creates an eldritch aura around the player that damages nearby enemies
-			Disabling the visibility will disable the aura
-			however the other bonuses will become buffed
+			Увеличивает урон и шанс критического удара на 10%
+			Даёт шанс уклониться от атаки, а также увеличивает время неуязвимости после получения урона
+			Создаёт вокруг вас потустороннюю ауру, наносящую урон врагам
+			Аура исчезает, если отображение аксессуара отключено, но другие бонусы будут усилены
 			'''
 	}
 
 	GuardianCore: {
-		DisplayName: Guardian's Insignia
+		DisplayName: Инсигния хранителя
 		Tooltip:
 			'''
-			15% increased damage and 10% increased critical strike chance
-			increases max life and max mana by 40
-			+3 max minions
-			20% reduced mana usage
+			Увеличивает урон на 15% и шанс критического удара на 10%
+			Увеличивает максимальный запас здоровья и маны на 40 ед.
+			Увеличивает максимальное количество миньонов на 3
+			Снижает расход маны на 20%
 			'''
 	}
 
@@ -315,16 +314,16 @@ Items: {
 	}
 
 	ShadowHeart: {
-		DisplayName: Heart of Erebus
+		DisplayName: Сердце Эреба
 		Tooltip:
 			'''
-			+60 max life and +30 max mana
-			Grants immunity to the Eldritch Decay debuff
-			Gives bonuses as your health gets lower
-			At 75% health, you gain 15% increased critical strike chance
-			At 50% health, you gain 15% increased damage
-			At 25% health, you gain 15 defense
-			These buffs will stack with each other
+			Увеличивает максимальный запас здоровья на 60 ед. и максимальный запас маны на 30 ед.
+			Даёт невосприимчивость к дебаффу «{$Buffs.DarkDebuff.DisplayName}»
+			Даёт некоторые бонусы, в зависимости от вашего оставшегося здоровья:
+			При здоровье ниже 75%, увеличивает шанс критического удара на 15%
+			При здоровье ниже 50%, увеличивает урон на 15%
+			При здоровье ниже 25%, увеличивает защиту на 15 ед.
+			Все эти эффекты складываются друг с другом
 			'''
 	}
 
@@ -692,7 +691,7 @@ Items: {
 	}
 
 	NightmareFuel: {
-		DisplayName: Nightmare Fuel
+		DisplayName: Кошмарное топливо
 		Tooltip: ""
 	}
 
@@ -782,108 +781,109 @@ Items: {
 	}
 
 	VoidGauntlet: {
-		DisplayName: Void Gauntlet
+		DisplayName: Пустотная рукавица
 		Tooltip:
 			'''
-			15% increased melee damage and knockback
-			12% increased melee speed
-			Melee projectiles inflict the eldritch decay debuff
+			Увеличивает урон и отбрасывание ближнего боя на 15%
+			Увеличивает скорость ближнего боя на 12%
+			Снаряды ближнего боя будут накладывать дебафф «{$Buffs.DarkDebuff.DisplayName}»
 			'''
 	}
 
 	VoidPouch: {
-		DisplayName: Dimensional Ammo Pouch
+		DisplayName: Пространственная патронная сумка
 		Tooltip:
 			'''
-			15% increased ranged damage
-			50% chance to not consume ammo
-			Ranged projectiles inflict the eldritch decay debuff
+			Увеличивает стрелковый урон на 15%
+			Даёт 50% шанс не потратить боеприпасы
+			Стрелковые снаряды будут накладывать дебафф «{$Buffs.DarkDebuff.DisplayName}»
 			'''
 	}
 
 	DarkBody: {
-		DisplayName: Darkmatter Chestmail
+		DisplayName: Нагрудник тёмной материи
 		Tooltip:
 			'''
-			12% increased critical strike chance
-			+10 max life and mana, and +2 max minions
-			5% increased damage reduction
-			Enemies are more likely to target you
+			Увеличивает шанс критического удара на 12%
+			Увеличивает максимальный запас здоровья и маны на 10 ед.
+			Увеличивает максимальное количество миньонов на 2
+			Увеличивает сопротивление урону на 5%
+			Враги будут чаще выбирать вас в качестве цели
 			'''
 	}
 
 	DarkHeadGear: {
-		DisplayName: Darkmatter Headgear
+		DisplayName: Головной убор тёмной материи
 		Tooltip:
 			'''
-			12% increased ranged damage
-			+5 max life
+			Увеличивает стрелковый урон на 12%
+			Увеличивает максимальный запас здоровья на 5 ед.
 			'''
 		SetBonus:
 			'''
 
-			10% increased ranged damage and 20% chance to not consume ammo
-			+10 max health
-			Pressing the Special Ability hotkey will grant you the eldritch ranger empowerment buff
-			This buff will cause all ranged weapons to deal 1.3x damage,
-			and a 25% chance to not consume ammo
-			This ability has a 40 second cool down
+			Увеличивает стрелковый урон на 10% и даёт 20% шанс не потратить боеприпасы
+			Увеличивает максимальный запас здоровья на 10 ед.
+			Нажмите клавишу «Особая способность», чтобы получить бафф «{$Buffs.EldritchRangedBuff.DisplayName}»
+			Этот бафф увеличивает урон стрелкового оружия в 1,3 раза, а также даёт 25% шанс не потратить боеприпасы
+			Эта способность имеет 40 секунд перезарядки
 			'''
 	}
 
 	DarkHelm: {
-		DisplayName: Darkmatter Helmet
+		DisplayName: Шлем тёмной материи
 		Tooltip:
 			'''
-			12% increased melee damage
-			+5 max life
+			Увеличивает урон ближнего боя на 12%
+			Увеличивает максимальный запас здоровья на 5 ед.
 			'''
 		SetBonus:
 			'''
 
-			10% increased melee damage and melee speed
-			+10 max health
-			Pressing the Special Ability hotkey will grant you the eldritch melee empowerment buff
-			This buff will cause all melee weapons to deal 1.5x damage
-			However, you will also take 1.3x damage
-			This ability has a 40 second cool down
+			Увеличивает урон и скорость атаки ближнего боя на 10%
+			Увеличивает максимальный запас здоровья на 10 ед.
+			Нажмите клавишу «Особая способность», чтобы получить бафф «{$Buffs.EldritchMeleeBuff.DisplayName}»
+			Этот бафф увеличивает урон оружия ближнего боя в 1,5 раза, но вы также будете получать в 1,3 раза больше урона
+			Эта способность имеет 40 секунд перезарядки
 			'''
 	}
 
 	DarkHood: {
-		DisplayName: Darkmatter Hood
+		DisplayName: Капюшон тёмной материи
 		Tooltip:
 			'''
-			12% increased magic damage
-			+5 max life and +10 max mana
+			Увеличивает магический урон на 12%
+			Увеличивает максимальный запас здоровья на 5 ед. и максимальный запас маны на 10 ед.
 			'''
 		SetBonus:
 			'''
 
-			10% increased magic damage and 20% reduced mana usage
-			+10 max health and mana
-			Pressing the Special Ability hotkey will grant you the eldritch magic empowerment buff
+			Увеличивает магический урон на 10% и снижает расход маны на 20%
+			Увеличивает максимальный запас здоровья и маны на 10 ед.
+			Нажмите клавишу «Особая способность», чтобы получить бафф «{$Buffs.EldritchMagicBuff.DisplayName}»
 			This buff will cause all magic weapons to deal 1.3x damage,
 			and makes magic weapons cost no mana
-			This ability has a 40 second cool down
+			Эта способность имеет 40 секунд перезарядки
 			'''
 	}
 
 	DarkLegs: {
-		DisplayName: Darkmatter Leggings
+		DisplayName: Поножи тёмной материи
 		Tooltip:
 			'''
-			+10 max mana and +1 max minions
-			8% increased melee speed and 12% increased movement speed
+			Увеличивает максимальный запас маны на 10 ед.
+			Увеличивает максимальное количество миньонов на 1
+			Увеличивает скорость ближнего боя на 8% и скорость передвижения на 12%
 			'''
 	}
 
 	DarkMask: {
-		DisplayName: Darkmatter Mask
+		DisplayName: Маска тёмной материи
 		Tooltip:
 			'''
-			8% increased summon damage
-			+5 max life and mana, and +2 max minions
+			Увеличивает урон призывателя на 8%
+			Увеличивает максимальный запас здоровья и маны на 5 ед.
+			Увеличивает максимальное количество миньонов на 2
 			'''
 		SetBonus:
 			'''

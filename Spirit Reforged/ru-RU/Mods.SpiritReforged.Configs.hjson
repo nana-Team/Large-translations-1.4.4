@@ -1,16 +1,6 @@
 ReforgedClientConfig: {
 	DisplayName: Клиентская конфигурация
 
-	OceanShape: {
-		Label: Генерация океана
-		Tooltip:
-			'''
-			Определяет способ генерации океана.
-			По умолчанию используется тип «Кусочная_V».
-			Генерация «Кусочная_V» рекомендуется для игры в Spirit.
-			'''
-	}
-
 	ReflectionDetail: {
 		Label: Детализация отражений
 		Tooltip:
@@ -27,42 +17,24 @@ ReforgedClientConfig: {
 
 	ScreenshakeStrength: {
 		Label: Множитель силы тряски экрана
-		Tooltip: Определяет уровень силы тряси экрана, создаваемой контентом Reforged.
+		Tooltip: Определяет уровень силы тряски экрана, создаваемой контентом Reforged.
 	}
 
 	DisableWater: {
 		Label: Отключить эффекты воды
 		Tooltip: Отключает все визуальные эффекты воды, добавляемые Reforged.
 	}
-}
 
-OceanShape: {
-	Tooltip: ""
-
-	Default: {
-		Label: Стандартная
-		Tooltip: ""
+	DebugEcotones: {
+		Label: Отладка экотонов в WorldGen Previewer
+		Tooltip:
+			'''
+			ТОЛЬКО с модом WorldGen Previewer.
+			Позволяет отлаживать проблемы с экотонами и лучше понимать их работу с помощью наглядного оверлея.
+			'''
 	}
 
-	SlantedSine: {
-		Label: Наклонная синусоида
-		Tooltip: ""
-	}
-
-	Piecewise: {
-		Label: Кусочная
-		Tooltip: ""
-	}
-
-	Piecewise_M: {
-		Label: Кусочная_M
-		Tooltip: ""
-	}
-
-	Piecewise_V: {
-		Label: Кусочная_V
-		Tooltip: ""
-	}
+	Headers.Developer: Для разработчиков
 }
 
 ReforgedServerConfig: {

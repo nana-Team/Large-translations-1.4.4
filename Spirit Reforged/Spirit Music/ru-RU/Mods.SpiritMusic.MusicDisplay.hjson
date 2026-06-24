@@ -1,0 +1,91 @@
+ModName: Spirit Music
+Salvati: Salvati
+Sbubby: Sbubby
+By: от
+BySalvati: "{$By} {$Salvati}"
+BySbubby: "{$By} {$Sbubby}"
+
+Blizzard: {
+	DisplayName: Метель: Shivering Storms
+	Author: "{$BySalvati}"
+}
+
+CorruptNight: {
+	DisplayName: Ночное искажение: Nightmare Fuel
+	Author: "{$BySalvati} и {$Sbubby}"
+}
+
+CrimsonNight: {
+	DisplayName: Ночной багрянец: Carnage Domain
+	Author: "{$BySbubby}"
+}
+
+DesertNight: {
+	DisplayName: Ночная пустыня: Kempt Dunes
+	Author: "{$BySalvati}"
+}
+
+FrostLegion: {
+	DisplayName: Морозный легион: Tougher Chill
+	Author: "{$BySalvati}"
+}
+
+Granite: {
+	DisplayName: Гранитная пещера: Resounding Stones
+	Author: "{$BySalvati}"
+}
+
+HallowNight: {
+	DisplayName: Ночное освящение: Wonderous Landscape
+	Author: "{$BySalvati}"
+}
+
+MarbleBiome: {
+	DisplayName: Мраморная пещера: Regal Tunnel
+	Author: "{$BySalvati}"
+}
+
+Meteor: {
+	DisplayName: Метеорит: Space Rocks!
+	Author: "{$BySalvati}"
+}
+
+SnowNight: {
+	DisplayName: Ночные снега: Icy Stars
+	Author: "{$BySalvati}"
+}
+
+SpiderCave: {
+	DisplayName: Паучье гнездо: Xyresic Horrors
+	Author: "{$BySalvati}"
+}
+
+SkeletronPrime: {
+	DisplayName: Скелетрон Прайм: Thermite Assault
+	Author: "{$BySalvati} и {$Sbubby}"
+}
+
+LavaLayer: {
+	DisplayName: Уровень лавы: Magmatic Depths
+	Author: "{$BySbubby}"
+}
+
+NeonMoss: {
+	DisplayName: Пещера светящегося мха: Radiant Grotto
+	Author: "{$BySbubby}"
+}
+
+TownUnderground: {
+	DisplayName: Пещерный город: Subsurface Settlement
+	Author: "{$BySbubby}"
+}
+
+VictoryDay: {
+	DisplayName: День победы: Adventurer's Triumph
+	Author: "{$BySalvati}"
+}
+
+OtherworldBlizzard: {
+	DisplayName: Иномирная метель: Otherworldly Blizzard
+	Author: "{$By} Soba Noodles"
+}

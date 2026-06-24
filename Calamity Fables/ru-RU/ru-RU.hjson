@@ -464,7 +464,7 @@ Mods: {
 			}
 
 			RoverSpawner: {
-				DisplayName: Голограмма скитальца
+				DisplayName: Голограмма вездехода
 				Tooltip: ""
 			}
 
@@ -1071,7 +1071,7 @@ Mods: {
 			}
 
 			RoverDrive: {
-				DisplayName: Привод скитальца
+				DisplayName: Электропривод вездехода
 				Tooltip:
 					'''
 					Активирует защитную матрицу, поглощающую суммарно до 50 ед. урона и увеличивающую защиту на 10 ед.
@@ -1246,7 +1246,7 @@ Mods: {
 			}
 
 			WulfrumRoverBannerItem: {
-				DisplayName: Знамя вульфрумового скитальца
+				DisplayName: Знамя вульфрумового вездехода
 				Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.WulfrumRover.DisplayName}"
 			}
 
@@ -2114,8 +2114,8 @@ Mods: {
 			}
 
 			WulfrumRoverPosterItem: {
-				DisplayName: Вульфрумовый постер «Скиталец»
-				Tooltip: «Держи друзей близко, а Скитальца™ — ещё ближе!»
+				DisplayName: Вульфрумовый постер «Вездеход»
+				Tooltip: «Держи друзей близко, а Вездеход™ — ещё ближе!»
 			}
 
 			WulfrumSinkItem: {
@@ -2637,7 +2637,7 @@ Mods: {
 			WulfrumMortar.DisplayName: Вульфрумовый миномётчик
 			WulfrumNexus.DisplayName: Вульфрумовый узел связи
 			WulfrumRoller.DisplayName: Вульфрумовый каток
-			WulfrumRover.DisplayName: Вульфрумовый скиталец
+			WulfrumRover.DisplayName: Вульфрумовый вездеход
 			WulfrumElevatorPlatform.DisplayName: ""
 			RustyWulfrumElevatorPlatform.DisplayName: ""
 			SandstormSprite.DisplayName: Дух песчаной бури
