@@ -263,15 +263,15 @@ GraniteCore: {
 	Entry: Pent up energy that was once trapped inside the rocky, amorphous form of a Granite Slime. Now it's free, and it's about to go critical!
 }
 
-BlueAlgae1.DisplayName: Blue Algae
-BlueAlgae2.DisplayName: Blue Algae
-BlueAlgae3.DisplayName: Blue Algae
-GreenAlgae1.DisplayName: Bioluminescent Algae
-GreenAlgae2.DisplayName: Bioluminescent Algae
-GreenAlgae3.DisplayName: Bioluminescent Algae
-PurpleAlgae1.DisplayName: Bioluminescent Algae
-PurpleAlgae2.DisplayName: Bioluminescent Algae
-PurpleAlgae3.DisplayName: Bioluminescent Algae
+BlueAlgae1.DisplayName: Синие водоросли
+BlueAlgae2.DisplayName: Синие водоросли
+BlueAlgae3.DisplayName: Синие водоросли
+GreenAlgae1.DisplayName: Биолюминесцентные водоросли
+GreenAlgae2.DisplayName: Биолюминесцентные водоросли
+GreenAlgae3.DisplayName: Биолюминесцентные водоросли
+PurpleAlgae1.DisplayName: Биолюминесцентные водоросли
+PurpleAlgae2.DisplayName: Биолюминесцентные водоросли
+PurpleAlgae3.DisplayName: Биолюминесцентные водоросли
 
 AtlanticCod: {
 	DisplayName: Atlantic Cod
@@ -354,8 +354,8 @@ GoldenCarp: {
 }
 
 GoldLumoth: {
-	DisplayName: Gold Lumoth
-	Entry: Rarely, critters are found coated entirely in gold! Shopkeepers will pay handsomely for these, or you can show them off in cages!
+	DisplayName: Золотой люмос
+	Entry: "{$CommonBestiaryFlavor.GoldCritter}"
 }
 
 Grouper: {
@@ -389,8 +389,8 @@ Lardfish: {
 }
 
 Lumoth: {
-	DisplayName: Lumoth
-	Entry: The bulb only stays on while the Lumoth flaps its wings.
+	DisplayName: Люмос
+	Entry: Лампочка горит только пока люмос машет своими крыльями.
 }
 
 Luvdisc: {
@@ -409,8 +409,8 @@ NeonTetra: {
 }
 
 Crinoid: {
-	DisplayName: Crinoid
-	Entry: These curious critters are closely related to starfish. They feed off of whatever sinks down to the bottom of the sea.
+	DisplayName: Морская лилия
+	Entry: Эти любопытные создания — близкие родственники морских звёзд. Они питаются всем, что оседает на морском дне.
 }
 
 Floater.DisplayName: Luminous Floater
@@ -476,8 +476,8 @@ Swordfish: {
 }
 
 TinyCrab: {
-	DisplayName: Palecrab
-	Entry: These adorable little critters are not as hostile as their larger relatives. Living in deeper waters has made them lose coloration since they have less exposure to sunlight.
+	DisplayName: Бледный краб
+	Entry: Эти крошечные крабы куда дружелюбнее своих крупных сородичей. Жизнь в тёмных глубинах лишила их окраски, поскольку солнечный свет туда почти не попадает.
 }
 
 Toxikarp: {
@@ -784,8 +784,8 @@ PlagueDoctor: {
 }
 
 Pokey_Body: {
-	DisplayName: Stactus
-	Entry: Stack a pack of cactus, now you got a stactus. Kick the stactus over, now you got a cactus. What does it all mean? Not entirely sure.
+	DisplayName: Стактус
+	Entry: Возьми стак кактусов, получится стактус. Пни стактус, и теперь у тебя снова кактусы. Что это значит? Кто его знает.
 }
 
 Teratoma: {
@@ -954,60 +954,60 @@ StymphalianBat: {
 }
 
 Crocomount: {
-	DisplayName: Crocosaur
-	Entry: A reptilian biped, tamed by the Kakamora and used for riding into battle. High-ho silver, away!
+	DisplayName: Крокозавр
+	Entry: Двуногая рептилия, приручённая какаморами в качестве боевого скакуна. По коням!
 }
 
 KakamoraParachuter: {
-	DisplayName: Kakamora Windglider
-	Entry: Any army needs air support! Only the strongest, glidiest palm leaves are selected for use by Kakamora Windgliders.
+	DisplayName: Какамора-планерист
+	Entry: Любой армии нужна поддержка с воздуха! Для какамор-планеристов отбираются только самые крепкие и лёгкие пальмовые листья.
 }
 
-KakamoraRider.DisplayName: Kakamoran Rider
+KakamoraRider.DisplayName: Какамора-планерист
 
 KakamoraRunner: {
-	DisplayName: Kakamora
-	Entry: A general, run of the mill Karamora soldier. They have no specializations, but make for good foot soldiers.
+	DisplayName: Какамора
+	Entry: Ничем не примечательный воин Какамора. У них нет особой специализации, но из них получаются отличные пехотинцы.
 }
 
 KakamoraShaman: {
-	DisplayName: Kakamora Shaman
-	Entry: Pint-sized mystics that attack using the arcane arts. They double as healers for their nearby Kakamora companions.
+	DisplayName: Какамора-шаман
+	Entry: Крошечные мистицисты, атакующие с помощью тайных искусств. Они также выполняют роль целителей для своих сородичей.
 }
 
 KakamoraShielder: {
-	DisplayName: Kakamora Shielder
-	Entry: A brave little nut kitted with a shield and protective headgear, they protect the less aggressive Kakamora from harm.
+	DisplayName: Какамора-щитоносец
+	Entry: Маленький, но храбрый орех. Со своим щитом и шлемом, он защищает менее оснащённых какамор от ударов.
 }
 
 KakamoraShielderRare: {
-	DisplayName: Kakamora Guard
-	Entry: A brave little nut kitted out with a shield and protective headgear, they protect the less aggressive Kakamora from harm.
+	DisplayName: Какамора-страж
+	Entry: Маленький, но храбрый орех. Со своим щитом и шлемом, он защищает менее оснащённых какамор от ударов.
 }
 
 LargeCrustecean: {
-	DisplayName: Bubble Brute
-	Entry: We're on a baby hunt. And don't think we don't know how to weed em' out.
+	DisplayName: Пузырьковый громила
+	Entry: Имейте в виду, у нас тут малышей на раз вычисляют.
 }
 
 MangoJelly: {
-	DisplayName: Mang-O War
-	Entry: Small, airborne marine life. While named after their fruity smell and vibrant color, they are not in fact sweet.
+	DisplayName: Манговый вояка
+	Entry: Маленькое летающее морское существо. Названо так из-за фруктового аромата и яркой окраски — хотя на самом деле оно совсем не сладкое.
 }
 
 Rylheian: {
-	DisplayName: R'lyehian
-	Entry: The maker of tides and caller of storms! They're a wicked elderly lich who's taken charge of the Kakamora Army.
+	DisplayName: Р'льехиец
+	Entry: Повелитель приливов и призыватель бурь! Это злобный древний лич, взявший под своё командование армию Какамора.
 }
 
 SpearKakamora: {
-	DisplayName: Kakamora Lobber
-	Entry: These Kakamora specialize in throwing coconuts for long...ish...distance battles.
+	DisplayName: Какамора-метатель
+	Entry: Эти какамора специализируются на метании кокосов в бою на... ну, скажем так... приличной дистанции.
 }
 
 SwordKakamora: {
-	DisplayName: Kakamora Bruiser
-	Entry: A Kakamora warrior with a nasty peel out! A bruiser lives up to their name, getting up close and personal while dishing out the pain.
+	DisplayName: Какамора-громила
+	Entry: Воин Какамора с по-настоящему жёсткой скорлупой! Громила полностью оправдывает своё имя, приближаясь вплотную к врагу и щедро раздавая болезненные удары.
 }
 
 Adventurer: {

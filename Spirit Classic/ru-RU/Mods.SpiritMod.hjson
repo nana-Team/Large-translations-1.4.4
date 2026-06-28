@@ -334,25 +334,25 @@ Events: {
 		OnStart: Strange jellyfish are raining from the sky!
 	}
 
-	LuminousOcean.OnStart: A glow blooms over the ocean...
+	LuminousOcean.OnStart: Океан озаряется свечением...
 	BloodMoon.DayTime: The Blood Moon only emerges at night.
 	StarjinxSummon: An enchanted comet has appeared in the sky!
 
 	TheTide: {
-		BossChecklistIntegration.Condition: Use a [i:SpiritMod/BlackPearl] at the Ocean at any time.
-		OnEnd: The Tide has waned!
-		NotOcean: The Tide only ebbs by the calm of the sea.
-		AlreadyActive: The Tide's already come in!
-		Wave: "Wave {0} : "
+		BossChecklistIntegration.Condition: Используйте [i:SpiritMod/BlackPearl] в океане.
+		OnEnd: Прилив отступает!
+		NotOcean: Прилив приступает лишь у безмятежного моря.
+		AlreadyActive: Прилив уже начался!
+		Wave: "Волна {0}: "
 	}
 
 	Starjinx.Wave: Wave Progress : {0}%
 }
 
 BossChecklistIntegration: {
-	JellyDeluge.EntryName: Jelly Deluge
-	TheTide.EntryName: The Tide
-	MysticMoon.EntryName: Mystic Moon
+	JellyDeluge.EntryName: Медузное наводнение
+	TheTide.EntryName: Прилив
+	MysticMoon.EntryName: Таинственная луна
 }
 
 MapObject: {

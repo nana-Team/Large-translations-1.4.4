@@ -1,41 +1,41 @@
 AsteroidBiome: {
-	DisplayName: Asteroids
-	TownNPCDialogueName: the Asteroid Biome
+	DisplayName: Поле астероидов
+	TownNPCDialogueName: Поле астероидов
 }
 
 BriarSurfaceBiome: {
-	DisplayName: Briar
-	TownNPCDialogueName: the Briar Surface Biome
+	DisplayName: Терновник
+	TownNPCDialogueName: Терновник
 }
 
 BriarUndergroundBiome: {
-	DisplayName: Underground Briar
-	TownNPCDialogueName: the Briar Underground Biome
+	DisplayName: Подземный терновник
+	TownNPCDialogueName: Подземный терновник
 }
 
 JellyDelugeBiome: {
-	DisplayName: Jelly Deluge
-	TownNPCDialogueName: the Jelly Deluge Biome
+	DisplayName: Медузное наводнение
+	TownNPCDialogueName: Медузное наводнение
 }
 
 MysticMoonBiome: {
-	DisplayName: Mystic Moon
-	TownNPCDialogueName: the Mystic Moon Biome
+	DisplayName: Таинственная луна
+	TownNPCDialogueName: Таинственная луна
 }
 
 TideBiome: {
-	DisplayName: The Tide
-	TownNPCDialogueName: the Tide Biome
+	DisplayName: Прилив
+	TownNPCDialogueName: Прилив
 }
 
 SpiritSurfaceBiome: {
-	DisplayName: Spirit
-	TownNPCDialogueName: the Spirit Surface Biome
+	DisplayName: Лес духов
+	TownNPCDialogueName: Лес духов
 }
 
 SpiritUndergroundBiome: {
-	DisplayName: Underground Spirit
-	TownNPCDialogueName: the Spirit Underground Biome
+	DisplayName: Подземелье духов
+	TownNPCDialogueName: Подземелье духов
 }
 
 SynthwaveSurfaceBiome: {

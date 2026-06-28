@@ -343,12 +343,12 @@ LongFuse: {
 }
 
 LumothLantern: {
-	DisplayName: Luminous Lantern
+	DisplayName: Люминесцентный фонарь
 	Tooltip:
 		'''
-		Provides bright light
-		Works in the vanity slot, but less effectively
-		'Adventure into the deepest caverns with a trusty lightsource!'
+		Излучает яркий свет
+		Также работает в ячейках для украшений, но менее эффективно
+		«Исследуйте самые глубокие пещеры с надёжным источником света!»
 		'''
 }
 
@@ -743,18 +743,18 @@ BeekeeperLegs: {
 }
 
 BotanistBody: {
-	DisplayName: Botanist Apron
+	DisplayName: Фартук ботаника
 	Tooltip: ""
 }
 
 BotanistHat: {
-	DisplayName: Sunflower Strawhat
-	Tooltip: Keeps you happy
+	DisplayName: Соломенная шляпа с подсолнухом
+	Tooltip: Поднимает настроение
 }
 
 BotanistLegs: {
-	DisplayName: Botanist Joggers
-	Tooltip: 10% increased move speed
+	DisplayName: Штаны ботаника
+	Tooltip: Увеличивает скорость передвижения на 10%
 }
 
 CapacitorBody: {
@@ -833,18 +833,18 @@ CowboyLegs: {
 }
 
 DaybloomBody: {
-	DisplayName: Sunflower Garb
-	Tooltip: Increases magic damage by 1
+	DisplayName: Наряд из подсолнуха
+	Tooltip: Увеличивает магический урон на 1 ед.
 }
 
 DaybloomHead: {
-	DisplayName: Sunflower Hat
-	Tooltip: Increases maximum mana by 20
+	DisplayName: Шляпа из подсолнуха
+	Tooltip: Увеличивает максимальный запас маны на 20 ед.
 }
 
 DaybloomLegs: {
-	DisplayName: Sunflower Leggings
-	Tooltip: 4% increased magic critical strike chance
+	DisplayName: Штаны из подсолнуха
+	Tooltip: Увеличивает шанс магического критического удара на 4%
 }
 
 DiverBody: {
@@ -1217,7 +1217,7 @@ BriarthornSlimeBanner: {
 }
 
 BubbleBruteBanner: {
-	DisplayName: Bubble Brute Banner
+	DisplayName: Знамя пузырькового громилы
 	Tooltip: ""
 }
 
@@ -1247,7 +1247,7 @@ CracklingCoreBanner: {
 }
 
 CrocosaurBanner: {
-	DisplayName: Crocosaur Banner
+	DisplayName: Знамя крокозавра
 	Tooltip: ""
 }
 
@@ -1407,37 +1407,37 @@ IronCrateMimicBanner: {
 }
 
 KakamoraBanner: {
-	DisplayName: Kakamora Banner
+	DisplayName: Знамя какаморы
 	Tooltip: ""
 }
 
 KakamoraBruteBanner: {
-	DisplayName: Kakamora Bruiser Banner
+	DisplayName: Знамя какаморы-громилы
 	Tooltip: ""
 }
 
 KakamoraGliderBanner: {
-	DisplayName: Kakamora Windglider Banner
+	DisplayName: Знамя какаморы-планериста
 	Tooltip: ""
 }
 
 KakamoraShamanBanner: {
-	DisplayName: Kakamora Shaman Banner
+	DisplayName: Знамя какаморы-шамана
 	Tooltip: ""
 }
 
 KakamoraShielderBanner: {
-	DisplayName: Kakamora Shielder Banner
+	DisplayName: Знамя какаморы-щитоносца
 	Tooltip: ""
 }
 
 KakamoraShielderBanner1: {
-	DisplayName: Kakamora Guard Banner
+	DisplayName: Знамя какаморы-стража
 	Tooltip: ""
 }
 
 KakamoraThrowerBanner: {
-	DisplayName: Kakamora Lobber Banner
+	DisplayName: Знамя какаморы-метателя
 	Tooltip: ""
 }
 
@@ -1462,7 +1462,7 @@ MadHatterBanner: {
 }
 
 MangoWarBanner: {
-	DisplayName: Mang O' War Banner
+	DisplayName: Знамя мангового вояки
 	Tooltip: ""
 }
 
@@ -1537,7 +1537,7 @@ PirateLobberBanner: {
 }
 
 PokeyBanner: {
-	DisplayName: Stactus Banner
+	DisplayName: Знамя стактуса
 	Tooltip: ""
 }
 
@@ -1552,7 +1552,7 @@ ReachmanBanner: {
 }
 
 RlyehianBanner: {
-	DisplayName: R'lyehian Banner
+	DisplayName: Знамя Р'льехийца
 	Tooltip: ""
 }
 
@@ -2820,12 +2820,12 @@ SpiritPylonItem: {
 }
 
 BlackPearl: {
-	DisplayName: Seabreak Pearl
+	DisplayName: Жемчужина морского прибоя
 	Tooltip:
 		'''
-		'Coveted by ancient horrors...'
-		Summons The Tide
-		Can only be used near the ocean
+		«Давно желанная добыча ужасов древности...»
+		Призывает Прилив
+		Можно использовать только рядом с океаном
 		'''
 }
 
@@ -2874,7 +2874,7 @@ CleftItem: {
 }
 
 CrinoidItem: {
-	DisplayName: Crinoid
+	DisplayName: Морская лилия
 	Tooltip: ""
 }
 
@@ -2959,8 +2959,8 @@ RawFish: {
 }
 
 SteamedMussels: {
-	DisplayName: Steamed Mussels
-	Tooltip: Minor improvements to all stats
+	DisplayName: Мидии на пару
+	Tooltip: "{$BuffDescription.WellFed}"
 }
 
 FloaterItem: {
@@ -2969,8 +2969,12 @@ FloaterItem: {
 }
 
 AcornCake: {
-	DisplayName: Acorn Cake
-	Tooltip: "'If you're really hungry, go for it'"
+	DisplayName: Желудёвый пирог
+	Tooltip:
+		'''
+		{$BuffDescription.WellFed}
+		«Возможно, получше чем суп из топора»
+		'''
 }
 
 Baguette: {
@@ -3058,12 +3062,12 @@ Meatballs: {
 }
 
 Nigiri: {
-	DisplayName: Nigiri
+	DisplayName: Нигири
 	Tooltip:
 		'''
-		Minor improvements to all stats
-		Provides free movement in water
-		'The perfect cut'
+		{$BuffDescription.WellFed}
+		Позволяет свободно передвигаться в жидкостях
+		«Точное искусство»
 		'''
 }
 
@@ -3102,12 +3106,12 @@ RockCandy: {
 }
 
 Sushi: {
-	DisplayName: Sushi
+	DisplayName: Суши
 	Tooltip:
 		'''
-		Minor improvements to all stats
-		Provides underwater breathing
-		'Cold and fresh!'
+		{$BuffDescription.WellFed}
+		Позволяет дышать под водой
+		«Холодные и свежие!»
 		'''
 }
 
@@ -3135,8 +3139,8 @@ GladeWreath: {
 }
 
 GoldLumothItem: {
-	DisplayName: Gold Lumoth
-	Tooltip: "'It glimmers beautifully'"
+	DisplayName: Золотой люмос
+	Tooltip: «Завораживающе сияет»
 }
 
 GulperItem: {
@@ -3165,8 +3169,8 @@ JewelCrown: {
 }
 
 LumothItem: {
-	DisplayName: Lumoth
-	Tooltip: "'Mechanically stunning'"
+	DisplayName: Люмос
+	Tooltip: «Удивительное устройство»
 }
 
 LuvdiscItem: {
@@ -3274,8 +3278,8 @@ MushroomPotion: {
 }
 
 PinkPotion: {
-	DisplayName: Jump Potion
-	Tooltip: Greatly increases jump height
+	DisplayName: Зелье прыжка
+	Tooltip: Значительно увеличивает высоту прыжка
 }
 
 RunePotion: {
@@ -3491,7 +3495,7 @@ SurrenderBell: {
 }
 
 TinyCrabItem: {
-	DisplayName: Palecrab
+	DisplayName: Бледный краб
 	Tooltip: ""
 }
 
@@ -3657,8 +3661,8 @@ DynastyFan: {
 }
 
 KelpHook: {
-	DisplayName: Kelp Hook
-	Tooltip: Provides faster mobility when underwater
+	DisplayName: Крюк из ламинарии
+	Tooltip: Работает быстрее под водой
 }
 
 MagnetHook: {
@@ -4051,8 +4055,8 @@ Taffy: {
 }
 
 Brightbulb: {
-	DisplayName: Brightbulb
-	Tooltip: "'Intricate and versatile'"
+	DisplayName: Яркая лампочка
+	Tooltip: «Затейливая и универсальная»
 }
 
 Canvas: {
@@ -4716,11 +4720,11 @@ OccultistMap: {
 }
 
 OldTelescope: {
-	DisplayName: Old Telescope
+	DisplayName: Старый телескоп
 	Tooltip:
 		'''
-		Right click when placed to check the phase of the moon
-		'Look toward the stars'
+		Нажмите ПКМ, чтобы узнать текущую фазу луны
+		«Устреми взор к звёздам»
 		'''
 }
 
@@ -5144,22 +5148,22 @@ StarplatePainting: {
 }
 
 StreamScaleBench: {
-	DisplayName: Stream Scale Work Bench
+	DisplayName: Верстак из чешуи потока
 	Tooltip: ""
 }
 
 StreamScaleCandle: {
-	DisplayName: Stream Scale Candle
+	DisplayName: Свеча из чешуи потока
 	Tooltip: ""
 }
 
 StreamScaleChair: {
-	DisplayName: Stream Scale Chair
+	DisplayName: Стул из чешуи потока
 	Tooltip: ""
 }
 
 StreamScaleLantern: {
-	DisplayName: Stream Scale Lantern
+	DisplayName: Фонарь из чешуи потока
 	Tooltip: ""
 }
 
@@ -5229,197 +5233,197 @@ JumpPadItem: {
 }
 
 AshfallBox: {
-	DisplayName: Music Box (Ashfall)
+	DisplayName: Музыкальная шкатулка (Ashfall)
 	Tooltip: ""
 }
 
 AsteroidBox: {
-	DisplayName: Music Box (Asteroid Field)
+	DisplayName: Музыкальная шкатулка (Asteroid Field)
 	Tooltip: ""
 }
 
 AtlasBox: {
-	DisplayName: Music Box (Atlas)
+	DisplayName: Музыкальная шкатулка (Atlas)
 	Tooltip: ""
 }
 
 AuroraBox: {
-	DisplayName: Music Box (Aurora)
+	DisplayName: Музыкальная шкатулка (Aurora)
 	Tooltip: ""
 }
 
 AvianBox: {
-	DisplayName: Music Box (Ancient Avian)
+	DisplayName: Музыкальная шкатулка (Ancient Avian)
 	Tooltip: ""
 }
 
 BlizzardBox: {
-	DisplayName: Music Box (Blizzard)
+	DisplayName: Музыкальная шкатулка (Blizzard)
 	Tooltip: ""
 }
 
 BlueMoonBox: {
-	DisplayName: Music Box (Mystic Moon)
+	DisplayName: Музыкальная шкатулка (Mystic Moon)
 	Tooltip: ""
 }
 
 BriarNightBox: {
-	DisplayName: Music Box (The Briar- Nighttime)
+	DisplayName: Музыкальная шкатулка (The Briar- Nighttime)
 	Tooltip: ""
 }
 
 BriarUndergroundBox: {
-	DisplayName: Music Box (The Briar- Underground)
+	DisplayName: Музыкальная шкатулка (The Briar- Underground)
 	Tooltip: ""
 }
 
 CalmNightBox: {
-	DisplayName: Music Box (Calm Nights)
+	DisplayName: Музыкальная шкатулка (Calm Nights)
 	Tooltip: ""
 }
 
 CorruptNightBox: {
-	DisplayName: Music Box (Corruption- Night)
+	DisplayName: Музыкальная шкатулка (Corruption- Night)
 	Tooltip: ""
 }
 
 CrimsonNightBox: {
-	DisplayName: Music Box (Crimson- Night)
+	DisplayName: Музыкальная шкатулка (Crimson- Night)
 	Tooltip: ""
 }
 
 DesertNightBox: {
-	DisplayName: Music Box (Desert- Night)
+	DisplayName: Музыкальная шкатулка (Desert- Night)
 	Tooltip: ""
 }
 
 FrostLegionBox: {
-	DisplayName: Music Box (Frost Legion)
+	DisplayName: Музыкальная шкатулка (Frost Legion)
 	Tooltip: ""
 }
 
 GraniteBox: {
-	DisplayName: Music Box (Granite Caverns)
+	DisplayName: Музыкальная шкатулка (Granite Caverns)
 	Tooltip: ""
 }
 
 HallowNightBox: {
-	DisplayName: Music Box (Hallow- Night)
+	DisplayName: Музыкальная шкатулка (Hallow- Night)
 	Tooltip: ""
 }
 
 HyperspaceDayBox: {
-	DisplayName: Music Box (Hyperspace- Day)
+	DisplayName: Музыкальная шкатулка (Hyperspace- Day)
 	Tooltip: ""
 }
 
 InfernonBox: {
-	DisplayName: Music Box (Infernon)
+	DisplayName: Музыкальная шкатулка (Infernon)
 	Tooltip: ""
 }
 
 JellyDelugeBox: {
-	DisplayName: Music Box (Jelly Deluge)
+	DisplayName: Музыкальная шкатулка (Jelly Deluge)
 	Tooltip: ""
 }
 
 LuminousNightBox: {
-	DisplayName: Music Box (Luminous Ocean)
+	DisplayName: Музыкальная шкатулка (Luminous Ocean)
 	Tooltip: ""
 }
 
 MarbleBox: {
-	DisplayName: Music Box (Marble Caverns)
+	DisplayName: Музыкальная шкатулка (Marble Caverns)
 	Tooltip: ""
 }
 
 MeteorBox: {
-	DisplayName: Music Box (Meteor)
+	DisplayName: Музыкальная шкатулка (Meteor)
 	Tooltip: ""
 }
 
 MJWBox: {
-	DisplayName: Music Box (Moon Jelly Wizard)
+	DisplayName: Музыкальная шкатулка (Moon Jelly Wizard)
 	Tooltip: ""
 }
 
 NeonMusicBox: {
-	DisplayName: Music Box (Hyperspace- Night)
+	DisplayName: Музыкальная шкатулка (Hyperspace- Night)
 	Tooltip: ""
 }
 
 OceanDepthsBox: {
-	DisplayName: Music Box (Ocean- Depths)
+	DisplayName: Музыкальная шкатулка (Ocean- Depths)
 	Tooltip: ""
 }
 
 ReachBox: {
-	DisplayName: Music Box (The Briar- Daytime)
+	DisplayName: Музыкальная шкатулка (The Briar- Daytime)
 	Tooltip: ""
 }
 
 ScarabBox: {
-	DisplayName: Music Box (Scarabeus)
+	DisplayName: Музыкальная шкатулка (Scarabeus)
 	Tooltip: ""
 }
 
 SnowNightBox: {
-	DisplayName: Music Box (Snow Biome- Nighttime)
+	DisplayName: Музыкальная шкатулка (Snow Biome- Nighttime)
 	Tooltip: ""
 }
 
 SpiderCaveBox: {
-	DisplayName: Music Box (Spider Caves)
+	DisplayName: Музыкальная шкатулка (Spider Caves)
 	Tooltip: ""
 }
 
 SpiritBox1: {
-	DisplayName: Music Box (Spirit Biome- Overworld)
+	DisplayName: Музыкальная шкатулка (Spirit Biome- Overworld)
 	Tooltip: ""
 }
 
 SpiritBox2: {
-	DisplayName: Music Box (Spirit Biome- Underground)
+	DisplayName: Музыкальная шкатулка (Spirit Biome- Underground)
 	Tooltip: ""
 }
 
 SpiritBox3: {
-	DisplayName: Music Box (Spirit Biome- Deep Underground)
+	DisplayName: Музыкальная шкатулка (Spirit Biome- Deep Underground)
 	Tooltip: ""
 }
 
 SpiritBox4: {
-	DisplayName: Music Box (Spirit Biome- Depths)
+	DisplayName: Музыкальная шкатулка (Spirit Biome- Depths)
 	Tooltip: ""
 }
 
 StarplateBox: {
-	DisplayName: Music Box (Starplate Voyager)
+	DisplayName: Музыкальная шкатулка (Starplate Voyager)
 	Tooltip: ""
 }
 
 TideBox: {
-	DisplayName: Music Box (The Tide)
+	DisplayName: Музыкальная шкатулка (Прилив)
 	Tooltip: ""
 }
 
 TranquilWindsBox: {
-	DisplayName: Music Box (Tranquil Winds)
+	DisplayName: Музыкальная шкатулка (Tranquil Winds)
 	Tooltip: ""
 }
 
 VictoryDayBox: {
-	DisplayName: Music Box (Victory Day)
+	DisplayName: Музыкальная шкатулка (Victory Day)
 	Tooltip: ""
 }
 
 VinewrathBox: {
-	DisplayName: Music Box (Vinewrath Bane)
+	DisplayName: Музыкальная шкатулка (Vinewrath Bane)
 	Tooltip: ""
 }
 
 SkeletronPrimeBox: {
-	DisplayName: Music Box (Skeletron Prime)
+	DisplayName: Музыкальная шкатулка (Skeletron Prime)
 	Tooltip: ""
 }
 
@@ -5459,7 +5463,7 @@ OccultistRelicItem: {
 }
 
 RlyehianRelicItem: {
-	DisplayName: R'lyehian Relic
+	DisplayName: Реликвия Р'льехийца
 	Tooltip: ""
 }
 
@@ -6161,8 +6165,8 @@ DeepCascadeShard: {
 }
 
 JellyfishStaff: {
-	DisplayName: Jellyfish Staff
-	Tooltip: Summons a tiny jellyfish to fight for you!
+	DisplayName: Посох медузы
+	Tooltip: Призывает крошку-медузу сражаться за вас!
 }
 
 Mantaray_Hunting_Harpoon: {
@@ -6263,7 +6267,7 @@ SporeClub: {
 }
 
 WoodenClub: {
-	DisplayName: Wooden Club
+	DisplayName: Деревянная дубина
 	Tooltip: ""
 }
 
@@ -6535,8 +6539,8 @@ FishLure: {
 }
 
 Kelp: {
-	DisplayName: Kelp
-	Tooltip: Must be planted in water
+	DisplayName: Ламинария
+	Tooltip: Можно посадить только в воде
 }
 
 MessageBottle: {
@@ -7462,7 +7466,7 @@ RlyehianMountItem: {
 }
 
 RlyehMask: {
-	DisplayName: R'lyehian Mask
+	DisplayName: Маска Р'льехийца
 	Tooltip: ""
 }
 
@@ -7477,7 +7481,7 @@ TomeOfRylien: {
 }
 
 Trophy10: {
-	DisplayName: R'lyehian Trophy
+	DisplayName: Трофей Р'льехийца
 	Tooltip: ""
 }
 
@@ -7779,8 +7783,8 @@ SpiritWings: {
 }
 
 FairyWhistleItem: {
-	DisplayName: Fairy Whistle
-	Tooltip: Calls a protective fairy that hovers around you
+	DisplayName: Свисток феи
+	Tooltip: Вызывает фею-защитницу парить вокруг
 }
 
 PigronStaffItem: {
@@ -7882,22 +7886,18 @@ FlaskOfGore: {
 }
 
 CoconutGun: {
-	DisplayName: Coconut Gun
-	Tooltip:
-		'''
-		'Fires in Spurts' 
-		'If it shoots ya, it's gonna hurt!'
-		'''
+	DisplayName: Кокосовая пушка
+	Tooltip: «Она просто обажает убивать зомби»
 }
 
 CrocodrilloMountItem: {
-	DisplayName: Bag O' Bait
-	Tooltip: Summons a friendly Crocodrillo mount
+	DisplayName: Мешок с наживкой
+	Tooltip: Призывает дружелюбного ездового крокодилло
 }
 
 MagicConch: {
-	DisplayName: Shankya
-	Tooltip: Summons a whirlpool at the location of the cursor
+	DisplayName: Шанкха
+	Tooltip: Создаёт водоворот в месте курсора
 }
 
 MangoJellyStaff: {
@@ -7924,45 +7924,41 @@ PumpBubbleGun: {
 }
 
 StreamSurferChestplate: {
-	DisplayName: Stream Surfer Chestplate
+	DisplayName: Нагрудник сёрфера потока
 	Tooltip:
 		'''
-		9% increased magic damage
-		Increases maximum mana by 60
+		Увеличивает магический урон на 9%
+		Увеличивает максимальный запас маны на 60 ед.
 		'''
 }
 
 StreamSurferHelmet: {
-	DisplayName: Stream Surfer Mask
+	DisplayName: Маска сёрфера потока
 	Tooltip:
 		'''
-		8% increased magic critical strike chance
-		You can breathe underwater
+		Увеличивает шанс магического критического удара на 8%
+		Позволяет дышать под водой
 		'''
-	BonusText: Water Spout Charged!
+	BonusText: Водоворот заряжен!
 }
 
 StreamSurferLeggings: {
-	DisplayName: Stream Surfer Loincloth
+	DisplayName: Набедренник сёрфера потока
 	Tooltip:
 		'''
-		7% increased magic damage
-		10% reduced mana usage
+		Увеличивает магический урон на 7%
+		Снижает расход маны на 10%
 		'''
 }
 
 TikiJavelin: {
-	DisplayName: Tiki Javelin
-	Tooltip:
-		'''
-		Hold and release to throw
-		Hold it longer for more velocity and damage
-		'''
+	DisplayName: Копьё тики
+	Tooltip: Удерживайте ЛКМ, чтобы увеличить дальность броска, скорость полёта и урон копья
 }
 
 TribalScale: {
-	DisplayName: Stream Scale
-	Tooltip: "'Scales of old sea creatures'"
+	DisplayName: Чешуя потока
+	Tooltip: «Чешуя древних морских существ»
 }
 
 Whirltide: {
@@ -8062,8 +8058,8 @@ PoolNoodle: {
 }
 
 CactusStaff: {
-	DisplayName: Cactus Staff
-	Tooltip: Summons cactus walls to protect you
+	DisplayName: Кактусовый посох
+	Tooltip: Призывает кактусовые стены на вашу защиту
 }
 
 CrystalWindpipe: {
@@ -8142,11 +8138,12 @@ ValkyrieSpear: {
 }
 
 ButterflyStaff: {
-	DisplayName: Ethereal Butterfly Staff
+	DisplayName: Посох эфирной бабочки
 	Tooltip:
 		'''
-		Summons a magical butterfly to fight for you
-		Left-click to cause butterflies to dissipate and leave behind exploding arcane stars
+		Призывает волшебную бабочку сражаться за вас
+		Нажмите ЛКМ, чтобы отозвать призванных бабочек
+		Отозванные бабочки оставляют за собой взрыв из магических звёзд
 		'''
 }
 
@@ -8431,12 +8428,12 @@ OracleScripture: {
 }
 
 LargeKelpItem: {
-	DisplayName: Large Glowing Plant
+	DisplayName: Большое светящиеся растение
 	Tooltip: ""
 }
 
 SmallKelpItem: {
-	DisplayName: Small Glowing Plant
+	DisplayName: Маленькое светящиеся растение
 	Tooltip: ""
 }
 
@@ -8446,7 +8443,7 @@ LargeVentItem: {
 }
 
 MusselItem: {
-	DisplayName: Mussel
+	DisplayName: Мидия
 	Tooltip: ""
 }
 
@@ -8711,7 +8708,7 @@ BriarmothCage: {
 }
 
 BrownCrinoidCage: {
-	DisplayName: Brown Crinoid Cage
+	DisplayName: Террариум с коричневой морской лилией
 	Tooltip: ""
 }
 
@@ -8731,12 +8728,12 @@ LuvdiscBowl: {
 }
 
 PaleCrinoidCage: {
-	DisplayName: Pale Crinoid Cage
+	DisplayName: Террариум с бледной морской лилией
 	Tooltip: ""
 }
 
 RedCrinoidCage: {
-	DisplayName: Red Crinoid Cage
+	DisplayName: Террариум с красной морской лилией
 	Tooltip: ""
 }
 

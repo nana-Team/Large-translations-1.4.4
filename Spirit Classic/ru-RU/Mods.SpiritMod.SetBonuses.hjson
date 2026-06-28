@@ -18,8 +18,8 @@ BloodCourt:
 	'''
 Botanist:
 	'''
-	You gain increased rewards from herbs of all kinds
-	You have a powerful eye for spotting herbs
+	Увеличивает получаемое количество ресурсов при сборе любых видов трав
+	У вас зоркий глаз на травы
 	'''
 Cascade:
 	'''
@@ -35,8 +35,8 @@ Cryolite:
 	'''
 Daybloom:
 	'''
-	Being outside during daytime increases defense, maximum mana,
-	and life regeneration slightly
+	Незначительно увеличивает защиту, максимальный запас маны,
+	и скорость регенерации здоровья при нахождении днём на поверхности
 	'''
 Driftwood:
 	'''
@@ -128,8 +128,8 @@ Starplate:
 	'''
 StreamSurfer:
 	'''
-	Double tap {0} to create a ridable waterspout that damages enemies
-	7 second cooldown
+	Дважды нажмите {0}, чтобы создать ездовой водяной смерч, наносящий урон врагам
+	Способность перезаряжается 7 секунд
 	'''
 Wayfarer:
 	'''
