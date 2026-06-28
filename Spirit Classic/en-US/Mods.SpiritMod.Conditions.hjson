@@ -1,0 +1,54 @@
+NotDay: Drops only at night
+Day: Drops only during day
+DropFrom: "Drops only in the "
+Purity: Purity
+Snow: Snow
+Asteroid: Asteroid
+DefBoss: Drops only after {0} has been defeated
+RrefixThe: "the "
+AnyMech: any mechanical boss
+FromVHead: From venomous heads
+FromFHead: From flaming heads
+FromAHead: From acidic heads
+PokeyBodyLastSegment: Drops only from the last segment
+Enchanted: Drops when enemy is enchanted
+Rarely: Rarely
+WearingFloran: Wearing the full Floran set
+WearingArcaneNecklace: Wearing the Arcane Necklace and is using a magic weapon
+WearingVitalityStone: Wearing the Vitality Stone (or an upgrade)
+Uncommonly: Uncommonly from Shadow Mimics
+HasMoonshot: Any player has a Moonshot
+VoyagerDown: Starplate Voyager is defeated
+ScarabDown: Scarabeus is defeated
+MJWDown: Moon Jelly Wizard is defeated
+VinewrathDown: Vinewrath Bane is defeated
+DuskingDown: Dusking is defeated
+InBriar: In the Briar
+InAsteroids: In Asteroids
+InSpirit: In the Spirit
+NotInSpirit: Not in the Spirit
+NotInBriar: Not in the Briar
+StarjinxDown: Starjinx event is defeated
+HalfCompleteBestiary: Half of Spirit's bestiary is complete
+FullCompleteBestiary: All of Spirit's bestiary is complete
+# Quest conditions are below here
+# IsCompleted is used to shorten translation
+IsCompleted: quest is completed
+FirstAdventureFinished: First Adventure {$IsCompleted}
+FishyBusinessFinished: Fishy Business {$IsCompleted}
+SanctuaryNightlightsFinished: Sanctuary - Nightlights {$IsCompleted}
+SpaceRocksFinished: Space Rocks {$IsCompleted}
+RockyRoadFinished: Rocky Road {$IsCompleted}
+ForgottenCivilizationsFinished: Forgotten Civilizations {$IsCompleted}
+HiveHuntingFinished: Hive Hunting {$IsCompleted}
+GlowingAGardenFinished: Glowing a Garden {$IsCompleted}
+ManicMageFinished: The Manic Mage {$IsCompleted}
+SkyHighFinished: Sky High {$IsCompleted}
+UnholyUndertakingFinished: Unholy Undertaking {$IsCompleted}
+DecrepitDepthsFinished: Decrepit Depths {$IsCompleted}
+TowerOrHideoutQuestFinished: Breaking And Entering or Friend Safari are completed
+ItsNoSalmonFinished: It's No Salmon... {$IsCompleted}
+SanctuarySporeSalvageFinished: Sanctuary - Spore Salvage {$IsCompleted}
+WhyZombiesFinished: Zombies... Why Zombies {$IsCompleted}
+BeneathTheIceFinished: Beneath the Ice {$IsCompleted}
+FloweryFiendsFinished: Flowery Fiends {$IsCompleted}
