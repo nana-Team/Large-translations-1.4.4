@@ -513,8 +513,8 @@ BloodWard: {
 }
 
 Sea_Snail_Poison: {
-	DisplayName: Sea Snail Venom
-	Tooltip: You leave a trail of mucus that envenoms enemies
+	DisplayName: Яд морской улитки
+	Tooltip: Вы будите оставлять за собой след из слизи, накладывающий на врагов дебафф «{$BuffName.Venom}»
 }
 
 ShadowSingeFang: {
@@ -1237,7 +1237,7 @@ ChestZombieBanner: {
 }
 
 CoconutSlimeBanner: {
-	DisplayName: Coconut Slime Banner
+	DisplayName: Знамя кокосового слизня
 	Tooltip: ""
 }
 
@@ -1881,7 +1881,7 @@ Book_Blossmoon: {
 		by Calvin Reyes, Researcher
 		It contains notes about cute little Blossmoons
 		'''
-	// ImagePath: SpiritMod/Items/Books/UI/en-US/BlossmoonPage
+	ImagePath: SpiritMod/Items/Books/UI/en-US/BlossmoonPage
 }
 
 Book_BriarArt: {
@@ -1892,7 +1892,7 @@ Book_BriarArt: {
 		It seems to be a page torn from a book about the Briar
 		Contains an intricate diagram of Briar ecology
 		'''
-	// ImagePath: SpiritMod/Items/Books/UI/en-US/TheBriar
+	ImagePath: SpiritMod/Items/Books/UI/en-US/TheBriar
 }
 
 Book_Soulbloom: {
@@ -1903,7 +1903,7 @@ Book_Soulbloom: {
 		It details the anatomy and uses of an extremely rare herb
 		'Where could she have found this?'
 		'''
-	// ImagePath: SpiritMod/Items/Books/UI/en-US/SoulbloomPage
+	ImagePath: SpiritMod/Items/Books/UI/en-US/SoulbloomPage
 }
 
 Book_SpiritArt: {
@@ -1914,7 +1914,7 @@ Book_SpiritArt: {
 		It seems to be a page of notes about the unknown Spirit Biome
 		'There is a lot to be learned from this mysterious place'
 		'''
-	// ImagePath: SpiritMod/Items/Books/UI/en-US/TheSpirit
+	ImagePath: SpiritMod/Items/Books/UI/en-US/TheSpirit
 }
 
 Book_LuminousArt: {
@@ -1934,7 +1934,7 @@ Book_Lumoth: {
 		by Calvin Reyes, Researcher
 		It explains the mechanisms behind bright Lumoths
 		'''
-	// ImagePath: SpiritMod/Items/Books/UI/en-US/LumothPage
+	ImagePath: SpiritMod/Items/Books/UI/en-US/LumothPage
 }
 
 BismitePage: {
@@ -1944,7 +1944,7 @@ BismitePage: {
 		by Professor Alex Tannis
 		Contains information on a toxic ore fond around the caverns
 		'''
-	// ImagePath: SpiritMod/Items/Books/UI/en-US/BismiteMaterialPage
+	ImagePath: SpiritMod/Items/Books/UI/en-US/BismiteMaterialPage
 }
 
 EnchantedLeafPage: {
@@ -1954,7 +1954,7 @@ EnchantedLeafPage: {
 		by Professor Alex Tannis
 		Contains information on mystical leaves found in the Briar
 		'''
-	// ImagePath: SpiritMod/Items/Books/UI/en-US/EnchantedLeafMaterialPage
+	ImagePath: SpiritMod/Items/Books/UI/en-US/EnchantedLeafMaterialPage
 }
 
 FrigidFragmentPage: {
@@ -1964,7 +1964,7 @@ FrigidFragmentPage: {
 		by Professor Alex Tannis
 		Contains information on an icy crystal found in the frozen tundra
 		'''
-	// ImagePath: SpiritMod/Items/Books/UI/en-US/FrigidFragmentMaterialPage
+	ImagePath: SpiritMod/Items/Books/UI/en-US/FrigidFragmentMaterialPage
 }
 
 GlowrootPage: {
@@ -1974,7 +1974,7 @@ GlowrootPage: {
 		by Professor Alex Tannis
 		Contains information on a strange root found at the base of tall mushroom trees
 		'''
-	// ImagePath: SpiritMod/Items/Books/UI/en-US/GlowrootPage
+	ImagePath: SpiritMod/Items/Books/UI/en-US/GlowrootPage
 }
 
 GranitePage: {
@@ -1984,7 +1984,7 @@ GranitePage: {
 		by Professor Alex Tannis
 		Contains information on a strange ore found in Granite Caverns
 		'''
-	// ImagePath: SpiritMod/Items/Books/UI/en-US/GraniteMaterialPage
+	ImagePath: SpiritMod/Items/Books/UI/en-US/GraniteMaterialPage
 }
 
 HeartScalePage: {
@@ -1994,7 +1994,7 @@ HeartScalePage: {
 		by Professor Alex Tannis
 		Contains information on a glimmering scale often found near Ardorfish
 		'''
-	// ImagePath: SpiritMod/Items/Books/UI/en-US/HeartScaleMaterialPage
+	ImagePath: SpiritMod/Items/Books/UI/en-US/HeartScaleMaterialPage
 }
 
 MarblePage: {
@@ -2004,7 +2004,7 @@ MarblePage: {
 		by Professor Alex Tannis
 		Contains information on a strange ore found in Marble Caverns
 		'''
-	// ImagePath: SpiritMod/Items/Books/UI/en-US/MarbleMaterialPage
+	ImagePath: SpiritMod/Items/Books/UI/en-US/MarbleMaterialPage
 }
 
 ArcaneGeyser: {
@@ -3348,7 +3348,7 @@ TurtlePotion: {
 
 DurasilkSheaf: {
 	DisplayName: Durasilk Sheaf
-	CommonName: Quest Item
+	CommonName: Предмет для задания
 	CustomTooltip: "'The fabric is soft, but quite strong'"
 	Tooltip: ""
 }
@@ -3510,7 +3510,7 @@ SurrenderBell: {
 		Can only be used when the invasion has arrived, not when the invasion is approaching
 		'A heavenly chime'
 		'''
-	// Message: The invaders have called off their attack!
+	Message: The invaders have called off their attack!
 }
 
 TinyCrabItem: {
@@ -3885,11 +3885,11 @@ Candy: {
 CandyBag: {
 	DisplayName: Candy Bag
 	Tooltip: Holds up to 99 pieces of candy
-	/* BagContents:
+	BagContents:
 		'''
 		Contains {0} {^0:piece;pieces} of Candy
 		Right click to take a piece of Candy
-		''' */
+		'''
 }
 
 CandyBowl: {
@@ -4091,8 +4091,8 @@ GlowRoot: {
 }
 
 HeartScale: {
-	DisplayName: Heart Scale
-	Tooltip: "'A lovely scale. It is coveted by collectors.'"
+	DisplayName: Сердечная чешуя
+	Tooltip: «Прекрасная чешуя, желанная всеми коллекционерами»
 }
 
 OldLeather: {
@@ -7378,8 +7378,8 @@ RoyalCrown: {
 }
 
 SeaMandrakeSac: {
-	DisplayName: Luminous Sac
-	CustomTooltip: "'The ink within flashes different colors'"
+	DisplayName: Люминесцентный мешочек
+	CustomTooltip: «Содержащиеся в нём чернила переливаются яркими красками»
 	Tooltip: ""
 }
 
@@ -7443,23 +7443,23 @@ PirateKey: {
 }
 
 ClawCannon: {
-	DisplayName: Claw Cannon
-	Tooltip: "'Clannon...clawnon...clawanon...'"
+	DisplayName: Клешнёвая пушка
+	Tooltip: «Клёвая... клишированаая....»
 }
 
 IridescentScale: {
-	DisplayName: Iridescent Scale
-	Tooltip: "'Glints beautifully under the water'"
+	DisplayName: Переливающаяся чешуя
+	Tooltip: «Ослепительно сверкает под водой»
 }
 
 PendantOfTheOcean: {
-	DisplayName: Pendant of the Ocean
-	Tooltip: Double tap {0} to gain unhindered movement underwater for a short time
+	DisplayName: Кулон океана
+	Tooltip: Дважды нажмите {0}, чтобы ненадолго получить неограниченную подвижность под водой
 }
 
 ReefSpear: {
-	DisplayName: Reef Trident
-	Tooltip: Right click to throw the trident, poisoning enemies for a short time
+	DisplayName: Рифовый трезубец
+	Tooltip: Нажмите ПКМ, чтобы метнуть трезубец, накладывая на врагов дебафф «{$BuffName.Poisoned}»
 }
 
 SkullSentry: {
@@ -8129,7 +8129,7 @@ RealityQuill: {
 	Tooltip:
 		'''
 		Creates a tear in reality, damaging enemies 
-			Write faster to deal more damage
+		Write faster to deal more damage
 		'Write your own destiny'
 		'''
 }
@@ -8268,11 +8268,11 @@ ClatterSpear: {
 }
 
 Coconut: {
-	DisplayName: Hard Coconut
+	DisplayName: Твёрдый кокос
 	Tooltip:
 		'''
-		Does more damage if dropped from high up
-		'You're not brave enough to try eating it'
+		Наносит больше урона при падении сверху
+		«У тебя не хватит смелости съесть его»
 		'''
 }
 

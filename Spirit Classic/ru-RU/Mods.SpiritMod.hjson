@@ -61,7 +61,7 @@ Keybinds: {
 
 Events: {
 	BlueMoon: {
-		OnStart: The Mystic Moon is rising...
+		OnStart: Восходит таинственная луна...
 		IsDay: The moon isn't powerful in daylight.
 		IsCalmNight: The night's too calm.
 	}
@@ -120,13 +120,13 @@ AvianIslandSigns: {
 }
 
 FrozenEnemies: {
-	IceBat: Frozen {$NPCName.IceBat}
-	SnowFlinx: Frozen {$NPCName.SnowFlinx}
-	UndeadViking: Frozen {$NPCName.UndeadViking}
-	Wheezer: Frozen {$NPCs.Wheezer.DisplayName}
+	IceBat: Замороженная ледяная летучая мышь
+	SnowFlinx: Замороженный снежный флинкс
+	UndeadViking: Замороженная нежить-викинг
+	Wheezer: Замороженный пыхтельник
 }
 
 Currency: {
-	GlyphPrice: "{0} {^0:glyph;glyphs}"
+	GlyphPrice: "{0} {^0:глиф;глифа;глифов}"
 	OlympiumTokenPrice: "{0} {^0:olympium token;olympium tokens}"
 }
