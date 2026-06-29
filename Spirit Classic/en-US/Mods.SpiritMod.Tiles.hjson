@@ -196,11 +196,10 @@ YellowLightsSmall.MapEntry: Fairy Lights
 YellowNeonCandle.MapEntry: Neon Candle
 YellowNeonPlant.MapEntry: Neon Plant
 OccultistMapTile.MapEntry: Occult Wall Scroll
-OldTelescopeTile.MapEntry: Old Telescope
 PirateCrate.MapEntry: Crate
-AsteroidPylonTile.MapEntry: $Mods.SpiritMod.MapObject.AsteroidPylon
-BriarPylonTile.MapEntry: $Mods.SpiritMod.MapObject.BriarPylon
-SpiritPylonTile.MapEntry: $Mods.SpiritMod.MapObject.SpiritPylon
+AsteroidPylonTile.MapEntry: Asteroid Pylon
+BriarPylonTile.MapEntry: Briar Pylon
+SpiritPylonTile.MapEntry: Spirit Pylon
 
 ReachChest1: {
 	MapEntry: Elderbark Chest

@@ -5,30 +5,39 @@ AceOfDiamondsBuff: {
 
 AngelLight: {
 	DisplayName: Angel's Light
-	Description: Mods.SpiritMod.Buffs.AngelLight.Description
+	Description: ""
 }
 
 AngelWrath: {
 	DisplayName: Angel's Wrath
-	Description: Mods.SpiritMod.Buffs.AngelWrath.Description
+	Description: ""
 }
 
 ExplorerFight: {
 	DisplayName: Strike Strength
-	Description: You're getting the hang of it!
-	Description2: Damage dealt is increased by {0}%
+	Description:
+		'''
+		You're getting the hang of it!
+		Damage dealt is increased by {0}%
+		'''
 }
 
 ExplorerMine: {
 	DisplayName: Explorer's Strength
-	Description: Keep digging!
-	Description2: Mining speed is increased: {0} stacks
+	Description:
+		'''
+		Keep digging!
+		Mining speed is increased: {0} stacks
+		'''
 }
 
 ExplorerPot: {
 	DisplayName: Explorer's Vigor
-	Description: You're eager for more!
-	Description2: Movement speed is increased by {0}%
+	Description:
+		'''
+		You're eager for more!
+		Movement speed is increased by {0}%
+		'''
 }
 
 FrigidCooldown: {
@@ -53,8 +62,11 @@ AstralMapCooldown: {
 
 BeetleFortitude: {
 	DisplayName: Beetle Fortitude
-	Description: Each strike strenghtens you...
-	Description2: Damage taken is reduced by {0}%
+	Description:
+		'''
+		Each strike strenghtens you...
+		Damage taken is reduced by {0}%
+		'''
 }
 
 BloodInfusion: {
@@ -74,7 +86,7 @@ ChocolateBuff: {
 
 HealthBuffC: {
 	DisplayName: Healing Candy
-	Description: +25 health.
+	Description: +25 health
 }
 
 LollipopBuff: {
@@ -114,7 +126,7 @@ CrimsonSkullBuff: {
 
 Death: {
 	DisplayName: Death
-	Description: Mods.SpiritMod.Buffs.Death.Description
+	Description: ""
 }
 
 DeathRoseCooldown: {
@@ -124,7 +136,7 @@ DeathRoseCooldown: {
 
 AcidBurn: {
 	DisplayName: Toxic Grasp
-	Description: Mods.SpiritMod.Buffs.AcidBurn.Description
+	Description: ""
 }
 
 Afflicted: {
@@ -139,12 +151,12 @@ BloodCorrupt: {
 
 CryoCrush: {
 	DisplayName: Cryo Crush
-	Description: Mods.SpiritMod.Buffs.CryoCrush.Description
+	Description: ""
 }
 
 DoomDestiny: {
 	DisplayName: Star Cut
-	Description: Mods.SpiritMod.Buffs.DoomDestiny.Description
+	Description: ""
 }
 
 FesteringWounds: {
@@ -154,7 +166,7 @@ FesteringWounds: {
 
 DrainLife: {
 	DisplayName: Drain Life
-	Description: Your life energy becomes theirs.
+	Description: Your life energy becomes theirs
 }
 
 DynastyFanBuff: {
@@ -169,8 +181,7 @@ ElectrifiedV2: {
 
 EleutheriosBuff: {
 	DisplayName: Eleutherios' Strength
-	Description: Damage increased by 0%
-	Description2: Damage increased by {0}%
+	Description: Damage increased by {0}%
 }
 
 FateBlessing: {
@@ -225,7 +236,7 @@ WindBurst: {
 
 GraniteArrow_Debuff: {
 	DisplayName: Granite Arrow Debuff
-	Description: Mods.SpiritMod.Buffs.GraniteArrow_Debuff.Description
+	Description: ""
 }
 
 GreekFire: {
@@ -240,7 +251,7 @@ HighGravityBuff: {
 
 HolyLight: {
 	DisplayName: Holy Light
-	Description: Mods.SpiritMod.Buffs.HolyLight.Description
+	Description: ""
 }
 
 IceBerryBuff: {
@@ -295,7 +306,7 @@ TideMountBuff: {
 
 NebulaFlame: {
 	DisplayName: Nebula Flame
-	Description: Mods.SpiritMod.Buffs.NebulaFlame.Description
+	Description: ""
 }
 
 OliveBranchBuff: {
@@ -648,7 +659,7 @@ VirulenceCooldown: {
 
 Wither: {
 	DisplayName: Wither
-	Description: Mods.SpiritMod.Buffs.Wither.Description
+	Description: ""
 }
 
 WitheringLeaf: {
@@ -799,6 +810,7 @@ Crystallization: {
 Golden_Curse: {
 	DisplayName: Golden Curse
 	Description: Increased fall speed and damage
+	Death: "{0} died solid as a gold bar"
 }
 
 Crawlerock_Buff: {

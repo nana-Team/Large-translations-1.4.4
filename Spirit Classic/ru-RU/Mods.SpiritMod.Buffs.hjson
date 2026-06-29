@@ -16,19 +16,16 @@ AngelWrath: {
 ExplorerFight: {
 	DisplayName: Strike Strength
 	Description: You're getting the hang of it!
-	Description2: Damage dealt is increased by {0}%
 }
 
 ExplorerMine: {
 	DisplayName: Explorer's Strength
 	Description: Keep digging!
-	Description2: Mining speed is increased: {0} stacks
 }
 
 ExplorerPot: {
 	DisplayName: Explorer's Vigor
 	Description: You're eager for more!
-	Description2: Movement speed is increased by {0}%
 }
 
 FrigidCooldown: {
@@ -54,7 +51,6 @@ AstralMapCooldown: {
 BeetleFortitude: {
 	DisplayName: Beetle Fortitude
 	Description: Each strike strenghtens you...
-	Description2: Damage taken is reduced by {0}%
 }
 
 BloodInfusion: {
@@ -98,8 +94,8 @@ ClockBuff: {
 }
 
 CouchPotato: {
-	DisplayName: Couch potato
-	Description: "'Stop being so lazy!'"
+	DisplayName: Ленивая картошка
+	Description: «Перестать быть настолько ленивым!»
 }
 
 CourtCooldown: {
@@ -170,7 +166,6 @@ ElectrifiedV2: {
 EleutheriosBuff: {
 	DisplayName: Eleutherios' Strength
 	Description: Damage increased by 0%
-	Description2: Damage increased by {0}%
 }
 
 FateBlessing: {
@@ -289,8 +284,8 @@ SnowmongerMountBuff: {
 }
 
 TideMountBuff: {
-	DisplayName: Crocodrillo Mount
-	Description: This cute lil' Crocodillo is your new best friend!
+	DisplayName: Ездовой Крокодилло
+	Description: Теперь этот малыш Крокодилло ваш новый лучший друг!
 }
 
 NebulaFlame: {
@@ -368,8 +363,8 @@ InfernonPetBuff: {
 }
 
 JellyfishBuff: {
-	DisplayName: Peaceful Jellyfish
-	Description: "'The Jellyfish is helping you relax'"
+	DisplayName: Умиротворяющая медуза
+	Description: «Эта медуза помогает вам расслабиться»
 }
 
 LanternBuff: {
@@ -462,8 +457,8 @@ MushroomPotionBuff: {
 }
 
 PinkPotionBuff: {
-	DisplayName: Jump Boost
-	Description: Increases jump height
+	DisplayName: Усиление прыжка
+	Description: Высота прыжка увеличена
 }
 
 RunePotionBuff: {
@@ -799,6 +794,7 @@ Crystallization: {
 Golden_Curse: {
 	DisplayName: Golden Curse
 	Description: Increased fall speed and damage
+	// Death: "{0} died solid as a gold bar"
 }
 
 Crawlerock_Buff: {
@@ -807,8 +803,8 @@ Crawlerock_Buff: {
 }
 
 JellyfishMinion_Buff: {
-	DisplayName: Jellyfish
-	Description: A cute, bouncy Jellyfish fights for you!
+	DisplayName: Медуза
+	Description: За вас сражается милая и упругая медуза!
 }
 
 LavaRockSummon_Buff: {
@@ -817,8 +813,8 @@ LavaRockSummon_Buff: {
 }
 
 MangoJellyMinion_Buff: {
-	DisplayName: Mango Jelly
-	Description: A mini mango jelly fights for you!
+	DisplayName: Манговая медуза
+	Description: За вас сражается маленькая манговая медузка!
 }
 
 Minior_Buff: {
@@ -852,8 +848,8 @@ RabbitOfCaerbannog_Buff: {
 }
 
 ButterflyMinion_Buff: {
-	DisplayName: Etherial Butterfly
-	Description: A glowing butterfly fights for you!
+	DisplayName: Эфирная бабочка
+	Description: За вас сражается сияющая эфирная бабочка!
 }
 
 ToucanMinion_Buff: {
@@ -877,8 +873,8 @@ PigronMinion_Buff: {
 }
 
 FairyMinion_Buff: {
-	DisplayName: Fairies
-	Description: Hey! Watch out!
+	DisplayName: Феи
+	Description: Эй! Осторожно!
 }
 
 Jinxprobe_Buff: {

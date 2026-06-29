@@ -1748,15 +1748,6 @@ Book_ArmorGuide: {
 		'''
 }
 
-Book_Blossmoon: {
-	DisplayName: Notes on Blossmoons
-	Tooltip:
-		'''
-		by Calvin Reyes, Researcher
-		It contains notes about cute little Blossmoons
-		'''
-}
-
 Book_Briar: {
 	DisplayName: Notes on the Briar
 	Tooltip: by Field Researcher Laywatts
@@ -1777,16 +1768,6 @@ Book_Briar: {
 		The underground Briar displays signs of inhabitation by some now-extinct civilization. Ruined brick and wood houses can be observed along with primitive weapons, tools, and trinkets. Many mysteries remain about these ruins and the Briar at large. Where did it come from? Why is it so hostile? And where are the people that once lived here?
 		---
 		Note: It seems as though a page of notes and diagrams is missing from the book. I probably lost it back in the depths of the Briar. Not worth a return journey, though.
-		'''
-}
-
-Book_BriarArt: {
-	DisplayName: Flora of the Briar
-	Tooltip:
-		'''
-		by Field Researcher Laywatts
-		It seems to be a page torn from a book about the Briar
-		Contains an intricate diagram of Briar ecology
 		'''
 }
 
@@ -1829,24 +1810,6 @@ Book_Lava: {
 		'''
 }
 
-Book_LuminousArt: {
-	DisplayName: The Glowing Ocean!
-	Tooltip:
-		'''
-		By an unknown explorer
-		It seems to be a sketch of some strange ocurrance at coastal regions
-		'''
-}
-
-Book_Lumoth: {
-	DisplayName: Notes on Lumoths
-	Tooltip:
-		'''
-		by Calvin Reyes, Researcher
-		It explains the mechanisms behind bright Lumoths
-		'''
-}
-
 Book_MJW: {
 	DisplayName: Dag Dinger
 	Tooltip: by Explorer Trev Irwin
@@ -1873,26 +1836,6 @@ Book_Slime: {
 		First, it is important to take stock of what we know. Slimes are, scientifically speaking, big blobs of goo. They are highly flammable, possess no internal organs, and yet seem quite intelligent.
 		Their composition matches no other material my fellow mages and I have ever seen. Where then, do they come from? Could a rival mage be summoning them? And to what devious end?! Are they a punishment from the gods themselves? Are we forever trapped in this bouncy, slimy purgatory?
 		And most importantly- are they edible? We must keep searching for answers.
-		'''
-}
-
-Book_Soulbloom: {
-	DisplayName: Notes on Soulbloom
-	Tooltip:
-		'''
-		by Lena Ashwood, Alchemist
-		It details the anatomy and uses of an extremely rare herb
-		'Where could she have found this?'
-		'''
-}
-
-Book_SpiritArt: {
-	DisplayName: Flora of the Spirit Biome
-	Tooltip:
-		'''
-		by Field Researcher Laywatts
-		It seems to be a page of notes about the unknown Spirit Biome
-		'There is a lot to be learned from this mysterious place'
 		'''
 }
 
@@ -1929,6 +1872,71 @@ Book_Yeremy: {
 		'''
 }
 
+# Do not localize image paths unless you have your own localized png files
+
+Book_Blossmoon: {
+	DisplayName: Notes on Blossmoons
+	Tooltip:
+		'''
+		by Calvin Reyes, Researcher
+		It contains notes about cute little Blossmoons
+		'''
+	ImagePath: SpiritMod/Items/Books/UI/en-US/BlossmoonPage
+}
+
+Book_BriarArt: {
+	DisplayName: Flora of the Briar
+	Tooltip:
+		'''
+		by Field Researcher Laywatts
+		It seems to be a page torn from a book about the Briar
+		Contains an intricate diagram of Briar ecology
+		'''
+	ImagePath: SpiritMod/Items/Books/UI/en-US/TheBriar
+}
+
+Book_Soulbloom: {
+	DisplayName: Notes on Soulbloom
+	Tooltip:
+		'''
+		by Lena Ashwood, Alchemist
+		It details the anatomy and uses of an extremely rare herb
+		'Where could she have found this?'
+		'''
+	ImagePath: SpiritMod/Items/Books/UI/en-US/SoulbloomPage
+}
+
+Book_SpiritArt: {
+	DisplayName: Flora of the Spirit Biome
+	Tooltip:
+		'''
+		by Field Researcher Laywatts
+		It seems to be a page of notes about the unknown Spirit Biome
+		'There is a lot to be learned from this mysterious place'
+		'''
+	ImagePath: SpiritMod/Items/Books/UI/en-US/TheSpirit
+}
+
+Book_LuminousArt: {
+	DisplayName: The Glowing Ocean!
+	Tooltip:
+		'''
+		By an unknown explorer
+		It seems to be a sketch of some strange ocurrance at coastal regions
+		'''
+	ImagePath: SpiritMod/Items/Books/UI/en-US/LuminousOcean
+}
+
+Book_Lumoth: {
+	DisplayName: Notes on Lumoths
+	Tooltip:
+		'''
+		by Calvin Reyes, Researcher
+		It explains the mechanisms behind bright Lumoths
+		'''
+	ImagePath: SpiritMod/Items/Books/UI/en-US/LumothPage
+}
+
 BismitePage: {
 	DisplayName: Notes on Bismite Crystals
 	Tooltip:
@@ -1936,6 +1944,7 @@ BismitePage: {
 		by Professor Alex Tannis
 		Contains information on a toxic ore fond around the caverns
 		'''
+	ImagePath: SpiritMod/Items/Books/UI/en-US/BismiteMaterialPage
 }
 
 EnchantedLeafPage: {
@@ -1945,6 +1954,7 @@ EnchantedLeafPage: {
 		by Professor Alex Tannis
 		Contains information on mystical leaves found in the Briar
 		'''
+	ImagePath: SpiritMod/Items/Books/UI/en-US/EnchantedLeafMaterialPage
 }
 
 FrigidFragmentPage: {
@@ -1954,6 +1964,7 @@ FrigidFragmentPage: {
 		by Professor Alex Tannis
 		Contains information on an icy crystal found in the frozen tundra
 		'''
+	ImagePath: SpiritMod/Items/Books/UI/en-US/FrigidFragmentMaterialPage
 }
 
 GlowrootPage: {
@@ -1963,6 +1974,7 @@ GlowrootPage: {
 		by Professor Alex Tannis
 		Contains information on a strange root found at the base of tall mushroom trees
 		'''
+	ImagePath: SpiritMod/Items/Books/UI/en-US/GlowrootPage
 }
 
 GranitePage: {
@@ -1972,6 +1984,7 @@ GranitePage: {
 		by Professor Alex Tannis
 		Contains information on a strange ore found in Granite Caverns
 		'''
+	ImagePath: SpiritMod/Items/Books/UI/en-US/GraniteMaterialPage
 }
 
 HeartScalePage: {
@@ -1981,6 +1994,7 @@ HeartScalePage: {
 		by Professor Alex Tannis
 		Contains information on a glimmering scale often found near Ardorfish
 		'''
+	ImagePath: SpiritMod/Items/Books/UI/en-US/HeartScaleMaterialPage
 }
 
 MarblePage: {
@@ -1990,6 +2004,7 @@ MarblePage: {
 		by Professor Alex Tannis
 		Contains information on a strange ore found in Marble Caverns
 		'''
+	ImagePath: SpiritMod/Items/Books/UI/en-US/MarbleMaterialPage
 }
 
 ArcaneGeyser: {
@@ -2718,7 +2733,7 @@ Durian: {
 	DisplayName: Durian
 	Tooltip:
 		'''
-		Minor improvements to all stats
+		{$BuffDescription.WellFed}
 		'What an awful smell!'
 		'''
 }
@@ -2737,7 +2752,7 @@ EnchantedApple: {
 	DisplayName: Enchanted Apple
 	Tooltip:
 		'''
-		Minor improvements to all stats
+		{$BuffDescription.WellFed}
 		Increases mana regeneration
 		'''
 }
@@ -2746,7 +2761,7 @@ EnchantedStarFruit: {
 	DisplayName: Enchanted Star Fruit
 	Tooltip:
 		'''
-		Minor improvements to all stats
+		{$BuffDescription.WellFed}
 		Increases mana regeneration
 		'''
 }
@@ -2800,7 +2815,7 @@ Glowpear: {
 	DisplayName: Glowpear
 	Tooltip:
 		'''
-		Minor improvements to all stats
+		{$BuffDescription.WellFed}
 		'It looks hollow?'
 		'''
 }
@@ -2809,7 +2824,7 @@ LuminBerry: {
 	DisplayName: Lumin Berry
 	Tooltip:
 		'''
-		Minor improvements to all stats
+		{$BuffDescription.WellFed}
 		'They feel almost glassy...'
 		'''
 }
@@ -2930,7 +2945,7 @@ CrystalFish: {
 	DisplayName: Crystallized Salmon
 	Tooltip:
 		'''
-		Minor improvements to all stats
+		{$BuffDescription.WellFed}
 		Boosts magic power
 		'''
 }
@@ -2939,7 +2954,7 @@ FishChips: {
 	DisplayName: Fish n' Chips
 	Tooltip:
 		'''
-		Minor improvements to all stats
+		{$BuffDescription.WellFed}
 		Makes you sluggish
 		'''
 }
@@ -2948,19 +2963,23 @@ HoneySalmon: {
 	DisplayName: Honey-Glazed Salmon
 	Tooltip:
 		'''
-		Minor improvements to all stats
+		{$BuffDescription.WellFed}
 		Boosts life regeneration
 		'''
 }
 
 RawFish: {
 	DisplayName: Raw Fish
-	Tooltip: "'Can be eaten... Maybe cook it first?'"
+	Tooltip:
+		'''
+		{$BuffDescription.WellFed}
+		'Can be eaten... Maybe cook it first?'
+		'''
 }
 
 SteamedMussels: {
 	DisplayName: Steamed Mussels
-	Tooltip: Minor improvements to all stats
+	Tooltip: "{$BuffDescription.WellFed}"
 }
 
 FloaterItem: {
@@ -2970,14 +2989,18 @@ FloaterItem: {
 
 AcornCake: {
 	DisplayName: Acorn Cake
-	Tooltip: "'If you're really hungry, go for it'"
+	Tooltip:
+		'''
+		{$BuffDescription.WellFed}
+		'If you're really hungry, go for it'
+		'''
 }
 
 Baguette: {
 	DisplayName: Baguette
 	Tooltip:
 		'''
-		Minor improvements to all stats
+		{$BuffDescription.WellFed}
 		'You feel fancier already'
 		'''
 }
@@ -3001,7 +3024,7 @@ Cake: {
 	DisplayName: Carrot Cake
 	Tooltip:
 		'''
-		Minor improvements to all stats
+		{$BuffDescription.WellFed}
 		'Just the perfect amount of icing!'
 		'''
 }
@@ -3015,7 +3038,7 @@ GhostPepper: {
 	DisplayName: Ghost Pepper
 	Tooltip:
 		'''
-		Minor improvements to all stats
+		{$BuffDescription.WellFed}
 		'Will you take the risk?'
 		'''
 }
@@ -3034,7 +3057,7 @@ Hummus: {
 	DisplayName: Hummus
 	Tooltip:
 		'''
-		Minor improvements to all stats
+		{$BuffDescription.WellFed}
 		'Warm and tasty!'
 		'''
 }
@@ -3052,7 +3075,7 @@ Meatballs: {
 	DisplayName: Meatballs
 	Tooltip:
 		'''
-		Medium improvements to all stats
+		{$BuffDescription.WellFed2}
 		'Can't go wrong with the classics!'
 		'''
 }
@@ -3061,7 +3084,7 @@ Nigiri: {
 	DisplayName: Nigiri
 	Tooltip:
 		'''
-		Minor improvements to all stats
+		{$BuffDescription.WellFed}
 		Provides free movement in water
 		'The perfect cut'
 		'''
@@ -3071,7 +3094,7 @@ PopRocks: {
 	DisplayName: Pop Rocks
 	Tooltip:
 		'''
-		Minor improvements to all stats
+		{$BuffDescription.WellFed}
 		Emits an aura of light
 		'It zips around your mouth!'
 		'''
@@ -3081,7 +3104,7 @@ Popsicle: {
 	DisplayName: Popsicle
 	Tooltip:
 		'''
-		Minor improvements to all stats
+		{$BuffDescription.WellFed}
 		Grants immunity to 'On Fire'
 		'Eat it before it melts!'
 		'''
@@ -3091,7 +3114,7 @@ Ramen: {
 	DisplayName: Ramen
 	Tooltip:
 		'''
-		Minor improvements to all stats
+		{$BuffDescription.WellFed}
 		'It'll warm you right up!'
 		'''
 }
@@ -3105,7 +3128,7 @@ Sushi: {
 	DisplayName: Sushi
 	Tooltip:
 		'''
-		Minor improvements to all stats
+		{$BuffDescription.WellFed}
 		Provides underwater breathing
 		'Cold and fresh!'
 		'''
@@ -3115,7 +3138,7 @@ TofuSatay: {
 	DisplayName: Tofu Satay
 	Tooltip:
 		'''
-		Minor improvements to all stats
+		{$BuffDescription.WellFed}
 		'Fresh and fried!'
 		'''
 }
@@ -3487,7 +3510,7 @@ SurrenderBell: {
 		Can only be used when the invasion has arrived, not when the invasion is approaching
 		'A heavenly chime'
 		'''
-	Surrender: The invaders have called off their attack!
+	Message: The invaders have called off their attack!
 }
 
 TinyCrabItem: {
@@ -3862,9 +3885,11 @@ Candy: {
 CandyBag: {
 	DisplayName: Candy Bag
 	Tooltip: Holds up to 99 pieces of candy
-	ContainsSingle: Contains {0} piece of Candy
-	ContainsPlural: Contains {0} pieces of Candy
-	Take: Right click to take a piece of Candy
+	BagContents:
+		'''
+		Contains {0} {^0:piece;pieces} of Candy
+		Right click to take a piece of Candy
+		'''
 }
 
 CandyBowl: {
