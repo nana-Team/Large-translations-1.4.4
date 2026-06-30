@@ -6,15 +6,15 @@ RecipeConditions: {
 # I'm very sorry to whoever's translating this. Best of luck, and godspeed. - GabeHasWon
 
 # This is actually only used for the Lifeform Analyzer's (Quest) <NPCName>.
-Quest: Quest
-QuestBook: Quest Book
+Quest: Задание
+QuestBook: Книга заданий
 Residents: Your residents want to talk to you. Chat with them to get more quests!
 ChatOpenBook: Click on quests in the chat to open them in the book!
 # This formats to "You have completed a quest! <Quest Name>" in-game. The sQ?:{0} is a quest chat tag.
 QuestCompleteChat: You have completed a quest! [[sQ/{0}:{1}]]
 QuestOutOfTimeChat: "[[sQ/{0}:{1}]] has run out of time!"
 QuestRelockedChat: "[[sQ/{0}:{1}]] has been locked again."
-NewQuestChat: You have a new quest! [[sQ/{0}:{1}]]
+NewQuestChat: Получено новое задание! [[sQ/{0}:{1}]]
 OpenJournal: Press 'C' to open the Quest Journal!
 OpenHUD: Press 'V' to keep track of your progress wih the HUD!
 QuestsFull: You cannot activate any more quests.
@@ -24,42 +24,42 @@ Undiscovered: This quest hasn't been discovered.
 TalkTo: Talk to the {0}
 # Same as above. Used for "Explore <area>" in-game.
 Explore: "Explore "
-Retrieve: Retrieve
+Retrieve: Получить {1}: {0} {^0:штука;штуки;штук}
 Catch: Catch
-Kill: "Kill "
-// PluralSuffix: s
-Comma: ", "
-Or: " or "
-Craft: Craft
+Kill: Kill {0} {1}
+PluralSuffix: ""
+Comma: "{0}, {1}"
+Or: "{0} or {1}"
+Craft: Создать {1}: {0} {^0:штука;штуки;штук}
 Capture: Capture
 Harvest: Harvest
 OptionalGather: Optional - Gather
-Objectives: Objectives
-Activate: Activate
-Deactivate: Deactivate
+Objectives: Задачи
+Activate: Начать
+Deactivate: Отменить
 ClaimRewards: Claim rewards!
 # Used for quest clients. Formats to "The <NPC Title>" in-game. The space is necessary. This also looks like a meme.
-The: "The "
+The: ""
 # Same as above for both of the below, but less funny.
-Client: "Client - "
-Rewards: Rewards
+Client: "Заказчик: "
+Rewards: Награды
 # Used for chat quest snippets.
 ViewQuest: Click here to view the quest!
 QuesTime: "{0}m {1}s"
 
 Buttons: {
 	# Quest states
-	Active: Active
-	Completed: Completed
-	Available: Available
+	Active: Активно
+	Completed: Завершено
+	Available: Доступно
 	# Quest types
-	All: All
-	Main: Main
-	Explorer: Explorer
-	Forager: Forager
-	Slayer: Slayer
-	Designer: Designer
-	Other: Other
+	All: Все
+	Main: Основное
+	Explorer: Исследование
+	Forager: Собирательство
+	Slayer: Охота
+	Designer: Строительство
+	Other: Другое
 }
 
 QuestInfo: {
@@ -107,7 +107,7 @@ QuestInfo: {
 	}
 
 	FirstAdventure: {
-		Name: The First Adventure
+		Name: Первое приключение
 		Description: So you wanna be an adventurer, eh? Well, pack a bag and get out there! I'd actually planned to craft you a set of special armor so that you could get started. Unfortunately, some mangy Hookbats stole the sheaf of Durasilk I was usin'! They only come out at night around the forest surface. Mind retrievin' that silk and crafting your own new armor set?
 	}
 

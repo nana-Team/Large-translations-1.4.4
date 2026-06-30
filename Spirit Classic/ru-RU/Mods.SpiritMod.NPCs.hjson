@@ -877,8 +877,8 @@ ReachSlime: {
 }
 
 ThornStalker: {
-	DisplayName: Thorn Stalker
-	Entry: Don't be fooled by its humanoid form, this creature is anything but. This beast will stalk its prey to the furthest reaches of the briar for the perfect chance to strike.
+	DisplayName: Стебельник-преследователь
+	Entry: Не давайте себя обмануть, когда увидите его: это существо — что угодно, но не человек. Эти чудища могут преследовать свою добычу до самых отдалённых уголков терновника, ожидая подходящего момента, чтобы убить ничего не подозревающую жертву.
 }
 
 ScreechOwl: {
@@ -1047,18 +1047,18 @@ SwordKakamora: {
 }
 
 Adventurer: {
-	DisplayName: Adventurer
+	DisplayName: Авантюрист
 
 	Names: {
-		1: Morgan
-		2: Adam
-		3: Aziz
-		4: Temir
-		5: Evan
-		6: Senzen
-		7: Johanovic
-		8: Adrian
-		9: Christopher
+		1: Морган
+		2: Адам
+		3: Азиз
+		4: Темир
+		5: Эван
+		6: Шэньжэнь
+		7: Йованович
+		8: Эдриен
+		9: Кристофер
 	}
 
 	Dialogue: {
@@ -1086,20 +1086,20 @@ Adventurer: {
 	}
 
 	TownNPCMood: {
-		Content: "{$Mods.SpiritMod.TownNPC.Adventurer.Mood.Content}"
-		NoHome: "{$Mods.SpiritMod.TownNPC.Adventurer.Mood.NoHome}"
-		FarFromHome: "{$Mods.SpiritMod.TownNPC.Adventurer.Mood.FarFromHome}"
-		LoveSpace: "{$Mods.SpiritMod.TownNPC.Adventurer.Mood.LoveSpace}"
-		DislikeCrowded: "{$Mods.SpiritMod.TownNPC.Adventurer.Mood.DislikeCrowded}"
-		HateCrowded: "{$Mods.SpiritMod.TownNPC.Adventurer.Mood.HateCrowded}"
-		LikeBiome: "{$Mods.SpiritMod.TownNPC.Adventurer.Mood.LikeBiome}"
-		DislikeBiome: "{$Mods.SpiritMod.TownNPC.Adventurer.Mood.DislikeBiome}"
-		LoveNPC: "{$Mods.SpiritMod.TownNPC.Adventurer.Mood.LoveNPC}"
-		LikeNPC: "{$Mods.SpiritMod.TownNPC.Adventurer.Mood.LikeNPC}"
-		DislikeNPC: "{$Mods.SpiritMod.TownNPC.Adventurer.Mood.DislikeNPC}"
-		HateNPC: "{$Mods.SpiritMod.TownNPC.Adventurer.Mood.HateNPC}"
-		LikeNPC_Princess: "{$Mods.SpiritMod.TownNPC.Adventurer.Mood.LikeNPC_Princess}"
-		Princess_LovesNPC: I like {NPCName}.
+		Content: Relaxing at home is almost as nice as a good trek, isn't it?
+		NoHome: While I'm an explorer, I'd like to relax for a while. Got a spare place I can hole up in?
+		FarFromHome: You could say I'm 'adventuring' a bit too far from my house...but seriously I don't have a map.
+		LoveSpace: You shouldn't see this.
+		DislikeCrowded: How am I supposed to chart undiscovered lands with all these people around?
+		HateCrowded: I'd rather explore a lake of lava than live here with all these people!
+		LikeBiome: Truly, {BiomeName} is a relaxing place to be. A nice place to rest up.
+		DislikeBiome: While I'd love to finish what I've started, it's far too soon for me to be back in the {BiomeName}.
+		LoveNPC: That {NPCName} is a fascinating character. His stories are trumped by nothing!
+		LikeNPC: Me and {NPCName} go way back. I still remember our first journey together!
+		DislikeNPC: "{NPCName} really knows how to bring down the mood. Maybe a hike would brighten him up?"
+		HateNPC: While {NPCName} is a collector in spirit, he only offloads his work to others. A disappointment to explorers everywhere.
+		LikeNPC_Princess: "{NPCName} has an air of her. An air of adventure."
+		Princess_LovesNPC: "{NPCName} has so many cool stories!"
 	}
 
 	Entry: An intrepid explorer driven by an ambition that has often landed him in danger. He's also an avid note-taker, his many accounts now scattered throughout the land.
@@ -1107,7 +1107,7 @@ Adventurer: {
 }
 
 BoundAdventurer: {
-	DisplayName: Ensnared Adventurer
+	DisplayName: Попавшийся авантюрист
 
 	TownNPCMood: {
 		Content: I am content.
@@ -1171,30 +1171,30 @@ Gambler: {
 		Basic4: Win or lose, the thrill of the game is worth the money.
 		Basic5: You have the face of a winner. Step up!
 		Basic6: Get a sense of pride and accomplishment for just a few coins!
-		/* Bound:
+		Bound:
 			'''
 			Must be my lucky day to see a friendly face around here!
 			These goblins didn't take too kindly to me offering a, uh, rigged deal.
 			Anyway, d'you have a place to stay? Let's flip for it.
-			''' */
+			'''
 	}
 
 	TownNPCMood: {
-		Content: "{$Mods.SpiritMod.TownNPC.Gambler.Mood.Content}"
-		NoHome: "{$Mods.SpiritMod.TownNPC.Gambler.Mood.NoHome}"
-		FarFromHome: "{$Mods.SpiritMod.TownNPC.Gambler.Mood.FarFromHome}"
-		LoveSpace: "{$Mods.SpiritMod.TownNPC.Gambler.Mood.LoveSpace}"
-		DislikeCrowded: "{$Mods.SpiritMod.TownNPC.Gambler.Mood.DislikeCrowded}"
-		HateCrowded: "{$Mods.SpiritMod.TownNPC.Gambler.Mood.HateCrowded}"
-		HateBiome: "{$Mods.SpiritMod.TownNPC.Gambler.Mood.HateBiome}"
-		LikeBiome: "{$Mods.SpiritMod.TownNPC.Gambler.Mood.LikeBiome}"
-		DislikeBiome: "{$Mods.SpiritMod.TownNPC.Gambler.Mood.DislikeBiome}"
-		LoveNPC: "{$Mods.SpiritMod.TownNPC.Gambler.Mood.LoveNPC}"
-		LikeNPC: "{$Mods.SpiritMod.TownNPC.Gambler.Mood.LikeNPC}"
-		DislikeNPC: "{$Mods.SpiritMod.TownNPC.Gambler.Mood.DislikeNPC}"
-		HateNPC: "{$Mods.SpiritMod.TownNPC.Gambler.Mood.HateNPC}"
-		LikeNPC_Princess: "{$Mods.SpiritMod.TownNPC.Gambler.Mood.LikeNPC_Princess}"
-		Princess_LovesNPC: I like {NPCName}.
+		Content: While we're both taking a minute here, why not open a box or two?
+		NoHome: I need a place to call my own - where'll I setup a spot otherwise?
+		FarFromHome: Money is one thing, but I'm not about gambling with my life. Where's my home?
+		LoveSpace: I'm the gamblin' type but I'm not the casino type - I love it nice and calm.
+		DislikeCrowded: There's such a thing as too many cooks in the casino, if you catch my drift.
+		HateCrowded: People keep knocking over my loot boxes! How am I supposed to sell here?
+		HateBiome: I CANNOT be making cash flow here.
+		LikeBiome: Ah, {BiomeName}. Just the perfect place to set up shop.
+		DislikeBiome: No one likes to gamble in the humidity. The coins get all wet and gross!
+		LoveNPC: Once, I upsold a wooden chest to {NPCName} for a quick buck. He opened it and there were like, three hundred ducks in there. I've never been so confused and amazed.
+		LikeNPC: My hair? That's {NPCName}'s pride and joy. She does a wonderful job.
+		DislikeNPC: Unlike {NPCName}, I don't hoard my wealth.
+		HateNPC: Say what you want about ME, but is what {NPCName} does even legal?
+		LikeNPC_Princess: Y'know, {NPCName} has some spunk. She's fierce, and you could be too!
+		Princess_LovesNPC: "{NPCName}'s style is awesome. You can tell she's confident."
 	}
 
 	Entry: The Gambler has long lived life on the edge, lending herself to the whims of fate. While this makes her an ardent player, it also once bound her to the top of a goblin fortress.
@@ -1289,20 +1289,20 @@ Rogue: {
 	}
 
 	TownNPCMood: {
-		Content: "{$Mods.SpiritMod.TownNPC.Rogue.Mood.Content}"
-		NoHome: "{$Mods.SpiritMod.TownNPC.Rogue.Mood.NoHome}"
-		FarFromHome: "{$Mods.SpiritMod.TownNPC.Rogue.Mood.FarFromHome}"
-		LoveSpace: "{$Mods.SpiritMod.TownNPC.Rogue.Mood.LoveSpace}"
-		DislikeCrowded: "{$Mods.SpiritMod.TownNPC.Rogue.Mood.DislikeCrowded}"
-		HateCrowded: "{$Mods.SpiritMod.TownNPC.Rogue.Mood.HateCrowded}"
-		LikeBiome: "{$Mods.SpiritMod.TownNPC.Rogue.Mood.LikeBiome}"
-		DislikeBiome: "{$Mods.SpiritMod.TownNPC.Rogue.Mood.DislikeBiome}"
-		LoveNPC: "{$Mods.SpiritMod.TownNPC.Rogue.Mood.LoveNPC}"
-		LikeNPC: "{$Mods.SpiritMod.TownNPC.Rogue.Mood.LikeNPC}"
-		DislikeNPC: "{$Mods.SpiritMod.TownNPC.Rogue.Mood.DislikeNPC}"
-		HateNPC: "{$Mods.SpiritMod.TownNPC.Rogue.Mood.HateNPC}"
-		LikeNPC_Princess: "{$Mods.SpiritMod.TownNPC.Rogue.Mood.LikeNPC_Princess}"
-		Princess_LovesNPC: I like {NPCName}.
+		Content: Three hundred...four hundred...nothing beats counting up a...hard day's work!
+		NoHome: Where am I supposed to hide what I st- find, if I don't have a house?
+		FarFromHome: Did someone steal my house and take it? I'm not sure where it is.
+		LoveSpace: Away from all prying eyes, perfect, perfect.
+		DislikeCrowded: Too many people, I'm getting some side eyes.
+		HateCrowded: With this level of crowding, it's not my fault if an 'accident' happens and thins the herd, y'know?
+		LikeBiome: So much cover! So many places to hide! A wonderful place.
+		DislikeBiome: I have WAY too much competition here - get me OUT!
+		LoveNPC: I'm no engineer, but the stuff {NPCName} makes is so cool. I might even pay for it this time!
+		LikeNPC: "{NPCName} actually helped me cross some sketchy areas a couple of times - great guy."
+		DislikeNPC: Oh, {NPCName}? Let's just say he's not against testing a couple of his explosives.
+		HateNPC: Let me tell you...that {NPCName} guy? On a hairpin trigger, literally. I only lifted a couple coins, I swear!
+		LikeNPC_Princess: "{NPCName} said she'd keep my secret close to her heart...of which I have none. Shoo."
+		Princess_LovesNPC: Sometimes {NPCName} gets me cool things. He says it's all free too!
 	}
 
 	Entry: A dashing rogue with a past shrouded in mystery. Whether he can be trusted or not is unclear, but he would gladly teach you the tricks of the trade regardless.
@@ -1340,19 +1340,19 @@ RuneWizard: {
 	}
 
 	TownNPCMood: {
-		Content: "{$Mods.SpiritMod.TownNPC.RuneWizard.Mood.Content}"
-		NoHome: "{$Mods.SpiritMod.TownNPC.RuneWizard.Mood.NoHome}"
-		FarFromHome: "{$Mods.SpiritMod.TownNPC.RuneWizard.Mood.FarFromHome}"
-		LoveSpace: "{$Mods.SpiritMod.TownNPC.RuneWizard.Mood.LoveSpace}"
-		DislikeCrowded: "{$Mods.SpiritMod.TownNPC.RuneWizard.Mood.DislikeCrowded}"
-		HateCrowded: "{$Mods.SpiritMod.TownNPC.RuneWizard.Mood.HateCrowded}"
-		LikeBiome: "{$Mods.SpiritMod.TownNPC.RuneWizard.Mood.LikeBiome}"
-		DislikeBiome: "{$Mods.SpiritMod.TownNPC.RuneWizard.Mood.DislikeBiome}"
-		LoveNPC: "{$Mods.SpiritMod.TownNPC.RuneWizard.Mood.LoveNPC}"
-		LikeNPC: "{$Mods.SpiritMod.TownNPC.RuneWizard.Mood.LikeNPC}"
-		HateNPC: "{$Mods.SpiritMod.TownNPC.RuneWizard.Mood.HateNPC}"
-		LikeNPC_Princess: "{$Mods.SpiritMod.TownNPC.RuneWizard.Mood.LikeNPC_Princess}"
-		Princess_LovesNPC: I like {NPCName}.
+		Content: The runes are coming along nicely today.
+		NoHome: I don't have any space for my runes!
+		FarFromHome: I don't know if you could guess, but I'd strongly prefer to be near my beloved runes.
+		LoveSpace: The magic flows much easier in the calm.
+		DislikeCrowded: It's hard to focus when there's so many people around!
+		HateCrowded: With this many people around, I can only wish there were a Silence Glyph.
+		LikeBiome: I've never been more in tune with the runic magic! This place is wonderful.
+		DislikeBiome: This place is just too much. Way too much. Let me out.
+		LoveNPC: "{NPCName} and I frequently talk of our work - it's fascinating how he can enchant without any knowledge of magic."
+		LikeNPC: Sometimes, {NPCName} will ask me to enchant some of his wares...I always put a blank enchant on them. He is overjoyed every time.
+		HateNPC: "{NPCName} doesn't understand the power of runes...it's all 'Ice Rod this' and 'Crystal Ball' that..."
+		LikeNPC_Princess: There's always a magic in {NPCName}'s eyes when I do a trick. It's the little things, haha.
+		Princess_LovesNPC: "{NPCName} gave me a glitter rune! Yay!"
 	}
 
 	Entry: This tired rune scribe has spent sleepless nights studying the ancient magic found in glyphs. He's not much of a conversationalist, but he'll gladly empower your arsenal.

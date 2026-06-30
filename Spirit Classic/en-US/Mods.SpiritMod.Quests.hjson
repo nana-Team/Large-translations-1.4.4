@@ -24,13 +24,13 @@ Undiscovered: This quest hasn't been discovered.
 TalkTo: Talk to the {0}
 # Same as above. Used for "Explore <area>" in-game.
 Explore: "Explore "
-Retrieve: Retrieve
+Retrieve: Retrieve {0} {1}
 Catch: Catch
 Kill: Kill {0} {1}
 PluralSuffix: s
 Comma: "{0}, {1}"
 Or: "{0} or {1}"
-Craft: Craft
+Craft: Craft {0} {1}
 Capture: Capture
 Harvest: Harvest
 OptionalGather: Optional - Gather

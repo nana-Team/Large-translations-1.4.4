@@ -52,14 +52,14 @@ Dusk:
 DarkfeatherVisage: Generates exploding darkfeather bolts around the player
 Elderbark: Увеличивает урон всех предметов на 1 ед.
 Floran:
-	''' 
+	'''
 	С некоторым шансом, с убитых врагов будут выпадать кусочки сырого мяса
 	Подбор этих кусочков восстанавливает здоровье и даёт бафф «{$BuffName.WellFed}» 
 	'''
 Frigid:
 	'''
-	Double tap {0} to create an icy wall at the cursor position
-	8 second cooldown
+	Дважды нажмите {0}, чтобы создать ледяную стену в точке курсора
+	Способность перезаряжается 8 секунд
 	'''
 Granite:
 	'''
@@ -79,9 +79,9 @@ JellynautBubble:
 	'''
 Leather:
 	'''
-	Wearing Marksman's Armor builds up concentration
-	While concentrated, your next strike is a critical strike and deals more damage
-	Concentration is disrupted when hurt, but charges faster while standing still
+	Ношение брони накапливает концентрацию
+	Войдя в состоянии концентрации, ваш следующий удар получит бонус к урону и гарантированно будет критическим
+	Концентрация сбрасывается при получении урона, но накапливается быстрее, если стоять на месте
 	'''
 Marble:
 	'''
@@ -137,8 +137,8 @@ StreamSurfer:
 	'''
 Wayfarer:
 	'''
-	Killing enemies grants a stacking damage buff
-	Breaking pots grants a stacking movement speed buff
-	Mining ore grants a stacking mining speed buff
-	All buffs stack up to 4 times
+	Убийство врагов даёт бафф, увеличивающий урон
+	Разбивание горшков даёт бафф, увеличивающий скорость передвижения
+	Добыча руды даёт бафф, увеличивающий скорость копания
+	Каждый бафф складывается до 4 раз
 	'''

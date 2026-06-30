@@ -2740,7 +2740,7 @@ Durian: {
 
 Guava: {
 	DisplayName: Guava
-	Tooltip: Minor improvements to all stats
+	Tooltip: "{$BuffDescription.WellFed}"
 }
 
 BriarPylonItem: {

@@ -241,86 +241,85 @@ IllusionistEye: {
 }
 
 KoiTotem: {
-	DisplayName: Koi Totem
+	DisplayName: Тотем кои
 	Tooltip:
 		'''
-		Increases fishing skill when worn or when placed nearby
-		Totem occasionally spits out the bait that was used for reusability
-
+		Увеличивает навык рыбной ловли, если надет или размещён поблизости
+		Тотем периодически выплёвывает использованную наживку, позволяя использовать её повторно
 		'''
 }
 
 BismiteShield: {
-	DisplayName: Noxious Targe
+	DisplayName: Ядовитый тарджет
 	Tooltip:
 		'''
-		Being struck by an enemy inflicts festering wounds
-		Increases defense by 2 for every afflicted enemy near the player
-		This effect stacks up to five times
+		Накладывает на атакующих вас врагов дебафф «{$Buffs.FesteringWounds.DisplayName}»
+		Увеличивает защиту на 2 ед. за каждого врага поблизости с этим дебаффом
+		Этот эффект складывается до 5 раз
 		'''
 }
 
 BloodfireShield: {
-	DisplayName: Sanguine Scutum
+	DisplayName: Кровавый скутум
 	Tooltip:
 		'''
-		Reduces life regen to 0
-		Increases maximum HP by 40
+		Отключает регенерацию здоровья
+		Увеличивает максимальный запас здоровья на 40 ед.
 		'''
 }
 
 ClatterboneShield: {
-	DisplayName: Fervent Protector
+	DisplayName: Пылкий защитник
 	Tooltip:
 		'''
-		Increases defense by 2 and slows movement speed by 3% for every nearby foe
-		This effect stacks up to five times
-		'There is something special between us'
+		Увеличивает защиту на 2 ед. и снижает скорость передвижения на 3% за каждого врага поблизости
+		Этот эффект складывается до 5 раз
+		«Между нами есть что-то особенное»
 		'''
 }
 
 ExplorerTreads: {
-	DisplayName: Explorer's Treads
+	DisplayName: Ботинки исследователя
 	Tooltip:
 		'''
-		+5% Movement speed for every 10% missing health
-		50% chance to avoid traps and hazards
-		'Makes exploring temples like a walk in the park'
+		Увеличивает скорость передвижения на 5% за каждые 10% потерянного здоровья
+		Даёт 50% шанс уклониться от урона ловушки
+		«С такими ботинками даже исследование храмов превращаются в обычную прогулку»
 		'''
 }
 
 FrigidGloves: {
-	DisplayName: Frigid Wraps
+	DisplayName: Леденящие перчатки
 	Tooltip:
 		'''
-		Melee critical strikes inflict Frostburn
-		Grants 4% increased attack speed for every nearby enemy
-		This effect stacks up to five times
+		Критические удары ближнего боя будут накладывать дебафф «{$BuffName.Frostburn}»
+		Увеличивает скорость атаки на 4% за каждого врага поблизости
+		Этот эффект складывается до 5 раз
 		'''
 }
 
 LeatherBoots: {
-	DisplayName: Leather Striders
-	Tooltip: Slightly increases movement speed and acceleration
+	DisplayName: Кожаные походные ботинки
+	Tooltip: Немного увеличивает скорость передвижения и ускорение
 }
 
 LeatherGlove: {
-	DisplayName: Leather Fistwraps
-	Tooltip: Increases melee speed by 6%
+	DisplayName: Кожаные борцовские перчатки
+	Tooltip: Увеличивает скорость атаки ближнего боя на 6%
 }
 
 LeatherShield: {
-	DisplayName: Leather Safeguard
-	Tooltip: Increases max life by 10
+	DisplayName: Кожаный оберег
+	Tooltip: Увеличивает максимальный запас здоровья на 10 ед.
 }
 
 Strikeshield: {
-	DisplayName: Strikeshield
+	DisplayName: Ударный щит
 	Tooltip:
 		'''
-		Enemies are struck when they hit you
-		Struck enemies are targetted by minions and take 3 summon tag damage
-		5 second duration
+		Наносит урон врагам атакующим вас врагам
+		Поражённые враги становятся целью миньонов и получают 3 единиц урона от метки призывателя
+		Этот эффект длится 5 секунд
 		'''
 }
 
@@ -664,11 +663,11 @@ FaerieStar: {
 }
 
 OliveSolution: {
-	DisplayName: Olive Solution
+	DisplayName: Оливковый раствор
 	Tooltip:
 		'''
-		Used by the Clentaminator
-		Spreads the Briar
+		Используется «Очистителем»
+		Распространяет терновник
 		'''
 }
 
@@ -678,11 +677,11 @@ Warhead: {
 }
 
 SpiritSolution: {
-	DisplayName: Cyan Solution
+	DisplayName: Циановый раствор
 	Tooltip:
 		'''
-		Used by the Clentaminator
-		Spreads the Spirit
+		Используется «Очистителем»
+		Распространяет биом духов
 		'''
 }
 
@@ -922,17 +921,17 @@ JackLegs: {
 }
 
 LeatherHood: {
-	DisplayName: Marksman's Hood
-	Tooltip: Increases ranged weapon damage by 1
+	DisplayName: Капюшон застрельщика
+	Tooltip: Увеличивает стрелковый урон на 1 ед.
 }
 
 LeatherLegs: {
-	DisplayName: Marksman's Boots
+	DisplayName: Ботинки застрельщика
 	Tooltip: ""
 }
 
 LeatherPlate: {
-	DisplayName: Marksman's Plate
+	DisplayName: Куртка застрельщика
 	Tooltip: ""
 }
 
@@ -1086,18 +1085,18 @@ Stoneplate: {
 }
 
 WayfarerBody: {
-	DisplayName: Wayfarer's Rucksack
-	Tooltip: 5% increased movement speed
+	DisplayName: Рубашка странника
+	Tooltip: Увеличивает скорость передвижения на 5%
 }
 
 WayfarerHead: {
-	DisplayName: Wayfarer's Hat
-	Tooltip: Immunity to darkness
+	DisplayName: Шляпа странника
+	Tooltip: Даёт невосприимчивость к дебаффу «{$BuffName.Darkness}»
 }
 
 WayfarerLegs: {
-	DisplayName: Wayfarer's Pants
-	Tooltip: 7% increased movement speed
+	DisplayName: Штаны странника
+	Tooltip: Увеличивает скорость передвижения на 7%
 }
 
 WitchBody: {
@@ -1621,7 +1620,7 @@ StymphalianBatBanner: {
 }
 
 ThornStalkerBanner: {
-	DisplayName: Thorn Stalker Banner
+	DisplayName: Знамя стебельника-преследователя
 	Tooltip: ""
 }
 
@@ -2735,59 +2734,59 @@ VinewrathPetItem: {
 }
 
 AsteroidPylonItem: {
-	DisplayName: Asteroid Pylon
+	DisplayName: Пилон астероидов
 	Tooltip: ""
 }
 
 Durian: {
-	DisplayName: Durian
+	DisplayName: Дуриан
 	Tooltip:
 		'''
 		{$BuffDescription.WellFed}
-		'What an awful smell!'
+		«Какой ужасный запах!»
 		'''
 }
 
 Guava: {
-	DisplayName: Guava
-	Tooltip: Minor improvements to all stats
+	DisplayName: Гуайява
+	Tooltip: "{$BuffDescription.WellFed}"
 }
 
 BriarPylonItem: {
-	DisplayName: Briar Pylon
+	DisplayName: Пилон терновника
 	Tooltip: ""
 }
 
 EnchantedApple: {
-	DisplayName: Enchanted Apple
+	DisplayName: Зачарованное яблоко
 	Tooltip:
 		'''
 		{$BuffDescription.WellFed}
-		Increases mana regeneration
+		Увеличивает скорость восстановления маны
 		'''
 }
 
 EnchantedStarFruit: {
-	DisplayName: Enchanted Star Fruit
+	DisplayName: Зачарованная карамбола
 	Tooltip:
 		'''
 		{$BuffDescription.WellFed}
-		Increases mana regeneration
+		Увеличивает скорость восстановления маны
 		'''
 }
 
 StarPowder: {
-	DisplayName: Starpowder
-	Tooltip: Throw onto grass to invigorate it with starlight!
+	DisplayName: Звёздный порошок
+	Tooltip: Рассыпьте на траву, чтобы наполнить её звёздным светом!
 }
 
 CloudstalkItem: {
-	DisplayName: Cloudstalk
+	DisplayName: Облачник
 	Tooltip: ""
 }
 
 CloudstalkSeed: {
-	DisplayName: Cloudstalk Seeds
+	DisplayName: Семена облачника
 	Tooltip: ""
 }
 
@@ -2840,7 +2839,7 @@ LuminBerry: {
 }
 
 SpiritPylonItem: {
-	DisplayName: Spirit Pylon
+	DisplayName: Пилон духов
 	Tooltip: ""
 }
 
@@ -2870,7 +2869,7 @@ BlueMoonSpawn: {
 }
 
 BriarCrate: {
-	DisplayName: Thistle Crate
+	DisplayName: Кольчатый ящик
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
@@ -3357,7 +3356,7 @@ TurtlePotion: {
 }
 
 DurasilkSheaf: {
-	DisplayName: Durasilk Sheaf
+	DisplayName: Моток крепкой ткани
 	CommonName: Предмет для задания
 	CustomTooltip: "'The fabric is soft, but quite strong'"
 	Tooltip: ""
@@ -3446,7 +3445,7 @@ ReachBossSummon: {
 }
 
 ReachCrate: {
-	DisplayName: Thorny Crate
+	DisplayName: Колючий ящик
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
@@ -3572,13 +3571,13 @@ DemonTail: {
 }
 
 DodgeBall: {
-	DisplayName: Lightning Throw
-	Tooltip: Throw mach speed dodgeballs!
+	DisplayName: Бросок молнии
+	Tooltip: Бросает вышибающий мяч с огромной скоростью!
 }
 
 DodgeBall1: {
-	DisplayName: Sluggy Throw
-	Tooltip: Throw a dodgeball at snail speed
+	DisplayName: Бросок улитки
+	Tooltip: Бросает вышибающий мяч со скоростью улитки
 }
 
 DuskfeatherDagger: {
@@ -4106,8 +4105,8 @@ HeartScale: {
 }
 
 OldLeather: {
-	DisplayName: Old Leather
-	Tooltip: "'Musty, but useful'"
+	DisplayName: Старая кожа
+	Tooltip: «Затхлая, но всё ещё полезная»
 }
 
 SoulBloom: {
@@ -4461,7 +4460,7 @@ BlueprintTwins: {
 }
 
 BriarFlowerItem: {
-	DisplayName: Glowflower
+	DisplayName: Светоцвет
 	Tooltip: ""
 }
 
@@ -4526,7 +4525,7 @@ GraniteSpike6: {
 }
 
 HangingCloudstalk: {
-	DisplayName: Hanging Cloudstalk
+	DisplayName: Подвесной облачник
 	Tooltip: ""
 }
 
@@ -5593,7 +5592,7 @@ NeonBlockYellowItem: {
 }
 
 ReachGrass: {
-	DisplayName: Strange Flora
+	DisplayName: Странная трава
 	Tooltip: ""
 }
 
@@ -5692,8 +5691,8 @@ SpiritWallItem: {
 }
 
 CloakOfHealing: {
-	DisplayName: Cloak of Healing
-	Tooltip: Minions have a small chance to return life
+	DisplayName: Плащ исцеления
+	Tooltip: С небольшим шансом атаки миньонов будут восстанавливать здоровье
 }
 
 CrystalFlowerItem: {
@@ -5894,7 +5893,7 @@ StaminaCodex: {
 	DisplayName: Магический гримуар: Зона выносливости
 	Tooltip:
 		'''
-		Создаёт зону выносливости в месте курсора
+		Создаёт зону выносливости в точке курсора
 		Зоны выносливости увеличивают скорость передвижения на 20%
 		Зоны считаются за стражей
 		'''
@@ -6033,52 +6032,52 @@ Carrion: {
 }
 
 Amethyst_Bow: {
-	DisplayName: Amethyst Bow
+	DisplayName: Аметистовый лук
 	Tooltip:
 		'''
-		Turns wooden arrows into amethyst arrows
-		Amethyst arrows have an increased critical strike chance
+		Превращает деревянные стрелы в аметистовые
+		Аметистовые стрелы имеют увеличенный шанс критического удара
 		'''
 }
 
 Diamond_Bow: {
-	DisplayName: Diamond Bow
+	DisplayName: Алмазный лук
 	Tooltip:
 		'''
-		Turns wooden arrows into diamond arrows
-		Diamond arrows pierce an additional enemy
+		Превращает деревянные стрелы в алмазные
+		Алмазные стрелы пробивают одного врага
 		'''
 }
 
 Emerald_Bow: {
-	DisplayName: Emerald Bow
-	Tooltip: Turns wooden arrows into emerald arrows
+	DisplayName: Изумрудный лук
+	Tooltip: Превращает деревянные стрелы в изумрудные
 }
 
 Ruby_Bow: {
-	DisplayName: Ruby Bow
+	DisplayName: Рубиновый лук
 	Tooltip:
 		'''
-		Turns wooden arrows into ruby arrows
-		Ruby arrows bounce once
+		Превращает деревянные стрелы в рубиновые
+		Рубиновые стрелы отскакивают от поверхностей один раз
 		'''
 }
 
 Sapphire_Bow: {
-	DisplayName: Sapphire Bow
+	DisplayName: Сапфировый лук
 	Tooltip:
 		'''
-		Turns wooden arrows into sapphire arrows
-		Sapphire arrows slightly home toward the cursor
+		Превращает деревянные стрелы в сапфировые
+		Сапфировые стрелы слабо самонаводятся на курсор
 		'''
 }
 
 Topaz_Bow: {
-	DisplayName: Topaz Bow
+	DisplayName: Топазовый лук
 	Tooltip:
 		'''
-		Turns wooden arrows into topaz arrows
-		Topaz arrows have high velocity and are resistant to gravity
+		Превращает деревянные стрелы в топазовые
+		Топазовые стрелы летят быстрее и менее подвержены гравитации
 		'''
 }
 
@@ -6151,13 +6150,13 @@ ReachFishingCatch: {
 }
 
 SanctifiedStabber: {
-	DisplayName: Sanctified Stabber
-	Tooltip: Inflicts 'Withering Leaf'
+	DisplayName: Священный закалыватель
+	Tooltip: Накладывает дебафф «{$Buffs.WitheringLeaf.DisplayName}»
 }
 
 VineChain: {
-	DisplayName: Vine Chain
-	Tooltip: Pulls enemies towards you
+	DisplayName: Нож на лозе
+	Tooltip: Притягивает к вам поражённых врагов
 }
 
 CascadeChestplate: {
@@ -6264,7 +6263,7 @@ ClubSandwich: {
 }
 
 FloranBludgeon: {
-	DisplayName: Флоранитовая палица
+	DisplayName: Флоранская палица
 	Tooltip: Создаёт ударную волну, протягивающуюся по земле
 }
 
@@ -6662,7 +6661,7 @@ FloranSporeWand: {
 }
 
 FloranStaff: {
-	DisplayName: Флоранитовый посох
+	DisplayName: Флоранский посох
 	Tooltip:
 		'''
 		Призывает три защитные энергетические сферы, которые окружают игрока пока не рассеются
@@ -6671,42 +6670,42 @@ FloranStaff: {
 }
 
 FrigidChestplate: {
-	DisplayName: Frigid Plate
-	Tooltip: 3% increased critical strike chance
+	DisplayName: Леденящие латы
+	Tooltip: Увеличивает шанс критического удара на 3%
 }
 
 FrigidHelm: {
-	DisplayName: Frigid Faceplate
+	DisplayName: Леденящая защитная маска
 	Tooltip: ""
 }
 
 FrigidLegs: {
-	DisplayName: Frigid Greaves
+	DisplayName: Леденящие поножи
 	Tooltip: ""
 }
 
 FrigidFragment: {
-	DisplayName: Frigid Fragment
-	Tooltip: "'Cold to the touch'"
+	DisplayName: Леденящий фрагмент
+	Tooltip: «Холодный на ощупь»
 }
 
 HowlingScepter: {
-	DisplayName: Frostbite
-	Tooltip: Creates a slow-moving blizzard that follows your cursor
+	DisplayName: Метельник
+	Tooltip: Создаёт метель, медленно двигающуюся за курсором
 }
 
 FrostSpine: {
-	DisplayName: Frigid Spine
-	Tooltip: Occasionally shoots out a frost bolt
+	DisplayName: Леденящая колючка
+	Tooltip: Периодически выстреливает дополнительным морозным зарядом
 }
 
 IcySpear: {
-	DisplayName: Frigid Javelin
+	DisplayName: Леденящее метательное копьё
 	Tooltip:
 		'''
-		Hold and release to throw
-		Hold longer for more velocity and damage
-		Inflicts Frostburn
+		Удерживайте ЛКМ, чтобы зарядить копьё, и отпустите, чтобы его метнуть
+		Чем дольше копьё заряжается, тем быстрее оно полетит и больше урона нанесёт
+		Накладывает дебафф «{$BuffName.Frostburn}»
 		'''
 }
 
@@ -6777,11 +6776,11 @@ HuskstalkStaff: {
 }
 
 OakHeart: {
-	DisplayName: Oak Heart
+	DisplayName: Сердце дуба
 	Tooltip:
 		'''
-		Hitting foes in quick succession causes poisonous spores to rain down
-		More effective at close range
+		При быстрых последовательных ударах по врагам вызывает дождь из ядовитых спор
+		Более эффективен на коротком расстоянии
 		'''
 }
 
@@ -7927,7 +7926,7 @@ CrocodrilloMountItem: {
 
 MagicConch: {
 	DisplayName: Шанкха
-	Tooltip: Создаёт водоворот в месте курсора
+	Tooltip: Создаёт водоворот в точке курсора
 }
 
 MangoJellyStaff: {
@@ -8158,8 +8157,8 @@ ShroomFishSummon: {
 }
 
 ThornDevilfish: {
-	DisplayName: Thorn Devilfish
-	Tooltip: Shoots out poisonous bubbles
+	DisplayName: Колючая рыба-дьявол
+	Tooltip: Выпускает ядовитые пузыри
 }
 
 ValkyrieSpear: {

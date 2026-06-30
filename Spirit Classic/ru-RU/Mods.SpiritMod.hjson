@@ -34,11 +34,11 @@ Misc: {
 }
 
 RecipeGroup: {
-	EoRBow: Emerald or Ruby Bow
-	SoTBow: Sapphire or Topaz Bow
-	AoTStaff: Amethyst or Topaz Staff
-	SoEStaff: Sapphire or Emerald Staff
-	RoDStaff: Ruby or Diamond Staff
+	EoRBow: изумрудный или рубиновый лук
+	SoTBow: сапфировый или топазовый лук
+	AoTStaff: аметистовый или топазовый посох
+	SoEStaff: сапфировый или изумрудный посох
+	RoDStaff: Рубиновый или алмазный посох
 }
 
 MiscUI: {

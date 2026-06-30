@@ -623,7 +623,7 @@ PagodaCurse: {
 }
 
 SunPotBuff: {
-	DisplayName: Солнце в горше
+	DisplayName: Солнце в горшке
 	Description: Регенерация здоровья увеличена
 }
 
