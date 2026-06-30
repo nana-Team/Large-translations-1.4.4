@@ -623,8 +623,8 @@ PagodaCurse: {
 }
 
 SunPotBuff: {
-	DisplayName: Sun in a Pot
-	Description: Increased life regeneration
+	DisplayName: Солнце в горше
+	Description: Регенерация здоровья увеличена
 }
 
 TopazMarked: {
@@ -648,8 +648,8 @@ UnstableAffliction: {
 }
 
 VineTrap: {
-	DisplayName: Vine Trap
-	Description: Escape is impossible
+	DisplayName: Обвитый лозой
+	Description: Вы не можете сбежать
 }
 
 VirulenceCooldown: {
@@ -663,8 +663,8 @@ Wither: {
 }
 
 WitheringLeaf: {
-	DisplayName: Withering Leaf
-	Description: Wilting, wasting away...
+	DisplayName: Лиственное увядание
+	Description: Угасает и чахнет...
 }
 
 CryoZoneTimer: {
@@ -708,13 +708,13 @@ ShieldZoneTimer: {
 }
 
 StaminaZoneBuff: {
-	DisplayName: Stamina Zone
-	Description: You feel energized!
+	DisplayName: Зона выносливости
+	Description: Вы полны сил!
 }
 
 StaminaZoneTimer: {
-	DisplayName: Stamina Zone
-	Description: The Stamina Zone is up!
+	DisplayName: Зона выносливости
+	Description: Зона выносливости активна!
 }
 
 BaubleCooldown: {
@@ -773,13 +773,13 @@ Empowered: {
 }
 
 Mantaray_Buff: {
-	DisplayName: Manta Ray
-	Description: Swift as the tides!
+	DisplayName: Скат
+	Description: Стремительный, как волна!
 }
 
 BottleMountBuff: {
-	DisplayName: Raft
-	Description: Sending out an SOS
+	DisplayName: Плот
+	Description: Посылаем сигнал бедствия
 }
 
 EmpoweredSwim: {

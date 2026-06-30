@@ -3007,16 +3007,16 @@ Baguette: {
 
 CaesarSalad: {
 	DisplayName: Caesar Salad
-	Tooltip: Minor improvements to all stats
+	Tooltip: "{$BuffDescription.WellFed}"
 	CustomTooltip1:
 		'''
-		"'Maybe don't use a knife to eat this one'"
+		'Maybe don't use a knife to eat this one'
 		Greatly increases life regeneration
 		'''
 	CustomTooltip2:
 		'''
-		"'Maybe don't use a knife to eat this one'"
-		Increases life regeneration
+		'Maybe don't use a knife to eat this one'
+		{$LegacyMisc.40}
 		'''
 }
 
@@ -5544,7 +5544,7 @@ BlastStoneItem: {
 
 BriarGrassSeeds: {
 	DisplayName: Briar Grass Seeds
-	Tooltip: Can be placed
+	Tooltip: "{$LegacyTooltip.33}"
 }
 
 CreepingIce: {
@@ -6577,7 +6577,7 @@ SunkenTreasure: {
 	DisplayName: Sunken Treasure
 	Tooltip:
 		'''
-		Right-click to open
+		{$CommonItemTooltip.RightClickToOpen}
 		'Perhaps it is still full of valuable treasure'
 		'''
 }

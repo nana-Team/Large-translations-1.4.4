@@ -462,7 +462,7 @@ Pelican: {
 }
 
 ReaverShark: {
-	DisplayName: "{$ItemName.ReaverShark}"
+	DisplayName: Reaver Shark
 	Entry: This particular species of shark is remarkable for its potential as a tool. Not only is it small enough to hold, but its cleft chin and large forehorn excel at breaking the ice.
 }
 

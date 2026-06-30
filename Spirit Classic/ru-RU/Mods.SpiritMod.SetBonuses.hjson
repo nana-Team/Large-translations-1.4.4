@@ -23,9 +23,9 @@ Botanist:
 	'''
 Cascade:
 	'''
-	Dealing damage to enemies builds up a bubble shield,
-	which at full size grants heavy damage resistance against the next attack,
-	damaging and knocking back nearby enemies.
+	Нанесение урона врагам создаёт и увеличивает пузырьковый щит
+	При достижении максимального размера щит поглотит значительную часть урона от следующей атаки
+	После получения урона щит взрывается, отбрасывая ближайших врагов и нанося им урон
 	'''
 Chitin: Double tap in a direction to dash and envelop yourself in a tornado
 Cryolite:
@@ -36,12 +36,12 @@ Cryolite:
 Daybloom:
 	'''
 	Незначительно увеличивает защиту, максимальный запас маны,
-	и скорость регенерации здоровья при нахождении днём на поверхности
+	и регенерацию здоровья при нахождении днём на поверхности
 	'''
 Driftwood:
 	'''
-	Allows the wearer to float on water
-	Increased fishing power
+	Позволяет держаться на поверхности воды
+	Увеличивает навык рыбной ловли 
 	'''
 Dusk:
 	'''
@@ -50,8 +50,12 @@ Dusk:
 	Magic attacks inflict Shadowflame
 	'''
 DarkfeatherVisage: Generates exploding darkfeather bolts around the player
-Elderbark: Increases all item damage by 1
-Floran: Killing enemies may drop raw meat, restoring health and granting 'Well Fed'
+Elderbark: Увеличивает урон всех предметов на 1 ед.
+Floran:
+	''' 
+	С некоторым шансом, с убитых врагов будут выпадать кусочки сырого мяса
+	Подбор этих кусочков восстанавливает здоровье и даёт бафф «{$BuffName.WellFed}» 
+	'''
 Frigid:
 	'''
 	Double tap {0} to create an icy wall at the cursor position

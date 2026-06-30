@@ -353,22 +353,21 @@ LumothLantern: {
 }
 
 ArcaneNecklace: {
-	DisplayName: Arcane Necklace
+	DisplayName: Арканное ожерелье
 	Tooltip:
 		'''
-		Increases maximum mana by 20
-		Enemies have 20% chance to drop an extra Mana Star
+		Увеличивает максимальный запас маны на 20 ед.
+		С 20% шансом, с убитых врагов выпадут дополнительные звёзды маны
 		'''
 }
 
 ManaShield: {
-	DisplayName: Mana Shield
+	DisplayName: Щит маны
 	Tooltip:
 		'''
-		Increases maximum mana by 20
-		Absorbs 10% of the damage dealt by enemies
-		This damage is converted into a loss of mana instead
-		The amount of mana lost is equal to 4x the damage absorbed
+		Увеличивает максимальный запас маны на 20 ед.
+		Поглощает 10% урона, наносимого врагами
+		Истощает вашу ману на 400% от поглощённого урона
 		'''
 }
 
@@ -973,7 +972,7 @@ HydraMaskVenom: {
 }
 
 LeafPaddyHat: {
-	DisplayName: Rice Paddy Hat
+	DisplayName: Шляпа рисовода
 	Tooltip: ""
 }
 
@@ -983,7 +982,7 @@ PsychoMask: {
 }
 
 SailorCap: {
-	DisplayName: Captain's Cap
+	DisplayName: Капитанская фуражка
 	Tooltip: ""
 }
 
@@ -1730,21 +1729,25 @@ Book_Amea: {
 }
 
 Book_ArmorGuide: {
-	DisplayName: The Beginner's Guide to Armor
-	Tooltip: by Knight-Crusader Aurelius
+	DisplayName: Справочник по доспехам для чайников
+	Tooltip: от рыцаря-крестоносца Аврелия
 	Content:
 		'''
-		[c/95a3ab:The following is a transcript of an informational speech made by renowned adventurer Aurelius Finch, Knight-Crusader.]
-		---	
-		Hey, folks! Are you ready to become a grand adventurer, just like myself? It seems like a good life up here, and it is! I'm rolling in sponsorship money, and my dating life has never been better!
-		But things weren't always this way. I was just like you all, once- dirt poor and owning nothing but the clothes on my back. It took everything I had to survive. But if you purchase my handy series of guides, you'll be just like me in no-time-flat! I can't wait for you to rise through the ranks, rookie.
-		[c/80deed:The Beginner's Guide to Armor]
-		So you're just setting out, and it's time to make your mark on the world. But what to wear? Armor is the most important tool in an adventurer's arsenal. Luckily for you, I've come across many different options for beginners that are easy to forge and effective.
-		[i:SpiritMod/DaybloomHead] [i:SpiritMod/DaybloomBody] [i:SpiritMod/DaybloomLegs][c/80deed: Sunflower Armor:] Are you an aspiring mage? Well, I'm not- haven't got a magical bone in my body! But this thin and comfortable set of armor, made from [c/72a4c2:Sunflowers] and [c/72a4c2:Fallen Stars], can give a boost to your magic power.
-		[i:SpiritMod/LeatherHood] [i:SpiritMod/LeatherPlate] [i:SpiritMod/LeatherLegs][c/80deed: Marskman's Armor:] If you're willing to venture out at night and take on some zombies, harvest some questionably sourced [c/72a4c2:Old Leather] and try your hand at archery. This lightweight (but smelly) armor allows you to focus on your strikes.
-		Those are some cheap and effective armor sets that'll keep you fighting for a long time. Best of luck, adventurer!
-		---
-		Whew. Thank god that's over. These suckers won't last a day out there, but they'll believe anything I tell them. Easiest money I've made in my life. Hey, why are you still writing this dow-
+		[c/95a3ab:Ниже приведён текст, записанный со слов славного искателя приключений — рыцаря-крестоносца Аврелия Финча.]
+		-----
+		Привет, ребята! Готовы стать великим авантюристом, прямо как я? Со стороны вам, наверное, кажется, что жизнь у меня лучше некуда — так оно и есть! Я купаюсь в деньгах своих покровителей, а ещё я пользуюсь неслыханной популярностью у девушек!
+		Но так у меня было не всегда... Когда-то я был таким же, как и вы: без гроша за душой с протянутой рукой. Приходилось бороться за свою жизнь. Знакомо? Если вы купите мою дельную коллекцию справочников, вы добьётесь того же, что и у меня за считанные дни! Жду вас всех на самой вершине, салаги.
+		-
+		[c/80deed:Справочник по доспехам для чайников]
+		Итак, представим, что вы только-только ступили за порог своего дома, и пришёл ваш черёд дать миру о себе знать каким-нибудь славным подвигом. Но что же вам надеть на этот подвиг? Броню, разумеется, броня — самое важное, что есть в арсенале любого приключенца. К счастью для вас, я знаю толк в броне, которую сможет сделать любой новичок и которая ещё не раз спасёт его шкуру.
+		-
+		[i:SpiritMod/DaybloomHead] [i:SpiritMod/DaybloomBody] [i:SpiritMod/DaybloomLegs][c/80deed: Броня из подсолнуха:] Быть может, вы начинающий маг? Что ж, я не из таких — во мне нет той магической искры, понимаете? Но вот этот тонкий и удобный костюмчик из  [c/72a4c2:подсолнухов ] и [c/72a4c2:упавших звёзд] непременно поможет вам раскрыть свой магический талант.
+		-
+		[i:SpiritMod/LeatherHood] [i:SpiritMod/LeatherPlate] [i:SpiritMod/LeatherLegs][c/80deed: Броня застрельщика:] Если осмелитесь однажды выйти в ночь и пострелять по зомби, насобирайте с них немного [c/72a4c2:старой кожи], пускай она и сомнительно пахнет, а заодно поупражняйтесь в стрельбе из лука. Эта лёгкая броня не будет сковывать ваши движения и позволит лучше сосредоточиться на вашей стрельбе.
+		-
+		Вот два крайне полезных комплекта брони, которые сможет позволить себе любой из вас. С ними вы сможете продержаться в бою гораздо дольше. Удачи вам, юные приключенцы!
+		-----
+		Фух, ну наконец-то это закончилось. Эти сосунки же и дня не протянут там, зато охотно верят всему, что бы я ни говорил. Гребу с них деньги лопатой, а они и дальше покупают. Эй, ты что, всё ещё записывае-
 		'''
 }
 
@@ -1840,23 +1843,30 @@ Book_Slime: {
 }
 
 Book_WeaponGuide: {
-	DisplayName: The Beginner's Guide to Weaponry
-	Tooltip: by Knight-Crusader Aurelius
+	DisplayName: Справочник по вооружению для чайников
+	Tooltip: от рыцаря-крестоносца Аврелия
 	Content:
 		'''
-		[c/95a3ab:The following is a transcript of an informational speech made by adventurer Aurelius Finch, Knight-Crusader.]
-		---
-		Hey, all! Knight-Crusader Aurelius here, again. Before we get started (and on a completely unrelated note), my last guide on Armor didn't sell as well as I want to, and I have no clue why! But I need YOUR money to support my lavish hero lifestyle. So buy this new weapon guide for your dad, your grandma, and maybe even your cat. Please? I promise it'll be useful!
-		[c/80deed:The Beginner's Guide to Weaponry]
-		Aside from a strong set of armor, you'll need a trusty weapon by your side to really stand out as an adventurer. Now, not all of us can have a weapon that's as flashy as my trusted fireblade. And some of you never will! But that's okay. Let's start small, with weapons that are reliable and easy to forge.
-		[i:SpiritMod/IcySpear] [i:SpiritMod/FrigidFragment] [c/80deed: Frigid Javelin:] Do you live close to a snowy tundra or boreal forest? Then this weapon is perfect for you! Simply harvest some [c/72a4c2:Frigid Fragments] and temper them at an anvil to make this ice-cold, razor sharp weapon. Unlike other inaccurate throwing weapons (who uses those, anyway?), you can aim for precise strikes with javelins!
-		[i:SpiritMod/BismiteSummonStaff] [i:SpiritMod/BismiteCrystal] [c/80deed: Bismite Crystal Staff:] Normally, I wouldn't recommend summoned creatures, since they love to bite me and rip up my things. But you won't have that problem with a semi-sentient poisonous rock, that's for sure. Made of [c/72a4c2:Bismite Shards], it's sure to help deal with enemies for you.
-		[i:SpiritMod/ButterflyStaff] [i:1994] [c/80deed: Ethereal Butterfly Staff:] Again, familiars and I don't get along, but this one has no teeth or claws! All it takes is a wild [c/72a4c2:butterfly], [c/72a4c2:wood], and some [c/72a4c2:fallen stars], and you'll have yourself a new agile companion. Next time you see a [c/72a4c2:butterfly], get to netting!
-		[i:SpiritMod/ClawCannon] [i:SpiritMod/IridescentScale] [c/80deed: Claw Cannon:] The ocean can be terrifying. But there's no better way to fight your fears than by harnessing them. With some [c/72a4c2:iridescent scales] from hostile deep-sea creatures, [c/72a4c2:sulfur deposits], you can create the ultimate bubble blower. I think. A bubble gun, hypothetically, might be cooler.
-		[i:SpiritMod/Florang] [i:SpiritMod/FloranBar] [c/80deed: Floran Cutter:] Now, if you want a sleek, cool, and potent weapon, look no further. The caveat is that you'll need to venture into the depths of the dark Briar to harvest [c/72a4c2:Floran Bars]. Are you capable of doing that? Probably not! But if you do manage to luck out, throw these sharp disks along the ground and watch them cut up your foes.
-		[i:SpiritMod/CactusStaff] [i:276] [c/80deed: Cactus Staff:] Would you ever think that [c/72a4c2:cacti] would have magical properties? I sure wouldn't! The only interaction I've had with cacti is falling straight into a pit of pricklethorns when I was a novice adventurer, like you. But I've been told that Cactus Staves are quite powerful and poisonous.
-		---
-		I'm barely breaking even anymore. These pieces of junk better tide me over so I can afford that solid gold statue I commissioned. Well, the people still love me. I'm sure they'll buy my book this time. Hey, why are you still here? The speech is over. Shoo!
+		[c/95a3ab:Ниже приведён текст, записанный со слов славного искателя приключений — рыцаря-крестоносца Аврелия Финча.]
+		-----
+		Привет, мои дорогие! Это снова я, славный Аврелий. Перед тем как мы начнём, хотел бы вам кое что сообщить (совсем не по теме оружия). Мой последний справочник продался просто ужасно, и я ума не приложу почему! Но мне всё ещё нужны ВАШИ деньги для обеспечения моей роскошной жизни, так что не забудьте купить этот справочник своему отцу, бабушке, дедушке а может даже и своей кошке. Выручите меня в трудную минуту, хорошо? Обещаю, справочник вам очень-очень поможет!
+		-
+		[c/80deed:Справочник по вооружению для чайников]
+		Настоящему приключенцу нужен не только надёжный комплект доспехов, но и не менее надёжное вооружение. Чего тут скрывать, не каждый из вас сможет позволить себе что-то такое же изящное, как мой верный огнеклинок. Некоторые из вас вообще и мечтать о таком не должны! Но ничего страшного, все мы с чего-то начинали, так что давайте и сейчас начнём с простого и надёжного оружия, которое будет легко создать и не жалко потерять.
+		-
+		[i:SpiritMod/IcySpear] [i:SpiritMod/FrigidFragment] [c/80deed: Леденящее метательное копьё:] Живёте неподалёку от заснеженной тундры или чего-то ещё холоднее? Тогда это оружие идеально вам подойдёт! Стоит всего лишь набрать парочку [c/72a4c2:леденящих фрагментов] и придать им нужную форму на наковальне, как у вас получится острое копьё, от которого кровь в жилах стынет. В отличие от всего остального кривого метательного оружия (да кто им пользуется вообще?), этим копьём вы действительно сможете попадать ровно туда, куда целитесь!
+		-
+		[i:SpiritMod/BismiteSummonStaff] [i:SpiritMod/BismiteCrystal] [c/80deed: Посох бисмитового кристалла:] По правде говоря, я не переношу призывных существ: вечно они то за ногу меня укусят, то одежду мою порвут. Однако этот наполовину разумный ядовитый камешек совсем не из таких, вот уж точно! Этот кристаллик из [c/72a4c2:бисмитовых кристаллов] поможет вам справиться с любой ордой монстров.
+		-
+		[i:SpiritMod/ButterflyStaff] [i:1994] [c/80deed: Посох эфирной бабочки:] Опять-таки, мы с призывными существами совсем не в ладах, но конкретно у этого хотя бы нет ни зубов, ни когтей! Все что вам нужно — одна [c/72a4c2:бабочка], немного [c/72a4c2:древесины] и парочка [c/72a4c2:упавших звёзд], и у вас появится новый подвижный друг, который верно будет вам служить. В следующий раз, когда повстречаете [c/72a4c2:бабочку] — хватайте сачок!
+		-
+		[i:SpiritMod/ClawCannon] [i:SpiritMod/IridescentScale] [c/80deed: Клешнёвая пушка:] Порой морские твари пугают, но, как вы знаете, лучший способ перестать их бояться — поймать их и использовать себе во благо. Совмещаете [c/72a4c2:переливающуюся чешую] глубоководных чудовищ с [c/72a4c2:отложениями серы], и у вас получится мощнейший пускатель мыльных пузырей в мире. Наверное. А хотя, быть может, какая-нибудь пузырьковая пушка всё же будет мощнее.
+		-
+		[i:SpiritMod/Florang] [i:SpiritMod/FloranBar] [c/80deed: Флоранский резак:] Хотите себе изящное, крутое и эффективное оружие? Я знаю, что хотите! Но есть подвох: надо будет спуститься в тёмные глубины терновника и накопать [c/72a4c2:флоранской руды]. Вы способны на такое? Конечно же нет, кого я спрашиваю! Однако если вам каким-то чудом это удастся, и резак вы всё же сделаете, то вам останется лишь бросать пару таких острых дисков и наблюдать, как они рвут ваших врагов на куски.
+		-
+		[i:SpiritMod/CactusStaff] [i:276] [c/80deed: Кактусовый посох:] Вы бы поверили мне, если бы я сказал, что у обыкновенных [c/72a4c2:кактусов] есть особые магические свойства? Да я бы сам себе не поверил! Единственное их свойство, которое я знаю — они очень больно колются. Это я прекрасно прочувствовал на себе, когда был совсем новичком, прямо как вы, и упал в яму с кактусовыми колючками. Тем не менее, как мне сказали, магические кактусовые посохи — вещь очень сильная.
+		-----
+		Ух, я еле концы с концами уже свожу, пусть эти сволочи только попробуют не раскупить весь тираж. Иначе мне ведь не хватит на свою статую из чистого золота, что я заказал! И всё таки любят ещё меня люди, уверен, эта книга точно хорошо продастся... Эй, какого чёрта ты всё ещё здесь? Я давно закончил! Кыш отсюда!
 		'''
 }
 
@@ -1921,7 +1931,7 @@ Book_LuminousArt: {
 	DisplayName: Сияющий океан!
 	Tooltip:
 		'''
-		За авторством неизвестного исследователя
+		от неизвестного исследователя
 		Это, по всей видимости, набросок какого-то необычного явления на пляже
 		'''
 	ImagePath: SpiritMod/Items/Books/UI/ru-RU/LuminousOcean
@@ -2983,8 +2993,8 @@ SteamedMussels: {
 }
 
 FloaterItem: {
-	DisplayName: Luminous Floater
-	Tooltip: "'A beacon at the beach'"
+	DisplayName: Сверкающий поплавок
+	Tooltip: «Словно маяк на побережье»
 }
 
 AcornCake: {
@@ -3006,17 +3016,17 @@ Baguette: {
 }
 
 CaesarSalad: {
-	DisplayName: Caesar Salad
-	Tooltip: Minor improvements to all stats
+	DisplayName: Салат «Цезарь»
+	Tooltip: "{$BuffDescription.WellFed}"
 	CustomTooltip1:
 		'''
-		"'Maybe don't use a knife to eat this one'"
-		Greatly increases life regeneration
+		«Его, наверное, не стоит есть ножом»
+		Значительно увеличивает регенерацию здоровья
 		'''
 	CustomTooltip2:
 		'''
-		"'Maybe don't use a knife to eat this one'"
-		Increases life regeneration
+		«Его, наверное, не стоит есть ножом»
+		{$LegacyMisc.40}
 		'''
 }
 
@@ -3163,8 +3173,8 @@ GoldLumothItem: {
 }
 
 GulperItem: {
-	DisplayName: Gulper
-	Tooltip: "'Quite the perky lil' fella'"
+	DisplayName: Большеротик
+	Tooltip: «Довольно задорный малёк»
 }
 
 HailSnailItem: {
@@ -3193,8 +3203,8 @@ LumothItem: {
 }
 
 LuvdiscItem: {
-	DisplayName: Ardorfish
-	Tooltip: "'It exudes affection'"
+	DisplayName: Рыба-страсть
+	Tooltip: «Излучает любовь»
 }
 
 MaggotflyItem: {
@@ -3422,16 +3432,16 @@ WarlockLureCrimson: {
 }
 
 RawMeat: {
-	DisplayName: Raw Meat
+	DisplayName: Сырое мясо
 	Tooltip: ""
 }
 
 ReachBossSummon: {
-	DisplayName: Bramble Tooth
+	DisplayName: Клык-колючка
 	Tooltip:
 		'''
-		'A malevolent mixture of flora and fauna'
-		Use in the Underground Briar to summon the Vinewrath Bane
+		«Злобная смесь флоры и фауны»
+		Используйте в подземном терновнике, чтобы призвать Vinewrath Bane
 		'''
 }
 
@@ -4081,8 +4091,8 @@ Brightbulb: {
 }
 
 Canvas: {
-	DisplayName: Blank Canvas
-	Tooltip: "'So much opportunity!'"
+	DisplayName: Чистый холст
+	Tooltip: «Столько возможностей!»
 }
 
 GlowRoot: {
@@ -4281,12 +4291,12 @@ PinYellow: {
 }
 
 FishCrate: {
-	DisplayName: Packing Crate
+	DisplayName: Упаковочный ящик
 	Tooltip:
 		'''
-		'A logo from a popular fishing company can be seen'
+		«Сбоку можно увидеть логотип известной рыболовной компании»
 		{$CommonItemTooltip.RightClickToOpen}
-		Contains different types of fish
+		Содержит разные виды рыб
 		'''
 }
 
@@ -4471,8 +4481,8 @@ FloppaPainting: {
 }
 
 ForagerTableItem: {
-	DisplayName: Naturalist's Workshop
-	Tooltip: Allows for the crafting of ambient objects and tiles
+	DisplayName: Мастерская натуралиста
+	Tooltip: Используется для создания блоков и объектов окружения
 }
 
 ForgottenKingStatueItem: {
@@ -4481,37 +4491,37 @@ ForgottenKingStatueItem: {
 }
 
 GiantAnglerStatue: {
-	DisplayName: Giant Manshark Statue
+	DisplayName: Огромная статуя человека-акулы
 	Tooltip: ""
 }
 
 GraniteSpike1: {
-	DisplayName: Granite Coral Formation
+	DisplayName: Гранитное образование в форме коралла
 	Tooltip: ""
 }
 
 GraniteSpike2: {
-	DisplayName: Granite Monolith Formation
+	DisplayName: Гранитное образование в форме монолита
 	Tooltip: ""
 }
 
 GraniteSpike3: {
-	DisplayName: Granite Spike Formation
+	DisplayName: Гранитное образование в форме шипа
 	Tooltip: ""
 }
 
 GraniteSpike4: {
-	DisplayName: Granite Stack Formation
+	DisplayName: Гранитное образование в форме груды
 	Tooltip: ""
 }
 
 GraniteSpike5: {
-	DisplayName: Granite Tube Formation
+	DisplayName: Гранитное образование в форме трубы
 	Tooltip: ""
 }
 
 GraniteSpike6: {
-	DisplayName: Granite Zigzag Formation
+	DisplayName: Гранитное образование в форме зигзага
 	Tooltip: ""
 }
 
@@ -4526,8 +4536,8 @@ HangingSoulbloom: {
 }
 
 HangingSunPot: {
-	DisplayName: Hanging Sun in a Pot
-	Tooltip: Increases life regeneration during the day
+	DisplayName: Подвесное солнце в горшке
+	Tooltip: Увеличивает регенерацию здоровья днём
 }
 
 HourglassItem: {
@@ -4900,111 +4910,111 @@ PrintProbe: {
 }
 
 ReachBedItem: {
-	DisplayName: Elderbark Bed
+	DisplayName: Кровать из бузинной древесины
 	Tooltip: ""
 }
 
 ReachBench: {
-	DisplayName: Elderbark Work Bench
+	DisplayName: Верстак из бузинной древесины
 	Tooltip: ""
 }
 
 ReachBookcase: {
-	DisplayName: Elderbark Bookcase
+	DisplayName: Книжный шкаф из бузинной древесины
 	Tooltip: ""
 }
 
 ReachCandelabra: {
-	DisplayName: Elderbark Candelabra
+	DisplayName: Подсвечник из бузинной древесины
 	Tooltip: ""
 }
 
 ReachCandle: {
-	DisplayName: Elderbark Candle
+	DisplayName: Свеча из бузинной древесины
 	Tooltip: ""
 }
 
 ReachChairItem: {
-	DisplayName: Elderbark Chair
+	DisplayName: Стул из бузинной древесины
 	Tooltip: ""
 }
 
 ReachChandelier: {
-	DisplayName: Elderbark Chandelier
+	DisplayName: Люстра из бузинной древесины
 	Tooltip: ""
 }
 
 ReachChest: {
-	DisplayName: Elderbark Chest
+	DisplayName: Сундук из бузинной древесины
 	Tooltip: ""
 }
 
 ReachClockItem: {
-	DisplayName: Elderbark Clock
+	DisplayName: Напольные часы из бузинной древесины
 	Tooltip: ""
 }
 
 ReachDoorItem: {
-	DisplayName: Elderbark Door
+	DisplayName: Дверь из бузинной древесины
 	Tooltip: ""
 }
 
 ReachDresser: {
-	DisplayName: Elderbark Dresser
+	DisplayName: Комод из бузинной древесины
 	Tooltip: ""
 }
 
 ReachLampItem: {
-	DisplayName: Elderbark Lamp
+	DisplayName: Напольная лампа из бузинной древесины
 	Tooltip: ""
 }
 
 ReachLantern: {
-	DisplayName: Elderbark Lantern
+	DisplayName: Фонарь из бузинной древесины
 	Tooltip: ""
 }
 
 ReachPiano: {
-	DisplayName: Elderbark Piano
+	DisplayName: Пианино из бузинной древесины
 	Tooltip: ""
 }
 
 ReachPlatformTile: {
-	DisplayName: Elderbark Platform
+	DisplayName: Платформа из бузинной древесины
 	Tooltip: ""
 }
 
 ReachPot: {
-	DisplayName: Elderbark Pot
+	DisplayName: Горшок из бузинной древесины
 	Tooltip: ""
 }
 
 ReachSink: {
-	DisplayName: Elderbark Sink
+	DisplayName: Раковина из бузинной древесины
 	Tooltip: ""
 }
 
 ReachSofa: {
-	DisplayName: Elderbark Sofa
+	DisplayName: Диван из бузинной древесины
 	Tooltip: ""
 }
 
 ReachTable: {
-	DisplayName: Elderbark Table
+	DisplayName: Стол из бузинной древесины
 	Tooltip: ""
 }
 
 ReachTub: {
-	DisplayName: Elderbark Bathtub
+	DisplayName: Ванна из бузинной древесины
 	Tooltip: ""
 }
 
 TreemanStatue: {
-	DisplayName: Statue of the Old Gods
+	DisplayName: Статуя древним богам
 	Tooltip:
 		'''
-		Provides the effects of a Work Bench, Potion Crafting Station, and Bookcase
-		'The Old Ones will protect you'
+		Совмещает свойства верстака, размещённой банки и книжного шкафа
+		«Древние божества оберегают вас»
 		'''
 }
 
@@ -5014,8 +5024,8 @@ ReachChestTile: {
 }
 
 ReachPainting: {
-	DisplayName: Just out of Reach
-	Tooltip: "'M. Beigh'"
+	DisplayName: Картина «Вне досягаемости»
+	Tooltip: «М. Бей»
 }
 
 GraniteSculpture1x2Item: {
@@ -5114,7 +5124,7 @@ SkullPile: {
 }
 
 SkullStick: {
-	DisplayName: Skull on a Stick
+	DisplayName: Череп на палке
 	Tooltip: ""
 }
 
@@ -5189,8 +5199,8 @@ StreamScaleLantern: {
 }
 
 SunPot: {
-	DisplayName: Sun in a Pot
-	Tooltip: Increases life regeneration during the day
+	DisplayName: Солнце в горшке
+	Tooltip: Увеличивает регенерацию здоровья днём
 }
 
 SynthwaveHeadItem: {
@@ -5274,7 +5284,7 @@ AuroraBox: {
 }
 
 AvianBox: {
-	DisplayName: Музыкальная шкатулка (Доисторическая птица)
+	DisplayName: Музыкальная шкатулка (Древний авиан)
 	Tooltip: ""
 }
 
@@ -5334,7 +5344,7 @@ HallowNightBox: {
 }
 
 HyperspaceDayBox: {
-	DisplayName: Музыкальная шкатулка (Ночное гиперпространство)
+	DisplayName: Музыкальная шкатулка (Дневное гиперпространство)
 	Tooltip: ""
 }
 
@@ -5374,7 +5384,7 @@ NeonMusicBox: {
 }
 
 OceanDepthsBox: {
-	DisplayName: Музыкальная шкатулка (Океаничсекие глубины)
+	DisplayName: Музыкальная шкатулка (Океанические глубины)
 	Tooltip: ""
 }
 
@@ -5543,8 +5553,8 @@ BlastStoneItem: {
 }
 
 BriarGrassSeeds: {
-	DisplayName: Briar Grass Seeds
-	Tooltip: Can be placed
+	DisplayName: Семена травы терновника
+	Tooltip: "{$LegacyTooltip.33}"
 }
 
 CreepingIce: {
@@ -5652,12 +5662,12 @@ AsteroidWall: {
 }
 
 BarkWall: {
-	DisplayName: Elderbark Wall
+	DisplayName: Стена из бузинной древесины
 	Tooltip: ""
 }
 
 ElderbarkFence: {
-	DisplayName: Elderbark Fence
+	DisplayName: Забор из бузинной древесины
 	Tooltip: ""
 }
 
@@ -5846,7 +5856,7 @@ DefenseCodex: {
 }
 
 EmptyCodex: {
-	DisplayName: Empty Arcane Codex
+	DisplayName: Пустой магический гримуар
 	Tooltip: ""
 }
 
@@ -5881,12 +5891,12 @@ SlowCodex: {
 }
 
 StaminaCodex: {
-	DisplayName: Arcane Codex: Stamina Zone
+	DisplayName: Магический гримуар: Зона выносливости
 	Tooltip:
 		'''
-		Summons a stamina zone at the cursor position
-		Stamina zones increase movement speed by 20%
-		Zones count as sentries
+		Создаёт зону выносливости в месте курсора
+		Зоны выносливости увеличивают скорость передвижения на 20%
+		Зоны считаются за стражей
 		'''
 }
 
@@ -6092,8 +6102,8 @@ StarlightBow: {
 }
 
 LivingElderbarkWand: {
-	DisplayName: Living Elderbark Wand
-	Tooltip: Places living elderbark
+	DisplayName: Ветвь живого бузинного дерева
+	Tooltip: Размещает живую бузинную древесину
 }
 
 ReachBoomerang: {
@@ -6126,13 +6136,13 @@ ThornyRod: {
 }
 
 AnodyneHat: {
-	DisplayName: Anodyne Hat
+	DisplayName: Успокоительная шляпа
 	Tooltip: ""
 }
 
 EnchantedLeaf: {
-	DisplayName: Enchanted Leaf
-	Tooltip: "'Blessed with the magic of druids'"
+	DisplayName: Зачарованный лист
+	Tooltip: «Благословлён магией друидов»
 }
 
 ReachFishingCatch: {
@@ -6151,28 +6161,28 @@ VineChain: {
 }
 
 CascadeChestplate: {
-	DisplayName: Cascade Chestplate
-	Tooltip: 50% knockback resistance
+	DisplayName: Нагрудник охотника рифов
+	Tooltip: Увеличивает сопротивление к отбрасыванию на 50%
 }
 
 CascadeHelmet: {
-	DisplayName: Cascade Helmet
-	Tooltip: Allows for breathing underwater
+	DisplayName: Шлем охотника рифов
+	Tooltip: Позволяет дышать под водой
 }
 
 CascadeLeggings: {
-	DisplayName: Cascade Greaves
-	Tooltip: 15% increased movement in water
+	DisplayName: Поножи охотника рифов
+	Tooltip: Увеличивает скорость передвижения в воде на 15%
 }
 
 Basking_Shark: {
-	DisplayName: Basking Shark
-	Tooltip: Converts bullets into chum chunks
+	DisplayName: Исполинская акула
+	Tooltip: Превращает пули в ошмётки требухи
 }
 
 BubbleMine: {
-	DisplayName: Bubble Mine
-	Tooltip: Right-click to make bubble mines detonate
+	DisplayName: Пузырьковая мина
+	Tooltip: Нажмите ПКМ, чтобы взорвать пузырями все брошенные мины
 }
 
 Coral_Catcher: {
@@ -6181,8 +6191,8 @@ Coral_Catcher: {
 }
 
 DeepCascadeShard: {
-	DisplayName: Deep Cascade Shard
-	Tooltip: "'Where magma meets seawater'"
+	DisplayName: Осколок вулканического выброса
+	Tooltip: «Там, где магма сталкивается с морской водой»
 }
 
 JellyfishStaff: {
@@ -6191,21 +6201,21 @@ JellyfishStaff: {
 }
 
 Mantaray_Hunting_Harpoon: {
-	DisplayName: Manta Harpoon
+	DisplayName: Гарпун для ската
 	Tooltip:
 		'''
-		Summons a rideable manta ray mount
-		The manta Ray is incapable of movement on land
+		Призывает ездового ската
+		Скат не может передвигаться по суше
 		'''
 }
 
 Reef_Wrath: {
-	DisplayName: Reef Wrath
-	Tooltip: Conjures harmful coral spires along the ground
+	DisplayName: Ярость рифов
+	Tooltip: Выпускает коралловые копья из земли
 }
 
 BassSlapper: {
-	DisplayName: Bass Slapper
+	DisplayName: Окунешлёп
 	Tooltip: ""
 }
 
@@ -6254,22 +6264,22 @@ ClubSandwich: {
 }
 
 FloranBludgeon: {
-	DisplayName: Floran Bludgeon
-	Tooltip: Releases a shockwave along the ground
+	DisplayName: Флоранитовая палица
+	Tooltip: Создаёт ударную волну, протягивающуюся по земле
 }
 
 GoldClub: {
-	DisplayName: Golden Greathammer
+	DisplayName: Золотой боевой молот
 	Tooltip: ""
 }
 
 Macuahuitl: {
-	DisplayName: Macuahuitl
-	Tooltip: Charging increases armor penetration
+	DisplayName: Макуауитль
+	Tooltip: Зарядите, чтобы увеличить пробивание брони
 }
 
 PlatinumClub: {
-	DisplayName: Platinum Scepter
+	DisplayName: Платиновый скипетр
 	Tooltip: ""
 }
 
@@ -6497,65 +6507,65 @@ JadeDao: {
 }
 
 Ambergris: {
-	DisplayName: Ambergris
+	DisplayName: Амбра
 	Tooltip:
 		'''
-		'Highly valuable'
-		'You don't want to know where this came from'
+		Крайне ценный ресурс
+		«Вы не хотите знать её происхождение»
 		'''
 }
 
 Driftwood1Item: {
-	DisplayName: Small Driftwood
-	Tooltip: "'Aesthetically pleasing'"
+	DisplayName: Маленькая коряга
+	Tooltip: «Приятна для глаз»
 }
 
 Driftwood2Item: {
-	DisplayName: Medium Driftwood
-	Tooltip: "'Aesthetically pleasing'"
+	DisplayName: Средняя коряга
+	Tooltip: «Приятна для глаз»
 }
 
 Driftwood3Item: {
-	DisplayName: Large Driftwood
-	Tooltip: "'Aesthetically pleasing'"
+	DisplayName: Большая коряга
+	Tooltip: «Приятна для глаз»
 }
 
 DriftwoodChestplate: {
-	DisplayName: Driftwood Chestplate
+	DisplayName: Коряжный нагрудник
 	Tooltip: ""
 }
 
 DriftwoodHelmet: {
-	DisplayName: Driftwood Helmet
+	DisplayName: Коряжный шлем
 	Tooltip: ""
 }
 
 DriftwoodLeggings: {
-	DisplayName: Driftwood Leggings
+	DisplayName: Коряжные поножи
 	Tooltip: ""
 }
 
 DriftwoodSword: {
-	DisplayName: Driftwood Sword
+	DisplayName: Коряжный меч
 	Tooltip: ""
 }
 
 DriftwoodTileItem: {
-	DisplayName: Driftwood Block
+	DisplayName: Коряга
 	Tooltip: ""
 }
 
 DriftwoodWallItem: {
-	DisplayName: Driftwood Wall
+	DisplayName: Коряжная стена
 	Tooltip: ""
 }
 
 FishLure: {
-	DisplayName: Fish Lure
+	DisplayName: Рыболовная приманка
 	Tooltip:
 		'''
-		Can only be placed in water
-		Attracts schools of fish to nearby waters
+		Можно разместить на поверхности воды
+		Привлекает стаи рыб в ближайшие воды
 		'''
 }
 
@@ -6565,98 +6575,98 @@ Kelp: {
 }
 
 MessageBottle: {
-	DisplayName: Message in a Bottle
+	DisplayName: Бутылка с посланием
 	Tooltip:
 		'''
-		Summons a raft mount
-		Increased fishing power while on the raft
+		Призывает ездовой плот
+		Нахождение на плоту увеличивает навык рыбной ловли
 		'''
 }
 
 SunkenTreasure: {
-	DisplayName: Sunken Treasure
+	DisplayName: Затонувшее сокровище
 	Tooltip:
 		'''
-		Right-click to open
-		'Perhaps it is still full of valuable treasure'
+		{$CommonItemTooltip.RightClickToOpen}
+		«Возможно, внутри всё ещё полно ценных сокровищ»
 		'''
 }
 
 FBow: {
-	DisplayName: Floran Bow
-	Tooltip: "'Primitive, yet useful'"
+	DisplayName: Флоранский лук
+	Tooltip: «Простой, но практичный»
 }
 
 FHelmet: {
-	DisplayName: Floran Helmet
-	Tooltip: Increases movement speed by 6%
+	DisplayName: Флоранский шлем
+	Tooltip: Увеличивает скорость передвижения на 6%
 }
 
 FLegs: {
-	DisplayName: Floran Leggings
-	Tooltip: Increases movement speed by 4%
+	DisplayName: Флоранские поножи
+	Tooltip: Увеличивает скорость передвижения на 4%
 }
 
 FPlate: {
-	DisplayName: Floran Plate
-	Tooltip: Increases movement speed by 6%
+	DisplayName: Флоранские латы
+	Tooltip: Увеличивает скорость передвижения на 6%
 }
 
 FloranBar: {
-	DisplayName: Floran Bar
+	DisplayName: Флоранский слиток
 	Tooltip: ""
 }
 
 FloranCharm: {
-	DisplayName: Floran Hunting Charm
-	Tooltip: 5% increased melee speed and slightly increases life regeneration while standing on grass
+	DisplayName: Флоранский охотничий талисман
+	Tooltip: Увеличивает скорость атаки ближнего боя на 5% и немного ускоряет регенерацию здоровья, когда вы стоите на траве
 }
 
 Florang: {
-	DisplayName: Floran Cutter
+	DisplayName: Флоранский резак
 	Tooltip:
 		'''
-		Rolls along the ground, cutting up enemies 
-		Vines occasionally ensnare the foes, reducing their movement speed 
-		'Sharp as a razorleaf'
+		Катится по земле, разрезая врагов по пути
+		Имеет шанс обвить лозой поражённого врага, снижая его скорость
+		«Острый как лист»
 		'''
 }
 
 FloranHamaxe: {
-	DisplayName: Floran Hamaxe
+	DisplayName: Флоранский молотопор
 	Tooltip: ""
 }
 
 FloranOre: {
-	DisplayName: Floran Ore
-	Tooltip: "'A strange mixture of plant cells and metal'"
+	DisplayName: Флоранская руда
+	Tooltip: «Необычное сочетание растительных клеток и металла»
 }
 
 FloranPick: {
-	DisplayName: Floran Pickaxe
+	DisplayName: Флоранская кирка
 	Tooltip: ""
 }
 
 FloranReacher: {
-	DisplayName: Floran Reacher
-	Tooltip: Grants improved fishing power at nighttime
+	DisplayName: Флоранский вытягиватель
+	Tooltip: Увеличивает навык рыбной ловли ночью
 }
 
 FloranSporeWand: {
-	DisplayName: Floran Spore Wand
+	DisplayName: Флоранский жезл спор
 	Tooltip:
 		'''
-		Shoots out a floating Floran Spore
-		Hit enemies are occasionally ensnared by vines and lose speed
+		Выпускает парящую в воздухе флоранскую спору
+		Имеет шанс обвить лозой поражённого врага, снижая его скорость
 		'''
 }
 
 FloranStaff: {
-	DisplayName: Floran Staff
+	DisplayName: Флоранитовый посох
 	Tooltip:
 		'''
-		Calls three guarding energies that surround the player before dissipating
-		Vines occasionally ensnare the foes, reducing their movement speed
+		Призывает три защитные энергетические сферы, которые окружают игрока пока не рассеются
+		Имеет шанс обвить лозой поражённого врага, снижая его скорость
 		'''
 }
 
@@ -6762,8 +6772,8 @@ SilverChest: {
 }
 
 HuskstalkStaff: {
-	DisplayName: Huskstalk Staff
-	Tooltip: Shoots consecutive leaves
+	DisplayName: Хворостяной посох
+	Tooltip: Выпускает залп из листьев
 }
 
 OakHeart: {
@@ -6949,12 +6959,12 @@ KineticRailgun: {
 }
 
 LadyLuck: {
-	DisplayName: Lady Luck
+	DisplayName: Госпожа удача
 	Tooltip:
 		'''
-		Right click to throw out a lucky coin
-		Shoot this coin to ricochet the bullet towards nearby enemies
-		'Luck favors the rich'
+		Нажмите ПКМ, чтобы подбросить монетку в воздух
+		При попадании пули в монету она рикошетит в ближайшего врага
+		«Удача благоволит богатым»
 		'''
 }
 
@@ -7072,37 +7082,37 @@ TrueShadowShot: {
 }
 
 AncientBark: {
-	DisplayName: Elderbark
+	DisplayName: Бузинная древесина
 	Tooltip: ""
 }
 
 ElderbarkChest: {
-	DisplayName: Elderbark Breastplate
+	DisplayName: Нагрудник из бузинной древесины
 	Tooltip: ""
 }
 
 ElderbarkHead: {
-	DisplayName: Elderbark Helmet
+	DisplayName: Шлем из бузинной древесины
 	Tooltip: ""
 }
 
 ElderbarkLegs: {
-	DisplayName: Elderbark Leggings
+	DisplayName: Поножи из бузинной древесины
 	Tooltip: ""
 }
 
 HuskstalkBow: {
-	DisplayName: Huskstalk Bow
-	Tooltip: Arrows shot inflict Withering Leaf
+	DisplayName: Хворостяной лук
+	Tooltip: Стрелы накладывают дебафф «{$Buffs.WitheringLeaf.DisplayName}»
 }
 
 HuskstalkHammer: {
-	DisplayName: Huskstalk Hammer
+	DisplayName: Хворостяной молот
 	Tooltip: ""
 }
 
 HuskstalkSword: {
-	DisplayName: Huskstalk Sword
+	DisplayName: Хворостяной меч
 	Tooltip: ""
 }
 
@@ -7423,23 +7433,22 @@ OlympiumToken: {
 }
 
 DuelistLegacy: {
-	DisplayName: First Mate
+	DisplayName: Старший помощник
 	Tooltip:
 		'''
-		Right click to fire a powerful shotgun blast 
-		Charges up a super attack after 2 swings
-		Release this special attack as either a slash or a blast
+		Нажмите ПКМ, чтобы сделать сильный выстрел
+		Два сделанных взмаха усилят следующую атаку: третий взмах или выстрел
 		'''
 }
 
 PirateChest: {
-	DisplayName: Pirate Chest
+	DisplayName: Пиратский сундук
 	Tooltip: ""
 }
 
 PirateKey: {
-	DisplayName: Secret Key
-	Tooltip: "'The pirates must have hidden treasure somewhere...'"
+	DisplayName: Секретный ключ
+	Tooltip: «Пираты наверняка спрятали где-то сокровища...»
 }
 
 ClawCannon: {
@@ -7463,17 +7472,17 @@ ReefSpear: {
 }
 
 SkullSentry: {
-	DisplayName: Maneater Skull
-	Tooltip: Summons a stationary skull infested by maneater worms that fire red mucus at nearby enemies
+	DisplayName: Червивый череп
+	Tooltip: Призывает череп-стража, заражённый червями-плотоядками, который стреляет красной слизью во врагов
 }
 
 SulfurDeposit: {
-	DisplayName: Sulfur Deposit
-	Tooltip: Highly explosive
+	DisplayName: Отложение серы
+	Tooltip: Очень взрывоопасно
 }
 
 UrchinStaff: {
-	DisplayName: Urchin Lobber
+	DisplayName: Метатель ежей
 	Tooltip: ""
 }
 
@@ -8070,10 +8079,10 @@ Vulture_Matriarch_Mask: {
 }
 
 PoolNoodle: {
-	DisplayName: Pool Noodle
+	DisplayName: Нудл
 	Tooltip:
 		'''
-		3 summon tag damage
+		3 ед. урона от метки призывателя
 		{$CommonItemTooltip.Whips}
 		'''
 }
@@ -8291,8 +8300,8 @@ EoWDagger: {
 }
 
 ExplosiveRum: {
-	DisplayName: Explosive Rum
-	Tooltip: "'Oh, there it is!'"
+	DisplayName: Взрывной ром
+	Tooltip: «Куда это ром вечно исчезает? А... Вот куда»
 }
 
 Kunai_Throwing: {
@@ -8406,8 +8415,8 @@ TheFireball: {
 }
 
 Typhoon: {
-	DisplayName: Typhoon
-	Tooltip: Shoots sharks at nearby enemies
+	DisplayName: Тайфун
+	Tooltip: Запускает акул в ближайших врагов
 }
 
 Fathomless_Chest_Item: {
@@ -8459,7 +8468,7 @@ SmallKelpItem: {
 }
 
 LargeVentItem: {
-	DisplayName: Large Hydrothermal Vent
+	DisplayName: Большое гидротермальное жерло
 	Tooltip: ""
 }
 
@@ -8469,7 +8478,7 @@ MusselItem: {
 }
 
 SmallVentItem: {
-	DisplayName: Small Hydrothermal Vent
+	DisplayName: Маленькое гидротермальное жерло
 	Tooltip: ""
 }
 
@@ -8739,12 +8748,12 @@ CleftCage: {
 }
 
 GulperBowl: {
-	DisplayName: Gulper Bowl
+	DisplayName: Аквариум с большеротиком
 	Tooltip: ""
 }
 
 LuvdiscBowl: {
-	DisplayName: Ardorfish Bowl
+	DisplayName: Аквариум с рыбой-страстью
 	Tooltip: ""
 }
 
@@ -8885,32 +8894,32 @@ TrollfaceMask: {
 }
 
 DriftwoodChairItem: {
-	DisplayName: Driftwood Chair
+	DisplayName: Коряжный стул
 	Tooltip: ""
 }
 
 DriftwoodDoorItem: {
-	DisplayName: Driftwood Door
+	DisplayName: Коряжная дверь
 	Tooltip: ""
 }
 
 DriftwoodTableItem: {
-	DisplayName: Driftwood Table
+	DisplayName: Коряжный стол
 	Tooltip: ""
 }
 
 DriftwoodWorkbenchItem: {
-	DisplayName: Driftwood Work Bench
+	DisplayName: Коряжный верстак
 	Tooltip: ""
 }
 
 SwordStandItem: {
-	DisplayName: Sword Stand
-	Tooltip: Allows some swords to be displayed using right click
+	DisplayName: Подставка для меча
+	Tooltip: Нажмите ПКМ, чтобы положить меч
 }
 
 DriftwoodPlatformItem: {
-	DisplayName: Driftwood Platform
+	DisplayName: Коряжная платформа
 	Tooltip: ""
 }
 
@@ -8954,6 +8963,6 @@ ToweringStactus: {
 }
 
 GildJellyItem: {
-	DisplayName: "{$Mods.SpiritMod.NPCs.GildJelly.DisplayName}"
+	DisplayName: Медуза-позолотка
 	Tooltip: ""
 }

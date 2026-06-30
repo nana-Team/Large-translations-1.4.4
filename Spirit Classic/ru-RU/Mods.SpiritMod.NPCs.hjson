@@ -380,8 +380,8 @@ GaleSnail: {
 }
 
 GildJelly: {
-	DisplayName: Gilded Jelly
-	Entry: Gorgeous jellies with a shimmering hood that resembles gold. Tragically, they do not handle captivity well.
+	DisplayName: Медуза-позолотка
+	Entry: Поразительной красоты медузы с блестящим зонтиком, будто вылитым из золота. Жаль, что в тесных аквариумах такие медузы не приживаются.
 }
 
 GoldenCarp: {
@@ -395,13 +395,13 @@ GoldLumoth: {
 }
 
 Grouper: {
-	DisplayName: Grouper
-	Entry: These fish are prized for their size and flavor. With a fish that big, you can feed an entire town, let alone yourself.
+	DisplayName: Групер
+	Entry: Высоко ценятся за свой размер и вкус. Одной такой рыбины хватит не только на вас, но и на весь ваш город.
 }
 
 Gulper: {
-	DisplayName: Gulper
-	Entry: These small, domesticated fish are made of a springy substance, are often sold at festivals, and have an extremely short life expectancy.
+	DisplayName: Большеротик
+	Entry: Крохотные одомашненные рыбы, тела которых в основном состоят из упругого вещества. Живут они не очень долго, и покупают их обычно только на фестивалях.
 }
 
 HailSnail: {
@@ -430,8 +430,8 @@ Lumoth: {
 }
 
 Luvdisc: {
-	DisplayName: Ardorfish
-	Entry: When the moon hits your eye like a big pizza pie... that's an Ardor.
+	DisplayName: Рыба-страсть
+	Entry: Я знаю пароль, я вижу ориентир, я верю только в то, что рыба-страсть спасёт мир.
 }
 
 Maggotfly: {
@@ -440,8 +440,8 @@ Maggotfly: {
 }
 
 NeonTetra: {
-	DisplayName: Neon Tetra
-	Entry: True to their name, this species of tropical fish has bright and beautiful colors, making them sell for an exorbitant price.
+	DisplayName: "{$ItemName.NeonTetra}"
+	Entry: Как понятно из названия, этот вид тропических рыб окрашен в яркие и красочные цвета, из-за чего цены на них заоблачные.
 }
 
 Crinoid: {
@@ -449,11 +449,11 @@ Crinoid: {
 	Entry: Эти любопытные создания — близкие родственники морских звёзд. Они питаются всем, что оседает на морском дне.
 }
 
-Floater.DisplayName: Luminous Floater
+Floater.DisplayName: Сверкающий поплавок
 
 Floater1: {
-	DisplayName: Luminous Floater
-	Entry: Below the waves of the elusive glowing ocean, lies hundreds of small, glowing jellyfish, dancing among the luminescent tide.
+	DisplayName: Сверкающий поплавок
+	Entry: Под бушующими волнами светящегося океана прячутся сотни маленьких сверкающих медуз, будто танцующих в такт сияющего течения.
 }
 
 Pelican: {
@@ -472,23 +472,23 @@ SandPiper: {
 }
 
 Prismite: {
-	DisplayName: Prismite
-	Entry: An iridescent mineral fish that wades the waters of the Hallow. The prismatic gleam that reflects light from its scales is a natural beauty.
+	DisplayName: "{$ItemName.Prismite}"
+	Entry: Переливающаяся яркими цветами рыба, состоящая из минералов и обитающая в водах освящения. Прекрасный радужный отблеск, отражающийся от их чешуи — ещё одно чудо природы.
 }
 
 PurpleClubberfish: {
-	DisplayName: Purple Clubberfish
-	Entry: If you are trying to claim this weapon of mass destruction, beware of its power. It can and will use it against you!
+	DisplayName: "{$ItemName.PurpleClubberfish}"
+	Entry: Если хотите заполучить это оружие массового уничтожения, помните о её неимоверной силе, ведь эта рыба может использовать её против вас самих.
 }
 
 RedSnapper: {
-	DisplayName: Red Snapper
-	Entry: Despite their name, they are actually quite docile! Perfect for capturing and cooking without issue.
+	DisplayName: "{$ItemName.RedSnapper}"
+	Entry: Несмотря на свой хищные повадки, эти рыбы довольно спокойные! Их без проблем можно поймать и приготовить.
 }
 
 Rockfish: {
-	DisplayName: Rockfish
-	Entry: Undeniably too tough to eat. For bludgeoning, however, these natural disasters have quite the potential.
+	DisplayName: "{$ItemName.Rockfish}"
+	Entry: Несомненно, есть настолько твёрдую и жёсткую рыбу вы не сможете, а вот размахивать ей как дубиной — другое дело.
 }
 
 Rotslug: {
@@ -507,8 +507,8 @@ SpecularFish: {
 }
 
 Swordfish: {
-	DisplayName: Swordfish
-	Entry: It's a sword, it's a fish! It's a swordfish! Versatile fish that function as both pets and weapons, what a deal! These don't come with speakers though.
+	DisplayName: "{$ItemName.Swordfish}"
+	Entry: Это рыба! Это меч! Это рыба-меч! Можете делать с ней всё, что захотите: держать в аквариуме или размахивать как оружием — решать вам! Разве что телевизор на ней не посмотришь.
 }
 
 TinyCrab: {
