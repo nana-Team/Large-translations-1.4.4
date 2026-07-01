@@ -155,26 +155,26 @@ MadHatter: {
 AncientFlyer: {
 	DisplayName: Древняя птица
 	Entry: The matriarch of an extinct avian predator species, brought back to life through sheer will to protect the yolk of its last remaining spawn.
-	BossChecklistIntegration.SpawnInfo: Разбейте большое яйцо на птичьем острове, либо используйте [i:SpiritMod/JewelCrown] в космосе.
+	BossChecklistIntegration.SpawnInfo: Разбейте большое яйцо на птичьем острове, либо используйте [i:SpiritMod/JewelCrown] на небесах.
 	Spawn: Древняя птица пробуждается!
 }
 
 Atlas: {
-	DisplayName: Atlas
+	DisplayName: Атлант
 	Entry: A fractured sentinel built millenia ago to protect the land from those who would dare to scar its natural form. Now, it seems you have made yourself its target.
-	BossChecklistIntegration.SpawnInfo: Use a [i:SpiritMod/StoneSkin] anywhere at any time.
+	BossChecklistIntegration.SpawnInfo: Используйте [i:SpiritMod/StoneSkin].
 }
 
-AtlasArmLeft.DisplayName: Atlas Arm
-AtlasArmRight.DisplayName: Atlas Arm
+AtlasArmLeft.DisplayName: Рука Атланта
+AtlasArmRight.DisplayName: Рука Атланта
 CobbledEye.DisplayName: Cobbled Eye
 CobbledEye2.DisplayName: Cobbled Eye
 CobbledEye3.DisplayName: Cobbled Eye
 
 Dusking: {
-	DisplayName: Dusking
+	DisplayName: Сумеречный король
 	Entry: The nightmarish consequence of a failed seance by goblin warlocks. This abominable spirit remains a burning reminder of the chaos shadowflame magic can bring.
-	BossChecklistIntegration.SpawnInfo: Use a [i:SpiritMod/DuskCrown] anywhere at nighttime.
+	BossChecklistIntegration.SpawnInfo: Используйте [i:SpiritMod/DuskCrown] ночью.
 }
 
 ShadowBall.DisplayName: Penumbral Sphere
@@ -191,9 +191,9 @@ FrostSaucer: {
 }
 
 Infernon: {
-	DisplayName: Infernon
+	DisplayName: Инфернон
 	Entry: This diabolical demon was once shackled in the depths of the underworld, but has finally broken free. Any mortal who would dare obstruct his rampage should prepare for one hell of a fight.
-	BossChecklistIntegration.SpawnInfo: Use a [i:SpiritMod/CursedCloth] in the Underworld at any time.
+	BossChecklistIntegration.SpawnInfo: Используйте [i:SpiritMod/CursedCloth] в преисподней.
 	ExpertDialogue: You have yet to defeat the true master of Hell...
 }
 
@@ -246,11 +246,11 @@ Scarabeus: {
 SwarmScarab.DisplayName: Scarab
 ArcadeProbe.DisplayName: Starfarer
 LaserBase.DisplayName: Laser Launcher
-SteamRaiderBody.DisplayName: Starplate Voyager
-SteamRaiderBody2.DisplayName: Starplate Voyager
+SteamRaiderBody.DisplayName: Звездопанцирный странник
+SteamRaiderBody2.DisplayName: Звездопанцирный странник
 
 SteamRaiderHead: {
-	DisplayName: Starplate Voyager
+	DisplayName: Звездопанцирный странник
 	Entry: A strange automaton of unknown origin, designed for mining a precious metal from the stars. It utilizes the untapped energy found within the ore to power itself and perpetuate an endless search.
 	BossChecklistIntegration.SpawnInfo: Use a [i:SpiritMod/StarWormSummon] at an Astralite Beacon, located in the Asteroids, at nighttime.
 	Spawn: The Starplate Voyager has awoken!

@@ -2022,7 +2022,7 @@ ArcaneGeyser: {
 }
 
 AtlasBag: {
-	DisplayName: Мешок с сокровищами (Atlas)
+	DisplayName: Мешок с сокровищами (Атлант)
 	Tooltip:
 		'''
 		{$LegacyTooltip.35}
@@ -2040,7 +2040,7 @@ AtlasEye: {
 }
 
 AtlasMask: {
-	DisplayName: Atlas Mask
+	DisplayName: Маска Атланта
 	Tooltip: ""
 }
 
@@ -2123,7 +2123,7 @@ TitanboundBulwark: {
 }
 
 Trophy8: {
-	DisplayName: Atlas Trophy
+	DisplayName: Трофей Атланта
 	Tooltip: ""
 }
 
@@ -2219,7 +2219,7 @@ DuskPlate: {
 }
 
 DuskingBag: {
-	DisplayName: Мешок с сокровищами (Dusking)
+	DisplayName: Мешок с сокровищами (Сумрачный король)
 	Tooltip:
 		'''
 		{$LegacyTooltip.35}
@@ -2228,7 +2228,7 @@ DuskingBag: {
 }
 
 DuskingMask: {
-	DisplayName: Dusking Mask
+	DisplayName: Маска Сумрачного короля
 	Tooltip: ""
 }
 
@@ -2267,7 +2267,7 @@ ShadowSphere: {
 }
 
 Trophy6: {
-	DisplayName: Dusking Trophy
+	DisplayName: Трофей Сумрачного короля
 	Tooltip: ""
 }
 
@@ -2348,7 +2348,7 @@ InfernalVisor: {
 }
 
 InfernonBag: {
-	DisplayName: Мешок с сокровищами (Infernon)
+	DisplayName: Мешок с сокровищами (Инфернон)
 	Tooltip:
 		'''
 		{$LegacyTooltip.35}
@@ -2357,7 +2357,7 @@ InfernonBag: {
 }
 
 InfernonMask: {
-	DisplayName: Infernon Mask
+	DisplayName: Маска Инфернона
 	Tooltip: ""
 }
 
@@ -2372,7 +2372,7 @@ SevenSins: {
 }
 
 Trophy4: {
-	DisplayName: Infernon Trophy
+	DisplayName: Трофей Инфернона
 	Tooltip: ""
 }
 
@@ -2399,7 +2399,7 @@ JellynautBubble: {
 }
 
 MJWBag: {
-	DisplayName: Мешок с сокровищами (Moon Jelly Wizard)
+	DisplayName: Мешок с сокровищами (Лунная медуза-волшебник)
 	Tooltip:
 		'''
 		{$LegacyTooltip.35}
@@ -2408,7 +2408,7 @@ MJWBag: {
 }
 
 MJWMask: {
-	DisplayName: Moon Jelly Wizard Mask
+	DisplayName: Маска Лунной медузы-волшебника
 	Tooltip: ""
 }
 
@@ -2418,7 +2418,7 @@ MJWPetItem: {
 }
 
 MJWTrophy: {
-	DisplayName: Moon Jelly Wizard Trophy
+	DisplayName: Трофей Лунной медузы-волшебника
 	Tooltip: ""
 }
 
@@ -2637,7 +2637,7 @@ StarplateGlove: {
 }
 
 StarplateMask: {
-	DisplayName: Starplate Voyager Mask
+	DisplayName: Маска Звездопанцирного странника
 	Tooltip: ""
 }
 
@@ -2662,7 +2662,7 @@ SteamplateBow: {
 }
 
 SteamRaiderBag: {
-	DisplayName: Мешок с сокровищами (Starplate Voyager)
+	DisplayName: Мешок с сокровищами (Звездопанцирный странник)
 	Tooltip:
 		'''
 		{$LegacyTooltip.35}
@@ -2671,7 +2671,7 @@ SteamRaiderBag: {
 }
 
 Trophy3: {
-	DisplayName: Starplate Voyager Trophy
+	DisplayName: Трофей Звездопанцирного странника
 	Tooltip: ""
 }
 
@@ -2905,7 +2905,7 @@ CrinoidItem: {
 
 CursedCloth: {
 	DisplayName: Pain Caller
-	Tooltip: Use in the Underworld to summon Infernon
+	Tooltip: Призывает Инфернона при использовании в преисподней
 }
 
 CyberflyBlueItem: {
@@ -2932,14 +2932,14 @@ DreamlightJellyItem: {
 	Tooltip:
 		'''
 		'It exudes arcane energy'
-		Use at nighttime to summon the Moon Jelly Wizard
-		Not consumable
+		Призывает Лунную медузу-волшебника при использовании ночью
+		Не расходуется
 		'''
 }
 
 DuskCrown: {
-	DisplayName: Dusk Crown
-	Tooltip: Use at nighttime to summon Dusking
+	DisplayName: Сумрачная корона
+	Tooltip: Призывает Сумрачного короля при использовании ночью
 }
 
 FateToken: {
@@ -3194,7 +3194,7 @@ HemoglorbItem: {
 
 JewelCrown: {
 	DisplayName: Плюмажная корона
-	Tooltip: Используйте в космосе, чтобы призывать Древнюю птицу
+	Tooltip: Призывает Древнюю птицу при использовании на небесах
 }
 
 LumothItem: {
@@ -3441,7 +3441,7 @@ ReachBossSummon: {
 	Tooltip:
 		'''
 		«Злобная смесь флоры и фауны»
-		Используйте в подземном терновнике, чтобы призвать Vinewrath Bane
+		Призывает Vinewrath Bane при использовании в подземном терновнике
 		'''
 }
 
@@ -3479,7 +3479,7 @@ ScarabIdol: {
 	Tooltip:
 		'''
 		Не расходуется
-		Используйте днём в пустыне, чтобы призвать Скарабеуса
+		Призывает Скарабеуса при использовании днём в пустыне
 		'''
 }
 
@@ -3508,8 +3508,12 @@ StarWormSummon: {
 }
 
 StoneSkin: {
-	DisplayName: Stone Fist
-	Tooltip: Use anywhere to summon Atlas
+	DisplayName: Каменный кулак
+	Tooltip:
+		'''
+		Не расходуется
+		Призывает Атланта
+		'''
 }
 
 SurrenderBell: {
@@ -5460,7 +5464,7 @@ SkeletronPrimeBox: {
 }
 
 AtlasRelicItem: {
-	DisplayName: Atlas Relic
+	DisplayName: Реликвия Атланта
 	Tooltip: ""
 }
 
@@ -5470,7 +5474,7 @@ AvianRelicItem: {
 }
 
 DuskingRelicItem: {
-	DisplayName: Dusking Relic
+	DisplayName: Реликвия Сумрачного короля
 	Tooltip: ""
 }
 
@@ -5480,17 +5484,17 @@ FrostSaucerRelicItem: {
 }
 
 InfernonRelicItem: {
-	DisplayName: Infernon Relic
+	DisplayName: Реликвия Инфернона
 	Tooltip: ""
 }
 
 MJWRelicItem: {
-	DisplayName: Moon Jelly Wizard Relic
+	DisplayName: Реликвия Лунной медузы-волшебника
 	Tooltip: ""
 }
 
 OccultistRelicItem: {
-	DisplayName: Occultist Relic
+	DisplayName: Реликвия Оккультиста
 	Tooltip: ""
 }
 
@@ -5505,7 +5509,7 @@ ScarabeusRelicItem: {
 }
 
 StarplateRelicItem: {
-	DisplayName: Starplate Voyager Relic
+	DisplayName: Реликвия Звездопанцирного странника
 	Tooltip: ""
 }
 
