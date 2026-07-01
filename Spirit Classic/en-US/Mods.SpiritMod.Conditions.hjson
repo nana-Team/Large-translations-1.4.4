@@ -32,6 +32,8 @@ StarjinxDown: Starjinx event is defeated
 FirstDown: Only on first defeat
 HalfCompleteBestiary: Half of Spirit's bestiary is complete
 FullCompleteBestiary: All of Spirit's bestiary is complete
+DurasilkSheaf: Obtain 3 Durasilk Sheafs
+WarlockLure: During Unholy Undertaking
 # Quest conditions are below here
 # IsCompleted is used to shorten translation
 IsCompleted: quest is completed

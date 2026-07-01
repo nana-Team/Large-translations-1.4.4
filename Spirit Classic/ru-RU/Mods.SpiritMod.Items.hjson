@@ -1734,7 +1734,7 @@ Book_ArmorGuide: {
 		'''
 		[c/95a3ab:Ниже приведён текст, записанный со слов славного искателя приключений — рыцаря-крестоносца Аврелия Финча.]
 		-----
-		Привет, ребята! Готовы стать великим авантюристом, прямо как я? Со стороны вам, наверное, кажется, что жизнь у меня лучше некуда — так оно и есть! Я купаюсь в деньгах своих покровителей, а ещё я пользуюсь неслыханной популярностью у девушек!
+		Привет, ребята! Готовы стать великим искателем приключений, прямо как я? Со стороны вам, наверное, кажется, что жизнь у меня лучше некуда — так оно и есть! Я купаюсь в деньгах своих покровителей, а ещё я пользуюсь неслыханной популярностью у девушек!
 		Но так у меня было не всегда... Когда-то я был таким же, как и вы: без гроша за душой с протянутой рукой. Приходилось бороться за свою жизнь. Знакомо? Если вы купите мою дельную коллекцию справочников, вы добьётесь того же, что и у меня за считанные дни! Жду вас всех на самой вершине, салаги.
 		-
 		[c/80deed:Справочник по доспехам для чайников]
@@ -2022,10 +2022,10 @@ ArcaneGeyser: {
 }
 
 AtlasBag: {
-	DisplayName: Treasure Bag (Atlas)
+	DisplayName: Мешок с сокровищами (Atlas)
 	Tooltip:
 		'''
-		Consumable
+		{$LegacyTooltip.35}
 		{$CommonItemTooltip.RightClickToOpen}
 		'''
 }
@@ -2128,39 +2128,39 @@ Trophy8: {
 }
 
 TalonGarb: {
-	DisplayName: Apostle's Garb
+	DisplayName: Облачение апостола
 	Tooltip:
 		'''
-		Increases magic and ranged damage by 7%
-		Increases movement speed by 10%
+		Увеличивает магический и стрелковый урон на 7%
+		Увеличивает скорости передвижения на 10%
 		'''
 }
 
 TalonHeaddress: {
-	DisplayName: Apostle's Headdress
-	Tooltip: 7% increased magic and ranged critical strike chance
+	DisplayName: Головной убор апостола
+	Tooltip: Увеличивает шанс магического и стрелкового критического удара на 7%
 }
 
 AvianHook: {
-	DisplayName: Avian Hook
-	Tooltip: Striking tiles allows the player to float briefly
+	DisplayName: Птичий крюк
+	Tooltip: Ослабляет гравитацию ненадолго после захвата за блок
 }
 
 AvianPetItem: {
-	DisplayName: Ancient Egg
-	Tooltip: Summons an Ancient Hatchling
+	DisplayName: Древнее яйцо
+	Tooltip: Призывает древнего невылуплёныша
 }
 
 FlierMask: {
-	DisplayName: Ancient Avian Mask
+	DisplayName: Маска Древней птицы
 	Tooltip: ""
 }
 
 FlyerBag: {
-	DisplayName: Treasure Bag (Ancient Avian)
+	DisplayName: Мешок с сокровищами (Древняя птица)
 	Tooltip:
 		'''
-		Consumable
+		{$LegacyTooltip.35}
 		{$CommonItemTooltip.RightClickToOpen}
 		'''
 }
@@ -2195,7 +2195,7 @@ TalonPiercer: {
 }
 
 Trophy2: {
-	DisplayName: Ancient Avian Trophy
+	DisplayName: Трофей Древней птицы
 	Tooltip: ""
 }
 
@@ -2219,10 +2219,10 @@ DuskPlate: {
 }
 
 DuskingBag: {
-	DisplayName: Treasure Bag (Dusking)
+	DisplayName: Мешок с сокровищами (Dusking)
 	Tooltip:
 		'''
-		Consumable
+		{$LegacyTooltip.35}
 		{$CommonItemTooltip.RightClickToOpen}
 		'''
 }
@@ -2348,10 +2348,10 @@ InfernalVisor: {
 }
 
 InfernonBag: {
-	DisplayName: Treasure Bag (Infernon)
+	DisplayName: Мешок с сокровищами (Infernon)
 	Tooltip:
 		'''
-		Consumable
+		{$LegacyTooltip.35}
 		{$CommonItemTooltip.RightClickToOpen}
 		'''
 }
@@ -2399,10 +2399,10 @@ JellynautBubble: {
 }
 
 MJWBag: {
-	DisplayName: Treasure Bag (Moon Jelly Wizard)
+	DisplayName: Мешок с сокровищами (Moon Jelly Wizard)
 	Tooltip:
 		'''
-		Consumable
+		{$LegacyTooltip.35}
 		{$CommonItemTooltip.RightClickToOpen}
 		'''
 }
@@ -2474,102 +2474,103 @@ SacrificialDagger: {
 }
 
 ScarabBow: {
-	DisplayName: Adorned Bow
+	DisplayName:  Украшенный лук
 	Tooltip:
 		'''
-		Hold longer for more damage
-		Converts wooden arrows into piercing adorned arrows, that get enchanted upon full charge
+		Чем дольше лук заряжается, тем больше урона он нанесёт
+		Превращает деревянные стрелы в украшенные стрелы, пробивающие врагов
+		Украшенные стрелы дополнительно усиливаются при полном заряде лука
 		'''
 }
 
 BagOScarabs: {
-	DisplayName: Treasure Bag (Scarabeus)
+	DisplayName: Мешок с сокровищами (Скарабеус)
 	Tooltip:
 		'''
-		Consumable
+		{$LegacyTooltip.35}
 		{$CommonItemTooltip.RightClickToOpen}
 		'''
 }
 
 Chitin: {
-	DisplayName: Chitin
-	Tooltip: "'Gorgeous, iridescent beetle scales'"
+	DisplayName: Хитин
+	Tooltip: «Величественная, переливающаяся чешуя жука»
 }
 
 ChitinChestplate: {
-	DisplayName: Chitin Chestplate
-	Tooltip: Increases movement speed by 5%
+	DisplayName: Хитиновый нагрудник
+	Tooltip: Увеличивает скорость передвижения на 5%
 }
 
 ChitinHelmet: {
-	DisplayName: Chitin Faceguard
+	DisplayName: Хитиновая защитная маска
 	Tooltip: ""
 }
 
 ChitinLeggings: {
-	DisplayName: Chitin Leggings
-	Tooltip: Increases movement speed by 7%
+	DisplayName: Хитиновые поножи
+	Tooltip: Увеличивает скорость передвижения на 7%
 }
 
 ChitinAxe: {
-	DisplayName: Chitin Axe
-	Tooltip: Cuts down palm wood and cactus faster
+	DisplayName: Хитиновый топор
+	Tooltip: Быстрее рубит пальмы и кактусы
 }
 
 ChitinHammer: {
-	DisplayName: Chitin Hammer
-	Tooltip: Breaks sand walls and desert related walls faster
+	DisplayName: Хитиновый молот
+	Tooltip: Быстрее ломает стены, связанные с песком и пустыней
 }
 
 ChitinPickaxe: {
-	DisplayName: Chitin Pickaxe
-	Tooltip: Mines sand and desert related blocks faster
+	DisplayName: Хитиновая кирка
+	Tooltip: Быстрее добывает блоки, связанные с песком и пустыней
 }
 
 RoyalKhopesh: {
-	DisplayName: Royal Khopesh
+	DisplayName: Королевский хопеш
 	Tooltip:
 		'''
-		Swings in a 3-hit combo
-		The last hit in the combo is bigger, does more damage, and ignores armor
+		Совершает серию из 3 взмахов
+		Последний взмах в серии больше размером, наносит больше урона и игнорирует защиту врага
 		'''
 }
 
 LocustCrook: {
-	DisplayName: Locust Crook
+	DisplayName: Посох саранчевода
 	Tooltip:
 		'''
-		Conjures a friendly locust that dashes into enemies
-		Locusts infest hit enemies, causing baby locusts to hatch from them
+		Призывает дружелюбную саранчу, делающую рывки во врагов
+		Саранча откладывает личинки в поражённых врагах, из-за чего из них будет вылупляться маленькая саранча
 		'''
 }
 
 RadiantCane: {
-	DisplayName: Sunrise Scepter
-	Tooltip: Conjures a slow, controllable sun orb
+	DisplayName: Скипетр рассвета
+	Tooltip: Вызывает миниатюрное солнце, медленно следующий за курсором
 }
 
 ScarabPendant: {
-	DisplayName: Scarab Pendant
+	DisplayName: Кулон со скарабеем
 	Tooltip:
 		'''
-		Summons a rideable giant pillbug that rolls through enemies at high speed
-		Rolling through an enemy protects against contact damage
+		Призывает гигантского ездового жука-пилюльщика, давящую врагов на высокой скорости
+		Вы не будите получать контактного урона на большой скорости
 		'''
 }
 
 ScarabMask: {
-	DisplayName: Scarabeus Mask
+	DisplayName: Маска Скарабеуса
 	Tooltip: ""
 }
 
 ScarabPetItem: {
-	DisplayName: Scarab Food
-	Tooltip: Summons a little Scarab companion
+	DisplayName: Скарабейный корм
+	Tooltip: Призывает крошку-скарабея сопровождать вас
 }
 
 Trophy1: {
-	DisplayName: Scarabeus Trophy
+	DisplayName: Трофей Скарабеуса
 	Tooltip: ""
 }
 
@@ -2661,10 +2662,10 @@ SteamplateBow: {
 }
 
 SteamRaiderBag: {
-	DisplayName: Treasure Bag (Starplate Voyager)
+	DisplayName: Мешок с сокровищами (Starplate Voyager)
 	Tooltip:
 		'''
-		Consumable
+		{$LegacyTooltip.35}
 		{$CommonItemTooltip.RightClickToOpen}
 		'''
 }
@@ -2684,10 +2685,10 @@ DeathRose: {
 }
 
 ReachBossBag: {
-	DisplayName: Treasure Bag (Vinewrath Bane)
+	DisplayName: Мешок с сокровищами (Vinewrath Bane)
 	Tooltip:
 		'''
-		Consumable
+		{$LegacyTooltip.35}
 		{$CommonItemTooltip.RightClickToOpen}
 		'''
 }
@@ -3192,8 +3193,8 @@ HemoglorbItem: {
 }
 
 JewelCrown: {
-	DisplayName: Feather Crown
-	Tooltip: Use in the sky to summon the Ancient Avian
+	DisplayName: Плюмажная корона
+	Tooltip: Используйте в космосе, чтобы призывать Древнюю птицу
 }
 
 LumothItem: {
@@ -3212,9 +3213,9 @@ MaggotflyItem: {
 }
 
 MapScroll: {
-	DisplayName: Cartographer's Map
-	Tooltip: Reveals a nearby portion of the minimap
-	Effect: Map Revealed
+	DisplayName: Карта картографа
+	Tooltip: Открывает небольшую область карты вокруг вас
+	Effect: Открыта область карты
 }
 
 MartianTransmitter: {
@@ -3356,9 +3357,9 @@ TurtlePotion: {
 }
 
 DurasilkSheaf: {
-	DisplayName: Моток крепкой ткани
+	DisplayName: Полотно прочной ткани
 	CommonName: Предмет для задания
-	CustomTooltip: "'The fabric is soft, but quite strong'"
+	CustomTooltip: «Мягкая, но довольно крепкая»
 	Tooltip: ""
 }
 
@@ -3399,7 +3400,7 @@ HornetfishQuest: {
 }
 
 ScarabIdolQuest: {
-	DisplayName: Decrepit Idol
+	DisplayName: Старый идол
 	Tooltip: ""
 }
 
@@ -3474,11 +3475,11 @@ SadSlimePainting: {
 }
 
 ScarabIdol: {
-	DisplayName: Scarab Idol
+	DisplayName: Идол скарабея
 	Tooltip:
 		'''
-		Non-Consumable
-		Use in the desert at daytime to summon Scarabeus
+		Не расходуется
+		Используйте днём в пустыне, чтобы призвать Скарабеуса
 		'''
 }
 
@@ -3708,11 +3709,12 @@ Obolos: {
 }
 
 SandsOfTime: {
-	DisplayName: Sands of Time
+	DisplayName: Пески времени
 	Tooltip:
 		'''
-		Summons or ends a sandstorm
-		Only usable in a desert
+		Начинает пустынную бурю
+		Заканчивает пустынную бурю, если она уже началась
+		Можно использовать только в пустыне
 		'''
 }
 
@@ -5283,7 +5285,7 @@ AuroraBox: {
 }
 
 AvianBox: {
-	DisplayName: Музыкальная шкатулка (Древний авиан)
+	DisplayName: Музыкальная шкатулка (Древняя птица)
 	Tooltip: ""
 }
 
@@ -5463,7 +5465,7 @@ AtlasRelicItem: {
 }
 
 AvianRelicItem: {
-	DisplayName: Ancient Avian Relic
+	DisplayName: Реликвия Древней птицы
 	Tooltip: ""
 }
 
@@ -5498,7 +5500,7 @@ RlyehianRelicItem: {
 }
 
 ScarabeusRelicItem: {
-	DisplayName: Scarabeus Relic
+	DisplayName: Реликвия Скарабеуса
 	Tooltip: ""
 }
 
@@ -6035,7 +6037,7 @@ Amethyst_Bow: {
 	DisplayName: Аметистовый лук
 	Tooltip:
 		'''
-		Превращает деревянные стрелы в аметистовые
+		Превращает деревянные стрелы в аметистовые стрелы
 		Аметистовые стрелы имеют увеличенный шанс критического удара
 		'''
 }
@@ -6044,21 +6046,21 @@ Diamond_Bow: {
 	DisplayName: Алмазный лук
 	Tooltip:
 		'''
-		Превращает деревянные стрелы в алмазные
+		Превращает деревянные стрелы в алмазные стрелы
 		Алмазные стрелы пробивают одного врага
 		'''
 }
 
 Emerald_Bow: {
 	DisplayName: Изумрудный лук
-	Tooltip: Превращает деревянные стрелы в изумрудные
+	Tooltip: Превращает деревянные стрелы в изумрудные стрелы
 }
 
 Ruby_Bow: {
 	DisplayName: Рубиновый лук
 	Tooltip:
 		'''
-		Превращает деревянные стрелы в рубиновые
+		Превращает деревянные стрелы в рубиновые стрелы
 		Рубиновые стрелы отскакивают от поверхностей один раз
 		'''
 }
@@ -6067,7 +6069,7 @@ Sapphire_Bow: {
 	DisplayName: Сапфировый лук
 	Tooltip:
 		'''
-		Превращает деревянные стрелы в сапфировые
+		Превращает деревянные стрелы в сапфировые стрелы
 		Сапфировые стрелы слабо самонаводятся на курсор
 		'''
 }
@@ -6076,7 +6078,7 @@ Topaz_Bow: {
 	DisplayName: Топазовый лук
 	Tooltip:
 		'''
-		Превращает деревянные стрелы в топазовые
+		Превращает деревянные стрелы в топазовые стрелы
 		Топазовые стрелы летят быстрее и менее подвержены гравитации
 		'''
 }
@@ -6417,23 +6419,23 @@ BladeOfTheDragon: {
 }
 
 LightNovasVanity: {
-	DisplayName: LightNovas's Mask
-	Tooltip: "'Great for impersonating patrons!'"
+	DisplayName: Маска LightNovas
+	Tooltip: «Отлично подходит для подражания внешнему виду донатеров!»
 }
 
 MeteorVanity: {
-	DisplayName: Meteor's Mask
-	Tooltip: "'Great for impersonating patrons!'"
+	DisplayName: Маска Meteor
+	Tooltip: «Отлично подходит для подражания внешнему виду донатеров!»
 }
 
 PixelatedFireballVanity: {
-	DisplayName: Pixelated Fireball's Mask
-	Tooltip: "'Great for impersonating patrons!'"
+	DisplayName: Маска Pixelated Fireball
+	Tooltip: «Отлично подходит для подражания внешнему виду донатеров!»
 }
 
 WaasephiVanity: {
-	DisplayName: Waasephi's Hat
-	Tooltip: "'Great for impersonating patrons!'"
+	DisplayName: Маска Waasephi
+	Tooltip: «Отлично подходит для подражания внешнему виду донатеров!»
 }
 
 BrightbloodDye: {
@@ -6652,7 +6654,7 @@ FloranReacher: {
 }
 
 FloranSporeWand: {
-	DisplayName: Флоранский жезл спор
+	DisplayName: Жезл флоранской споры
 	Tooltip:
 		'''
 		Выпускает парящую в воздухе флоранскую спору

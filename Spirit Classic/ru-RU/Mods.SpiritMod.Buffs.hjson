@@ -339,8 +339,8 @@ AtlasPetBuff: {
 }
 
 AvianPetBuff: {
-	DisplayName: Ancient Hatchling
-	Description: "'eg.'"
+	DisplayName: Древный невылуплёныш
+	Description: «Невдуплёныш»
 }
 
 BladePetBuff: {
@@ -419,8 +419,8 @@ SaucerPetBuff: {
 }
 
 ScarabPetBuff: {
-	DisplayName: Tiny Scarab
-	Description: "'It really loves to roll...'"
+	DisplayName: Крошка скарабей
+	Description: «Ему очень нравится кататься...»
 }
 
 ShadowPetBuff: {
@@ -748,7 +748,7 @@ ManajinxBuff: {
 }
 
 PendantBuff: {
-	DisplayName: Pillbug Friend
+	DisplayName: Дружелюбный жук-пилюльщик
 	Description: "'Rock and roll!'"
 }
 

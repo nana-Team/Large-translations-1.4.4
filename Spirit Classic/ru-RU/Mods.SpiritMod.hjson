@@ -42,21 +42,29 @@ RecipeGroup: {
 }
 
 MiscUI: {
-	AutoSell: Click to quick-sell your items
+	AutoSell:
+		'''
+		Нажмите, чтобы быстро продать все предметы
+		в вашем инвентаре, не находящиеся в избранном
+		'''
 	SellLock:
 		'''
-		Toggle this to lock quick-sell mechanic
-		You won't be able to use quick-sell while this is toggled
+		Переключает функцию быстрой продажи предметов
+		При включении, кнопка быстрой продажи не будет работать
 		'''
-	SellWeapons: Toggle this to disable the selling of weapons
-	SellNoValue: Toggle this to sell 'no value' items with quick-sell
+	SellWeapons: Переключает возможность быстро продавать оружие
+	SellNoValue:
+		'''
+		Переключает возможность быстро продавать предметы,
+		не предоставляющие ценности
+		'''
 	Autofire: Автоатака:
 	Autoswing: Автовзмах:
 }
 
 Keybinds: {
-	QuestBookToggle.DisplayName: Quest Book Toggle
-	QuestHUDToggle.DisplayName: Quest HUD Toggle
+	QuestBookToggle.DisplayName: Открыть книгу заданий
+	QuestHUDToggle.DisplayName: Переключить задания на экране
 }
 
 Events: {
@@ -84,7 +92,7 @@ Events: {
 BossChecklistIntegration: {
 	JellyDeluge: {
 		EntryName: Медузное наводнение
-		SpawnInfo: Naturally occurs aboveground after any boss has been defeated. Can also be summoned by using a [i:SpiritMod/DistressJellyItem], found in Asteroid Biomes and caught using a bug net. Occurs less frequently after the Moon Jelly Wizard has been defeated.
+		SpawnInfo: Используйте [i:SpiritMod/DistressJellyItem] ночью или дождитесь естественного начала события после победы над любым боссом. Шанс начала события ночью снижается после победы над Лунной медузой-волшебником.
 	}
 
 	TheTide: {

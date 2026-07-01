@@ -1,43 +1,38 @@
-RecipeConditions: {
-	WarlockLure: During Unholy Undertaking
-	DurasilkSheaf: Obtain 3 Durasilk Sheafs
-}
-
 # I'm very sorry to whoever's translating this. Best of luck, and godspeed. - GabeHasWon
 
 # This is actually only used for the Lifeform Analyzer's (Quest) <NPCName>.
 Quest: Задание
 QuestBook: Книга заданий
-Residents: Your residents want to talk to you. Chat with them to get more quests!
-ChatOpenBook: Click on quests in the chat to open them in the book!
+Residents: Жители хотят поговорить с вами. Пообщайтесь с ними, чтобы получить новые задания!
+ChatOpenBook: Нажмите на задание в чате, чтобы открыть его в книге!
 # This formats to "You have completed a quest! <Quest Name>" in-game. The sQ?:{0} is a quest chat tag.
-QuestCompleteChat: You have completed a quest! [[sQ/{0}:{1}]]
+QuestCompleteChat: Задание выполнено! [[sQ/{0}:{1}]]
 QuestOutOfTimeChat: "[[sQ/{0}:{1}]] has run out of time!"
 QuestRelockedChat: "[[sQ/{0}:{1}]] has been locked again."
 NewQuestChat: Получено новое задание! [[sQ/{0}:{1}]]
 OpenJournal: Press 'C' to open the Quest Journal!
 OpenHUD: Press 'V' to keep track of your progress wih the HUD!
 QuestsFull: You cannot activate any more quests.
-StopQuest: Are you sure? You will [c/910000:lose your progress].
-Undiscovered: This quest hasn't been discovered.
+StopQuest: Вы уверены? Это [c/910000:сбросит весь прогресс].
+Undiscovered: Это задание ещё не открыто.
 # These are all used for minor parts of quests, such as "Catch 2 Fish" or similar.
 TalkTo: Talk to the {0}
 # Same as above. Used for "Explore <area>" in-game.
-Explore: "Explore "
-Retrieve: Получить {1}: {0} {^0:штука;штуки;штук}
-Catch: Catch
-Kill: Kill {0} {1}
+Explore: "Исследуйте "
+Retrieve: Получить: {1} ({0} шт.)
+Catch: Catch: {1} ({0} шт.)
+Kill: Убить: {1} ({0} шт.)
 PluralSuffix: ""
-Comma: "{0}, {1}"
-Or: "{0} or {1}"
-Craft: Создать {1}: {0} {^0:штука;штуки;штук}
+Comma: ", "
+Or: " или "
+Craft: Создать: {1} ({0} шт.)
 Capture: Capture
 Harvest: Harvest
 OptionalGather: Optional - Gather
 Objectives: Задачи
 Activate: Начать
 Deactivate: Отменить
-ClaimRewards: Claim rewards!
+ClaimRewards: Забрать!
 # Used for quest clients. Formats to "The <NPC Title>" in-game. The space is necessary. This also looks like a meme.
 The: ""
 # Same as above for both of the below, but less funny.
@@ -53,7 +48,7 @@ Buttons: {
 	Completed: Завершено
 	Available: Доступно
 	# Quest types
-	All: Все
+	All: Всё
 	Main: Основное
 	Explorer: Исследование
 	Forager: Собирательство
@@ -108,7 +103,7 @@ QuestInfo: {
 
 	FirstAdventure: {
 		Name: Первое приключение
-		Description: So you wanna be an adventurer, eh? Well, pack a bag and get out there! I'd actually planned to craft you a set of special armor so that you could get started. Unfortunately, some mangy Hookbats stole the sheaf of Durasilk I was usin'! They only come out at night around the forest surface. Mind retrievin' that silk and crafting your own new armor set?
+		Description: Ну что, в приключенцы заделался? Тогда собирай свои вещи: есть для тебя задание! Я было хотел сшить тебе комплект брони, чтобы помочь в твоих начинаниях, но стая паршивых крюкохвостых мышей вырвала нужное для этого полотно прочной ткани прямо из моих рук! Обитают они в лесу, а наружу выходят только ночью. Будь другом, достань ту ткань и сделай эту броню сам.
 	}
 
 	RaidingTheStars: {
@@ -196,7 +191,7 @@ QuestInfo: {
 	ExplorerQuestAsteroid: {
 		Name: Space Rocks
 		Description: There's an asteroid field smack-dab above one of the oceans. Completely uncharted. How cool is that?! We have to learn everything we can about that place. If you stumble upon those asteroids, wander around for a while and take some notes for me, alright? Can you even write in space? Go find out, and don't fall off!
-		Objective: the Asteroid Field
+		Objective: поле астероидов
 	}
 
 	ExplorerQuestAurora: {
@@ -208,31 +203,31 @@ QuestInfo: {
 	ExplorerQuestBlueMoon: {
 		Name: Once in a...
 		Description: Just when you'd think this world's run out of things to kill you with, eh? We've all seen those disgusting Blood Moons, but recently, the moon's taken to turning a deep blue. I bet you may think that sounds sweet, but terrifyin' creatures come out during these Mystic Moons. Make sure none of 'em get too close to the town, you hear?
-		Objective: a Mystic Moon
+		Objective: таинственную луну
 	}
 
 	ExplorerQuestCorrupt: {
 		Name: Vile Wastes
 		Description: So you're planning on staying in this world for a while, huh? We've got a lot of exploring to do before we can get a grasp of this region. We need to know how dangerous those Corrupt Chasms are and how to deal with those freaky Eaters. Tread with caution, you're going alone. If you can survive there, you can explore the other dangerous areas the Adventurer mentioned in his journal.
-		Objective: the Corruption
+		Objective: искажение
 	}
 
 	ExplorerQuestCrimson: {
 		Name: Body Horrors
 		Description: So you're planning on staying in this world for a while, huh? We've got a lot of exploring to do before we can get a grasp of this region. We need to know how dangerous the Crimson fields are. I'm not strong enough, so you'll need to handle this alone. If you can survive there, you can explore the other territories the Adventurer mentioned in his journal.
-		Objective: the Crimson
+		Objective: багрянец
 	}
 
 	ExplorerQuestGranite: {
 		Name: Rocky Road
 		Description: A couple of underground cave systems seem to be made almost entirely of dark granite. Some kinda energy source seems to be bringin' the rocks to life, too. I'd like ya to go and investigate. After you stumble upon one of these Granite Caverns, wander around for a while and take some notes for me, alright?
-		Objective: granite caverns
+		Objective: гранитную пещеру
 	}
 
 	ExplorerQuestHive: {
 		Name: Hive Hunting
 		Description: Have you checked out the lower parts of the Jungle? I've recently heard about a series of massive hives around there. I loathe bees... an' hornets... an' giant man eatin' plants, so would ya like to check one of these hives out for me?
-		Objective: giant beehives in the Jungle
+		Objective: огромный улей в джунглях
 	}
 
 	ExplorerQuestLuminous: {
@@ -244,13 +239,13 @@ QuestInfo: {
 	ExplorerQuestMarble: {
 		Name: Forgotten Civilizations
 		Description: I'd like ya to head out there and map out the lower reaches of this land. A few caverns are covered in marble and the ruins of some ancient civilization. After you stumble upon one of these Marble Caverns, wander around for a while and take some notes for me, alright? Hopefully, those ruins are desolate, eh?
-		Objective: marble caverns
+		Objective: мраморную пещеру
 	}
 
 	ExplorerQuestMushroom: {
 		Name: Glowing a Garden
 		Description: I'm looking for info on any nearby Glowing Mushroom Caverns. You see, I made a bet with the merchant that they DO exist an' that I don't hallucinate giant blue glowing mushroom trees. On second thought, I may not sound too sane sayin' that, but I swear they're real! Go prove me right!
-		Objective: glowing mushroom fields
+		Objective: грибные пустоши
 	}
 
 	ExplorerQuestOcean: {
@@ -259,7 +254,7 @@ QuestInfo: {
 		Finish: This smells...really bad! How do fish like this stuff? Why didn't you get me something cooler? Whatever...you can keep it. Go catch me some fish while you're out there next time!
 		Return: Return to the Angler
 		GetSulfur: Grab 5 Sulfur Deposits from hydrothermal vents
-		Ocean: the ocean depths
+		Ocean: глубины океана
 	}
 
 	FriendSafari: {
@@ -303,7 +298,7 @@ QuestInfo: {
 	IdleIdol: {
 		Name: Idle Idol
 		Description: The sands of the desert hide a lot of secrets beneath 'em. There's supposed to be an Ancient Ziggurat buried near the surface of one of those wastelands. Could ya head down there and scavenge some relics from me?
-		ReturnToAdventurer: Return to the Adventurer with what you've found
+		ReturnToAdventurer: Вернуться к приключенцу со своей находкой
 		Warning: I knew it. I was polishin' up this old thing when it started to look real familiar. That's a Scarab Idol right there. I'm warning ya, don't mess with it until you get real strong. Me and some bounty hunters tried to take that thing on years ago. We barely escaped with our lives. Be safe, lad.
 	}
 
@@ -319,7 +314,7 @@ QuestInfo: {
 	JellyfishHunter: {
 		Name: Jellyfish Hunter
 		Description: Hey there, lad! I was doing some diggin' into what makes these cute jellies tick, and I think they're all part of some kinda hivemind that feed on mystical energy. In fact, that one jellyfish you caught seems to be emitting a distress signal to its buddies. You may need to take on a mighty strong jellyfish soon, so stay prepared!
-		Objective: Kill the Moon Jelly Wizard
+		Objective: Убить Лунную медузу-волшебника
 	}
 
 	ManicMage: {
@@ -333,7 +328,7 @@ QuestInfo: {
 		Dialogue: I've been expecting you, traveler. My visions spoke of a time when a hero would need some guidance. I can offer you powerful armaments in exchange for Olympium, the currency of the Gods. To find some, seek out and defeat enemies that have been blessed by the Gods themselves. I can give you my blessing if you would like to find more of these creatures, but you risk incurring the wrath of the Gods.'
 		Objective: Find the mysterious woman in the Marble Caverns
 		ReturnDialogue: Ah, you've returned safe and sound! Wonderful. I'll exchange these tokens with you for some powerful weapons and equipment. And take this sacred parchment. If you need me, I will be by your side. Safe journey, hero.
-		ReturnTo: Return to the Oracle
+		ReturnTo: Вернуться к Оракулу
 	}
 
 	RescueQuestStylist: {
@@ -352,7 +347,7 @@ QuestInfo: {
 	SinisterSands: {
 		Name: Sinister Sands
 		Description: I knew it. I was polishin' up this relic you retreived when it started to look real familiar. That's a Scarab Idol right there. I'm warning ya, don't mess with it until you get real strong. Me and some bounty hunters tried to take that thing on years ago. We barely escaped with our lives. Be safe, lad.
-		Objective: Kill Scarabeus
+		Objective: Убить Скарабеуса
 	}
 
 	SkyHigh: {
@@ -432,6 +427,6 @@ QuestInfo: {
 	UnidentifiedFloatingObjects: {
 		Name: Unidentified Floaters
 		Description: I quit drinkin' years ago, but I swear the sky's been lighting up something fierce recently! I've been doin' some research and I think the skies may be home to some mystical jellyfish swarms. Now, the only 'proof' I have are some sources of, er, ill repute, but I know I can count on you to check it out! And capture me the tastiest- I mean most interesting one!
-		Objective: the strange Jelly Deluge
+		Objective: странное медузное наводнение
 	}
 }

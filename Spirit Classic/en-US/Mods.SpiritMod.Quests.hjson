@@ -1,8 +1,3 @@
-RecipeConditions: {
-	WarlockLure: During Unholy Undertaking
-	DurasilkSheaf: Obtain 3 Durasilk Sheafs
-}
-
 # I'm very sorry to whoever's translating this. Best of luck, and godspeed. - GabeHasWon
 
 # This is actually only used for the Lifeform Analyzer's (Quest) <NPCName>.
@@ -25,11 +20,11 @@ TalkTo: Talk to the {0}
 # Same as above. Used for "Explore <area>" in-game.
 Explore: "Explore "
 Retrieve: Retrieve {0} {1}
-Catch: Catch
+Catch: Catch {0} {1}
 Kill: Kill {0} {1}
 PluralSuffix: s
-Comma: "{0}, {1}"
-Or: "{0} or {1}"
+Comma: ", "
+Or: " or "
 Craft: Craft {0} {1}
 Capture: Capture
 Harvest: Harvest

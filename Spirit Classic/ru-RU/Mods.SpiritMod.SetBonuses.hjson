@@ -1,7 +1,7 @@
 Apostle:
 	'''
-	Wind Spirits guide you, granting an additional jump
-	Magic and ranged attacks occasionally spawn feathers to attack foes
+	Духи ветра направляют вас, позволяя совершать дополнительный прыжок
+	Магические и стрелковые атаки периодически создают перья, которые атакуют врагов
 	'''
 Bismite:
 	'''
@@ -27,7 +27,7 @@ Cascade:
 	При достижении максимального размера щит поглотит значительную часть урона от следующей атаки
 	После получения урона щит взрывается, отбрасывая ближайших врагов и нанося им урон
 	'''
-Chitin: Double tap in a direction to dash and envelop yourself in a tornado
+Chitin: Нажмите дважды в нужном направлении, чтобы совершить рывок, обволакивающий вас в торнадо
 Cryolite:
 	'''
 	Generates an icy aura that slows nearby enemies

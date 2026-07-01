@@ -153,10 +153,10 @@ MadHatter: {
 }
 
 AncientFlyer: {
-	DisplayName: Ancient Avian
+	DisplayName: Древняя птица
 	Entry: The matriarch of an extinct avian predator species, brought back to life through sheer will to protect the yolk of its last remaining spawn.
-	BossChecklistIntegration.SpawnInfo: Use a [i:SpiritMod/JewelCrown] in the sky biome at any time. Alternatively, smash a Giant Avian Egg, which is found on Avian Islands near the sky layer. The Ancient Avian can be fought at any time and any place in progression.
-	Spawn: The Ancient Avian has awoken!
+	BossChecklistIntegration.SpawnInfo: Разбейте большое яйцо на птичьем острове, либо используйте [i:SpiritMod/JewelCrown] в космосе.
+	Spawn: Древняя птица пробуждается!
 }
 
 Atlas: {
@@ -202,18 +202,18 @@ InfernonSkullMini.DisplayName: Infernon Skull
 InfernoSkull.DisplayName: Infernus Skull
 
 MoonWizard: {
-	DisplayName: Moon Jelly Wizard
+	DisplayName: Лунная медуза-волшебник
 	Entry: Those moon jellies are smarter than they seem. With only a bit of coordination and a sharp sense of fashion, they can become a far tougher adversary than any one jelly could ever be.
-	BossChecklistIntegration.SpawnInfo: Use a [i:SpiritMod/DreamlightJellyItem] anywhere aboveground at nighttime. A [i:SpiritMod/DreamlightJellyItem] can be caught with a bug net during the Jelly Deluge, and is non-consumable
+	BossChecklistIntegration.SpawnInfo: Используйте [i:SpiritMod/DreamlightJellyItem] ночью на поверхности. Предмет можно поймать сачком во время медузного наводнения.
 }
 
 AzureGemProj.DisplayName: Azure Gem
 MysticMJWClone.DisplayName: Mystic Clone
 
 OccultistBoss: {
-	DisplayName: Occultist
+	DisplayName: Оккультист
 	Entry: An undead dream demon obsessed with the practice and perfection of so-called 'blood corruption.' For this practice, he only reveals himself when the moon shimmers sanguine.
-	BossChecklistIntegration.SpawnInfo: The Occultist spawns rarely during a Blood Moon after any prehardmode boss has been defeated.
+	BossChecklistIntegration.SpawnInfo: Редко появляется во время кровавой луны, если в мире был побеждён хотя бы один пре-хардмодный босс.
 }
 
 ExplodingSpore.DisplayName: Exploding Spore
@@ -238,9 +238,9 @@ Scarab: {
 Scarab_Wall.DisplayName: Scarab
 
 Scarabeus: {
-	DisplayName: Scarabeus
+	DisplayName: Скарабеус
 	Entry: Once thought to be a deity, this particular beetle comes from an elusive species that is equally massive.
-	BossChecklistIntegration.SpawnInfo: Use a [i:SpiritMod/ScarabIdol] in the Desert during the daytime. A [i:SpiritMod/ScarabIdol] can be found upon completing a certain Adventurer quest, or can be crafted, and is non-consumable.
+	BossChecklistIntegration.SpawnInfo: Используйте [i:SpiritMod/ScarabIdol] днём в пустыне. Предмет можно создать самостоятельно или получить за выполнение задания приключенца.
 }
 
 SwarmScarab.DisplayName: Scarab
@@ -683,8 +683,8 @@ Hemophora: {
 }
 
 Hookbat: {
-	DisplayName: Hookbat
-	Entry: These simple thieving pests decided 'divide and conquer' was a solid strategy after stealing the adventurer's cloth.
+	DisplayName: Крюкохвостая мышь
+	Entry: Эти бестолковые вредители руководились принципом «разделяй и властвуй», когда рвали полотно ткани, украденное у приключенца.
 }
 
 Horned_Crustacean: {
@@ -1047,7 +1047,7 @@ SwordKakamora: {
 }
 
 Adventurer: {
-	DisplayName: Авантюрист
+	DisplayName: Приключенец
 
 	Names: {
 		1: Морган
@@ -1107,7 +1107,7 @@ Adventurer: {
 }
 
 BoundAdventurer: {
-	DisplayName: Попавшийся авантюрист
+	DisplayName: Попавшийся приключенец
 
 	TownNPCMood: {
 		Content: I am content.

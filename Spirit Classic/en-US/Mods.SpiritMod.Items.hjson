@@ -2016,7 +2016,7 @@ AtlasBag: {
 	DisplayName: Treasure Bag (Atlas)
 	Tooltip:
 		'''
-		Consumable
+		{$LegacyTooltip.35}
 		{$CommonItemTooltip.RightClickToOpen}
 		'''
 }
@@ -2151,7 +2151,7 @@ FlyerBag: {
 	DisplayName: Treasure Bag (Ancient Avian)
 	Tooltip:
 		'''
-		Consumable
+		{$LegacyTooltip.35}
 		{$CommonItemTooltip.RightClickToOpen}
 		'''
 }
@@ -2213,7 +2213,7 @@ DuskingBag: {
 	DisplayName: Treasure Bag (Dusking)
 	Tooltip:
 		'''
-		Consumable
+		{$LegacyTooltip.35}
 		{$CommonItemTooltip.RightClickToOpen}
 		'''
 }
@@ -2342,7 +2342,7 @@ InfernonBag: {
 	DisplayName: Treasure Bag (Infernon)
 	Tooltip:
 		'''
-		Consumable
+		{$LegacyTooltip.35}
 		{$CommonItemTooltip.RightClickToOpen}
 		'''
 }
@@ -2393,7 +2393,7 @@ MJWBag: {
 	DisplayName: Treasure Bag (Moon Jelly Wizard)
 	Tooltip:
 		'''
-		Consumable
+		{$LegacyTooltip.35}
 		{$CommonItemTooltip.RightClickToOpen}
 		'''
 }
@@ -2477,7 +2477,7 @@ BagOScarabs: {
 	DisplayName: Treasure Bag (Scarabeus)
 	Tooltip:
 		'''
-		Consumable
+		{$LegacyTooltip.35}
 		{$CommonItemTooltip.RightClickToOpen}
 		'''
 }
@@ -2655,7 +2655,7 @@ SteamRaiderBag: {
 	DisplayName: Treasure Bag (Starplate Voyager)
 	Tooltip:
 		'''
-		Consumable
+		{$LegacyTooltip.35}
 		{$CommonItemTooltip.RightClickToOpen}
 		'''
 }
@@ -2678,7 +2678,7 @@ ReachBossBag: {
 	DisplayName: Treasure Bag (Vinewrath Bane)
 	Tooltip:
 		'''
-		Consumable
+		{$LegacyTooltip.35}
 		{$CommonItemTooltip.RightClickToOpen}
 		'''
 }

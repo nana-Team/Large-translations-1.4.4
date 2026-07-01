@@ -32,24 +32,26 @@ StarjinxDown: Starjinx event is defeated
 FirstDown: Only on first defeat
 HalfCompleteBestiary: Half of Spirit's bestiary is complete
 FullCompleteBestiary: All of Spirit's bestiary is complete
+DurasilkSheaf: Получено 3 полотна прочной ткани
+WarlockLure: During Unholy Undertaking
 # Quest conditions are below here
 # IsCompleted is used to shorten translation
-IsCompleted: quest is completed
-FirstAdventureFinished: First Adventure {$IsCompleted}
-FishyBusinessFinished: Fishy Business {$IsCompleted}
-SanctuaryNightlightsFinished: Sanctuary - Nightlights {$IsCompleted}
-SpaceRocksFinished: Space Rocks {$IsCompleted}
-RockyRoadFinished: Rocky Road {$IsCompleted}
-ForgottenCivilizationsFinished: Forgotten Civilizations {$IsCompleted}
-HiveHuntingFinished: Hive Hunting {$IsCompleted}
-GlowingAGardenFinished: Glowing a Garden {$IsCompleted}
-ManicMageFinished: The Manic Mage {$IsCompleted}
-SkyHighFinished: Sky High {$IsCompleted}
-UnholyUndertakingFinished: Unholy Undertaking {$IsCompleted}
-DecrepitDepthsFinished: Decrepit Depths {$IsCompleted}
-TowerOrHideoutQuestFinished: Breaking And Entering or Friend Safari are completed
-ItsNoSalmonFinished: It's No Salmon... {$IsCompleted}
-SanctuarySporeSalvageFinished: Sanctuary - Spore Salvage {$IsCompleted}
-WhyZombiesFinished: Zombies... Why Zombies {$IsCompleted}
-BeneathTheIceFinished: Beneath the Ice {$IsCompleted}
-FloweryFiendsFinished: Flowery Fiends {$IsCompleted}
+IsCompleted: После выполнения задания
+FirstAdventureFinished: "{$IsCompleted} «{$Quests.QuestInfo.FirstAdventure.Name}»"
+FishyBusinessFinished: "{$IsCompleted} «{$Quests.QuestInfo.AnglerStatueQuest.Name}»"
+SanctuaryNightlightsFinished: "{$IsCompleted} «{$Quests.QuestInfo.CritterCaptureFloater.Name}»"
+SpaceRocksFinished: "{$IsCompleted} «{$Quests.QuestInfo.ExplorerQuestAsteroid.Name}»"
+RockyRoadFinished: "{$IsCompleted} «{$Quests.QuestInfo.ExplorerQuestGranite.Name}»"
+ForgottenCivilizationsFinished: "{$IsCompleted} «{$Quests.QuestInfo.ExplorerQuestMarble.Name}»"
+HiveHuntingFinished: "{$IsCompleted} «{$Quests.QuestInfo.ExplorerQuestHive.Name}»"
+GlowingAGardenFinished: "{$IsCompleted} «{$Quests.QuestInfo.ExplorerQuestMushroom.Name}»"
+ManicMageFinished: "{$IsCompleted} «{$Quests.QuestInfo.ManicMage.Name}»"
+SkyHighFinished: "{$IsCompleted} «{$Quests.QuestInfo.SkyHigh.Name}»"
+UnholyUndertakingFinished: "{$IsCompleted} «{$Quests.QuestInfo.ZombieOriginQuest.Name}»"
+DecrepitDepthsFinished: "{$IsCompleted} «{$Quests.QuestInfo.DecrepitDepths.Name}»"
+TowerOrHideoutQuestFinished: "{$IsCompleted} «{$Quests.QuestInfo.BreakingAndEntering.Name}» или «{$Quests.QuestInfo.FriendSafari.Name}»"
+ItsNoSalmonFinished: "{$IsCompleted} «{$Quests.QuestInfo.ItsNoSalmon.Name}»"
+SanctuarySporeSalvageFinished: "{$IsCompleted} «{$Quests.QuestInfo.SporeSalvage.Name}»"
+WhyZombiesFinished: "{$IsCompleted} «{$Quests.QuestInfo.SlayerQuestDrBones.Name}»"
+BeneathTheIceFinished: "{$IsCompleted} «{$Quests.QuestInfo.IceDeityQuest.Name}»"
+FloweryFiendsFinished: "{$IsCompleted} «{$Quests.QuestInfo.SlayerQuestBriar.Name}»"
