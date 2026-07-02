@@ -26,9 +26,9 @@ PluralSuffix: s
 Comma: ", "
 Or: " or "
 Craft: Craft {0} {1}
-Capture: Capture
-Harvest: Harvest
-OptionalGather: Optional - Gather
+Capture: Capture {0} {1}
+Harvest: Harvest {0} {1}
+OptionalGather: Optional - Gather {0} {1}
 Objectives: Objectives
 Activate: Activate
 Deactivate: Deactivate

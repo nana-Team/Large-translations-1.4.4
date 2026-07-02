@@ -1,7 +1,7 @@
 Misc: {
-	BadLuck: Bad Luck!
-	GoodLuck: Good Luck!
-	NoShrines: No Shrines Left!
+	BadLuck: Неудача!
+	GoodLuck: Удача!
+	NoShrines: Святилищ не осталось!
 	Bullseye: Bullseye!
 	VWBConsume: The Bramble shall consume you...
 	VWBRainOver: The torrential downpour in the Briar has lifted!
@@ -12,7 +12,7 @@ Misc: {
 	PinMove: Click to move
 	Put: Right click to put into Candy Bag
 	SturdyActivated: Sturdy Activated!
-	SpiritSpread: The Spirits spread through the land...
+	SpiritSpread: По земле разливаются духи...
 	NotDefeat: You have yet to defeat the true master of Hell...
 	Cursed: Cursed!
 	Unlocked: Unlocked!

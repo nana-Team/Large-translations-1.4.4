@@ -544,7 +544,7 @@ Cystal: {
 Cystal_Shield.DisplayName: Cystal Shield
 
 DarkfeatherMage: {
-	DisplayName: Darkfeather Mage
+	DisplayName: Тёмнопёрый маг
 	Entry: Caww, caww! A large bird of prey who fancies themselves a mage. Whoever has been teaching these birds magic has left behind quite a mess.
 }
 
@@ -805,7 +805,7 @@ PagodaGhostHostile: {
 PagodaGhostPassive.DisplayName: Yuurei
 
 Phantom: {
-	DisplayName: Phantom
+	DisplayName: Фантом
 	Entry: A typical cave bat, transformed into pure darkness by ancient magicks. When night falls, they take to the skies to feed on those unfortunate enough to still be awake.
 }
 
@@ -872,7 +872,7 @@ ReachObserver: {
 }
 
 ReachSlime: {
-	DisplayName: Briarthorn Slime
+	DisplayName: Терновый слизень
 	Entry: Due to the perpetual rainfall in the Briar, these slimes are composed of 90% water. As a result, they often leak and lose volume when struck.
 }
 
@@ -938,12 +938,12 @@ SoulOrb: {
 }
 
 SpiritGhoul: {
-	DisplayName: Shadow Ghoul
+	DisplayName: Тёмный упырь
 	Entry: Ghouls reanimated by the Spirit now leak ectoplasm from every crevice. Their bites have a chance of confusing their foes by briefly showing them glimpses of their former lives.
 }
 
 SpiritMummy: {
-	DisplayName: Dusk Mummy
+	DisplayName: Сумрачная мумия
 	Entry: Afflicted by ethereal powers, these carcasses are now vessels for not their own souls, but countless others in need of a corporeal form.
 }
 
@@ -963,7 +963,7 @@ UnstableWisp: {
 }
 
 WanderingSoul: {
-	DisplayName: Wandering Soul
+	DisplayName: Блуждающая душа
 	Entry: Now being free from its slumber, it aimlessly wanders, forever lost in a world it no longer recognizes.
 }
 
@@ -1103,7 +1103,7 @@ Adventurer: {
 	}
 
 	Entry: An intrepid explorer driven by an ambition that has often landed him in danger. He's also an avid note-taker, his many accounts now scattered throughout the land.
-	Census.SpawnCondition: Rescue the Adventurer from a hut in the underground Briar.
+	Census.SpawnCondition: Найдите в подземном терновнике и освободите.
 }
 
 BoundAdventurer: {
@@ -1137,7 +1137,7 @@ BoundGambler: {
 }
 
 BoundRogue: {
-	DisplayName: Bound Bandit
+	DisplayName: Связанный бандит
 
 	TownNPCMood: {
 		Content: I am content.
@@ -1200,15 +1200,15 @@ Gambler: {
 	Entry: The Gambler has long lived life on the edge, lending herself to the whims of fate. While this makes her an ardent player, it also once bound her to the top of a goblin fortress.
 	Census.SpawnCondition:
 		'''
-		Rescue the Gambler from a Goblin Tower
-		If your world does not have a Goblin Tower, have at least 1 Gold in your inventory
+		Найдите в башне гоблинов и освободите.
+		Если в мире нет башни гоблинов, необходимо иметь как минимум 1 [i:GoldCoin] в инвентаре.
 		'''
 }
 
 Ghost.DisplayName: Ghost
 
 Oracle: {
-	DisplayName: Oracle
+	DisplayName: Оракул
 
 	Dialogue: {
 		Basic1: The heavens have certainly spoken of you, {0}.
@@ -1262,7 +1262,7 @@ Oracle: {
 }
 
 Rogue: {
-	DisplayName: Bandit
+	DisplayName: Бандит
 
 	Names: {
 		1: Zane
@@ -1314,7 +1314,7 @@ Rogue: {
 }
 
 RuneWizard: {
-	DisplayName: Enchanter
+	DisplayName: Чародей
 
 	Names: {
 		1: Malachai

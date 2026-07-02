@@ -45,11 +45,11 @@ Driftwood:
 	'''
 Dusk:
 	'''
-	8% Increased Magic and Ranged Damage at Night
-	You are surrounded by a rune that guides the way
-	Magic attacks inflict Shadowflame
+	Увеличивает магический и стрелковый урон на 8% ночью
+	Окружает вас рунической магией, указывающей путь
+	Магические атаки будут накладывать на врагов дебафф «{$BuffName.ShadowFlame}»
 	'''
-DarkfeatherVisage: Generates exploding darkfeather bolts around the player
+DarkfeatherVisage: Создаёт вокруг игрока взрывающиеся снаряды из тёмных перьев
 Elderbark: Увеличивает урон всех предметов на 1 ед.
 Floran:
 	'''
@@ -90,8 +90,8 @@ Marble:
 	'''
 Primalstone:
 	'''
-	Melee and magic attacks inflict Unstable Affliction
-	10% reduced movement speed
+	Магические атаки и атаки ближнего боя будут накладывать на врагов дебафф «{$Buffs.UnstableAffliction.DisplayName}»
+	Снижает скорость передвижения на 10%
 	'''
 Rogue:
 	'''
@@ -107,8 +107,8 @@ Seraph:
 	'''
 Slag:
 	'''
-	Double tap {0} to cause all sentries to release a burst of fireballs
-	8 second cooldown
+	Дважды нажмите {0}, чтобы все ваши стражи выпустили залп огненных шаров
+	Способность перезаряжается 8 секунд
 	'''
 Spirit:
 	'''
@@ -126,9 +126,9 @@ Starjinx:
 	'''
 Starplate:
 	'''
-	Double tap {0} to deploy an energy field at the cursor position
-	This field lasts for five seconds and supercharges all ranged projectiles that pass through it
-	{1} second cooldown
+	Дважды нажмите {0}, чтобы разместить энергетическое поле в точке курсора
+	Поле действует 5 секунд и усиливает все стрелковые снаряды, пролетающие сквозь него
+	Способность перезаряжается {1} {^1:секунду;секунды;секунд}
 	'''
 StreamSurfer:
 	'''

@@ -111,11 +111,11 @@ CursedPendant: {
 }
 
 DarkfeatherVisage: {
-	DisplayName: Darkfeather Visage
+	DisplayName: Личина тёмнопёрого
 	Tooltip:
 		'''
-		Increases magic and summon damage by 7%
-		Grants a bonus when worn with a magic robe or fur coat
+		Увеличивает магический урон и урон призывателя на 7%
+		Даёт дополнительный бонус при ношении с магическим одеянием или шубы из меха флинкса
 		'''
 }
 
@@ -292,7 +292,7 @@ FrigidGloves: {
 	DisplayName: Леденящие перчатки
 	Tooltip:
 		'''
-		Критические удары ближнего боя будут накладывать дебафф «{$BuffName.Frostburn}»
+		Критические удары ближнего боя будут накладывать на врагов дебафф «{$BuffName.Frostburn}»
 		Увеличивает скорость атаки на 4% за каждого врага поблизости
 		Этот эффект складывается до 5 раз
 		'''
@@ -381,11 +381,11 @@ SeraphimBulwark: {
 }
 
 MagnifyingGlass: {
-	DisplayName: Magnifying Glass
+	DisplayName: Увеличительное стекло
 	Tooltip:
 		'''
-		4% increased critical strike chance
-		Right click to zoom out when not holding a weapon
+		Увеличивает шанс критического удара на 4%
+		Нажмите ПКМ, чтобы отдалить, когда вы не держите оружие
 		'''
 }
 
@@ -516,12 +516,12 @@ Sea_Snail_Poison: {
 }
 
 ShadowSingeFang: {
-	DisplayName: Shadow-Singed Fang
+	DisplayName: Тенеопалённый клык
 	Tooltip:
 		'''
-		4% increased critical strike chance
-		4% increased critical strike chance at night or underground
-		Attacking enemies that have less than half health may strike them with shadows, at the cost of life
+		Увеличивает шанс критического удара на 4%
+		Дополнительно увеличивает шанс критического удара на 4% ночью или под землёй
+		Атаки по врагам с менее чем половиной здоровья могут поражать их тенями, расходуя часть вашего здоровья
 		'''
 }
 
@@ -876,17 +876,17 @@ FreemanLegs: {
 }
 
 GeodeChestplate: {
-	DisplayName: Geode Chestplate
+	DisplayName: Жеодовый нагрудник 
 	Tooltip: ""
 }
 
 GeodeHelmet: {
-	DisplayName: Geode Helmet
+	DisplayName: Жеодовый шлем
 	Tooltip: ""
 }
 
 GeodeLeggings: {
-	DisplayName: Geode Leggings
+	DisplayName: Жеодовые поножи
 	Tooltip: ""
 }
 
@@ -906,17 +906,17 @@ SnowRangerLegs: {
 }
 
 JackBody: {
-	DisplayName: Handsome Jack's Suit
+	DisplayName: Костюм Красавчика Джека
 	Tooltip: ""
 }
 
 JackHead: {
-	DisplayName: Handsome Jack's Beautiful Visage
+	DisplayName: Прекрасный лик Красавчика Джека
 	Tooltip: ""
 }
 
 JackLegs: {
-	DisplayName: Handsome Jack's Pants
+	DisplayName: Штаны Красавчика Джека
 	Tooltip: ""
 }
 
@@ -2017,8 +2017,8 @@ MarblePage: {
 }
 
 ArcaneGeyser: {
-	DisplayName: Arcane Geyser
-	Tooltip: "'The rock overflows with energy'"
+	DisplayName: Мистический гейзер
+	Tooltip: «Камень, переполненный силой»
 }
 
 AtlasBag: {
@@ -2031,11 +2031,11 @@ AtlasBag: {
 }
 
 AtlasEye: {
-	DisplayName: Atlas Eye
+	DisplayName: Глаз Атланта
 	Tooltip:
 		'''
-		Under 50% health, defense is increased by 20, but movement speed is reduced by 1/3
-		Reduces damage taken by 12%
+		Если у вас менее 50% здоровья, увеличивает защиту на 20 ед., но снижает скорость передвижения втрое
+		Увеличивает сопротивление урону на 12%
 		'''
 }
 
@@ -2045,80 +2045,80 @@ AtlasMask: {
 }
 
 AtlasPetItem: {
-	DisplayName: Primordial Pebble
-	Tooltip: Summons Atlas Jr.
+	DisplayName: Первородный камешек
+	Tooltip: Призывает Атланта-младшего
 }
 
 CragboundStaff: {
-	DisplayName: Cragbound Staff
+	DisplayName: Посох высеченной скалы
 	Tooltip:
 		'''
-		A tiny Earthen Guardian rains down energy for you 
-		Occasionally inflicts foes with 'Unstable Affliction'
+		Призывает небольшого земляного стража, который будет обрушивать энергетические огни на врагов
+		Может наложить на врага дебафф «{$Buffs.UnstableAffliction.DisplayName}»
 		'''
 }
 
 Earthshatter: {
-	DisplayName: Earthshatter
-	Tooltip: Shoots out Earthen rocks along with arrows
+	DisplayName: Землетрясение
+	Tooltip: Запускает осколки скалы вместе со стрелами
 }
 
 Mountain: {
-	DisplayName: The Mountain
+	DisplayName: Горный хребет
 	Tooltip:
 		'''
-		'Swinging the blade strengthens you'
-		Occasionally inflicts foes with 'Unstable Affliction'
+		«Взмахи этим клинком придают вам сил»
+		Может наложить на врага дебафф «{$Buffs.UnstableAffliction.DisplayName}»
 		'''
 }
 
 PrimalstoneBreastplate: {
-	DisplayName: Primalstone Breastplate
+	DisplayName: Нагрудник из первородного камня
 	Tooltip:
 		'''
-		Increases life regeneration
-		5% increased melee damage
-		17% increased melee critical strike chance
-		7% increased magic critical strike chance
+		Увеличивает регенерацию здоровья
+		Увеличивает урон ближнего боя на 5%
+		Увеличивает шанс критического удара ближнего боя на 17%
+		Увеличивает шанс магического критического удара на 7%
 		'''
 }
 
 PrimalstoneFaceplate: {
-	DisplayName: Primalstone Faceplate
+	DisplayName: Защитная маска из первородного камня
 	Tooltip:
 		'''
-		20% increased melee and magic damage
-		Increases maximum mana by 60
-		Reduces damage taken by 8%
+		Увеличивает магический урон и урон ближнего боя на 20%
+		Увеличивает максимальный запас маны на 60 ед.
+		Увеличивает сопротивление урону на 8%
 		'''
 }
 
 PrimalstoneLeggings: {
-	DisplayName: Primalstone Leggings
+	DisplayName: Поножи из первородного камня
 	Tooltip:
 		'''
-		9% increased melee and magic damage
-		5% reduced mana usage
-		10% reduced movement speed
+		Увеличивает магический урон и урон ближнего боя на 9%
+		Снижает расход маны на 5%
+		Снижает скорость передвижения на 10%
 		'''
 }
 
 QuakeFist: {
-	DisplayName: Quake Fist
+	DisplayName: Сотрясающий кулак
 	Tooltip:
 		'''
-		Launches Prismatic fire 
-		Occasionally inflicts foes with 'Unstable Affliction'
+		Выпускает призматические огни
+		Может наложить на врага дебафф «{$Buffs.UnstableAffliction.DisplayName}»
 		'''
 }
 
 TitanboundBulwark: {
-	DisplayName: Titanbound Bulwark
+	DisplayName: Бастион титана
 	Tooltip:
 		'''
-		As your health decreases, your mana regeneration increases
-		Reduces damage taken by 10%
-		Increases life regeneration
+		Ускоряет восстановление маны по мере снижения здоровья
+		Увеличивает сопротивление урону на 10%
+		Увеличивает регенерацию здоровья
 		'''
 }
 
@@ -2200,21 +2200,21 @@ Trophy2: {
 }
 
 DuskHood: {
-	DisplayName: Dusk Hood
-	Tooltip: Increases magic damage by 10% and reduces mana cost by 10%
+	DisplayName: Сумрачный капюшон
+	Tooltip: Увеличивает магический урон и снижает расход маны на 10%
 }
 
 DuskLeggings: {
-	DisplayName: Dusk Leggings
-	Tooltip: Increases critical strike chance by 7%
+	DisplayName: Сумрачные поножи
+	Tooltip: Увеличивает шанс критического удара на 7%
 }
 
 DuskPlate: {
-	DisplayName: Dusk Plate
+	DisplayName: Сумрачные латы
 	Tooltip:
 		'''
-		Increases ranged damage by 10%
-		25% Chance to not consume ammo
+		Увеличивает стрелковый урон на 10%
+		Даёт 25% шанс не потратить боеприпасы
 		'''
 }
 
@@ -2233,37 +2233,33 @@ DuskingMask: {
 }
 
 DuskingPetItem: {
-	DisplayName: Skull Chime
-	Tooltip: Summons a minor shadowflame
+	DisplayName: Череп-свисток
+	Tooltip: Призывает маленькое теневое пламя
 }
 
 DuskPendant: {
-	DisplayName: Dusk Pendant
-	Tooltip: 13% increased magic and ranged critical strike chance at night
+	DisplayName: Сумрачный кулон
+	Tooltip: Увеличивает шанс магического и стрелкового критического удара на 13% ночью
 }
 
 DuskStone: {
-	DisplayName: Dusk Shard
-	Tooltip: "'The stone sparkles with twilight energies'"
+	DisplayName: Осколок сумрака
+	Tooltip: «Камень, сверкающий сумеречной энергией»
 }
 
 ShadowflameSword: {
-	DisplayName: Shadowflame Sword
-	Tooltip:
-		'''
-		Causes explosions of Shadowflames to appear when hitting enemies
-		Shoots out Shadow Embers that damage nearby foes
-		'''
+	DisplayName: Меч теневого пламени
+	Tooltip: Атаки по врагам могут вызвать взрыв теневого пламени и оставить теневые искры
 }
 
 Shadowmoor: {
-	DisplayName: Shadowmoor
-	Tooltip: Converts wooden arrows into Shadow Wisps
+	DisplayName: Теневая пустошь
+	Tooltip: Превращает деревянные стрелы в теневых духов
 }
 
 ShadowSphere: {
-	DisplayName: Shadow Sphere
-	Tooltip: Summons a stationary shadow sphere that shoots out Crystal Shadows at foes
+	DisplayName: Теневая сфера
+	Tooltip: Призывает теневую сферу-стража, стреляющую во врагов кристаллами тьмы
 }
 
 Trophy6: {
@@ -2272,8 +2268,8 @@ Trophy6: {
 }
 
 UmbraStaff: {
-	DisplayName: Umbra Staff
-	Tooltip: Shoots out homing Shadow Balls
+	DisplayName: Посох тени
+	Tooltip: Стреляет самонаводящимися шарами тьмы
 }
 
 DiabolicHorn: {
@@ -2474,7 +2470,7 @@ SacrificialDagger: {
 }
 
 ScarabBow: {
-	DisplayName:  Украшенный лук
+	DisplayName: Украшенный лук
 	Tooltip:
 		'''
 		Чем дольше лук заряжается, тем больше урона он нанесёт
@@ -2580,8 +2576,8 @@ AstralLens: {
 }
 
 CosmiliteShard: {
-	DisplayName: Astralite Shard
-	Tooltip: "'It seems that Starplate entities have been scouring the stars looking for this'"
+	DisplayName: Осколок астролита
+	Tooltip: «Похоже, именно это звездопанцирники ищут по всему космосу»
 }
 
 MagnetFlail: {
@@ -2600,25 +2596,25 @@ OrionPistol: {
 }
 
 StarLegs: {
-	DisplayName: Astralite Leggings
+	DisplayName: Астролитовые поножи
 	Tooltip:
 		'''
-		5% increased ranged damage
-		Leave a trail of stars where you walk
+		Увеличивает стрелковый урон на 5%
+		Вы будите оставлять за собой след из звёзд
 		'''
 }
 
 StarMask: {
-	DisplayName: Astralite Visor
-	Tooltip: 6% increased ranged critical strike chance
+	DisplayName: Астролитовый визор
+	Tooltip: Увеличивает шанс стрелкового критического удара на 6%
 }
 
 StarPlate: {
-	DisplayName: Astralite Chestguard
+	DisplayName: Астролитовый доспех
 	Tooltip:
 		'''
-		20% chance to not consume ammo
-		Increases ranged damage by 5%
+		Даёт 20% шанс не потратить боеприпасы
+		Увеличивает стрелковый урон на 5%
 		'''
 }
 
@@ -2865,8 +2861,8 @@ BlubbyItem: {
 }
 
 BlueMoonSpawn: {
-	DisplayName: Turquoise Lens
-	Tooltip: Use at nighttime to summon the Mystic Moon
+	DisplayName: Лазурная линза
+	Tooltip: Вызывает таинственную луну при использовании ночью
 }
 
 BriarCrate: {
@@ -3499,11 +3495,11 @@ SpiritCrate: {
 }
 
 StarWormSummon: {
-	DisplayName: Starplate Beacon
+	DisplayName: Звездопанцирный маяк
 	Tooltip:
 		'''
-		Non-consumable
-		Use at an Astralite Beacon to summon the Starplate Voyager
+		Не расходуется
+		Призывает Звездопанцирного странника при использовании на астролитовом маяке
 		'''
 }
 
@@ -3548,11 +3544,11 @@ VibeshroomItem: {
 }
 
 BladeofYouKai: {
-	DisplayName: Blade of the You-Kai
+	DisplayName: Клинок ёкая
 	Tooltip:
 		'''
-		Melee hits on enemies may emit Shadowflame Embers
-		Inflicts Shadowflame
+		Атаки по врагам могут оставить теневые искры
+		Накладывает на врагов дебафф «{$BuffName.ShadowFlame}»
 		'''
 }
 
@@ -3753,128 +3749,124 @@ FisheyeGem: {
 }
 
 BeeGlyph: {
-	DisplayName: Bee Glyph
+	DisplayName: Пчелиный глиф
 	Tooltip:
 		'''
-		Grants honeyed when an enemy is slain
-		Attacks periodically release bees
+		Убийство врага даёт бафф «{$BuffName.Honey}»
+		Атаки периодически выпускают пчёл
 		'''
-	Addendum:
-		'''
-		Grants honeyed when an enemy is slain
-		Attacks periodically release bees
-		'''
-	Effect: Honeyed
+	Addendum: "{$Items.BeeGlyph.Tooltip}"
+	Effect: Медовый
 }
 
 BlazeGlyph: {
-	DisplayName: Blaze Glyph
+	DisplayName: Пылающий глиф
 	Tooltip:
 		'''
-		Dealing damage sets you ablaze
-		+25% damage and +10% critical strike chance
+		{$Items.BlazeGlyph.Addendum}
+		Увеличивает урон оружия на 25% и его шанс критического удара на 10%
 		'''
-	Addendum: Dealing damage sets you ablaze
-	Effect: Blazing
-	Death: "{0} was consumed by Rage..."
+	Addendum: Поджигает вас, когда вы наносите урон
+	Effect: Пылающий
+	Death: Игрока {0} поглотила ярость...
 }
 
 ChaosGlyph: {
-	DisplayName: Chaos Glyph
-	Tooltip: Your weapon periodically switches between glyph effects
-	Addendum: Your weapon periodically switches between glyph effects
-	Effect: Unstable
+	DisplayName: Хаотичный глиф
+	Tooltip: Оружие периодически переключается между эффектами глифов
+	Addendum: "{$Items.ChaosGlyph.Tooltip}"
+	Effect: Нестабильный
 }
 
 FrostGlyph: {
-	DisplayName: Frost Glyph
-	Tooltip: Attacks have a chance to freeze enemies briefly
-	Addendum: Attacks have a chance to freeze enemies briefly
-	Effect: Freezing
+	DisplayName: Морозный глиф
+	Tooltip: Атаки могут ненадолго заморозить поражённого врага
+	Addendum: "{$Items.FrostGlyph.Tooltip}"
+	Effect: Замораживающий
 }
 
 Glyph: {
-	DisplayName: Blank Glyph
-	Tooltip: "'The Enchanter could probably use this'"
-	Gain: The enchanted weapon will gain: [c/{0}:{1}]
-	Target: Can only be applied to weapons
-	RightClick: Hold this glyph and right-click the weapon you want to enchant
-	Remove: Hold this glyph and right-click the item whose glyph you want to remove
+	DisplayName: Пустой глиф
+	Tooltip: «Может заинтересовать чародея»
+	Gain: Зачарованное оружие получит эффект [c/{0}:«{1}»]:
+	Target: Можно применить только к оружию
+	RightClick: Держа этот глиф, нажмите ПКМ по оружию, который вы хотите зачаровать
+	Remove: Держа этот глиф, нажмите ПКМ по оружию, с которого вы хотите снять эффекты
 }
 
 NullGlyph: {
-	DisplayName: Null Glyph
-	Tooltip: Can be used to wipe a glyph off an item
+	DisplayName: Расколдовывающий глиф
+	Tooltip: Снимает эффекты глифов с предметов
 	Addendum: Invalid
 	Effect: Invalid
 }
 
 PhaseGlyph: {
-	DisplayName: Phase Glyph
+	DisplayName: Фазовый глиф
 	Tooltip:
 		'''
-		Weapon damage increases the faster you move, but decreases when moving slowly
-		Consecutive hits grant a short burst of speed
+		Урон оружия увеличивается по мере роста вашей скорости, но снижается при медленном движении
+		Последовательные попадания дают кратковременный всплеск скорости
 		'''
-	Addendum:
-		'''
-		Weapon damage increases the faster you move, but decreases when moving slowly
-		Consecutive hits grant a short burst of speed
-		'''
-	Effect: Temporal
+	Addendum: "{$Items.PhaseGlyph.Tooltip}"
+	Effect: Временной
 }
 
 RadiantGlyph: {
-	DisplayName: Radiant Glyph
-	Tooltip: Builds radiant energy when not dealing damage, empowering your next attack
-	Addendum: Builds radiant energy when not dealing damage, empowering your next attack
-	Effect: Radiant
+	DisplayName: Лучистый глиф
+	Tooltip:
+		'''
+		Накапливает лучистую энергию, пока вы не наносите урон
+		Накопив энергию вам даётся бафф, усиливающий следующую атаку
+		'''
+	Addendum: "{$Items.RadiantGlyph.Tooltip}"
+	Effect: Лучистый
 }
 
 RageGlyph: {
-	DisplayName: Rage Glyph
-	Tooltip: Excess damage on kill is stored for your next attack
-	Addendum: Excess damage on kill is stored for your next attack
-	Effect: Frenzied
+	DisplayName: Яростный глиф
+	Tooltip: Лишний урон, нанесённый при добивающей атаке, сохранится и будет нанесёт при следующей атаке
+	Addendum: "{$Items.RageGlyph.Tooltip}"
+	Effect: Неистовый
 }
 
 SanguineGlyph: {
-	DisplayName: Sanguine Glyph
+	DisplayName: Кровавый глиф
 	Tooltip:
 		'''
-		Dealing damage boosts life regeneration briefly
-		-10% damage
+		{$Items.SanguineGlyph.Addendum}
+		Снижает урон оружия на 10% 
 		'''
-	Addendum: Dealing damage boosts life regeneration briefly
-	Effect: Leeching
+	Addendum: Нанесение урона даёт кратковременный бафф, ускоряющий регенерацию здоровья
+	Effect: Высасывающий
 }
 
 StormGlyph: {
-	DisplayName: Zephyr Glyph
-	Tooltip: Attacks occasionally release a forceful gust of wind
-	Addendum: Attacks occasionally release a forceful gust of wind
-	Effect: Billowed
+	DisplayName: Штормовой глиф
+	Tooltip: Атаки периодически выпускают сильный порыв ветра
+	Addendum: "{$Items.StormGlyph.Tooltip}"
+	Effect: Взмывающий
 }
 
 UnholyGlyph: {
-	DisplayName: Unholy Glyph
-	Tooltip: Enemies erupt into cursed phantoms on death
-	Addendum: Enemies erupt into cursed phantoms on death
-	Effect: Cursed
+	DisplayName: Нечестивый глиф
+	Tooltip: Из убитых врагов будут вылетать проклятые фантомы
+	Addendum: "{$Items.UnholyGlyph.Tooltip}"
+	Effect: Проклятый
 }
 
 VeilGlyph: {
-	DisplayName: Veil Glyph
-	Tooltip: Dealing damage builds a defensive veil around the user
-	Addendum: Dealing damage builds a defensive veil around the user
-	Effect: Guarding
+	DisplayName: Заслоночный глиф
+	Tooltip: Нанесение урона создаёт вокруг игрока защитный заслон
+	Addendum: "{$Items.VeilGlyph.Tooltip}"
+	Effect: Охранный
 }
 
 VoidGlyph: {
-	DisplayName: Void Glyph
-	Tooltip: Attacks have a chance to inflict stacks of void collapse
-	Addendum: Attacks have a chance to inflict stacks of void collapse
-	Effect: Null
+	DisplayName: Пустотный глиф
+	Tooltip: Атаки периодически накладывают суммирующийся эффект коллапса пустоты
+	Addendum: "{$Items.VoidGlyph.Tooltip}"
+	Effect: Пустой
 }
 
 CaramelApple: {
@@ -4131,7 +4123,7 @@ StarEnergy: {
 }
 
 StrippedBamboo: {
-	DisplayName: Stripped Bamboo
+	DisplayName: Очищенный бамбук
 	Tooltip: ""
 }
 
@@ -4156,8 +4148,8 @@ JellyCandle: {
 }
 
 PhantomEgg: {
-	DisplayName: Phantom Egg
-	Tooltip: A shadowy Phantom follows you...
+	DisplayName: Яйцо фантома
+	Tooltip: За вами будет следовать тёмный фантом...
 }
 
 PowerRing: {
@@ -4421,32 +4413,32 @@ AdventurerMap: {
 }
 
 AsteroidChest: {
-	DisplayName: Asteroid Chest
+	DisplayName: Астероидный сундук
 	Tooltip: ""
 }
 
 BambooBarrelItem: {
-	DisplayName: Stripped Bamboo Barrel
+	DisplayName: Бочка из очищенного бамбука
 	Tooltip: ""
 }
 
 BambooBenchItem: {
-	DisplayName: Stripped Bamboo Bench
+	DisplayName: Скамья из очищенного бамбука
 	Tooltip: ""
 }
 
 BambooBirdCageItem: {
-	DisplayName: Stripped Bamboo Bird Cage
-	Tooltip: Birds can be locked inside using right click
+	DisplayName: Птичья клетка из очищенного бамбука
+	Tooltip: Нажмите ПКМ, чтобы посадить птицу внутрь
 }
 
 BambooPikeItem: {
-	DisplayName: Bamboo Pike
+	DisplayName: Бамбуковая пика
 	Tooltip: ""
 }
 
 BambooPotItem: {
-	DisplayName: Stripped Bamboo Pot
+	DisplayName: Горшок из очищенного бамбука
 	Tooltip: ""
 }
 
@@ -4471,18 +4463,18 @@ BriarFlowerItem: {
 }
 
 DuskingPainting: {
-	DisplayName: Dusking's Wrath
-	Tooltip: "'S. Kletony'"
+	DisplayName: Картина «Месть Сумрачного короля»
+	Tooltip: «С. Клентони»
 }
 
 FishingPainting: {
-	DisplayName: Moonlight Deluge
-	Tooltip: "'P. Otat'"
+	DisplayName: Картина «Озарённый лунным светом»
+	Tooltip: «К. Артофель»
 }
 
 FloppaPainting: {
-	DisplayName: The Duality of Man
-	Tooltip: "'Tix A. Luna'"
+	DisplayName: Картина «Двойственность человека»
+	Tooltip: «Тикс А. Луна»
 }
 
 ForagerTableItem: {
@@ -5134,7 +5126,7 @@ SkullStick: {
 }
 
 SpiritBedItem: {
-	DisplayName: Duskwood Bed
+	DisplayName: Кровать из сумрачной древесины
 	Tooltip: ""
 }
 
@@ -5144,17 +5136,17 @@ SpiritBiomePainting: {
 }
 
 SpiritChairItem: {
-	DisplayName: Duskwood Chair
+	DisplayName: Стул из сумрачной древесины
 	Tooltip: ""
 }
 
 SpiritChest: {
-	DisplayName: Duskwood Chest
+	DisplayName: Сундук из сумрачной древесины
 	Tooltip: ""
 }
 
 SpiritDoorItem: {
-	DisplayName: Duskwood Door
+	DisplayName: Дверь из сумрачной древесины
 	Tooltip: ""
 }
 
@@ -5169,12 +5161,12 @@ SpiritPainting: {
 }
 
 SpiritTableItem: {
-	DisplayName: Duskwood Table
+	DisplayName: Стол из сумрачной древесины
 	Tooltip: ""
 }
 
 SpiritWorkbench: {
-	DisplayName: Duskwood Work Bench
+	DisplayName: Верстак из сумрачной древесины
 	Tooltip: ""
 }
 
@@ -5229,7 +5221,7 @@ WWPainting: {
 }
 
 HerosMemorialStatue: {
-	DisplayName: Hero's Memorial Statue
+	DisplayName: Памятник герою
 	Tooltip: ""
 }
 
@@ -5529,8 +5521,8 @@ SoulSeeds: {
 }
 
 StarBeaconItem: {
-	DisplayName: Astralite Beacon
-	Tooltip: "'Powered by galactic energy'"
+	DisplayName: Астролитовый маяк
+	Tooltip: «Питается от галактической энергии»
 }
 
 SuperSunFlowerItem: {
@@ -5548,8 +5540,8 @@ AcidBrick: {
 }
 
 AsteroidBlock: {
-	DisplayName: Asteroid Block
-	Tooltip: "'Ore-rich space debris'"
+	DisplayName: Астероид
+	Tooltip: «Космический мусор, богатый минералами»
 }
 
 BlastStoneItem: {
@@ -5618,36 +5610,36 @@ SepulchreBrickTwoItem: {
 }
 
 SpaceJunkItem: {
-	DisplayName: Space Junk
+	DisplayName: Космический мусор
 	Tooltip:
 		'''
-		Can be used by the Extractinator
-		'What's hidden behind this jumbled mess?'
+		Можно обработать в промывателе
+		«Что скрывается в этой груде хлама?»
 		'''
 }
 
 SpiritDirtItem: {
-	DisplayName: Spirit Dirt
+	DisplayName: Земля духов
 	Tooltip: ""
 }
 
 SpiritIceItem: {
-	DisplayName: Spirit Ice
+	DisplayName: Лёд духов
 	Tooltip: ""
 }
 
 SpiritSandItem: {
-	DisplayName: Spirit Sand
+	DisplayName: Песок духов
 	Tooltip: ""
 }
 
 SpiritStoneItem: {
-	DisplayName: Grimstone
+	DisplayName: Мрачнит
 	Tooltip: ""
 }
 
 SpiritWoodItem: {
-	DisplayName: Duskwood
+	DisplayName: Сумрачная древесина
 	Tooltip: ""
 }
 
@@ -5662,7 +5654,7 @@ AcidWall: {
 }
 
 AsteroidWall: {
-	DisplayName: Asteroid Wall
+	DisplayName: Астероидная стена
 	Tooltip: ""
 }
 
@@ -5692,7 +5684,7 @@ SepulchreWallItem: {
 }
 
 SpiritWallItem: {
-	DisplayName: Duskwood Wall
+	DisplayName: Стена из сумрачной древесины
 	Tooltip: ""
 }
 
@@ -6157,7 +6149,7 @@ ReachFishingCatch: {
 
 SanctifiedStabber: {
 	DisplayName: Священный закалыватель
-	Tooltip: Накладывает дебафф «{$Buffs.WitheringLeaf.DisplayName}»
+	Tooltip: Накладывает на врагов дебафф «{$Buffs.WitheringLeaf.DisplayName}»
 }
 
 VineChain: {
@@ -6413,8 +6405,8 @@ AnimeSword: {
 }
 
 BambooKendoBlade: {
-	DisplayName: Bamboo Kendo Blade
-	Tooltip: Right click to dash forward
+	DisplayName: Бамбуковый синай
+	Tooltip: Нажмите ПКМ, чтобы совершить рывок
 }
 
 BladeOfTheDragon: {
@@ -6711,7 +6703,7 @@ IcySpear: {
 		'''
 		Удерживайте ЛКМ, чтобы зарядить копьё, и отпустите, чтобы его метнуть
 		Чем дольше копьё заряжается, тем быстрее оно полетит и больше урона нанесёт
-		Накладывает дебафф «{$BuffName.Frostburn}»
+		Накладывает на врагов дебафф «{$BuffName.Frostburn}»
 		'''
 }
 
@@ -7108,7 +7100,7 @@ ElderbarkLegs: {
 
 HuskstalkBow: {
 	DisplayName: Хворостяной лук
-	Tooltip: Стрелы накладывают дебафф «{$Buffs.WitheringLeaf.DisplayName}»
+	Tooltip: Стрелы накладывают на врагов дебафф «{$Buffs.WitheringLeaf.DisplayName}»
 }
 
 HuskstalkHammer: {
@@ -7618,43 +7610,43 @@ WayfinderTorch: {
 }
 
 CarvedRock: {
-	DisplayName: Slagstone
-	Tooltip: "'A seething piece of hardened magma'"
+	DisplayName: Адский шлак
+	Tooltip: «Обжигающий осколок застывшей магмы»
 }
 
 ObsidiusGreaves: {
-	DisplayName: Slag Tyrant's Greaves
+	DisplayName: Шлаковые поножи тирана
 	Tooltip:
 		'''
-		5% increased minion damage
-		Increases your max number of minions
+		Увеличивает урон призывателя на 5%
+	Увеличивает максимальное количество миньонов
 		'''
 }
 
 ObsidiusHelm: {
-	DisplayName: Slag Tyrant's Helm
+	DisplayName: Шлаковый шлем тирана
 	Tooltip:
 		'''
-		5% increased minion damage
-		Increases your max number of sentries
+		Увеличивает урон призывателя на 5%
+	Увеличивает максимальное количество стражей
 		'''
 }
 
 ObsidiusPlate: {
-	DisplayName: Slag Tyrant's Platemail
+	DisplayName: Шлаковые латы тирана
 	Tooltip:
 		'''
-		4% increased minion damage
-		Increases your max number of minions
+		Увеличивает урон призывателя на 4%
+		Увеличивает максимальное количество миньонов
 		'''
 }
 
 FieryMagicLauncher: {
-	DisplayName: Slag Breath
+	DisplayName: Шлаковое дыхание
 	Tooltip:
 		'''
-		Expels spurts of magical flame
-		Critical hits shower enemies in damaging sparks
+		Извергает потоки магического пламени
+		Критические удары осыпают врагов искрами, наносящими урон
 		'''
 }
 
@@ -7664,8 +7656,8 @@ FierySummonStaff: {
 }
 
 PossessedHammer: {
-	DisplayName: Possessed Hammer
-	Tooltip: Throws a returning, vengeful hammer that will seek out enemies to hit additional times
+	DisplayName: Одержимый молот
+	Tooltip: Бросает возвращающийся мстительный молот, наводящийся на врагов и наносящий дополнительные удары
 }
 
 SlagHammer: {
@@ -7678,13 +7670,13 @@ SlagHammer: {
 }
 
 BambooHalberd: {
-	DisplayName: Bamboo Halberd
+	DisplayName: Бамбуковая алебарда
 	Tooltip: ""
 }
 
 DuskLance: {
-	DisplayName: Dusk Lance
-	Tooltip: Shoots out an apparition that inflicts Shadowflame
+	DisplayName: Протазан сумрака
+	Tooltip: Выпускает копья, накладывающих на врагов дебафф «{$BuffName.ShadowFlame}»
 }
 
 GhostJellyBomb: {
@@ -7763,7 +7755,7 @@ SpiritLeggings: {
 }
 
 SpiritBar: {
-	DisplayName: Spirit Bar
+	DisplayName: Слиток духов
 	Tooltip: ""
 }
 
@@ -7788,8 +7780,8 @@ SpiritHamaxe: {
 }
 
 SpiritOre: {
-	DisplayName: Spirit Ore
-	Tooltip: "'Spirit-infused metal'"
+	DisplayName: Руда духов
+	Tooltip: «Металл, пропитанный духами»
 }
 
 SpiritPickaxe: {
@@ -7907,22 +7899,22 @@ DemoniceSword: {
 }
 
 CrimsonSkull: {
-	DisplayName: Crimson Skull
-	Tooltip: You shouldn't see this
+	DisplayName: Багровый череп
+	Tooltip: Вы не должны были это видеть
 }
 
 FlaskOfGore: {
-	DisplayName: Flask of Gore
+	DisplayName: Колба со внутренностями
 	Tooltip:
 		'''
-		Flasks may create a crimson skull upon popping
-		Picking up crimson skulls temporarily increases the flask's damage
+		При разбивании, колбы могут вызвать летающий багровый череп
+		Подбор багровых черепов ненадолго увеличивает урон колбы
 		'''
 }
 
 CoconutGun: {
 	DisplayName: Кокосовая пушка
-	Tooltip: «Она просто обажает убивать зомби»
+	Tooltip: «Она просто обожает убивать зомби»
 }
 
 CrocodrilloMountItem: {
@@ -8103,11 +8095,11 @@ CrystalWindpipe: {
 }
 
 DarkstarLantern: {
-	DisplayName: Darkstar Lantern
+	DisplayName: Фонарь тёмной звезды
 	Tooltip:
 		'''
-		Creates a singularity at the cursor position that shoots out multiple void stars
-		Void stars home in on enemies and may inflict Shadowflame
+		Создаёт в точке курсора сингулярность, стреляющую множеством пустотных звёзд
+		Пустотные звёзды самонаводятся и могут наложить на врага дебафф «{$BuffName.ShadowFlame}»
 		'''
 }
 
@@ -8125,7 +8117,7 @@ EelRod: {
 	Tooltip:
 		'''
 		Выпускает молнию, которая периодически замедляется и меняет направление, нацеливаясь на ближайших врагов
-		Поражённые враги иногда получают дебафф «{$BuffName.Electrified}»
+		Может наложить на врага дебафф «{$BuffName.Electrified}»
 		'''
 }
 
@@ -8425,13 +8417,13 @@ Typhoon: {
 }
 
 Fathomless_Chest_Item: {
-	DisplayName: Fathomless Vase
-	Tooltip: You aren't supposed to have this!
+	DisplayName: Неведомая ваза
+	Tooltip: У вас не должно быть этого!
 }
 
 Mystical_Dice: {
-	DisplayName: Mystical Dice
-	Tooltip: Teleports you to a Fathomless Shrine
+	DisplayName: Таинственная кость
+	Tooltip: Телепортирует вас в Неведомое святилище
 }
 
 MarbleMinecartItem: {
@@ -8488,7 +8480,7 @@ SmallVentItem: {
 }
 
 Black_Stone_Item: {
-	DisplayName: Blackrock
+	DisplayName: Чернокамень
 	Tooltip: ""
 }
 
@@ -8929,7 +8921,7 @@ DriftwoodPlatformItem: {
 }
 
 SpiritPlatformItem: {
-	DisplayName: Duskwood Platform
+	DisplayName: Платформа из сумрачной древесины
 	Tooltip: ""
 }
 

@@ -1,30 +1,38 @@
-﻿Project tRU — это масштабный проект по русификации модов, обеспечивающий качественные переводы модов на русский язык.
+﻿-- By Team Spirit --
 
-Мы предлагаем переводы для следующих модов:
-[list]
-[*] Calamity
-[*] Calamity: Wrath of the Gods
-[*] Catalyst
-[*] Infernum
-[*] Thorium
-[*] The Stars Above
-[*] Fargo's Mutant
-[*] Fargo's Souls
-[*] Mod of Redemption
-[*] Path Of Terraria
-[*] Clicker Class (Встроенный перевод)
-[*] Boss Checklist (Встроенный перевод)
-[/list]
+Spirit currently adds:
+- 1401 new items!
+- 41 new armor sets!
+- 8 new bosses​!
+- 3 brand new biomes: the Spirit, the Asteroid Field and the Briar!
+- A complete rework of the Ocean biome!
+- A brand new Quest System!
+- 255 new enemies and minibosses!
+- 3 new events: the Tide, the Jelly Deluge, and the Mystic Moon!
+- A new Weapon Enchantment system!
+- 34 brand new music tracks for vanilla and modded events and biomes!
+...and so much more for you to discover!
 
-Ключевые особенности русификатора и полезные QoL функции:
-[list]
-[*] Исправление многочисленных ошибок и неточностей официального перевода Terraria.
-[*] Новый, более читаемый шрифт.
-[*] Склонение префиксов в зависимости от рода предмета, а также корректное склонение количества монет.
-[*] Цветовая маркировка типа урона для каждого оружия.
-[*] Предпросмотр бонуса комплекта брони.
-[*] Озвучка реплик персонажей на русском.
-[/list]
+Introducing a variety of bosses, biomes, weapons, events, and mechanics, Spirit is one of Terraria’s largest content mods. 
+Spirit has been developed by a team of passionate modders since 2015, with the goal of expanding the vanilla experience and breathing new immersive life into your world. 
+Since then, the mod has continued to grow and evolve, boasting over 3 million downloads in its lifetime on 1.3.5.
+After another long update, Spirit is ready to take on 1.4.4, and showcase what it can do in the future.
 
-Мы постоянно работаем над улучшениями и расширением возможностей русификатора.
-Все новости и обновления доступны на нашем [url=https://discord.gg/zxMHFFpqCX]Discord[/url]-сервере.
+We hope you enjoy!
+
+Discord: https://discord.gg/YUFGbSccSZ 
+Check out the mod's discord and forum page for more information! We hope you enjoy the mod, and please report any issues you encounter :)
+
+--------------
+
+For those on the Workshop, please join the Discord if you have issues!
+Organizing help on in the comment section is near impossible.
+
+---------------
+----- FAQ -----
+Q: Is this mod compatible with <Other Mod>?
+A: This mod is compatible with Calamity and Thorium, and all other known content mods. Report issues if there are any.
+Calamity WILL overshadow both Thorium and Spirit, however, as it is balanced around itself instead of vanilla.
+
+Q: How do I get the quest book?
+A: Find the Adventurer in the underground Briar, and get the quest book from him.

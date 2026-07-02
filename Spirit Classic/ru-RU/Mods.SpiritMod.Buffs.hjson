@@ -120,8 +120,8 @@ CourtCooldown: {
 }
 
 CrimsonSkullBuff: {
-	DisplayName: Crimson Skull
-	Description: Flask of gore now deals double damage
+	DisplayName: Багровый череп
+	Description: Урон колбы со внутренностями увеличен вдвое
 }
 
 Death: {
@@ -140,8 +140,8 @@ AcidBurn: {
 }
 
 Afflicted: {
-	DisplayName: Unstable Affliction
-	Description: Falling to pieces
+	DisplayName: Нестабильный
+	Description: Вы разваливаетесь на куски
 }
 
 BloodCorrupt: {
@@ -270,8 +270,8 @@ MageFreeze: {
 }
 
 MidasTouch: {
-	DisplayName: Midas Touch
-	Description: Enemies drop more gold when killed
+	DisplayName: Прикосновение Мидаса
+	Description: С убитых врагов выпадает больше монет
 }
 
 DiabolicPlatformBuff: {
@@ -334,8 +334,8 @@ OverDrive: {
 }
 
 AtlasPetBuff: {
-	DisplayName: Atlas Jr.
-	Description: He wants to lend a hand!
+	DisplayName: Атлант-младший
+	Description: Протягивает руку помощи!
 }
 
 AvianPetBuff: {
@@ -359,8 +359,8 @@ CaptiveMaskPetBuff: {
 }
 
 DuskingPetBuff: {
-	DisplayName: Minor Shadowflame
-	Description: "'You see something inside of the flames...'"
+	DisplayName: Маленькое теневое пламя
+	Description: «В этом огне можно различить силуэт...»
 }
 
 FaeriePetBuff: {
@@ -409,8 +409,8 @@ OverseerPetBuff: {
 }
 
 PhantomPetBuff: {
-	DisplayName: Phantom
-	Description: "'It blends into the night'"
+	DisplayName: Фантом
+	Description: «Растворяется в мраке ночи»
 }
 
 SaucerPetBuff: {
@@ -643,8 +643,8 @@ TrueMarksman: {
 }
 
 UnstableAffliction: {
-	DisplayName: Unstable Affliction
-	Description: Reduces movement speed by 10%
+	DisplayName: Нестабильный
+	Description: Скорость передвижения снижена на 10%
 }
 
 VineTrap: {
