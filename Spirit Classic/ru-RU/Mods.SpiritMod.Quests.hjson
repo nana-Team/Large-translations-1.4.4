@@ -103,7 +103,7 @@ QuestInfo: {
 
 	FirstAdventure: {
 		Name: Первое приключение
-		Description: Ну что, в приключенцы заделался? Тогда собирай свои вещи: есть для тебя задание! Я было хотел сшить тебе комплект брони, чтобы помочь в твоих начинаниях, но стая паршивых крюкохвостых мышей вырвала нужное для этого полотно прочной ткани прямо из моих рук! Обитают они в лесу, а наружу выходят только ночью. Будь другом, достань ту ткань и сделай эту броню сам.
+		Description: Ну что, в приключенцы заделался? Тогда собирай вещи: есть тебе задание! Я было хотел сшить тебе комплект брони, чтобы помочь в твоих начинаниях, но стая паршивых крюкохвостых мышей вырвала нужное для этого полотно прочной ткани прямо из моих рук! Обитают они в лесу, а наружу выходят только ночью. Будь другом, достань ту ткань и сделай эту броню сам.
 	}
 
 	RaidingTheStars: {
@@ -296,8 +296,8 @@ QuestInfo: {
 	}
 
 	IdleIdol: {
-		Name: Idle Idol
-		Description: The sands of the desert hide a lot of secrets beneath 'em. There's supposed to be an Ancient Ziggurat buried near the surface of one of those wastelands. Could ya head down there and scavenge some relics from me?
+		Name: Забытый идол
+		Description: Пески пустыни таят много секретов. Поговаривают даже, что неглубоко под одной из таких дюн зарыт древний зиккурат. Не мог бы ты туда сгонять да притащить мне каких-нибудь реликвий?
 		ReturnToAdventurer: Вернуться к приключенцу со своей находкой
 		Warning: I knew it. I was polishin' up this old thing when it started to look real familiar. That's a Scarab Idol right there. I'm warning ya, don't mess with it until you get real strong. Me and some bounty hunters tried to take that thing on years ago. We barely escaped with our lives. Be safe, lad.
 	}

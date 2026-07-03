@@ -30,8 +30,8 @@ Cascade:
 Chitin: Нажмите дважды в нужном направлении, чтобы совершить рывок, обволакивающий вас в торнадо
 Cryolite:
 	'''
-	Generates an icy aura that slows nearby enemies
-	This aura expands gradually, but resets when injured
+	Создаёт вокруг вас ледяную ауру, замедляющую врагов
+	Аура постепенно расширяется, но сбрасывается до изначального размера при получении урона
 	'''
 Daybloom:
 	'''

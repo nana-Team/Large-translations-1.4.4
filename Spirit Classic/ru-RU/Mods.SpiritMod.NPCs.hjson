@@ -167,9 +167,9 @@ Atlas: {
 
 AtlasArmLeft.DisplayName: Рука Атланта
 AtlasArmRight.DisplayName: Рука Атланта
-CobbledEye.DisplayName: Cobbled Eye
-CobbledEye2.DisplayName: Cobbled Eye
-CobbledEye3.DisplayName: Cobbled Eye
+CobbledEye.DisplayName: Каменный глаз
+CobbledEye2.DisplayName: Каменный глаз
+CobbledEye3.DisplayName: Каменный глаз
 
 Dusking: {
 	DisplayName: Сумеречный король
@@ -180,7 +180,7 @@ Dusking: {
 ShadowBall.DisplayName: Penumbral Sphere
 
 Shadowflamer: {
-	DisplayName: Antumbral Skull
+	DisplayName: Полутеневой череп
 	Entry: End of dawns, bringer of nights, may the king of darkness rise to fight! May you cast the world to darkness and forever seal the light! O' king hear my cry, for may victory be yours tonight!
 }
 
@@ -830,8 +830,8 @@ Teratoma: {
 }
 
 BlossomHound: {
-	DisplayName: Blossom Hound
-	Entry: Blooming elderbark carved into the shape of a hound, fueled by an insatiable need to feed and nurture the flowers on its body.
+	DisplayName: Цветущая гончая
+	Entry: Кусок цветущего бузинного дерева, которому резьбой придали форму гончей. Ей движит лишь неутолимое желание охотиться и удобрять цветы на своём теле чужой кровью.
 }
 
 Blubby: {
@@ -862,18 +862,18 @@ Noxophyll: {
 }
 
 Reachman: {
-	DisplayName: Feral Shambler
-	Entry: The line between flora and fauna is blurred in the briar. The reanimated bones of adventurers act animalistic, despite it being composed mostly of plants.
+	DisplayName: Одичавший шатун
+	Entry: Мёртвое тело неудачливого искателя приключений, оживлённое лозами и корнями терновника. Ведёт оно себя словно дикий зверь, несмотря на то, что все его кости и мышцы давно заменили растения. Границы между флорой и фауной в этом биоме поистине размыты.
 }
 
 ReachObserver: {
-	DisplayName: Wildwood Watcher
-	Entry: These bramble beasts nest in the leaves of elderbark trees, waiting for an invasive body to set foot within the Briar's central cavity.
+	DisplayName: Дозорный чащи
+	Entry: Эти колючие звери гнездятся на ветвях бузинных деревьев, ожидая любого чужака, что ступит в центр терновника.
 }
 
 ReachSlime: {
 	DisplayName: Терновый слизень
-	Entry: Due to the perpetual rainfall in the Briar, these slimes are composed of 90% water. As a result, they often leak and lose volume when struck.
+	Entry: Из-за вечных дождей в терновнике тела этих слизней на 90% состоят из воды. Именно поэтому они начинают протекать и уменьшаться в размерах от любых повреждений.
 }
 
 ThornStalker: {
@@ -938,7 +938,7 @@ SoulOrb: {
 }
 
 SpiritGhoul: {
-	DisplayName: Тёмный упырь
+	DisplayName: Теневой упырь
 	Entry: Ghouls reanimated by the Spirit now leak ectoplasm from every crevice. Their bites have a chance of confusing their foes by briefly showing them glimpses of their former lives.
 }
 
@@ -1376,12 +1376,12 @@ Vulture_Matriarch: {
 }
 
 Wheezer: {
-	DisplayName: Wheezer
-	Entry: A weezer is an extremely toxic relative of the salamander, known for aggressive behavior. Oddly enough, their favorite food is a budding holly plant, contradictory to their carnivorous tendencies.
+	DisplayName: Пыхтельник
+	Entry: Пыхтельники — крайне ядовитые родственники саламандры, отличающиеся невероятной агрессивностью. Как ни странно, их любимая еда — нежный падуб, что идёт в разрез с их плотоядными наклонностями.
 }
 
 WinterbornMelee: {
-	DisplayName: Winterborn
+	DisplayName: Зиморождённый
 	Entry: The last remnants of a bygone tribe. Encased in ice by a mysterious curse, they wander the tundra, looking for relics of their civilization.
 }
 

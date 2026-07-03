@@ -160,8 +160,8 @@ DoomDestiny: {
 }
 
 FesteringWounds: {
-	DisplayName: Festering Wounds
-	Description: Deals more damage if the victim is under half health
+	DisplayName: Гноящие раны
+	Description: Вы начинаете получать больше урона, если у вас менее поливины здоровья
 }
 
 DrainLife: {
@@ -195,16 +195,16 @@ Frozen: {
 }
 
 BurningRage: {
-	DisplayName: Burning Rage
-	Description: You're taking damage
+	DisplayName: Полыхающая ярость
+	Description: Вы получаете урон
 }
 
 CollapsingVoid.DisplayName: Collapsing Void
 DevouringVoid.DisplayName: Devouring Void
 
 DivineStrike: {
-	DisplayName: Divine Strike
-	Description: Your next attack will deal increased damage
+	DisplayName: Божественный удар
+	Description: Ваша следующая атака нанесёт больше урона
 }
 
 PhantomVeil: {
@@ -218,13 +218,17 @@ SanguineBleed: {
 }
 
 SanguineRegen: {
-	DisplayName: Sanguine Regeneration
-	Description: You are rapidly gaining blood
+	DisplayName: Кровавая регенерация
+	Description: Вы быстро восполняете свою кровь
 }
 
 TemporalShift: {
-	DisplayName: Temporal Shift
-	Description: Double tap to dash and gain a temporary speed boost
+	DisplayName: Временной сдвиг
+	Description:
+		'''
+		Дважды нажмите в нужном направлении, чтобы совершить рывок
+		Скорость передвижения увеличена
+		'''
 }
 
 WanderingPlague.DisplayName: Wandering Plague
@@ -404,8 +408,8 @@ OccultistPetBuff: {
 }
 
 OverseerPetBuff: {
-	DisplayName: Overseer
-	Description: "'Looks like a final boss to me'"
+	DisplayName: Оверсиер
+	Description: «Выглядит как финальный босс»
 }
 
 PhantomPetBuff: {
@@ -439,17 +443,17 @@ VinewrathPetBuff: {
 }
 
 BismitePotionBuff: {
-	DisplayName: Toxic Strike
+	DisplayName: Токсичный удар
 	Description:
 		'''
-		Critical strikes inflict Festering Wounds
-		4% increased critical strike chance
+		Критические удары накладывают на врагов дебафф «{$Buffs.FesteringWounds.DisplayName}»
+		Шанс критического удара увеличен на 4%
 		'''
 }
 
 DoubleJumpPotionBuff: {
-	DisplayName: Aether Jump
-	Description: Temporarily grants an additional jump
+	DisplayName: Эфирный прыжок
+	Description: Вы можете совершать дополнительный прыжок
 }
 
 FlightPotionBuff: {
@@ -468,8 +472,8 @@ MoonBlessingDonut: {
 }
 
 MushroomPotionBuff: {
-	DisplayName: Spore Release
-	Description: Leave behind a trail of damaging mushrooms
+	DisplayName: Споровый выброс
+	Description: Вы оставляете за собой след из наносящих урон грибов
 }
 
 PinkPotionBuff: {
@@ -524,8 +528,8 @@ Shadowflame: {
 }
 
 Shocked: {
-	DisplayName: Shocked!
-	Description: Woah!
+	DisplayName: Наэлектризован!
+	Description: Ого!
 }
 
 SoulBurn: {
@@ -688,13 +692,13 @@ HealthZoneTimer: {
 }
 
 LowGravZoneBuff: {
-	DisplayName: Low Gravity Zone
-	Description: You feel light!
+	DisplayName: Зона низкой гравитации
+	Description: Вы чувствуете лёгкость!
 }
 
 LowGravZoneTimer: {
-	DisplayName: Low Gravity Zone
-	Description: The Low Gravity Zone is up!
+	DisplayName: Зона низкой гравитации
+	Description: Зона низкой гравитации активна!
 }
 
 RepulsionZoneTimer: {
@@ -914,6 +918,6 @@ ExplorerSpeed: {
 }
 
 ArcaneFreeze: {
-	DisplayName: Arcane Freeze
-	Description: A magical ice consumes you
+	DisplayName: Мистическая заморозка
+	Description: Вас сковывает магический лёд
 }

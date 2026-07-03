@@ -876,7 +876,7 @@ FreemanLegs: {
 }
 
 GeodeChestplate: {
-	DisplayName: Жеодовый нагрудник 
+	DisplayName: Жеодовый нагрудник
 	Tooltip: ""
 }
 
@@ -1025,12 +1025,12 @@ PlagueDoctorRobe: {
 }
 
 ProtectorateBody: {
-	DisplayName: Protectorate Uniform
+	DisplayName: Униформа протектората
 	Tooltip: ""
 }
 
 ProtectorateLegs: {
-	DisplayName: Protectorate Greaves
+	DisplayName: Штаны протектората
 	Tooltip: ""
 }
 
@@ -1190,7 +1190,7 @@ BloomshroomBanner: {
 }
 
 BlossomHoundBanner: {
-	DisplayName: Blossom Hound Banner
+	DisplayName: Знамя цветущей гончей
 	Tooltip: ""
 }
 
@@ -1210,7 +1210,7 @@ BoulderBehemothBanner: {
 }
 
 BriarthornSlimeBanner: {
-	DisplayName: Briarthorn Slime Banner
+	DisplayName: Знамя тернового слизня
 	Tooltip: ""
 }
 
@@ -1515,7 +1515,7 @@ OrbititeBanner: {
 }
 
 PhantomBanner: {
-	DisplayName: Phantom Banner
+	DisplayName: Знамя фантома
 	Tooltip: ""
 }
 
@@ -1545,7 +1545,7 @@ PutromaBanner: {
 }
 
 ReachmanBanner: {
-	DisplayName: Feral Shambler Banner
+	DisplayName: Знамя одичавшего шатуна
 	Tooltip: ""
 }
 
@@ -1585,12 +1585,12 @@ SpiritFloaterBanner: {
 }
 
 SpiritGhoulBanner: {
-	DisplayName: Shadow Ghoul Banner
+	DisplayName: Знамя теневого упыря
 	Tooltip: ""
 }
 
 SpiritMummyBanner: {
-	DisplayName: Dusk Mummy Banner
+	DisplayName: Знамя сумрачной мумии
 	Tooltip: ""
 }
 
@@ -1635,22 +1635,22 @@ ValkyrieBanner: {
 }
 
 WanderingSoulBanner: {
-	DisplayName: Wandering Soul Banner
+	DisplayName: Знамя блуждающей души
 	Tooltip: ""
 }
 
 WheezerBanner: {
-	DisplayName: Wheezer Banner
+	DisplayName: Знамя пыхтельника
 	Tooltip: ""
 }
 
 WildwoodWatcherBanner: {
-	DisplayName: Wildwood Watcher Banner
+	DisplayName: Знамя дозорного чащи
 	Tooltip: ""
 }
 
 WinterbornBanner: {
-	DisplayName: Winterborn Banner
+	DisplayName: Знамя зиморождённого
 	Tooltip: ""
 }
 
@@ -1740,9 +1740,9 @@ Book_ArmorGuide: {
 		[c/80deed:Справочник по доспехам для чайников]
 		Итак, представим, что вы только-только ступили за порог своего дома, и пришёл ваш черёд дать миру о себе знать каким-нибудь славным подвигом. Но что же вам надеть на этот подвиг? Броню, разумеется, броня — самое важное, что есть в арсенале любого приключенца. К счастью для вас, я знаю толк в броне, которую сможет сделать любой новичок и которая ещё не раз спасёт его шкуру.
 		-
-		[i:SpiritMod/DaybloomHead] [i:SpiritMod/DaybloomBody] [i:SpiritMod/DaybloomLegs][c/80deed: Броня из подсолнуха:] Быть может, вы начинающий маг? Что ж, я не из таких — во мне нет той магической искры, понимаете? Но вот этот тонкий и удобный костюмчик из  [c/72a4c2:подсолнухов ] и [c/72a4c2:упавших звёзд] непременно поможет вам раскрыть свой магический талант.
+		[i:SpiritMod/DaybloomHead] [i:SpiritMod/DaybloomBody][i:SpiritMod/DaybloomLegs][c/80deed: Броня из подсолнуха:] Быть может, вы начинающий маг? Что ж, я не из таких — во мне нет той магической искры, понимаете? Но вот этот тонкий и удобный костюмчик из  [c/72a4c2:подсолнухов ] и [c/72a4c2:упавших звёзд] непременно поможет вам раскрыть свой магический талант.
 		-
-		[i:SpiritMod/LeatherHood] [i:SpiritMod/LeatherPlate] [i:SpiritMod/LeatherLegs][c/80deed: Броня застрельщика:] Если осмелитесь однажды выйти в ночь и пострелять по зомби, насобирайте с них немного [c/72a4c2:старой кожи], пускай она и сомнительно пахнет, а заодно поупражняйтесь в стрельбе из лука. Эта лёгкая броня не будет сковывать ваши движения и позволит лучше сосредоточиться на вашей стрельбе.
+		[i:SpiritMod/LeatherHood] [i:SpiritMod/LeatherPlate][i:SpiritMod/LeatherLegs][c/80deed: Броня застрельщика:] Если осмелитесь однажды выйти в ночь и пострелять по зомби, насобирайте с них немного [c/72a4c2:старой кожи], пускай она и сомнительно пахнет, а заодно поупражняйтесь в стрельбе из лука. Эта лёгкая броня не будет сковывать ваши движения и позволит лучше сосредоточиться на вашей стрельбе.
 		-
 		Вот два крайне полезных комплекта брони, которые сможет позволить себе любой из вас. С ними вы сможете продержаться в бою гораздо дольше. Удачи вам, юные приключенцы!
 		-----
@@ -1774,14 +1774,17 @@ Book_Briar: {
 }
 
 Book_FoodGuide: {
-	DisplayName: Meals On Wheels
-	Tooltip: by Explorer Trev Irwin
+	DisplayName: Чем заморить червячка
+	Tooltip: от путешественника Ирвина Трэва
 	Content:
 		'''
-		Despite the lack of cravings in this place, that won't stop us gettin' absolutely chockers, ey? Oddly enough, full course meals are a regular thing to find in most dead buggers, fresh and hot too - tell that to ya closest mate and they'll think you're off ya chops! Sane or not, I've noted down some sources for ya, so get ya runners on and your magical sword of death and destruction in your favorite hand, ready for a good hunt.
-		"[i:SpiritMod/Hummus][c/80deed: Hummus:] Travelling the desert unprepared could lead some shifty bandits to jump ya! Fortunately, it wasn't me. Unfortunately, it was some other wandering bloke. Dealin' with them proper rewarded me with a bowl of 'hummus' from their wrappings remains - that's what the turban bloke calls it, anyway. Think he sells dye or sum'n. Goes well on any sanger!
-		"[i:SpiritMod/Meatballs][c/80deed: Meatballs:] This place is rather cute compared to my home, smell included. Although, can't say I expected an angry rotting meatball to gun me down. After kindly telling it to rack off with my knife, its interiors revealed a fresh plate of meatballs. The irony couldn't be higher. After debating it, I gave it a chomp and it seemed solid enough, so you don't have to worry about spending your day on the dunny after having some.
-		"[i:SpiritMod/Popsicle][c/80deed: Popsicle:] Going to the tundra during a storm is not a great vacation plan, especially when the locals are dissocial and probably want you dead. One entered the cave I snuggled in, and frankly never left. Bored, an idea popped into my head and a skinner in my hand. I gave one of its toothpicks some good whacks and it magically turned into a popsicle after hitting the floor with a poof, stick and all! Sadly it melted quick near my campfire, along with the buggers' remains and my mood.
+		В глухомани этой не найдёшь ни ресторанов, ни забегаловок, но мы-то с вами знаем, что набить себе пузо можно и без них, не так ли? Чёрт знает как, но в брюхе каждой местной тварины то и дело находишь готовые, свежие и разогретые блюда. Расскажи я об этом своим городским друзьям — сказали бы, что с дуба рухнул. Ну, может быть, и рухнул, но рано или поздно есть захочется каждому, а я буду тут как тут со своим списочком того, чем можно в местных краях подкрепиться. Одевайтесь, обувайтесь, берите в руки свой верный магический меч смерти и разрушений (или что у вас там), и по коням — еду ещё нужно будет добыть.
+		-
+		[i:SpiritMod/Hummus][c/80deed: Хумус:] Бродя по пустыне, одним глазом всегда поглядывайте по сторонам, а не то застанут вас врасплох бандиты подлые, и вам крышка! Как-то раз со мной такое уже было. К несчастью для бандитов, крышка была именно им. Расправившись с ними в два счёта, я нашёл в их обмотках тарелочку «хумуса», как его назвал странный тип с повязкой на голове. Ну тот, что ещё красителями торгует, или чем-то таким. Бутерброды с этим его «хумусом» получаются просто отпадные!
+		-
+		[i:SpiritMod/Meatballs][c/80deed: Фрикадельки:] По сравнению с моим родным краем, то место — ещё цветочки, и я в том числе говорю про запах. Но признаюсь, не ожидал, что в меня там будет шмалять какая-то разозлённая гнилая тефтелина, вот уж правда. Быстренько выпустив ей потроха своим ножичком, я нашёл в её теле тарелочку со свежими тефтелями. Думал, такое только в анекдотах бывает. После недолгих раздумий я слопал всю тарелку, и со мной вроде бы ничего не стряслось. Так что если и вы найдёте эти тефтели, то не бойтесь: на толчке день провести вам не придётся.
+		-
+		[i:SpiritMod/Popsicle][c/80deed: Фруктовый лёд:] Гулять по холодной тундре в ужасный буран — не то, как я хотел провести свой отпуск на природе, особенно когда местные жители при каждом удобном случае не поговорить со мной пытаются, а прикончить меня. Вот один из таких дикарей как-то пробрался в пещеру, в которой я уже обосновался. От скуки я схватил в руки топор и как давай срубать кристаллы льда с него. Один из таких, со звоном отскочив от земли, превратился в фруктовый лёд на палочке, я глазам своим не поверил! Увы, мороженное тут же растаяло рядом с моим костром, вместе с ним растаяло и моё настроение, и останки того урода.
 		'''
 }
 
@@ -1813,9 +1816,14 @@ Book_Lava: {
 }
 
 Book_MJW: {
-	DisplayName: Dag Dinger
-	Tooltip: by Explorer Trev Irwin
-	Content: Either those boomer shroomies I had for brekky hit too hard or I'm way too buggered, but [c/72a4c2:some jellyfish with a hat and robe] is flying around tossin' wildlife in a bubble while havin' a giggle. To think the stingers in the bloody water ain't enough, this one's got the hand of a wizard and the heart of a dolphin. Stirrer's been causin' all sorts of trouble overnight, and I ain't got the tools to deal with 'em yet. Wonder how space stingers taste over a barby.
+	DisplayName: Чудик
+	Tooltip: от путешественника Ирвина Трэва
+	Content:
+		'''
+		То ли я притомился так, что мне мерещится всякое, то ли грибочки не те на завтрак заточил, но сегодня я увидел очень интересную картину: огромная медуза в шляпе и плаще поймала какого-то зверька, посадила его в большой пузырь и давай играться им как мячиком и хихикать. Ей будто одних щупалец было мало, вот она и отрастила себе руку, как у волшебника, и сердце, как у дельфина. Этот чудик медузный столько проблем уже успел доставить за ночь, а расправиться с ним у меня ни сил, ни снаряжения нет...
+		-
+		М-м-м, а если те щупальца на мангале пожарить, они вкусные будут?
+		'''
 }
 
 Book_Mushroom: {
@@ -1853,17 +1861,17 @@ Book_WeaponGuide: {
 		[c/80deed:Справочник по вооружению для чайников]
 		Настоящему приключенцу нужен не только надёжный комплект доспехов, но и не менее надёжное вооружение. Чего тут скрывать, не каждый из вас сможет позволить себе что-то такое же изящное, как мой верный огнеклинок. Некоторые из вас вообще и мечтать о таком не должны! Но ничего страшного, все мы с чего-то начинали, так что давайте и сейчас начнём с простого и надёжного оружия, которое будет легко создать и не жалко потерять.
 		-
-		[i:SpiritMod/IcySpear] [i:SpiritMod/FrigidFragment] [c/80deed: Леденящее метательное копьё:] Живёте неподалёку от заснеженной тундры или чего-то ещё холоднее? Тогда это оружие идеально вам подойдёт! Стоит всего лишь набрать парочку [c/72a4c2:леденящих фрагментов] и придать им нужную форму на наковальне, как у вас получится острое копьё, от которого кровь в жилах стынет. В отличие от всего остального кривого метательного оружия (да кто им пользуется вообще?), этим копьём вы действительно сможете попадать ровно туда, куда целитесь!
+		[i:SpiritMod/IcySpear] [i:SpiritMod/FrigidFragment][c/80deed: Леденящее метательное копьё:] Живёте неподалёку от заснеженной тундры или чего-то ещё холоднее? Тогда это оружие идеально вам подойдёт! Стоит всего лишь набрать парочку [c/72a4c2:леденящих фрагментов] и придать им нужную форму на наковальне, как у вас получится острое копьё, от которого кровь в жилах стынет. В отличие от всего остального кривого метательного оружия (да кто им пользуется вообще?), этим копьём вы действительно сможете попадать ровно туда, куда целитесь!
 		-
-		[i:SpiritMod/BismiteSummonStaff] [i:SpiritMod/BismiteCrystal] [c/80deed: Посох бисмитового кристалла:] По правде говоря, я не переношу призывных существ: вечно они то за ногу меня укусят, то одежду мою порвут. Однако этот наполовину разумный ядовитый камешек совсем не из таких, вот уж точно! Этот кристаллик из [c/72a4c2:бисмитовых кристаллов] поможет вам справиться с любой ордой монстров.
+		[i:SpiritMod/BismiteSummonStaff] [i:SpiritMod/BismiteCrystal][c/80deed: Посох бисмитового кристалла:] По правде говоря, я не переношу призывных существ: вечно они то за ногу меня укусят, то одежду мою порвут. Однако этот наполовину разумный ядовитый камешек совсем не из таких, вот уж точно! Этот кристаллик из [c/72a4c2:бисмитовых кристаллов] поможет вам справиться с любой ордой монстров.
 		-
-		[i:SpiritMod/ButterflyStaff] [i:1994] [c/80deed: Посох эфирной бабочки:] Опять-таки, мы с призывными существами совсем не в ладах, но конкретно у этого хотя бы нет ни зубов, ни когтей! Все что вам нужно — одна [c/72a4c2:бабочка], немного [c/72a4c2:древесины] и парочка [c/72a4c2:упавших звёзд], и у вас появится новый подвижный друг, который верно будет вам служить. В следующий раз, когда повстречаете [c/72a4c2:бабочку] — хватайте сачок!
+		[i:SpiritMod/ButterflyStaff] [i:1994][c/80deed: Посох эфирной бабочки:] Опять-таки, мы с призывными существами совсем не в ладах, но конкретно у этого хотя бы нет ни зубов, ни когтей! Все что вам нужно — одна [c/72a4c2:бабочка], немного [c/72a4c2:древесины] и парочка [c/72a4c2:упавших звёзд], и у вас появится новый подвижный друг, который верно будет вам служить. В следующий раз, когда повстречаете [c/72a4c2:бабочку] — хватайте сачок!
 		-
-		[i:SpiritMod/ClawCannon] [i:SpiritMod/IridescentScale] [c/80deed: Клешнёвая пушка:] Порой морские твари пугают, но, как вы знаете, лучший способ перестать их бояться — поймать их и использовать себе во благо. Совмещаете [c/72a4c2:переливающуюся чешую] глубоководных чудовищ с [c/72a4c2:отложениями серы], и у вас получится мощнейший пускатель мыльных пузырей в мире. Наверное. А хотя, быть может, какая-нибудь пузырьковая пушка всё же будет мощнее.
+		[i:SpiritMod/ClawCannon] [i:SpiritMod/IridescentScale][c/80deed: Клешнёвая пушка:] Порой морские твари пугают, но, как вы знаете, лучший способ перестать их бояться — поймать их и использовать себе во благо. Совмещаете [c/72a4c2:переливающуюся чешую] глубоководных чудовищ с [c/72a4c2:отложениями серы], и у вас получится мощнейший пускатель мыльных пузырей в мире. Наверное. А хотя, быть может, какая-нибудь пузырьковая пушка всё же будет мощнее.
 		-
-		[i:SpiritMod/Florang] [i:SpiritMod/FloranBar] [c/80deed: Флоранский резак:] Хотите себе изящное, крутое и эффективное оружие? Я знаю, что хотите! Но есть подвох: надо будет спуститься в тёмные глубины терновника и накопать [c/72a4c2:флоранской руды]. Вы способны на такое? Конечно же нет, кого я спрашиваю! Однако если вам каким-то чудом это удастся, и резак вы всё же сделаете, то вам останется лишь бросать пару таких острых дисков и наблюдать, как они рвут ваших врагов на куски.
+		[i:SpiritMod/Florang] [i:SpiritMod/FloranBar][c/80deed: Флоранский резак:] Хотите себе изящное, крутое и эффективное оружие? Я знаю, что хотите! Но есть подвох: надо будет спуститься в тёмные глубины терновника и накопать [c/72a4c2:флоранской руды]. Вы способны на такое? Конечно же нет, кого я спрашиваю! Однако если вам каким-то чудом это удастся, и резак вы всё же сделаете, то вам останется лишь бросать пару таких острых дисков и наблюдать, как они рвут ваших врагов на куски.
 		-
-		[i:SpiritMod/CactusStaff] [i:276] [c/80deed: Кактусовый посох:] Вы бы поверили мне, если бы я сказал, что у обыкновенных [c/72a4c2:кактусов] есть особые магические свойства? Да я бы сам себе не поверил! Единственное их свойство, которое я знаю — они очень больно колются. Это я прекрасно прочувствовал на себе, когда был совсем новичком, прямо как вы, и упал в яму с кактусовыми колючками. Тем не менее, как мне сказали, магические кактусовые посохи — вещь очень сильная.
+		[i:SpiritMod/CactusStaff] [i:276][c/80deed: Кактусовый посох:] Вы бы поверили мне, если бы я сказал, что у обыкновенных [c/72a4c2:кактусов] есть особые магические свойства? Да я бы сам себе не поверил! Единственное их свойство, которое я знаю — они очень больно колются. Это я прекрасно прочувствовал на себе, когда был совсем новичком, прямо как вы, и упал в яму с кактусовыми колючками. Тем не менее, как мне сказали, магические кактусовые посохи — вещь очень сильная.
 		-----
 		Ух, я еле концы с концами уже свожу, пусть эти сволочи только попробуют не раскупить весь тираж. Иначе мне ведь не хватит на свою статую из чистого золота, что я заказал! И всё таки любят ещё меня люди, уверен, эта книга точно хорошо продастся... Эй, какого чёрта ты всё ещё здесь? Я давно закончил! Кыш отсюда!
 		'''
@@ -2576,7 +2584,7 @@ AstralLens: {
 }
 
 CosmiliteShard: {
-	DisplayName: Осколок астролита
+	DisplayName: Осколок астралита
 	Tooltip: «Похоже, именно это звездопанцирники ищут по всему космосу»
 }
 
@@ -2596,7 +2604,7 @@ OrionPistol: {
 }
 
 StarLegs: {
-	DisplayName: Астролитовые поножи
+	DisplayName: Астралитовые поножи
 	Tooltip:
 		'''
 		Увеличивает стрелковый урон на 5%
@@ -2605,12 +2613,12 @@ StarLegs: {
 }
 
 StarMask: {
-	DisplayName: Астролитовый визор
+	DisplayName: Астралитовый визор
 	Tooltip: Увеличивает шанс стрелкового критического удара на 6%
 }
 
 StarPlate: {
-	DisplayName: Астролитовый доспех
+	DisplayName: Астралитовый доспех
 	Tooltip:
 		'''
 		Даёт 20% шанс не потратить боеприпасы
@@ -3060,11 +3068,11 @@ GoldenCaviar: {
 }
 
 Hummus: {
-	DisplayName: Hummus
+	DisplayName: Хумус
 	Tooltip:
 		'''
 		{$BuffDescription.WellFed}
-		'Warm and tasty!'
+		«Тёплый и вкусный!»
 		'''
 }
 
@@ -3078,11 +3086,11 @@ IceBerries: {
 }
 
 Meatballs: {
-	DisplayName: Meatballs
+	DisplayName: Фрикадельки
 	Tooltip:
 		'''
-		Medium improvements to all stats
-		'Can't go wrong with the classics!'
+		{$BuffDescription.WellFed2}
+		«С классикой не промахнёшься!»
 		'''
 }
 
@@ -3126,8 +3134,12 @@ Ramen: {
 }
 
 RockCandy: {
-	DisplayName: Rock Candy
-	Tooltip: "'Sweet and incredibly tough!'"
+	DisplayName: Кристальная карамель
+	Tooltip:
+		'''
+		{$BuffDescription.WellFed}
+		«Сладкая и очень твёрдая!»
+		'''
 }
 
 Sushi: {
@@ -3238,11 +3250,11 @@ PirateCrate: {
 }
 
 BismitePotion: {
-	DisplayName: Toxin Potion
+	DisplayName: Зелье токсина
 	Tooltip:
 		'''
-		Critical strikes inflict Festering Wounds
-		Increases critical strike chance by 4%
+		Критические удары будут накладывать на врагов дебафф «{$Buffs.FesteringWounds.DisplayName}»
+		Увеличивает шанс критического удара на 4%
 		'''
 }
 
@@ -3267,8 +3279,8 @@ BottomlessHealingPotion: {
 }
 
 DoubleJumpPotion: {
-	DisplayName: Zephyr Potion
-	Tooltip: Temporarily grants a double jump
+	DisplayName: Зелье бриза
+	Tooltip: Позволяет совершать дополнительный прыжок
 }
 
 FlightPotion: {
@@ -3298,8 +3310,8 @@ MoonJellyDonut: {
 }
 
 MushroomPotion: {
-	DisplayName: Sporecoid Potion
-	Tooltip: Causes the player to leave behind a damaging trail of mushrooms
+	DisplayName: Зелье спороидов
+	Tooltip: Вы будите оставлять за собой след из грибов, наносящих урон
 }
 
 PinkPotion: {
@@ -3499,7 +3511,7 @@ StarWormSummon: {
 	Tooltip:
 		'''
 		Не расходуется
-		Призывает Звездопанцирного странника при использовании на астролитовом маяке
+		Призывает Звездопанцирного странника при использовании на астралитовом маяке
 		'''
 }
 
@@ -4093,8 +4105,8 @@ Canvas: {
 }
 
 GlowRoot: {
-	DisplayName: Glowroot
-	Tooltip: "'Pulses in and out slightly'"
+	DisplayName: Светокорень
+	Tooltip: «Слабо пульсирует светом»
 }
 
 HeartScale: {
@@ -4168,8 +4180,8 @@ ShadowCollar: {
 }
 
 SuspiciousLookingMeatballs: {
-	DisplayName: Suspicious Looking Meatballs
-	Tooltip: Summons the Overseer
+	DisplayName: Подозрительно выглядящие фрикадельки
+	Tooltip: Призывает Оверсиера
 }
 
 TatteredScript: {
@@ -5226,32 +5238,32 @@ HerosMemorialStatue: {
 }
 
 IceBatSculpture: {
-	DisplayName: Ice Bat Sculpture
+	DisplayName: Замороженная скульптура ледяной летучей мыши
 	Tooltip: ""
 }
 
 IceDeitySculpture: {
-	DisplayName: Ice Deity Sculpture
+	DisplayName: Скульптура ледяного божества
 	Tooltip: ""
 }
 
 IceFlinxSculpture: {
-	DisplayName: Frozen Flinx Sculpture
+	DisplayName: Замороженная скульптура снежного флинкса
 	Tooltip: ""
 }
 
 IceVikingSculpture: {
-	DisplayName: Undead Viking Sculpture
+	DisplayName: Замороженная скульптура нежити-викинга
 	Tooltip: ""
 }
 
 IceWheezerSculpture: {
-	DisplayName: Frozen Wheezer Sculpture
+	DisplayName: Замороженная скульптура пыхтельника
 	Tooltip: ""
 }
 
 WinterbornSculpture: {
-	DisplayName: Winterborn Sculpture
+	DisplayName: Замороженная скульптура зиморождённого
 	Tooltip: ""
 }
 
@@ -5521,7 +5533,7 @@ SoulSeeds: {
 }
 
 StarBeaconItem: {
-	DisplayName: Астролитовый маяк
+	DisplayName: Астралитовый маяк
 	Tooltip: «Питается от галактической энергии»
 }
 
@@ -5541,11 +5553,11 @@ AcidBrick: {
 
 AsteroidBlock: {
 	DisplayName: Астероид
-	Tooltip: «Космический мусор, богатый минералами»
+	Tooltip: «Космические обломки, богатые минералами»
 }
 
 BlastStoneItem: {
-	DisplayName: Blast Stone
+	DisplayName: Вулканический камень
 	Tooltip: ""
 }
 
@@ -5595,7 +5607,7 @@ ReachGrass: {
 }
 
 ScrapItem: {
-	DisplayName: Salvaged Scrap Block
+	DisplayName: Блок космического металлолома
 	Tooltip: ""
 }
 
@@ -5610,7 +5622,7 @@ SepulchreBrickTwoItem: {
 }
 
 SpaceJunkItem: {
-	DisplayName: Космический мусор
+	DisplayName: Космический шлак
 	Tooltip:
 		'''
 		Можно обработать в промывателе
@@ -5674,7 +5686,7 @@ GlowplateWallItem: {
 }
 
 ScrapWallItem: {
-	DisplayName: Salvaged Scrap Wall
+	DisplayName: Стена из космического металлолома
 	Tooltip: ""
 }
 
@@ -5868,12 +5880,12 @@ HealingCodex: {
 }
 
 LowGravCodex: {
-	DisplayName: Arcane Codex: Low Gravity Zone
+	DisplayName: Магический гримуар: Зона низкой гравитации
 	Tooltip:
 		'''
-		Summons a low gravity zone at the cursor position
-		Low gravity zones decrease player gravity and increase aerial acceleration
-		Zones count as sentries
+		Создаёт зону низкой гравитации в точке курсора
+		Зоны низкой гравитации снижают воздействие гравитации на игрока и увеличивают ускорение в воздухе
+		Зоны считаются за стражей
 		'''
 }
 
@@ -6143,7 +6155,7 @@ EnchantedLeaf: {
 }
 
 ReachFishingCatch: {
-	DisplayName: Noxophyll
+	DisplayName: Ядолистник
 	Tooltip: "'It reeks of poison'"
 }
 
@@ -6343,41 +6355,41 @@ CryoGun: {
 }
 
 CryoHamaxe: {
-	DisplayName: Cryolite Hamaxe
+	DisplayName: Криолитовый молотопо
 	Tooltip: ""
 }
 
 CryoliteBody: {
-	DisplayName: Cryolite Chestplate
+	DisplayName: Криолитовый нагрудник
 	Tooltip:
 		'''
-		10% increased melee speed
-		Grants immunity to knockback
+		Увеличивает скорость атаки ближнего боя на 10%
+		Даёт невосприимчивость к отбрасыванию
 		'''
 }
 
 CryoliteHead: {
-	DisplayName: Cryolite Helmet
-	Tooltip: 8% increased melee speed
+	DisplayName: Криолитовый шлем
+	Tooltip: Увеличивает скорость атаки ближнего боя на 8%
 }
 
 CryoliteLegs: {
-	DisplayName: Cryolite Greaves
-	Tooltip: 8% increased melee speed
+	DisplayName: Криолитовые поножи
+	Tooltip: Увеличивает скорость атаки ближнего боя на 8%
 }
 
 CryoliteBar: {
-	DisplayName: Cryolite Bar
+	DisplayName: Криолитовый слиток
 	Tooltip: ""
 }
 
 CryoliteOre: {
-	DisplayName: Cryolite Ore
-	Tooltip: "'Veins of metal intertwined with ice'"
+	DisplayName: Криолитовая руда
+	Tooltip: «Жилы металла, переплетённые со льдом»
 }
 
 CryoPick: {
-	DisplayName: Cryolite Pickaxe
+	DisplayName: Криолитовая кирка
 	Tooltip: ""
 }
 
@@ -6701,7 +6713,7 @@ IcySpear: {
 	DisplayName: Леденящее метательное копьё
 	Tooltip:
 		'''
-		Удерживайте ЛКМ, чтобы зарядить копьё, и отпустите, чтобы его метнуть
+		Удерживайте, чтобы зарядить копьё, и отпустите, чтобы его метнуть
 		Чем дольше копьё заряжается, тем быстрее оно полетит и больше урона нанесёт
 		Накладывает на врагов дебафф «{$BuffName.Frostburn}»
 		'''
@@ -6889,27 +6901,27 @@ BottomFeederGun: {
 }
 
 Blaster: {
-	DisplayName: Blaster
+	DisplayName: бластер
 	Tooltip: ""
-	Name0: Flaming
-	Name1: Luminous
-	Name2: Ecliptic
-	Name3: Aphelaic
-	Name4: Cosmic
-	Name5: Perihelaic
-	Name6: Ionized
-	Name7: Axial
+	Name0: Пылкий
+	Name1: Сияющий
+	Name2: Эклиптический
+	Name3: Афелийный
+	Name4: Космический
+	Name5: Перигелийный
+	Name6: Ионизированный
+	Name7: Осевой
 
 	Tips: {
-		Auxillary1: Right click to fire an empowered shot
-		Auxillary2: Right click to throw the gun out like a boomerang
-		Auxillary3: Fires in bursts
-		Auxillary4: Shots bounce off surfaces
-		Auxillary5: Fires quickly at the cost of accuracy
-		Element1: Inflicts fire damage
-		Element2: Inflicts poison damage
-		Element3: Attacks inflict Frostburn
-		Element4: Attacks shock enemies
+		Auxillary1: Нажмите ПКМ, чтобы сделать усиленный выстрел
+		Auxillary2: Нажмите ПКМ, чтобы метнуть бластер как бумеранг
+		Auxillary3: Делает несколько быстрых выстрелов подряд
+		Auxillary4: Выстрелы отскакивают от блоков
+		Auxillary5: Делает быстрые выстрелы с низкой точностью
+		Element1: Накладывает дебафф «{$BuffName.OnFire}»
+		Element2: Накладывает дебафф «{$BuffName.Poisoned}»
+		Element3: Накладывает дебафф «{$BuffName.Frostburn}»
+		Element4: Накладывает дебафф «{$Buffs.Shocked.DisplayName}»
 	}
 }
 
@@ -6937,11 +6949,11 @@ CaptainsRegards: {
 }
 
 HeavenFleet: {
-	DisplayName: Starfleet
+	DisplayName: Звёздный флот
 	Tooltip:
 		'''
-		Uses stars for ammo
-		Hold down for a bigger blast
+		Использует звёзды в качестве боеприпасов
+		Удерживайте, чтобы совершить более сильный выстрел
 		'''
 }
 
@@ -7619,7 +7631,7 @@ ObsidiusGreaves: {
 	Tooltip:
 		'''
 		Увеличивает урон призывателя на 5%
-	Увеличивает максимальное количество миньонов
+		Увеличивает максимальное количество миньонов
 		'''
 }
 
@@ -7628,7 +7640,7 @@ ObsidiusHelm: {
 	Tooltip:
 		'''
 		Увеличивает урон призывателя на 5%
-	Увеличивает максимальное количество стражей
+		Увеличивает максимальное количество стражей
 		'''
 }
 
@@ -7946,7 +7958,7 @@ PumpBubbleGun: {
 	Tooltip:
 		'''
 		Использует 20 ед. маны в секунду
-		Удерживайте ЛКМ, чтобы выпустить больше пузырей
+		Удерживайте, чтобы выпустить больше пузырей
 		'''
 }
 
@@ -7980,7 +7992,7 @@ StreamSurferLeggings: {
 
 TikiJavelin: {
 	DisplayName: Копьё тики
-	Tooltip: Удерживайте ЛКМ, чтобы увеличить дальность броска, скорость полёта и урон копья
+	Tooltip: Удерживайте, чтобы увеличить дальность броска, скорость полёта и урон копья
 }
 
 TribalScale: {
@@ -8826,32 +8838,32 @@ SlotMachine: {
 }
 
 ScrapItem1: {
-	DisplayName: Salvaged Scrap
+	DisplayName: Космический металлолом
 	Tooltip: ""
 }
 
 ScrapItem2: {
-	DisplayName: Salvaged Scrap
+	DisplayName: Космический металлолом
 	Tooltip: ""
 }
 
 ScrapItem3: {
-	DisplayName: Salvaged Scrap
+	DisplayName: Космический металлолом
 	Tooltip: ""
 }
 
 ScrapItem4: {
-	DisplayName: Salvaged Scrap
+	DisplayName: Космический металлолом
 	Tooltip: ""
 }
 
 ScrapItem5: {
-	DisplayName: Salvaged Scrap
+	DisplayName: Космический металлолом
 	Tooltip: ""
 }
 
 ScrapItem6: {
-	DisplayName: Salvaged Scrap
+	DisplayName: Космический металлолом
 	Tooltip: ""
 }
 
