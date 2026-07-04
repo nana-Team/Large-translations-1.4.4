@@ -20,7 +20,7 @@ TalkTo: Поговорить: {0}
 # Same as above. Used for "Explore <area>" in-game.
 Explore: "Исследуйте "
 Retrieve: Получить: {1} ({0} шт.)
-Catch: Выловить: {1} ({0} шт.)
+Catch: Поймать: {1} ({0} шт.)
 Kill: Убить: {1} ({0} шт.)
 PluralSuffix: ""
 Comma: ", "

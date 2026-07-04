@@ -1,47 +1,48 @@
 AceOfClubs: {
-	DisplayName: Ace of Clubs
-	Tooltip: Critical hits make enemies drop money
+	DisplayName: Туз треф
+	Tooltip: При нанесении критических ударов из врагов будут выпадать монеты
 }
 
 AceOfDiamonds: {
-	DisplayName: Ace of Diamonds
+	DisplayName: Туз бубен
 	Tooltip:
 		'''
-		Critical hits have a chance to drop Diamond Aces
-		Diamond aces give you 20% increased damage for 5 seconds upon collecting
+		При нанесении критических ударов из врагов могут выпасть бубны
+		Подбор бубен увеличивает урон на 20% на 5 секунд
 		'''
 }
 
 AceOfHearts: {
-	DisplayName: Ace of Hearts
-	Tooltip: Critical hits have a chance to drop hearts
+	DisplayName: Туз червей
+	Tooltip: При нанесении критических ударов из врагов может выпасть сердце
 }
 
 AceOfSpades: {
-	DisplayName: Ace of Spades
-	Tooltip: Critical hits deal extra damage.
+	DisplayName: Туз пик
+	Tooltip: Увеличивает урон критических ударов
 }
 
 DiamondAce: {
-	DisplayName: Diamond Ace
-	Tooltip: You shouldn't see this
+	DisplayName: Бубен
+	Tooltip: Вы не должны были это видеть
 }
 
 FourOfAKind: {
-	DisplayName: Four of a Kind
+	DisplayName: Четвёрка королей
 	Tooltip:
 		'''
-		Critical strikes deal extra damage and drop money
-		Critical strikes have a chance to drop a diamond ace or heart
+		Увеличивает урон критических ударов
+		При нанесении критических ударов из врагов могут выпасть бубны или сердце
+		При нанесении критических ударов из врагов будут выпадать монеты
 		'''
 }
 
 AssassinMagazine: {
-	DisplayName: Assassin's Magazine
+	DisplayName: Обойма наёмника
 	Tooltip:
 		'''
-		Double tap {0} while holding a ranged weapon to swap ammo types
-		Works while in the inventory
+		Дважды нажмите клавишу {0}, держа стрелковое оружие, чтобы сменить используемые боеприпасы
+		Работает даже в инвентаре
 		'''
 }
 
@@ -449,8 +450,8 @@ MimicRepellent: {
 }
 
 Moonlight_Sack: {
-	DisplayName: Moonlight Sack
-	CustomTooltip: Creates a chain of lightning between you and your minions that deal damage
+	DisplayName: Мешочек с луносветом
+	CustomTooltip: Создаёт между вами и вашими миньонами цепь из молнии, наносящую урон врагам
 	Tooltip: ""
 }
 
@@ -1315,7 +1316,7 @@ GhastBanner: {
 }
 
 GiantJellyBanner: {
-	DisplayName: Tethervolt Jelly Banner
+	DisplayName: Знамя разрядной медузы
 	Tooltip: ""
 }
 
@@ -1465,7 +1466,7 @@ MangoWarBanner: {
 }
 
 MangroveDefenderBanner: {
-	DisplayName: Mangrove Defender Banner
+	DisplayName: Знамя защитника леса
 	Tooltip: ""
 }
 
@@ -1485,12 +1486,12 @@ MoltenCoreBanner: {
 }
 
 MoonlightPreserverBanner: {
-	DisplayName: Moonlight Preserver Banner
+	DisplayName: Знамя луносветной носительницы
 	Tooltip: ""
 }
 
 MoonlightRupturerBanner: {
-	DisplayName: Moonlight Rupturer Banner
+	DisplayName: Знамя луносветного разрывателя
 	Tooltip: ""
 }
 
@@ -1689,15 +1690,19 @@ Book_AccessoryGuide: {
 }
 
 Book_Alchemist1: {
-	DisplayName: An Alchemist's Observations
-	Tooltip: by Lena Ashwood, Alchemist
+	DisplayName: Наблюдения алхимика
+	Tooltip: от учёной Лены Эшвуд
 	Content:
 		'''
-		After experimenting with ingredients from all around this world, I've decided to detail some of the more interesting concoctions that I've produced.
-		[i:SpiritMod/BismitePotion] [c/72a4c2:Toxin Potion:] I believe I made this nasty brew from a combination of a poisonous [c/95a3ab:Noxophyll] and some of those strange metallic [c/95a3ab:Bismite Crystals]. The poisons cancelled each other out and I was left with this foul-tasting, but drinkable, substance that proves to be quite potent in battle.
-		[i:SpiritMod/MushroomPotion] [c/72a4c2:Sporecoid Potion:] After obtaining a rare sample of [c/95a3ab:Glowroot] from a band of field researchers, I mixed it in with [c/95a3ab:Glowing Mushrooms] to produce this. The field researchers told me that they were never going back to that 'freaky place', but that I could retrieve more Glowroot by cutting down giant mushroom trees. I must investigate soon.
-		[i:SpiritMod/PinkPotion] [c/72a4c2:Jump Potion:] It was one of those days where I decided to throw stuff in a pot at random to see what would happen. Who would've thought that [c/95a3ab:Pink Gel] and [c/95a3ab:Daybloom] would cause me to feel so giddy! After downing this sweet stuff, I was jumping for joy- and jumping much higher than I normally would, too.
-		[i:SpiritMod/DoubleJumpPotion] [c/72a4c2:Zephyr Potion:] I couldn't help but notice an interesting new herb sprouting up in patches everywhere. I thought there might be some connection to the islands above, so I combined it some [c/95a3ab:Clouds] and [c/95a3ab:Harpy Feathers], and rather recklessly drank the concoction. I felt as light as the air! Perhaps the aerial properties of this stalk are to be studied further...
+		В ходе многочисленных экспериментов с ингредиентами со всех уголков мира порою у меня всё же получались довольно интересные отвары, рецепты которых я выписала тут, чтобы не забыть.
+		-
+		[i:SpiritMod/BismitePotion] [c/72a4c2:Зелье токсина:] Приготовила я это тошнотворное снадобье, если правильно помню, сварив тушку [c/95a3ab:листоядника] с кусочками [c/95a3ab:кристаллов бисмита]. При нагревании их ядовитые вещества нейтрализуют друг друга, а в колбе остаётся мерзкая на вкус жидкая субстанция, свойства которой отлично помогают в бою.
+		-
+		[i:SpiritMod/MushroomPotion] [c/72a4c2:Зелье спороидов:] Получив от группы полевых исследователей образец [c/95a3ab:светокорня], я тут же смешала его со [c/95a3ab:светящимися грибами] и получила данную микстуру. Исследователи сказали мне, что в то «чудаковатое место» возвращаться больше не собираются, а значит, я могу наведаться туда сама и нарвать ещё больше корешков. В ближайшее время постараюсь туда отправиться.
+		-
+		[i:SpiritMod/PinkPotion] [c/72a4c2:Зелье прыгучести:] Порой на работе бывают такие дни, когда хочется просто бросать в котёл случайные штуковины и смотреть, что из них получится. Однажды я смешала [c/95a3ab:розовый гель] и пучок [c/95a3ab:дневоцветов]  и получила такой приятный сладкий отвар, что, выпив всю банку до дна, я начала прыгать от удовольствия, да к тому же прыгать в разы выше, чем обычно.
+		-
+		[i:SpiritMod/DoubleJumpPotion] [c/72a4c2:Зелье бриза:] Я не раз замечала, как повсюду начинала распускаться какая-то новая трава. Её необычный внешний вид подтолкнул меня на мысль, что она может быть как-то связана с парящими высоко над землёй островами, поэтому я смешала несколько стебельков с [c/95a3ab:облаками] и [c/95a3ab:перьями гарпий] и без раздумий выпила эту смесь. Я тут же почувствовала такое облегчение, казалось, что ещё немного, и полечу по ветру! Воздушные свойства этой травы требуют более подробного изучения в лабораторных условиях... 
 		'''
 }
 
@@ -1778,11 +1783,11 @@ Book_FoodGuide: {
 	Tooltip: от путешественника Ирвина Трэва
 	Content:
 		'''
-		В глухомани этой не найдёшь ни ресторанов, ни забегаловок, но мы-то с вами знаем, что набить себе пузо можно и без них, не так ли? Чёрт знает как, но в брюхе каждой местной тварины то и дело находишь готовые, свежие и разогретые блюда. Расскажи я об этом своим городским друзьям — сказали бы, что с дуба рухнул. Ну, может быть, и рухнул, но рано или поздно есть захочется каждому, а я буду тут как тут со своим списочком того, чем можно в местных краях подкрепиться. Одевайтесь, обувайтесь, берите в руки свой верный магический меч смерти и разрушений (или что у вас там), и по коням — еду ещё нужно будет добыть.
+		В глухомани этой не найдёшь ни ресторанов, ни забегаловок, но мы-то с вами знаем, что набить себе пузо можно и без них, да? Чёрт знает как, но в брюхе каждой местной тварины то и дело находишь готовые, свежие и разогретые блюда. Расскажи я об этом своим городским друзьям — сказали бы, что с дуба рухнул. Ну, может быть, и рухнул, но рано или поздно есть захочется каждому, а я буду тут как тут со своим списочком того, чем можно в местных краях подкрепиться. Одевайтесь, обувайтесь, берите в руки свой верный магический меч смерти и разрушений (или что у вас там), и по коням — еду ещё нужно будет добыть.
 		-
 		[i:SpiritMod/Hummus][c/80deed: Хумус:] Бродя по пустыне, одним глазом всегда поглядывайте по сторонам, а не то застанут вас врасплох бандиты подлые, и вам крышка! Как-то раз со мной такое уже было. К несчастью для бандитов, крышка была именно им. Расправившись с ними в два счёта, я нашёл в их обмотках тарелочку «хумуса», как его назвал странный тип с повязкой на голове. Ну тот, что ещё красителями торгует, или чем-то таким. Бутерброды с этим его «хумусом» получаются просто отпадные!
 		-
-		[i:SpiritMod/Meatballs][c/80deed: Фрикадельки:] По сравнению с моим родным краем, то место — ещё цветочки, и я в том числе говорю про запах. Но признаюсь, не ожидал, что в меня там будет шмалять какая-то разозлённая гнилая тефтелина, вот уж правда. Быстренько выпустив ей потроха своим ножичком, я нашёл в её теле тарелочку со свежими тефтелями. Думал, такое только в анекдотах бывает. После недолгих раздумий я слопал всю тарелку, и со мной вроде бы ничего не стряслось. Так что если и вы найдёте эти тефтели, то не бойтесь: на толчке день провести вам не придётся.
+		[i:SpiritMod/Meatballs][c/80deed: Фрикадельки:] По сравнению с моим родным краем, то место — ещё цветочки, и я в том числе говорю про запах. Но признаюсь, не ожидал, что в меня там будет шмалять какая-то разозлённая гнилая фрикаделина, вот уж правда. Быстренько выпустив ей потроха своим ножичком, я нашёл в её теле тарелочку со свежими фрикадельками. Думал, такое только в анекдотах бывает. После недолгих раздумий я слопал всю тарелку, и со мной вроде бы ничего не стряслось. Так что если и вы найдёте эти фрикадельки, то не бойтесь: на толчке день провести вам не придётся.
 		-
 		[i:SpiritMod/Popsicle][c/80deed: Фруктовый лёд:] Гулять по холодной тундре в ужасный буран — не то, как я хотел провести свой отпуск на природе, особенно когда местные жители при каждом удобном случае не поговорить со мной пытаются, а прикончить меня. Вот один из таких дикарей как-то пробрался в пещеру, в которой я уже обосновался. От скуки я схватил в руки топор и как давай срубать кристаллы льда с него. Один из таких, со звоном отскочив от земли, превратился в фруктовый лёд на палочке, я глазам своим не поверил! Увы, мороженное тут же растаяло рядом с моим костром, вместе с ним растаяло и моё настроение, и останки того урода.
 		'''
@@ -1863,11 +1868,11 @@ Book_WeaponGuide: {
 		-
 		[i:SpiritMod/IcySpear] [i:SpiritMod/FrigidFragment][c/80deed: Леденящее метательное копьё:] Живёте неподалёку от заснеженной тундры или чего-то ещё холоднее? Тогда это оружие идеально вам подойдёт! Стоит всего лишь набрать парочку [c/72a4c2:леденящих фрагментов] и придать им нужную форму на наковальне, как у вас получится острое копьё, от которого кровь в жилах стынет. В отличие от всего остального кривого метательного оружия (да кто им пользуется вообще?), этим копьём вы действительно сможете попадать ровно туда, куда целитесь!
 		-
-		[i:SpiritMod/BismiteSummonStaff] [i:SpiritMod/BismiteCrystal][c/80deed: Посох бисмитового кристалла:] По правде говоря, я не переношу призывных существ: вечно они то за ногу меня укусят, то одежду мою порвут. Однако этот наполовину разумный ядовитый камешек совсем не из таких, вот уж точно! Этот кристаллик из [c/72a4c2:бисмитовых кристаллов] поможет вам справиться с любой ордой монстров.
+		[i:SpiritMod/BismiteSummonStaff] [i:SpiritMod/BismiteCrystal][c/80deed: Посох кристалла бисмита:] По правде говоря, я не переношу призывных существ: вечно они то за ногу меня укусят, то одежду мою порвут. Однако этот наполовину разумный ядовитый камешек совсем не из таких, вот уж точно! Этот кристаллик из [c/72a4c2:бисмита] поможет вам справиться с любой ордой монстров.
 		-
 		[i:SpiritMod/ButterflyStaff] [i:1994][c/80deed: Посох эфирной бабочки:] Опять-таки, мы с призывными существами совсем не в ладах, но конкретно у этого хотя бы нет ни зубов, ни когтей! Все что вам нужно — одна [c/72a4c2:бабочка], немного [c/72a4c2:древесины] и парочка [c/72a4c2:упавших звёзд], и у вас появится новый подвижный друг, который верно будет вам служить. В следующий раз, когда повстречаете [c/72a4c2:бабочку] — хватайте сачок!
 		-
-		[i:SpiritMod/ClawCannon] [i:SpiritMod/IridescentScale][c/80deed: Клешнёвая пушка:] Порой морские твари пугают, но, как вы знаете, лучший способ перестать их бояться — поймать их и использовать себе во благо. Совмещаете [c/72a4c2:переливающуюся чешую] глубоководных чудовищ с [c/72a4c2:отложениями серы], и у вас получится мощнейший пускатель мыльных пузырей в мире. Наверное. А хотя, быть может, какая-нибудь пузырьковая пушка всё же будет мощнее.
+		[i:SpiritMod/ClawCannon] [i:SpiritMod/IridescentScale][c/80deed: Клешнёвая пушка:] Порой морские твари пугают, но, как вы знаете, лучший способ перестать их боятьсяе поймать их и использовать себе во благо. Совмещаете [c/72a4c2:переливающуюся чешую] глубоководных чудовищ с [c/72a4c2:отложениями серы], и у вас получится мощнейший пускатель мыльных пузырей в мире. Наверное. А хотя, быть может, какая-нибудь пузырьковая пушка всё же будет мощнее.
 		-
 		[i:SpiritMod/Florang] [i:SpiritMod/FloranBar][c/80deed: Флоранский резак:] Хотите себе изящное, крутое и эффективное оружие? Я знаю, что хотите! Но есть подвох: надо будет спуститься в тёмные глубины терновника и накопать [c/72a4c2:флоранской руды]. Вы способны на такое? Конечно же нет, кого я спрашиваю! Однако если вам каким-то чудом это удастся, и резак вы всё же сделаете, то вам останется лишь бросать пару таких острых дисков и наблюдать, как они рвут ваших врагов на куски.
 		-
@@ -2864,7 +2869,7 @@ BlossmoonItem: {
 }
 
 BlubbyItem: {
-	DisplayName: Blubby
+	DisplayName: Пухлинка
 	Tooltip: ""
 }
 
@@ -2874,17 +2879,17 @@ BlueMoonSpawn: {
 }
 
 BriarCrate: {
-	DisplayName: Кольчатый ящик
+	DisplayName: Плющевой ящик
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 BriarInchwormItem: {
-	DisplayName: Briar Inchworm
+	DisplayName: Терновая гусеница
 	Tooltip: ""
 }
 
 BriarmothItem: {
-	DisplayName: Briarmoth
+	DisplayName: Терновочка
 	Tooltip: ""
 }
 
@@ -2923,19 +2928,19 @@ CyberflyPinkItem: {
 }
 
 DistressJellyItem: {
-	DisplayName: Distress Jelly
+	DisplayName: Страдающая медуза
 	Tooltip:
 		'''
-		'It needs help!'
-		Use at nighttime to summon the Jelly Deluge
+		«Ей нужна помощь!»
+		Вызывает Медузное наводнение при использовании ночью
 		'''
 }
 
 DreamlightJellyItem: {
-	DisplayName: Dreamlight Jelly
+	DisplayName: Светогрёзная медуза
 	Tooltip:
 		'''
-		'It exudes arcane energy'
+		«Излучает таинственную энергию»
 		Призывает Лунную медузу-волшебника при использовании ночью
 		Не расходуется
 		'''
@@ -3115,12 +3120,12 @@ PopRocks: {
 }
 
 Popsicle: {
-	DisplayName: Popsicle
+	DisplayName: Фруктовый лёд
 	Tooltip:
 		'''
 		{$BuffDescription.WellFed}
-		Grants immunity to 'On Fire'
-		'Eat it before it melts!'
+		Даёт невосприимчивость к дебаффу «{$BuffName.OnFire}»
+		«Ешь, пока не растаял!»
 		'''
 }
 
@@ -3294,19 +3299,23 @@ MirrorCoat: {
 }
 
 MoonJelly: {
-	DisplayName: Moon Jelly
+	DisplayName: Лунное желе
 	CustomTooltip:
 		'''
-		Restores 150 life over 10 seconds
-		Causes Potion Sickness
+		Восстанавливает 150 ед. здоровья в течении 10 секунд
+		Вызывает послезельевую болезнь
 		'''
-	Tooltip: ""
+	Tooltip: "{$BuffDescription.WellFed}"
 }
 
 MoonJellyDonut: {
-	DisplayName: Moon Jelly Donut
-	CustomTooltip: Restores 225 life over 15 seconds
-	Tooltip: ""
+	DisplayName: Лунноглазированный пончик
+	CustomTooltip:
+		'''
+		Восстанавливает 225 ед. здоровья в течении 15 секунд
+		Вызывает послезельевую болезнь
+		'''
+	Tooltip: "{$BuffDescription.WellFed}"
 }
 
 MushroomPotion: {
@@ -3315,7 +3324,7 @@ MushroomPotion: {
 }
 
 PinkPotion: {
-	DisplayName: Зелье прыжка
+	DisplayName: Зелье прыгучести
 	Tooltip: Значительно увеличивает высоту прыжка
 }
 
@@ -5855,12 +5864,12 @@ WoodRuinPile: {
 }
 
 DefenseCodex: {
-	DisplayName: Arcane Codex: Fortification Zone
+	DisplayName: Магический гримуар: Зона укрепления
 	Tooltip:
 		'''
-		Summons a fortification zone at the cursor position
-		Fortification zones increase player defense and damage resistance while standing inside
-		Zones count as sentries
+		Создаёт зону укрепления в точке курсора
+		Зоны укрепления увеличивают защиту и сопротивление урону игрока внутри
+		Зоны считаются за стражей
 		'''
 }
 
@@ -5870,12 +5879,12 @@ EmptyCodex: {
 }
 
 HealingCodex: {
-	DisplayName: Arcane Codex: Healing Zone
+	DisplayName: Магический гримуар: Зона исцеления
 	Tooltip:
 		'''
-		Summons a healing zone at the cursor position
-		Healing zones increase player life regen while standing inside
-		Zones count as sentries
+		Создаёт зону исцеления в точке курсора
+		Зоны исцеления увеличивают скорость регенерации здоровья игрока внутри
+		Зоны считаются за стражей
 		'''
 }
 
@@ -5884,18 +5893,18 @@ LowGravCodex: {
 	Tooltip:
 		'''
 		Создаёт зону низкой гравитации в точке курсора
-		Зоны низкой гравитации снижают воздействие гравитации на игрока и увеличивают ускорение в воздухе
+		Зоны низкой гравитации снижают воздействие гравитации на игрока внутри и увеличивают ускорение в воздухе
 		Зоны считаются за стражей
 		'''
 }
 
 SlowCodex: {
-	DisplayName: Arcane Codex: Slow Zone
+	DisplayName: Магический гримуар: Зона замедления
 	Tooltip:
 		'''
-		Summons a slow zone at the cursor position
-		Slow zones reduce enemy movement speed
-		Zones count as sentries
+		Создаёт зону замедления в точке курсора
+		Зоны замедления снижают скорость передвижения врагов внутри
+		Зоны считаются за стражей
 		'''
 }
 
@@ -5904,71 +5913,85 @@ StaminaCodex: {
 	Tooltip:
 		'''
 		Создаёт зону выносливости в точке курсора
-		Зоны выносливости увеличивают скорость передвижения на 20%
+		Зоны выносливости увеличивают скорость передвижения игрока внутри на 20%
 		Зоны считаются за стражей
 		'''
 }
 
 BismiteChestplate: {
-	DisplayName: Bismite Chestplate
-	Tooltip: 3% increased critical strike chance
+	DisplayName: Бисмитовый нагрудник
+	Tooltip: Увеличивает шанс критического удара на 3%
 }
 
 BismiteHelmet: {
-	DisplayName: Bismite Helmet
-	Tooltip: 4% increased movement speed
+	DisplayName: Бисмитовый шлем
+	Tooltip: Увеличивает скорость передвижения на 4%
 }
 
 BismiteLeggings: {
-	DisplayName: Bismite Leggings
-	Tooltip: 6% increased movement speed
+	DisplayName: Бисмитовые поножи
+	Tooltip: Увеличивает скорость передвижения на 6%
 }
 
 BismiteBow: {
-	DisplayName: Bismite Bow
-	Tooltip: Occasionally causes foes to receive 'Festering Wounds,' which deal more damage to enemies under half health
+	DisplayName: Бисмитовый лук
+	Tooltip:
+		'''
+		Может наложить на поражённого врага дебафф «{$Buffs.FesteringWounds.DisplayName}»
+		Этот дебафф увеличивает получаемый урон врага, если у него менее половины здоровья
+		'''
 }
 
 BismiteChakra: {
-	DisplayName: Bismite Cutter
-	Tooltip: Occasionally causes foes to receive 'Festering Wounds,' which deal more damage to enemies under half health
+	DisplayName: Бисмитовый резак
+	Tooltip:
+		'''
+		Может наложить на поражённого врага дебафф «{$Buffs.FesteringWounds.DisplayName}»
+		Этот дебафф увеличивает получаемый урон врага, если у него менее половины здоровья
+		'''
 }
 
 BismiteCrystal: {
-	DisplayName: Bismite Crystal
-	Tooltip: "'An oddly toxic metal'"
+	DisplayName: Кристалл бисмита
+	Tooltip: «Странный и токсичный металл»
 }
 
 BismiteHamaxe: {
-	DisplayName: Bismite Hamaxe
+	DisplayName: Бисмитовый молотопор
 	Tooltip: ""
 }
 
 BismitePickaxe: {
-	DisplayName: Bismite Pickaxe
+	DisplayName: Бисмитовая кирка
 	Tooltip: ""
 }
 
 BismiteSpear: {
-	DisplayName: Bismite Pike
-	Tooltip: Occasionally causes foes to receive 'Festering Wounds,' which deal more damage to enemies under half health
+	DisplayName: Бисмитовая пика
+	Tooltip:
+		'''
+		Может наложить на поражённого врага дебафф «{$Buffs.FesteringWounds.DisplayName}»
+		Этот дебафф увеличивает получаемый урон врага, если у него менее половины здоровья
+		'''
 }
 
 BismiteStaff: {
-	DisplayName: Bismite Staff
+	DisplayName: Бисмитовый посох
 	Tooltip:
 		'''
-		Shoots a bolt of energy
-		Occasionally causes foes to receive 'Festering Wounds,' which deal more damage to foes under half health
+		Выпускает заряд энергии
+		Может наложить на поражённого врага дебафф «{$Buffs.FesteringWounds.DisplayName}»
+		Этот дебафф увеличивает получаемый урон врага, если у него менее половины здоровья
 		'''
 }
 
 BismiteSummonStaff: {
-	DisplayName: Bismite Crystal Staff
+	DisplayName: Посох кристалла бисмита
 	Tooltip:
 		'''
-		Summons a stationary Bismite Crystal that shoots poison shards at enemies
-		Right-click to cause Bismite Crystals to emit a festering wave at the cost of mana
+		Призывает кристалл бисмита-стража, стреляющего ядовитыми осколками во врагов
+		Нажмите ПКМ, чтобы кристалл выпустил ядовитый всплеск
+		Этот всплеск расходует ману и накладывает на поражённых врагов дебафф «{$Buffs.FesteringWounds.DisplayName}»
 		'''
 }
 
@@ -6155,8 +6178,8 @@ EnchantedLeaf: {
 }
 
 ReachFishingCatch: {
-	DisplayName: Ядолистник
-	Tooltip: "'It reeks of poison'"
+	DisplayName: Листоядник
+	Tooltip: «От него разит ядом»
 }
 
 SanctifiedStabber: {
@@ -6355,7 +6378,7 @@ CryoGun: {
 }
 
 CryoHamaxe: {
-	DisplayName: Криолитовый молотопо
+	DisplayName: Криолитовый молотопор
 	Tooltip: ""
 }
 
@@ -6497,11 +6520,11 @@ PesterflyCane: {
 }
 
 BismiteGrenade: {
-	DisplayName: Bismite Grenade
+	DisplayName: Бисмитовая граната
 	Tooltip:
 		'''
-		Explodes into a cloud of poison
-		Poison lasts for 10 seconds
+		Оставляет после взрыва облака яда
+		Яд остаётся на враге в течении 10 секунд
 		'''
 }
 
@@ -7150,8 +7173,8 @@ Sharkbones: {
 }
 
 ArcLash: {
-	DisplayName: Arc Lash
-	Tooltip: Does more damage towards the end of its cycle
+	DisplayName: Дуговая плеть
+	Tooltip: Дуга наносит больше урона при достижении максимального размера
 }
 
 StopWatch: {
@@ -8020,27 +8043,27 @@ UnfellerOfEvergreens: {
 }
 
 AdamantiteWarhammer: {
-	DisplayName: Adamantite Warhammer
+	DisplayName: Адамантитовый боевой молот
 	Tooltip: ""
 }
 
 CobaltWarhammer: {
-	DisplayName: Cobalt Warhammer
+	DisplayName: Кобальтовый боевой молот
 	Tooltip: ""
 }
 
 MythrilWarhammer: {
-	DisplayName: Mythril Warhammer
+	DisplayName: Мифриловый боевой молот
 	Tooltip: ""
 }
 
 OrichalcumWarhammer: {
-	DisplayName: Orichalcum Warhammer
+	DisplayName: Орихалковый боевой молот
 	Tooltip: ""
 }
 
 PalladiumWarhammer: {
-	DisplayName: Palladium Warhammer
+	DisplayName: Палладиевый боевой молот
 	Tooltip: ""
 }
 
@@ -8050,7 +8073,7 @@ ShellHammer: {
 }
 
 TitaniumWarhammer: {
-	DisplayName: Titanium Warhammer
+	DisplayName: Титановый боевой молот
 	Tooltip: ""
 }
 
@@ -8192,11 +8215,11 @@ CrawlerockStaff: {
 }
 
 ElectricGun: {
-	DisplayName: Arcbolter
+	DisplayName: Дугострел
 	Tooltip:
 		'''
-		Your summons will focus struck enemies
-		Hit enemies may create static links between each other when struck by minions, dealing additional damage
+		{$CommonItemTooltip.Whips}
+		Атаки миньонов по отмеченным врагам могут создать между ними статическую связь, наносящую дополнительный урон
 		'''
 }
 
@@ -8314,7 +8337,7 @@ ExplosiveRum: {
 }
 
 Kunai_Throwing: {
-	DisplayName: Kunai
+	DisplayName: Кунай
 	Tooltip: ""
 }
 
@@ -8391,11 +8414,11 @@ Martian: {
 }
 
 Moonburst: {
-	DisplayName: Moonburst
+	DisplayName: Лунный всплеск
 	Tooltip:
 		'''
-		Hitting enemies builds up an unstable bubble
-		The bubble explodes after ten successful strikes
+		Попадания по врагам увеличивают пузырь вокруг йо-йо
+		После нанесения 10 ударов пузырь взрывается
 		'''
 }
 
@@ -8742,7 +8765,7 @@ BlossomCage: {
 }
 
 BriarmothCage: {
-	DisplayName: Briarmoth in a Jar
+	DisplayName: Банка с терновочкой
 	Tooltip: ""
 }
 
@@ -8898,7 +8921,7 @@ SepulchreWindowItem: {
 }
 
 TrollfaceMask: {
-	DisplayName: Trollface Mask
+	DisplayName: Маска троллфейса
 	Tooltip: ""
 }
 

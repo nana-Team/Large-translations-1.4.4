@@ -710,8 +710,8 @@ LostMime: {
 }
 
 Mangrove_Defender: {
-	DisplayName: Mangrove Defender
-	Entry: Blessed by primal deities, these former Feral Shamblers are now fully connected with the Brair's will. With their new found strength, they protect their home with a savage fury.
+	DisplayName: Защитник леса
+	Entry: Одичавшие шатуны, благословлённые первобытными богами и подвластные воле терновника. Используя новоприобретенную силу, они теперь охраняют свой дом от чужаков с особым рвением.
 }
 
 Masticator: {
@@ -746,27 +746,27 @@ Molten_Core: {
 }
 
 DistressJelly: {
-	DisplayName: Distressed Jelly
+	DisplayName: Страдающая медуза
 	Entry: A stray space rock has popped this Lunazoa's protective bubble. The stone prevents the bubble from reforming, causing them distress.
 }
 
 DreamlightJelly: {
-	DisplayName: Dreamlight Jelly
+	DisplayName: Светогрёзная медуза
 	Entry: A tiny Lunazoa that emits a gorgeous, dreamlike green glow. A genetic mutation is the source of their chartreuse gleam, but also prevents them from ever maturing.
 }
 
 ExplodingMoonjelly: {
-	DisplayName: Moonlight Rupturer
+	DisplayName: Луносветный разрыватель
 	Entry: At the end of a Lunazoa's lifespan, obedient migrative drifting evolves into aggression towards foreign entities.
 }
 
 MoonjellyGiant: {
-	DisplayName: Tethervolt Jelly
+	DisplayName: Разрядная медуза
 	Entry: Mature male Lunazoas have electrical abilities that are far more developed than any other jellies, leading their territorial tendencies to be much more lethal.
 }
 
 MoonlightPreserver: {
-	DisplayName: Moonlight Preserver
+	DisplayName: Луносветная носительница
 	Entry: A mature female Lunazoa carries infantile jellies within their membrane until they are mature enough to migrate on their own.
 }
 
@@ -835,18 +835,18 @@ BlossomHound: {
 }
 
 Blubby: {
-	DisplayName: Blubby
-	Entry: A plump larva native to the Briar. They are adorned in stiff yellow hairs along their back, and fatten up even more in preparation for metamorphosis.
+	DisplayName: Пухлинка
+	Entry: Упитанная, покрытая густым жёлтым мехом личинка, обитающая в терновнике. Перед превращением в бабочку они становятся ещё крупнее, поедая всё больше пищи.
 }
 
 BriarInchworm: {
-	DisplayName: Briar Inchworm
-	Entry: A long, thin worm that evolved to thrive in the murky mud of the Briar. It primarily feeds on the decomposed tall grasses found on the surface.
+	DisplayName: Терновая гусеница
+	Entry: Длинное и тонкое насекомое, приспособившееся к жизни в грязи терновника. Её рацион состоит в основном из гниющей травы на поверхности.
 }
 
 Briarmoth: {
-	DisplayName: Briarmoth
-	Entry: From the moment a Briarmoth leaves its cocoon, it must hide from predators. It uses its deep green wings to blend into the trees of the Briar.
+	DisplayName: Терновочка
+	Entry: С самого момента вылупления из куколки, терновочки вынуждены постоянно скрываться от хищников. В этом им помогает тёмно-зелёный окрас крыльев, отлично маскирующий их на фоне густых зарослей терновника.
 }
 
 ForestWraith: {
@@ -857,8 +857,8 @@ ForestWraith: {
 }
 
 Noxophyll: {
-	DisplayName: Noxophyll
-	Entry: A fish with the ability to secrete a toxin that coats its scales. The only way to truly deter the smell is cooking it.
+	DisplayName: Листоядник
+	Entry: Рыба, способная выделять токсины и покрывать ими свою чешую. Убрать вонь этой рыбы можно, только пожарив её.
 }
 
 Reachman: {

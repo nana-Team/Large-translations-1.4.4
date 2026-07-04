@@ -74,7 +74,7 @@ Events: {
 		IsCalmNight: The night's too calm.
 	}
 
-	JellyDeluge.OnStart: Strange jellyfish are raining from the sky!
+	JellyDeluge.OnStart: Странные медузы летят с небес!
 	LuminousOcean.OnStart: Океан озаряется свечением...
 	BloodMoon.DayTime: The Blood Moon only emerges at night.
 	StarjinxSummon: An enchanted comet has appeared in the sky!
@@ -136,5 +136,5 @@ FrozenEnemies: {
 
 Currency: {
 	GlyphPrice: "{0} {^0:глиф;глифа;глифов}"
-	OlympiumTokenPrice: "{0} {^0:olympium token;olympium tokens}"
+	OlympiumTokenPrice: "{0} {^0:олимпийский жетон;олимпийских жетона;олимпийских жетонов}"
 }

@@ -5,10 +5,9 @@ Apostle:
 	'''
 Bismite:
 	'''
-	Not getting hit builds up stacks of Virulence
-	Virulence charges up every 10 seconds
-	Striking while Virulence is charged releases a toxic explosion
-	Getting hit depletes Virulence entirely
+	Каждые 10 секунд, пока вы не получаете урон, накапливается один заряд болезнетворности
+	Атаки с зарядом болезнетворности вызывает токсичный взрыв
+	Заряды болезнетворности полностью сбрасываются при получении урона
 	'''
 BloodCourt:
 	'''

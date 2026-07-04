@@ -160,8 +160,8 @@ DoomDestiny: {
 }
 
 FesteringWounds: {
-	DisplayName: Гноящие раны
-	Description: Вы начинаете получать больше урона, если у вас менее поливины здоровья
+	DisplayName: Гноящиеся раны
+	Description: Вы начинаете получать больше урона, если у вас менее половины здоровья
 }
 
 DrainLife: {
@@ -672,8 +672,8 @@ WitheringLeaf: {
 }
 
 CryoZoneTimer: {
-	DisplayName: Slow Zone
-	Description: The Slow Zone is up!
+	DisplayName: Зона замедления
+	Description: Зона замедления активна!
 }
 
 DefenseZoneBuff: {
@@ -682,13 +682,13 @@ DefenseZoneBuff: {
 }
 
 HealingZoneBuff: {
-	DisplayName: Healing Zone
-	Description: You feel invigorated!
+	DisplayName: Зона исцеления
+	Description: Вы полны сил!
 }
 
 HealthZoneTimer: {
-	DisplayName: Healing Zone
-	Description: The Healing Zone is up!
+	DisplayName: Зона исцеления
+	Description: Зона исцеления активна!
 }
 
 LowGravZoneBuff: {
@@ -713,7 +713,7 @@ ShieldZoneTimer: {
 
 StaminaZoneBuff: {
 	DisplayName: Зона выносливости
-	Description: Вы полны сил!
+	Description: Вы полны энергии!
 }
 
 StaminaZoneTimer: {

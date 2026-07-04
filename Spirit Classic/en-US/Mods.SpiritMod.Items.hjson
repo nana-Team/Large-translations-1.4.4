@@ -3121,7 +3121,11 @@ Ramen: {
 
 RockCandy: {
 	DisplayName: Rock Candy
-	Tooltip: "'Sweet and incredibly tough!'"
+	Tooltip:
+		'''
+		{$BuffDescription.WellFed}
+		'Sweet and incredibly tough!'
+		'''
 }
 
 Sushi: {
@@ -3282,13 +3286,17 @@ MoonJelly: {
 		Restores 150 life over 10 seconds
 		Causes Potion Sickness
 		'''
-	Tooltip: ""
+	Tooltip: "{$BuffDescription.WellFed}"
 }
 
 MoonJellyDonut: {
 	DisplayName: Moon Jelly Donut
-	CustomTooltip: Restores 225 life over 15 seconds
-	Tooltip: ""
+	CustomTooltip:
+		'''
+		Restores 225 life over 15 seconds
+		Causes Potion Sickness
+		'''
+	Tooltip: "{$BuffDescription.WellFed}"
 }
 
 MushroomPotion: {
@@ -8184,7 +8192,7 @@ ElectricGun: {
 	DisplayName: Arcbolter
 	Tooltip:
 		'''
-		Your summons will focus struck enemies
+		{$CommonItemTooltip.Whips}
 		Hit enemies may create static links between each other when struck by minions, dealing additional damage
 		'''
 }
