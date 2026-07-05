@@ -94,8 +94,8 @@ Primalstone:
 	'''
 Rogue:
 	'''
-	Getting hit grants four seconds of invisibility and 100% increased damage
-	25 second cooldown
+	При получении урона даёт 4 секунды невидимости и увеличивает урон на 100%
+	Способность перезаряжается 25 секунд
 	'''
 Runic: Leave behind dangerous explosive runes
 Seraph:

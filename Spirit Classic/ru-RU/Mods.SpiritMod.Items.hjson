@@ -400,11 +400,11 @@ MedusaShield: {
 }
 
 GildedScarab: {
-	DisplayName: Gilded Scarab
+	DisplayName: Позолоченный скарабей
 	Tooltip:
 		'''
-		Getting hit provides a temporary buff to defense
-		This shield provides more defense based on the damage taken
+		Увеличивает защиту после получения урона
+		Чем больше урона было получено, тем выше будет бонус к защите
 		'''
 }
 
@@ -687,57 +687,57 @@ SpiritSolution: {
 }
 
 AstronautBody: {
-	DisplayName: Astronaut Suit
+	DisplayName: Костюм астронавта
 	Tooltip: ""
 }
 
 AstronautHelm: {
-	DisplayName: Astronaut Helmet
+	DisplayName: Шлем астронавта
 	Tooltip: ""
 }
 
 AstronautLegs: {
-	DisplayName: Astronaut Pants
+	DisplayName: Штаны астронавта
 	Tooltip: ""
 }
 
 BeachTowel: {
-	DisplayName: Beach Towel
-	Tooltip: "'It keeps you dry, but make sure you don't jump in the water with it on!'"
+	DisplayName: Пляжное полотенце
+	Tooltip: «Сохраняет вашу сухость, но не вздумайте прыгать с ним в воду!»
 }
 
 BikiniBottom: {
-	DisplayName: Bikini Bottom
-	Tooltip: "'Who needs armor anyways when you can run free in the sun!'"
+	DisplayName: Трусики
+	Tooltip: «Долой броню, свободу трусикам!»
 }
 
 BikiniTop: {
-	DisplayName: Bikini Top
-	Tooltip: "'Despite what one may expect, it really doesn't provide any sort of defense.'"
+	DisplayName: Бюстгальтер
+	Tooltip: «Вопреки ожиданиям, он действительно не даёт никакой защиты»
 }
 
 SwimmingTrunks: {
-	DisplayName: Swimming Trunks
-	Tooltip: "'They don't provide much in the way of defense, but they're undeniably stylish.'"
+	DisplayName: Плавки
+	Tooltip: «Хотя они особо не защищают, они, определённо, выглядят стильно»
 }
 
 TintedGlasses: {
-	DisplayName: Tinted Glasses
-	Tooltip: "'They help sell the look, so it's best to keep them on even when it's dark.'"
+	DisplayName: Тонированные очки
+	Tooltip: «Они придают такого стиля, что лучше их не снимать даже ночью»
 }
 
 BeekeeperBody: {
-	DisplayName: Beekeeper's Suit
+	DisplayName: Костюм пчеловода
 	Tooltip: ""
 }
 
 BeekeeperHead: {
-	DisplayName: Beekeeper's Visor
+	DisplayName: Маска-сетка пчеловода
 	Tooltip: ""
 }
 
 BeekeeperLegs: {
-	DisplayName: Beekeeper's Greaves
+	DisplayName: Штаны пчеловода
 	Tooltip: ""
 }
 
@@ -772,62 +772,62 @@ CapacitorLegs: {
 }
 
 CenturionBody: {
-	DisplayName: Centurion's Platemail
+	DisplayName: Латы центуриона
 	Tooltip: ""
 }
 
 CenturionHead: {
-	DisplayName: Centurion's Helmet
+	DisplayName: Шлем центуриона
 	Tooltip: ""
 }
 
 CenturionLegs: {
-	DisplayName: Centurion's Greaves
+	DisplayName: Поножи центуриона
 	Tooltip: ""
 }
 
 CoiledChestplate: {
-	DisplayName: Autonaut's Chestplate
+	DisplayName: Нагрудник автонавта
 	Tooltip: ""
 }
 
 CoiledLeggings: {
-	DisplayName: Autonaut's Leggings
+	DisplayName: Поножи автонавта
 	Tooltip: ""
 }
 
 CoiledMask: {
-	DisplayName: Autonaut's Headgear
+	DisplayName: Головной убор автонавта
 	Tooltip: ""
 }
 
 CommandoBody: {
-	DisplayName: Commando's Suit
+	DisplayName: Костюм Коммандо
 	Tooltip: ""
 }
 
 CommandoHead: {
-	DisplayName: Commando's Visor
+	DisplayName: Маска Коммандо
 	Tooltip: ""
 }
 
 CommandoLegs: {
-	DisplayName: Commando's Greaves
+	DisplayName: Поножи Коммандо
 	Tooltip: ""
 }
 
 CowboyBody: {
-	DisplayName: Outlaw's Vest
+	DisplayName: Жилетка бандита
 	Tooltip: ""
 }
 
 CowboyHead: {
-	DisplayName: Outlaw's Hat
+	DisplayName: Шляпа бандита
 	Tooltip: ""
 }
 
 CowboyLegs: {
-	DisplayName: Outlaw's Pants
+	DisplayName: Штаны бандита
 	Tooltip: ""
 }
 
@@ -862,17 +862,17 @@ DiverLegs: {
 }
 
 FreemanBody: {
-	DisplayName: The Hunted's Hazard Suit
+	DisplayName: Защитный костюм преследуемого
 	Tooltip: ""
 }
 
 FreemanHead: {
-	DisplayName: The Hunted's Goggles
+	DisplayName: Защитные очки преследуемого
 	Tooltip: ""
 }
 
 FreemanLegs: {
-	DisplayName: The Hunted's Hazard Leggings
+	DisplayName: Защитные штаны преследуемого
 	Tooltip: ""
 }
 
@@ -892,17 +892,17 @@ GeodeLeggings: {
 }
 
 SnowRangerBody: {
-	DisplayName: Fur Coverings
+	DisplayName: Накидка из меха
 	Tooltip: ""
 }
 
 SnowRangerHead: {
-	DisplayName: Fur Helmet
+	DisplayName: Шлем из меха
 	Tooltip: ""
 }
 
 SnowRangerLegs: {
-	DisplayName: Fur Legwraps
+	DisplayName: Ножные обмотки из меха
 	Tooltip: ""
 }
 
@@ -937,12 +937,12 @@ LeatherPlate: {
 }
 
 MadHat: {
-	DisplayName: Mad Hat
+	DisplayName: Безумная шляпа
 	Tooltip:
 		'''
-		Can be thrown or worn
-		Increases magic damage by 10%
-		Increases magical crit chance by 8%
+		Можно носить или использовать как оружие
+		Увеличивает магический урон на 10%
+		Увеличивает шанс магического критического удара 8%
 		'''
 }
 
@@ -977,8 +977,8 @@ LeafPaddyHat: {
 }
 
 PsychoMask: {
-	DisplayName: Psycho Mask
-	Tooltip: "'A flower? For meeee?'"
+	DisplayName: Маска психа
+	Tooltip: «A flower? For meeee?»
 }
 
 SailorCap: {
@@ -997,8 +997,8 @@ TrapperGlove: {
 }
 
 WinterHat: {
-	DisplayName: Winter Hat
-	Tooltip: Grants immunity to chilly water
+	DisplayName: Зимняя шапка
+	Tooltip: Даёт невосприимчивость к холодной воде
 }
 
 MimeMask: {
@@ -1011,17 +1011,17 @@ MimeMask: {
 }
 
 PlagueDoctorCowl: {
-	DisplayName: Plague Doctor's Mask
+	DisplayName: Маска чумного доктора
 	Tooltip: ""
 }
 
 PlagueDoctorLegs: {
-	DisplayName: Plague Doctor's Greaves
+	DisplayName: Штаны чумного доктора
 	Tooltip: ""
 }
 
 PlagueDoctorRobe: {
-	DisplayName: Plague Doctor's Robe
+	DisplayName: Мантия чумного доктора
 	Tooltip: ""
 }
 
@@ -1036,53 +1036,53 @@ ProtectorateLegs: {
 }
 
 ReachBossBody: {
-	DisplayName: Thornspeaker's Garb
+	DisplayName: Наряд терноговорящего
 	Tooltip: ""
 }
 
 ReachBossHead: {
-	DisplayName: Thornspeaker's Helmet
+	DisplayName: Шлем терноговорящего
 	Tooltip: ""
 }
 
 ReachBossLegs: {
-	DisplayName: Thornspeaker's Greaves
+	DisplayName: Поножи терноговорящего
 	Tooltip: ""
 }
 
 RogueHood: {
-	DisplayName: Rogue Hood
-	Tooltip: 4% increased movement speed
+	DisplayName: Маска разбойника
+	Tooltip: Увеличивает скорость передвижения на 4%
 }
 
 RoguePants: {
-	DisplayName: Rogue Greaves
-	Tooltip: Increases movement speed by 5%
+	DisplayName: Штаны разбойника
+	Tooltip: Увеличивает скорость передвижения на 5%
 }
 
 RoguePlate: {
-	DisplayName: Rogue Plate
+	DisplayName: Куртка разбойника
 	Tooltip: ""
 }
 
 Earrings: {
-	DisplayName: Earrings
+	DisplayName: Серьги
 	Tooltip: ""
 }
 
 SilkSirwal: {
-	DisplayName: Sirwal
+	DisplayName: Шаровары
 	Tooltip: ""
 }
 
 SilkTop: {
-	DisplayName: Desert Top
+	DisplayName: Пустынная накидка
 	Tooltip: ""
 }
 
 Stoneplate: {
-	DisplayName: Stoneplate
-	Tooltip: Encumbers the wearer
+	DisplayName: Каменная броня
+	Tooltip: Утяжеляет носящего игрока
 }
 
 WayfarerBody: {
@@ -1101,17 +1101,17 @@ WayfarerLegs: {
 }
 
 WitchBody: {
-	DisplayName: Charmcaster's Robe
+	DisplayName: Мантия колдуна
 	Tooltip: ""
 }
 
 WitchHead: {
-	DisplayName: Charmcaster's Hat
+	DisplayName: Шляпа колдуна
 	Tooltip: ""
 }
 
 WitchLegs: {
-	DisplayName: Charmcaster's Leggings
+	DisplayName: Штаны колдуна
 	Tooltip: ""
 }
 

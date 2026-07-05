@@ -747,7 +747,7 @@ Molten_Core: {
 
 DistressJelly: {
 	DisplayName: Страдающая медуза
-	Entry: A stray space rock has popped this Lunazoa's protective bubble. The stone prevents the bubble from reforming, causing them distress.
+	Entry: Прямо на голову этой луназое упал метеорит, навсегда повредив её защитную оболочку, что и по сей день причиняет этой медузе боль и страдания.
 }
 
 DreamlightJelly: {
