@@ -25,7 +25,7 @@ Kill: Убить: {1} ({0} шт.)
 PluralSuffix: ""
 Comma: ", "
 Or: " или "
-Craft: Создать: {1} ({0} шт.)
+Craft: Создать: {1} ({0} шт.).
 Capture: Поймать: {1} ({0} шт.)
 Harvest: Собрать: {1} ({0} шт.)
 OptionalGather: Собрать: {1} ({0} шт.) (Необязательно)
@@ -207,8 +207,8 @@ QuestInfo: {
 	}
 
 	ExplorerQuestCorrupt: {
-		Name: Vile Wastes
-		Description: So you're planning on staying in this world for a while, huh? We've got a lot of exploring to do before we can get a grasp of this region. We need to know how dangerous those Corrupt Chasms are and how to deal with those freaky Eaters. Tread with caution, you're going alone. If you can survive there, you can explore the other dangerous areas the Adventurer mentioned in his journal.
+		Name: Мерзкая пустошь
+		Description: Значит, ты в этом мире ещё надолго? Нам предстоит многое исследовать, чтобы во всём здесь разобраться. Для начала нужно выяснить, насколько опасны эти искажённые разломы и обитающие там пожиратели. Если сможешь выжить в тех разломах, значит сможешь исследовать и другие опасные места, о которых писал приключенец в своём журнале.
 		Objective: искажение
 	}
 
@@ -299,7 +299,7 @@ QuestInfo: {
 		Name: Забытый идол
 		Description: Пески пустыни таят много секретов. Поговаривают даже, что неглубоко под одной из таких дюн зарыт древний зиккурат. Не мог бы ты туда сгонять да притащить мне каких-нибудь реликвий?
 		ReturnToAdventurer: Вернуться к приключенцу со своей находкой
-		Warning: I knew it. I was polishin' up this old thing when it started to look real familiar. That's a Scarab Idol right there. I'm warning ya, don't mess with it until you get real strong. Me and some bounty hunters tried to take that thing on years ago. We barely escaped with our lives. Be safe, lad.
+		Warning: Так и знал. Стоило мне протереть эту старую штуковину, как я разглядел в ней нечто до боли знакомое. Это же идол скарабея! Предупреждаю, не трогай его лишний раз, пока не будешь уверен в своей силе. Несколько лет назад мы целым отрядом охотились на этого скарабея, и это почти стоило нам наших жизней. Будь осторожен, друг.
 	}
 
 	ItsNoSalmon: {
@@ -345,8 +345,8 @@ QuestInfo: {
 	}
 
 	SinisterSands: {
-		Name: Sinister Sands
-		Description: I knew it. I was polishin' up this relic you retreived when it started to look real familiar. That's a Scarab Idol right there. I'm warning ya, don't mess with it until you get real strong. Me and some bounty hunters tried to take that thing on years ago. We barely escaped with our lives. Be safe, lad.
+		Name: Зловещие пески
+		Description: Так и знал. Стоило мне протереть эту старую штуковину, как я разглядел в ней нечто до боли знакомое. Это же идол скарабея! Предупреждаю, не трогай его лишний раз, пока не будешь уверен в своей силе. Несколько лет назад мы целым отрядом охотились на этого скарабея, и это почти стоило нам наших жизней. Будь осторожен, друг.
 		Objective: Убить Скарабеуса
 	}
 
@@ -356,8 +356,8 @@ QuestInfo: {
 	}
 
 	SlayerQuestBriar: {
-		Name: Flowery Fiends
-		Description: I need ya to go down to the Briar and show those beasts who's boss. Kill some of those big hounds an' those Thorn Stalkers. Maybe we can make the Briar a safer place... Ah, who am I kiddin'? That place is bound to stay a hellhole.
+		Name: Цветочные дьяволы
+		Description: Ты должен наведаться в терновник и показать местным тварям кто тут главный. Убьёшь несколько гончих и стебельников — и тогда, быть может, в терновнике станет поспокойнее... Хотя кого я обманываю? Эта дыра никогда не перестанет быть адом на земле.
 	}
 
 	SlayerQuestCavern: {

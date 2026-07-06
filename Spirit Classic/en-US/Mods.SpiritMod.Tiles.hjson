@@ -1,39 +1,14 @@
-SpiritPylon.MapEntry: Spirit Pylon
-AsteroidPylon.MapEntry: Asteroid Pylon
-BriarPylon.MapEntry: Briar Pylon
-KoiTotem_Tile.MapEntry: Koi Totem
-OpalFrog_Tile.MapEntry: Opal Frog
-Trophy8Tile.MapEntry: Atlas Trophy
-Trophy2Tile.MapEntry: Ancient Avian Trophy
-Trophy6Tile.MapEntry: Dusking Trophy
-Trophy4Tile.MapEntry: Infernon Trophy
-MJWTrophyTile.MapEntry: Moon Jelly Wizard Trophy
-Trophy1Tile.MapEntry: Scarabeus Trophy
 Glowstone.MapEntry: Astralite
-Trophy3Tile.MapEntry: Starplate Voyager Trophy
-Trophy5Tile.MapEntry: Vinewrath Bane Trophy
-BismiteCrystalOre.MapEntry: Bismite Crystal
-CoilEnergizerTile.MapEntry: Coiled Energizer
-CryoliteOreTile.MapEntry: Cryolite Ore
-Driftwood1Tile.MapEntry: Driftwood
-Driftwood2Tile.MapEntry: Driftwood
-Driftwood3Tile.MapEntry: Driftwood
-FishLureTile.MapEntry: Lure
-SunkenTreasureTile.MapEntry: Sunken Treasure
-FloranOreTile.MapEntry: Floran Ore
-GraniteOre.MapEntry: Enchanted Granite Chunk
-MarbleOre.MapEntry: Ancient Marble Chunk
-OlympiumToken_Tile.MapEntry: Olympium Token
-Trophy10Tile.MapEntry: R'lyehian Trophy
+BismiteCrystalOre.MapEntry: Bismite
+CryoliteOreTile.MapEntry: Cryolite
+FloranOreTile.MapEntry: Floran
+GraniteOre.MapEntry: Enchanted Granite
+MarbleOre.MapEntry: Ancient Marble
 SpiritOreTile.MapEntry: Spirit Ore
-Fathomless_Chest.MapEntry: Fathomless Vase
 AvianEgg.MapEntry: Avian Egg
 Blaststone_Grave.MapEntry: Gravestone
 SkullGrave.MapEntry: Gravestone
 Canvas_Tile.MapEntry: Canvas
-Coral1x2.MapEntry: Coral
-Coral2x2.MapEntry: Coral
-Coral3x3.MapEntry: Coral
 CrystalFlower.MapEntry: Crystal Flower
 Cloudstalk.MapEntry: Cloudstalk
 GoblinStandardTile.MapEntry: Goblin Battle Standard
