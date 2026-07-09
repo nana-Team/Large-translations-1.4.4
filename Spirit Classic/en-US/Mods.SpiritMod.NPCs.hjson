@@ -1094,8 +1094,6 @@ CogTrapperHead: {
 }
 
 CogTrapperTail.DisplayName: Stardancer
-LargeComet.DisplayName: Large Starjinx Comet
-MediumComet.DisplayName: Medium Starjinx Comet
 
 StymphalianBat: {
 	DisplayName: Stymphalian Bat

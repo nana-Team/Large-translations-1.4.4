@@ -34,11 +34,6 @@ OceanNighttime: {
 	Author: "{$BySalvati}"
 }
 
-CrimsonNighttime: {
-	DisplayName: Razor's Edge (Crimson Night Theme)
-	Author: "{$BySalvati}, {$Sbubby}"
-}
-
 ReachUnderground: {
 	DisplayName: Lurking Vines (Underground Briar Theme)
 	Author: "{$By} {$Sbubby}"
@@ -150,12 +145,12 @@ AncientAvian: {
 }
 
 UnderwaterMusic: {
-	DisplayName: Deep Ocean
+	DisplayName: Undersea Adventure (Deep Ocean Theme)
 	Author: "{$BySalvati}"
 }
 
 VictoryDay: {
-	DisplayName: Overworld Alt Alt (Victory Day Theme)
+	DisplayName: Adventurer's Triumph (Victory Day Theme)
 	Author: "{$BySalvati}"
 }
 

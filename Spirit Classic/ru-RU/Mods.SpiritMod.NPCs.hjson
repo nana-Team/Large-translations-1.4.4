@@ -311,7 +311,7 @@ Shadowflamer: {
 FrostSaucer: {
 	DisplayName: Snow Monger
 	Entry: A dangerous hovercraft made of spine-chillingly cold metal, and powered by Frost Cores. Playtime's over, no more mister ice guy!
-	BossChecklistIntegration.SpawnInfo: The Snow Monger spawns rarely during the Frost Legion.
+	BossChecklistIntegration.SpawnInfo: Редко появляется во время Морозного легиона.
 }
 
 Infernon: {
@@ -343,23 +343,23 @@ OccultistBoss: {
 ExplodingSpore.DisplayName: Exploding Spore
 
 ReachBoss: {
-	DisplayName: Vinewrath Bane
-	BossChecklistIntegration.SpawnInfo: Right-click the Bloodblossom, a glowing flower found at the bottom of the Briar. The Vinewrath Bane can be fought at any time and any place in progression. If a Bloodblossom is not present, use a [i:SpiritMod/ReachBossSummon] in the Briar below the surface at any time.
-	PreSpawn: Disturbing this flower surely isn't a good idea...
-	Spawn: The Vinewrath Bane has awoken!
+	DisplayName: Гневоплющ
+	BossChecklistIntegration.SpawnInfo: Нажмите ПКМ по кровоцвету — светящемуся цветку, растущем на самом дне терновника. В качестве альтернативы, используйте [i:SpiritMod/ReachBossSummon] в подземном терновнике.
+	PreSpawn: Тревожить этот цветок явно плохая идея...
+	Spawn: Гневоплющ пробуждается!
 }
 
 ReachBoss1: {
-	DisplayName: Vinewrath Husk
+	DisplayName: Оболочка гневоплюща
 	Entry: The beating heart of the briar. Its innate instinct for self-preservation expresses itself in the hostile antibodies and endless torrential downpour within the biome.
 }
 
 Scarab: {
-	DisplayName: Scarab
+	DisplayName: Скарабей
 	Entry: The scrappy brethren of the larger Scarabeus, these little things follow their leader to the death.
 }
 
-Scarab_Wall.DisplayName: Scarab
+Scarab_Wall.DisplayName: Скарабей
 
 Scarabeus: {
 	DisplayName: Скарабеус
@@ -367,7 +367,7 @@ Scarabeus: {
 	BossChecklistIntegration.SpawnInfo: Используйте [i:SpiritMod/ScarabIdol] днём в пустыне. Предмет можно создать самостоятельно или получить за выполнение задания приключенца.
 }
 
-SwarmScarab.DisplayName: Scarab
+SwarmScarab.DisplayName: Скарабей
 ArcadeProbe.DisplayName: Starfarer
 LaserBase.DisplayName: Laser Launcher
 SteamRaiderBody.DisplayName: Звездопанцирный странник
@@ -376,7 +376,7 @@ SteamRaiderBody2.DisplayName: Звездопанцирный странник
 SteamRaiderHead: {
 	DisplayName: Звездопанцирный странник
 	Entry: A strange automaton of unknown origin, designed for mining a precious metal from the stars. It utilizes the untapped energy found within the ore to power itself and perpetuate an endless search.
-	BossChecklistIntegration.SpawnInfo: Use a [i:SpiritMod/StarWormSummon] at an Astralite Beacon, located in the Asteroids, at nighttime.
+	BossChecklistIntegration.SpawnInfo: Используйте [i:SpiritMod/StarWormSummon] ночью на астралитовом маяке, который можно найти в поле астероидов.
 	Spawn: The Starplate Voyager has awoken!
 	Laser: Initiating Laser Protocol
 	Detected: Instability Detected
@@ -658,7 +658,7 @@ Cystal: {
 Cystal_Shield.DisplayName: Cystal Shield
 
 DarkfeatherMage: {
-	DisplayName: Тёмнопёрый маг
+	DisplayName: Темнопёрый маг
 	Entry: Caww, caww! A large bird of prey who fancies themselves a mage. Whoever has been teaching these birds magic has left behind quite a mess.
 }
 
@@ -964,10 +964,16 @@ Briarmoth: {
 }
 
 ForestWraith: {
-	DisplayName: Glade Wraith
+	DisplayName: Призрак чащи
 	Entry: Despite the Briar's unnatural creeping presence, it has left its mark on nature just long enough for these vengeful spirits to call it home.
-	BossChecklistIntegration.SpawnInfo: Destroy a Bone Altar in the Underground Briar. The Glade Wraith also spawns naturally at nighttime after defeating the Eye of Cthulhu. Alternatively, find a [i:SpiritMod/GladeWreath] in Briar Chests and use it in the Briar at any time.
-	BoneAltar: You have disturbed the ancient Nature Spirits!
+	BossChecklistIntegration.SpawnInfo:
+		'''
+		Мини-босса можно призвать тремя способами:
+		- Сломайте костяной алтарь в подземном терновнике.
+		- Используйте [i:SpiritMod/GladeWreath] в терновнике. Предмет можно найти в сундуках биома.
+		- Дождитесь естественного появления мини-босса ночью в терновнике после победы над Глазом Ктулху.
+		'''
+	BoneAltar: Вы потревожили древних духов природы!
 }
 
 Noxophyll: {
@@ -1094,8 +1100,6 @@ CogTrapperHead: {
 }
 
 CogTrapperTail.DisplayName: Stardancer
-LargeComet.DisplayName: Large Starjinx Comet
-MediumComet.DisplayName: Medium Starjinx Comet
 
 StymphalianBat: {
 	DisplayName: Stymphalian Bat

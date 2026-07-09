@@ -1,48 +1,48 @@
 AceOfDiamondsBuff: {
-	DisplayName: Ace of Diamonds
-	Description: Damage increased by 20%
+	DisplayName: Туз бубен
+	Description: Урон увеличен на 20%
 }
 
 AngelLight: {
-	DisplayName: Angel's Light
+	DisplayName: Ангельский свет
 	Description: ""
 }
 
 AngelWrath: {
-	DisplayName: Angel's Wrath
+	DisplayName: Ангельский гнев
 	Description: ""
 }
 
 ExplorerFight: {
-	DisplayName: Strike Strength
+	DisplayName: Сила удара
 	Description:
 		'''
-		You're getting the hang of it!
-		Damage dealt is increased by {0}%
+		Вы начинаете осваиваться!
+		Наносимый урон увеличен на {0}%
 		'''
 }
 
 ExplorerMine: {
-	DisplayName: Explorer's Strength
+	DisplayName: Скорость исследователя
 	Description:
 		'''
-		Keep digging!
-		Mining speed is increased: {0} stacks
+		Продолжайте копать!
+		Скорость копания увеличена ({0} ур.)
 		'''
 }
 
 ExplorerPot: {
-	DisplayName: Explorer's Vigor
+	DisplayName: Трепет исследователя
 	Description:
 		'''
-		You're eager for more!
-		Movement speed is increased by {0}%
+		Вы жаждете большего!
+		Скорость передвижения увеличена на {0}%
 		'''
 }
 
 FrigidCooldown: {
-	DisplayName: Below Zero
-	Description: "'It's too cold to keep this wall going...'"
+	DisplayName: Ниже нуля
+	Description: «Сейчас слишком холодно, чтобы продолжать поддерживать эту стену...»
 }
 
 MarbleDivineWinds: {
@@ -51,61 +51,61 @@ MarbleDivineWinds: {
 }
 
 RogueCooldown: {
-	DisplayName: Dispelled Shadow
-	Description: "'Wait for the darkness to steal you away'"
+	DisplayName: Рассеянная тень
+	Description: «Жди, пока тьма не унесёт тебя прочь»
 }
 
 AstralMapCooldown: {
-	DisplayName: Astral Cooldown
-	Description: Lightspeed travel is unstable!
+	DisplayName: Астральная перезарядка
+	Description: Путешествие со скоростью света нестабильно!
 }
 
 BeetleFortitude: {
-	DisplayName: Beetle Fortitude
+	DisplayName: Жучья стойкость
 	Description:
 		'''
-		Each strike strenghtens you...
-		Damage taken is reduced by {0}%
+		Каждый удар делает вас сильнее...
+		Сопротивление урону увеличено на {0}%
 		'''
 }
 
 BloodInfusion: {
-	DisplayName: Blood Infusion
-	Description: "'Extremely contagious'"
+	DisplayName: Заражение крови
+	Description: «Крайне заразно»
 }
 
 CandyBuff: {
-	DisplayName: Sugar Rush
-	Description: Slight increase to all stats
+	DisplayName: Сахарная передозировка
+	Description: Все характеристики немного увеличены
 }
 
 ChocolateBuff: {
-	DisplayName: Chocolate
-	Description: 10% Increased Speed
+	DisplayName: Шоколад
+	Description: Скорость передвижения увеличена 10%
 }
 
 HealthBuffC: {
-	DisplayName: Healing Candy
-	Description: +25 health.
+	DisplayName: Лечебная конфетка
+	Description: Максимальный запас здоровья увеличен на 25 ед.
 }
 
 LollipopBuff: {
-	DisplayName: Lollipop
-	Description: Increased life regeneration
+	DisplayName: Леденец
+	Description: Регенерация здоровья увеличена
 }
 
 ManaBuffC: {
-	DisplayName: Mana Candy
-	Description: +40 Mana
+	DisplayName: Манная конфетка
+	Description: Максимальный запас маны увеличен на 40 ед.
 }
 
 TaffyBuff: {
-	DisplayName: Taffy
-	Description: +4 Defense
+	DisplayName: Ириска
+	Description: Защита увеличена на 4 ед.
 }
 
 ClockBuff: {
-	DisplayName: Time power
+	DisplayName: Сила времени
 	Description: ZAWARUDO!!
 }
 
@@ -115,8 +115,8 @@ CouchPotato: {
 }
 
 CourtCooldown: {
-	DisplayName: Sanguine Cooldown
-	Description: Your blood needs time to heal
+	DisplayName: Кровавая перезарядка
+	Description: Вашей крови нужно время для восстановления
 }
 
 CrimsonSkullBuff: {
@@ -125,17 +125,17 @@ CrimsonSkullBuff: {
 }
 
 Death: {
-	DisplayName: Death
+	DisplayName: Смерть
 	Description: ""
 }
 
 DeathRoseCooldown: {
-	DisplayName: Death Rose Cooldown
-	Description: The bramble needs time to regrow...
+	DisplayName: Перезарядка цветка терновника
+	Description: Лозе нужно время, чтобы вырасти вновь...
 }
 
 AcidBurn: {
-	DisplayName: Toxic Grasp
+	DisplayName: Токсичная хватка
 	Description: ""
 }
 
@@ -145,17 +145,17 @@ Afflicted: {
 }
 
 BloodCorrupt: {
-	DisplayName: Blood Corruption
-	Description: Your blood burns...
+	DisplayName: Заражение крови
+	Description: Ваша кровь пылает...
 }
 
 CryoCrush: {
-	DisplayName: Cryo Crush
+	DisplayName: Крио-сокрушение
 	Description: ""
 }
 
 DoomDestiny: {
-	DisplayName: Star Cut
+	DisplayName: Звёздный разрез
 	Description: ""
 }
 
@@ -165,13 +165,13 @@ FesteringWounds: {
 }
 
 DrainLife: {
-	DisplayName: Drain Life
-	Description: Your life energy becomes theirs.
+	DisplayName: Похищение жизни
+	Description: Ваша жизненная энергия становится их
 }
 
 DynastyFanBuff: {
-	DisplayName: Windglider
-	Description: You're still falling, but slower
+	DisplayName: Ветропланёр
+	Description: Вы всё ещё падаете, но теперь медленнее
 }
 
 ElectrifiedV2: {

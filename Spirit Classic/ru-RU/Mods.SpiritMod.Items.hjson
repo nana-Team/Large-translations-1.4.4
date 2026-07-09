@@ -110,7 +110,7 @@ CursedPendant: {
 }
 
 DarkfeatherVisage: {
-	DisplayName: Личина тёмнопёрого
+	DisplayName: Личина темнопёрого
 	Tooltip:
 		'''
 		Увеличивает магический урон и урон призывателя на 7%
@@ -624,8 +624,8 @@ WintryCharmMage: {
 }
 
 BeetleArrow: {
-	DisplayName: Beetle Arrow
-	Tooltip: Successful hits on enemies reduces damage taken by 1%, maxing out at 15%
+	DisplayName: Жучья стрела
+	Tooltip: Попадания по врагам увеличивают ваше сопротивление урону на 1%, вплоть до 15%
 }
 
 SepulchreArrow: {
@@ -1682,28 +1682,28 @@ Book_Alchemist1: {
 }
 
 Book_Amea: {
-	DisplayName: Amea the Brigand
-	Tooltip: by Solaki
+	DisplayName: Разбойник Амей
+	Tooltip: от Солаки
 	Content:
 		'''
-		At the edge of the kingdom's borders lay a small cottage, surrounded by acres of forest. It was a small dwelling, home to a poor, middle-aged woman and her young son, Amea. The family was destitute and quite alone, but Amea's mother had been saving up money for years so that Amea could finally go to school and become a merchant. Upon giving the money to Amea, he became distraught. He did not want to leave his mother alone in the forest, but he soon relented. His mother did not want to see him follow the same path as she did. And so, Amea set off on his way to the small school nearby.
-		As it turns out, Amea was a smart and hardworking student. He had simply never been given the opportunity before. He was kind, helpful, and determined to succeed so that he could return home to his mother with riches in hand. He soon became his teacher's favorite, much to the dismay of his classmates. They soon grew to hate him, filled with jealousy and ire. His classmates then hatched a devious plan to turn their teacher against Amea. They slowly poisoned the teacher's mind with stray whispers and rumors, painting Amea as a cruel savage. The teacher fell into their trap, and so too did he begin to hate Amea. On the last day of teaching, when students were to receive their recommendations from their teacher to join different guilds, Amea was blindsided by a gruesome request from his teacher.
-		'In order to receive my recommendation, you must first bring me the pointer fingers of one thousand people. Otherwise, you will never be able to join the merchant guild you seek,' said he. Amea was taken aback by this horrifying task. He was not aware that everyone he knew despised him. But Amea needed to provide for his family
-		And so he set off on this task.
+		Где-то на краю королевства стояла небольшая лачуга, окружённая глухим тёмным лесом. Крохотное жилище ютило в себе одну бедную женщину да её совсем юного сына Амея. Жила их семья в горькой бедности и одиночестве, но мать всё же умудрялась откладывать копейку-другую, чтобы сын её смог однажды отучиться в школе и стать купцом. Но наконец получив от матери толстый кошель с деньгами, Амей оробел. Ему совсем не хотелось оставлять свою хилую матушку одной в этом лесу, но и огорчать её тоже не хотелось: мать не желала, чтобы сын пошёл по её стопам. Собравшись с силами, Амей всё же отправился в небольшую школу неподалёку от лачуги.
+		К его же удивлению, Амей оказался очень умным и прилежным учеником. До той поры ему просто негде было это проявить. Он был добрым, отзывчивым и целеустремлённым — словом, делал всё возможное, чтобы однажды вернуться к матушке с полными руками честно заработанных монет. Вскоре он стал любимчиком своего учителя, от чего не очень-то были в восторге его сверстники. Они сразу невзлюбили его: никто другой не вызывал у них столько зависти и гнева. Однажды дети решили проучить его и настроить учителя против Амея. День за днём они распускали грязные слухи, в которых выставляли мальчика жестоким дикарём. В конце концов одноклассникам удалось заставить учителя ненавидеть Амея. Наступил последний день школы, когда каждый ученик получал от учителя рекомендательное письмо в ту или иную гильдию. Амей долго предвкушал этот день и был неимоверно счастлив, но счастье его внезапно оборвалось: вместо письма он получил от учителя жуткую просьбу.
+		«Коли хочешь ты попасть в купеческую гильдию, сперва принеси мне тысячу чужих указательных пальцев. Иначе никакого письма от меня и не жди», — сказал он. Для Амея эти слова были словно нож в спину. Он и знать не знал, что учитель тоже презирал его. Но у Амея не было выбора: дома его ждала его бедная матушка.
+		Вот он и отправился выполнять жестокое поручение учителя.
 		---
-		Amea used some of his money to buy a rusty sword, and made a camp in the middle of the woods. At first, he was too scared to carry out this vile mission. Amea was a kind man who wished no ill will on anyone, including the teacher who had assigned him this task. But he thought of his mother at home and swallowed his fear. And so it began. Amea stopped one traveller after another and cut off their fingers. Upon collecting too many to carry, Amea tried to bury them in the ground. But they either decomposed or were eaten by crows and vultures. Amea then decided to string the fingers on a garland and wear them. His infamy grew over time, and he was soon known as 'The Bandit with the Finger Necklace.' Amea was changing.
+		Амей наскрёб где-то пару монет, купил себе ржавый меч и разбил лагерь посреди глухого леса. Поначалу он слишком боялся приступить к своему мерзкому заданию. За всю свою жизнь Амей и мухи не обидел, даже учителю, что заставил его собрать пальцы, никакого зла он не желал. Но стоило ему подумать о несчастной матери, ждущей его дома, как он тут же набирался смелости. Так всё и началось. Амей останавливал путника за путником и безжалостно отрубал им пальцы. Когда пальцев набиралось слишком много, он зарывал их под землю. Пальцы гнили, засыхали, терялись, часть из них поедали вороны и стервятники, и решил Амей носить их на себе, дабы не допускать такого. Слухи о нём расползались быстро, и вскоре его знали как «разбойника с ожерельем из пальцев». Амей менялся на глазах.
 		---
-		The once bright and kind student was no more. Amea relished in violence, and grew exceedingly cruel to his victims. The amount of fingers on his garland grew. He soon stole from and maimed his victims on top of dismembering them, and became the most feared bandit in the kingdom. Many squads of soldiers were sent into the forests to end Amea's reign of terror, but returned battered, empty-handed, and fingerless.
-		After years of ravaging the kingdom, the fateful day soon arrived when Amea had nine hundred ninety-nine fingers on his garland. He planned on returning to his teacher laden with fingers and then killing him before returning to the life of a brigand. This was Amea's path now. An unsuspecting ox-cart made its way through the forest, and Amea lay waiting in the trees. When the time was right, he jumped down and slashed the throat of the cart driver, quickly taking his finger. But no one screamed. Confused by the lack of panic, Amea turned around to see a lone woman sitting in the cart, looking at him with sheer horror, revulsion, and- most of all- disappointment. It was his mother. Amea opened his mouth, but could not speak. His mother said no words to him, but tears started cascading down her old and weary face. She was gaunt and looked starved, not having enough money to eat properly. Amea said nothing, and retreated deep into the woods. He found a clear pond and gazed into it. He saw what he had become: a wild savage draped in human fingers. He could scarcely recognize himself anymore. A sudden wave of shame and horror crashed down upon Amea. Sick to the stomach, he renounced his banditry and led a reclusive life within a cave in the woods."
+		От находчивого и прилежного мальчика уже ничего не осталось. Амей повяз в пучине насилия, и с каждой новой своей жертвой обходился всё более кровожадным образом. Количество пальцев на его ожерелье неумолимо росло. Теперь он не только отрубал несчастным людям пальцы, но и пытал их, а если становилось скучно — обезглавливал и забирал всё, что у них при себе было. Довольно быстро от одного лишь имени Амея жители королевства начинали приходить в ужас. В тот самый глухой лес отправляли не один отряд солдат в отчаянных попытках остановить его, но если и возвращался кто из таких походов, то побитым, напуганным и без указательных пальцев.
+		После нескольких лет страшного кровопролития, долгожданный день наконец настал: Амей собрал на своей шее девятьсот девяносто девять пальцев. О тихой жизни купца он уже давно не мечтал: всё обдумывал, как придёт к своему учителю, перережет ему горло и вернётся к своей разбойничьей жизни. Такой путь выбрал себе Амей. Внезапно позади него раздался топот копыт — через лез проезжала чья-та повозка, и Амей затаился в кустах. Выждав нужный момент, он напрыгнул на свою очередную жертву, в одно мгновение отрубив палец и перерезав горло. Но никаких криков не последовало. Удивившись такому молчанию, Амей обернулся и посмотрел на человека за повозкой. Перед ним сидела немощная старушка, в глазах которых он разглядел чистый страх, ужас и отвращение, но прежде всего — разочарование. Это была его мать. За это время она совсем истощала и побледнела. Амей открыл рот, но не смог произнести ни слова. По морщинистым щекам матушки стали рекой течь слёзы. Амей же развернулся и молча убежал в лес, не оглядываясь назад. Он нашёл небольшой пруд чистой воды и долго смотрел на своё отражение. Он впервые увидел, кем он стал: окровавленным дикарём, по уши увешанным человеческими пальцами. Он совсем не узнавал себя. На Амея внезапно нахлынула волна горя и стыда. Ему стало тошно от последних прожитых лет, и он раз и навсегда решил отречься от разбойничьей жизни, с тех пор влача довольно жалкое существование в тесной лесной пещере.
 		---
-		For years, people in the kingdom steered clear of Amea's woods. Nobody knew where the bandit had gone, but no one wanted to be his next victim. That was until a great wizard arrived at the kingdom. This sage was well known for spreading teachings of peace to those who wanted to listen. He had overheard rumors about Amea and was curious to meet the man. The citizens of the kingdom warned him not to journey into the woods, but the wizard chose to do so anyway. He walked into the woods without a staff or any weapon, carefree as could be.
-		Amea soon heard footsteps from outside his cave and quickly grew angry that someone dared to disturb his solitude. He drew his sword and emerged from the cave to see the wizard nonchalantly walking away from him.
-		'You there!' Amea bellowed. 'Stop moving and surrender yourself.'
-		The wizard kept walking.
-		Furious, Amea chased after the mystic at full speed. Try as he might, though, he could never catch up. The wizard, walking slowly and calmly, always stayed ahead of Amea. Amea howled and kept running for what felt like days. The wizard did not say a word. Finally, Amea gave up. He dropped to his hands and knees and begged for the wizard to forgive him. A sudden outpouring of remorse and pain emerged from Amea, who wanted nothing more than to leave his past behind. But how could a killer ever escape his sins?
-		The wizard, sensing these emotions, turned to Amea and uttered his first words.
-		'We are all born heedless, and some of us choose to return to that state. But what makes us human is our capacity to grow and change.'
-		The wizard stopped moving, and reached his hand out to Amea. Amea found that he could finally approach the wizard. For the first time in years, Amea put down his sword. He took the mystic's hand and walked out of the forest into the light of day.
+		Ещё долгие годы люди держались подальше от леса, в котором жил Амей. Никто знать не знал, куда подевался этот разбойник, но его новой жертвой становиться тоже никому не хотелось. Так было до тех пор, пока в королевство не пришёл один великий волшебник. Мудреца все знали как человека, что учит миру и покою каждого, кто готов его слушать. Услышав слухи про разбойника с ожерельем из пальцев, волшебнику захотелось самому увидеться с Амеем. Граждане королевства всячески отговаривали его идти в тот лес, но мудрец их не послушал. С собой он взял один лишь посох.
+		Вскоре Амей услышал шаги неподалёку от своей пещеры. Разозлившись, что кто-то осмелился потревожить его одиночество, он достал свой меч из ножен и выбежал из пещеры.
+		«Ты!», — окликнул Амей проходящего мимо волшебника. «Сейчас же замри и сложи свой посох!»
+		Но мудрец просто продолжал медленно идти.
+		Взбесившись, Амей побежал за колдуном так быстро, как только мог. Но как бы он ни бежал, приблизиться к волшебнику ему всё не удавалось. Спокойный мудрец не говорил не слова и еле передвигал ноги, но Амей всё равно не мог его догнать. Амей кряхтел, запыхался, но продолжал бежать так долго, что казалось, будто уже прошли дни, а то и недели. Наконец, Амей сдался и, упав на колени, начал умолять волшебника простить его. В словах Амея слышалось так много боли и сожаления. Он хотел убежать от своего прошлого, но разве могут убийцу отпустить его грехи?
+		Проникнувшись чувствами Амея, мудрец обернулся к нему и произнёс свои слова.
+		«Все мы рождены быть беспечными, иной человек может не раз возвращаться в эту беспечность, но людьми нас делает способность меняться и совершенствоваться.»
+		Волшебник остановился и протянул руку Амею. Тот наконец смог приблизиться к старику. Впервые в своей жизни Амей сложил оружие. Он крепко сжал руку мудреца, а тот вывел его из леса навстречу восходящему солнцу.
 		'''
 }
 
@@ -2620,11 +2620,11 @@ StarPlate: {
 }
 
 StarMap: {
-	DisplayName: Astral Map
+	DisplayName: Астральная карта
 	Tooltip:
 		'''
-		Teleports you to the cursor location
-		{N} second cooldown
+		Телепортирует вас в точку курсора
+		Способность перезаряжается {N} {^1:секунду;секунды;секунд}
 		'''
 }
 
@@ -2673,16 +2673,16 @@ Trophy3: {
 }
 
 DeathRose: {
-	DisplayName: Briar Blossom
+	DisplayName: Цветок терновника
 	Tooltip:
 		'''
-		Double tap {0} to ensnare an enemy at the cursor position
-		4 second cooldown
+		Дважды нажмите клавишу {0}, чтобы вырастить ловушку для врагов в точке курсора
+		Способность перезаряжается 4 секунды
 		'''
 }
 
 ReachBossBag: {
-	DisplayName: Мешок с сокровищами (Vinewrath Bane)
+	DisplayName: Мешок с сокровищами (Гневоплющ)
 	Tooltip:
 		'''
 		{$LegacyTooltip.35}
@@ -2702,7 +2702,7 @@ ReachBossSword: {
 }
 
 ReachMask: {
-	DisplayName: Vinewrath Bane Mask
+	DisplayName: Маска Гневоплюща
 	Tooltip: ""
 }
 
@@ -2722,7 +2722,7 @@ ThornBow: {
 }
 
 Trophy5: {
-	DisplayName: Vinewrath Bane Trophy
+	DisplayName: Трофей Гневоплюща
 	Tooltip: ""
 }
 
@@ -3440,7 +3440,7 @@ ReachBossSummon: {
 	Tooltip:
 		'''
 		«Злобная смесь флоры и фауны»
-		Призывает Vinewrath Bane при использовании в подземном терновнике
+		Призывает Гневоплющ при использовании в подземном терновнике
 		'''
 }
 
@@ -3688,8 +3688,8 @@ AuroraSaddle: {
 }
 
 DynastyFan: {
-	DisplayName: Dynasty Fan
-	Tooltip: Launch yourself in any direction with a gust of wind
+	DisplayName: Восточный веер
+	Tooltip: Создаёт отбрасывающий вас порыв ветра
 }
 
 KelpHook: {
@@ -4301,112 +4301,112 @@ FishCrate: {
 }
 
 AcidAC: {
-	DisplayName: Broken Air Conditioner
+	DisplayName: Сломанный кондиционер
 	Tooltip: ""
 }
 
 AcidBarrel: {
-	DisplayName: Corrosive Barrel
+	DisplayName: Ржавая бочка
 	Tooltip: ""
 }
 
 AcidBathtub: {
-	DisplayName: Corrosive Bathtub
+	DisplayName: Ржавая ванна
 	Tooltip: ""
 }
 
 AcidBed: {
-	DisplayName: Corrosive Bed
+	DisplayName: Ржавая кровать
 	Tooltip: ""
 }
 
 AcidBench: {
-	DisplayName: Corrosive Work Bench
+	DisplayName: Ржавый верстак
 	Tooltip: ""
 }
 
 AcidBookcase: {
-	DisplayName: Corrosive Bookcase
+	DisplayName: Ржавый книжный шкаф
 	Tooltip: ""
 }
 
 AcidCandelabra: {
-	DisplayName: Corrosive Candelabra
+	DisplayName: Ржавый подсвечник
 	Tooltip: ""
 }
 
 AcidCandle: {
-	DisplayName: Corrosive Candle
+	DisplayName: Ржавая свеча
 	Tooltip: ""
 }
 
 AcidChair: {
-	DisplayName: Corrosive Chair
+	DisplayName: Ржавый стул
 	Tooltip: ""
 }
 
 AcidChandelier: {
-	DisplayName: Corrosive Chandelier
+	DisplayName: Ржавая люстра
 	Tooltip: ""
 }
 
 AcidChest: {
-	DisplayName: Corrosive Chest
+	DisplayName: Ржавый сундук
 	Tooltip: ""
 }
 
 AcidClock: {
-	DisplayName: Corrosive Clock
+	DisplayName: Ржавые напольные часы
 	Tooltip: ""
 }
 
 AcidDoor: {
-	DisplayName: Corrosive Door
+	DisplayName: Ржавая дверь
 	Tooltip: ""
 }
 
 AcidDresser: {
-	DisplayName: Corrosive Dresser
+	DisplayName: Ржавый комод
 	Tooltip: ""
 }
 
 AcidFan: {
-	DisplayName: Rusty Fan
+	DisplayName: Ржавый вентилятор
 	Tooltip: ""
 }
 
 AcidKeg: {
-	DisplayName: Corrosive Keg
+	DisplayName: Ржавый кег
 	Tooltip: ""
 }
 
 AcidLamp: {
-	DisplayName: Corrosive Lamp
+	DisplayName: Ржавая напольная лампа
 	Tooltip: ""
 }
 
 AcidLantern: {
-	DisplayName: Corrosive Lantern
+	DisplayName: Ржавый фонарь
 	Tooltip: ""
 }
 
 AcidPiano: {
-	DisplayName: Corrosive Piano
+	DisplayName: Ржавое пианино
 	Tooltip: ""
 }
 
 AcidSink: {
-	DisplayName: Corrosive Sink
+	DisplayName: Ржавая раковина
 	Tooltip: ""
 }
 
 AcidSofa: {
-	DisplayName: Corrosive Sofa
+	DisplayName: Ржавый диван
 	Tooltip: ""
 }
 
 AcidTable: {
-	DisplayName: Corrosive Table
+	DisplayName: Ржавый стол
 	Tooltip: ""
 }
 
@@ -4596,17 +4596,17 @@ ArcadeMachineItem: {
 }
 
 BlueFairyLights: {
-	DisplayName: Blue Fairy Lights
+	DisplayName: Синяя гирлянда
 	Tooltip: ""
 }
 
 BlueNeonLamp: {
-	DisplayName: Blue Neon Lantern
+	DisplayName: Синий неоновый фонарь
 	Tooltip: ""
 }
 
 BlueNeonSign: {
-	DisplayName: Blue Neon Sign
+	DisplayName: Синяя неоновая табличка
 	Tooltip: ""
 }
 
@@ -4616,17 +4616,17 @@ GeneratorItem: {
 }
 
 GreenFairyLights: {
-	DisplayName: Green Fairy Lights
+	DisplayName: Зелёная гирлянда
 	Tooltip: ""
 }
 
 GreenNeonLamp: {
-	DisplayName: Green Neon Lantern
+	DisplayName: Зелёный неоновый фонарь
 	Tooltip: ""
 }
 
 GreenNeonSign: {
-	DisplayName: Green Neon Sign
+	DisplayName: Зелёная неоновая табличка
 	Tooltip: ""
 }
 
@@ -4636,82 +4636,82 @@ LargeTechCrate: {
 }
 
 NeonCandleBlue: {
-	DisplayName: Blue Neon Candle
+	DisplayName: Синяя неоновая свеча
 	Tooltip: ""
 }
 
 NeonCandleGreen: {
-	DisplayName: Green Neon Candle
+	DisplayName: Зелёная неоновая свеча
 	Tooltip: ""
 }
 
 NeonCandlePurple: {
-	DisplayName: Purple Neon Candle
+	DisplayName: Фиолетовая неоновая свеча
 	Tooltip: ""
 }
 
 NeonCandleRed: {
-	DisplayName: Red Neon Candle
+	DisplayName: Красная неоновая свеча
 	Tooltip: ""
 }
 
 NeonCandleYellow: {
-	DisplayName: Yellow Neon Candle
+	DisplayName: Жёлтая неоновая свеча
 	Tooltip: ""
 }
 
 NeonPlantBlue: {
-	DisplayName: Blue Neon Plant
+	DisplayName: Синее неоновое растение
 	Tooltip: ""
 }
 
 NeonPlantGreen: {
-	DisplayName: Green Neon Plant
+	DisplayName: Зелёное неоновое растение
 	Tooltip: ""
 }
 
 NeonPlantPurple: {
-	DisplayName: Purple Neon Plant
+	DisplayName: Фиолетовое неоновое растение
 	Tooltip: ""
 }
 
 NeonPlantRed: {
-	DisplayName: Red Neon Plant
+	DisplayName: Красное неоновое растение
 	Tooltip: ""
 }
 
 NeonPlantYellow: {
-	DisplayName: Yellow Neon Plant
+	DisplayName: Жёлтое неоновое растение
 	Tooltip: ""
 }
 
 PurpleFairyLights: {
-	DisplayName: Purple Fairy Lights
+	DisplayName: Фиолетовая гирлянда
 	Tooltip: ""
 }
 
 PurpleNeonLamp: {
-	DisplayName: Purple Neon Lantern
+	DisplayName: Фиолетовый неоновый фонарь
 	Tooltip: ""
 }
 
 PurpleNeonSign: {
-	DisplayName: Purple Neon Sign
+	DisplayName: Фиолетовая неоновая табличка
 	Tooltip: ""
 }
 
 RedFairyLights: {
-	DisplayName: Red Fairy Lights
+	DisplayName: Красная гирлянда
 	Tooltip: ""
 }
 
 RedNeonLamp: {
-	DisplayName: Red Neon Lantern
+	DisplayName: Красный неоновый фонарь
 	Tooltip: ""
 }
 
 RedNeonSign: {
-	DisplayName: Red Neon Sign
+	DisplayName: Красная неоновая табличка
 	Tooltip: ""
 }
 
@@ -4731,17 +4731,17 @@ VaporwaveItem: {
 }
 
 YellowFairyLights: {
-	DisplayName: Yellow Fairy Lights
+	DisplayName: Жёлтая гирлянда
 	Tooltip: ""
 }
 
 YellowNeonLamp: {
-	DisplayName: Yellow Neon Lantern
+	DisplayName: Жёлтый неоновый фонарь
 	Tooltip: ""
 }
 
 YellowNeonSign: {
-	DisplayName: Yellow Neon Sign
+	DisplayName: Жёлтая неоновая табличка
 	Tooltip: ""
 }
 
@@ -5449,7 +5449,7 @@ VictoryDayBox: {
 }
 
 VinewrathBox: {
-	DisplayName: Музыкальная шкатулка (Vinewrath Bane)
+	DisplayName: Музыкальная шкатулка (Гневоплющ)
 	Tooltip: ""
 }
 
@@ -5509,7 +5509,7 @@ StarplateRelicItem: {
 }
 
 VinewrathRelicItem: {
-	DisplayName: Vinewrath Bane Relic
+	DisplayName: Реликвия Гневоплюща
 	Tooltip: ""
 }
 
@@ -5538,7 +5538,7 @@ SuperSunFlowerItem: {
 }
 
 AcidBrick: {
-	DisplayName: Corrosive Brick
+	DisplayName: Ржавый кирпич
 	Tooltip: ""
 }
 
@@ -5568,27 +5568,27 @@ HalloweenGrass: {
 }
 
 NeonBlockBlueItem: {
-	DisplayName: Blue Neon Block
+	DisplayName: Синий неоновый блок
 	Tooltip: ""
 }
 
 NeonBlockGreenItem: {
-	DisplayName: Green Neon Block
+	DisplayName: Зелёный неоновый блок
 	Tooltip: ""
 }
 
 NeonBlockPurpleItem: {
-	DisplayName: Purple Neon Block
+	DisplayName: Фиолетовый неоновый блок
 	Tooltip: ""
 }
 
 NeonBlockRedItem: {
-	DisplayName: Red Neon Block
+	DisplayName: Красный неоновый блок
 	Tooltip: ""
 }
 
 NeonBlockYellowItem: {
-	DisplayName: Yellow Neon Block
+	DisplayName: Жёлтный неоновый блок
 	Tooltip: ""
 }
 
@@ -5652,7 +5652,7 @@ TechBlockItem: {
 }
 
 AcidWall: {
-	DisplayName: Corrosive Brick Wall
+	DisplayName: Ржавая кирпичная стена
 	Tooltip: ""
 }
 
@@ -5981,9 +5981,9 @@ BloodCourtChestplate: {
 	DisplayName: Bloodcourt's Vestments
 	Tooltip:
 		'''
-		6% increased damage
-		12% increased melee speed
-		20% chance to not consume ammo
+		Увеличивает урон на 6%
+		Увеличивает скорость атаки ближнего боя на 12%
+		Даёт 20% шанс не потратить боеприпасы
 		'''
 }
 
@@ -5991,8 +5991,8 @@ BloodCourtHead: {
 	DisplayName: Bloodcourt's Visage
 	Tooltip:
 		'''
-		4% increased damage
-		Increases your max number of minions
+		Увеличивает урон на 4%
+		Увеличивает максимальное количество миньонов на 1
 		'''
 }
 
@@ -6000,8 +6000,8 @@ BloodCourtLeggings: {
 	DisplayName: Bloodcourt's Leggings
 	Tooltip:
 		'''
-		Increases movement speed by 10%
-		Increases maximum mana by 30
+		Увеличивает скорость передвижения на 10%
+		Увеличивает максимальный запас маны на 30 ед.
 		'''
 }
 
@@ -6758,7 +6758,7 @@ GoldChest: {
 }
 
 Jem: {
-	DisplayName: Jem
+	DisplayName: Алмас
 	Tooltip: Holds untold power
 }
 
@@ -7732,7 +7732,7 @@ SpiritFlameStaff: {
 }
 
 StarCutter: {
-	DisplayName: Star Cutter
+	DisplayName: Звёздный резак
 	Tooltip: ""
 }
 
@@ -8951,7 +8951,7 @@ GlowplatePlatformItem: {
 }
 
 AcidPlatformItem: {
-	DisplayName: Corrosive Platform
+	DisplayName: Ржавая платформа
 	Tooltip: ""
 }
 

@@ -3,14 +3,14 @@ Misc: {
 	GoodLuck: Удача!
 	NoShrines: Святилищ не осталось!
 	Bullseye: Bullseye!
-	VWBConsume: The Bramble shall consume you...
-	VWBRainOver: The torrential downpour in the Briar has lifted!
-	VWBWrath: You cannot stop the wrath of nature!
-	StarplateAnnouncement: The Astralite in the Asteroids hums with energy.
+	VWBConsume: Лозы поглотят тебя...
+	VWBRainOver: Проливной дождь в терновнике закончился!
+	VWBWrath: Гнев природы не остановить!
+	StarplateAnnouncement: Астралит в поле астероидов начинает гудеть от переполняющей его энергии.
 	Pinned: Булавка добавлена
 	PinRemoved: Булавка удалена
-	PinMove: Нажмите, чтобы передвинуть
-	Put: Right click to put into Candy Bag
+	PinMove: Переместить булавку
+	Put: Нажмите ПКМ, чтобы положишь в конфетный мешок
 	SturdyActivated: Sturdy Activated!
 	SpiritSpread: По земле разливаются духи...
 	NotDefeat: You have yet to defeat the true master of Hell...
@@ -18,7 +18,6 @@ Misc: {
 	Unlocked: Unlocked!
 	BloodstainedChestChat: The ancient chest seems to be covered in gold, blood, and bones. It surely contains great riches, but opening it may be perilous.
 	Oped: Open
-	StarjinxMeteoriteOnKill: The asteroids return to their tranquil state...
 	WardenEnchant: Enchant moment - we got {0}
 	Point: Points
 	Win: Wins
@@ -70,14 +69,9 @@ Keybinds: {
 Events: {
 	BlueMoon: {
 		OnStart: Восходит таинственная луна...
-		IsDay: The moon isn't powerful in daylight.
-		IsCalmNight: The night's too calm.
+		IsDay: Луна не обладает необходимой силой во время дня.
+		IsCalmNight: Сегодня слишком тихая ночь.
 	}
-
-	JellyDeluge.OnStart: Странные медузы летят с небес!
-	LuminousOcean.OnStart: Океан озаряется свечением...
-	BloodMoon.DayTime: The Blood Moon only emerges at night.
-	StarjinxSummon: An enchanted comet has appeared in the sky!
 
 	TheTide: {
 		OnEnd: Прилив отступает!
@@ -86,7 +80,9 @@ Events: {
 		Wave: "Волна {0}: "
 	}
 
-	Starjinx.Wave: Wave Progress : {0}%
+	JellyDeluge.OnStart: Странные медузы летят с небес!
+	LuminousOcean.OnStart: Океан озаряется свечением...
+	BloodMoon.DayTime: Кровавая луна может наступить только ночью.
 }
 
 BossChecklistIntegration: {
@@ -107,24 +103,24 @@ BossChecklistIntegration: {
 }
 
 GameTips: {
-	SpiritGameTip0: Moon Jelly makes a great source of healing!
-	SpiritGameTip1: Overseer isn't coming back!
-	SpiritGameTip2: You can find the Adventurer in the Underground Briar at any time.
-	SpiritGameTip3: Mystic Shrines offer many benefits - or threats!
-	SpiritGameTip4: The Jem holds power untold. Do you have what it takes?
-	SpiritGameTip5: Defeat the Starplate Voyager to obtain Astralite, a powerful space metal.
-	SpiritGameTip6: The Ocean is full of many surprises. Check it out sometime!
-	SpiritGameTip7: Clubs make for really nice short range weapons, especially if you need to keep a lot of enemies off of you.
-	SpiritGameTip8: The Sepulchres deep underground are dangerous, but well worth it.
-	SpiritGameTip9: Quests are an easy way to get a ton of rewards - talk to the Adventurer to get the book!
+	SpiritGameTip0: Лунное желе — отличная вещь, чтобы подлечиться!
+	SpiritGameTip1: Оверсиер не вернётся!
+	SpiritGameTip2: В подземном терновнике сидит пойманный приключенец, ждущий своего спасителя.
+	SpiritGameTip3: В таинственных святилищах можно найти много полезного... или много проблем!
+	SpiritGameTip4: Алмас таит неизведанную силу. Достойны ли вы её?
+	SpiritGameTip5: Одолев Звездопанцирного странника, вы сможете добывать астралит — космический металл, из которого можно сделать мощную экипировку.
+	SpiritGameTip6: Океан хранит много сюрпризов. Заглядывайте туда время от времени!
+	SpiritGameTip7: Дубины — удобное оружие ближнего боя, позволяющее держать врагов на расстоянии.
+	SpiritGameTip8: Под землёй можно найти склепы, полные так и опасностей, так и хороших наград.
+	SpiritGameTip9: Выполнение заданий — отличный способ получить тонну наград! Поговорите с приключенцем, чтобы получить книгу заданий!
 }
 
 AvianIslandSigns: {
-	0: (the text is illegible)
-	1: Floating Resort - The only (scratch marks)
-	2: Overseer Spotted in Distance? More At 5
-	3: A Revival? More likely thank you think!
-	4: Find more (scratch marks) and for only 50g!
+	0: (текст неразборчив)
+	1: Парящий курорт — единственный (исцарапано)
+	2: В лесу духов был замечен Оверсиер? Подробнее в 17:00
+	3: Возрождение куда реальнее, чем вы думали!
+	4: Получите (исцарапано) всего за 50 золотых!
 }
 
 FrozenEnemies: {

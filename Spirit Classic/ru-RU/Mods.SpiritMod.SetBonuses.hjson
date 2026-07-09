@@ -11,9 +11,9 @@ Bismite:
 	'''
 BloodCourt:
 	'''
-	Double tap {0} to sacrifice 8% of your maximum health
-	and launch a bolt of Dark Anima dealing high damage in a radius
-	This bolt siphons 10 additional health over 5 seconds
+	Дважды нажмите клавишу {0}, чтобы пожертвовать 8% от максимального запаса здоровья
+	и выпустить сгусток тёмной анимы, наносящий высокий урон по области
+	Этот сгусток дополнительно высасывает из врага 10 ед. здоровья в течение 5 секунд
 	'''
 Botanist:
 	'''

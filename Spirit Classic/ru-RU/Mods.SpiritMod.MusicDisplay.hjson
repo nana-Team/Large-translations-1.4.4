@@ -1,195 +1,190 @@
 ModName: Spirit Mod
 Salvati: Salvati
 Sbubby: Sbubby
-By: by
+By: от
 BySalvati: "{$By} {$Salvati}"
 
 GraniteBiome: {
-	DisplayName: Resounding Stones (Granite Theme)
+	DisplayName: Гранитная пещера: Resounding Stones
 	Author: "{$BySalvati}"
 }
 
 AuroraSnow: {
-	DisplayName: Aurora Borealis
+	DisplayName: Северное сияние: Aurora Borealis
 	Author: "{$BySalvati}"
 }
 
 DepthInvasion: {
-	DisplayName: Drowning Tides (Tide Theme)
+	DisplayName: Прилив: Drowning Tides
 	Author: "{$BySalvati}"
 }
 
 SnowNighttime: {
-	DisplayName: Icy Stars (Snow Night Theme)
+	DisplayName: Ночные снега: Icy Stars
 	Author: "{$BySalvati}"
 }
 
 DesertNighttime: {
-	DisplayName: Kempt Dunes (Desert Night Theme)
+	DisplayName: Ночная пустыня: Kempt Dunes
 	Author: "{$BySalvati}"
 }
 
 OceanNighttime: {
-	DisplayName: Beyond the Horizon (Luminous Ocean Theme)
+	DisplayName: Сияющий океан: Beyond the Horizon
 	Author: "{$BySalvati}"
 }
 
-CrimsonNighttime: {
-	DisplayName: Razor's Edge (Crimson Night Theme)
-	Author: "{$BySalvati}, {$Sbubby}"
-}
-
 ReachUnderground: {
-	DisplayName: Lurking Vines (Underground Briar Theme)
+	DisplayName: Подземный терновник: Lurking Vines
 	Author: "{$By} {$Sbubby}"
 }
 
 Meteor: {
-	DisplayName: Space Rocks! (Meteorite Theme)
+	DisplayName: Метеорит: Space Rocks!
 	Author: "{$BySalvati}"
 }
 
 Infernon: {
-	DisplayName: Fiery Care (Infernon Theme)
+	DisplayName: Инфернон: Fiery Care
 	Author: "{$BySalvati}"
 }
 
 CorruptNight: {
-	DisplayName: Nightmare Fuel (Corruption Night Theme)
+	DisplayName: Ночное искажение: Nightmare Fuel
 	Author: "{$BySalvati}"
 }
 
 NeonTech1: {
-	DisplayName: Spaced Out (Hyperspace Day Theme)
+	DisplayName: Дневное гиперпространство: Spaced Out
 	Author: "{$BySalvati}"
 }
 
 NeonTech: {
-	DisplayName: Techno Vibes (Hyperspace Night Theme)
+	DisplayName: Ночное гиперпространство: Techno Vibes
 	Author: "{$BySalvati}"
 }
 
 BlueMoon: {
-	DisplayName: Nighttime Groove (Mystic Moon Theme)
+	DisplayName: Таинственная луна: Nighttime Groove
 	Author: "{$BySalvati}"
 }
 
 JellySky: {
-	DisplayName: Sticky Situation (Jelly Deluge Theme)
+	DisplayName: Медузное наводнение: Sticky Situation
 	Author: "{$BySalvati}"
 }
 
 FrostLegion: {
-	DisplayName: Tougher Chill (Frost Legion Theme)
+	DisplayName: Морозный легион: Tougher Chill
 	Author: "{$BySalvati}"
 }
 
 SpiderCave: {
-	DisplayName: Xyresic Horrors (Spider Cave Theme)
+	DisplayName: Паучье гнездо: Xyresic Horrors
 	Author: "{$BySalvati}"
 }
 
 MoonJelly: {
-	DisplayName: Mystical Mischief (Moon Jelly Wizard Theme)
+	DisplayName: Лунная медуза-волшебник: Mystical Mischief
 	Author: "{$BySalvati}"
 }
 
 HallowNight: {
-	DisplayName: Wonderous Landscape (Hallow Night Theme)
+	DisplayName: Ночное освящение: Wonderous Landscape
 	Author: "{$BySalvati}"
 }
 
 Atlas: {
-	DisplayName: Tremors Underneath (Atlas Theme)
+	DisplayName: Атлант: Tremors Underneath
 	Author: "{$BySalvati}"
 }
 
 SpiritLayer3: {
-	DisplayName: Hellish Atmosphere (Spirit Depths Theme)
+	DisplayName: Глубины духов: Hellish Atmosphere
 	Author: "{$BySalvati}"
 }
 
 ReachBoss: {
-	DisplayName: Monarch Husk (Vinewrath Bane Theme)
+	DisplayName: Гневоплющ: Monarch Husk
 	Author: "{$BySalvati}"
 }
 
 MarbleBiome: {
-	DisplayName: Regal Tunnel (Marble Theme)
+	DisplayName: Мраморная пещера: Regal Tunnel
 	Author: "{$BySalvati}"
 }
 
 Blizzard: {
-	DisplayName: Shivering Storms (Blizzard Theme)
+	DisplayName: Метель: Shivering Storms
 	Author: "{$BySalvati}"
 }
 
 SpiritLayer1: {
-	DisplayName: Fearful Atmosphere (Underground Spirit Theme)
+	DisplayName: Подземелье духов: Fearful Atmosphere
 	Author: "{$BySalvati}"
 }
 
 Starplate: {
-	DisplayName: Lost Voyager (Starplate Voyager Theme)
+	DisplayName: Звездопанцирный странник: Lost Voyager
 	Author: "{$BySalvati}"
 }
 
 SpiritOverworld: {
-	DisplayName: Enervating Atmosphere (Spirit Theme)
+	DisplayName: Лес духов: Enervating Atmosphere
 	Author: "{$BySalvati}"
 }
 
 Reach: {
-	DisplayName: Floral Fiends (Briar Theme)
+	DisplayName: Терновник: Floral Fiends
 	Author: "{$BySalvati}"
 }
 
 AncientAvian: {
-	DisplayName: Jettisoned Giant (Ancient Avian Theme)
+	DisplayName: Древняя птица: Jettisoned Giant
 	Author: "{$BySalvati}"
 }
 
 UnderwaterMusic: {
-	DisplayName: Deep Ocean
+	DisplayName: Океанические глубины: Undersea Adventure
 	Author: "{$BySalvati}"
 }
 
 VictoryDay: {
-	DisplayName: Overworld Alt Alt (Victory Day Theme)
+	DisplayName: День победы: Adventurer's Triumph
 	Author: "{$BySalvati}"
 }
 
 AshStorm: {
-	DisplayName: Ash Storm
+	DisplayName: Пеплопад: Ash Storm
 	Author: "{$BySalvati}"
 }
 
 Asteroids: {
-	DisplayName: Above Islands (Asteroid Theme)
+	DisplayName: Поле астероидов: Above Islands (Asteroid Theme)
 	Author: "{$BySalvati}"
 }
 
 DuskingTheme: {
-	DisplayName: Dusking
+	DisplayName: Сумрачный король: Dusking
 	Author: "{$By} LordCakeSpy"
 }
 
 Scarabeus: {
-	DisplayName: Crawling Complications (Scarabeus Theme)
+	DisplayName: Скарабеус: Crawling Complications
 	Author: "{$BySalvati}"
 }
 
 TranquilWinds: {
-	DisplayName: Tranquil Winds
+	DisplayName: Безмятежные ветра: Tranquil Winds
 	Author: "{$BySalvati}"
 }
 
 ReachNighttime: {
-	DisplayName: Briar Night
+	DisplayName: Ночной терновник: Briar Night
 	Author: "{$BySalvati}"
 }
 
 CrimsonNight: {
-	DisplayName: Razor's Edge (Crimson Night Theme)
+	DisplayName: Ночной багрянец: Razor's Edge
 	Author: "{$BySalvati}, {$Sbubby}"
 }

@@ -2,41 +2,37 @@ SpiritClientConfig: {
 	DisplayName: Клиентская конфигурация
 
 	ScreenShake: {
-		Label: "[i:SpiritMod/MoonStone] Visuals: Screenshake"
-		Tooltip:
-			'''
-			Modifies the intensity of screenshake applied by content within the mod
-			Set to 0 to completely disable
-			'''
+		Label: Множитель силы тряски экрана
+		Tooltip: Определяет уровень силы тряски экрана, создаваемой контентом Spirit.
 	}
 
 	DistortionConfig: {
-		Label: "[i:SpiritMod/MoonStone] Visuals: Screen Distortion"
+		Label: Screen Distortion
 		Tooltip: Enables screen distortion while in the Spirit Biome or when fighting the Starplate Voyager
 	}
 
 	ForegroundParticles: {
-		Label: "[i:SpiritMod/MoonStone] Visuals: Foreground Particles"
+		Label: Foreground Particles
 		Tooltip: Enables extra particles in the foreground under certain conditions
 	}
 
 	AutoReuse: {
-		Label: "[i:SpiritMod/Minifish] QoL: Auto-Reuse Tooltip"
+		Label: Auto-Reuse Tooltip
 		Tooltip: Enables an extra line in weapon tooltips displaying if an item is auto-reuse/autoswing
 	}
 
 	QuickSell: {
-		Label: "[i:SpiritMod/PirateCrate] QoL: Quick-Sell Feature"
+		Label: Механика быстрой продажи предметов
 		Tooltip: Enables the quick-sell feature, which allows for easily selling all unwanted items to NPCs
 	}
 
 	AmbientSounds: {
-		Label: "[i:SpiritMod/GladeWreath] Ambience: Ambient Sounds"
+		Label: Ambient Sounds
 		Tooltip: Enables ambient sound effects for some biomes
 	}
 
 	LeafFall: {
-		Label: "[i:SpiritMod/GladeWreath] Ambience: Falling Leaf Effects"
+		Label: Falling Leaf Effects
 		Tooltip:
 			'''
 			Enables falling leaf ambience during Calm Nights or while in the Briar
@@ -45,72 +41,92 @@ SpiritClientConfig: {
 	}
 
 	QuestBookLocation: {
-		Label: "[i:SpiritMod/MapScroll] Quests: Quest Book Button Location"
+		Label: Quest Book Button Location
 		Tooltip: Change where the quest book's button appears in your inventory
 	}
 
 	QuestBookSwitching: {
-		Label: "[i:SpiritMod/MapScroll] Quests: Quest Book Tab Switching"
+		Label: Quest Book Tab Switching
 		Tooltip: Switches from the current tab to the Active or Complete tab when a quest is activated or completed
 	}
 
 	ShowNPCQuestNotice: {
-		Label: "[i:SpiritMod/MapScroll] Quests: Town NPC Quest Icons"
+		Label: Town NPC Quest Icons
 		Tooltip: Enables the showing of quest exclamation marks when a Town NPC has a new quest
 	}
 
 	DoubleHideoutGeneration: {
-		Label: "[i:SpiritMod/BismiteCrystal] Worldgen: Arcane Tower and Bandit Hideout Generation"
+		Label: Генерировать таинственную башню и укрытие бандитов вместе
 		Tooltip:
 			'''
-			Enables the generation of both the Bandit Hideout and Arcane Tower
-			Only one spawns per world by default
-			Recommended only for large worlds
+			Позволяет генерировать обе структуры в новых мирах, а не только одну.
+			Рекомендуется только для больших миров.
 			'''
 	}
 
 	OceanShape: {
-		Label: "[i:SpiritMod/BlackPearl] Oceans: Ocean Generation Shape"
+		Label: Форма океана
 		Tooltip:
 			'''
-			Modifies the Ocean generation in certain ways
-			Defaults to a Piecewise_V generation
-			The Piecewise_V generation is recommended for Spirit playthroughs
+			Определяет способ генерации океана.
+			По умолчанию используется тип «Кусочная (V)» и рекомендуется для прохождения мода.
 			'''
 	}
 
 	VentCritters: {
-		Label: "[i:SpiritMod/BlackPearl] Oceans: Hydothermal Vent Ecosystems"
+		Label: Живность возле гидротермальных источников
 		Tooltip:
 			'''
-			Enables the spawning of numerous critters around Hydrothermal Vents
-			These critters do not interfere with regular enemy spawnrates
-			However, they do contribute to the maximum NPC limit
+			Рядом с гидротермальными источниками будут появляться различная живность.
+			Она не влияет на частоту появления обычных врагов, но будет учитываться в общем лимите существ в мире.
 			'''
 	}
 
 	SurfaceWaterTransparency: {
-		Label: "[i:SpiritMod/BlackPearl] Oceans: Ocean Water Transparency"
+		Label: Прозрачная вода в океане
 		Tooltip:
 			'''
-			Allows for transparent ocean water when on
-			This does not affect any other biome
+			Делает воду в океане более прозрачной.
+			Это не влияет на другие биомы.
 			'''
 	}
 
 	EnemyFishing: {
-		Label: "[i:SpiritMod/HornetfishQuest] Fishing: Fishing Encounters"
+		Label: Fishing Encounters
 		Tooltip: Enables enemy encounters while fishing
 	}
 
 	AuroraEnabled: {
-		Label: "[i:SpiritMod/MoonStone] Visuals: Aurora Enabled"
+		Label: Aurora Enabled
 		Tooltip: Enables or disables the Aurora visuals. This does not stop Aurora-based effects or enemies from appearing
 	}
 
 	EnableSepulchres: {
-		Label: "[i:SpiritMod/CursedArmorItem] World Generation: Enable Dark Sepulchres"
-		Tooltip: Enables or disables the Dark Sepulchre structures found underground. Useful to turn off if you experience generation issues with other mods
+		Label: Тёмные склепы
+		Tooltip:
+			'''
+			Позволяет переключать генерацию тёмных склепов в новых мирах.
+			Отключите, если тёмные склепы вызывают проблемы при игре с другими модами.
+			'''
+	}
+
+	ForceClassicZiggurat: {
+		Label: Принудительно генерировать классический зиккурат
+		Tooltip:
+			'''
+			Зиккурат из Spirit Classic будет генерироваться в новых мирах даже с включённым Spirit Reforged.
+			Из-за этого классический зиккурат может начать перекрывать другие структуры.
+			'''
+	}
+
+	Headers: {
+		Visuals: "[i:SpiritMod/MoonStone] Визуальные эффекты"
+		QoL: "[i:SpiritMod/PirateCrate] Удобства"
+		Ambience: "[i:SpiritMod/GladeWreath] Звуковые эффекты"
+		Quests: "[i:SpiritMod/MapScroll] Задания"
+		Generation: "[i:SpiritMod/BismiteCrystal] Генерация мира"
+		Oceans: "[i:SpiritMod/BlackPearl] Океан"
+		Fishing: "[i:SpiritMod/HornetfishQuest] Рыбалка"
 	}
 }
 
@@ -137,28 +153,28 @@ OceanShape: {
 	Tooltip: ""
 
 	Default: {
-		Label: Default
-		Tooltip: Vanilla's default ocean generation. Disables Spirit Classic's generation.
+		Label: Стандартная
+		Tooltip: Ванильная генерация океана. Отключает все изменения Spirit.
 	}
 
 	SlantedSine: {
-		Label: Slanted Sine
-		Tooltip: Adjusted slope that uses a diagonal sine wave for generation.
+		Label: Синусоида
+		Tooltip: Генерация океана, определяемая наклонённой синусоидой волной.
 	}
 
 	Piecewise: {
-		Label: Piecewise
-		Tooltip: Piecewise generation combining a few slopes. Original piecewise generation, but a little rough.
+		Label: Кусочная
+		Tooltip: Более сложная генерация океана, определяемая кусочно-заданной функцией.
 	}
 
 	Piecewise_M: {
-		Label: Piecewise_M
-		Tooltip: Modified piecewise generation, slightly improved.
+		Label: Кусочная (M)
+		Tooltip: Генерация на базе кусочно-заданной функции с немного изменённой крутизной на отдельных участках.
 	}
 
 	Piecewise_V: {
-		Label: Piecewise_V
-		Tooltip: Final piecewise generation, the intended Spirit ocean generation.
+		Label: Кусочная (V)
+		Tooltip: Финальная версия генерации на базе кусочно-заданной функции с небольшими изменениями.
 	}
 }
 
