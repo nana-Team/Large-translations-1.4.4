@@ -57,24 +57,24 @@ Floran:
 	'''
 Frigid:
 	'''
-	Дважды нажмите {0}, чтобы создать ледяную стену в точке курсора
+	Дважды нажмите клавишу {0}, чтобы создать ледяную стену в точке курсора
 	Способность перезаряжается 8 секунд
 	'''
 Granite:
 	'''
-	Double tap {0} while falling to stomp downward
-	Hitting the ground releases a shockwave that scales with height
+	Дважды нажмите клавишу {0}, чтобы стремительно упасть на землю
+	Удар о землю создаст ударную волну, сила которой зависит от высоты падения
 	'''
 Infernal:
 	'''
-	When under 25% health, defense is decreased by 4, but Infernal Guardians surround you
-	Infernal Guardians vastly increase summon damage
-	Getting hurt may spawn multiple exploding Infernal Embers
+	Призывает вокруг вас инфернальных стражей, когда у вас менее 25% здоровья, но также снижает защиту на 4 ед.
+	Стражи значительно увеличивают магический урон и снижают расход маны
+	При получении урона могут появиться несколько взрывающихся инфернальных искр
 	'''
 JellynautBubble:
 	'''
-	Hitting or killing enemies with magic weapons generates arcane jellyfish around the player
-	Double tap {0} to cause the jellyfish to attack the cursor position
+	Убийства и попадания по врагам магическим оружием призовёт вокруг вас мистических медуз
+	Дважды нажмите клавишу {0}, чтобы направить медуз на атаку в точке курсора
 	'''
 Leather:
 	'''
@@ -84,8 +84,8 @@ Leather:
 	'''
 Marble:
 	'''
-	Press 'Up' to grant 'Divine Winds', allowing for limited flight
-	10 second cooldown
+	Нажмите ВВЕРХ, чтобы получить бафф «{$Buffs.MarbleDivineWinds.DisplayName}», дарующий временную способность летать
+	Способность перезаряжается 10 секунд
 	'''
 Primalstone:
 	'''
@@ -97,41 +97,35 @@ Rogue:
 	При получении урона даёт 4 секунды невидимости и увеличивает урон на 100%
 	Способность перезаряжается 25 секунд
 	'''
-Runic: Leave behind dangerous explosive runes
+Runic: Вы оставляете за собой опасные взрывающиеся руны
 Seraph:
 	'''
-	Being near enemies increases life regen, increases mana regen, increases melee speed
-	and reduces mana cost by 6% per enemy
-	This effect stacks three times
+	Увеличивает регенерацию здоровья, восстановление маны,
+	скорость атаки ближнего боя и снижает расход маны на 6% за каждого врага поблизости
+	Эффект суммируется до трёх раз
 	'''
 Slag:
 	'''
-	Дважды нажмите {0}, чтобы все ваши стражи выпустили залп огненных шаров
+	Дважды нажмите клавишу {0}, чтобы все ваши стражи выпустили залп огненных шаров
 	Способность перезаряжается 8 секунд
 	'''
 Spirit:
 	'''
-	Spirits grant you various buffs based on your health
-	Increases damage by 8% when below 400 health
-	Increases defense by 6 when below 200 Health
-	Increases life regen when below 100 Health
-	Increases invincibility frames when below 50 Health
-	'''
-Starjinx:
-	'''
-	Greatly increases mana useage and prevents useage of mana potions
-	Running out of mana produces a manajinx pylon near you
-	Collecting the manajinx pylon restores all mana and temporarily enchants magic weapons with stars
+	Духи будут давать вас различные усиления в зависимости от показателя вашего здоровья
+	Увеличивает урон на 8%, если здоровье ниже 400 ед.
+	Увеличивает защиту на 6 ед., если здоровье ниже 200 ед.
+	Увеличивает регенерацию здоровья, если здоровье ниже 100 ед.
+	Увеличивает длительность кадров неуязвимости, если здоровье ниже 50 ед.
 	'''
 Starplate:
 	'''
-	Дважды нажмите {0}, чтобы разместить энергетическое поле в точке курсора
+	Дважды нажмите клавишу {0}, чтобы разместить энергетическое поле в точке курсора
 	Поле действует 5 секунд и усиливает все стрелковые снаряды, пролетающие сквозь него
 	Способность перезаряжается {1} {^1:секунду;секунды;секунд}
 	'''
 StreamSurfer:
 	'''
-	Дважды нажмите {0}, чтобы создать ездовой водяной смерч, наносящий урон врагам
+	Дважды нажмите клавишу {0}, чтобы создать ездовой водяной смерч, наносящий урон врагам
 	Способность перезаряжается 7 секунд
 	'''
 Wayfarer:

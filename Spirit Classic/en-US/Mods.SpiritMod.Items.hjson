@@ -702,29 +702,9 @@ AstronautLegs: {
 	Tooltip: ""
 }
 
-BeachTowel: {
-	DisplayName: Beach Towel
-	Tooltip: "'It keeps you dry, but make sure you don't jump in the water with it on!'"
-}
-
-BikiniBottom: {
-	DisplayName: Bikini Bottom
-	Tooltip: "'Who needs armor anyways when you can run free in the sun!'"
-}
-
-BikiniTop: {
-	DisplayName: Bikini Top
-	Tooltip: "'Despite what one may expect, it really doesn't provide any sort of defense.'"
-}
-
 SwimmingTrunks: {
 	DisplayName: Swimming Trunks
 	Tooltip: "'They don't provide much in the way of defense, but they're undeniably stylish.'"
-}
-
-TintedGlasses: {
-	DisplayName: Tinted Glasses
-	Tooltip: "'They help sell the look, so it's best to keep them on even when it's dark.'"
 }
 
 BeekeeperBody: {
@@ -2781,16 +2761,6 @@ CloudstalkSeed: {
 	Tooltip: ""
 }
 
-Volleyball: {
-	DisplayName: Volleyball
-	Tooltip: ""
-}
-
-VolleyballCourtChecker: {
-	DisplayName: Volleyball Court Checker
-	Tooltip: ""
-}
-
 BeachUmbrellaItem: {
 	DisplayName: Beach Umbrella
 	Tooltip: ""
@@ -3031,7 +3001,11 @@ Cake: {
 
 FishFingers: {
 	DisplayName: Fish Fingers
-	Tooltip: "'Goes great with custard!'"
+	Tooltip:
+		'''
+		{$BuffDescription.WellFed}
+		'Goes great with custard!'
+		'''
 }
 
 GhostPepper: {
@@ -3047,7 +3021,7 @@ GoldenCaviar: {
 	DisplayName: Golden Caviar
 	Tooltip:
 		'''
-		Major improvements to all stats
+		{$BuffDescription.WellFed3}
 		Emits an aura of light
 		'It has an exquisite glow'
 		'''
@@ -8446,11 +8420,6 @@ MarbleMinecartItem: {
 
 Zombie_Chest: {
 	DisplayName: Chest
-	Tooltip: ""
-}
-
-SandPiperItem: {
-	DisplayName: Sand Piper
 	Tooltip: ""
 }
 

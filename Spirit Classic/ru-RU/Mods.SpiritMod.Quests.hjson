@@ -18,14 +18,14 @@ Undiscovered: Это задание ещё не открыто.
 # These are all used for minor parts of quests, such as "Catch 2 Fish" or similar.
 TalkTo: Поговорить: {0}
 # Same as above. Used for "Explore <area>" in-game.
-Explore: "Исследуйте "
+Explore: "Исследовать "
 Retrieve: Получить: {1} ({0} шт.)
 Catch: Поймать: {1} ({0} шт.)
 Kill: Убить: {1} ({0} шт.)
 PluralSuffix: ""
 Comma: ", "
 Or: " или "
-Craft: Создать: {1} ({0} шт.).
+Craft: Создать: {1} ({0} шт.)
 Capture: Поймать: {1} ({0} шт.)
 Harvest: Собрать: {1} ({0} шт.)
 OptionalGather: Собрать: {1} ({0} шт.) (Необязательно)
@@ -231,9 +231,9 @@ QuestInfo: {
 	}
 
 	ExplorerQuestLuminous: {
-		Name: High Tide, Glow Tide
-		Description: I love the beach. Now, you may be picturin' the sun and the sand, and I love that stuff too! But I'm talkin' about the beach at night. If you're lucky, you can see some beautiful glowing algae wash up on the shore and turn the water into pretty colors! I'd really recommend kicking back and relaxing at a Luminous Ocean.
-		Objective: a Luminous Ocean at the beach
+		Name: Высокая, сияющая волна
+		Description: Я очень люблю пляж. Ты, наверное, сейчас представил себе солнце и песок, и это всё я тоже очень люблю! Но больше всего я люблю ночной пляж. Если повезёт, можно увидеть, как волна выносит на берег светящиеся водоросли, из-за которых вода переливается красивыми цветами! Очень советую тебе как-нибудь прилечь у сияющего океана и расслабиться.
+		Objective: сияние океана на пляже
 	}
 
 	ExplorerQuestMarble: {
@@ -272,8 +272,8 @@ QuestInfo: {
 	}
 
 	HeartCrystalQuest: {
-		Name: Heart to the Cause
-		Description: If you want to stay alive and keep exploring this world (with my help, of course), we'll need to make sure you're hale and hearty. Get it? You'll need to head underground to retrieve a Heart Crystal or two. It'll give you the boost you need! After that, you should be able to try out some of the more difficult quests that the Adventurer left behind.
+		Name: Дела сердечные
+		Description: Если хочешь выжить в этом мире и разгадать все его тайны (разумеется, не без моей помощи), тебе нужно быть смелее — сжать сердце в кулак... а лучше десять сердец... Понял, к чему я веду? Отправляйся в пещеры и найди там парочку кристаллов жизни — они придадут тебе сил. После этого ты уже сможешь взяться за более сложные задания от приключенца.
 	}
 
 	IceDeityQuest: {
@@ -299,7 +299,7 @@ QuestInfo: {
 		Name: Забытый идол
 		Description: Пески пустыни таят много секретов. Поговаривают даже, что неглубоко под одной из таких дюн зарыт древний зиккурат. Не мог бы ты туда сгонять да притащить мне каких-нибудь реликвий?
 		ReturnToAdventurer: Вернуться к приключенцу со своей находкой
-		Warning: Так и знал. Стоило мне протереть эту старую штуковину, как я разглядел в ней нечто до боли знакомое. Это же идол скарабея! Предупреждаю, не трогай его лишний раз, пока не будешь уверен в своей силе. Несколько лет назад мы целым отрядом охотились на этого скарабея, и это почти стоило нам наших жизней. Будь осторожен, друг.
+		Warning: "{$SinisterSands.Description}"
 	}
 
 	ItsNoSalmon: {
@@ -427,6 +427,6 @@ QuestInfo: {
 	UnidentifiedFloatingObjects: {
 		Name: Unidentified Floaters
 		Description: I quit drinkin' years ago, but I swear the sky's been lighting up something fierce recently! I've been doin' some research and I think the skies may be home to some mystical jellyfish swarms. Now, the only 'proof' I have are some sources of, er, ill repute, but I know I can count on you to check it out! And capture me the tastiest- I mean most interesting one!
-		Objective: странное медузное наводнение
+		Objective: странное Медузное наводнение
 	}
 }

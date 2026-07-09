@@ -47,47 +47,45 @@ AssassinMagazine: {
 }
 
 Bauble: {
-	DisplayName: Winter's Bauble
+	DisplayName: Зимняя безделушка
 	Tooltip:
 		'''
-		Defensive and movement abilities are increased when below half health
-		Dropping below half health creates a shield that nullifies projectiles for 6 seconds
-		1 minute cooldown
+		Увеличивает защитные и мобильные показатели, когда у вас менее половины здоровья
+		При снижении здоровья ниже половины создаётся щит, отражающий снаряды в течение 6 секунд
+		Способность перезаряжается 1 минуту
 		'''
 }
 
 BowSummonItem: {
-	DisplayName: Jinxbow
+	DisplayName: Лук сглаза
 	Tooltip:
 		'''
-		Summons a possessed bow to fight for you
-		Uses the first arrow in your inventory
-		If you have no arrows, shoots weaker Jester Arrows infinitely
-		The bow does not take any minion slots
+		Призывает одержимый лук, не занимающий слоты миньонов, сражаться за вас
+		Лук будет использовать стрелы из вашего инвентаря 
+		Если у вас не будет стрел, лук будет стрелять ослабленной версией шутовских стрел
 		'''
 }
 
 ChaosCrystal: {
-	DisplayName: Chaos Crystal
-	Tooltip: Getting hit has a chance to teleport you to somewhere nearby
+	DisplayName: Кристалл хаоса
+	Tooltip: Получение урона может телепортировать вас в случайное место поблизости
 }
 
 CimmerianScepter: {
-	DisplayName: Cimmerian Scepter
+	DisplayName: Киммерийский скипетр
 	Tooltip:
 		'''
-		Summons a magic scepter to fight for you
-		The scepter uses a multitude of attacks against foes
-		This scepter does not take up minion slots
+		Призывает магический скипетр, не занимающий слоты миньонов, сражаться за вас
+		Скипетр будет использовать разнообразные атаки для атаки врагов
 		'''
 }
 
 CleftHorn: {
-	DisplayName: Cleft Horn
+	DisplayName: Треснувший рог
 	Tooltip:
 		'''
-		Increases armor penetration by 3
-		Melee attacks occasionally strike enemies twice
+		Увеличивает пробивание брони на 3 ед.
+		Атаки ближнего боя иногда будут наносить двойной урон врагам
 		'''
 }
 
@@ -116,7 +114,7 @@ DarkfeatherVisage: {
 	Tooltip:
 		'''
 		Увеличивает магический урон и урон призывателя на 7%
-		Даёт дополнительный бонус при ношении с магическим одеянием или шубы из меха флинкса
+		Даёт дополнительный бонус при ношении с магическими одеяниями или шубой из меха флинкса
 		'''
 }
 
@@ -693,29 +691,9 @@ AstronautLegs: {
 	Tooltip: ""
 }
 
-BeachTowel: {
-	DisplayName: Пляжное полотенце
-	Tooltip: «Сохраняет вашу сухость, но не вздумайте прыгать с ним в воду!»
-}
-
-BikiniBottom: {
-	DisplayName: Трусики
-	Tooltip: «Долой броню, свободу трусикам!»
-}
-
-BikiniTop: {
-	DisplayName: Бюстгальтер
-	Tooltip: «Вопреки ожиданиям, он действительно не даёт никакой защиты»
-}
-
 SwimmingTrunks: {
 	DisplayName: Плавки
 	Tooltip: «Хотя они особо не защищают, они, определённо, выглядят стильно»
-}
-
-TintedGlasses: {
-	DisplayName: Тонированные очки
-	Tooltip: «Они придают такого стиля, что лучше их не снимать даже ночью»
 }
 
 BeekeeperBody: {
@@ -994,11 +972,11 @@ WinterHat: {
 }
 
 MimeMask: {
-	DisplayName: Mime Mask
+	DisplayName: Маска мима
 	Tooltip:
 		'''
-		Increases summon damage by 3%
-		Increases your max number of minions
+		Увеличивает урон призывателя на 3%
+		Увеличивает максимальное количество миньонов на 1
 		'''
 }
 
@@ -1753,25 +1731,27 @@ Book_ArmorGuide: {
 }
 
 Book_Briar: {
-	DisplayName: Notes on the Briar
-	Tooltip: by Field Researcher Laywatts
+	DisplayName: О терновнике
+	Tooltip: от полевого исследователя Лейватс
 	Content:
 		'''
-		Our three month expedition into the scarcely explored Briar came to an end two weeks ago. The team consisted of I, Dr. Nisha Laywatts, Dr. Rathi Everest, and a hired adventurer whose name is unknown. Dr. Everest and I completed the expedition unharmed, but the adventurer went missing four days before the excursion was complete. We tried searching for him to no avail. What is more pertinent to this book, however, is the data we have accrued.
+		Наша трёхмесячная экспедиция в загадочный терновник кончилась ровно две недели назад. В нашей исследовательской группе был доктор Рати Эверест, один наёмный приключенец, чьего имени мы не знаем до сих пор, и я — Ниша Лейватс. В ходе экспедиции я и доктор Эверест не пострадали, чего нельзя сказать о приключенце, пропавшем без вести за четыре дня до окончания исследовательских работ. Мы пытались отыскать его, но всё безуспешно. Однако моя книга совсем не об этом, а о собранных нами данных, непосредственно относящихся к объекту исследования.
 		---
-		[c/7c9e5a:Climate and Ecology]
-		The Briar presents one of the most unique climate systems in the world: the entire region undergoes perpetual rainfall. Temperatures are warm and humid, and plant life is overgrown. So overgrown, in fact, that a giant root system seems to run across and under the entire ecosystem. The reason for this continued rainfall is unknown, but I hypothesize that some megaflora (or perhaps even megafauna) at the center of this root system exerts a form of arcane power over the area that causes this torrential downpour.
+		[c/7c9e5a:Климатические условия]
+		Климат терновника — уникальное природное явление: дожди здесь идут круглый год без остановки. Температура достаточно тёплая, влажность — экстремальная. Точная причина нескончаемых дождей в терновнике не установлена. Предположительно, это связано с исходящей из центра биома магической силы, источником которой служит одно конкретное гигантское растение (или животное).
 		---
-		[i:SpiritMod/BriarFlowerItem] [c/7c9e5a:Flora] [i:SpiritMod/BriarFlowerItem]
-		As mentioned earlier, a complex and extensive root system spans the entire Briar. Data shows that every individual plant is connected via this expanse. This connection lets all plants in the Briar to share nutrients with one another, allowing for plant growth to occur far below the surface. Interestingly, plants in the Briar all display some form of bioluminescence. The underlying cause behind this is unknown, but I suspect that plants emit this alluring light to attract prey for the carnivorous beasts of the Briar. In turn, they absorb some of the detritus and use it for nutrition.
+		[i:SpiritMod/BriarFlowerItem] [c/7c9e5a:Флора] [i:SpiritMod/BriarFlowerItem]
+		Благоприятный климат позволил разрастись сложной и обширной корневой системе, занимающей всю территорию терновника. Согласно нашим данным, к этой единой корневой системе привязаны все растения в регионе. Она эффективно перераспределяет питательные вещества, позволяя растениям прорастать под землёй ничуть не хуже, чем на поверхности. Примечательно, что каждый представитель флоры в регионе обладает биолюминисцентностью в том или ином виде. Возможно, это является важным элементом симбиоза флоры и фауны: яркий свет завлекает добычу вглубь терновника, где её поедают хищники, а останки и продукты жизнедеятельности достаются растениям как удобрения.
 		---
-		[i:SpiritMod/RawMeat] [c/7c9e5a:Fauna] [i:SpiritMod/RawMeat]
-		The Briar is dominated by feral, low-intelligence bipeds and quadrapeds. Every faunal organism in the Briar is carnivorous yet composed of a large percentage of plant matter. A few bipeds seem to exhibit higher intelligence and wield magic, but their origin and habits could not be discerned. All organisms in the briar are hyper-aggressive and should be approached with extreme caution.
+		[i:SpiritMod/RawMeat] [c/7c9e5a:Фауна] [i:SpiritMod/RawMeat]
+		Доминирующими видами в терновнике являются агрессивные хищные двуногие или четвероногие с низким интеллектом. Удивительно, что большая часть их тел состоит именно из растительных тканей. Некоторые двуногие отличаются умственными и, что самое интересное, магическими способностями, однако ни их происхождение, ни образ жизни установить не удалось. Всем животным здесь присуща крайняя враждебность — прямого контакта с ними лучше избегать.
 		---
-		[c/7c9e5a:Anomalies]
-		The underground Briar displays signs of inhabitation by some now-extinct civilization. Ruined brick and wood houses can be observed along with primitive weapons, tools, and trinkets. Many mysteries remain about these ruins and the Briar at large. Where did it come from? Why is it so hostile? And where are the people that once lived here?
+		[c/7c9e5a:Аномалии]
+		При изучении подземных территорий терновника были обнаружены следы неизвестной, вероятно вымершей цивилизации. Было найдено несколько разрушенных жилищ из дерева и камня, а также примитивные орудия труда, оружие и украшения. 
 		---
-		Note: It seems as though a page of notes and diagrams is missing from the book. I probably lost it back in the depths of the Briar. Not worth a return journey, though.
+		Проведённые исследования не дали ответов на множество вопросов о терновнике в целом. Как появилась эта природная зона? Почему живые существа в ней настолько враждебны? Куда подевались люди, проживавшие на этой территории?
+		---
+		Примечание: из книги пропала целая страница с заметками и иллюстрациями. Должно быть, я потеряла её в одной из пещер терновника. Возвращаться за ней я точно не собираюсь.
 		'''
 }
 
@@ -1791,27 +1771,29 @@ Book_FoodGuide: {
 }
 
 Book_Gunslinger: {
-	DisplayName: The Gunslinger
-	Tooltip: by Usov Lynx
-	Content: I saw him walk through town yesterday. For some days now townsfolk have been talking about the lone gunslinger who only goes where the earth takes him. Sounded like a bunch of garbage to me. Nobody really knew what he did, only ever been seen for a few moments at a time like some sort of cryptid. One of the old fellas at the saloon recalled having spoken to someone with a similar look years prior. He was apparently a gambling man, kept to himself most of the time. Another claimed he came over a hill to see this gunslinger take out a pack of antlions. Said his iron was so powerful it caused those buggers to explode like a stick of dynamite. Still, it all felt like a whole lot of ghost stories until that moment I saw him. His revolver was marked with some symbol from a playing card. Instead of a hat, he wore a tattered cloak with mysterious lettering on the back. He saw me and gave a slow nod, before continuing on his path.
+	DisplayName: Стрелок
+	Tooltip: от Линкса Усова
+	Content: Вчера я видел, как он шёл по улице... Последние несколько дней по всему городу ходят слухи о неком стрелке-одиночке, который идёт туда, куда заведёт дорога. Для меня всё это звучало как пустой трёп. Никто толком и не знал, чем он вообще занимается. За всё время его видели дай бог пару раз, его как будто бы и не существовало. Какой-то парень из одного трактира рассказывал, что видел этого стрелка вживую. Говорил, что тот любил азартные игры, да и всё на этом: стрелок ни с кем не разговариал, всё держал в себе. Кто-то ещё видел, как этот стрелок в одиночку расправился со стаей муравьиных львов. Его ствол, мол, был настолько мощным, что любая тварь, которой не посчастливилось поймать от стрелка пулю, тут же взрывалась, будто была напичкана динамитом. И всё же, до вчерашнего дня я в эти сказки не верил, пока сам не увидел его. На его револьвере был выгравирован значок масти, как на игральной карте. Вместо шляпы, как можно было подумать, на нём был заношенный плащ, украшенный непонятными буквами. Он тоже меня заметил, остановился, медленно кивнул и дальше пошёл своей дорогой.
 }
 
 Book_Jellyfish: {
-	DisplayName: Jellyfish in the Sky!
-	Tooltip: by Jonah the Knave
+	DisplayName: Медузы на небе!
+	Tooltip: От плутовки Йонны
 	Content:
 		'''
-		I'm not going insane, I promise! I was climbing up my favorite hill a few nights back and I swear I saw 'em! A school of glowing [c/72a4c2:bright blue jellyfish] darting across the sky! They were flying through the air like it was water, and I thought my time was up. Instead of preparing for my inevitable alien abduction, I scrammed! By the time I ran back down, I couldn't see 'em anymore. And no one I've talked to believes me! Why not? Because I tried sellin' them painted rocks disguised as gems? Bunch of babies. Stuff's not right, I'm telling you!
-		While you're readin', can I interest you in some 100% genuine diamonds?
+		Я не сошла с ума, правда! Позапрошлой ночью я забиралась на свой любимый холмик, как вдруг, честное слово, увидела их! Косяк [c/72a4c2:ярко-синих летающих медуз], несущихся по небу! Они проносились по воздуху с такой скоростью, что я уж думала, что моё время пришло. Думала, сейчас меня похитят инопланетяне, и уже мысленно распрощалась со всеми близкими, но в последний момент решила удрать оттуда! Когда я спустилась к подножью холма, медуз уже было не видать. Кому бы эту историю ни рассказывала, никто мне не верит! Но почему? Потому что я им камешки крашеные продала как-то раз под видом самоцветов? Подумаешь, надулись ещё на меня, всерьёз больше не воспринимают. Что-то здесь нечисто с этими медузами, говорю ведь!
+		Кстати, не хотели бы вы купить у меня горстку на все 100% настоящих алмазов?
 		'''
 }
 
 Book_Lava: {
-	DisplayName: Is Lava Hot?
-	Tooltip: by Field Researcher Ocano
+	DisplayName: Горячая ли лава?
+	Tooltip: от полевого исследователя Окано
 	Content:
 		'''
-		Today's a very exciting day; it's the first time I've been authorized to do independent field research! I'm really excited to test out my unique hypothesis: Is lava hot? I mean, how do we know? No one I've ever talked to has touched or even seen lava. But I'm here in a deep cavern, and I'm going to make my mark on the scientific community today! I see some lava over there, so I'm going to touch it. WOW, that is hot! We're making real discoveries here! My left hand is all gone, and it really, really hurts! I'll try my right hand just to be sure and report back my findings. 
+		Сегодня знаменательный день: мне впервые позволили провести собственное исследование! Меня давно мучал вот какой вопрос: а горячая ли лава на самом деле? То есть, нам, конечно, говорят все подряд, что она горячая, но проверял ли это хоть кто-нибудь сам? Все, кого я знаю, лаву ни разу в своей жизни не трогали, откуда им знать, горячая ли она? Сегодня в этой глубокой пещере я докопаюсь до правды и, будьте уверены, потрясу всё научное сообщество!
+		-
+		Передо мной сейчас находится небольшое лавовое озеро, и я собираюсь дотронуться до него! ВАУ, лава правда горячая! Вот это научное открытие! От моей левой руки уже ничего не осталось, и мне очень-очень больно, но оно того стоило! Теперь, чтобы наверняка убедиться, я потрогаю лаву ещё и своей правой рукой. Посмотрим, будет ли мне горячо!
 		[c/ff0000:_--_--+--=&&^^ ^&&]
 		[c/ff0000:^&____/~~~\\_-]
 		'''
@@ -1840,15 +1822,15 @@ Book_Mushroom: {
 }
 
 Book_Slime: {
-	DisplayName: Where Do Slimes Come From?
-	Tooltip: by Sorcerer Galen Arcturus
+	DisplayName: Откуда берутся слизни?
+	Tooltip: от колдуна Галена Арктуруса
 	Content:
 		'''
-		They come from goo.
-		That's about it. At least, that's where conventional research ends. But as an accomplished mage, I must delve deeper!
-		First, it is important to take stock of what we know. Slimes are, scientifically speaking, big blobs of goo. They are highly flammable, possess no internal organs, and yet seem quite intelligent.
-		Their composition matches no other material my fellow mages and I have ever seen. Where then, do they come from? Could a rival mage be summoning them? And to what devious end?! Are they a punishment from the gods themselves? Are we forever trapped in this bouncy, slimy purgatory?
-		And most importantly- are they edible? We must keep searching for answers.
+		Из слизи.
+		Да, если вкратце, то так оно и есть. По крайней мере, таков общепринятый ответ на этот вопрос от традиционной науки. Однако такому искушённому магу как я такого ответа было мало, и я решил копать глубже!
+		Для начала, давайте зафиксируем то, что мы уже знаем. С научной точки зрения, слизни — крупные скопления слизи, или же геля. Они легко воспламеняются, внутренние органы у них отсутствуют, но тем не менее слизни отличаются своим интеллектом.
+		Состав их тела не похож ни на одно другое живое существо или материал, что я и мои знакомые маги когда-либо видели. Так откуда же они взялись? Быть может, их призывает какой-то могущественный маг? Но ради чего, ради какого-то злодейского плана?! Может, они были ниспосланы к нам с небес как наказание за грехи наши? Неужели мы обречены жить вечно в этом сколькзком и липком аду?
+		Но самое главное, можно ли их есть? Нам срочно нужны ответы на все эти вопросы.
 		'''
 }
 
@@ -1881,14 +1863,14 @@ Book_WeaponGuide: {
 }
 
 Book_Yeremy: {
-	DisplayName: I'm Really Mad
-	Tooltip: by Polius Crassus
+	DisplayName: Я очень зол
+	Tooltip: от Полия Крассуса
 	Content:
 		'''
-		I'm furious. This was supposed to be my masterpiece! I really put my heart and soul into this manuscript, and it got shot down instantly. It was supposed to be a gritty drama about a hero who transforms into a villain. Here's my favorite part:
-		[c/b5a493:Yeremy, the Rainforest Dictator]
-		[c/b5a493:And so, after witnessing his sixth home village be destroyed by evil necromancers, Yeremy decided that enough was enough. He was really mad this time. He was going to exact vengeance on all living things... And he'd start by summoning his accursed demon avatar, a hydra straight from the underworld. The only thoughts that ran through his mind were 'kill, kill, kill...']
-		But NOOOOO. My editor says it was 'too asinine' and 'so hyperbolic that I stopped at page three.' Well, his loss! I'm sure I'll find someone that'll like this manuscript.
+		Я вне себя от ярости. Это была работа всей моей жизни! Я вложил всю свою душу в эту рукопись, не пил, не ел, днями напролёт трудился над ней, но её тут же отклонили! Это была мрачная драма про героя, постепенно превращающегося в настоящего злодея. Вот моя любимая часть книги:
+		[c/bb8551:Ярёма, диктатор тропиков]
+		[c/b5a493:И вот, со слезами на глазах смотря, как злые некроманты сжигали уже шестую его родную деревню, Ярёма понял, что с него хватит. На этот раз он был в бешенстве. С тех пор он решил мстить всему живому в этом мире... А начал он, призвав воплощение самого дьявола — проклятую гидру прямиком из преисподней. Он был одержим лишь одной мыслью: «Убивать, убивать, убивать...»]
+		Но НЕЕЕЕЕЕТ же, кое-кому надо было всё испортить! Моему редактору, видите ли, книга показалась «слишком дурацкой», представляете? Ещё сказал мне: «тут настолько много напыщенного пафоса, что я бросил читать уже на третьей странице». Ну и его проблемы! Пусть катится куда подальше. Я уверен, любой другой мою историю оценит.
 		'''
 }
 
@@ -2336,22 +2318,30 @@ InfernalSword: {
 }
 
 InfernalBreastplate: {
-	DisplayName: Pain Monger's Breastplate
+	DisplayName: Нагрудник палача
 	Tooltip:
 		'''
-		Increases minion damage by 10% and maximum minion slots by 1 
-		Increases whip range by 10%
+		Увеличивает урон призывателя и дальность хлыстов на 10%
+		Увеличивает максимальное количество миньонов на 1
 		'''
 }
 
 InfernalGreaves: {
-	DisplayName: Pain Monger's Greaves
-	Tooltip: Increases minion damage by 10% and maximum minion slots by 1
+	DisplayName: Поножи палача
+	Tooltip:
+		'''
+		Увеличивает урон призывателя на 10%
+		Увеличивает максимальное количество миньонов на 1
+		'''
 }
 
 InfernalVisor: {
-	DisplayName: Pain Monger's Mask
-	Tooltip: Increases minion damage by 15% and maximum minion slots by 2
+	DisplayName: Маска палача
+	Tooltip:
+		'''
+		Увеличивает урон призывателя на 15%
+		Увеличивает максимальное количество миньонов на 2
+		'''
 }
 
 InfernonBag: {
@@ -2396,12 +2386,12 @@ Cornucopion: {
 }
 
 JellynautBubble: {
-	DisplayName: Jellynaut's Bubble
+	DisplayName: Пузырь медузонавта
 	Tooltip:
 		'''
-		Increases maximum mana by 20
-		Increases critical strike chance by 10%
-		Provides a special set bonus with any magic robes
+		Увеличивает максимальный запас маны на 20 ед.
+		Увеличивает шанс критического удара на 10%
+		Даёт дополнительный бонус при ношении с магическими одеяниями
 		'''
 }
 
@@ -2798,29 +2788,19 @@ CloudstalkSeed: {
 	Tooltip: ""
 }
 
-Volleyball: {
-	DisplayName: Volleyball
-	Tooltip: ""
-}
-
-VolleyballCourtChecker: {
-	DisplayName: Volleyball Court Checker
-	Tooltip: ""
-}
-
 BeachUmbrellaItem: {
-	DisplayName: Beach Umbrella
+	DisplayName: Пляжный зонтик
 	Tooltip: ""
 }
 
 BigBuoyItem: {
-	DisplayName: Large Buoy
-	Tooltip: Must be placed atop water
+	DisplayName: Большой буй
+	Tooltip: Можно разместить на поверхности воды
 }
 
 BuoyItem: {
-	DisplayName: Small Buoy
-	Tooltip: Must be placed atop water
+	DisplayName: Большой буй
+	Tooltip: Можно разместить на поверхности воды
 }
 
 LoungeChairItem: {
@@ -3014,11 +2994,11 @@ AcornCake: {
 }
 
 Baguette: {
-	DisplayName: Baguette
+	DisplayName: Багет
 	Tooltip:
 		'''
 		{$BuffDescription.WellFed}
-		'You feel fancier already'
+		«Почувствуй себя настоящим аристократом»
 		'''
 }
 
@@ -3038,17 +3018,21 @@ CaesarSalad: {
 }
 
 Cake: {
-	DisplayName: Carrot Cake
+	DisplayName: Морковный торт
 	Tooltip:
 		'''
 		{$BuffDescription.WellFed}
-		'Just the perfect amount of icing!'
+		«Идеальное количество глазури!»
 		'''
 }
 
 FishFingers: {
-	DisplayName: Fish Fingers
-	Tooltip: "'Goes great with custard!'"
+	DisplayName: Рыбные палочки
+	Tooltip:
+		'''
+		{$BuffDescription.WellFed}
+		«Отлично сочетаются с заварным кремом!»
+		'''
 }
 
 GhostPepper: {
@@ -3287,8 +3271,8 @@ DoubleJumpPotion: {
 }
 
 FlightPotion: {
-	DisplayName: Soaring Potion
-	Tooltip: Increases the duration of flight by 25%
+	DisplayName: Зелье парения
+	Tooltip: Увеличивает время полёта на 25%
 }
 
 MirrorCoat: {
@@ -3509,7 +3493,7 @@ SoulOrbItem: {
 }
 
 SpiritCrate: {
-	DisplayName: Spirit Crate
+	DisplayName: Ящик духов
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
@@ -3909,19 +3893,19 @@ Candy: {
 }
 
 CandyBag: {
-	DisplayName: Candy Bag
-	Tooltip: Holds up to 99 pieces of candy
+	DisplayName: Конфетный мешочек
+	Tooltip: Может вместить до 99 конфет
 	BagContents:
 		'''
-		Contains {0} {^0:piece;pieces} of Candy
-		Right click to take a piece of Candy
+		Сейчас содержит {0} {^0:конфету;конфеты;конфет}
+		Нажмите ПКМ, чтобы достать одну конфету
 		'''
 }
 
 CandyBowl: {
-	DisplayName: Candy Bowl
+	DisplayName: Конфетница
 	Tooltip: ""
-	Take: Take a piece of candy
+	Take: Взять конфету
 }
 
 ChocolateBar: {
@@ -3930,92 +3914,92 @@ ChocolateBar: {
 }
 
 MaskBlaze: {
-	DisplayName: Bla2e's Mask
+	DisplayName: Маска Bla2e
 	Tooltip:
 		'''
-		Vanity item 
-		'Great for impersonating devs!'
+		{$LegacyTooltip.24}
+		«Отлично подходит для подражания внешнему виду разработчиков!»
 		'''
 }
 
 MaskGraydee: {
-	DisplayName: Graydee's Mask
+	DisplayName: Маска Graydee
 	Tooltip:
 		'''
-		Vanity item 
-		'Great for impersonating devs!'
+		{$LegacyTooltip.24}
+		«Отлично подходит для подражания внешнему виду разработчиков!»
 		'''
 }
 
 MaskIggy: {
-	DisplayName: Iggysaur's Mask
+	DisplayName: Маска Iggysaur
 	Tooltip:
 		'''
-		Vanity item 
-		'Great for impersonating devs!'
+		{$LegacyTooltip.24}
+		«Отлично подходит для подражания внешнему виду разработчиков!»
 		'''
 }
 
 MaskKachow: {
-	DisplayName: Kachow's Mask
+	DisplayName: Маска Kachow
 	Tooltip:
 		'''
-		Vanity item 
-		'Great for impersonating devs!'
+		{$LegacyTooltip.24}
+		«Отлично подходит для подражания внешнему виду разработчиков!»
 		'''
 }
 
 MaskLeemyy: {
-	DisplayName: Leemyy's Mask
+	DisplayName: Маска Leemyy
 	Tooltip:
 		'''
-		Vanity item 
-		'Great for impersonating devs!'
+		{$LegacyTooltip.24}
+		«Отлично подходит для подражания внешнему виду разработчиков!»
 		'''
 }
 
 MaskLordCake: {
-	DisplayName: Lordcakespy's Mask
+	DisplayName: Маска Lordcakespy
 	Tooltip:
 		'''
-		Vanity item 
-		'Great for impersonating devs!'
+		{$LegacyTooltip.24}
+		«Отлично подходит для подражания внешнему виду разработчиков!»
 		'''
 }
 
 MaskSchmo: {
-	DisplayName: Some Schmo's Mask
+	DisplayName: Маска Some Schmo
 	Tooltip:
 		'''
-		Vanity item 
-		'Great for impersonating devs!'
+		{$LegacyTooltip.24}
+		«Отлично подходит для подражания внешнему виду разработчиков!»
 		'''
 }
 
 MaskSvante: {
-	DisplayName: Svante's Mask
+	DisplayName: Маска Svante
 	Tooltip:
 		'''
-		Vanity item 
-		'Great for impersonating devs!'
+		{$LegacyTooltip.24}
+		«Отлично подходит для подражания внешнему виду разработчиков!»
 		'''
 }
 
 MaskVladimier: {
-	DisplayName: Vladimier's Mask
+	DisplayName: Маска Vladimier
 	Tooltip:
 		'''
-		Vanity item 
-		'Great for impersonating devs!'
+		{$LegacyTooltip.24}
+		«Отлично подходит для подражания внешнему виду разработчиков!»
 		'''
 }
 
 MaskYuyutsu: {
-	DisplayName: Yuyutsu's Mask
+	DisplayName: Маска Yuyutsu
 	Tooltip:
 		'''
-		Vanity item 
-		'Great for impersonating devs!'
+		{$LegacyTooltip.24}
+		«Отлично подходит для подражания внешнему виду разработчиков!»
 		'''
 }
 
@@ -4462,12 +4446,12 @@ BambooPotItem: {
 }
 
 BismiteChairItem: {
-	DisplayName: Bismite Chair
+	DisplayName: Бисмитовый стул
 	Tooltip: ""
 }
 
 BismiteTableItem: {
-	DisplayName: Bismite Table
+	DisplayName: Бисмитовый стол
 	Tooltip: ""
 }
 
@@ -4906,12 +4890,12 @@ TheGoodPaintingItem: {
 }
 
 PottedSakura: {
-	DisplayName: Sakura Bonsai
+	DisplayName: Бонсай из сакуры
 	Tooltip: ""
 }
 
 PottedWillow: {
-	DisplayName: Yellow Willow Bonsai
+	DisplayName: Бонсай из жёлтой ивы
 	Tooltip: ""
 }
 
@@ -5035,7 +5019,7 @@ TreemanStatue: {
 }
 
 ReachChestTile: {
-	DisplayName: Briar Chest
+	DisplayName: Сундук терновника
 	Tooltip: ""
 }
 
@@ -5579,7 +5563,7 @@ CreepingIce: {
 }
 
 HalloweenGrass: {
-	DisplayName: Spooky Grass
+	DisplayName: Жуткая трава
 	Tooltip: ""
 }
 
@@ -6547,17 +6531,17 @@ Ambergris: {
 
 Driftwood1Item: {
 	DisplayName: Маленькая коряга
-	Tooltip: «Приятна для глаз»
+	Tooltip: «Выглядит эстетично»
 }
 
 Driftwood2Item: {
 	DisplayName: Средняя коряга
-	Tooltip: «Приятна для глаз»
+	Tooltip: «Выглядит эстетично»
 }
 
 Driftwood3Item: {
 	DisplayName: Большая коряга
-	Tooltip: «Приятна для глаз»
+	Tooltip: «Выглядит эстетично»
 }
 
 DriftwoodChestplate: {
@@ -6755,8 +6739,8 @@ CopperChest: {
 }
 
 FunnyFirework: {
-	DisplayName: Funny Firework
-	Tooltip: Does a funny
+	DisplayName: Смешной фейерверк
+	Tooltip: Делает смешные вещи
 }
 
 GildedMustache: {
@@ -6846,22 +6830,22 @@ GtechGrenade: {
 }
 
 GraniteChest: {
-	DisplayName: Granite Breastplate
-	Tooltip: Increases jump height slightly
+	DisplayName: Гранитный нагрудник
+	Tooltip: Немного увеличивает высоту прыжка
 }
 
 GraniteHelm: {
-	DisplayName: Granite Visor
-	Tooltip: Increases jump height slightly
+	DisplayName: Гранитный щиток
+	Tooltip: Немного увеличивает высоту прыжка
 }
 
 GraniteLegs: {
-	DisplayName: Granite Greaves
-	Tooltip: Increases jump height slightly
+	DisplayName: Гранитные поножи
+	Tooltip: Немного увеличивает высоту прыжка
 }
 
 GraniteAxe: {
-	DisplayName: Granite Axe
+	DisplayName: Гранитный топор
 	Tooltip: ""
 }
 
@@ -6875,7 +6859,7 @@ GraniteBow: {
 }
 
 GraniteChunk: {
-	DisplayName: Enchanted Granite Chunk
+	DisplayName: Кусок зачарованного гранита
 	Tooltip: ""
 }
 
@@ -6889,12 +6873,12 @@ GraniteFlail: {
 }
 
 GraniteHammer: {
-	DisplayName: Granite Hammer
+	DisplayName: Гранитный молот
 	Tooltip: ""
 }
 
 GranitePickaxe: {
-	DisplayName: Granite Pickaxe
+	DisplayName: Гранитная кирка
 	Tooltip: ""
 }
 
@@ -7334,18 +7318,18 @@ BreathOfTheZephyr: {
 }
 
 MarbleChest: {
-	DisplayName: Gilded Robe
+	DisplayName: Злачёная мантия
 	Tooltip:
 		'''
-		10% increased movement speed
-		Doubles acceleration
-		'All that glitters is gold'
+		Увеличивает скорость передвижения на 10%
+		Увеличивает ускорение в 2 раза
+		«Всё то золото, что блестит»
 		'''
 }
 
 MarbleHelm: {
-	DisplayName: Gilded Laurel
-	Tooltip: 10% increased movement speed
+	DisplayName: Злачёный лавровый венок
+	Tooltip: Увеличивает скорость передвижения на 10%
 }
 
 MarbleBident: {
@@ -7358,17 +7342,17 @@ MarbleBident: {
 }
 
 MarbleChunk: {
-	DisplayName: Ancient Marble Chunk
-	Tooltip: "'Contains fragments of past civilizations'"
+	DisplayName: Кусок древнего мрамора
+	Tooltip: «Содержит следы старых цивилизаций»
 }
 
 MarbleHamaxe: {
-	DisplayName: Gilded Hamaxe
+	DisplayName: Злачёный молотопор
 	Tooltip: ""
 }
 
 MarblePick: {
-	DisplayName: Gilded Pickaxe
+	DisplayName: Злачёная кирка
 	Tooltip: ""
 }
 
@@ -7551,18 +7535,18 @@ Rune: {
 }
 
 RunicGreaves: {
-	DisplayName: Runic Greaves
-	Tooltip: Reduces mana cost by 10% and increases magic damage by 10%
+	DisplayName: Рунические поножи
+	Tooltip: Снижает расход маны на 10% и увеличивают магический урон на 10%
 }
 
 RunicHood: {
-	DisplayName: Runic Hood
-	Tooltip: Increases magic damage by 12% and movement speed by 5%
+	DisplayName: Рунический капюшон
+	Tooltip: Увеличивает магический урон на 12% и скорость передвижения на 5%
 }
 
 RunicPlate: {
-	DisplayName: Runic Plate
-	Tooltip: Increases magic critical strike chance by 8%
+	DisplayName: Руническая кираса
+	Tooltip: Увеличивает шанс магического критического удара на 8%
 }
 
 SpiritRune: {
@@ -7618,18 +7602,18 @@ MoonStone: {
 }
 
 SeraphArmor: {
-	DisplayName: Seraph's Breastplate
-	Tooltip: 10% increased magic damage
+	DisplayName: Нагрудник серафима
+	Tooltip: Увеличивает магический урон на 10%
 }
 
 SeraphHelm: {
-	DisplayName: Seraph's Crown
-	Tooltip: 12% increased melee damage
+	DisplayName: Корона серафима
+	Tooltip: Увеличивает урон ближнего боя на 12%
 }
 
 SeraphLegs: {
-	DisplayName: Seraph's Greaves
-	Tooltip: Increases maximum mana by 50
+	DisplayName: Поножи серафима
+	Tooltip: Увеличивает максимальный запас маны на 50 ед.
 }
 
 StarBow: {
@@ -7773,18 +7757,26 @@ SoulShred: {
 }
 
 SpiritBodyArmor: {
-	DisplayName: Spirit Body Armor
-	Tooltip: Increases melee damage and critical strike chance by 10%, as well as reducing damage taken by 10%
+	DisplayName: Нагрудник духов
+	Tooltip:
+		'''
+		Увеличивает урон и шанс критического удара ближнего боя на 10%
+		Увеличивает сопротивление урону на 10%
+		'''
 }
 
 SpiritHeadgear: {
-	DisplayName: Spirit Headgear
-	Tooltip: Increases max life by 10 and increases melee damage by 12%
+	DisplayName: Головной убор духов
+	Tooltip:
+		'''
+		Увеличивает урон ближнего боя на 12%
+		Увеличивает максимальный запас здоровья на 10 ед.
+		'''
 }
 
 SpiritLeggings: {
-	DisplayName: Spirit Leggings
-	Tooltip: 10% increased melee speed
+	DisplayName: Поножи духов
+	Tooltip: Увеличивает скорость атаки ближнего боя на 10%
 }
 
 SpiritBar: {
@@ -8470,11 +8462,6 @@ MarbleMinecartItem: {
 
 Zombie_Chest: {
 	DisplayName: Chest
-	Tooltip: ""
-}
-
-SandPiperItem: {
-	DisplayName: Sand Piper
 	Tooltip: ""
 }
 

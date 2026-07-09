@@ -46,8 +46,8 @@ FrigidCooldown: {
 }
 
 MarbleDivineWinds: {
-	DisplayName: Divine Winds
-	Description: "'To the skies!'"
+	DisplayName: Божественные ветра
+	Description: «К небесам!»
 }
 
 RogueCooldown: {
@@ -457,8 +457,8 @@ DoubleJumpPotionBuff: {
 }
 
 FlightPotionBuff: {
-	DisplayName: Soaring
-	Description: Increases flight duration by 25%
+	DisplayName: Парение
+	Description: Время полёта увеличено на 25%
 }
 
 MoonBlessing: {
