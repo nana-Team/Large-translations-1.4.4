@@ -39,6 +39,6 @@ SpiritUndergroundBiome: {
 }
 
 SynthwaveSurfaceBiome: {
-	DisplayName: Synthwave
-	TownNPCDialogueName: the Synthwave Surface Biome
+	DisplayName: Гиперпространство
+	TownNPCDialogueName: Гиперпространство
 }

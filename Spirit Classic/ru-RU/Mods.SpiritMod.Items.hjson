@@ -90,22 +90,22 @@ CleftHorn: {
 }
 
 CultistScarf: {
-	DisplayName: Elderweave Scarf
+	DisplayName: Шарф древних
 	Tooltip:
 		'''
-		20% reduced mana usage when under half health
-		Increases maximum mana by 120 when above half health
-		9% increased magic critical strike chance
-		Magic attacks occasionally release bolts of powerful Ancient Magic that bounce off of walls
+		Снижает расход маны на 20%, если у вас менее половины здоровья
+		Увеличивает максимальный запас маны на 120 ед, если у вас более половины здоровья
+		Увеличивает шанс магического критического удара на 9%
+		Магические атаки иногда будут выпускать мощные заряды магии древних, отскакивающие от блоков
 		'''
 }
 
 CursedPendant: {
-	DisplayName: Cursed Pendant
+	DisplayName: Проклятый кулон
 	Tooltip:
 		'''
-		6% increased melee damage
-		Weapons have a 15% chance to inflict Cursed Inferno
+		Увеличивает урон ближнего боя на 6%
+		Всё оружие получает 15% шанс наложить на врага дебафф «{$BuffName.CursedInferno}»
 		'''
 }
 
@@ -119,23 +119,23 @@ DarkfeatherVisage: {
 }
 
 Dartboard: {
-	DisplayName: Dartboard
+	DisplayName: Мишень
 	Tooltip:
 		'''
-		13% reduced damage
-		15% increased critical strike chance
-		'Right on the mark'
+		Снижает наносимый урон на 13%
+		Увеличивает шанс критического удара на 15%
+		«В яблочко»
 		'''
 }
 
 DesertSlab: {
-	DisplayName: Ancient Slab
-	Tooltip: Provides immunity to the 'Mighty Wind' debuff during Sandstorms
+	DisplayName: Древняя плита
+	Tooltip: Даёт невосприимчивость к дебаффу «{$BuffName.WindPushed}» во время песчаных бурь
 }
 
 ElectricGuitar: {
-	DisplayName: Electric Guitar
-	Tooltip: Nearby enemies and enemies hit by attacks may be hit by chain lightning
+	DisplayName: Электрогитара
+	Tooltip: Ближайшие враги и враги, которых вы атакуете, могут быть дополнительно поражены цепной молнией
 }
 
 FallenAngel: {
@@ -579,20 +579,20 @@ TimScroll: {
 }
 
 Ukelele: {
-	DisplayName: Ukulele
+	DisplayName: Укулеле
 	Tooltip:
 		'''
-		Hitting enemies has a chance to create a chain of lightning
-		'...and his music was electric.'
+		Попадания по врагам могут создать цепную молнию, отскакивающую от врага к врагу
+		«...его музыка буквально заряжала толпу»
 		'''
 }
 
 Unstable_Tesla_Coil: {
-	DisplayName: Unstable Tesla Coil
+	DisplayName: Нестабильная катушка Теслы
 	Tooltip:
 		'''
-		Electrocutes up to 3 nearby enemies
-		Increases pickup range for ores
+		Бьёт током до 3 ближайших врагов
+		Увеличивает дальность подбора руды
 		'''
 }
 
@@ -892,17 +892,17 @@ JackLegs: {
 }
 
 LeatherHood: {
-	DisplayName: Капюшон застрельщика
+	DisplayName: Капюшон меткого стрелка
 	Tooltip: Увеличивает стрелковый урон на 1 ед.
 }
 
 LeatherLegs: {
-	DisplayName: Ботинки застрельщика
+	DisplayName: Ботинки меткого стрелка
 	Tooltip: ""
 }
 
 LeatherPlate: {
-	DisplayName: Куртка застрельщика
+	DisplayName: Куртка меткого стрелка
 	Tooltip: ""
 }
 
@@ -5978,7 +5978,7 @@ BismiteSummonStaff: {
 }
 
 BloodCourtChestplate: {
-	DisplayName: Bloodcourt's Vestments
+	DisplayName: Риза кровавого престола
 	Tooltip:
 		'''
 		Увеличивает урон на 6%
@@ -5988,7 +5988,7 @@ BloodCourtChestplate: {
 }
 
 BloodCourtHead: {
-	DisplayName: Bloodcourt's Visage
+	DisplayName: Лик кровавого престола
 	Tooltip:
 		'''
 		Увеличивает урон на 4%
@@ -5997,7 +5997,7 @@ BloodCourtHead: {
 }
 
 BloodCourtLeggings: {
-	DisplayName: Bloodcourt's Leggings
+	DisplayName: Поножи кровавого престола
 	Tooltip:
 		'''
 		Увеличивает скорость передвижения на 10%
@@ -6633,7 +6633,11 @@ FloranBar: {
 
 FloranCharm: {
 	DisplayName: Флоранский охотничий талисман
-	Tooltip: Увеличивает скорость атаки ближнего боя на 5% и немного ускоряет регенерацию здоровья, когда вы стоите на траве
+	Tooltip:
+		'''
+		Увеличивает скорость атаки ближнего боя на 5%
+		и немного ускоряет регенерацию здоровья, когда вы стоите на траве
+		'''
 }
 
 Florang: {
@@ -6759,7 +6763,7 @@ GoldChest: {
 
 Jem: {
 	DisplayName: Алмас
-	Tooltip: Holds untold power
+	Tooltip: Таит неизведанную силу
 }
 
 PlatinumChest: {

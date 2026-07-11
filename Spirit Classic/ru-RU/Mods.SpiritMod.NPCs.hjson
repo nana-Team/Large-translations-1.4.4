@@ -414,8 +414,8 @@ ChainedSinner: {
 }
 
 Chest_Zombie: {
-	DisplayName: Chest Zombie
-	Entry: It must have been a deadlift champion in its previous life, for if it isn't throwing heavy punches at you, it can be seen training with the chests scattered about the land.
+	DisplayName: Зомби с сундуком
+	Entry: Этот зомби явно был мастером спорта по поднятию тяжестей в прошлой жизни: в свободное от вышибания чужих мозгов время он предпочитает тренироваться с разбросанными повсюду сундуками. 
 }
 
 GraniteCore: {
@@ -659,7 +659,7 @@ Cystal_Shield.DisplayName: Cystal Shield
 
 DarkfeatherMage: {
 	DisplayName: Темнопёрый маг
-	Entry: Caww, caww! A large bird of prey who fancies themselves a mage. Whoever has been teaching these birds magic has left behind quite a mess.
+	Entry: Кар-р-р, КАР-Р-Р! Большая хищная птица, что возомнила себя благородным магом. Тот, кто учил их волшебству, явно забыл научить их хорошим манерам.
 }
 
 Dead_Scientist: {
@@ -668,8 +668,8 @@ Dead_Scientist: {
 }
 
 DeadArcher: {
-	DisplayName: Deadeye Marksman
-	Entry: Despite having one eye, this archer is deceptively adept compared to any other. Close your doors to this outsider!
+	DisplayName: Одноглазый стрелок
+	Entry: Несмотря на наличие только одного глаза, этот лучник — больший знаток своего дела, чем все остальные. Остерегайтесь его!
 }
 
 DesertBandit: {
