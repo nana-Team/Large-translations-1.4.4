@@ -415,7 +415,7 @@ ChainedSinner: {
 
 Chest_Zombie: {
 	DisplayName: Зомби с сундуком
-	Entry: Этот зомби явно был мастером спорта по поднятию тяжестей в прошлой жизни: в свободное от вышибания чужих мозгов время он предпочитает тренироваться с разбросанными повсюду сундуками. 
+	Entry: Этот зомби явно был мастером спорта по поднятию тяжестей в прошлой жизни: в свободное от вышибания чужих мозгов время он предпочитает тренироваться с разбросанными повсюду сундуками.
 }
 
 GraniteCore: {
@@ -663,8 +663,8 @@ DarkfeatherMage: {
 }
 
 Dead_Scientist: {
-	DisplayName: Undead Scientist
-	Entry: An unholy practitioner of a necro-alchemy, combining typical alchemy with a form of minor necromancy in order to keep its sick experiments going.
+	DisplayName: Мёртвый учёный
+	Entry: Нечестивый практикант некроалхимии. Добавляет к обычной алхимии щепотку некромантии, чтобы продолжать проводить свои ужасные эксперименты.
 }
 
 DeadArcher: {
@@ -1480,8 +1480,8 @@ RuneWizard: {
 }
 
 Undead_Warlock: {
-	DisplayName: Undead Warlock
-	Entry: Unlike the Undead Scientist, the Warlock practices more typical, but more powerful, magic and necromancy.
+	DisplayName: Мёртвый чернокнижник
+	Entry: В отличие от учёного, чернокнижник предпочитает более простые, но не менее эффективные магию с некромантией.
 }
 
 Valkyrie: {

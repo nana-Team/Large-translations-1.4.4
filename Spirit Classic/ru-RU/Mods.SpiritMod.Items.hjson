@@ -508,7 +508,7 @@ Sea_Snail_Poison: {
 }
 
 ShadowSingeFang: {
-	DisplayName: Клык певчих теней
+	DisplayName: Тенеопалённый клык
 	Tooltip:
 		'''
 		Увеличивает шанс критического удара на 4%
@@ -1906,14 +1906,14 @@ Book_Soulbloom: {
 }
 
 Book_SpiritArt: {
-	DisplayName: Flora of the Spirit Biome
+	DisplayName: Флора леса духов
 	Tooltip:
 		'''
-		by Field Researcher Laywatts
-		It seems to be a page of notes about the unknown Spirit Biome
-		'There is a lot to be learned from this mysterious place'
+		от полевого исследователя Лейватс
+		Похоже на страницу с чьими-то заметками о незнакомом биоме
+		«Об этом месте ещё многое предстоит узнать»
 		'''
-	ImagePath: SpiritMod/Items/Books/UI/en-US/TheSpirit
+	ImagePath: SpiritMod/Items/Books/UI/ru-RU/TheSpirit
 }
 
 Book_LuminousArt: {
