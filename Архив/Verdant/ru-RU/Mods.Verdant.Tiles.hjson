@@ -1,0 +1,77 @@
+VerdantPylonTile.MapEntry: Пилон Цветения
+FloatingCrystal.MapEntry: Парящий кристалл
+AquamarineTile.MapEntry: Аквамарин
+Beehive.MapEntry: Улей
+LootPlant.MapEntry: Пассифлора
+MysteriaSprout.MapEntry: Побег
+LushSapling.MapEntry: Саженец
+MarigoldTile.MapEntry: Календула
+WaterberryBush.MapEntry: Куст
+WaterberryBushPicked.MapEntry: Куст
+Wisplant.MapEntry: Цветок духа
+Apotheosis.MapEntry: Апофеоз
+AquamarineTorch.MapEntry: Факел
+HardmodeApotheosis.MapEntry: Апофеоз
+LushDoorClosed.MapEntry: Дверь изобилия
+LushDoorOpen.MapEntry: Дверь изобилия
+
+LushDresser: {
+	MapEntry: Комод изобилия
+	ContainerName: Комод изобилия
+}
+
+VerdantWoodChest: {
+	MapEntry: Сундук из древесины изобилия
+	ContainerName: Сундук из древесины изобилия
+}
+
+VerdantWood.MapEntry: Древесина изобилия
+LullabyBoxTile.MapEntry: Музыкальная шкатулка
+PetalsFallBoxTile.MapEntry: Музыкальная шкатулка
+TearRainBoxTile.MapEntry: Музыкальная шкатулка
+VibrantHorizonBoxTile.MapEntry: Музыкальная шкатулка
+MysteriaDoorClosed.MapEntry: Дверь из мистернии
+MysteriaDoorOpen.MapEntry: Дверь из мистернии
+
+MysteriaDresser: {
+	MapEntry: Комод из мистернии
+	ContainerName: Комод из мистернии
+}
+
+SnailStatue.MapEntry: Статуя улитки
+VerdantDoorClosed.MapEntry: Цветущая дверь
+VerdantDoorOpen.MapEntry: Цветущая дверь
+
+VerdantYellowPetalChest: {
+	MapEntry: Жёлтый лепестковый сундук
+	ContainerName: Жёлтый лепестковый сундук
+}
+
+GreenCrystal.MapEntry: Зелёный кристалл
+ApotheoticPainting.MapEntry: Картина
+LightbulbPainting.MapEntry: Картина
+BigVerdantTree.MapEntry: Большое дерево
+VerdantTree.MapEntry: Дерево
+PeaceTreeTop.MapEntry: Свисающая мирния
+MysteriaTreeTop.MapEntry: Свисающая мистерния
+MysteriaTree.MapEntry: Мистерниевое дерево
+VerdantRedPetal.MapEntry: Красные лепестки
+VerdantPinkPetal.MapEntry: Розовые лепестки
+VerdantLeaves.MapEntry: Лоза
+VerdantGrassLeaves.MapEntry: Листва
+SnailShellBlock.MapEntry: Панцири улиток
+PuffBlock.MapEntry: Блок розового пуха
+OvergrownBricks.MapEntry: Заросшие кирпичи
+LushSoil.MapEntry: Почва изобилия
+LivingLushWood.MapEntry: Живая древесина изобилия
+GemsparkAquamarine.MapEntry: Искристый аквамарин
+EmbeddedStoneAquamarine.MapEntry: Аквамариновый камень
+EmbeddedAquamarine.MapEntry: Аквамариновая почва изобилия
+BackslateTile.MapEntry: Пещерный сланец
+ThornTile.MapEntry: Шипы
+LushPlanks.MapEntry: Доска из дерева изобилия
+MysteriaFluff.MapEntry: Мистерниевый пух
+LushGrass.MapEntry: Пышная трава
+LightbulbLeaves.MapEntry: "{$VerdantGrassLeaves.MapEntry}"
+TrimmedOvergrownBricks.MapEntry: Обрезанный заросший кирпич
+PuffDresser.MapEntry: Пуховой комод
