@@ -403,8 +403,8 @@ MJWPetBuff: {
 }
 
 OccultistPetBuff: {
-	DisplayName: Lil' Occultist
-	Description: "'Surprisingly mellow'"
+	DisplayName: Малой оккультист
+	Description: «Он на удивление добродушный»
 }
 
 OverseerPetBuff: {

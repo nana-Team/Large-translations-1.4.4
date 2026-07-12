@@ -162,79 +162,79 @@ ForbiddenKnowledgeTome: {
 }
 
 FrostGiantBelt: {
-	DisplayName: Frost Giant Belt
+	DisplayName: Пояс ледяного великана
 	Tooltip:
 		'''
-		50% knockback resistance while charging a club
-		Charging a club gradually increases defense
+		Увеличивает сопротивление к отбрасыванию во время зарядки дубины на 50%
+		Постепенно увеличивает вашу защиту во время зарядки дубины
 		'''
 }
 
 GoldenApple: {
-	DisplayName: Golden Apple
-	Tooltip: Increases defense as health decreases
+	DisplayName: Золотое яблоко
+	Tooltip: Увеличивает защиту по мере снижения здоровья
 }
 
 GoldShield: {
-	DisplayName: Gilded Shield
+	DisplayName: Позолоченный щит
 	Tooltip:
 		'''
-		Provides immunity to Knockback
-		As health decreases, defense increases
+		Даёт невосприимчивость к отбрасыванию
+		Увеличивает защиту по мере снижения здоровья
 		'''
 }
 
 GranitechDroneBox: {
-	DisplayName: G-TEK Drone Box
+	DisplayName: Блок управления дронами G-TEK
 	Tooltip:
 		'''
-		Summons 3 drones to aid you
-		Holding a pickaxe switches drones to mining mode
-		In mining mode, these drones will copy your pickaxe power and mine with you
-		These drones do not take up minion slots
+		Призывает 3 дрона, которые помогают вам
+		Если у вас в руках находится кирка, дроны переходят в режим добычи
+		В режиме добычи дроны копируют мощность вашей кирки и ускоряют процесс добычи
+		Дроны не занимают слоты миньонов
 		'''
 }
 
 GravityModulator: {
-	DisplayName: Gravity Modulator
-	Tooltip: Reduces the player's gravity significantly
+	DisplayName: Модулятор гравитации
+	Tooltip: Значительно снижает силу гравитации, воздействующую на игрока
 }
 
 HellEater: {
-	DisplayName: Fiery Maw
+	DisplayName: Раскалённая челюсть
 	Tooltip:
 		'''
-		Magic attacks may shoot out fiery spit that explode upon hitting enemies
-		7% increased magic damage
+		Магические атаки иногда будут выпускать огненные плевки, взрывающиеся при попадании во врагов
+		Увеличивает магический урон на 7%
 		'''
 }
 
 HighGravityBoots: {
-	DisplayName: High-Grav Boots
+	DisplayName: Гравитационные ботинки
 	Tooltip:
 		'''
-		Normalizes gravity in space
-		Hold DOWN to increase gravity and vertical momentum
+		Нормализует гравитацию в космосе
+		Удерживайте ВНИЗ, чтобы увеличить инерцию и скорость падения
 		'''
 }
 
 IchorPendant: {
-	DisplayName: Ichor Pendant
+	DisplayName: Подвеска c ихором
 	Tooltip:
 		'''
-		6% increased melee damage
-		Melee hits occasionally inflict Ichor
+		Увеличивает урон ближнего боя на 6%
+		Атаки ближнего боя иногда будут накладывать дебафф «{$BuffName.Ichor}»
 		'''
 }
 
 IllusionistEye: {
-	DisplayName: Eye of the Illusionist
+	DisplayName: Глаз иллюзиониста
 	Tooltip:
 		'''
-		Taking fatal damage instead teleports you back home
-		This effects does not work if a boss is nearby
-		10 minute cooldown
-		'An Illusionist without a home is simply a spectre'
+		При получении смертельного урона телепортирует вас домой вместо смерти
+		Эффект не сработает, если поблизости есть босс
+		Эта способность перезаряжается 10 минут
+		«Иллюзионист без дома - всего лишь призрак»
 		'''
 }
 
@@ -322,20 +322,20 @@ Strikeshield: {
 }
 
 TechBoots: {
-	DisplayName: Heartbeat Cleats
+	DisplayName: Бутсы сердечного ритма
 	Tooltip:
 		'''
-		Slightly increases movement speed and acceleration
-		Gain a huge speed boost below half health
+		Немного увеличивает скорость передвижения и ускорение
+		Даёт значительное ускорение, когда у вас менее половины здоровья
 		'''
 }
 
 LongFuse: {
-	DisplayName: Long Fuse
+	DisplayName: Длинный фитиль
 	Tooltip:
 		'''
-		Explosives burn slower
-		Works while in the inventory
+		Замедляет скорость сгорания взрывчатки
+		Работает даже в инвентаре
 		'''
 }
 
@@ -626,8 +626,8 @@ BeetleArrow: {
 }
 
 SepulchreArrow: {
-	DisplayName: Accursed Arrow
-	Tooltip: Pierces up to two enemies
+	DisplayName: Осквернённая стрела
+	Tooltip: Пронзает двух врагов
 }
 
 RipperSlug: {
@@ -724,17 +724,17 @@ BotanistLegs: {
 }
 
 CapacitorBody: {
-	DisplayName: Capacitor's Robes
+	DisplayName: Мантия конденсатора
 	Tooltip: ""
 }
 
 CapacitorHead: {
-	DisplayName: Capacitor's Hood
+	DisplayName: Капюшон конденсатора
 	Tooltip: ""
 }
 
 CapacitorLegs: {
-	DisplayName: Capacitor's Leggings
+	DisplayName: Шматы конденсатора
 	Tooltip: ""
 }
 
@@ -1193,12 +1193,12 @@ CavernBanditBanner: {
 }
 
 CavernCrawlerBanner: {
-	DisplayName: Cavern Crawler Banner
+	DisplayName: Знамя пещерного ползуна
 	Tooltip: ""
 }
 
 ChestZombieBanner: {
-	DisplayName: Chest Zombie Banner
+	DisplayName: Знамя зомби с сундуком
 	Tooltip: ""
 }
 
@@ -1233,7 +1233,7 @@ DarkAlchemistBanner: {
 }
 
 DeadeyeMarksmanBanner: {
-	DisplayName: Deadeye Marksman Banner
+	DisplayName: Знамя одноглазого стрелка
 	Tooltip: ""
 }
 
@@ -1288,7 +1288,7 @@ GiantJellyBanner: {
 }
 
 GladeWraithBanner: {
-	DisplayName: Glade Wraith Banner
+	DisplayName: Знамя Призрака чащи
 	Tooltip: ""
 }
 
@@ -1343,7 +1343,7 @@ GreenDungeonCubeBanner: {
 }
 
 HauntedTomeBanner: {
-	DisplayName: Haunted Tome Banner
+	DisplayName: Знамя Одержимого фолианта
 	Tooltip: ""
 }
 
@@ -1473,7 +1473,7 @@ NetherbaneBanner: {
 }
 
 OccultistBanner: {
-	DisplayName: Occultist Banner
+	DisplayName: Знамя Оккультиста
 	Tooltip: ""
 }
 
@@ -1573,7 +1573,7 @@ SpiritTomeBanner: {
 }
 
 SporeWheezerBanner: {
-	DisplayName: Spore Wheezer Banner
+	DisplayName: Знамя споровго пыхтельника
 	Tooltip: ""
 }
 
@@ -2447,15 +2447,15 @@ Handball: {
 	DisplayName: Grasp
 	Tooltip:
 		'''
-		Inflicts 'Blood Corruption'
-		Critical hits inflict 'Shadowflame'
+		Накладывает на врагов дебафф «{$Buffs.BloodInfusion.DisplayName}»
+		Критические удары также накладывают «{$BuffName.ShadowFlame}»
 		'And so I said, 'Catch these hands''
 		'''
 }
 
 OccultistPetItem: {
-	DisplayName: Ouija Board
-	Tooltip: Summons a tiny occultist
+	DisplayName: Спиритическая доска
+	Tooltip: Призывает крошку оккультиста
 }
 
 SacrificialDagger: {
@@ -2621,7 +2621,7 @@ StarMap: {
 	Tooltip:
 		'''
 		Телепортирует вас в точку курсора
-		Способность перезаряжается {N} {^1:секунду;секунды;секунд}
+		Эта способность перезаряжается {N} секунд
 		'''
 }
 
@@ -2674,7 +2674,7 @@ DeathRose: {
 	Tooltip:
 		'''
 		Дважды нажмите клавишу {0}, чтобы вырастить ловушку для врагов в точке курсора
-		Способность перезаряжается 4 секунды
+		Эта способность перезаряжается 4 секунды
 		'''
 }
 
@@ -2839,8 +2839,8 @@ BlackPearl: {
 }
 
 BlossmoonItem: {
-	DisplayName: Blossmoon
-	Tooltip: "'It releases a soothing aroma'"
+	DisplayName: Лунник
+	Tooltip: «Источает успокаивающий аромат»
 }
 
 BlubbyItem: {
@@ -3151,12 +3151,8 @@ GaleSnailItem: {
 }
 
 GladeWreath: {
-	DisplayName: Glade Wreath
-	Tooltip:
-		'''
-		Summons a Glade Wraith
-		Can only be used in the Briar
-		'''
+	DisplayName: Венок чащи
+	Tooltip: Призывает Призрака чащи при использовании в терновнике
 }
 
 GoldLumothItem: {
@@ -3360,32 +3356,32 @@ DurasilkSheaf: {
 }
 
 ExplorerScrollAsteroidFull: {
-	DisplayName: Completed Surveyor's Scroll
-	CustomTooltip: The Asteroid Fields have been charted!
+	DisplayName: Заполненный свиток исследователя
+	CustomTooltip: Поле астероидов нанесено на карту!
 	Tooltip: ""
 }
 
 ExplorerScrollGraniteFull: {
-	DisplayName: Completed Surveyor's Scroll
-	CustomTooltip: A nearby Granite Cavern has been charted!
+	DisplayName: Заполненный свиток исследователя
+	CustomTooltip: Ближайшая гранитная пещера нанесена на карту!
 	Tooltip: ""
 }
 
 ExplorerScrollHiveFull: {
-	DisplayName: Completed Surveyor's Scroll
-	CustomTooltip: A giant Hive has been charted!
+	DisplayName: Заполненный свиток исследователя
+	CustomTooltip: Огромный улей нанесён на карту!
 	Tooltip: ""
 }
 
 ExplorerScrollMarbleFull: {
-	DisplayName: Completed Surveyor's Scroll
-	CustomTooltip: A nearby Marble Cavern has been charted!
+	DisplayName: Заполненный свиток исследователя
+	CustomTooltip: Ближайшая мраморная пещера нанесена на карту!
 	Tooltip: ""
 }
 
 ExplorerScrollMushroomFull: {
-	DisplayName: Completed Surveyor's Scroll
-	CustomTooltip: A nearby Glowing Mushroom Biome has been charted!
+	DisplayName: Заполненный свиток исследователя
+	CustomTooltip: Ближайшая грибная пустошь нанесена на карту!
 	Tooltip: ""
 }
 
@@ -3529,8 +3525,8 @@ TinyCrabItem: {
 }
 
 TinyLunazoaItem: {
-	DisplayName: Tiny Lunazoa
-	Tooltip: Increases in bait power at night, and even further during the Jelly Deluge
+	DisplayName: Маленькая луназоя
+	Tooltip: Имеет увеличенную мощность наживки ночью, а во время Медузного наводнения — ещё большую
 }
 
 TubewormItem: {
@@ -3629,14 +3625,13 @@ GoldJadeScythe: {
 }
 
 HeroBow: {
-	DisplayName: Hero's Bow
+	DisplayName: Лук героя
 	Tooltip:
 		'''
-		Wooden arrows are infused with the elements
-		- Fire arrows can inflict multiple different burns
-		- Ice arrows can freeze and frostburn
-		- Light arrows have a 2% chance to instantly kill
-
+		Заряжает деревянные стрелы силой элементов:
+		- Огненные стрелы накладывают на врагов несколько поджигающих дебаффов
+		- Ледяные стрелы иногда могут наложить на врага замораживающий дебафф
+		- Световые стрелы имеют 2% шанс убить врага с одного удара
 		'''
 }
 
@@ -5061,22 +5056,22 @@ MarbleSculpture3x8Item: {
 }
 
 SepulchreBannerItem: {
-	DisplayName: Sepulchre Banner
+	DisplayName: Знамя склепа
 	Tooltip: ""
 }
 
 SepulchreChest: {
-	DisplayName: Sepulchre Chest
+	DisplayName: Сундук склепа
 	Tooltip: ""
 }
 
 SepulchrePotItem1: {
-	DisplayName: Sepulchre Pot
+	DisplayName: Горшок склепа
 	Tooltip: ""
 }
 
 SepulchrePotItem2: {
-	DisplayName: Sepulchre Pot
+	DisplayName: Горшок склепа
 	Tooltip: ""
 }
 
@@ -5211,13 +5206,13 @@ TreasureChest: {
 }
 
 WheezerPainting: {
-	DisplayName: Famished Wheezer
-	Tooltip: "'K. Rant'"
+	DisplayName: Картина «Голодающий пыхтельник»
+	Tooltip: «К. Рант»
 }
 
 WWPainting: {
-	DisplayName: Whirling Worlds
-	Tooltip: "'E. Stern'"
+	DisplayName: Картина «Whirling Worlds»
+	Tooltip: «Э. Стерн»
 }
 
 HerosMemorialStatue: {
@@ -5600,12 +5595,12 @@ ScrapItem: {
 }
 
 SepulchreBrickItem: {
-	DisplayName: Sepulchre Roofing
+	DisplayName: Кровля склепа
 	Tooltip: ""
 }
 
 SepulchreBrickTwoItem: {
-	DisplayName: Sepulchre Brick
+	DisplayName: Кирпич склепа
 	Tooltip: ""
 }
 
@@ -5679,7 +5674,7 @@ ScrapWallItem: {
 }
 
 SepulchreWallItem: {
-	DisplayName: Sepulchre Wall
+	DisplayName: Стена склепа
 	Tooltip: ""
 }
 
@@ -6047,7 +6042,7 @@ Amethyst_Bow: {
 	DisplayName: Аметистовый лук
 	Tooltip:
 		'''
-		Превращает деревянные стрелы в аметистовые стрелы
+		Превращает деревянные стрелы в аметистовые
 		Аметистовые стрелы имеют увеличенный шанс критического удара
 		'''
 }
@@ -6056,21 +6051,21 @@ Diamond_Bow: {
 	DisplayName: Алмазный лук
 	Tooltip:
 		'''
-		Превращает деревянные стрелы в алмазные стрелы
+		Превращает деревянные стрелы в алмазные
 		Алмазные стрелы пробивают одного врага
 		'''
 }
 
 Emerald_Bow: {
 	DisplayName: Изумрудный лук
-	Tooltip: Превращает деревянные стрелы в изумрудные стрелы
+	Tooltip: Превращает деревянные стрелы в изумрудные
 }
 
 Ruby_Bow: {
 	DisplayName: Рубиновый лук
 	Tooltip:
 		'''
-		Превращает деревянные стрелы в рубиновые стрелы
+		Превращает деревянные стрелы в рубиновые
 		Рубиновые стрелы отскакивают от поверхностей один раз
 		'''
 }
@@ -6079,7 +6074,7 @@ Sapphire_Bow: {
 	DisplayName: Сапфировый лук
 	Tooltip:
 		'''
-		Превращает деревянные стрелы в сапфировые стрелы
+		Превращает деревянные стрелы в сапфировые
 		Сапфировые стрелы слабо самонаводятся на курсор
 		'''
 }
@@ -6088,7 +6083,7 @@ Topaz_Bow: {
 	DisplayName: Топазовый лук
 	Tooltip:
 		'''
-		Превращает деревянные стрелы в топазовые стрелы
+		Превращает деревянные стрелы в топазовые
 		Топазовые стрелы летят быстрее и менее подвержены гравитации
 		'''
 }
@@ -6632,8 +6627,8 @@ FloranCharm: {
 	DisplayName: Флоранский охотничий талисман
 	Tooltip:
 		'''
-		Увеличивает скорость атаки ближнего боя на 5%
-		и немного ускоряет регенерацию здоровья, когда вы стоите на траве
+		Когда вы стоите на траве, увеличивает скорость атаки ближнего боя на 5%
+		и немного ускоряет регенерацию здоровья
 		'''
 }
 
@@ -6664,7 +6659,7 @@ FloranPick: {
 
 FloranReacher: {
 	DisplayName: Флоранский вытягиватель
-	Tooltip: Увеличивает навык рыбной ловли ночью
+	Tooltip: Имеет увеличенный навык рыбной ловли ночью
 }
 
 FloranSporeWand: {
@@ -7560,17 +7555,17 @@ SpiritRune: {
 }
 
 AccursedBlade: {
-	DisplayName: Accursed Blade
+	DisplayName: Осквернённый клинок
 	Tooltip:
 		'''
-		Kill enemies and collect their souls to build up charge
-		Right click to release charge as a cursed bolt
+		Убийства врагов и сбор их душ накапливает в клинке заряд
+		Нажмите ПКМ, чтобы выпустить накопленный заряд в виде проклятого снаряда
 		'''
 }
 
 AccursedSoul: {
-	DisplayName: Accursed Soul
-	Tooltip: You shouldn't see this
+	DisplayName: Осквернённая душа
+	Tooltip: Вы не должны были это видеть
 }
 
 Graveyard: {
@@ -7584,11 +7579,11 @@ OldCross: {
 }
 
 ScreamingTome: {
-	DisplayName: Screaming Tome
+	DisplayName: Кричащий фолиант
 	Tooltip:
 		'''
-		Creates orbiting skulls
-		Release to launch skulls
+		Удерживайте, чтобы призвать черепа, которые будут вращаться вокруг вас
+		Отпустите, чтобы запустить черепа в сторону курсора
 		'''
 }
 
@@ -7598,8 +7593,8 @@ GlowSting: {
 }
 
 MoonStone: {
-	DisplayName: Azure Gem
-	Tooltip: "'Holds a far away power'"
+	DisplayName: Лазурный самоцвет
+	Tooltip: «Хранит отголосок далёкой силы»
 }
 
 SeraphArmor: {
@@ -7743,18 +7738,18 @@ StoneOfSpiritsPast: {
 }
 
 PhantomArc: {
-	DisplayName: Phantom Arc
-	Tooltip: Summons an infinitely piercing laser of lost souls
+	DisplayName: Фантомная дуга
+	Tooltip: Выпускает лазер из заблудших душ, бесконечно пронзающий врагов
 }
 
 Revenant: {
-	DisplayName: Revenant
-	Tooltip: Converts regular arrows into Revenant Arrows
+	DisplayName: Ревенант
+	Tooltip: Превращает деревянные стрелы в ревенантские
 }
 
 SoulShred: {
-	DisplayName: Ethereal Ember
-	Tooltip: "'A part of the everburning Soul'"
+	DisplayName: Эфирный огонёк
+	Tooltip: «Осколок вечногорящей души»
 }
 
 SpiritBodyArmor: {
@@ -7786,22 +7781,22 @@ SpiritBar: {
 }
 
 SpiritBoomerang: {
-	DisplayName: Spirit Boomerang
-	Tooltip: Inflicts Soul Burn
+	DisplayName: Бумеранг духов
+	Tooltip: Накладывает на врагов дебафф «{$Buffs.SoulBurn.DisplayName}»
 }
 
 SpiritDrill: {
-	DisplayName: Spirit Drill
+	DisplayName: Бур духов
 	Tooltip: ""
 }
 
 SpiritGun: {
-	DisplayName: Spirit Burst
-	Tooltip: Turns regular bullets into Spirit Bullets
+	DisplayName: Всплеск духов
+	Tooltip: Превращает мушкетные пули в заряды духов
 }
 
 SpiritHamaxe: {
-	DisplayName: Spirit Hamaxe
+	DisplayName: Молотопор духов
 	Tooltip: ""
 }
 
@@ -7811,28 +7806,28 @@ SpiritOre: {
 }
 
 SpiritPickaxe: {
-	DisplayName: Spirit Pickaxe
+	DisplayName: Кирка духов
 	Tooltip: ""
 }
 
 SpiritSaber: {
-	DisplayName: Spirit Saber
-	Tooltip: Shoots out a homing bolt of souls that inflicts Soul Burn
+	DisplayName: Сабля духов
+	Tooltip: Выпускает самонаводящийся заряд душ, накладывающий на врагов дебафф «{$Buffs.SoulBurn.DisplayName}»
 }
 
 SpiritSpear: {
-	DisplayName: Spirit Spear
+	DisplayName: Копьё духов
 	Tooltip: ""
 }
 
 SpiritWand: {
-	DisplayName: Spirit Wand
-	Tooltip: Shoots out energy that travels along the ground
+	DisplayName: Жезл духов
+	Tooltip: Выпускает снаряды энергии, скользящий по земле
 }
 
 SpiritWings: {
-	DisplayName: Spirit Wings
-	Tooltip: Allows for flight and slow fall.
+	DisplayName: Крылья духов
+	Tooltip: "{$CommonItemTooltip.FlightAndSlowfall}"
 }
 
 FairyWhistleItem: {
@@ -7910,18 +7905,18 @@ CurseBreaker: {
 }
 
 DemoncomboSword: {
-	DisplayName: Eternal Sword
-	Tooltip: Shoots out apparitions of blades
+	DisplayName: Эфирный меч
+	Tooltip: Выпускает явления двух клинков
 }
 
 DemonfireSword: {
-	DisplayName: Flameberge Sword
-	Tooltip: Shoots out a fiery bolt
+	DisplayName: Фламберг
+	Tooltip: Выпускает огненный заряд
 }
 
 DemoniceSword: {
-	DisplayName: Vorpal Sword
-	Tooltip: Shoots out an icy razor that clings to tiles upon hitting them
+	DisplayName: Вострый меч
+	Tooltip: Выпускает ледяную бритву, катящуюся по земле
 }
 
 CrimsonSkull: {
@@ -8506,247 +8501,247 @@ Black_Stone_Item: {
 }
 
 AzureGemBlockItem: {
-	DisplayName: Azure Block
+	DisplayName: Лазурный блок
 	Tooltip: ""
 }
 
 BloodyFoliageItem: {
-	DisplayName: Bloody Foliage
+	DisplayName: Кровавая листва
 	Tooltip: ""
 }
 
 CaveDirtItem: {
-	DisplayName: Cave Dirt
+	DisplayName: Пещерная земля
 	Tooltip: ""
 }
 
 CinderstoneItem: {
-	DisplayName: Cinderstone
+	DisplayName: Пепельный камень
 	Tooltip: ""
 }
 
 CorruptMassItem: {
-	DisplayName: Corrupt Mass
+	DisplayName: Искажённый массивный камень
 	Tooltip: ""
 }
 
 CorruptOvergrowthItem: {
-	DisplayName: Corrupt Overgrowth
+	DisplayName: Искажённый проросший камень
 	Tooltip: ""
 }
 
 CorruptPustuleItem: {
-	DisplayName: Corrupt Pustule
+	DisplayName: Искажённый гнойный камень
 	Tooltip: ""
 }
 
 CorruptTendrilItem: {
-	DisplayName: Corrupt Tendril
+	DisplayName: Искажённый отростковый камень
 	Tooltip: ""
 }
 
 CrackedDirtItem: {
-	DisplayName: Cracked Dirt
+	DisplayName: Распадающаяся земля
 	Tooltip: ""
 }
 
 CragstoneItem: {
-	DisplayName: Cragstone
+	DisplayName: Скалистый камень
 	Tooltip: ""
 }
 
 CrimsonBlisterItem: {
-	DisplayName: Crimson Blister
+	DisplayName: Багряный волдырчатый камень
 	Tooltip: ""
 }
 
 CrimsonPustuleItem: {
-	DisplayName: Crimson Pustule
+	DisplayName: Багряный корковый камень
 	Tooltip: ""
 }
 
 CrimsonScabItem: {
-	DisplayName: Crimson Scab
+	DisplayName: Багряный струпный камень
 	Tooltip: ""
 }
 
 CrumblingDirtItem: {
-	DisplayName: Crumbling Dirt
+	DisplayName: Треснувшая земля
 	Tooltip: ""
 }
 
 DarkFoliageItem: {
-	DisplayName: Dark Foliage
+	DisplayName: Тёмная листва
 	Tooltip: ""
 }
 
 FloweryFoliageItem: {
-	DisplayName: Flowery Foliage
+	DisplayName: Цветущая листва
 	Tooltip: ""
 }
 
 ForestFoliageItem: {
-	DisplayName: Forest Foliage
+	DisplayName: Лесная листва
 	Tooltip: ""
 }
 
 FracturedStoneItem: {
-	DisplayName: Fractured Stone
+	DisplayName: Испещрённый камень
 	Tooltip: ""
 }
 
 HallowCavernstoneItem: {
-	DisplayName: Hallowed Cavernstone
+	DisplayName: Освящённый пещерный камень
 	Tooltip: ""
 }
 
 HallowCrystallineItem: {
-	DisplayName: Hallowed Crystalline Stone
+	DisplayName: Освящённый кристаллический камень
 	Tooltip: ""
 }
 
 HallowFoliageItem: {
-	DisplayName: Hallowed Foliage
+	DisplayName: Освящённая листва
 	Tooltip: ""
 }
 
 HallowPrismstoneItem: {
-	DisplayName: Hallowed Prismstone
+	DisplayName: Освящённый призматический камень
 	Tooltip: ""
 }
 
 HallowShardstoneItem: {
-	DisplayName: Hallowed Shardstone
+	DisplayName: Освящённый камень с осколками
 	Tooltip: ""
 }
 
 HiveBlockAltItem: {
-	DisplayName: Hive Hexblock
+	DisplayName: Соты улья
 	Tooltip: ""
 }
 
 IvyStoneItem: {
-	DisplayName: Ivy Stone
+	DisplayName: Плющевой камень
 	Tooltip: ""
 }
 
 JungleFoliageItem: {
-	DisplayName: Jungle Foliage
+	DisplayName: Листва джунглей
 	Tooltip: ""
 }
 
 KrampusHornBlockItem: {
-	DisplayName: Krampus Horn Block
+	DisplayName: Блок рога Крампуса
 	Tooltip: ""
 }
 
 LayeredDirtItem: {
-	DisplayName: Layered Dirt
+	DisplayName: Многослойная земля
 	Tooltip: ""
 }
 
 LeafyDirtItem: {
-	DisplayName: Leafy Dirt
+	DisplayName: Лиственная земля
 	Tooltip: ""
 }
 
 MagmastoneItem: {
-	DisplayName: Magmastone
+	DisplayName: Магмалит
 	Tooltip: ""
 }
 
 MottledStoneItem: {
-	DisplayName: Mottled Stone
+	DisplayName: Потрескавшийся камень
 	Tooltip: ""
 }
 
 ObsidianBlockItem: {
-	DisplayName: Obsidian Stone
+	DisplayName: Обсидиановый камень
 	Tooltip: ""
 }
 
 OldStoneItem: {
-	DisplayName: Old Stone
+	DisplayName: Старый камень
 	Tooltip: ""
 }
 
 OutlandStoneItem: {
-	DisplayName: Outland Stone
+	DisplayName: Чужеземный камень
 	Tooltip: ""
 }
 
 RockyDirtItem: {
-	DisplayName: Rocky Dirt
+	DisplayName: Каменистая земля
 	Tooltip: ""
 }
 
 RoughDirtItem: {
-	DisplayName: Rough Dirt
+	DisplayName: Грубая земля
 	Tooltip: ""
 }
 
 RuinstoneItem: {
-	DisplayName: Ruinstone
+	DisplayName: Лишайниковый камень
 	Tooltip: ""
 }
 
 RuneBlockItem: {
-	DisplayName: Arcane Rune Block
+	DisplayName: Блок с тайными рунами
 	Tooltip: ""
 }
 
 SmolderingRockItem: {
-	DisplayName: Smoldering Rock
+	DisplayName: Тлеющий камень
 	Tooltip: ""
 }
 
 StalactiteStoneItem: {
-	DisplayName: Stalactite Stone
+	DisplayName: Сталактитовый камень
 	Tooltip: ""
 }
 
 VinestoneItem: {
-	DisplayName: Vinestone
+	DisplayName: Земля с лозой
 	Tooltip: ""
 }
 
 WavyDirtItem: {
-	DisplayName: Wavy Dirt
+	DisplayName: Волнообразная стена
 	Tooltip: ""
 }
 
 WornStoneItem: {
-	DisplayName: Worn Stone
+	DisplayName: Обветшалый камень
 	Tooltip: ""
 }
 
 BloodMoonAuroraMonolithItem: {
-	DisplayName: Blood Moon Aurora Monolith
-	Tooltip: "{$SpiritBiomeAuroraMonolithItem.Tooltip}"
+	DisplayName: Монолит кровавого северного сияния
+	Tooltip: «Содержит частичку кровавой энергии»
 }
 
 FrostMoonAuroraMonolithItem: {
-	DisplayName: Frost Moon Aurora Monolith
-	Tooltip: "{$SpiritBiomeAuroraMonolithItem.Tooltip}"
+	DisplayName: Монолит морозного северного сияния
+	Tooltip: «Содержит частичку морозной энергии»
 }
 
 NormalAuroraMonolithItem: {
-	DisplayName: Aurora Monolith
-	Tooltip: "{$SpiritBiomeAuroraMonolithItem.Tooltip}"
+	DisplayName: Монолит северного сияния
+	Tooltip: «Содержит частичку полярной энергии»
 }
 
 PumpkinAuroraMonolithItem: {
-	DisplayName: Pumpkin Moon Aurora Monolith
-	Tooltip: "{$SpiritBiomeAuroraMonolithItem.Tooltip}"
+	DisplayName: Монолит тыквенного северного сияния
+	Tooltip: «Содержит частичку энергии тыквенной луны»
 }
 
 SpiritBiomeAuroraMonolithItem: {
-	DisplayName: Spirit Biome Aurora Monolith
-	Tooltip: Can be equipped to display a local aurora
+	DisplayName: Монолит северного сияния духов
+	Tooltip: «Содержит частичку энергии духов»
 }
 
 BlossomCage: {
-	DisplayName: Blossmoon Cage
+	DisplayName: Террариум с лунником
 	Tooltip: ""
 }
 
@@ -8892,17 +8887,17 @@ CursedArmorItem: {
 }
 
 SepulchreChandelierItem: {
-	DisplayName: Sepulchre Chandelier
+	DisplayName: Люстра склепа
 	Tooltip: ""
 }
 
 SepulchreMirrorItem: {
-	DisplayName: Sepulchre Mirror
+	DisplayName: Зеркало склепа
 	Tooltip: ""
 }
 
 SepulchreWindowItem: {
-	DisplayName: Sepulchre Window
+	DisplayName: Окно склепа
 	Tooltip: ""
 }
 
@@ -8957,7 +8952,7 @@ AcidPlatformItem: {
 }
 
 SepulchrePlatformItem: {
-	DisplayName: Sepulchre Platform
+	DisplayName: Платформа склепа
 	Tooltip: ""
 }
 

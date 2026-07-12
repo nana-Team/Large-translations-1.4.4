@@ -218,7 +218,7 @@ AutomataSpinner: {
 Beholder: {
 	DisplayName: Beholder
 	Entry: These beasts roam the marble pits found within the world, judging you with each one of their many eyes.
-	BossChecklistIntegration.SpawnInfo: The Beholder spawns rarely in Marble Caverns after the Eater of Worlds or Brain of Cthulhu has been defeated.
+	BossChecklistIntegration.SpawnInfo: Изредка появляется в мраморных пещерах после победы над Пожирателем миров или Мозгом Ктулху.
 }
 
 BlazingSkull: {
@@ -311,7 +311,7 @@ Shadowflamer: {
 FrostSaucer: {
 	DisplayName: Snow Monger
 	Entry: A dangerous hovercraft made of spine-chillingly cold metal, and powered by Frost Cores. Playtime's over, no more mister ice guy!
-	BossChecklistIntegration.SpawnInfo: Редко появляется во время Морозного легиона.
+	BossChecklistIntegration.SpawnInfo: Изредка появляется во время Морозного легиона.
 }
 
 Infernon: {
@@ -328,7 +328,7 @@ InfernoSkull.DisplayName: Infernus Skull
 MoonWizard: {
 	DisplayName: Лунная медуза-волшебник
 	Entry: Эти лунные медузы куда смышлённей, чем кажутся. Дай им немного слаженности и чувства стиля, и они тут же станут в разы более грозным противником, чем любая другая медуза.
-	BossChecklistIntegration.SpawnInfo: Используйте [i:SpiritMod/DreamlightJellyItem] ночью на поверхности. Предмет можно поймать сачком во время Медузного наводнения.
+	BossChecklistIntegration.SpawnInfo: Используйте [i:SpiritMod/DreamlightJellyItem] ночью на поверхности. Её можно поймать сачком во время Медузного наводнения.
 }
 
 AzureGemProj.DisplayName: Azure Gem
@@ -337,7 +337,7 @@ MysticMJWClone.DisplayName: Mystic Clone
 OccultistBoss: {
 	DisplayName: Оккультист
 	Entry: An undead dream demon obsessed with the practice and perfection of so-called 'blood corruption.' For this practice, he only reveals himself when the moon shimmers sanguine.
-	BossChecklistIntegration.SpawnInfo: Редко появляется во время кровавой луны, если в мире был побеждён хотя бы один пре-хардмодный босс.
+	BossChecklistIntegration.SpawnInfo: Изредка появляется во время кровавой луны, если в мире был побеждён хотя бы один пре-хардмодный босс.
 }
 
 ExplodingSpore.DisplayName: Exploding Spore
@@ -345,7 +345,7 @@ ExplodingSpore.DisplayName: Exploding Spore
 ReachBoss: {
 	DisplayName: Гневоплющ
 	BossChecklistIntegration.SpawnInfo: Нажмите ПКМ по кровоцвету — светящемуся цветку, растущем на самом дне терновника. В качестве альтернативы, используйте [i:SpiritMod/ReachBossSummon] в подземном терновнике.
-	PreSpawn: Тревожить этот цветок явно плохая идея...
+	PreSpawn: Тревожить этот цветок — явно не лучшая идея...
 	Spawn: Гневоплющ пробуждается!
 }
 
@@ -364,7 +364,7 @@ Scarab_Wall.DisplayName: Скарабей
 Scarabeus: {
 	DisplayName: Скарабеус
 	Entry: Once thought to be a deity, this particular beetle comes from an elusive species that is equally massive.
-	BossChecklistIntegration.SpawnInfo: Используйте [i:SpiritMod/ScarabIdol] днём в пустыне. Предмет можно создать самостоятельно или получить за выполнение задания приключенца.
+	BossChecklistIntegration.SpawnInfo: Используйте [i:SpiritMod/ScarabIdol] днём в пустыне. Его можно создать самостоятельно или получить за выполнение задания приключенца.
 }
 
 SwarmScarab.DisplayName: Скарабей
@@ -399,12 +399,12 @@ Boulder_Termagant: {
 }
 
 CavernBandit: {
-	DisplayName: Cavern Bandit
-	Entry: Some people go mining for the resources, others for the sport. These malicious marauders delve to hunt those people.
+	DisplayName: Пещерный бандит
+	Entry: Кто-то ходит в пещеры копать полезные ископаемые, кто-то — заниматься активным отдыхом. Эти же мародёры, в свою очередь, — грабить и убивать.
 }
 
 CavernCrawler: {
-	DisplayName: Cavern Crawler
+	DisplayName: Пещерный ползун
 	Entry: Despite a timid outward appearance, these curious cave-dwellers should not be underestimated.
 }
 
@@ -444,8 +444,8 @@ Bladetongue: {
 }
 
 Blossmoon: {
-	DisplayName: Blossmoon
-	Entry: These creatures are the size of a quarter, and only ever appear during the night. They can only be observed dancing, and emitting a low calming glow.
+	DisplayName: Лунник
+	Entry: Эти крохотные существа ведут исключительно ночной образ жизни. В это время суток они только то и делают, что танцуют и излучают тёплый успокаивающий свет.
 }
 
 Cavefish: {
@@ -781,9 +781,9 @@ GraniteSlime: {
 }
 
 HauntedTome: {
-	DisplayName: Haunted Tome
+	DisplayName: Одержимый фолиант
 	Entry: A warding glyph was placed on this tome to protect it from improper use. Unfortunately for you, that means staring down a book with 20 canines.
-	BossChecklistIntegration.SpawnInfo: Haunted Tomes can be found while exploring Dark Sepulchres and interacting with certain items.
+	BossChecklistIntegration.SpawnInfo: Провзаимодействуйте с одним из предметов в тёмном склепе.
 }
 
 HellEater: {
@@ -836,7 +836,7 @@ Masticator: {
 Mecromancer: {
 	DisplayName: Mechromancer
 	Entry: One of the greatest minds among the Goblin Army's arsenal. A Mechromancer’s tinkering talents are nearly unmatched.
-	BossChecklistIntegration.SpawnInfo: The Mechromancer spawns rarely during a Goblin Army after the Eye of Cthulhu has been defeated.
+	BossChecklistIntegration.SpawnInfo: Изредка появляется во время Армии гоблинов после победы над Глазом Ктулху.
 }
 
 GoldCrateMimic: {
@@ -920,7 +920,7 @@ PagodaGhostPassive.DisplayName: Yuurei
 
 Phantom: {
 	DisplayName: Фантом
-	Entry: A typical cave bat, transformed into pure darkness by ancient magicks. When night falls, they take to the skies to feed on those unfortunate enough to still be awake.
+	Entry: Пещерная летучая мышь, обращённая древним колдовством в полную темень. Когда наступает ночь, они выходят на поверхность и начинают охотиться на тех несчастных, что не легли спать.
 }
 
 PirateLobber: {
@@ -970,7 +970,7 @@ ForestWraith: {
 		'''
 		Мини-босса можно призвать тремя способами:
 		- Сломайте костяной алтарь в подземном терновнике.
-		- Используйте [i:SpiritMod/GladeWreath] в терновнике. Предмет можно найти в сундуках биома.
+		- Используйте [i:SpiritMod/GladeWreath] в терновнике. Его можно найти в сундуках биома.
 		- Дождитесь естественного появления мини-босса ночью в терновнике после победы над Глазом Ктулху.
 		'''
 	BoneAltar: Вы потревожили древних духов природы!
@@ -1024,7 +1024,7 @@ Skeleton_Brute: {
 Snaptrapper: {
 	DisplayName: Snaptrapper
 	Entry: Very little has been observed about this shrouded creature. It is six legged and bears claws, leading most to believe it is some form of arthropod.
-	BossChecklistIntegration.SpawnInfo: The Snaptrapper spawns rarely on the Jungle surface after the Eater of Worlds or Brain of Cthulhu has been defeated.
+	BossChecklistIntegration.SpawnInfo: Изредка появляется в джунглях на поверхности после победы над Пожирателем миров или Мозгом Ктулху.
 }
 
 AncientDemon: {
@@ -1088,7 +1088,7 @@ WanderingSoul: {
 }
 
 SporeWheezer: {
-	DisplayName: Spore Wheezer
+	DisplayName: Споровый пыхтельник
 	Entry: Usually parasitic, the glowing mushrooms formed a symbiotic relationship with wheezers as they consciously spread spores through their breath.
 }
 
@@ -1476,7 +1476,7 @@ RuneWizard: {
 	}
 
 	Entry: This tired rune scribe has spent sleepless nights studying the ancient magic found in glyphs. He's not much of a conversationalist, but he'll gladly empower your arsenal.
-	Census.SpawnCondition: Have a Blank Glyph in your inventory
+	Census.SpawnCondition: Необходимо иметь пустой глиф в инвентаре
 }
 
 Undead_Warlock: {

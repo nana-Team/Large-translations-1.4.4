@@ -92,8 +92,8 @@ QuestInfo: {
 	}
 
 	BareNecessities: {
-		Name: Bare Necessities
-		Description: You know, I'm real appreciative of the home you've given me after savin' me, and I don't want to sound rude. Buuuut, I think we can really spice this place up, lad. And it all starts with craftin' a Naturalist's Workshop for some pretty buildin' materials.
+		Name: Без этого никак
+		Description: Знаешь, я реально ценю то, что меня не только из того ужасного места вытащили, но и без крыши над головой не оставили. И всё же, не хочу показаться грубым, но-о-о... дружище, этому месту правда не помешал бы декор. Начни с создания мастерской натуралиста: на ней сможешь сделать кучу красивых штуковин.
 	}
 
 	BlastFromThePast: {
@@ -132,10 +132,10 @@ QuestInfo: {
 	}
 
 	BreakingAndEntering: {
-		Name: Breaking and Entering
-		Description: A couple of my scout friends spotted something troubling near the far shores of the world. They caught a glimpse of a bound woman up there. Would you mind headin' there and checking things out? Maybe she needs rescuing! If you're not feeling too altruistic, I'm sure there's plenty of loot for the taking, too!
-		Dialogue: Must be my lucky day to see a friendly face around here! These goblins didn't take too kindly to me offering a, uh, rigged deal. Anyway, d'you have a place to stay? Let's flip for it.
-		Objective: Find the Arcane Goblin Tower and rescue the prisoner.
+		Name: Ворваться с ноги
+		Description: Пару лет назад я вёл дела с одним своим другом, что любил иной раз переступить закон. Бандитом он был, понимаешь ли, причём толковым! С тех пор мы часто обменивались письмами, но в последнее время он что-то отвечать перестал. Я видел его с бандой разбойников далеко отсюда. Проведаешь его?
+		Dialogue: "{$NPCs.Gambler.Dialogue.Bound}"
+		Objective: Найти таинственную башню гоблинов и спасти пленницу.
 	}
 
 	CritterCaptureBlossmoon: {
@@ -184,8 +184,8 @@ QuestInfo: {
 	}
 
 	DecrepitDepths: {
-		Name: Decrepit Depths
-		Description: You ever wonder why there're so many skeletons underground? Turns out that there was a band of necromancers that holed up in the caverns all across the world and performed all kinds of experiments. Well, lucky for us they're gone! But their Sepulchres still remain. Mind scopin' the place out for me? Don't turn into a skeleton!
+		Name: Дряхлое захоронение
+		Description: Задумывался когда-нибудь, почему под землёй бродит так много скелетов? Оказывается, это всё проделки шайки некромантов, что укрывалась в пещерах по всему миру и проводила свои гнусные ритуалы. Хорошо, что их уже давно нет! Но вот их склепы всё ещё остались. Сходишь туда, поизучаешь? Только в скелета не превратись!
 	}
 
 	ExplorerQuestAsteroid: {
@@ -195,9 +195,9 @@ QuestInfo: {
 	}
 
 	ExplorerQuestAurora: {
-		Name: Lights in the Sky
-		Description: I don't really have a particular motive for this job except for sharin' the beauty of this world with more people. Have you seen a Boreal Aurora before? It might be the most magical thing in the world, and this world's actually got magic! You can find them at high altitudes and in the snowy tundra. Just go there and take in the sights.
-		Objective: boreal auroras in the snowy tundra or at high altitudes
+		Name: Любование небом
+		Description: Честно, это задание я даю просто ради того, чтобы ты мог насладиться красотой нашей природы. Ты сам когда-нибудь видел северное сияние? В мире столько всякой магии существует, но это явление — самое магическое, самое завораживающее, что в нём есть! Застать сияние можешь в тундре или забравшись как можно выше. Давай, иди любуйся.
+		Objective: северное сияние в заснеженной тундре или на большой высоте.
 	}
 
 	ExplorerQuestBlueMoon: {
@@ -213,20 +213,20 @@ QuestInfo: {
 	}
 
 	ExplorerQuestCrimson: {
-		Name: Body Horrors
-		Description: So you're planning on staying in this world for a while, huh? We've got a lot of exploring to do before we can get a grasp of this region. We need to know how dangerous the Crimson fields are. I'm not strong enough, so you'll need to handle this alone. If you can survive there, you can explore the other territories the Adventurer mentioned in his journal.
+		Name: Телесные ужасы
+		Description: Значит, ты в этом мире ещё надолго? Нам предстоит многое исследовать, чтобы во всём здесь разобраться. Для начала нужно выяснить, насколько опасны эти багрянцевые поля. Боец из меня никудышный, так что тебе придётся отправиться туда самому. Если сможешь выжить на тех полях, значит сможешь исследовать и другие опасные места, о которых писал приключенец в своём журнале.
 		Objective: багрянец
 	}
 
 	ExplorerQuestGranite: {
-		Name: Rocky Road
-		Description: A couple of underground cave systems seem to be made almost entirely of dark granite. Some kinda energy source seems to be bringin' the rocks to life, too. I'd like ya to go and investigate. After you stumble upon one of these Granite Caverns, wander around for a while and take some notes for me, alright?
+		Name: Гранит науки
+		Description: Видал я как-то пещеры, что целиком состояли из тёмного гранита. В них ещё бушует какая-то странная магия, из-за которой камни оживают. Пойди-ка да разведай, что там да как. Найдёшь такую пещеру — походи по ней, поизучай, потом о находках расскажешь, хорошо?
 		Objective: гранитную пещеру
 	}
 
 	ExplorerQuestHive: {
-		Name: Hive Hunting
-		Description: Have you checked out the lower parts of the Jungle? I've recently heard about a series of massive hives around there. I loathe bees... an' hornets... an' giant man eatin' plants, so would ya like to check one of these hives out for me?
+		Name: Пчеловодство
+		Description: Ты уже был в подземных джунглях? Я слышал, что там повсюду огроменные ульи. Терпеть не могу пчёл... и шершней... и растений-людоедов. Так что, разведаешь для меня, где там эти ульи зарыты?
 		Objective: огромный улей в джунглях
 	}
 
@@ -237,15 +237,15 @@ QuestInfo: {
 	}
 
 	ExplorerQuestMarble: {
-		Name: Forgotten Civilizations
-		Description: I'd like ya to head out there and map out the lower reaches of this land. A few caverns are covered in marble and the ruins of some ancient civilization. After you stumble upon one of these Marble Caverns, wander around for a while and take some notes for me, alright? Hopefully, those ruins are desolate, eh?
+		Name: Забытая цивилизация
+		Description: Мне нужно, чтоб кто-нибудь залез как можно глубже в недра этой земли и составил карту пещер, сплошь покрытых мрамором. Найдёшь такую пещеру — походи по ней, поизучай, потом расскажешь, правда ли, что там остались руины какой-то древней цивилизации. Надеюсь, никого из той цивилизации не повстречаешь — говорят, кусаются.
 		Objective: мраморную пещеру
 	}
 
 	ExplorerQuestMushroom: {
-		Name: Glowing a Garden
-		Description: I'm looking for info on any nearby Glowing Mushroom Caverns. You see, I made a bet with the merchant that they DO exist an' that I don't hallucinate giant blue glowing mushroom trees. On second thought, I may not sound too sane sayin' that, but I swear they're real! Go prove me right!
-		Objective: грибные пустоши
+		Name: Синий свет в конце туннеля
+		Description: Мне срочно нужно выяснить, нет ли где-нибудь рядом пещеры светящихся грибов. Видишь ли, у нас тут с торговцем спор завязался. Я ему говорю, что они существуют, не могли же мне померещиться гигантских размеров светящиеся синие грибы? Хотя, если так подумать, звучит это реально бредово, но клянусь, они существуют! Иди и докажи ему, что я был прав!
+		Objective: пещеру светящихся грибов
 	}
 
 	ExplorerQuestOcean: {
@@ -258,10 +258,10 @@ QuestInfo: {
 	}
 
 	FriendSafari: {
-		Name: Friend Safari
-		Description: A few years ago, I was running a job with a friend of mine who's never really been on the good side of the law. He's a bandit, and a mighty fine one at that. We've kept in touch ever since, but he's been awfully silent as of late. Last I remember, he was holed up with a bandit group near the far shores of the world. Would you mind checkin' up on him?
-		Dialogue: Hey! Thanks for saving me- Now, mind getting us out of this pickle? They duped me, took all my cash and left me for dead here! Don't think it means I'll discount my wares for you, though. Just kidding! Not.
-		Objective: Find the bandit hideout and rescue the prisoner.
+		Name: Охота за друзьями
+		Description: Пару лет назад я вёл дела с одним своим другом, что любил иной раз переступить закон. Бандитом он был, понимаешь ли, причём толковым! С тех пор мы часто обменивались письмами, но сейчас он что-то перестал отвечать. В последний раз я видел его с бандой разбойников далеко отсюда. Проведаешь его?
+		Dialogue: "{$NPCs.Rogue.Dialogue.Bound}"
+		Objective: Найти укрытие бандитов и спасти пленника.
 	}
 
 	GranitechQuest: {
@@ -319,8 +319,8 @@ QuestInfo: {
 	}
 
 	ManicMage: {
-		Name: Manic Mage
-		Description: Scouts at the far ends of the world have reported that a witch seems to be terrorizin' the area. Apparently, it's some type of harpy with a real dangerous staff. Mission's real simple this time. Bring me its head! Er... I promise I'm not unhinged. I mean, bring me its hat! Yeah.
+		Name: Маг-маньяк
+		Description: Мои разведчики донесли мне неблагую весть: далеко отсюда живёт некий колдун и наводит страх на местных. Говорят, колдун этот — гарпия-переросток с мощным магическим посохом. Твоя задача предельно проста: принеси мне его голову! Ой... я не из этих, правда. Я имел в виду: принеси мне его шляпу!
 	}
 
 	OlympiumQuest: {
@@ -342,7 +342,7 @@ QuestInfo: {
 	ReturnToYourRoots: {
 		Name: A Return to Your Roots
 		Description: You know, while I was trapped down there, I noticed something...apparently, all the roots in the Briar connect to one central... thing. I don't know what it is, but I'm not going to find out for myself...at least not for a while. Could you take a look?
-		Objective: Kill the Vinewrath Bane
+		Objective: Убить Гневоплющ
 	}
 
 	SinisterSands: {
@@ -362,9 +362,9 @@ QuestInfo: {
 	}
 
 	SlayerQuestCavern: {
-		Name: Creepy Crawlies
-		Description: Some new creepy crawlies have taken to calling the caverns their home. Disgustin' little fellas that belch poison gas and some spiny little buggers. Do us all a favor and exterminate those nasty things. Killing a dozen of 'em will surely make the underground a less nasty place.
-		Objective: Kill 8 Wheezers, Spore Wheezers, Cavern Crawlers, Giant Shellys, Salamanders, or Crawdads
+		Name: Жуткие и ползучие
+		Description: В пещерах под нами, кажется, прижились всякие жуткие твари. Омерзительные гады, что рыгают ядовитыми парами да плодятся без остановки. Будь добр, наведайся к ним. Истребишь хотя бы штук десять — в пещерах уже будет не так мерзко.
+		Objective: Убить: пыхтельник, споровый пыхтельник, пещерный ползун, гигантский ракушечник, саламандра или речной рак (8 шт.)
 	}
 
 	SlayerQuestClown: {
@@ -373,8 +373,8 @@ QuestInfo: {
 	}
 
 	SlayerQuestDrBones: {
-		Name: Zombies... Why Zombies
-		Description: My colleague, an expert archaeologist, went roamin' the jungle for some ancient temple. He didn't make it, though. Reports have told me that he's still roamin' the Jungle surface as a zombie. Mind going out there and puttin' him to rest for me? He's been exploring enough.
+		Name: Ну почему зомби...
+		Description: Мой коллега — эксперт в археологии — ушёл однажды в джунгли исследовать один древний храм... и не вернулся, к сожалению. До меня дошли новости о том, что он всё ещё бродит по поверхности джунглей, но уже не как человек, а как зомби. Сделай милость, прикончи-ка его. Он уже вдоволь наисследовался.
 	}
 
 	SlayerQuestMarble: {
@@ -383,8 +383,8 @@ QuestInfo: {
 	}
 
 	SlayerQuestNymph: {
-		Name: She's a Maniac
-		Description: Y'know, after some time resting after being stranded in the Briar, I was really excited to return to the datin' game. Had a nice date lined up and everything. The lady was super pretty an' nice. But when I got to the cave we were supposed to meet in, she tried to eat me! Pesky monster- kill her to give me some closure!
+		Name: Да она чокнутая!
+		Description: Знаешь ли, после многих дней, проведённых в терновнике, мне невтерпёж было снова начать крутить романы с кем-нибудь. Позвал одну даму на свидание, принарядился. Она была той ещё милашкой. Но как только я зашёл в пещеру, в которой мы собирались встретиться, она набросилась на меня и попыталась съесть! Вот ведь чудовище грязное, прикончи её!
 	}
 
 	SlayerQuestOccultist: {
@@ -398,8 +398,8 @@ QuestInfo: {
 	}
 
 	SlayerQuestUGDesert: {
-		Name: To Go Deeper
-		Description: We need to go deeper! That's right, deeper into the desert to slay those pesky terrors that live down there. They've made spelunkin' so difficult for some local miners, and I need you to help clear the path for them!
+		Name: Всё глубже и глубже
+		Description: Спустись-ка ты поглубже! Ага, поглубже в подземную пустыню! Надоедливая шваль, что там обитает, превратила жизнь простых шахтёров в невыносимую пытку. Нужно, чтоб кто-нибудь очистил для них место от этих чудищ!
 	}
 
 	SlayerQuestValkyrie: {
