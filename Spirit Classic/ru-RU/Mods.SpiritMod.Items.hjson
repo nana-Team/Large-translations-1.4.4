@@ -40,7 +40,8 @@ AssassinMagazine: {
 	DisplayName: Обойма наёмника
 	Tooltip:
 		'''
-		Позволяет менять используемые боеприпасы двойным нажатием клавиши {0}, если у вас в руках есть стрелковое оружие
+		Позволяет менять используемые боеприпасы двойным нажатием клавиши {0},
+		если у вас в руках есть стрелковое оружие
 		Работает даже в инвентаре
 		'''
 }
@@ -334,7 +335,7 @@ LongFuse: {
 	DisplayName: Длинный фитиль
 	Tooltip:
 		'''
-		Замедляет скорость сгорания взрывчатки
+		Увеличивает скорость сгорания взрывчатки
 		Работает даже в инвентаре
 		'''
 }
@@ -386,11 +387,11 @@ MagnifyingGlass: {
 }
 
 MedusaShield: {
-	DisplayName: Medusa Shield
+	DisplayName: Щит Медузы
 	Tooltip:
 		'''
-		Provides immunity to knockback and the stoned debuff
-		As health decreases, defense increases
+		Даёт невосприимчивость к отбрасыванию и дебаффу «{$BuffName.Stoned}»
+		Увеличивает защиту по мере снижения здоровья
 		'''
 }
 
@@ -404,43 +405,40 @@ GildedScarab: {
 }
 
 GrislyTongue: {
-	DisplayName: Grisly Tongue
+	DisplayName: Мерзотный язык
 	Tooltip:
 		'''
-		Getting hit dislodges a chunk of meat that can be picked up to recover a portion of your lost health
-		This pickup dissapears after a few seconds
+		При получении урона от вас будут отлетать кусок плоти
+		Подбор этих кусков восстанавливает часть потерянного здоровья
+		Куски плоти исчезает через несколько секунд после появления
 		'''
 }
 
 SlagMedallion: {
-	DisplayName: Slag Medallion
+	DisplayName: Шлаковый медальон
 	Tooltip:
 		'''
-		Getting hit grants a temporary damage buff
-		This buff scales with the damage taken
+		Ненадолго увеличивает наносимый урон после получения урона
+		Чем больше урона было получено, тем выше будет бонус к наносимому урону
 		'''
 }
 
 GrislyBit: {
-	DisplayName: Grisly Bit
-	Tooltip: You shouldn't see this
+	DisplayName: Кусок плоти
+	Tooltip: Вы не должны были это видеть
 }
 
 MetalBand: {
-	DisplayName: Metal Band
-	Tooltip:
-		'''
-		Increases pickup range for ores
-		'No you can't listen to this'
-		'''
+	DisplayName: Металлический браслет
+	Tooltip: Увеличивает дальность подбора руды
 }
 
 MimicRepellent: {
-	DisplayName: Mimic Repellent
+	DisplayName: Отпугиватель мимиков
 	Tooltip:
 		'''
-		Prevents Crate Mimics from being fished up
-		'Keep those tentacled freaks at bay!'
+		Предотвращает вылов ящиков-мимиков во время рыбалки
+		«Держит этих щупальцеобразных уродов подальше!»
 		'''
 }
 
@@ -451,12 +449,12 @@ Moonlight_Sack: {
 }
 
 OpalFrogItem: {
-	DisplayName: Opal Frog
+	DisplayName: Опаловая лягушка
 	Tooltip:
 		'''
-		15% increased hook speed
-		Automatically detatch from hooks upon reaching the end of the hook
-		Disable accessory visibility to disable auto-unhooking
+		Увеличивает скорость крюка на 15%
+		Автоматически отцепляет вас от крюка после подтягивания к точке зацепа
+		Отключите видимость аксессуара, чтобы отменить автоматическое отцепление
 		'''
 }
 
@@ -470,11 +468,11 @@ Rabbit_Foot: {
 }
 
 Rangefinder: {
-	DisplayName: Rangefinder
+	DisplayName: Дальномер
 	Tooltip:
 		'''
-		Ranged weapons are now equipped with a laser sight
-		Works while in the inventory
+		Оснащает стрелковое оружие лазерным прицелом
+		Работает даже в инвентаре
 		'''
 }
 
@@ -484,21 +482,21 @@ RogueCrest: {
 }
 
 RuneWizardScroll: {
-	DisplayName: Rune Wizard's Scroll
+	DisplayName: Свиток руноманта
 	Tooltip:
 		'''
-		'We all knew Skeletons could write.'
-		Magic attacks may inflict random, powerful debuffs on foes
-		Magic attacks may shoot out a random projectile
+		«Было очевидно, что скелеты умеют писать»
+		Магические атаки иногда будут накладывать на врагов случайные, но сильные дебаффы
+		Магические атаки иногда будут выпускать случайные снаряды
 		'''
 }
 
 BloodWard: {
-	DisplayName: Sanguine Ward
+	DisplayName: Кровяной защитник
 	Tooltip:
 		'''
-		Creates a weakening runic aura
-		Killing enemies inside your runic aura heals some life
+		Создаёт ослабляющую руническую ауру
+		Убийство врагов внутри ауры восстанавливает часть вашего здоровья
 		'''
 }
 
@@ -518,41 +516,41 @@ ShadowSingeFang: {
 }
 
 ShieldCore: {
-	DisplayName: Interstellar Shield Core
-	Tooltip: You are surrounded by reflective shields
+	DisplayName: Межзвёздное защитное ядро
+	Tooltip: Окружает вас щитами, отражающими атаки
 }
 
 ShortFuse: {
-	DisplayName: Short Fuse
+	DisplayName: Короткий фитиль
 	Tooltip:
 		'''
-		Explosives burn quicker
-		Works while in the inventory
+		Снижает скорость сгорания взрывчатки
+		Работает, даже если находится в инвентаре
 		'''
 }
 
 ShurikenLauncher: {
-	DisplayName: Sharpshooter's Glove
+	DisplayName: Перчатка снайпера
 	Tooltip:
 		'''
-		Increases ranged damage at a distance
-		Consecutive shots at this range deal increased damage
+		Увеличивает стрелковый урон по врагам на большом расстоянии
+		Последовательные выстрелы с этой дистанции наносят увеличенный урон
 		'''
 }
 
 SkarmoryWings: {
-	DisplayName: Bladewings
+	DisplayName: Клинковые крылья
 	Tooltip:
 		'''
-		'It seems to originate from a metallic organism of unknown origin'
-		Grants flight and slow fall
-		Leaves behind a trail of quicksilver that homes in on foes
+		«Кажется, они принадлежат металлическому существу неизвестного происхождения»
+		{$CommonItemTooltip.FlightAndSlowfall}
+		Оставляет за вами след из самонаводящийся ртути
 		'''
 }
 
 SpectreRing: {
-	DisplayName: Spectre Ring
-	Tooltip: Unleashes a bolt of Spectre Energy when the wearer is hurt
+	DisplayName: Спектральное кольцо
+	Tooltip: Выпускает заряды спектральной энергии при получении вами урона
 }
 
 SpellswordCrest: {
@@ -561,17 +559,17 @@ SpellswordCrest: {
 }
 
 SwiftRune: {
-	DisplayName: Swiftness Rune
-	Tooltip: Massively increases unassisted aerial agility
+	DisplayName: Руна стремительности
+	Tooltip: Значительно увеличивает манёвренность в воздухе, если у вас нет крыльев
 }
 
 TimScroll: {
-	DisplayName: Tim's Scroll of Fumbling
+	DisplayName: Неуклюжий свиток Тима
 	Tooltip:
 		'''
-		'Who knew Skeletons could write?'
-		Magic attacks may inflict random debuffs on foes
-		Magic attacks may shoot out a random projectile
+		«Кто бы мог подумать, что скелеты не умеют писать?»
+		Магические атаки иногда будут накладывать на врагов случайные дебаффы
+		Магические атаки иногда будут выпускать случайные снаряды
 		'''
 }
 
@@ -594,30 +592,26 @@ Unstable_Tesla_Coil: {
 }
 
 VitalityStone: {
-	DisplayName: Vitality Stone
+	DisplayName: Камень жизненной силы
 	Tooltip:
 		'''
-		Hearts are more likely to drop from enemies
-		'The night is dark and full of terrors'
+		Увеличивает шанс выпадения сердец из врагов
+		«Ночь темна и полна ужасов»
 		'''
 }
 
 WheezerScale: {
-	DisplayName: Wheezer Scale
+	DisplayName: Чешуя пыхтельника
 	Tooltip:
 		'''
-		Melee hits on foes may cause them to emit a cloud of poisonous gas
-		5% increased melee speed
+		Удары оружием ближнего боя иногда будут выпускать облако ядовитого газа
+		Увеличивает скорость атаки ближнего боя на 5%
 		'''
 }
 
 WintryCharmMage: {
-	DisplayName: Wintry Charm
-	Tooltip:
-		'''
-		Attacks may slow down hit enemies
-		This effect does not apply to bosses
-		'''
+	DisplayName: Зимний талисман
+	Tooltip: Атаки могут замедлять поражённых врагов, не являющихся боссами
 }
 
 BeetleArrow: {
@@ -631,23 +625,23 @@ SepulchreArrow: {
 }
 
 RipperSlug: {
-	DisplayName: Ripper Slug
-	Tooltip: Obeys gravity, but does extra damage
+	DisplayName: Патрон-потрошитель
+	Tooltip: Сильно подвержена гравитации, но наносит дополнительный урон
 }
 
 RubberBullet: {
-	DisplayName: Rubber Bullet
-	Tooltip: Knocks enemies back farther
+	DisplayName: Резиновый патрон
+	Tooltip: Сильнее отбрасывает врагов
 }
 
 SpectreBullet: {
-	DisplayName: Spectre Bullet
-	Tooltip: A spectral bolt that homes on to enemies and occasionally saps their life
+	DisplayName: Спектральная пуля
+	Tooltip: Самонаводящийся призрачный снаряд, который иногда высасывает здоровье у врагов
 }
 
 FaerieStar: {
-	DisplayName: Faerie Star
-	Tooltip: Can be used as ammunition
+	DisplayName: Сказочная звезда
+	Tooltip: Используется оружием, расходующим звёзды
 }
 
 OliveSolution: {
@@ -660,8 +654,8 @@ OliveSolution: {
 }
 
 Warhead: {
-	DisplayName: Warhead
-	Tooltip: Can be used as ammo for rocket launchers
+	DisplayName: Боеголовка
+	Tooltip: Используется оружием, расходующим ракеты
 }
 
 SpiritSolution: {
@@ -914,27 +908,27 @@ MadHat: {
 }
 
 BeholderMask: {
-	DisplayName: Beholder Mask
+	DisplayName: Маска Созерцателя
 	Tooltip: ""
 }
 
 GladeWraithMask: {
-	DisplayName: Glade Wraith Mask
+	DisplayName: Маска Призрака чащи
 	Tooltip: ""
 }
 
 HydraMaskAcid: {
-	DisplayName: Acidic Hydra Mask
+	DisplayName: Маска кислотной головы Гидры
 	Tooltip: ""
 }
 
 HydraMaskFire: {
-	DisplayName: Fiery Hydra Mask
+	DisplayName: Маска огненной головы Гидры
 	Tooltip: ""
 }
 
 HydraMaskVenom: {
-	DisplayName: Venomous Hydra Mask
+	DisplayName: Маска ядовитой головы Гидры
 	Tooltip: ""
 }
 
@@ -954,12 +948,12 @@ SailorCap: {
 }
 
 SnapperHat: {
-	DisplayName: Snapper's Hat
+	DisplayName: Маска щёлкателя
 	Tooltip: ""
 }
 
 TrapperGlove: {
-	DisplayName: Trapper's Glove
+	DisplayName: Перчатки хватателя
 	Tooltip: ""
 }
 
@@ -1083,12 +1077,12 @@ WitchLegs: {
 }
 
 AlienBanner: {
-	DisplayName: Alien Banner
+	DisplayName: Знамя чужого
 	Tooltip: ""
 }
 
 AncientApostleBanner: {
-	DisplayName: Ancient Apostle Banner
+	DisplayName: Знамя древнего апостола
 	Tooltip: ""
 }
 
@@ -1253,7 +1247,7 @@ ElectricEelBanner: {
 }
 
 FallenAngelBanner: {
-	DisplayName: Fallen Angel Banner
+	DisplayName: Знамя падшего ангела
 	Tooltip: ""
 }
 
@@ -1353,17 +1347,17 @@ HemaphoraBanner: {
 }
 
 HydraGreenBanner: {
-	DisplayName: Poisonous Hydra Banner
+	DisplayName: Знамя кислотной головы Гидры
 	Tooltip: ""
 }
 
 HydraPurpleBanner: {
-	DisplayName: Venomous Hydra Banner
+	DisplayName: Знамя ядовитой головы Гидры
 	Tooltip: ""
 }
 
 HydraRedBanner: {
-	DisplayName: Flaming Hydra Banner
+	DisplayName: Знамя огненной головы Гидры
 	Tooltip: ""
 }
 
@@ -1523,7 +1517,7 @@ RlyehianBanner: {
 }
 
 ScreechOwlBanner: {
-	DisplayName: Screech Owl Banner
+	DisplayName: Знамя совы-визгуньи
 	Tooltip: ""
 }
 
@@ -1598,7 +1592,7 @@ TrochmatonBanner: {
 }
 
 ValkyrieBanner: {
-	DisplayName: Valkyrie Banner
+	DisplayName: Знамя валькирии
 	Tooltip: ""
 }
 
@@ -1884,14 +1878,14 @@ Book_Blossmoon: {
 }
 
 Book_BriarArt: {
-	DisplayName: Flora of the Briar
+	DisplayName: Флора терновника
 	Tooltip:
 		'''
-		by Field Researcher Laywatts
-		It seems to be a page torn from a book about the Briar
-		Contains an intricate diagram of Briar ecology
+		от полевого исследователя Лейватс
+		Похоже на страницу, вырванную из книги о терновнике
+		Содержит нарисованную от руки иллюстрацию к биому и неразборчивые заметки о нём
 		'''
-	ImagePath: SpiritMod/Items/Books/UI/en-US/TheBriar
+	ImagePath: SpiritMod/Items/Books/UI/ru-RU/TheBriar
 }
 
 Book_Soulbloom: {
@@ -2170,18 +2164,18 @@ SoaringScapula: {
 }
 
 TalonBlade: {
-	DisplayName: Talon Blade
-	Tooltip: Creates a flurry of damaging feathers
+	DisplayName: Когтистый клинок
+	Tooltip: Создаёт ураган из наносящих урон перьев
 }
 
 Talonginus: {
-	DisplayName: Talonginus
-	Tooltip: Extremely quick, but inaccurate
+	DisplayName: Копьё Когтиния
+	Tooltip: Очень быстрой, но неточный
 }
 
 TalonPiercer: {
-	DisplayName: Talon's Fury
-	Tooltip: Creates a flurry of homing feathers
+	DisplayName: Ярость когтя
+	Tooltip: Создаёт вихрь из самонаводящихся перьев
 }
 
 Trophy2: {
@@ -2356,8 +2350,8 @@ InfernonMask: {
 }
 
 InfernonPetItem: {
-	DisplayName: Broken Horn
-	Tooltip: Summons a little inferno
+	DisplayName: Сломанный рог
+	Tooltip: Призывает маленького инферно
 }
 
 SevenSins: {
@@ -2569,18 +2563,18 @@ Trophy1: {
 }
 
 AstralLens: {
-	DisplayName: Astral Convergence
-	Tooltip: Shoots out bursts of electrical stars that reconverge on the player
+	DisplayName: Астральная конвергенция
+	Tooltip: Выпускает залпы электрических звёзд, которые возвращаются к игроку
 }
 
 CosmiliteShard: {
 	DisplayName: Осколок астралита
-	Tooltip: «Похоже, именно это звездопанцирники ищут по всему космосу»
+	Tooltip: «Похоже, именно это звёздопанцирники ищут по всему космосу»
 }
 
 MagnetFlail: {
-	DisplayName: Livewire
-	Tooltip: Plugs into tiles and enemies, changing the chain into a shocking livewire
+	DisplayName: Силовой кабель
+	Tooltip: Цепляется за блоки и врагов, превращая цепь в искрящийся провод
 }
 
 OrionPistol: {
@@ -2626,23 +2620,23 @@ StarMap: {
 }
 
 StarplateGlove: {
-	DisplayName: Hundred-Crack Fist
-	Tooltip: Right click launch multiple punches outward
+	DisplayName: Cтократный сокрушающий удар
+	Tooltip: Нажмите ПКМ, чтобы запустить кулак в воздух
 }
 
 StarplateMask: {
-	DisplayName: Маска Звездопанцирного странника
+	DisplayName: Маска Звёздопанцирного странника
 	Tooltip: ""
 }
 
 StarplatePetItem: {
-	DisplayName: Starplate Controller
-	Tooltip: Summons a Starplate miniature
+	DisplayName: Контроллер звёздопанцирника
+	Tooltip: Призывает миниатюрного звёздопанцирника
 }
 
 DroneController: {
-	DisplayName: Drone Controller
-	Tooltip: Summons a Starplate Fighter Drone to fight for you
+	DisplayName: Пульт управления дроном
+	Tooltip: Призывает звёздопанцирного боевого дрона сражаться за вас
 }
 
 SteamplateBow: {
@@ -2656,7 +2650,7 @@ SteamplateBow: {
 }
 
 SteamRaiderBag: {
-	DisplayName: Мешок с сокровищами (Звездопанцирный странник)
+	DisplayName: Мешок с сокровищами (Звёздопанцирный странник)
 	Tooltip:
 		'''
 		{$LegacyTooltip.35}
@@ -2665,7 +2659,7 @@ SteamRaiderBag: {
 }
 
 Trophy3: {
-	DisplayName: Трофей Звездопанцирного странника
+	DisplayName: Трофей Звёздопанцирного странника
 	Tooltip: ""
 }
 
@@ -2927,11 +2921,11 @@ DuskCrown: {
 }
 
 FateToken: {
-	DisplayName: Fate Token
+	DisplayName: Жетон судьбы
 	Tooltip:
 		'''
-		Protects the user from fatal damage for 1 minute
-		2 minute cooldown
+		Защищает вас от смертельного урона в течение 1 минуты
+		Эта способность перезаряжается 2 минуты
 		'''
 }
 
@@ -3061,11 +3055,12 @@ Hummus: {
 }
 
 IceBerries: {
-	DisplayName: Ice Berry
+	DisplayName: Мерзлоягода
 	Tooltip:
 		'''
-		Grants immunity to being on fire
-		Perhaps some mystical creature would like this?
+		{$BuffDescription.WellFed}
+		Даёт невосприимчивость к дебаффу «{$BuffName.OnFire}»
+		Любимое лакомство одного мистического существа
 		'''
 }
 
@@ -3239,21 +3234,21 @@ BismitePotion: {
 }
 
 BottomlessAle: {
-	DisplayName: Bottomless Ale
+	DisplayName: Бездонный эль
 	Tooltip:
 		'''
-		Non-consumable
-		Minor improvements to melee stats & lowered defense
-		'Down the hatch!'
+		Не расходуется
+		Немного увеличивает характеристики ближнего боя, но снижает защиту
+		«До дна!»
 		'''
 }
 
 BottomlessHealingPotion: {
-	DisplayName: Bottomless Healing Potion
+	DisplayName: Бездонное лечебное зелье
 	CustomTooltip:
 		'''
-		Non-consumable
-		Restores 100 health
+		Не расходуется
+		Восстанавливает 100 ед. здоровья
 		'''
 	Tooltip: ""
 }
@@ -3269,8 +3264,8 @@ FlightPotion: {
 }
 
 MirrorCoat: {
-	DisplayName: Mirror Coat
-	Tooltip: Immunity to Stoned
+	DisplayName: Зеркальное покрытие
+	Tooltip: Даёт невосприимчивость к дебаффу «{$BuffName.Stoned}»
 }
 
 MoonJelly: {
@@ -3304,20 +3299,20 @@ PinkPotion: {
 }
 
 RunePotion: {
-	DisplayName: Runescribe Potion
+	DisplayName: Зелье рунописца
 	Tooltip:
 		'''
-		Magic attacks may cause enemies to erupt into runes
-		Increases magic damage by 5%
+		Магические атаки иногда будут вызывать разбрасывать руны
+		Увеличивает магический урон на 5%
 		'''
 }
 
 SoulPotion: {
-	DisplayName: Soulguard Potion
+	DisplayName: Зелье духовной силы
 	Tooltip:
 		'''
-		Getting hurt may cause all nearby enemies to suffer 'Soul Burn' for a short while
-		Increases melee damage by 5%
+		Получении урона иногда будет накладывать на ближайших врагов дебафф «{$Buffs.SoulBurn.DisplayName}»
+		Увеличивает урон ближнего боя на 5%
 		'''
 }
 
@@ -3386,8 +3381,8 @@ ExplorerScrollMushroomFull: {
 }
 
 HornetfishQuest: {
-	DisplayName: Hornetfish
-	CustomTooltip: "'It buzzes and blubs at the same time'"
+	DisplayName: Рыба-шершень
+	CustomTooltip: «Она одновременно жужжит и булькает»
 	Tooltip: ""
 }
 
@@ -3491,11 +3486,11 @@ SpiritCrate: {
 }
 
 StarWormSummon: {
-	DisplayName: Звездопанцирный маяк
+	DisplayName: Звёздопанцирный маяк
 	Tooltip:
 		'''
 		Не расходуется
-		Призывает Звездопанцирного странника при использовании на астралитовом маяке
+		Призывает Звёздопанцирного странника при использовании на астралитовом маяке
 		'''
 }
 
@@ -4123,8 +4118,8 @@ StrippedBamboo: {
 }
 
 SynthMaterial: {
-	DisplayName: Discharge Tubule
-	Tooltip: "'The colorful tubes are filled with energized gas'"
+	DisplayName: Газоразрядные трубки
+	Tooltip: «Разноцветные трубки, заполненные ионизированным газом»
 }
 
 CagedMoonlight: {
@@ -4583,7 +4578,7 @@ Pillar8: {
 }
 
 ArcadeMachineItem: {
-	DisplayName: Arcade Machine
+	DisplayName: Аркадный автомат
 	Tooltip: ""
 }
 
@@ -5196,8 +5191,8 @@ SunPot: {
 }
 
 SynthwaveHeadItem: {
-	DisplayName: Hyperspace Bust
-	Tooltip: Creates an artificial Hyperspace Biome on right-click
+	DisplayName: Гиперпространственный бюст
+	Tooltip: Создаёт вокруг себя искусственный биом гиперпространства
 }
 
 TreasureChest: {
@@ -5421,7 +5416,7 @@ SpiritBox4: {
 }
 
 StarplateBox: {
-	DisplayName: Музыкальная шкатулка (Звездопанцирный странник)
+	DisplayName: Музыкальная шкатулка (Звёздопанцирный странник)
 	Tooltip: ""
 }
 
@@ -5496,7 +5491,7 @@ ScarabeusRelicItem: {
 }
 
 StarplateRelicItem: {
-	DisplayName: Реликвия Звездопанцирного странника
+	DisplayName: Реликвия Звёздопанцирного странника
 	Tooltip: ""
 }
 

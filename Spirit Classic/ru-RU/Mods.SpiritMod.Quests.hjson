@@ -39,8 +39,8 @@ The: ""
 Client: "Заказчик: "
 Rewards: Награды
 # Used for chat quest snippets.
-ViewQuest: Click here to view the quest!
-QuesTime: "{0}m {1}s"
+ViewQuest: Нажмите, чтобы посмотреть это задание в книге!
+QuesTime: "{0}м {1}с"
 
 Buttons: {
 	# Quest states
@@ -65,8 +65,8 @@ QuestInfo: {
 	}
 
 	AncestralWorship: {
-		Name: Ancestral Worship
-		Description: When I was explorin' the Briar with Professor Laywatts and her team, I remember her talkin' about some massive statues the old Briar dwellers used to construct. They've all been destroyed over time, but maybe we could create a replica right here?
+		Name: Поклонение предкам
+		Description: Ещё когда мы с профессором Лейватс исследовали терновник, я не раз слышал, как она говорила о каких-то здоровенных статуях, которые возводила местная цивилизация. Со временем все они обрушились, но мы ведь можем попробовать их воссоздать!
 	}
 
 	AnglerStatueQuest: {
@@ -86,9 +86,9 @@ QuestInfo: {
 	}
 
 	AuroraStagQuest: {
-		Name: Taming the Stars
-		Description: Hey there, lad! The world's gotten a lot more dangerous recently, but it's not all bad. My scouts have been hearin' about a big, beautiful creature that reveals itself under the light of the Aurora. It's a massive stag, an' I think you could tame it if you found the right food for it! It's a bit skittish, though, so try not to startle the beast.
-		Objective: Slowly approach an Aurora Stag and feed it Ice Berries
+		Name: Как приручить звезду
+		Description: Здорово, старина! В последнее время мир кишит всякими опасностями, но уверяю, всё не так уж и плохо! Мои разведчики доложили мне о громадном и изящном олене, выходящем на свет только во время северного сияния. Мы, кажется, даже знаем его любимое лакомство! Он очень пугливый, однако, так что давай с ним без резких движений.
+		Objective: Медленно подойти к полярному оленю и покормить его мерзлоягодой
 	}
 
 	BareNecessities: {
@@ -97,8 +97,8 @@ QuestInfo: {
 	}
 
 	BlastFromThePast: {
-		Name: Blast From The Past
-		Description: I see you've got some Discharge Tubules there, lad. I'm glad you've taken my design advice, so let's take it one step further. Try grabbin' some Enchanted Marble Chunks to really set the scene with a Hyperspace Bust. I'm tellin' ya, it'll look spectacular!
+		Name: Веяние прошлого
+		Description: Смотрю, те самые газоразрядные трубки у тебя уже есть, старина. Рад, что к моему совету хоть кто-то прислушался, но давай не будем на этом останавливаться! Собери-ка пару кусков древнего мрамора и создай гиперпространственный бюст. Поверь, с ним любое место станет в разы атмосфернее!
 	}
 
 	FirstAdventure: {
@@ -112,8 +112,8 @@ QuestInfo: {
 	}
 
 	StylishSetup: {
-		Name: Stylish Setup
-		Description: D'you ever feel like spicin' things up, lad? I've got the perfect new aesthetic for you- retrofuturism! What, d'you think that isn't my style? I dabble in everythin', lad! Trust me, your town will look fabulous with some '80s funk mixed in.
+		Name: Стильный вопрос
+		Description: Нет такого чувства, что. это место выглядит слишком скучно? Кажется, я знаю, какой стиль бы сюда вписался — ретрофутуризм! Думал, я в этом деле ничего не смыслю? Как бы не так, я повидал немало интерьеров, и скажу тебе вот что: это поселение бы смотрелось сногсшибательно в стиле вейпорвейва!
 	}
 
 	ZombieOriginQuest: {
@@ -189,8 +189,8 @@ QuestInfo: {
 	}
 
 	ExplorerQuestAsteroid: {
-		Name: Space Rocks
-		Description: There's an asteroid field smack-dab above one of the oceans. Completely uncharted. How cool is that?! We have to learn everything we can about that place. If you stumble upon those asteroids, wander around for a while and take some notes for me, alright? Can you even write in space? Go find out, and don't fall off!
+		Name: Космические камни
+		Description: Прямо над одним из океанов расположилось целое поле астероидов, и никто ещё там не был! Когда ещё такую крутотень увидишь?! Нам нужно разузнать всё про всё об этом месте. Наткнёшься на эти астероиды — оглядись вокруг, потом о находках расскажешь, хорошо? Иди давай, только на землю не свались!
 		Objective: поле астероидов
 	}
 
@@ -304,17 +304,17 @@ QuestInfo: {
 	}
 
 	ItsNoSalmon: {
-		Name: It's No Salmon...
-		Description: I've got a, uh, perfectly normal quest for ya. Why don't you go ahead and head to the Jungle to fish up a Hornetfish for me? It's supposed to be a real delicacy. Be careful, though. I've heard it can be a... tough catch. Whaddya mean, this sounds exactly like something the Angler would want you to do?
-		ThanksAdventurer: Thanks a lot, lad. This is exactly what I've been cravin' as of late. I'm something of a chef, ya know. In fact, let me share this hornetfish with you! Thanks again.
-		BringBack: Bring the Hornetfish back to the Adventurer
-		GiveAngler: What?! You were going to catch fish without ME? I'm offended, and I demand your Hornetfish as compensation. Here, take this bait, and use it to catch me fish next time. The Adventurer can eat something else. Shoo!
-		BringBackAngler: Or give the Angler the Hornetfish
+		Name: Это не лосось...
+		Description: У меня есть для тебя, э-э-э, самое нормальное задание, да! Сходи-ка в джунгли и поймай мне рыбу-шершня. Говорят, это прямо-таки деликатес. Только будь осторожней: поймать её... будет трудно. В смысле «это точно такое же задание, какое дал бы рыбак»? Я тебе не рыбак!
+		ThanksAdventurer: Благодарю! Я давно мечтал её попробовать. Даже знаю как её приготовить: я тоже своего рода шеф-повар, знаешь ли. Да что уж там, я и с тобой этой рыбой поделюсь, мне не жалко! Ещё раз спасибо.
+		BringBack: Отнести рыбу-шершня приключенцу
+		GiveAngler: Чего?! Кто-то ходил на рыбалку и не позвал МЕНЯ? Я оскорблён, требую пойманную рыбу-шершня в качестве компенсации морального вреда! Вот, возьми эту наживку, в следующий раз поймаешь на неё рыбу и принесёшь её мне. Приключенец и сам найдёт, что поесть. Брысь отсюда!
+		BringBackAngler: Или отнести рыбу-шершня рыбаку
 	}
 
 	JellyfishHunter: {
-		Name: Jellyfish Hunter
-		Description: Hey there, lad! I was doing some diggin' into what makes these cute jellies tick, and I think they're all part of some kinda hivemind that feed on mystical energy. In fact, that one jellyfish you caught seems to be emitting a distress signal to its buddies. You may need to take on a mighty strong jellyfish soon, so stay prepared!
+		Name: Медузная инквизиция
+		Description: Я тут кучу книг перерыл: хотел узнать, почему медузы бьются током. Как оказалось, у них всех коллективный разум, а питаются они мистической энергией. Та медуза, что мне досталась с прошлого задания, подавала своим собратьям что-то вроде сигнала о помощи. Рано или поздно ты встретишься с какой-то могущественной медузой, так что будь готов!
 		Objective: Убить Лунную медузу-волшебника
 	}
 
@@ -340,8 +340,8 @@ QuestInfo: {
 	}
 
 	ReturnToYourRoots: {
-		Name: A Return to Your Roots
-		Description: You know, while I was trapped down there, I noticed something...apparently, all the roots in the Briar connect to one central... thing. I don't know what it is, but I'm not going to find out for myself...at least not for a while. Could you take a look?
+		Name: Возвращение к корням
+		Description: Знаешь, пока я сидел в той сырой пещере терновника, я... заметил кое-что: все корни растений, кажется, вели в одно и то же место, к одной... штуке. Точно даже не знаю, что это за штука, но сам я туда больше ни ногой... Быть может, ты сходишь туда и узнаешь?
 		Objective: Убить Гневоплющ
 	}
 
@@ -388,13 +388,13 @@ QuestInfo: {
 	}
 
 	SlayerQuestOccultist: {
-		Name: Spectral Scourge
-		Description: As if these freaky Blood Moons weren't enough, a new necromancer has taken control over a horde of zombies! The freakshow keeps summonin' zombies and is sure to overrun our town if we don't do anythin'. If you see one, take it out immediately, you hear?
+		Name: Умертвить мёртвого
+		Description: Мало нам было кровавых лун — на округу теперь наводит страх и взявшийся из ниоткуда некромант! Этот урод всё призывает и призывает новых зомби, небось, скоро и наше поселение захватить сможет, если мы ничего не сделаем. Так что, если увидишь его, грохни прямо на месте, понял меня?
 	}
 
 	SlayerQuestScreechOwls: {
-		Name: Cacophonous Cries
-		Description: I'd like to think I'm an animal lover, y'know? I love dogs, cats, and especially bunnies! Except for that horrifying beast... You guessed it, I'm talking about snowy Screech Owls. I swear, those things are terrifying! Every night, I hear their screeches echoing from the snowy tundra. It ruins my sleep! Could you get rid of some for me?
+		Name: Ночная какофония
+		Description: Я очень люблю животных: собачек, кошечек, и особенно кроликов! Но есть одна животина, от которой у меня душа в пятки уходит... Да, я про сову-визгунью. Ей богу, этих существ я до жути боюсь! Каждую ночь я слышу их визг, доносящийся аж из заснеженной тундры. Из-за него я заснуть не могу! Можешь прикончить хотя бы парочку из них?
 	}
 
 	SlayerQuestUGDesert: {
@@ -426,8 +426,8 @@ QuestInfo: {
 	}
 
 	UnidentifiedFloatingObjects: {
-		Name: Unidentified Floaters
-		Description: I quit drinkin' years ago, but I swear the sky's been lighting up something fierce recently! I've been doin' some research and I think the skies may be home to some mystical jellyfish swarms. Now, the only 'proof' I have are some sources of, er, ill repute, but I know I can count on you to check it out! And capture me the tastiest- I mean most interesting one!
+		Name: Неопознанные летающие медузы
+		Description: Уже пару лет как не пью, но порой кажется, что небо загорается сотней огней! Люди говорят, что виной тому стаи светящихся медуз. Из «доказательств» есть лишь книжка от... скажем так, ненадёжного источника, так что твоя задача — собрать достоверные данные об этих медузах! Не забудь принести мне самую вкусн-, то есть самую любопытную особь!
 		Objective: странное Медузное наводнение
 	}
 }

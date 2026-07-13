@@ -166,12 +166,12 @@ SilverChestBottom.DisplayName: Серебряный ларец
 StardustBombNPC.DisplayName: Supernova
 
 Alien: {
-	DisplayName: Alien
+	DisplayName: Чужой
 	Entry: In space, no one can hear you make pop culture references.
 }
 
 BoneHarpy: {
-	DisplayName: Ancient Apostle
+	DisplayName: Древний апостол
 	Entry: The reanimated bones of a long extinct bird. Though dead, don't lower your guard near them, for these fowl fossils still have fight in them!
 }
 
@@ -216,7 +216,7 @@ AutomataSpinner: {
 }
 
 Beholder: {
-	DisplayName: Beholder
+	DisplayName: Созерцатель
 	Entry: These beasts roam the marble pits found within the world, judging you with each one of their many eyes.
 	BossChecklistIntegration.SpawnInfo: Изредка появляется в мраморных пещерах после победы над Пожирателем миров или Мозгом Ктулху.
 }
@@ -351,7 +351,7 @@ ReachBoss: {
 
 ReachBoss1: {
 	DisplayName: Оболочка гневоплюща
-	Entry: The beating heart of the briar. Its innate instinct for self-preservation expresses itself in the hostile antibodies and endless torrential downpour within the biome.
+	Entry: Терновник — словно один большой организм, а Гневоплющ — его бьющееся сердце. Заложенный в него инстинкт самосохранения заставляет этот «организм» производить антитела в виде враждебной фауны и отпугивать чужаков вечным ливнем над собой.
 }
 
 Scarab: {
@@ -370,11 +370,11 @@ Scarabeus: {
 SwarmScarab.DisplayName: Скарабей
 ArcadeProbe.DisplayName: Starfarer
 LaserBase.DisplayName: Laser Launcher
-SteamRaiderBody.DisplayName: Звездопанцирный странник
-SteamRaiderBody2.DisplayName: Звездопанцирный странник
+SteamRaiderBody.DisplayName: Звёздопанцирный странник
+SteamRaiderBody2.DisplayName: Звёздопанцирный странник
 
 SteamRaiderHead: {
-	DisplayName: Звездопанцирный странник
+	DisplayName: Звёздопанцирный странник
 	Entry: A strange automaton of unknown origin, designed for mining a precious metal from the stars. It utilizes the untapped energy found within the ore to power itself and perpetuate an endless search.
 	BossChecklistIntegration.SpawnInfo: Используйте [i:SpiritMod/StarWormSummon] ночью на астралитовом маяке, который можно найти в поле астероидов.
 	Spawn: The Starplate Voyager has awoken!
@@ -712,7 +712,7 @@ Enchanted_Armor: {
 ExplosiveBarrel.DisplayName: Explosive Barrel
 
 FallenAngel: {
-	DisplayName: Fallen Angel
+	DisplayName: Павший ангел
 	Entry: Banished from the heavens, this rogue cherub takes their frustrations out on the mortal beings of this realm.
 }
 
@@ -965,7 +965,7 @@ Briarmoth: {
 
 ForestWraith: {
 	DisplayName: Призрак чащи
-	Entry: Despite the Briar's unnatural creeping presence, it has left its mark on nature just long enough for these vengeful spirits to call it home.
+	Entry: Неестественное и гнетущее присутствие терновника повлияло на природу достаточно сильно, чтобы в нём появились эти мстительные духи.
 	BossChecklistIntegration.SpawnInfo:
 		'''
 		Мини-босса можно призвать тремя способами:
@@ -1002,7 +1002,7 @@ ThornStalker: {
 }
 
 ScreechOwl: {
-	DisplayName: Screech Owl
+	DisplayName: Сова-визгунья
 	Entry: For ages, these simple birds have terrorized locals with their remarkably humanoid screeches. Today, few remain, as they were hunted to near extinction.
 }
 
@@ -1089,7 +1089,7 @@ WanderingSoul: {
 
 SporeWheezer: {
 	DisplayName: Споровый пыхтельник
-	Entry: Usually parasitic, the glowing mushrooms formed a symbiotic relationship with wheezers as they consciously spread spores through their breath.
+	Entry: Хотя светящиеся грибы и паразиты, с пыхтельниками отношения у них сложились симбиотические: своим дыханием эти животные могут далеко распространять споры, чем и пользуются грибы.
 }
 
 CogTrapperBody.DisplayName: Stardancer
@@ -1485,7 +1485,7 @@ Undead_Warlock: {
 }
 
 Valkyrie: {
-	DisplayName: Valkyrie
+	DisplayName: Валькирия
 	Entry: Righteous defenders of the sky, these winged warriors harness the power of the sun to protect the islands that float above the land.
 }
 
