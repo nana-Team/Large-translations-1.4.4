@@ -85,7 +85,7 @@ ChocolateBuff: {
 }
 
 HealthBuffC: {
-	DisplayName: Лечебная конфетка
+	DisplayName: Целебная конфетка
 	Description: Максимальный запас здоровья увеличен на 25 ед.
 }
 

@@ -117,18 +117,19 @@ QuestInfo: {
 	}
 
 	ZombieOriginQuest: {
-		Name: Unholy Undertaking
-		Description: I've found an odd wall scroll listing important information about Zombies and, potentially, their origins. I think I should talk to the Guide or Dryad about this. Maybe we can put a stop to this vile necromancy!
-		ShowGuideDialogue: Did you find that mysterious scroll there? I assume you did. It's an interesting lead on why these zombies have been appearing recently. I'd say we need to do more research on who's behind the zombie uprising. Maybe it's a crazed scientist, or something? There should be books on the matter near the Dungeon.
-		TalkGuide: Talk to the Guide about the mysterious scroll.
-		GetLureGuide: This research is ambiguous, but I think it points toward a maniacal scientist creating hordes of zombies. You may need to find a way to get their attention tonight. How about we stitch together a lure using some grisly zombie bits? I'm sure the researcher would find it interesting.
-		ReturnBooks: Return the books to the Guide
-		ShowDryadDialogue: This scroll is alarming. You found it on the remains of a zombie, no? Poor, wretched things. I think this scroll could help us understand why zombies have been plaguing our land. This faint powder on the scroll smells just like the evil that plagues our world. We should collect some herbs from that biome and compare.
-		TalkDryad: Or talk to the Dryad about the mysterious scroll.
-		GetLureDryad: I was right! I now think some kind of evil wizard may have a hand in creating these vile monstrosities. We need to get this horrible necromancer's attention tonight. I think that putrid powder you collected can help craft a lure for it. Dispatch them quickly, and perhaps we will be rid of zombies for good!
-		ReturnPowder: Return the powder to the Dryad
-		KillScientist: Kill the Undead Scientist
-		KillWarlock: Kill the Undead Warlock
+		Name: Безбожная работёнка
+		Client: Отсутствует
+		Description: Мне удалось найти странный свиток с бесценной информацией о том, кем на самом деле являются зомби и, возможно, даже откуда они берутся. Нужно срочно рассказать об этом гиду или дриаде. Возможно, с их помощью я смогу остановить эти проклятые деяния!
+		ShowGuideDialogue: Я так понимаю, ты нашёл этот свиток там? Очень любопытно, быть может, эта зацепка наконец позволит нам узнать, почему в последнее время на поверхности бродит так много зомби. Думаю, сперва нам нужно докопаться до правды — отправляйся в Темницу, в её архивах должны быть книги о том, кто мог устроить это восстание зомби. Это мог быть какой-нибудь безумный учёный, или кто-то вроде него...
+		TalkGuide: Поговорить с гидом о загадочном свитке
+		GetLureGuide: По записям в книгах трудно понять наверняка, но, судя по всему, управляет всеми ордами зомби действительно некий сошедший с ума учёный. Нам нужно придумать, как привлечь его внимание этой ночью. Может, слепим приманку из кусочков гнилой плоти? Уверен, такая штука зацепит его взгляд.
+		ReturnBooks: Отнести найденные книги гиду
+		ShowDryadDialogue: На этот свиток страшно даже смотреть. Он лежал в останках какого-то зомби, так ведь? Бедное, несчастное создание... Этот свиток должен привести нас к правде о том, почему нашу землю заполонили полчища зомби. На пергаменте остались следы какого-то порошка, который пахнет так же, как и зараза, что оскверняет наш мир. Нам нужно перетереть траву из того злосчастного места и сравнить её с этим порошком.
+		TalkDryad: Или поговорить с дриадой об этом свитке
+		GetLureDryad: Так и знала! Выходит, всех этих мерзких чудищ призывает какой-то злой колдун. Нам нужно придумать, как привлечь его внимание этой ночью. Попробуй изготовить приманку из того гнилостного порошка. Выжди момент и прикончи колдуна — только так мы сможем избавить эти земли от зомби!
+		ReturnPowder: Отнести порошок дриаде
+		KillScientist: Убить мёртвого учёного
+		KillWarlock: Убить мёртвого чернокнижника
 	}
 
 	BreakingAndEntering: {
@@ -352,8 +353,8 @@ QuestInfo: {
 	}
 
 	SkyHigh: {
-		Name: Sky High
-		Description: I've been looking at some old maps and I've learned about a cluster of Floating Pagodas above the oceans of this world. Trouble is, I can't make out whether it's to the left or right, so would ya go explorin' for me? I'm looking for something fancy from up there. I don't really care what it is as long as it looks good. Happy hunting!
+		Name: Сувенир с небес
+		Description: Я тут просматривал старые карты мира и узнал вот что: где-то высоко над одним из океанов расположена целая куча парящих пагод. Однако я так и не разобрался, над правым океаном они или над левым, поэтому найти эти пагоды отправляю тебя. И принеси мне оттуда что-нибудь на память, что-нибудь красивенькое! Удачи с поисками!
 	}
 
 	SlayerQuestBriar: {
@@ -403,13 +404,13 @@ QuestInfo: {
 	}
 
 	SlayerQuestValkyrie: {
-		Name: Fight of the Valkyries
-		Description: You ever been high enough where those infuriatin' harpies can shoot at ya? Well, to make things worse, I've heard tales of a harpy clad in armor and weapons! I'm sure you can handle it. We've taken to calling it a Valkyrie, but don't go joinin' the afterlife when you take it on!
+		Name: Полёт валькирий
+		Description: Бывало такое, что ты забираешься высоко-высоко куда-нибудь, и тут тебя начинают закидывать своими перьями надоедливые гарпии? Оказывается, бывает и похуже: где-то летают гарпии, до зубов вооружённые и с головы до ног в доспехах! Мы прозвали таких валькириями. Уверен, ты с такой справишься и раньше времени в Вальхаллу не попадёшь!
 	}
 
 	SlayerQuestVultureMatriarch: {
-		Name: Broodmother
-		Description: Ever since you took care of that giant wall of flesh, the world's gotten way scarier, lad. We need to take stock of our situation and keep fightin' no matter what. A couple of wanderers said they spotted a giant vulture sleepin' in the desert a few days ago. Check it out and make sure the desert sands stay safe.
+		Name: Мать выводка
+		Description: С тех пор, как та гигантская стена из плоти была уничтожена, мир стал гораздо более страшным местом: приходится брать себя в руки и сражаться до последнего. К нам недавно заходили путники и рассказывали, что в пустыне спал громадный стервятник. Надо бы расправиться с ним, пока он не начал наводить ужас на округу.
 	}
 
 	StrangeSeas: {

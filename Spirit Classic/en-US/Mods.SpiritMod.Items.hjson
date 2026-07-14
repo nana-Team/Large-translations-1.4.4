@@ -3297,7 +3297,7 @@ SoulPotion: {
 	Tooltip:
 		'''
 		Getting hurt may cause all nearby enemies to suffer 'Soul Burn' for a short while
-		Increases melee damage by 5%
+		Reduces damage taken by 5%
 		'''
 }
 
@@ -3638,7 +3638,7 @@ SnakeStaff: {
 
 Terravolt: {
 	DisplayName: Terravolt
-	Tooltip: "Launches a beam of electricity "
+	Tooltip: Launches a beam of electricity
 }
 
 TheCouch: {
@@ -3846,7 +3846,7 @@ VoidGlyph: {
 
 CaramelApple: {
 	DisplayName: Caramel Apple
-	Tooltip: Minor improvements to all stats
+	Tooltip: "{$BuffDescription.WellFed}"
 }
 
 JackOGourd: {
@@ -3856,12 +3856,46 @@ JackOGourd: {
 
 TreeGourd: {
 	DisplayName: Birdhouse Gourd
-	Tooltip: Minor improvements to all stats
+	Tooltip: "{$BuffDescription.WellFed}"
 }
 
 Candy: {
 	DisplayName: Candy
 	Tooltip: Increases all stats slightly
+
+	Names: {
+		0: "'Popstone'"
+		1: "'Three Muskets'"
+		2: "'Lhizzlers'"
+		3: "'Moon Jelly Beans'"
+		4: "'Silk Duds'"
+		5: "'Necro Wafers'"
+		6: "'Blinkroot Pop'"
+		7: "'Gummy Slimes'"
+		8: "'Cry Goblin'"
+		9: "'Sour Patch Slimes'"
+		10: "'Stardust Burst'"
+		11: "'Hellfire Tamales'"
+		12: "'Blinkroot Patty'"
+		13: "'Xenowhoppers'"
+		14: "'Gem&Ms'"
+		15: "'100,000 copper bar'"
+		16: "'Toblerbone'"
+		17: "'Delicious Looking Eye'"
+		18: "'Silky Way'"
+		19: "'Malted Silk Balls'"
+		20: "'Cloudheads'"
+		21: "'Red Devil Hots'"
+		22: "'Rune Pop'"
+		23: "'Nursey Kisses'"
+		24: "'Skullies'"
+		25: "'Firebolts'"
+		26: "'Vinewrath Cane'"
+		27: "'Candy Acorn'"
+		28: "'Bunnyfinger'"
+		29: "'Ichorice'"
+		30: "'Lunatic-tac'"
+	}
 }
 
 CandyBag: {

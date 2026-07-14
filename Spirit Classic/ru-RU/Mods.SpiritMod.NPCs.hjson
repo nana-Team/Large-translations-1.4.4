@@ -1144,8 +1144,8 @@ LargeCrustecean: {
 }
 
 MangoJelly: {
-	DisplayName: Манговый вояка
-	Entry: Маленькое летающее морское существо. Названо так из-за фруктового аромата и яркой окраски — хотя на самом деле оно совсем не сладкое.
+	DisplayName: Манговый кораблик
+	Entry: Маленькое летающее морское существо. Назван так из-за фруктового аромата и яркой окраски — хотя на самом деле он совсем не сладкий.
 }
 
 Rylheian: {
@@ -1490,9 +1490,9 @@ Valkyrie: {
 }
 
 Vulture_Matriarch: {
-	DisplayName: Vulture Matriarch
+	DisplayName: Матриарх стервятников
 	Entry: The powerful elder of the vulture tribe, the Matriarch has a hold of ancient magics and abilities in order to destroy its prey.
-	SpawnMessage: The Vulture Matriarch has been disturbed!
+	SpawnMessage: Матриарх стервятников был потревожен!
 }
 
 Wheezer: {

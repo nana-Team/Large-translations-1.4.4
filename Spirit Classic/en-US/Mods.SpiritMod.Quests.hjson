@@ -118,6 +118,7 @@ QuestInfo: {
 
 	ZombieOriginQuest: {
 		Name: Unholy Undertaking
+		Client: Unknown
 		Description: I've found an odd wall scroll listing important information about Zombies and, potentially, their origins. I think I should talk to the Guide or Dryad about this. Maybe we can put a stop to this vile necromancy!
 		ShowGuideDialogue: Did you find that mysterious scroll there? I assume you did. It's an interesting lead on why these zombies have been appearing recently. I'd say we need to do more research on who's behind the zombie uprising. Maybe it's a crazed scientist, or something? There should be books on the matter near the Dungeon.
 		TalkGuide: Talk to the Guide about the mysterious scroll.

@@ -564,7 +564,7 @@ SwiftRune: {
 }
 
 TimScroll: {
-	DisplayName: Неуклюжий свиток Тима
+	DisplayName: Свиток с каракулями Тима
 	Tooltip:
 		'''
 		«Кто бы мог подумать, что скелеты не умеют писать?»
@@ -908,27 +908,27 @@ MadHat: {
 }
 
 BeholderMask: {
-	DisplayName: Маска Созерцателя
+	DisplayName: Маска созерцателя
 	Tooltip: ""
 }
 
 GladeWraithMask: {
-	DisplayName: Маска Призрака чащи
+	DisplayName: Маска призрака чащи
 	Tooltip: ""
 }
 
 HydraMaskAcid: {
-	DisplayName: Маска кислотной головы Гидры
+	DisplayName: Маска кислотной головы гидры
 	Tooltip: ""
 }
 
 HydraMaskFire: {
-	DisplayName: Маска огненной головы Гидры
+	DisplayName: Маска огненной головы гидры
 	Tooltip: ""
 }
 
 HydraMaskVenom: {
-	DisplayName: Маска ядовитой головы Гидры
+	DisplayName: Маска ядовитой головы гидры
 	Tooltip: ""
 }
 
@@ -1117,7 +1117,7 @@ AstralAmalgamBanner: {
 }
 
 BeholderBanner: {
-	DisplayName: Beholder Banner
+	DisplayName: Знамя созерцателя
 	Tooltip: ""
 }
 
@@ -1282,7 +1282,7 @@ GiantJellyBanner: {
 }
 
 GladeWraithBanner: {
-	DisplayName: Знамя Призрака чащи
+	DisplayName: Знамя призрака чащи
 	Tooltip: ""
 }
 
@@ -1337,7 +1337,7 @@ GreenDungeonCubeBanner: {
 }
 
 HauntedTomeBanner: {
-	DisplayName: Знамя Одержимого фолианта
+	DisplayName: Знамя одержимого фолианта
 	Tooltip: ""
 }
 
@@ -1422,7 +1422,7 @@ MadHatterBanner: {
 }
 
 MangoWarBanner: {
-	DisplayName: Знамя мангового вояки
+	DisplayName: Знамя мангового кораблика
 	Tooltip: ""
 }
 
@@ -1467,7 +1467,7 @@ NetherbaneBanner: {
 }
 
 OccultistBanner: {
-	DisplayName: Знамя Оккультиста
+	DisplayName: Знамя оккультиста
 	Tooltip: ""
 }
 
@@ -1512,7 +1512,7 @@ ReachmanBanner: {
 }
 
 RlyehianBanner: {
-	DisplayName: Знамя Р'льехийца
+	DisplayName: Знамя р'льехийца
 	Tooltip: ""
 }
 
@@ -2578,12 +2578,12 @@ MagnetFlail: {
 }
 
 OrionPistol: {
-	DisplayName: Orion's Quickdraw
+	DisplayName: Молниеносный Орион
 	Tooltip:
 		'''
-		Converts regular bullets into Orion Bullets
-		Orion Bullets leave lingering stars in their wake
-		'Historically accurate'
+		Превращает обычные пули в пули Ориона
+		Пули Ориона оставляют за собой след из мерцающих звёзд
+		«Исторически достоверный»
 		'''
 }
 
@@ -2737,7 +2737,7 @@ Durian: {
 }
 
 Guava: {
-	DisplayName: Гуайява
+	DisplayName: Гуава
 	Tooltip: "{$BuffDescription.WellFed}"
 }
 
@@ -3147,7 +3147,7 @@ GaleSnailItem: {
 
 GladeWreath: {
 	DisplayName: Венок чащи
-	Tooltip: Призывает Призрака чащи при использовании в терновнике
+	Tooltip: Призывает призрака чащи при использовании в терновнике
 }
 
 GoldLumothItem: {
@@ -3312,34 +3312,34 @@ SoulPotion: {
 	Tooltip:
 		'''
 		Получении урона иногда будет накладывать на ближайших врагов дебафф «{$Buffs.SoulBurn.DisplayName}»
-		Увеличивает урон ближнего боя на 5%
+		Увеличивает сопротивление урону на 5%
 		'''
 }
 
 SpiritPotion: {
-	DisplayName: Spirit Potion
+	DisplayName: Зелье духов
 	Tooltip:
 		'''
-		Increases damage and critical strike chance by 5%
-		Getting hurt occasionally spawns a damaging bolt to chase enemies
+		Увеличивает урон и шанс критического удара на 5%
+		Вы иногда будете выпускать самонаводящиеся заряды душ при получении урона
 		'''
 }
 
 StarPotion: {
-	DisplayName: Starburn Potion
+	DisplayName: Зелье пылающей звезды
 	Tooltip:
 		'''
-		Critical hits may cause stars to fall from the sky
-		Increases ranged damage and critical strike chance by 4% when moving
+		Нанесение критических ударов иногда будут вызывать падение звёзд с неба
+		Увеличивает стрелковый урон и шанс критического удара на 4% во время движения
 		'''
 }
 
 TurtlePotion: {
-	DisplayName: Steadfast Potion
+	DisplayName: Зелье стойкости
 	Tooltip:
 		'''
-		Increases defense as health wanes
-		Reduces damage taken by 5%
+		Увеличивает защиту по мере снижения здоровья
+		Увеличивает сопротивление урону на 5%
 		'''
 }
 
@@ -3414,7 +3414,7 @@ WarlockLureCorruption: {
 }
 
 WarlockLureCrimson: {
-	DisplayName: Unholy Magic
+	DisplayName: "{$Items.WarlockLureCorruption.DisplayName}"
 	Tooltip: ""
 }
 
@@ -3631,47 +3631,43 @@ HeroBow: {
 }
 
 MysticalCage: {
-	DisplayName: Mystical Cage
-	Tooltip:
-		'''
-		Summons a Cultfish to follow you
-		Reveals nearby treasure
-		'''
+	DisplayName: Мистический фонарь
+	Tooltip: Призывает рыбу-культиста, подсвечивающего ближайшие сокровища
 }
 
 Omniwrench: {
-	DisplayName: Omniwrench
-	Tooltip: Right click to throw
+	DisplayName: Универсальный гаечный ключ
+	Tooltip: Нажмите ПКМ, чтобы метнуть
 }
 
 QuacklingStaff: {
-	DisplayName: Quackling Staff
-	Tooltip: Summons a friendly duck to launch aqua bolts at enemies
+	DisplayName: Посох кряквы
+	Tooltip: Призывает дружелюбную утку, плюющуюся водой во врагов
 }
 
 SnakeStaff: {
-	DisplayName: Lihzahrd Wand
-	Tooltip: Summons a friendly Flying Snake to shoot venom at foes
+	DisplayName: Жезл ящщера
+	Tooltip: Призывает дружелюбного крылатого змея, плюющегося ядом во врагов
 }
 
 Terravolt: {
-	DisplayName: Terravolt
-	Tooltip: "Launches a beam of electricity "
+	DisplayName: Терравольт
+	Tooltip: Запускает электрический луч
 }
 
 TheCouch: {
-	DisplayName: The Couch
+	DisplayName: Диван
 	Tooltip:
 		'''
-		Defense is increased, but movement speed reduced, when nearby
+		Увеличивает защиту, но снижает скорость передвижения игроков поблизости
 		'Hello Terraria Enthusiasts'
 		Not for masters!
 		'''
 }
 
 AuroraSaddle: {
-	DisplayName: Aurora Saddle
-	Tooltip: Summons a vibrant steed mount
+	DisplayName: Полярное седло
+	Tooltip: Призывает сияющего верхового скакуна
 }
 
 DynastyFan: {
@@ -3685,16 +3681,16 @@ KelpHook: {
 }
 
 MagnetHook: {
-	DisplayName: Magnet Hook
-	Tooltip: Homes in on nearby blocks
+	DisplayName: Магнитный крюк
+	Tooltip: Притягивается к ближайшим блокам
 }
 
 Obolos: {
-	DisplayName: Obolos
+	DisplayName: Обол
 	Tooltip:
 		'''
-		Summons a rideable Ethereal Boat for you to sail 
-		'Payment recieved'
+		Призывает летающую эфирную лодку
+		«Плата получена»
 		'''
 }
 
@@ -3720,21 +3716,20 @@ SolarRattle: {
 }
 
 ZiplineGun: {
-	DisplayName: Rail-gun
+	DisplayName: Рельсострел
 	Tooltip:
 		'''
-		Left and right click latch tethers to tiles, connected by a rail
-		Rails carry players swiftly along them
-		Tethers can be removed when hovered over
+		Нажатием ЛКМ и ПКМ создаёт трос, по которому могут перемещаться игроки
+		Трос можно убрать, наведя курсор на его конец
 		'''
 }
 
 FisheyeGem: {
-	DisplayName: Fisheye Gem
+	DisplayName: Самоцвет-рыбий глаз
 	Tooltip:
 		'''
-		Increases the sell price of fish by 50%
-		Works while in the inventory
+		Увеличивает стоимость продажи рыбы на 50%
+		Работает даже в инвентаре
 		'''
 }
 
@@ -3860,23 +3855,57 @@ VoidGlyph: {
 }
 
 CaramelApple: {
-	DisplayName: Caramel Apple
-	Tooltip: Minor improvements to all stats
+	DisplayName: Карамельное яблоко
+	Tooltip: "{$BuffDescription.WellFed}"
 }
 
 JackOGourd: {
-	DisplayName: Jack-o-Gourd
-	Tooltip: Minor improvements to all stats...kinda
+	DisplayName: Тыква-светильник
+	Tooltip: "{$BuffDescription.WellFed}... типа"
 }
 
 TreeGourd: {
-	DisplayName: Birdhouse Gourd
-	Tooltip: Minor improvements to all stats
+	DisplayName: Тыква-скворечник
+	Tooltip: "{$BuffDescription.WellFed}"
 }
 
 Candy: {
-	DisplayName: Candy
-	Tooltip: Increases all stats slightly
+	DisplayName: Конфетка
+	Tooltip: Незначительно увеличивает все характеристики
+
+	Names: {
+		0: «Ихориска»
+		1: «Аппетитно выглядящий глаз»
+		2: «Кримеровые шейки»
+		3: «Гарпье молоко»
+		4: «Астралёнка»
+		5: «Жёлуди в карамели»
+		6: «Гневоплющ на палочке»
+		7: «Багряный октябрь»
+		8: «Мерзлоягода в шоколаде»
+		9: «Крокатлант»
+		10: «Светящийся трюфель»
+		11: «Манговый кораблик»
+		12: «Скарабабаевский шоколад»
+		13: «Кролики в лесу»
+		14: «Теневой ключик»
+		15: «Террария — щедрая душа»
+		16: «Шарлюмос»
+		17: «Шокозавр»
+		18: «Какаморовка»
+		19: «Марсианка»
+		20: «Кокосовый слайм»
+		21: «Слизнемончики»
+		22: «Зомбарни»
+		23: «Сказки Аврелия»
+		24: «Валькирьи лапки»
+		25: «Бонс Пари кошмарики»
+		26: «Суфле парящие острова»
+		27: «Пастила из фруктов жизни»
+		28: «Сахарная луназоя»
+		29: «Пухлинка-кислинка»
+		30: «Лакомство подрывника»
+	}
 }
 
 CandyBag: {
@@ -3896,8 +3925,8 @@ CandyBowl: {
 }
 
 ChocolateBar: {
-	DisplayName: Chocolate Bar
-	Tooltip: Increases speed
+	DisplayName: Шоколадная плитка
+	Tooltip: Увеличивает скорость передвижения
 }
 
 MaskBlaze: {
@@ -3991,28 +4020,36 @@ MaskYuyutsu: {
 }
 
 GoldCandy: {
-	DisplayName: Golden Candy
-	Tooltip: Can't be eaten, but may sell for a lot!
+	DisplayName: Золотая конфета
+	Tooltip:
+		'''
+		{$BuffDescription.WellFed}
+		«Не очень вкусная, но может много стоить!»
+		'''
 }
 
 HealthCandy: {
-	DisplayName: Health Candy
-	Tooltip: Increases health
+	DisplayName: Целебная конфетка
+	Tooltip: Увеличивает максимальный запас здоровья
 }
 
 Lollipop: {
-	DisplayName: Lollipop
-	Tooltip: Increases life regeneration
+	DisplayName: Леденец
+	Tooltip: Увеличивает регенерацию здоровья
 }
 
 ManaCandy: {
-	DisplayName: Mana Candy
-	Tooltip: Increases mana
+	DisplayName: Манная конфетка
+	Tooltip: Увеличивает максимальный запас маны
 }
 
 MysteryCandy: {
-	DisplayName: Mystery Candy
-	Tooltip: Either a great treat... or a nasty trick
+	DisplayName: Загадочная конфета
+	Tooltip:
+		'''
+		{$BuffDescription.WellFed}
+		«Или приятная сладость.. или отвратительная гадость»
+		'''
 
 	Positive: {
 		1: Sweet and filling. You feel restored.
@@ -4032,7 +4069,7 @@ MysteryCandy: {
 	}
 
 	Negative: {
-		Hurt: "{0} bit on a razorblade."
+		Hurt: Игрок {0} bit on a razorblade.
 		1: Ouch, there was a razorblade in there!
 		2: Your legs can barely hold you.
 		3: You are encased in stone.
@@ -4048,28 +4085,28 @@ MysteryCandy: {
 }
 
 BatBlaster: {
-	DisplayName: Bat Blaster
-	Tooltip: Turns bullets into bats
+	DisplayName: Мышиный бластер
+	Tooltip: Превращает пули в летучих мышей
 }
 
 FearsomeFork: {
-	DisplayName: Fearsome Fork
-	Tooltip: Launches pumpkins
+	DisplayName: Ужасающие вилы
+	Tooltip: Запускает тыквы
 }
 
 HauntingClaw: {
-	DisplayName: Haunting Claw
-	Tooltip: Shoots a cluster of spooky fire.
+	DisplayName: Призрачная рука
+	Tooltip: Выпускает жуткие огни
 }
 
 SpookyScythe: {
-	DisplayName: Spooky Scythe
-	Tooltip: Launches homing pumpkins.
+	DisplayName: Жуткая коса
+	Tooltip: Запускает самонаводящиеся тыквы
 }
 
 Taffy: {
-	DisplayName: Taffy
-	Tooltip: Increases defense
+	DisplayName: Ириска
+	Tooltip: Увеличивает защиту
 }
 
 Brightbulb: {
@@ -5476,12 +5513,12 @@ MJWRelicItem: {
 }
 
 OccultistRelicItem: {
-	DisplayName: Реликвия Оккультиста
+	DisplayName: Реликвия оккультиста
 	Tooltip: ""
 }
 
 RlyehianRelicItem: {
-	DisplayName: Реликвия Р'льехийца
+	DisplayName: Реликвия р'льехийца
 	Tooltip: ""
 }
 
@@ -6404,8 +6441,8 @@ CryoSword: {
 }
 
 AnimeSword: {
-	DisplayName: Anime Sword
-	Tooltip: Hold to slice through nearby enemies
+	DisplayName: Аниме-меч
+	Tooltip: Удерживайте, чтобы совершить рывок, разрубающий врагов на пути
 }
 
 BambooKendoBlade: {
@@ -7501,7 +7538,7 @@ RlyehianMountItem: {
 }
 
 RlyehMask: {
-	DisplayName: Маска Р'льехийца
+	DisplayName: Маска р'льехийца
 	Tooltip: ""
 }
 
@@ -7516,7 +7553,7 @@ TomeOfRylien: {
 }
 
 Trophy10: {
-	DisplayName: Трофей Р'льехийца
+	DisplayName: Трофей р'льехийца
 	Tooltip: ""
 }
 
@@ -8224,8 +8261,8 @@ GloomgusStaff: {
 }
 
 JadeStaff: {
-	DisplayName: Staff of the Jade Dragon
-	Tooltip: Summons two revolving ethereal dragons
+	DisplayName: Посох нефритового дракона
+	Tooltip: Выпускает двух извивающихся эфирных драконов
 }
 
 OrbiterStaff: {
