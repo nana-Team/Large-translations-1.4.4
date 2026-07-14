@@ -377,7 +377,7 @@ SteamRaiderHead: {
 	DisplayName: Звёздопанцирный странник
 	Entry: A strange automaton of unknown origin, designed for mining a precious metal from the stars. It utilizes the untapped energy found within the ore to power itself and perpetuate an endless search.
 	BossChecklistIntegration.SpawnInfo: Используйте [i:SpiritMod/StarWormSummon] ночью на астралитовом маяке, который можно найти в поле астероидов.
-	Spawn: The Starplate Voyager has awoken!
+	Spawn: Звёздопанцирный странник пробуждается!
 	Laser: Initiating Laser Protocol
 	Detected: Instability Detected
 	Engaged: Target Engaged
@@ -890,8 +890,8 @@ TinyLunazoa: {
 }
 
 MycelialBotanist: {
-	DisplayName: Mycelial Botanist
-	Entry: A gardener's hobbies are not to be ridiculed. Get in the way of these naturalists, and you'll face bloom and doom.
+	DisplayName: Мицелиальный ботаник
+	Entry: Не стоит лишний раз высмеивать увлечения этих садоводов: встанешь у них на пути — и из твоего трупа вскоре изготовят отличное удобрение.
 }
 
 OceanSlime: {
@@ -1092,10 +1092,10 @@ SporeWheezer: {
 	Entry: Хотя светящиеся грибы и паразиты, с пыхтельниками отношения у них сложились симбиотические: своим дыханием эти животные могут далеко распространять споры, чем и пользуются грибы.
 }
 
-CogTrapperBody.DisplayName: Stardancer
+CogTrapperBody.DisplayName: Звёздовёртка
 
 CogTrapperHead: {
-	DisplayName: Stardancer
+	DisplayName: Звёздовёртка
 	Entry: Strange mechanical constructs assemble around a beacon, calling attention to precious astral metals. It seems you aren't the only one who wants it.
 }
 

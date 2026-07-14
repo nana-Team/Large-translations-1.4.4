@@ -107,8 +107,8 @@ QuestInfo: {
 	}
 
 	RaidingTheStars: {
-		Name: Raiding the Stars
-		Description: You've checked out the Asteroid Fields near the far corner of the world, right? My sources have reported some increasin' mechanical activity around there. Some kinda weird automatonic worms made of metal are streakin' through the sky there. Something has to be putting 'em on edge. Could you kill a couple and see what makes 'em tick?
+		Name: Разграбить космос
+		Description: Так понимаю, поле астероидов уже исследовано? Согласно моим источникам, в последнее время там замечено движение каких-то вытянутых металлических объектов. Что-то вроде механических червей, носящихся туда-сюда по небу. У них будто шило в одном месте. Можешь убить парочку таких червей и узнать, из-за чего им так неймётся?
 	}
 
 	StylishSetup: {
@@ -379,8 +379,8 @@ QuestInfo: {
 	}
 
 	SlayerQuestMarble: {
-		Name: Ancient Gazes
-		Description: You've really shaken up the world after slaying the great evil in that disgusting biome. New horrors are startin' to crop up everwhere. The Marble Caverns have seen quite a stir especially. This new monstrosity's got tentacles, eyes, fireballs, you name it. Can you go kill this monstrosity for me, lad?
+		Name: Древний взор
+		Description: Да, после убийства того ужасного создания из одного мерзкого биома мир будто бы сам не свой. Повсюду вылазит всякая жуть. Взять те же мраморные пещеры, например: там завелось чудовище с щупальцами, глазами, здоровенными зубами, да чего у него только нет! Убей-ка его по-хорошему, ладно?
 	}
 
 	SlayerQuestNymph: {
@@ -414,9 +414,9 @@ QuestInfo: {
 	}
 
 	StrangeSeas: {
-		Name: Strange Seas
-		Description: The mythical Seabreak Pearl... I've been hearin' rumors about it popping up recently. It's one of the rarest treasures out there, but it's almost like it has a mind of its own and wants to be found. I feel like somethin' deeper and more sinister is at work here. We should find the pearl an' get to the bottom of this mystery as soon as we can.
-		Objective: Slay the strange monster controlling the Tide
+		Name: Морские сказки
+		Description: Эх, легендарная жемчужина морского прибоя... Я о ней уже столько историй наслушался. Это самая редкая вещица во всём мире, но у неё будто бы есть своя воля: она словно зазывает к себе, хочет, чтобы её кто-нибудь нашёл. Чувствую, что это ловушка, есть в этом деле, так скажем, подводные камни. Тебе нужно будет отыскать эту жемчужину и разобраться во всём.
+		Objective: Убить странного монстра, управляющего приливом
 	}
 
 	StylistQuestSeafoam: {

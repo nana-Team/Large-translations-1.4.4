@@ -2573,7 +2573,7 @@ CosmiliteShard: {
 }
 
 MagnetFlail: {
-	DisplayName: Силовой кабель
+	DisplayName: Электрический провод
 	Tooltip: Цепляется за блоки и врагов, превращая цепь в искрящийся провод
 }
 
@@ -2620,7 +2620,7 @@ StarMap: {
 }
 
 StarplateGlove: {
-	DisplayName: Cтократный сокрушающий удар
+	DisplayName: Стократный сокрушающий удар
 	Tooltip: Нажмите ПКМ, чтобы запустить кулак в воздух
 }
 
@@ -3392,23 +3392,23 @@ ScarabIdolQuest: {
 }
 
 ScientistLure: {
-	DisplayName: Grisly Science Experiment
-	CustomTooltip: "'Hopefully, the scientist is intrigued by this abomination'"
+	DisplayName: Мерзотный научный эксперимент
+	CustomTooltip: «Надеюсь, эта груда мяса привлечёт внимание безумного учёного»
 	MoreCustomTooltip:
 		'''
-		The Undead Scientist is no more!
-		There's no need for this disgusting thing anymore
+		Мёртвый учёный сгинул!
+		Эта противная штуковина больше не нужна
 		'''
 	Tooltip: ""
 }
 
 WarlockLureCorruption: {
-	DisplayName: Unholy Magic
-	CustomTooltip: "'Hopefully, the evil necromancer is intrigued by this strange magic'"
+	DisplayName: Нечестивое заклятие
+	CustomTooltip: «Надеюсь, эта странная магия привлечёт внимание злого колдуна»
 	MoreCustomTooltip:
 		'''
-		The Undead Warlock is no more!
-		There's no need for this repulsive thing anymore
+		Мёртвый чернокнижник сгинул!
+		Эта противная штуковина больше не нужна
 		'''
 	Tooltip: ""
 }
@@ -4052,35 +4052,35 @@ MysteryCandy: {
 		'''
 
 	Positive: {
-		1: Sweet and filling. You feel restored.
-		2: The sugar rush hits hard.
-		3: Mmm, the fluffiest of nougats. You feel light as a feather.
-		4: Magic is sparking from your fingertips. Maybe the candy was enchanted after all.
-		5: Has a bit of a metallic taste, but your skin is now tough as titanium.
-		6: It's a great time to go exploring.
-		7: You can see all.
-		8: Your hands are perfectly steady now.
-		9: That was delicious.
-		10: The conditions are perfect for a bit of building.
-		11: Your wish is their command.
-		12: New strength surges through your body.
-		13: The ground drops beneath your feet.
-		14: You feel like you're gonna make a big catch.
+		1: Сладко и сытно. Вы чувствуете прилив сил.
+		2: Сахар ударил в голову.
+		3: М-м-м, нежнейшая нуга. Вы стали легче пёрышка.
+		4: Из ваших пальцев вылетают магические искры. Похоже, конфета и правда была зачарована.
+		5: Есть лёгкий металлический привкус, зато ваша кожа теперь крепка, как титан.
+		6: Самое время отправиться исследовать мир.
+		7: От вас ничто не скроется.
+		8: Ваши руки окрепли.
+		9: Какая вкуснятина.
+		10: Лучшего момента для строительства не найти.
+		11: Любое ваше желание — для них закон.
+		12: По вашему телу разливается новая сила.
+		13: Земля уходит у вас из-под ног.
+		14: Кажется, сегодня вас ждёт крупный улов.
 	}
 
 	Negative: {
-		Hurt: Игрок {0} bit on a razorblade.
-		1: Ouch, there was a razorblade in there!
-		2: Your legs can barely hold you.
-		3: You are encased in stone.
-		4: Every last spark of magic left your body. Maybe the candy was enchanted after all.
-		5: Your armor is crumpling at the slightest touch.
-		6: You can barely think straight.
-		7: You are frozen in place. Maybe mint was a bad idea...
-		8: You can't feel your arms.
-		9: Your limbs ache with the slightest movement.
-		10: You've been drugged.
-		11: You feel sick.
+		Hurt: Игрок {0} съел слишком острую конфетку.
+		1: Ай! Там внутри лезвие бритвы!
+		2: Ноги едва вас держат.
+		3: Вы обращены в камень.
+		4: Каждая капля магии покинула ваше тело. Похоже, конфета и правда была зачарована.
+		5: Ваша броня мнётся от малейшего прикосновения.
+		6: Мысли путаются.
+		7: Вы заморожены на месте. Похоже, есть мятную конфету было не лучшей идеей...
+		8: Вы не чувствуете рук.
+		9: Малейшее движение отдаётся болью во всём теле.
+		10: Вас чем-то опоили.
+		11: Вас мутит.
 	}
 }
 
@@ -4135,18 +4135,18 @@ OldLeather: {
 }
 
 SoulBloom: {
-	DisplayName: Soulbloom
-	Tooltip: "'Subtle whispers resonate in languages you don't know'"
+	DisplayName: Душецвет
+	Tooltip: «От него исходит еле слышимый шёпот на незнакомых вам языках»
 }
 
 SpiritKoi: {
-	DisplayName: Spirit Koi
-	Tooltip: "'Is it past its expiry date?'"
+	DisplayName: Призрачный кои
+	Tooltip: «Он точно свежий?»
 }
 
 StarEnergy: {
-	DisplayName: Energized Metal
-	Tooltip: "'It utilizes some kind of otherworldly power source'"
+	DisplayName: Заряженный металл
+	Tooltip: «Питается от некого потустороннего источника энергии»
 }
 
 StrippedBamboo: {
@@ -4180,8 +4180,8 @@ PhantomEgg: {
 }
 
 PowerRing: {
-	DisplayName: Ring of Willpower
-	Tooltip: Summons a Lantern Power Battery to light the way
+	DisplayName: Кольцо силы воли
+	Tooltip: Призывает фонарь-батарею, освещающую путь
 }
 
 SaucerBeacon: {
