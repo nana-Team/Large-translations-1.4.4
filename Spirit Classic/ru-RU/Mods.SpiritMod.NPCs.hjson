@@ -171,7 +171,7 @@ Alien: {
 }
 
 BoneHarpy: {
-	DisplayName: Древний апостол
+	DisplayName: Древний пилигрим
 	Entry: The reanimated bones of a long extinct bird. Though dead, don't lower your guard near them, for these fowl fossils still have fight in them!
 }
 
@@ -222,8 +222,8 @@ Beholder: {
 }
 
 BlazingSkull: {
-	DisplayName: Wrathful Soul
-	Entry: Easily angered, this soul is eternally ablaze because of its sheer rage. All this energy is then released as it charges forward to blow up at any little thing. What a hothead.
+	DisplayName: Гневная душа
+	Entry: Эти души легко разозлить и вывести из себя, из-за чего их тела вечно объяты пламенем. Всю эту яростную мощь они выплёскивают, набрасываясь на свою очередную жертву и взрываясь. Им явно стоит охладить свой пыл.
 }
 
 BlizzardBandit: {
@@ -316,14 +316,14 @@ FrostSaucer: {
 
 Infernon: {
 	DisplayName: Инфернон
-	Entry: This diabolical demon was once shackled in the depths of the underworld, but has finally broken free. Any mortal who would dare obstruct his rampage should prepare for one hell of a fight.
+	Entry: Этот зловещий демон, некогда закованный в цепи в глубинах преисподней, сумел обрести свободу. Всякому смертному, посмевшему встать на пути его буйства, уготована чертовски испепеляющая битва.
 	BossChecklistIntegration.SpawnInfo: Используйте [i:SpiritMod/CursedCloth] в преисподней.
-	ExpertDialogue: You have yet to defeat the true master of Hell...
+	ExpertDialogue: А теперь узри истинную силу владыки преисподней...
 }
 
-InfernonSkull.DisplayName: Infernus Skull
-InfernonSkullMini.DisplayName: Infernon Skull
-InfernoSkull.DisplayName: Infernus Skull
+InfernonSkull.DisplayName: Череп инферно
+InfernonSkullMini.DisplayName: Череп Инфернона
+InfernoSkull.DisplayName: Череп инферно
 
 MoonWizard: {
 	DisplayName: Лунная медуза-волшебник
@@ -394,8 +394,8 @@ BottomFeeder: {
 }
 
 Boulder_Termagant: {
-	DisplayName: Boulder Behemoth
-	Entry: Entranced by anything that glistens, this beast's eyes now serve only one purpose. Find any glint of light. This usually leads it to gems, but it will mistakenly eat anything that glows.
+	DisplayName: Валунное чудище
+	Entry: Этого зверя завораживают блестящие вещицы, отчего весь день он проводит, гоняясь за каждым бликом света. Обычно, таким образом он находит самоцветы, но порой в его рот может попасть и что угодно, если оно тоже светится.
 }
 
 CavernBandit: {
@@ -409,8 +409,8 @@ CavernCrawler: {
 }
 
 ChainedSinner: {
-	DisplayName: Furnace Maw
-	Entry: We forge the chains we bear in life and in death.
+	DisplayName: Пасть-плавильня
+	Entry: Мы сами куем цепи, которые носим при жизни.
 }
 
 Chest_Zombie: {
@@ -469,12 +469,12 @@ CrystalSerpent: {
 }
 
 CyberflyBlue: {
-	DisplayName: Cyberfly
+	DisplayName: Кибермошка
 	Entry: Small digital wisps that flutter about cyberspace.
 }
 
 CyberflyPink: {
-	DisplayName: Cyberfly
+	DisplayName: Кибермошка
 	Entry: Small digital wisps that flutter about cyberspace.
 }
 
@@ -771,7 +771,7 @@ Goblin_Grenadier: {
 }
 
 GraniteSentry: {
-	DisplayName: G-TEK Turret
+	DisplayName: Турель G-TEK
 	Entry: "'G-TEK Incorporated would like you to know that we take no responsibility for any death or dismemberment caused by our protection turrets. They are simply there to guard what is ours. Thank you.'"
 }
 
@@ -787,8 +787,8 @@ HauntedTome: {
 }
 
 HellEater: {
-	DisplayName: Gluttonous Devourer
-	Entry: You'd best avoid the searing hot jaws of these beasts. Devourers have a notoriously painful bite, but that makes it a sought after material for the bold.
+	DisplayName: Ненасытный пожиратель
+	Entry: Этот зверь причиняет мучительную боль любому, кого укусит своими обжигающе острыми клыками. В то же время именно эта сила укуса делает челюсти пожирателей ценным материалом для тех, кто отважится охотится на них.
 }
 
 Hemophora: {
@@ -1361,7 +1361,7 @@ Oracle: {
 	}
 
 	Bless: {
-		Button: Bless
+		Button: Получить благословение
 		Dialogue1: You wish for a challenge? I may stop you not, as it benefits us both. I do hope you're prepared!
 		Dialogue2: I shall consult the gods about their boons - these monsters will become relentless, I hope you are aware.
 		Dialogue3: You want me to call them what?! Such foul battle language, yet I will deliver the message. The Gods won't be happy about this!

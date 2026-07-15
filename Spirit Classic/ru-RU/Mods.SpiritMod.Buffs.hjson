@@ -438,8 +438,8 @@ StarplatePetBuff: {
 }
 
 VinewrathPetBuff: {
-	DisplayName: Wrathful Seedling
-	Description: "'They love to pick a fight'"
+	DisplayName: Иссохший проросток
+	Description: «Из него вырос не самый благополучный ребёнок»
 }
 
 BismitePotionBuff: {

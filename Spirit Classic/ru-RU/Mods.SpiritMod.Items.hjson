@@ -1082,7 +1082,7 @@ AlienBanner: {
 }
 
 AncientApostleBanner: {
-	DisplayName: Знамя древнего апостола
+	DisplayName: Знамя древнего пилигрима
 	Tooltip: ""
 }
 
@@ -2112,7 +2112,7 @@ Trophy8: {
 }
 
 TalonGarb: {
-	DisplayName: Облачение апостола
+	DisplayName: Облачение пилигрима
 	Tooltip:
 		'''
 		Увеличивает магический и стрелковый урон на 7%
@@ -2121,7 +2121,7 @@ TalonGarb: {
 }
 
 TalonHeaddress: {
-	DisplayName: Головной убор апостола
+	DisplayName: Головной убор пилигрима
 	Tooltip: Увеличивает шанс магического и стрелкового критического удара на 7%
 }
 
@@ -2682,13 +2682,12 @@ ReachBossBag: {
 }
 
 ReachBossSword: {
-	DisplayName: Bloodthorn Blade
+	DisplayName: Клинок кровавых колючек
 	Tooltip:
 		'''
-		Increases in speed as health wanes
-		Occasionally shoots out a bloody wave
-		Fires waves more frequently when below 1/2 health
-		Melee critical hits poison enemies and inflict 'Withering Leaf'
+		Выпускает кровавые волны
+		Атакует быстрее и наносит больше урона по мере снижения здоровья
+		Критические удары в ближнем бою накладывают дебаффы «{$BuffName.Poisoned}» и «{$Buffs.WitheringLeaf.DisplayName}»
 		'''
 }
 
@@ -2698,18 +2697,18 @@ ReachMask: {
 }
 
 ReachVineStaff: {
-	DisplayName: Bloodpetal Wand
-	Tooltip: Rains down multiple blood petals from the sky around the cursor position
+	DisplayName: Жезл кровавых лепестков
+	Tooltip: Обрушивает кровавые лепестки с неба
 }
 
 SunbeamStaff: {
-	DisplayName: Photosynthestrike
-	Tooltip: Shoots out a fast moving, homing solar bolt
+	DisplayName: Фотосинтезатор
+	Tooltip: Запускает быстрый, самонаводящийся солнечный луч
 }
 
 ThornBow: {
-	DisplayName: Thornshot
-	Tooltip: Wooden arrows split into poisonous thorns upon hitting enemies
+	DisplayName: Колючкострел
+	Tooltip: Деревянные стрелы будут распадаться на отравляющие колючки при попадании по врагу
 }
 
 Trophy5: {
@@ -2718,8 +2717,8 @@ Trophy5: {
 }
 
 VinewrathPetItem: {
-	DisplayName: Withered Petal
-	Tooltip: Summons an angry Seedling companion
+	DisplayName: Увядший лепесток
+	Tooltip: Призывает злого проростка-компаньона
 }
 
 AsteroidPylonItem: {
@@ -2887,13 +2886,13 @@ CursedCloth: {
 }
 
 CyberflyBlueItem: {
-	DisplayName: Blue Cyberfly
-	Tooltip: "'Real or digital?'"
+	DisplayName: Синяя кибермошка
+	Tooltip: «Она настоящая или цифровая?»
 }
 
 CyberflyPinkItem: {
-	DisplayName: Pink Cyberfly
-	Tooltip: "'Real or digital?'"
+	DisplayName: Розовая кибермошка
+	Tooltip: «Она настоящая или цифровая?»
 }
 
 DistressJellyItem: {
@@ -3211,8 +3210,8 @@ MartianTransmitter: {
 }
 
 OliveBranch: {
-	DisplayName: Olive Branch
-	Tooltip: Greatly reduces enemy spawns
+	DisplayName: Ветка оливы
+	Tooltip: Значительно снижает частоту появления врагов
 }
 
 PirateCrate: {
@@ -3587,8 +3586,8 @@ EternalAsh: {
 }
 
 BlizzardEdge: {
-	DisplayName: Blizzard's Edge
-	Tooltip: Right-click after five swings to summon a blizzard
+	DisplayName: Грань метели
+	Tooltip: Нажмите ПКМ после совершения 5 взмахов, чтобы вызвать метель
 }
 
 Chillrend: {
@@ -4565,7 +4564,7 @@ HangingSunPot: {
 }
 
 HourglassItem: {
-	DisplayName: Ancient Hourglass
+	DisplayName: Древние песочные часы
 	Tooltip: ""
 }
 
@@ -4849,8 +4848,8 @@ AdvPainting20: {
 }
 
 AdvPainting21: {
-	DisplayName: Ancient City
-	Tooltip: "'S. Yaki'"
+	DisplayName: Картина «Древний город»
+	Tooltip: «С. Яки»
 }
 
 AdvPainting22: {
@@ -6145,8 +6144,8 @@ LivingElderbarkWand: {
 }
 
 ReachBoomerang: {
-	DisplayName: Briarheart Boomerang
-	Tooltip: Shoots out two boomerangs on use
+	DisplayName: Бумеранг сердца терновника
+	Tooltip: Бросает два бумеранга
 }
 
 ReachBrooch: {
@@ -6164,7 +6163,7 @@ ReachChestMagic: {
 }
 
 ThornHook: {
-	DisplayName: Bramble Hook
+	DisplayName: Плющевой крюк
 	Tooltip: ""
 }
 
@@ -6263,8 +6262,8 @@ Blasphemer: {
 }
 
 BoneClub: {
-	DisplayName: Bone Club
-	Tooltip: Charged strikes launch bones forward
+	DisplayName: Костяная дубина
+	Tooltip: Разбрасывает кости при полном заряде
 }
 
 BruteHammer: {
@@ -6451,8 +6450,8 @@ BambooKendoBlade: {
 }
 
 BladeOfTheDragon: {
-	DisplayName: Blade of the Dragon
-	Tooltip: Hold to slice through nearby enemies
+	DisplayName: Клинок дракона
+	Tooltip: Удерживайте, чтобы совершить рывок, разрубающий врагов на пути
 }
 
 LightNovasVanity: {
@@ -6833,7 +6832,7 @@ GranitechGun: {
 }
 
 GranitechMaterial: {
-	DisplayName: G-TEK Components
+	DisplayName: Детали G-TEK
 	Tooltip: "'An impressive combination of magic and science'"
 }
 
@@ -7188,17 +7187,17 @@ ArcLash: {
 }
 
 StopWatch: {
-	DisplayName: Astral Clock
+	DisplayName: Астральные карманные часы
 	Tooltip:
 		'''
-		Freezes time in a radius around the player 
-		60 second cooldown
+		Ненадолго замораживает вокруг вас время
+		Эта способность перезаряжается 60 секунд
 		'''
 }
 
 AdamantiteStaff: {
-	DisplayName: Adamantite Staff
-	Tooltip: Shoots out a cluster of energy that splits into different directions
+	DisplayName: Адамантитовый посох
+	Tooltip: Выпускает сгустки энергии, взрывающиеся через время
 }
 
 CobaltStaff: {
@@ -7445,7 +7444,7 @@ ArtemisHunt: {
 }
 
 BetrayersChains: {
-	DisplayName: Blades of Chaos
+	DisplayName: Клинки хаоса
 	Tooltip: ""
 }
 
@@ -7470,8 +7469,8 @@ MarkOfZeus: {
 }
 
 OlympiumToken: {
-	DisplayName: Olympium Token
-	Tooltip: May be of interest to a collector...
+	DisplayName: Олимпийская драхма
+	Tooltip: Могут заинтересовать одного коллекционера...
 }
 
 DuelistLegacy: {
@@ -8413,8 +8412,8 @@ TargetCan: {
 }
 
 Ancient: {
-	DisplayName: Ancient
-	Tooltip: Shoots a cluster of Ancient Ice
+	DisplayName: Древний
+	Tooltip: Выпускает сосульки древнего льда во все сторону
 }
 
 BeholderYoyo: {
@@ -8489,16 +8488,16 @@ MarbleMinecartItem: {
 }
 
 Zombie_Chest: {
-	DisplayName: Chest
+	DisplayName: Сундук
 	Tooltip: ""
 }
 
 OracleScripture: {
-	DisplayName: Sacred Scripture
+	DisplayName: Священное писание
 	Tooltip:
 		'''
-		Calls the Oracle to you
-		Can only be used while in the Marble Caverns
+		Вызывает оракула
+		Можно использовать только в мраморной пещере
 		'''
 }
 
@@ -8828,7 +8827,7 @@ FestivalLanternItem: {
 }
 
 BriarFountainItem: {
-	DisplayName: Briar Water Fountain
+	DisplayName: Фонтан воды терновника
 	Tooltip: ""
 }
 
@@ -8998,8 +8997,8 @@ ToxicTooth: {
 }
 
 ScarabeusAnatomyItem: {
-	DisplayName: Anatomy of Scarabeus
-	Tooltip: "'M. Bee'"
+	DisplayName: Картина «Анатомия Скарабеуса»
+	Tooltip: «М. Би»
 }
 
 ToweringStactus: {

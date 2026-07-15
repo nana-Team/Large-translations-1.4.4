@@ -13,7 +13,6 @@ Misc: {
 	Put: Right click to put into Candy Bag
 	SturdyActivated: Sturdy Activated!
 	SpiritSpread: The Spirits spread through the land...
-	NotDefeat: You have yet to defeat the true master of Hell...
 	Cursed: Cursed!
 	Unlocked: Unlocked!
 	BloodstainedChestChat: The ancient chest seems to be covered in gold, blood, and bones. It surely contains great riches, but opening it may be perilous.
@@ -29,7 +28,6 @@ Misc: {
 	ValidCourt: This is a valid court!
 	VolleyHit: The volley lasted {0} hits!
 	RemainingS: ({0}s remaining)
-	RemainingM: ({0}m remaining)
 }
 
 RecipeGroup: {

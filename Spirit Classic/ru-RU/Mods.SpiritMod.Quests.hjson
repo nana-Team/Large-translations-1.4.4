@@ -266,10 +266,10 @@ QuestInfo: {
 	}
 
 	GranitechQuest: {
-		Name: Futuristic Forces
-		Description: You know, I've been seeing some strange parts in the scrap I've been buying lately. It's quite amazing, honestly! The circuitry is way out of my league, like it's from the future or something! I'd love to mess around with them and learn more, so would you get some for me? They're attached to some dangerous machinery, though. Come back in one piece!
-		BringBack: Return to the Mechanic with the circuits
-		Thanks: Wow! These parts are almost otherworldly! You said you fought a bunch of high-precision laser turrets to get these? I mean, that makes sense, but there's so much more that this circuitry could accomplish. It's a combination of magic and energy that I've never seen before, and I think the people behind those turrets are a force to be wary of. It's best you grab as many circuits as you can and prepare before they make their move!
+		Name: Будущее уже наступило
+		Description: Я тут то и дело натыкаюсь на кое-какие запчасти... фантастические вещицы, сам погляди! Микросхемы в них гораздо лучше тех, что делаю я, они будто прямиком из будущего! Не терпится поковыряться в них ещё побольше. Сможешь достать мне ещё горстку таких? Этих компонентов полным-полно в кое-каких опасных устройствах, что я видела. Осторожнее с ними!
+		BringBack: Отнести компоненты механику
+		Thanks: Ого! Эти запчасти будто из другого мира, настолько они крутые! Говоришь, пришлось разломать пару высокоточных лазерных турелей, чтобы их достать? Мда, турели это круто, конечно, но из этих микросхем ведь можно сделать столько всего ещё более крутого! Удивительное сочетание магии и электроники, я такого никогда не видела! Люди, что изготовили такое, наверняка крайне опасны. Надо бы насобирать как можно больше компонентов, пока они не одумались!
 	}
 
 	HeartCrystalQuest: {
@@ -325,12 +325,12 @@ QuestInfo: {
 	}
 
 	OlympiumQuest: {
-		Name: Ancient Augury
-		Description: The world has changed for the worse. I sense foul magic growing stronger and stronger. If we must keep the forces of evil at bay, we must seek help. As of late, I've also sensed the presence of someone familiar in the depths of the Marble Caverns. Go to her; she will be able to offer you guidance.
-		Dialogue: I've been expecting you, traveler. My visions spoke of a time when a hero would need some guidance. I can offer you powerful armaments in exchange for Olympium, the currency of the Gods. To find some, seek out and defeat enemies that have been blessed by the Gods themselves. I can give you my blessing if you would like to find more of these creatures, but you risk incurring the wrath of the Gods.'
-		Objective: Find the mysterious woman in the Marble Caverns
-		ReturnDialogue: Ah, you've returned safe and sound! Wonderful. I'll exchange these tokens with you for some powerful weapons and equipment. And take this sacred parchment. If you need me, I will be by your side. Safe journey, hero.
-		ReturnTo: Вернуться к Оракулу
+		Name: Пророчество
+		Description: С каждым днём мир только увядает: я чувствую, как скверная магия становится всё сильнее и сильнее. Если мы хотим противостоять силам зла, нам понадобится кое-чья помощь. В последнее время я ощущаю могущественное присутствие своей давней знакомой в глубинах мраморных пещер. Ступай же к ней, она укажет путь к избавлению от скверны.
+		Dialogue: Я ждала тебя, путник. В своих видениях я видела, что однажды явится герой, которому нужна будет моя помощь. Готова предложить тебе могущественное оружие в обмен на скромную сумму божественных монет — олимпийских драхм. Коли пожелаешь раздобыть парочку драхм, сперва одержи победу над теми, кто получил дары от самих богов. Если будет на то твоя воля, я дам тебе благословение, с которым ты сможешь найти больше таких созданий, но знай, что это может разгневать богов.
+		Objective: Найти загадочную женщину в мраморной пещере
+		ReturnDialogue: Ах, герой вернулся в целости и невредимости! Чудесно. Я буду рада принять твои драхмы и наградить тебя могущественным снаряжением. И возьми ещё этот священный пергамент. Если я ещё буду тебе нужна, ты сможешь призвать меня одним росчерком пера по нему. Счастливого пути, герой.
+		ReturnTo: Вернуться к оракулу
 	}
 
 	RescueQuestStylist: {

@@ -13,7 +13,6 @@ Misc: {
 	Put: Нажмите ПКМ, чтобы положишь в конфетный мешок
 	SturdyActivated: Sturdy Activated!
 	SpiritSpread: По земле разливаются духи...
-	NotDefeat: You have yet to defeat the true master of Hell...
 	Cursed: Cursed!
 	Unlocked: Unlocked!
 	BloodstainedChestChat: The ancient chest seems to be covered in gold, blood, and bones. It surely contains great riches, but opening it may be perilous.
@@ -28,8 +27,7 @@ Misc: {
 	NeedWide: Court must be at least 60 tiles wide!
 	ValidCourt: This is a valid court!
 	VolleyHit: The volley lasted {0} hits!
-	RemainingS: ({0}s remaining)
-	RemainingM: ({0}m remaining)
+	RemainingS: (Осталось {0}с)
 }
 
 RecipeGroup: {
@@ -132,5 +130,5 @@ FrozenEnemies: {
 
 Currency: {
 	GlyphPrice: "{0} {^0:глиф;глифа;глифов}"
-	OlympiumTokenPrice: "{0} {^0:олимпийский жетон;олимпийских жетона;олимпийских жетонов}"
+	OlympiumTokenPrice: "{0} {^0:олимпийская драхма;олимпийских драхмы;олимпийских драхм}"
 }
