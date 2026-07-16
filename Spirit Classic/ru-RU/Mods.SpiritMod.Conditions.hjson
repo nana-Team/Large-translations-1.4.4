@@ -1,39 +1,33 @@
-NotDay: Drops only at night
-Day: Drops only during day
-DropFrom: "Drops only in the "
-Purity: Purity
-Snow: Snow
-Asteroid: Asteroid
-DefBoss: Drops only after {0} has been defeated
+NotDay: Только ночью
+Day: Только днём
+DropFrom: "В "
+Purity: чистых биомах
+Snow: снегах
+Asteroid: поле астероидов
+DefBoss: После победы над: {0}
 RrefixThe: ""
-AnyMech: any mechanical boss
-FromVHead: From venomous heads
-FromFHead: From flaming heads
-FromAHead: From acidic heads
-PokeyBodyLastSegment: Drops only from the last segment
-Enchanted: Drops when enemy is enchanted
-Rarely: Rarely
-// WearingFloran: Wearing the full Floran set
-// WearingArcaneNecklace: Wearing the Arcane Necklace and is using a magic weapon
-// WearingVitalityStone: Wearing the Vitality Stone (or an upgrade)
+AnyMech: любым механическим боссом
+FromVHead: С ядовитой головы гидры
+FromFHead: С огненной головы гидры
+FromAHead: С кислотной головы гидры
+PokeyBodyLastSegment: Только с последнего сегмента
+Enchanted: Если зачарован
+Rarely: Редко
 Uncommonly: Изредка с теневых мимиков
-HasMoonshot: Any player has a Moonshot
+// HasMoonshot: Any player has a Moonshot
 VoyagerDown: После победы над Звёздопанцирным странником
 ScarabDown: После победы над Скарабеусом
 MJWDown: После победы над Лунной медузой-волшебником
-VinewrathDown: Vinewrath Bane is defeated
+VinewrathDown: После победы над Гневоплющем
 DuskingDown: После победы над Сумрачным королём
 InBriar: В терновнике
 InAsteroids: В поле астероидов
 InSpirit: В биоме духов
-// NotInSpirit: Not in the Spirit
-// NotInBriar: Not in the Briar
-// StarjinxDown: Starjinx event is defeated
 FirstDown: Только при первом убийстве
 HalfCompleteBestiary: Когда бестиарий Spirit заполнен хотя бы на 50%
 FullCompleteBestiary: Когда бестиарий Spirit полностью заполнен
 DurasilkSheaf: Получено 3 полотна прочной ткани
-WarlockLure: During Unholy Undertaking
+WarlockLure: Во время задания «{$Quests.QuestInfo.ZombieOriginQuest.Name}»
 # Quest conditions are below here
 # IsCompleted is used to shorten translation
 IsCompleted: После выполнения задания

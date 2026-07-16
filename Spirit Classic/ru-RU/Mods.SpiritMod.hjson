@@ -11,22 +11,9 @@ Misc: {
 	PinRemoved: Булавка удалена
 	PinMove: Переместить булавку
 	Put: Нажмите ПКМ, чтобы положишь в конфетный мешок
-	SturdyActivated: Sturdy Activated!
 	SpiritSpread: По земле разливаются духи...
-	Cursed: Cursed!
-	Unlocked: Unlocked!
-	BloodstainedChestChat: The ancient chest seems to be covered in gold, blood, and bones. It surely contains great riches, but opening it may be perilous.
-	Oped: Open
-	WardenEnchant: Enchant moment - we got {0}
-	Point: Points
-	Win: Wins
-	NeedNet: You must choose a net!
-	NeedHeight: Net must be higher than 10 blocks! ({0} blocks tall currently)
-	NeedCourt: Net must be placed on a court!
-	NeedSpace: Court must be an open space!
-	NeedWide: Court must be at least 60 tiles wide!
-	ValidCourt: This is a valid court!
-	VolleyHit: The volley lasted {0} hits!
+	Cursed: Проклято!
+	Unlocked: Открыто!
 	RemainingS: (Осталось {0}с)
 }
 

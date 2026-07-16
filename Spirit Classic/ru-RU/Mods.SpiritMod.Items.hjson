@@ -1122,7 +1122,7 @@ BeholderBanner: {
 }
 
 BlazingSkullBanner: {
-	DisplayName: Wrathful Soul Banner
+	DisplayName: Знамя гневной души
 	Tooltip: ""
 }
 
@@ -1167,7 +1167,7 @@ BottomFeederBanner: {
 }
 
 BoulderBehemothBanner: {
-	DisplayName: Boulder Behemoth Banner
+	DisplayName: Знамя валунного чудовища
 	Tooltip: ""
 }
 
@@ -1267,7 +1267,7 @@ FleshHoundBanner: {
 }
 
 FurnaceMawBanner: {
-	DisplayName: Furnace Maw Banner
+	DisplayName: Знамя пасти-плавильни
 	Tooltip: ""
 }
 
@@ -1307,7 +1307,7 @@ GlowToadBanner: {
 }
 
 GluttonousDevourerBanner: {
-	DisplayName: Gluttonous Devourer Banner
+	DisplayName: Знамя ненасытного пожирателя
 	Tooltip: ""
 }
 
@@ -1322,7 +1322,7 @@ GoldCrateMimicBanner: {
 }
 
 GranitecTurretBanner: {
-	DisplayName: G-TEK Turret Banner
+	DisplayName: Знамя турели G-TEK
 	Tooltip: ""
 }
 
@@ -1457,7 +1457,7 @@ MoonlightRupturerBanner: {
 }
 
 MyceliumBotanistBanner: {
-	DisplayName: Mycelium Botanist Banner
+	DisplayName: Знамя мицельального ботаника
 	Tooltip: ""
 }
 
@@ -1572,7 +1572,7 @@ SporeWheezerBanner: {
 }
 
 StardancerBanner: {
-	DisplayName: Stardancer Banner
+	DisplayName: Знамя звёздновёртки
 	Tooltip: ""
 }
 
@@ -4554,7 +4554,7 @@ HangingCloudstalk: {
 }
 
 HangingSoulbloom: {
-	DisplayName: Hanging Soulbloom
+	DisplayName: Подвесной душецвет
 	Tooltip: ""
 }
 
@@ -4574,42 +4574,42 @@ MarbleObeliskItem: {
 }
 
 Pillar1: {
-	DisplayName: Large Corinthian Column
+	DisplayName: Большая коринфская колонна
 	Tooltip: ""
 }
 
 Pillar2: {
-	DisplayName: Small Corinthian Column
+	DisplayName: Маленькая коринфская колонна
 	Tooltip: ""
 }
 
 Pillar3: {
-	DisplayName: Large Doric Column
+	DisplayName: Большая дорическая колонна
 	Tooltip: ""
 }
 
 Pillar4: {
-	DisplayName: Small Doric Column
+	DisplayName: Маленькая дорическая колонна
 	Tooltip: ""
 }
 
 Pillar5: {
-	DisplayName: Large Ionic Column
+	DisplayName: Большая ионическая колонна
 	Tooltip: ""
 }
 
 Pillar6: {
-	DisplayName: Small Ionic Column
+	DisplayName: Маленькая ионическая колонна
 	Tooltip: ""
 }
 
 Pillar7: {
-	DisplayName: Large Ruined Column
+	DisplayName: Большая разрушенная колонна
 	Tooltip: ""
 }
 
 Pillar8: {
-	DisplayName: Small Ruined Column
+	DisplayName: Маленькая разрушенная колонна
 	Tooltip: ""
 }
 
@@ -4634,7 +4634,7 @@ BlueNeonSign: {
 }
 
 GeneratorItem: {
-	DisplayName: Glowplate Generator
+	DisplayName: Генератор из светящегося покрытия
 	Tooltip: ""
 }
 
@@ -4654,7 +4654,7 @@ GreenNeonSign: {
 }
 
 LargeTechCrate: {
-	DisplayName: Large Glowplate Crate
+	DisplayName: Большой ящик из светящегося покрытия
 	Tooltip: ""
 }
 
@@ -4739,7 +4739,7 @@ RedNeonSign: {
 }
 
 SmallTechCrate: {
-	DisplayName: Small Glowplate Crate
+	DisplayName: Маленький ящик из светящегося покрытия
 	Tooltip: ""
 }
 
@@ -5072,17 +5072,17 @@ GraniteSculpture3x5Item: {
 }
 
 MarbleSculpture1x2Item: {
-	DisplayName: Marble Statuette
+	DisplayName: Мраморная статуэтка
 	Tooltip: ""
 }
 
 MarbleSculpture2x3Item: {
-	DisplayName: Marble Bust
+	DisplayName: Мраморный бюст
 	Tooltip: ""
 }
 
 MarbleSculpture3x8Item: {
-	DisplayName: Marble Sculpture
+	DisplayName: Мраморная скульптура
 	Tooltip: ""
 }
 
@@ -5542,7 +5542,7 @@ SamuraiStatueItem: {
 }
 
 SoulSeeds: {
-	DisplayName: Soulbloom Seeds
+	DisplayName: Семена душецвета
 	Tooltip: ""
 }
 
@@ -5670,7 +5670,7 @@ SpiritWoodItem: {
 }
 
 TechBlockItem: {
-	DisplayName: Glowplate Block
+	DisplayName: Светящиеся покрытие
 	Tooltip: ""
 }
 
@@ -5695,7 +5695,7 @@ ElderbarkFence: {
 }
 
 GlowplateWallItem: {
-	DisplayName: Smooth Glowplate Wall
+	DisplayName: Гладкая стена из светящегося покрытия
 	Tooltip: ""
 }
 
@@ -6480,7 +6480,7 @@ BrightbloodDye: {
 }
 
 CystalDye: {
-	DisplayName: Vile Hair Dye
+	DisplayName: Мерзкая краска для волос
 	Tooltip: ""
 }
 
@@ -6500,7 +6500,7 @@ SnowMirageDye: {
 }
 
 ViciousDye: {
-	DisplayName: Vicious Hair Dye
+	DisplayName: Мерзотная краска для волос
 	Tooltip: ""
 }
 
@@ -7892,8 +7892,8 @@ SoulDagger: {
 }
 
 ToucaneItem: {
-	DisplayName: Toucane
-	Tooltip: Summons an angry toucan to fight for you
+	DisplayName: Туканотрость
+	Tooltip: Призывает разъярённого тукана сражаться за вас
 }
 
 MimeSummon: {
@@ -8095,7 +8095,7 @@ TitaniumWarhammer: {
 }
 
 GoldenEgg: {
-	DisplayName: Vulture Matriarch's Golden Egg
+	DisplayName: Золотое яйцо матриарха стервятников
 	Tooltip: ""
 }
 
@@ -8123,7 +8123,7 @@ Tome_of_the_Great_Scavenger: {
 }
 
 Vulture_Matriarch_Mask: {
-	DisplayName: Vulture Matriarch Mask
+	DisplayName: Маска матриарха стервятников
 	Tooltip: ""
 }
 
@@ -8364,7 +8364,7 @@ MartianGrenade: {
 }
 
 MimeBomb: {
-	DisplayName: Mime Bomb
+	DisplayName: Бомба мима
 	Tooltip: ""
 }
 
@@ -8832,27 +8832,27 @@ BriarFountainItem: {
 }
 
 GlowplateBedItem: {
-	DisplayName: Glowplate Bed
+	DisplayName: Кровать из светящегося покрытия
 	Tooltip: ""
 }
 
 GlowplateChairItem: {
-	DisplayName: Glowplate Chair
+	DisplayName: Стул из светящегося покрытия
 	Tooltip: ""
 }
 
 GlowplateChestItem: {
-	DisplayName: Glowplate Chest
+	DisplayName: Сундук из светящегося покрытия
 	Tooltip: ""
 }
 
 GlowplateTableItem: {
-	DisplayName: Glowplate Table
+	DisplayName: Стол из светящегося покрытия
 	Tooltip: ""
 }
 
 DragonStatueItem: {
-	DisplayName: Jade Dragon Statuette
+	DisplayName: Статуя нефритового дракона
 	Tooltip: ""
 }
 
@@ -8973,7 +8973,7 @@ SpiritPlatformItem: {
 }
 
 GlowplatePlatformItem: {
-	DisplayName: Glowplate Platform
+	DisplayName: Платформа из светящегося покрытия
 	Tooltip: ""
 }
 

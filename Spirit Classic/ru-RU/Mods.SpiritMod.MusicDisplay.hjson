@@ -160,7 +160,7 @@ AshStorm: {
 }
 
 Asteroids: {
-	DisplayName: Поле астероидов: Above Islands (Asteroid Theme)
+	DisplayName: Поле астероидов: Above Islands
 	Author: "{$BySalvati}"
 }
 

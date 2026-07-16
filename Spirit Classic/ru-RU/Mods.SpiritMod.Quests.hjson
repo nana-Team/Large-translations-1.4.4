@@ -202,8 +202,8 @@ QuestInfo: {
 	}
 
 	ExplorerQuestBlueMoon: {
-		Name: Once in a...
-		Description: Just when you'd think this world's run out of things to kill you with, eh? We've all seen those disgusting Blood Moons, but recently, the moon's taken to turning a deep blue. I bet you may think that sounds sweet, but terrifyin' creatures come out during these Mystic Moons. Make sure none of 'em get too close to the town, you hear?
+		Name: Голубая луна, голубая...
+		Description: Мир всегда найдёт, чем неприятно удивить на сей раз. Все ведь мы уже знаем про жуткие кровавые луны, но в последнее время луна начала загораться и ярко-синим цветом! Звучит, конечно, романтично, но в такие ночи из под земли выползают твари ещё более ужасные, чем тебе доводилось видеть. Главное, не подпускай их близко к поселению, хорошо?
 		Objective: таинственную луну
 	}
 
@@ -278,22 +278,22 @@ QuestInfo: {
 	}
 
 	IceDeityQuest: {
-		Name: Beneath the Ice
-		Description: Welcome, friend! I've got a bit of an unusual request for you today. You see, I've sensed some strange energy emanating from the frozen tundra as of late. I'd like for you to venture there and learn more, but not before we gain some knowledge beforehand. First, let's ask around.
-		KillWinterborn: Find clues about the past by killing Winterborn
-		KillCrystalDrifter: Kill a Crystal Drifter
-		CuriousRelic: What a curious relic! It seems to be part of a much larger statue. Perhaps the strange Winterborn worshipped this deity? Or perhaps not- it could just be the creation of another long-dead civilzation whose souls roam the frozen depths. Who knows? But it's intriguing, and I wish to reassemble the sculpture. Can you collect the other missing pieces? I'm sure one can be found on Crystal Drifters, strange ice entities that emerge during Blizzards. We could probably fashion the other pieces out of Creeping Ice and Cryolite, found underground.
-		ShowRelic: Show the Enchanter the strange relic
-		GiveAllArtifacts: Give all the artifacts to the Enchanter
-		Congrats: You've done a splendid job! These artifacts seem to create a giant statue that resembles a warrior-knight of some kind. Perhaps it's a deity. Perhaps it's just a passion project- there's so much we don't know! And though I'm not sure why the icy caverns have become so dangerous, I'm content with having learned more about our world. I do hope you put this statue up somewhere!
-		FrozenSoulScene: As I approach the spirit, the cave around me seems to shake. The walls collapse, leaving me standing in a boundless chasm. I am alone. Countless piles of gold and relics lay strewn about, covered in a thin layer of frost. The only light in the cavern seems to come from the soul beside me as it waits for me to make a decision.
-		FindFrozenSoul: Or try to find a soul in the Ice Biome
-		DryadMyths: So you wish to know about the icy caverns? Well, they have existed since before I was born- I'm not that old! However, I have heard tales about numerous civilizations rising and falling beneath the frozen surface. Some were peaceful, while others went so far as to freeze their enemies alive for sport! If you listen closely, I am sure that you could glean more information from the souls of the frozen caverns.
-		AskMyths: Ask the Dryad about the ancient myths
-		AdventurerMyths: I don't know much about ancient history, but a few of my associates have scouted a growing threat in the icy caverns. Sometimes, they even get bold enough to roam the surface durin' heavy blizzards. I'm not sure what's got 'em so riled up, but the frozen fields are more dangerous than ever.
-		AskAdventurer: Ask the Adventurer about the Snow Biome
-		ReturnToDialogue: I see! These leads are promising- perhaps killing some of these frozen creatures or trying to find one of these souls the Dryad mentioned could shed some light on the restlessness of the ice biome.
-		ReturnTo: Return to the Enchanter with what you know
+		Name: Под толщей льда
+		Description: Приветствую тебя! У меня для тебя довольно необычное поручение. Видишь ли, в последнее время я ощущаю какую-то странную энергию из глубин заснеженной тундры, чувствую что-то неладное. Тебе нужно будет спуститься туда и узнать, что там происходит, но сперва поспрашивай людей. Расскажешь мне, если выяснишь у них что-нибудь.
+		KillWinterborn: Узнать о прошлом тундры, убивая зиморождённых
+		KillCrystalDrifter: Убить скитающийся кристалл
+		CuriousRelic: Какая удивительная вещица! Похоже, она откололась от какой-то большой статуи. Быть может, она была посвящена какому-то божеству, которому поклоняются зиморождённые? Или же статую возвела одна из десятков других цивилизаций, захороненных под толщами льда. Кто его знает? Но штуковина всё равно очень любопытная, хотелось бы мне однажды восстановить эту скульптуру. Сможешь найти остальные её части? Один кусочек точно можно достать из странных ледяных созданий - кристальных летунов/отшельников, что выходят на свет во время метелей. Остальные кусочки наверняка можно выскребать из криолитовой руды и жгучего льда, осталось лишь найти их в пещерах.
+		ShowRelic: Показать загадочную реликвию чародею
+		GiveAllArtifacts: Отнести все артефакты чародею
+		Congrats: Замечательно! Из этих артефактов будто бы складывается гигантская скульптура, изображающая какого-то воина-рыцаря или божество. Возможно какой-то древний житель тех земель лепил эту скульптуру как украшение для дома. Нам ещё столько всего предстоит узнать об их цивилизации! И хотя мы так и не узнали, отчего ледяные пещеры стали таким опасным местом, я рад, что нам удалось совершить, так сказать, небольшое археологическое открытие! Надеюсь, ты поставишь эту скульптуру куда-нибудь на видное место!
+		FrozenSoulScene: Приблизившись к этому духу, вы вдруг чувствуете, как земля под вашими ногами начинает дрожать. Стены начинают обрушаться, и вскоре вы находите себя посреди бездонного ущелья. Здесь нет никого кроме вас и ледяного духа. От него начинает исходить слабое свечение, и под своими ногами вы замечаете несметные богатства, покрытые тонким слоем хрустящего инея. Дух перед вами спокойно ждёт, пока вы примете своё решение.
+		FindFrozenSoul: Или найти запертую в ледяных пещерах душу
+		DryadMyths: Хочешь поговорить о ледяных пещерах? Что ж, появились они задолго до моего рождения — да, не такая уж я и старая. Я слышала множество рассказов, как в этом холодном месте зарождались и вымирали целые цивилизации. Какие-то из них были мирными, а какие-то замораживали своих врагов заживо развлечения ради! Их души до сих пор заточены там во льдах. Если прислушаться, можно услышать, как они до сих пор перешёптываются.
+		AskMyths: Расспросить дриаду о древних мифах
+		AdventurerMyths: Про древнюю историю того места я и знать не знаю, но расскажу вот что: мои знакомые не так давно наткнулись в ледяных пещерах на новую опасность — орду зиморождённых уродцев. Во время сильных метелей они даже осмеливаются выйти на поверхность. Не знаю, чем мы успели им так насолить, но бросаются они теперь на всех без разбору, в тундре никогда так опасно ещё не было!
+		AskAdventurer: Расспросить приключенца о тундре
+		ReturnToDialogue: Как любопытно! Эти зацепки обязательно приведут нас к правде о тундре. Зиморождённые, говоришь? Надо бы попробовать убить парочку-другую или попытаться прислушаться к разговорам тех душ, о которых говорила дриада.
+		ReturnTo: Рассказать чародею всё, что вы узнали
 	}
 
 	IdleIdol: {

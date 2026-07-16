@@ -9,16 +9,7 @@ AvianEgg.MapEntry: Avian Egg
 Blaststone_Grave.MapEntry: Gravestone
 SkullGrave.MapEntry: Gravestone
 Canvas_Tile.MapEntry: Canvas
-CrystalFlower.MapEntry: Crystal Flower
-Cloudstalk.MapEntry: Cloudstalk
-GoblinStandardTile.MapEntry: Goblin Battle Standard
-GoblinStatueTile.MapEntry: Goblin Statue
-Spike1Tile.MapEntry: Granite Formation
-Spike2Tile.MapEntry: Granite Formation
-Spike3Tile.MapEntry: Granite Formation
-Spike4Tile.MapEntry: Granite Formation
-Spike5Tile.MapEntry: Granite Formation
-Spike6Tile.MapEntry: Granite Formation
+GraniteFormation.MapEntry: Granite Formation
 Hourglass.MapEntry: Hourglass
 IceBatHostile.MapEntry: Frozen Ice Bats
 IceFlinxHostile.MapEntry: Frozen Snow Flinx

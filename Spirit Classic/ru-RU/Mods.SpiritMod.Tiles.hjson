@@ -9,16 +9,7 @@ AvianEgg.MapEntry: Птичье яйцо
 Blaststone_Grave.MapEntry: Надгробие
 SkullGrave.MapEntry: Надгробие
 Canvas_Tile.MapEntry: Холст
-CrystalFlower.MapEntry: Crystal Flower
-Cloudstalk.MapEntry: Cloudstalk
-GoblinStandardTile.MapEntry: Goblin Battle Standard
-GoblinStatueTile.MapEntry: Goblin Statue
-Spike1Tile.MapEntry: Granite Formation
-Spike2Tile.MapEntry: Granite Formation
-Spike3Tile.MapEntry: Granite Formation
-Spike4Tile.MapEntry: Granite Formation
-Spike5Tile.MapEntry: Granite Formation
-Spike6Tile.MapEntry: Granite Formation
+GraniteFormation.MapEntry: Гранитное образование
 Hourglass.MapEntry: Hourglass
 IceBatHostile.MapEntry: Frozen Ice Bats
 IceFlinxHostile.MapEntry: Frozen Snow Flinx

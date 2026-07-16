@@ -675,8 +675,13 @@ DeadArcher: {
 DesertBandit: {
 	DisplayName: Forsaken Bandit
 	Entry: A roaming bandit, looking for anything that shines under the harsh sun. Not very fun at parties.
-	Thank: Thank you again!
-	Spare: Please spare me!
+
+	Dialogue: {
+		SplashText: Please spare me!
+		Message: Please, spare me! I was so desperate...I haven't had food for days. You can leave me be if you want, but if you give me that crown, I'll give you what I have and be on my way. Promise.
+		Buttom: Spare
+		SpareText: Either leave me be or hand me the crown. It's up to you.
+	}
 }
 
 DiseasedSlime: {

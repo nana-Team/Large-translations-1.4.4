@@ -172,7 +172,7 @@ Alien: {
 
 BoneHarpy: {
 	DisplayName: Древний пилигрим
-	Entry: The reanimated bones of a long extinct bird. Though dead, don't lower your guard near them, for these fowl fossils still have fight in them!
+	Entry: Оживлённое тело одного давно вымершего вида птиц. Даже будучи мёртвым, эти останки птицы могут дать серьёзный отпор, так что не спускайте с них глаз.
 }
 
 AntlionAssassin: {
@@ -201,7 +201,7 @@ AstralAmalgam: {
 SpaceShield.DisplayName: Astral Buffer
 
 AuroraStag: {
-	DisplayName: Aurora Stag
+	DisplayName: Полярный олень
 	Entry: A gourgeous stag known to frolic under the aurora's sky. Loves ice berries, scared by most other things. Especially people.
 }
 
@@ -646,7 +646,7 @@ Vibeshroom: {
 }
 
 CrystalDrifter: {
-	DisplayName: Crystal Drifter
+	DisplayName: Скитающийся кристалл
 	Entry: The howling winds of a blizzard give flight to this otherwise cumbersome entity composed of ice.
 }
 
@@ -675,8 +675,13 @@ DeadArcher: {
 DesertBandit: {
 	DisplayName: Forsaken Bandit
 	Entry: A roaming bandit, looking for anything that shines under the harsh sun. Not very fun at parties.
-	Thank: Thank you again!
-	Spare: Please spare me!
+
+	Dialogue: {
+		SplashText: Please spare me!
+		Message: Please, spare me! I was so desperate...I haven't had food for days. You can leave me be if you want, but if you give me that crown, I'll give you what I have and be on my way. Promise.
+		Buttom: Spare
+		SpareText: Either leave me be or hand me the crown. It's up to you.
+	}
 }
 
 DiseasedSlime: {
@@ -1508,7 +1513,7 @@ WinterbornMelee: {
 IceBoltNPC.DisplayName: Ice Bolt
 
 WinterbornMagic: {
-	DisplayName: Winterborn Herald
+	DisplayName: Зиморождённый-вестник
 	Entry: Long after forseeing the destruction of their tribe, these once elite mages now follow in the footsteps of their brethren, seeking to rebuild.
 }
 
