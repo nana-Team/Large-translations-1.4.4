@@ -27,32 +27,32 @@ SpiritClientConfig: {
 	}
 
 	AmbientSounds: {
-		Label: Ambient Sounds
-		Tooltip: Enables ambient sound effects for some biomes
+		Label: Звуковые эффекты
+		Tooltip: Добавляет новые звуковые эффекты для некоторых биомов.
 	}
 
 	LeafFall: {
-		Label: Falling Leaf Effects
+		Label: Эффект падающей листвы
 		Tooltip:
 			'''
-			Enables falling leaf ambience during Calm Nights or while in the Briar
-			Disable this to prevent strange interactions while playing Terraria Overhaul
+			Добавляет фоновый эффект падающей листвы для тихих ночей и терновника.
+			Может вызвать странные последствия при игре с Terraria Overhaul.
 			'''
 	}
 
 	QuestBookLocation: {
-		Label: Quest Book Button Location
-		Tooltip: Change where the quest book's button appears in your inventory
+		Label: Расположение книги заданий
+		Tooltip: Определяет, в какой части инвентаря будет отображаться кнопка открытия книги заданий.
 	}
 
 	QuestBookSwitching: {
-		Label: Quest Book Tab Switching
-		Tooltip: Switches from the current tab to the Active or Complete tab when a quest is activated or completed
+		Label: Переключаться на вкладку открытого задания
+		Tooltip: Если задание, которое вы открыли в книге заданий, изменит своё состояние, то вас автоматически перебросит на соответствующую вкладку.
 	}
 
 	ShowNPCQuestNotice: {
-		Label: Town NPC Quest Icons
-		Tooltip: Enables the showing of quest exclamation marks when a Town NPC has a new quest
+		Label: Восклицательный знак над НИПами
+		Tooltip: Над НИПами, у которых можно взять новое задание, будет показываться иконка восклицательного знака.
 	}
 
 	DoubleHideoutGeneration: {
@@ -92,13 +92,13 @@ SpiritClientConfig: {
 	}
 
 	EnemyFishing: {
-		Label: Fishing Encounters
-		Tooltip: Enables enemy encounters while fishing
+		Label: Вылавливание врагов
+		Tooltip: Во время рыбалки можно будет выловить некоторых новых врагов.
 	}
 
 	AuroraEnabled: {
-		Label: Aurora Enabled
-		Tooltip: Enables or disables the Aurora visuals. This does not stop Aurora-based effects or enemies from appearing
+		Label: Эффект северного сияния
+		Tooltip: Определяет, будут ли видно эффекты северного сияния во время события.
 	}
 
 	EnableSepulchres: {
@@ -134,17 +134,17 @@ QuestInvLocation: {
 	Tooltip: ""
 
 	Minimap: {
-		Label: Minimap
+		Label: У мини-карты
 		Tooltip: ""
 	}
 
 	Trashcan: {
-		Label: Trashcan
+		Label: У мусорки
 		Tooltip: ""
 	}
 
 	FarLeft: {
-		Label: Far Left
+		Label: Слева
 		Tooltip: ""
 	}
 }

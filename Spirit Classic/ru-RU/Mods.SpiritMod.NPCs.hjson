@@ -172,12 +172,12 @@ Alien: {
 
 BoneHarpy: {
 	DisplayName: Древний пилигрим
-	Entry: Оживлённое тело одного давно вымершего вида птиц. Даже будучи мёртвым, эти останки птицы могут дать серьёзный отпор, так что не спускайте с них глаз.
+	Entry: Оживлённые останки давно вымершего вида птиц. Даже будучи мёртвой, эта птица имеет страсть к битвам, так что не спускайте глаз с неë.
 }
 
 AntlionAssassin: {
-	DisplayName: Antlion Assassin
-	Entry: These desert scavengers are lone wolves. They hunt antlions not to survive- but for sport, to establish dominance among their tribe.
+	DisplayName: Убийца муравьиных львов
+	Entry: Эти мусорщики предпочитают бродить по пустыням в одиночку. За муравьиными львами они охотятся отнюдь не ради пропитания — так они борются с другими членами своего клана за превосходство.
 }
 
 CrimsonTrapper: {
@@ -202,7 +202,7 @@ SpaceShield.DisplayName: Astral Buffer
 
 AuroraStag: {
 	DisplayName: Полярный олень
-	Entry: A gourgeous stag known to frolic under the aurora's sky. Loves ice berries, scared by most other things. Especially people.
+	Entry: Изящный олень, любящий резвиться во время северного сияния. Обожает мерзлоягоды, но также боится много чего другого, в особенности людей.
 }
 
 AutomataCreeper: {
@@ -227,8 +227,8 @@ BlazingSkull: {
 }
 
 BlizzardBandit: {
-	DisplayName: Blizzard Bandit
-	Entry: Snowball fights can be fun, but these bandits don't play nice. They pack their snowballs around cores of ice, causing duress for any passerby.
+	DisplayName: Метельный бандит
+	Entry: Кидаться снежками может быть и весело, но эти бандиты играют не по правилам: они бросаются в прохожих твёрдыми комками льда и грязи.
 }
 
 BlizzardNimbus: {
@@ -278,7 +278,7 @@ MadHatter: {
 
 AncientFlyer: {
 	DisplayName: Древняя птица
-	Entry: The matriarch of an extinct avian predator species, brought back to life through sheer will to protect the yolk of its last remaining spawn.
+	Entry: Матриарх вымершего вида хищных птиц, самостоятельно восставшая из того света, дабы защитить последнее яйцо своего рода.
 	BossChecklistIntegration.SpawnInfo: Разбейте большое яйцо на птичьем острове, либо используйте [i:SpiritMod/JewelCrown] на небесах.
 	Spawn: Древняя птица пробуждается!
 }
@@ -383,8 +383,8 @@ SteamRaiderHead: {
 	Engaged: Target Engaged
 }
 
-SteamRaiderHeadDeath.DisplayName: Starplate Voyager
-SteamRaiderTail.DisplayName: Starplate Voyager
+SteamRaiderHeadDeath.DisplayName: Звёздопанцирный странник
+SteamRaiderTail.DisplayName: Звёздопанцирный странник
 SuicideLaser.DisplayName: Laser Bomber
 TailProbe.DisplayName: Starfarer
 
@@ -742,12 +742,12 @@ FleshHound: {
 }
 
 WintrySoul: {
-	DisplayName: Icebound Soul
-	Entry: A curious memory of time past, somehow preserved by the deep icy tundra.
-	ButtonTake: Take
-	ButtonLeave: Leave
-	PositiveChat: My vision returns to normal. The soul flits around me, apparently pleased with my decision. It gives me an ancient relic and other resources for my journey, and disappears.
-	NegativeChat: My vision blurs. I start to shiver. I feel weak. The warmth that the soul gave me disappears slowly, and the soul melts away into the icy caverns. I should try looking elsewhere for the artifact. Perhaps I can scavenge the artifact from some Winterborn.
+	DisplayName: Скованный льдами
+	Entry: Загадочный отголосок прошлого, сохранившийся во льдах тундры.
+	ButtonTake: Взять сокровища
+	ButtonLeave: Уйти
+	PositiveChat: Вы приходите в чувства. Дух начинает игриво порхать вокруг вас, будто бы удовлетворённый вашим решением не брать сокровища. В своих руках вы находите древнюю реликвию и немного припасов в дорогу. Скованный скрывается из виду.
+	NegativeChat: Ваше зрение становится мутным. Вас бросает в дрожь. Силы покидают вас. От духа больше не исходит приятное тепло, которые вы ощущали секундой ранее. Скованный растворяется во льдах этих тёмных пещер — больше его не видать, как и не видать реликвии, за которой вы пришли. Возможно, её ещё получится отобрать у зиморождённых.
 }
 
 Illusionist: {
@@ -812,7 +812,7 @@ Horned_Crustacean: {
 }
 
 Hornetfish: {
-	DisplayName: Hornetfish
+	DisplayName: Рыба-шершень
 	Entry: This fish wasn't content with just being caught. It chose to fight back, and armed with both wings and stingers, it did just that.
 }
 
@@ -1008,7 +1008,7 @@ ThornStalker: {
 
 ScreechOwl: {
 	DisplayName: Сова-визгунья
-	Entry: For ages, these simple birds have terrorized locals with their remarkably humanoid screeches. Today, few remain, as they were hunted to near extinction.
+	Entry: Эти птицы веками пугали местное население истошными визгами, похожими на человеческие. В нынешнее время они почти все вымерли из-за повальной охоты на них.
 }
 
 Sea_Mandrake: {
@@ -1491,7 +1491,7 @@ Undead_Warlock: {
 
 Valkyrie: {
 	DisplayName: Валькирия
-	Entry: Righteous defenders of the sky, these winged warriors harness the power of the sun to protect the islands that float above the land.
+	Entry: Эти воины — праведные защитники небес: они готовы использовать свои крылья и мощь солнца, чтобы сторожить острова, парящие над землёй.
 }
 
 Vulture_Matriarch: {
@@ -1507,14 +1507,14 @@ Wheezer: {
 
 WinterbornMelee: {
 	DisplayName: Зиморождённый
-	Entry: The last remnants of a bygone tribe. Encased in ice by a mysterious curse, they wander the tundra, looking for relics of their civilization.
+	Entry: Одни из немногих оставшихся представителей давно вымершего племени, что до сих пор слоняются по тундре в поисках остатков своей цивилизации. Неизвестное проклятие покрыло их тела ледяными наростами.
 }
 
 IceBoltNPC.DisplayName: Ice Bolt
 
 WinterbornMagic: {
 	DisplayName: Зиморождённый-вестник
-	Entry: Long after forseeing the destruction of their tribe, these once elite mages now follow in the footsteps of their brethren, seeking to rebuild.
+	Entry: Даже предвидев распад своей общины, эти некогда великие маги не смогли ничего с этим поделать. Теперь они пытаются отыскать собратьев, чтобы возродить своё племя.
 }
 
 DiverZombie: {

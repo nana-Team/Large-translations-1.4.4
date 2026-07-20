@@ -1927,7 +1927,7 @@ Book_Lumoth: {
 		by Calvin Reyes, Researcher
 		It explains the mechanisms behind bright Lumoths
 		'''
-	ImagePath: SpiritMod/Items/Books/UI/en-US/LumothPage
+	ImagePath: SpiritMod/Items/Books/UI/ru-RU/LumothPage
 }
 
 BismitePage: {

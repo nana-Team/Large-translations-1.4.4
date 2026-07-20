@@ -28,7 +28,7 @@ Or: " или "
 Craft: Создать: {1} ({0} шт.)
 Capture: Поймать: {1} ({0} шт.)
 Harvest: Собрать: {1} ({0} шт.)
-OptionalGather: Собрать: {1} ({0} шт.) (Необязательно)
+OptionalGather: Собрать: {1} ({0} шт.) (необязательно)
 Objectives: Задачи
 Activate: Начать
 Deactivate: Отменить
@@ -70,19 +70,19 @@ QuestInfo: {
 	}
 
 	AnglerStatueQuest: {
-		Name: Fishy Business
-		Description: I'd like to think that I'm the best fisherman in the world. Actually, I know I am! But I've heard some pesky rumors about crates washing ashore that are filled with way more fish than I could catch. I need you to go to the beach and prove those rumors wrong. Why? Because I said so! Hop to it!
-		AppeaseLine: Appease him by catching
-		TalkLine: Talk to the Angler
-		AskGuide: Or ask the Guide what to do
-		AnglerStatueDemand: *sniff* What do you want? You want to try to cheer me up? What's that? You'll do ANYTHING? What do ya mean, that's not what you said? Too bad! I want you to melt those disgusting Packing Crates down and build a giant, buff, half-shark, half-angler statue to show my dominance over those factory losers! You said you'd do it, so shoo!
-		CatchTooManyFish: How is this supposed to make me feel better? Are you trying to show me up, too?! You should just stick to running my errands and catching my fish. Thanks for nothing!
-		GuideCheckin: The Angler's upset, huh? Well, he is just a kid- I suppose it makes sense for him to be hurt by something like this. This may be a bit, well, demanding, but I suppose you should check in with him to see if anything would make him feel better.
-		GiveToAngler: Give the Red Snappers to the Angler
-		ShowAnglerCreation: Show the Angler your creation
-		ShowAnglerCrates: Show the Packing Crates to the Angler
-		CheerUp: This is the most amazing thing ever! Industrial fishing will never break my spirit, and I'm sure they don't have a half-man, half-shark statue like this one! You've impressed me today, so I'll actually give you a reward. Make sure to put that statue up pronto! I'm going to ask the Merchant to sell copies, so tell your friends (if you have any)!
-		Defeated: WHAT?! Industrial... scale? Machine powered? Factory farming? I thought I was the best angler around! This sucks. *sniffle* Thanks for putting me in a rotten mood, loser. Leave me alone!
+		Name: Рыба покрупнее
+		Description: Тебе не кажется, что я — лучший рыбак во всём мире? Конечно не кажется, ведь так оно и есть! Но ходят слухи, что на берег порой выносит ящики с такими грудами рыбы, что я, мол, в жизни бы не поймал! Походи-ка по пляжу и докажи всем, что эти слухи — полная чепуха! Говорю же, нет там никаких ящиков, иди давай!
+		AppeaseLine: Утешить рыбака, поймав для него немного рыбы
+		TalkLine: Поговорить с рыбаком
+		AskGuide: Или попросить совета у гида
+		AnglerStatueDemand: *всхлипывает* Чего тебе? Утешить меня хочешь? Говоришь, что сделаешь для меня ВСЁ ЧТО УГОДНО? Как это нет? Я же слышал! Поздно! Хочу, чтоб те ящики расплавили к чертям и отлили из них огромную статую наполовину рыбака, наполовину акулы, чтобы те неудачники с завода знали, кто тут главный рыболов! Всё, это твоё ведь обещание, иди давай!
+		CatchTooManyFish: А эта тухлятина мне чем поможет? Или ты тоже выделываешься, что лучше меня рыбу ловишь?! Твоё дело — молча выполнять для меня задания, и всё! Вали отсюда!
+		GuideCheckin: Рыбак горюет, да? Ну, в конце концов, он же ещё ребёнок, конечно, его такое огорчить может. Будет трудно, но попробуй спросить, можно ли что-нибудь сделать для него, чтоб ему стало лучше.
+		GiveToAngler: Отдать красных люцианов рыбаку
+		ShowAnglerCreation: Показать своё творение рыбаку
+		ShowAnglerCrates: Показать рыбаку упаковочные ящики
+		CheerUp: Это самая крутецкая вещь в мире! Промышленному рыбоводству никогда не сломить мой дух, ведь у них, уверен, нет такой статуи наполовину человека, наполовину акулы! Мне очень понравилось, так что держи награду. Немедля поставь эту статую на видное место! Я договорюсь с торговцем, чтобы тот начал продавать копии этого чуда!
+		Defeated: ЧЕГО?! Завод по... выращиванию... рыбы? В промышленных... масштабах? С использованием... технологий? Я думал, что я тут лучше всех ловлю рыбу! Отстой. *всхлипывает** Спасибо, теперь у меня настроение испортилось, бестолочь. Проваливай отсюда.
 	}
 
 	AuroraStagQuest: {
@@ -140,48 +140,48 @@ QuestInfo: {
 	}
 
 	CritterCaptureBlossmoon: {
-		Name: Sanctuary - Peaceful Blossoms
-		Description: I have heard tales of a rare species of fauna that only emerges during the calmest of nights. When the moon is in its first or third quarter, and the leaves blow in the wind, little Blossmoons come out of their flowers and soak up the moonlight. They are quite defenseless on their own, though. We must catch and preserve one.
-		Thanks: Blossmoon actually have the ability to calm nearby monsters. I suspect they draw power from the moon to do so. It would be very beneficial for us all if we made sure all Blossmoon thrived. This is a good first step in that process!
-		BringBack: Bring the Blossmoon back to the Dryad
+		Name: Заповедник: цветы умиротворения
+		Description: Поговаривают, что в самые спокойные из ночей наружу выползают такие зверушки, которых нигде больше на свете не увидишь. Вот войдёт луна в свою третью или седьмую фазу, подует сильный ветерок, и мы сможем наконец увидеть маленьких лунников, купающихся в ночном свете. Создания очень хрупкие, однако, так что мы должны поймать парочку для нашего заповедника.
+		Thanks: Не все знают, но лунники умеют успокаивать всех чудовищ в округе. Должно быть, этому они научились у самой луны. Если мы позаботимся о том, чтобы эти создания не вымерли, всем от этого будет только лучше. Первый шаг мы уже сделали, так держать! 
+		BringBack: Отнести лунников дриаде
 	}
 
 	CritterCaptureFloater: {
-		Name: Sanctuary - Nightlights
-		Description: I have detected traces of another species in need of our protection. While most jellyfish in this world can protect themselves, these smaller ones cannot. They often travel in packs to appear larger than they are. Let us retrieve one of these Luminous Floaters so that we can preserve them. You can find them on the ocean floor at nighttime.
-		Thanks: These marvels of nature light up the ocean with their glow. I certainly would not want to see them perish by the hands of sea monsters and greedy fishermen. They will look beautiful in my arcane nature preserve. Thank you again.
-		BringBack: Bring the Luminous Floater back to the Dryad
-		AnglerThanks: This looks absolutely scrumptions! And they're all mine- oh, you're still here? Fine, I guess I'll thank you this once, but don't expect me to always be this nice!
-		ReturnAngler: Return the raw fish to the Angler
-		UpsetDryad: That rotten, spoiled child! I have let him off the hook time and time again for fishing up rare creatures, but now he has gone too far. These species are meant to be admired, not gobbled up! Thank you for telling me about his nasty plan- your commitment to the natural world is admirable. Take this as thanks! Don't forget those Luminous Floaters, now!
-		Tattle: Or tell the Dryad about the Angler's plans
-		HungryAngler: That high and mighty Dryad always thinks she knows what's best for the fish. Well, I don't care! What's best for me is those jellyfish in my tummy, stat! Don't let 'em go to waste- chop 'em up for me and I'll make us an a-MAZ-ing seafood dish. What're you waiting for?
-		AskAngler: Or ask the Angler about Luminous Floaters
+		Name: Заповедник: подводные светила
+		Description: Я нашла ещё один вид, что нуждается в нашей помощи. В отличие от большинства медуз, сверкающие поплавки совершенно беззащитны перед угрозой вымирания. Они пересекают океан по ночам огромными стаями, из-за чего иногда кажется, что перед тобой одна огромная медуза. Поймай поплавка и неси его мне, я позабочусь о нём и всём его виде.
+		Thanks: Из-за этих чудес природы по ночам загорается огоньками всё морское дно. Было бы обидно застать их вымирание от рук морских хищников или жадных рыбаков. Они прекрасно дополнят мой сказочный заповедник. Большое тебе спасибо.
+		BringBack: Отнести сверкающего поплавка дриаде
+		AnglerThanks: Как же аппетитно выглядит! А главное: мне достанется вся порци- а, ты ещё здесь? Ну ладно, держи, наслаждайся, но не думай, что в следующий раз я тоже буду таким щедрым!
+		ReturnAngler: Отнести сырую рыбу рыбаку
+		UpsetDryad: Ах, какое наглое, избалованное дитё! Я раз за разом прощала ему ловлю редких морских созданий, но теперь моё терпение лопнуло. Поплавками нужно любоваться, а не объедаться! Пусть мечтает сколько влезет, главное, что до самих медуз он ещё не добрался. Я ценю твою преданность природе этого мира, вот, прими это как мою благодарность. Не забудь принести мне поплавка!
+		Tattle: Или рассказать дриаде о планах рыбака
+		HungryAngler: Её величество дриада, видите ли, знает, как правильно распорядиться очередной медузой. А мне всё равно! Как по мне, лучше всего эту медузку пустить на какой-нибудь шедевр из морепродуктов и слопать, да поскорее! Так чего же мы ждём?
+		AskAngler: Или поговорить с рыбаком о сверкающих поплавках
 	}
 
 	LumothQuest: {
-		Name: Sanctuary - Luminous Luster
-		Description: As protectors of nature, we Dryads have an obligation to protect all flora and fauna- to 'look out for the little guy,' as you may put it. This applies especially to those creatures that cannot defend themselves. A prime example is the brilliant Lumoth. It shines in the darkness of caves. Bring it to me so we can preserve the species for future generations.
-		Thanks: Look at how beautiful this creature is. You truly are a kind soul for ensuring that such beauty will thrive for centuries to come. I will work my magic to start a little sanctuary for this Lumoth and its bretheren. Thank you again.
-		BringBack: Bring the Lumoth back to the Dryad
-		MerchantDialogue: Hear me out, friend. Don't get me wrong, I appreciate what the Dryad is doing for the environment, but this presents a wonderful business opportunity, if you're interested. Lumoths are rare, and I'm too feeble to procure them. If you were to, say, kill a Lumoth and bring me its Brightbulb instead of bringing it to the Dryad, I'd give you something special.
-		TalkMerchant: Or talk to the Merchant about Lumoths
-		ThanksMerchant: I'm sure exterminating just one Lumoth has no large-scale consequences, right? Er, just in case, don't tell the Dryad about this. We aren't monsters, of course- we're just meeting the needs of the economy. And as promised, here's your extra reward. Thanks, friend!
-		BringBackMerchant: Bring the Brightbulb back to the Merchant
+		Name: Заповедник: его светлейшество
+		Description: У всех нас — дриад — есть клятва защищать всё живое: присматривать за братьями нашими меньшими, так сказать. В особенности это касается тех, кто сам защитить себя не может, например очаровательных люмосов, чьи лампочки освещают путь в тёмных пещерах. Принеси мне одну такую кроху, и я позабочусь о том, чтобы их вид процветал.
+		Thanks: Ну ты только посмотри, какой красавец! Благодаря твоей доброте им больше не грозит никакое вымирание. Надо будет воспользоваться своей магией и создать полноценный заповедник для этого малютки и его сородичей.
+		BringBack: Отнести люмоса дриаде
+		MerchantDialogue: Послушай, я рад, что дриада заботится о сохранении природы, но ты только представь, сколько на этих зверушках навариться можно! Люмосы очень редкие, а я слишком хилый: вообще ни одного сам не поймаю. Что, если ты убьёшь одного люмоса и принесёшь мне его лампочку? Обещаю, получишь от меня щедрую награду!
+		TalkMerchant: Или поговорить с торговцем о люмосах
+		ThanksMerchant: Не переживай, от одного убитого мотылька природе ведь ничего не будет, да? Ни слова об этом дриаде в любом случае. Никакие мы не чудовища, мы лишь удовлетворяем спрос на рынке ярких лампочек. Как и обещал, вот твоя награда. Приятно иметь с тобой дело! 
+		BringBackMerchant: Отнести яркую лампочку торговцу
 	}
 
 	SporeSalvage: {
-		Name: Sanctuary - Spore Salvage
-		Description: The glowing mushroom fields are a hotspot for biodiverse flora and fauna. It is no surprise that a new, sentient mushroom has been spotted; however, this fungus is not dangerous at all. All it seems to do is sway gently from side to side. We must ensure its survival, and not just because it is cute!
+		Name: Заповедник: спорное спасение
+		Description: Поля светящихся грибов кишмя кишат разнообразной флорой и фауной. Однажды там заметили и один разумный гриб, и он совсем не враждебен! Он только то и делает, что качается из стороны в сторону, будто пританцовывая. Мы должны позаботится о процветании его вида, хотя бы потому что этот гриб чертовски милый!
 	}
 
 	CritterCaptureSoulOrb: {
-		Name: Sanctuary - Soul Searching
-		Description: The strange new Spirit fields that have emerged over the horizon bear countless new plants and animals. But one little soul stands no chance if we do not go and capture it. These Soul Orbs light up the depths of the Underground Spirit, and I'd like to make sure they are kept safe. On the way, could you also be able to provide me with some Soulbloom cuttings?
-		Thanks: These orbs seem to posses the souls of restless creatures. Perhaps we can bring them some peace in my sanctuary. You have done a great service for this soul and myself, traveller. Thank you.
-		BringBack: Bring the Soul Orb back to the Dryad
-		ThanksSoulbloom: These flowers are so otherworldly and mesmerizing. Thank you for bringing them to me. I hope that you can plant a field full of these wonderful flowers.
-		BringBackSoulbloom: Bring the Soul Orb and Soulbloom back to the Dryad
+		Name: Заповедник: душа по душе
+		Description: В удивительном новом месте за горизонтом, что прозвали лесом духов, проживает великое множество всяких видов животных и растений. Но одна душонка оттуда вот вот исчезнет с лица земли, если мы её не поможем. Речь про сферы духов, чьё свечение оживляет всё подземелье того места. Тебе нужно их спасти, а если получится, то и прихватить с собой один душецвет.
+		Thanks: В этих сферах, похоже, запечатаны души неупокоенных существ. Быть может, все они смогут обрести покой в моём заповеднике. Сегодня мы сделали кое-что поистине важное для этих духов и всей природы. Благодарю тебя.
+		BringBack: Отнести сферу духов дриаде
+		ThanksSoulbloom: Эти цветы прямо таки дух захватывают, они словно из другого мира. Спасибо тебе за них. Посади их семена где-нибудь под домом — целая поляна распустится!
+		BringBackSoulbloom: Отнести сферу духов и душецвет дриаде
 	}
 
 	DecrepitDepths: {
@@ -250,11 +250,11 @@ QuestInfo: {
 	}
 
 	ExplorerQuestOcean: {
-		Name: Below the Waves
-		Description: Do ya know why I love having you catch fish for me? I have the itch to see every darn fish on this planet before I kick the bucket. And I want you to feel that way, too! Take a dive and see how amazing the ocean can be. Grab me something off the ocean floor while you're there!
-		Finish: This smells...really bad! How do fish like this stuff? Why didn't you get me something cooler? Whatever...you can keep it. Go catch me some fish while you're out there next time!
-		Return: Return to the Angler
-		GetSulfur: Grab 5 Sulfur Deposits from hydrothermal vents
+		Name: На одной волне
+		Description: Знаешь, зачем я постоянно отправляю тебя ловить всяких тварей? Я мечтаю увидеть каждую грёбаную рыбёху на этом свете до того, как склею ласты! И я хочу, чтоб ты был со мной на одной волне в этом деле! Погрузись как-нибудь на самое дно океана, насладись красотой и прихвати с собой что-нибудь для меня!
+		Finish: Пахнет... просто ужасно! Чем вообще эти штуки так нравятся рыбкам? Можно было принести мне что-нибудь и покруче. Ну и ладно... оставь это себе. Если будешь плавать там ещё, поймай лучше мне какую-нибудь рыбу!
+		Return: Вернуться к рыбаку
+		GetSulfur: Собрать отложения серы (5 шт.) с гидротермальных источников
 		Ocean: глубины океана
 	}
 
@@ -334,10 +334,10 @@ QuestInfo: {
 	}
 
 	RescueQuestStylist: {
-		Name: Wrapped Up
-		Description: I heard a lass screamin' down in the spider filled caves. I'd go save her myself but, err... I've got business to do. I'm definitely not scared of those giant creepy crawlies or anything. Might ye go rescue her for me?
-		Dialogue: Don't go exploring with scissors, they said. You won't get trapped in a spider's web, they said! Who got you to rescue me, by the way? Oh, the Demolitionist? Tell him haircuts are on the house for life!
-		Objective: Go to the spider caverns and rescue the captive
+		Name: Запутанная история
+		Description: Я тут слышал, как из паучьего гнезда поблизости доносились крики. Должно быть, какая-то девчуля запуталась там в паутине. Я бы и сам её спас, но... у меня дел по горло. Нет, гигантских пауков я, конечно же, не боюсь, что ты. Пойди-ка лучше ты распутай её за меня.
+		Dialogue: "{$LegacyDialog.317} Кто тебя, кстати, послал меня спасать? А, подрывник? Передай ему, что с этого дня он стрижётся совершенно бесплатно!"
+		Objective: Отправиться в паучье гнездо и спасти пленницу
 	}
 
 	ReturnToYourRoots: {
@@ -369,8 +369,8 @@ QuestInfo: {
 	}
 
 	SlayerQuestClown: {
-		Name: No Laughing Matter
-		Description: I was planning a party last week when these DISGUSTING clowns showed up and cramped my style. They blew up my entire venue, so now it's personal. I want you to find those clowns and end them. There can only be one partyholic around these parts.
+		Name: Шутки в сторону
+		Description: На прошлой неделе я, как обычно, готовилась к вечеринке, как вдруг появились эти МЕРЗКИЕ клоуны и испортили всю атмосферу. Они буквально взорвали танцпол, так что я обязана отомстить им. Найди их и прикончи. Развлекать народ здесь должна только я. 
 	}
 
 	SlayerQuestDrBones: {
@@ -420,10 +420,10 @@ QuestInfo: {
 	}
 
 	StylistQuestSeafoam: {
-		Name: Dye Pursuit - Seafoam
-		Description: If it isn't my favorite customer! I've got a job for you, and it isn't cutting hair. I need some rare materials to expand my dye collection ASAP! I love the Dye Trader's style, but his dyes don't cut it for me. Could you start by hunting Sea Mandrake? They have this special sac that would be wonderful to have. You're the best!
-		ReturnTo: Bring the Luminous Sac back to the Stylist
-		Dialogue: You're back in one piece! I'm glad you didn't dye trying to get the goods. Get it? Anyway, this ink sac is really pretty- I'll be able to synthesize a hair dye that brings out the ocean breeze in you! Am I great or what? Come to me anytime you'd like to try this new dye or anything else to glam you up!
+		Name: Красочная лихорадка: морская пена
+		Description: О, мой любимый клиент пришёл! У меня для тебя как раз задание есть. Нет, не подстричься. Мне срочно нужен кое-какой редкий материал, пущу его на новенькую краску для волос! Убьёшь для меня одну морскую мандрагору? Мне нужен их люминесцентный мешочек. Заранее спасибо!
+		ReturnTo: Отнести люминесцентный мешочек стилисту
+		Dialogue: Рада, что с тобой всё хорошо! Ну что, мандрагоры реально опасные, или они просто сгущают краски? Ха, хорошую шутку придумала? Ну так вот, чернила из мешочка замечательные — сделаю из них такую краску, что волосы будут красивее морской волны. Здоровская идея? Заходи ко мне ещё, если захочешь изменить свой стиль: попробовать ту новую краску, например.
 	}
 
 	UnidentifiedFloatingObjects: {

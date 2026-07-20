@@ -49,3 +49,4 @@ SanctuarySporeSalvageFinished: "{$IsCompleted} «{$Quests.QuestInfo.SporeSalvage
 WhyZombiesFinished: "{$IsCompleted} «{$Quests.QuestInfo.SlayerQuestDrBones.Name}»"
 BeneathTheIceFinished: "{$IsCompleted} «{$Quests.QuestInfo.IceDeityQuest.Name}»"
 FloweryFiendsFinished: "{$IsCompleted} «{$Quests.QuestInfo.SlayerQuestBriar.Name}»"
+// StarjinxDown: Mods.SpiritMod.Conditions.StarjinxDown
