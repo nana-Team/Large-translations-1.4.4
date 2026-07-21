@@ -278,7 +278,7 @@ MadHatter: {
 
 AncientFlyer: {
 	DisplayName: Древняя птица
-	Entry: Матриарх вымершего вида хищных птиц, самостоятельно восставшая из того света, дабы защитить последнее яйцо своего рода.
+	Entry: Матриарх вымершего вида хищных птиц, силой воли восставшая из того света, дабы защитить последнее яйцо своего рода.
 	BossChecklistIntegration.SpawnInfo: Разбейте большое яйцо на птичьем острове, либо используйте [i:SpiritMod/JewelCrown] на небесах.
 	Spawn: Древняя птица пробуждается!
 }
@@ -356,14 +356,14 @@ ReachBoss1: {
 
 Scarab: {
 	DisplayName: Скарабей
-	Entry: The scrappy brethren of the larger Scarabeus, these little things follow their leader to the death.
+	Entry: Маленькие и драчливые собратья Скарабеуса, готовые пожертвовать своей жизнью ради него, если придётся.
 }
 
 Scarab_Wall.DisplayName: Скарабей
 
 Scarabeus: {
 	DisplayName: Скарабеус
-	Entry: Once thought to be a deity, this particular beetle comes from an elusive species that is equally massive.
+	Entry: Этого жука когда-то считали божеством — настолько внушительными размерами обладали представители его крайне редкого вида.
 	BossChecklistIntegration.SpawnInfo: Используйте [i:SpiritMod/ScarabIdol] днём в пустыне. Его можно создать самостоятельно или получить за выполнение задания приключенца.
 }
 
@@ -454,8 +454,8 @@ Cavefish: {
 }
 
 Cleft: {
-	DisplayName: Cleft Hopper
-	Entry: A tiny living crag that roams the underground desert. They tend to get anxious amidst the antlions' chaos, rarely retreating from their outcoves.
+	DisplayName: Расщельник
+	Entry: Крохотный живой камень, бродящий по подземной пустыне. Часто нервничают и не выходят из своего панциря из-за суматохи, устраиваемой муравьиными львами.
 }
 
 CrismonTigerfish: {
@@ -672,18 +672,6 @@ DeadArcher: {
 	Entry: Несмотря на наличие только одного глаза, этот лучник — больший знаток своего дела, чем все остальные. Остерегайтесь его!
 }
 
-DesertBandit: {
-	DisplayName: Forsaken Bandit
-	Entry: A roaming bandit, looking for anything that shines under the harsh sun. Not very fun at parties.
-
-	Dialogue: {
-		SplashText: Please spare me!
-		Message: Please, spare me! I was so desperate...I haven't had food for days. You can leave me be if you want, but if you give me that crown, I'll give you what I have and be on my way. Promise.
-		Buttom: Spare
-		SpareText: Either leave me be or hand me the crown. It's up to you.
-	}
-}
-
 DiseasedSlime: {
 	DisplayName: Noxious Slime
 	Entry: Bismite toxins flow through the gel of this diseased mass, causing any contact to erode the skin and inflame open wounds.
@@ -717,8 +705,8 @@ Enchanted_Armor: {
 ExplosiveBarrel.DisplayName: Explosive Barrel
 
 FallenAngel: {
-	DisplayName: Павший ангел
-	Entry: Banished from the heavens, this rogue cherub takes their frustrations out on the mortal beings of this realm.
+	DisplayName: Падший ангел
+	Entry: Изгнанный из небес, этот херувим решил выплеснуть своё отчаяние и злобу на обитателей этого мира.
 }
 
 Falling_Asteroid: {
@@ -777,11 +765,11 @@ Goblin_Grenadier: {
 
 GraniteSentry: {
 	DisplayName: Турель G-TEK
-	Entry: "'G-TEK Incorporated would like you to know that we take no responsibility for any death or dismemberment caused by our protection turrets. They are simply there to guard what is ours. Thank you.'"
+	Entry: Компания G-TEK предупреждает: «Мы не несём ответственность за любые травмы, увечия и смерти, причинённые нашими защитными турелями. Всё, что они делают — охраняют наше предприятие. Спасибо за понимание».
 }
 
 GraniteSlime: {
-	DisplayName: Granite Slime
+	DisplayName: Гранитный слизень
 	Entry: A gelatinous creature that's roamed the Granite caves for a long while, accumulating enough pebbles and dust to become one with the stone.
 }
 
@@ -797,8 +785,8 @@ HellEater: {
 }
 
 Hemophora: {
-	DisplayName: Hemophora
-	Entry: This plant-like beast is quite the foe. It has sacks around its mouth-like opening that can fire acidic blood to dissolve both predators and prey.
+	DisplayName: Гемофора
+	Entry: Это существо, похожее на растение, — очень враждебное чудище. Из мешков, расположенных около рта, оно может стрелять кислотной кровью, чтобы защищаться от хищников и охотиться на добычу.
 }
 
 Hookbat: {
@@ -813,7 +801,7 @@ Horned_Crustacean: {
 
 Hornetfish: {
 	DisplayName: Рыба-шершень
-	Entry: This fish wasn't content with just being caught. It chose to fight back, and armed with both wings and stingers, it did just that.
+	Entry: Эта рыба совсем не желала оказаться на крючке и, вооружившись крыльями и жалом, решила бороться за свою жизнь.
 }
 
 Hydra.DisplayName: Lernean Hydra
@@ -1027,8 +1015,8 @@ Skeleton_Brute: {
 }
 
 Snaptrapper: {
-	DisplayName: Snaptrapper
-	Entry: Very little has been observed about this shrouded creature. It is six legged and bears claws, leading most to believe it is some form of arthropod.
+	DisplayName: Цепколов
+	Entry: Очень мало известно об этом скрытном существе. Большинство предполагает, что это какое-то членистоногое ввиду характерного наличия шести лап и клешней.
 	BossChecklistIntegration.SpawnInfo: Изредка появляется в джунглях на поверхности после победы над Пожирателем миров или Мозгом Ктулху.
 }
 
@@ -1332,26 +1320,26 @@ Oracle: {
 	DisplayName: Оракул
 
 	Dialogue: {
-		Basic1: The heavens have certainly spoken of you, {0}.
-		Basic2: The divinity I offer isn't for any simple coin, traveler.
-		Basic3: Have you caught wind of a man named Zagreus? ...nevermind.
-		Basic4: Oh, how far I'd go for some ichor...
-		Basic5: I have a little scroll for sale, if you wish to find me elsewhere.
-		Basic6: Not having eyes is a blessing from the gods when you work where I work.
-		Basic7: Warm greetings, warrior. I sense power within you, perhaps I can aid in its growth. The creatures within these walls hold mighty tokens, in which I am interested. If you were to trade them with me, I would grant you a weapon enchanted by the gods themselves!
-		Basic8: Ah, what I would give for some aged wine... Has Anthesteria arrived already?
-		Basic9: My epic tale has no end, and may never have one!
-		Basic10: Mythology? What part of this makes you believe it is a myth?
-		Basic11: I have lost track of time, and the gods refuse to tell me where it is!
-		Basic12: Lorem ipsum dolor sit amet... be patient, I'm not finished.
-		Basic13: I am unable to die unless I am forgotten. I wonder who still remembers me...
-		Basic14: What do you need? I don't have unending time. Hm...on second thought...
-		Basic15: I had all life to write a glorious tale, but I cannot get past 'the'.
-		Basic16: Between you and me, reptiles cause me great distress.
-		Basic17: I ponder about the presence of ambient song in the distance, yet cannot stop myself from indulging in it.
-		Basic18: Boons? You want them? They're yours, my friend!
-		Basic19: Ah, I see. Or do I? Intriguing, is it not?
-		Basic20: The reason I float is simple - why should I not, if I can?
+		Basic1: С небес доносилось имя твоё, {0}.
+		Basic2: Божественную силу мою не купить за простые монеты.
+		Basic3: Шептали ли ветра тебе о полубоге по имени Загрей? ...забудь о нём.
+		Basic4: Ах, я бы многое сейчас отдала за капельку ихора...
+		Basic5: Купи мой свиток, и тогда мы сможем встретиться где пожелаешь.
+		Basic6: В моём деле не иметь глаз — тот ещё божественный дар, поверь.
+		Basic7: Приветствую тебя. Я чувствую в тебе необычайную силу, быть может, с моей помощью ты сможешь её раскрыть. Создания родом из этих пещер хранят в себе столь нужные мне драхмы. За них я готова поделиться с тобой оружием, зачарованным самими богами!
+		Basic8: Ах, выпить бы сейчас хорошего вина... Долго ли ещё ждать Антестерии?
+		Basic9: В легендах обо мне концовок нет — они дописываются целую вечность!
+		Basic10: Мифология? Какой глупец сказал тебе, что это мифы?
+		Basic11: Я не знаю, который сейчас час, а боги сказать мне этого не желают!
+		Basic12: Lorem ipsum dolor sit amet... обожди, я ещё не договорила.
+		Basic13: Я не могу умереть, пока живы воспоминания обо мне. Интересно, кто меня ещё помнит...
+		Basic14: Чего тебе надобно? Моё время не безгранично... а хотя...
+		Basic15: У меня были тысячелетия на то, чтобы сочинить прекрасную сказку, но я успела написать лишь слово «однажды».
+		Basic16: Буду честна с тобой, я очень боюсь ящериц.
+		Basic17: Порой я размышляю о том, откуда доносится эта фоновая музыка, но раз за разом просто начинаю наслаждаться ей и забываю, о чём думала.
+		Basic18: Даров моих хочешь? Они твои, но сперва покажи мне драхмы.
+		Basic19: Я вижу весь мир, как на ладони. Или не вижу? Вот так загадка...
+		Basic20: Почему я парю над землёй? Потому что я могу, конечно же, почему же ещё?
 	}
 
 	TownNPCMood: {
@@ -1367,72 +1355,72 @@ Oracle: {
 
 	Bless: {
 		Button: Получить благословение
-		Dialogue1: You wish for a challenge? I may stop you not, as it benefits us both. I do hope you're prepared!
-		Dialogue2: I shall consult the gods about their boons - these monsters will become relentless, I hope you are aware.
-		Dialogue3: You want me to call them what?! Such foul battle language, yet I will deliver the message. The Gods won't be happy about this!
-		Dialogue4: The boons cause slain foes to drop more tokens, yes, but do remember that the foes become stronger, too!
-		Dialogue5: Do come back alive! I would enjoy hearing tales of your victories. Bring many tokens as well!
+		Dialogue1: Рвёшься в бой? Не посмею останавливать тебя, ибо это пойдёт на благо для нас обоих. Надеюсь, ты выдержишь это испытание!
+		Dialogue2: Знай же, что с моим благословением необузданную силу получают и местные чудовища.
+		Dialogue3: Ещё раз, как ты хочешь, чтобы я обратилась к богам?! Я передам им твои слова, но впредь знай, что такие варварские выражения их гневают!
+		Dialogue4: Божественные дары делают твоих врагов значительно сильнее, но иначе много драхм не заработать!
+		Dialogue5: Возвращайся в целости и невредимости! Буду рада слушать рассказы о твоих великих подвигах. Не забудь принести мне драхмы!
 	}
 
 	Teleport: {
-		Wet: This water irks me...
-		Dry: I sense a call...
+		Wet: Эта вода противна мне...
+		Dry: Чувствую чей-то зов...
 	}
 
-	Entry: They offers blessings and goods in exchange for ancient currency. They wear a blindfold, as being enlightened and blessed by Olympus has made their vision unnecessary.
+	Entry: Оракул готова обменять божественное оружие и дары взамен на древнюю олимпийскую валюту. Глаза её скрыты повязкой: благодаря благословению от богов Олимпа зрение ей больше не нужно.
 }
 
 Rogue: {
 	DisplayName: Бандит
 
 	Names: {
-		1: Zane
-		2: Carlos
-		3: Tycho
-		4: Damien
-		5: Shane
-		6: Daryl
-		7: Shepard
-		8: Sly
+		1: Зейн
+		2: Карлос
+		3: Тихон
+		4: Демьян
+		5: Шейн
+		6: Дэрил
+		7: Шепард
+		8: Слай
 	}
 
 	Dialogue: {
-		Basic1: Here to peruse my wares? They're quite sharp.
-		Basic2: Trust me- the remains of those bosses you kill don't go to waste.
-		Basic3: The world is filled with opportunity! Now go kill some things.
-		Basic4: This mask is getting musky...
-		Basic5: Look at that handsome devil! Oh, it's just a mirror.
-		Basic6: Here to satisfy all your murdering needs!
-		Basic7: Nice day we're having here! Now, who do you want dead?
-		Special1: Tell {0} to stop asking me where I got the charms. He doesn't need to know that. He would die of shock.
-		Special2: Why is {0} so intent on selling shurikens? That's totally my thing.
-		Halloween0: You want some candy? Here, catch!
-		Halloween1: Hiyah! Candy attack! Oh, it's you. sorry.
-		Bound: Hey! Thanks for saving me- Now, mind getting us out of this pickle? They duped me, took all my cash and left me for dead here! Don't think it means I'll discount my wares for you, though. Just kidding! Not.
+		Basic1: Товары мои разглядываешь? Осторожнее с клинками — я их как раз недавно наточил.
+		Basic2: Поверь, применение можно найти даже останкам боссов, которых ты так нещадно убиваешь.
+		Basic3: Мир полон возможностей! Например возможностей кого-нибудь убить.
+		Basic4: Это маска пахнет мускусом, или мускус — маской?..
+		Basic5: Ты посмотри, какой красавчик этот дьявол! А, это же зеркало.
+		Basic6: Нужно утолить жажду убийства? Я к твоим услугам!
+		Basic7: Хороший денёк сегодня! Кого бы зарезать?
+		Special1: "{0} заколебал спрашивать, откуда у меня эти шрамы. Ему этого лучше не знать. Он кони двинет от шока."
+		Special2: Чего это {0} сюрикенами торгует? Вообще-то это моя фишка.
+		Halloween0: Хочешь конфетку? Вот, лови!
+		Halloween1: Ки-я! Конфетный удар! А, это ты, извиняй.
+		Bound: Эй! За мной теперь должок, но сперва вытащи нас из этой заварухи. Надули они меня: всё бабло себе прикарманили и оставили умирать прямо здесь! Не думай, что за спасение тебе скидка полагается, я их никому не даю. Да ладно, шучу! Ан нет, не шучу.
 	}
 
 	TownNPCMood: {
-		Content: Three hundred...four hundred...nothing beats counting up a...hard day's work!
-		NoHome: Where am I supposed to hide what I st- find, if I don't have a house?
-		FarFromHome: Did someone steal my house and take it? I'm not sure where it is.
-		LoveSpace: Away from all prying eyes, perfect, perfect.
-		DislikeCrowded: Too many people, I'm getting some side eyes.
-		HateCrowded: With this level of crowding, it's not my fault if an 'accident' happens and thins the herd, y'know?
-		LikeBiome: So much cover! So many places to hide! A wonderful place.
-		DislikeBiome: I have WAY too much competition here - get me OUT!
-		LoveNPC: I'm no engineer, but the stuff {NPCName} makes is so cool. I might even pay for it this time!
-		LikeNPC: "{NPCName} actually helped me cross some sketchy areas a couple of times - great guy."
-		DislikeNPC: Oh, {NPCName}? Let's just say he's not against testing a couple of his explosives.
-		HateNPC: Let me tell you...that {NPCName} guy? On a hairpin trigger, literally. I only lifted a couple coins, I swear!
-		LikeNPC_Princess: "{NPCName} said she'd keep my secret close to her heart...of which I have none. Shoo."
-		Princess_LovesNPC: Sometimes {NPCName} gets me cool things. He says it's all free too!
+		Content: Триста... четыреста... Как же приятно пересчитывать... часы, проведённые за честной работой!
+		NoHome: Дома у меня нет, где же мне хранить хабар, который я укра- нашёл?
+		FarFromHome: Неужели у меня дом украли? В самом деле, найти его нигде не могу.
+		LoveSpace: Укромное местечко подальше от любопытных глаз, шикарно, шикарно...
+		DislikeCrowded: Слишком много народу, я тут то и дело косые взгляды ловлю.
+		HateCrowded: Будет грустно, если в такой тесной толпе вдруг произойдёт «несчастный случай», и, скажем, кто-нибудь коньки отбросит, понимаешь меня?
+		LikeBiome: Сколько же здесь укрытий! Сколько путей отхода! Чудесное местечко.
+		DislikeBiome: Терпеть не могу делить территорию с другими разбойниками. Вот бы жить подальше отсюда!
+		LoveNPC: В технологиях не разбираюсь, но {NPCName} такие классные штуковины делает! Может, в следующий раз я за них даже заплачу!
+		LikeNPC: "{NPCName} не раз выручал меня, когда надо было по-тихому пересечь кое-какие места. Хороший он парень."
+		DislikeNPC: "{NPCName}, говоришь? Скажем так, любит он где попало свою взрывчатку пробовать в деле."
+		HateNPC: Скажу тебе кое-что... видишь, {NPCName} стоит? Ещё немного, и этот парень в самом деле застрелит меня. А ведь я всего лишь пару монет у него украл, клянусь!
+		LikeNPC_Princess: "{NPCName} пообещала никому не рассказывать мои секреты... у меня их нет, если что."
+		Princess_LovesNPC: "{NPCName} иногда дарит мне крутые вещички. Постоянно говорит, что находит их где-то!"
 	}
 
-	Entry: A dashing rogue with a past shrouded in mystery. Whether he can be trusted or not is unclear, but he would gladly teach you the tricks of the trade regardless.
+	Entry: Скользкий преступник, чьё прошлое до сих пор никто не знает. Хоть доверия он особо не вызывает, торговаться он умеет отменно: бандит любого сможет убедить купить краденный товар.
 	Census.SpawnCondition:
 		'''
-		Rescue the Bandit from the Bandit Hideout
-		If your world does not have a Goblin Tower, have at least 1 Gold in your inventory
+		Найдите в укрытии бандитов и освободите
+		Если в мире нет укрытия бандитов, необходимо иметь хотя бы 1 [i:GoldCoin] в инвентаре.
 		'''
 }
 
@@ -1496,7 +1484,7 @@ Valkyrie: {
 
 Vulture_Matriarch: {
 	DisplayName: Матриарх стервятников
-	Entry: The powerful elder of the vulture tribe, the Matriarch has a hold of ancient magics and abilities in order to destroy its prey.
+	Entry: Могучая старейшина племени стервятников, которая искусно владеет и использует древнюю магию для охоты на свою добычу.
 	SpawnMessage: Матриарх стервятников был потревожен!
 }
 

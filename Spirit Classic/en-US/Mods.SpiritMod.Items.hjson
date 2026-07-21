@@ -7387,12 +7387,6 @@ MeteorDyeMaterial: {
 	Tooltip: ""
 }
 
-RoyalCrown: {
-	DisplayName: Royal Crown
-	CustomTooltip: "'Stunningly ornate despite centuries of weathering'"
-	Tooltip: ""
-}
-
 SeaMandrakeSac: {
 	DisplayName: Luminous Sac
 	CustomTooltip: "'The ink within flashes different colors'"

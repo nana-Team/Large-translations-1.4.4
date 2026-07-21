@@ -1092,7 +1092,7 @@ AncientSpectreBanner: {
 }
 
 AntlionAssassinBanner: {
-	DisplayName: Antlion Assassin Banner
+	DisplayName: Знамя убийцы муравьиных львов
 	Tooltip: ""
 }
 
@@ -1127,7 +1127,7 @@ BlazingSkullBanner: {
 }
 
 BlizzardBanditBanner: {
-	DisplayName: Blizzard Bandit Banner
+	DisplayName: Знамя метельного бандита
 	Tooltip: ""
 }
 
@@ -1167,7 +1167,7 @@ BottomFeederBanner: {
 }
 
 BoulderBehemothBanner: {
-	DisplayName: Знамя валунного чудовища
+	DisplayName: Знамя валунного чудища
 	Tooltip: ""
 }
 
@@ -1182,7 +1182,7 @@ BubbleBruteBanner: {
 }
 
 CavernBanditBanner: {
-	DisplayName: Cavern Bandit Banner
+	DisplayName: Знамя пещерного бандита
 	Tooltip: ""
 }
 
@@ -1212,7 +1212,7 @@ CrocosaurBanner: {
 }
 
 CrystalDrifterBanner: {
-	DisplayName: Crystal Drifter Banner
+	DisplayName: Знамя скитающегося кристалла
 	Tooltip: ""
 }
 
@@ -1567,7 +1567,7 @@ SpiritTomeBanner: {
 }
 
 SporeWheezerBanner: {
-	DisplayName: Знамя споровго пыхтельника
+	DisplayName: Знамя спорового пыхтельника
 	Tooltip: ""
 }
 
@@ -1617,7 +1617,7 @@ WinterbornBanner: {
 }
 
 WinterbornHeraldBanner: {
-	DisplayName: Winterborn Herald Banner
+	DisplayName: Знамя зиморождённого-вестника
 	Tooltip: ""
 }
 
@@ -2871,8 +2871,8 @@ ChaosPearl: {
 }
 
 CleftItem: {
-	DisplayName: Cleft Hopper
-	Tooltip: "'Its shell is quite sturdy'"
+	DisplayName: Расщельник
+	Tooltip: «Его панцирь довольно крепкий»
 }
 
 CrinoidItem: {
@@ -7422,12 +7422,6 @@ MeteorDyeMaterial: {
 	Tooltip: ""
 }
 
-RoyalCrown: {
-	DisplayName: Royal Crown
-	CustomTooltip: "'Stunningly ornate despite centuries of weathering'"
-	Tooltip: ""
-}
-
 SeaMandrakeSac: {
 	DisplayName: Люминесцентный мешочек
 	CustomTooltip: «Содержащиеся в нём чернила переливаются яркими красками»
@@ -8787,7 +8781,7 @@ BrownCrinoidCage: {
 }
 
 CleftCage: {
-	DisplayName: Cleft Hopper Cage
+	DisplayName: Террариум с расщельником
 	Tooltip: ""
 }
 
