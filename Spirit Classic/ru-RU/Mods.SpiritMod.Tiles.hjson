@@ -10,45 +10,18 @@ Blaststone_Grave.MapEntry: Надгробие
 SkullGrave.MapEntry: Надгробие
 Canvas_Tile.MapEntry: Холст
 GraniteFormation.MapEntry: Гранитное образование
-Hourglass.MapEntry: Hourglass
-IceBatHostile.MapEntry: Frozen Ice Bats
-IceFlinxHostile.MapEntry: Frozen Snow Flinx
-IceVikingHostile.MapEntry: Frozen Undead Viking
-IceWheezerHostile.MapEntry: Frozen Wheezer
-IceBatDecor.MapEntry: Ice Bat Sculpture
-IceBatPassive.MapEntry: Frozen Ice Bats
-IceDeityDecor.MapEntry: Ice Deity Sculpture
-IceFlinxDecor.MapEntry: Frozen Snow Flinx Sculpture
-IceFlinxPassive.MapEntry: Frozen Snow Flinx
-IceVikingDecor.MapEntry: Undead Viking Sculpture
-IceVikingPassive.MapEntry: Frozen Undead Viking
-IceWheezerDecor.MapEntry: Frozen Wheezer Sculpture
-IceWheezerPassive.MapEntry: Frozen Wheezer
-WinterbornDecor.MapEntry: Winterborn Sculpture
-Kelp1x2.MapEntry: Kelp
-Kelp2x2.MapEntry: Kelp
-Kelp2x3.MapEntry: Kelp
-Breakable1x2Vent.MapEntry: Hydrothermal Vent
-Breakable1x3Vent.MapEntry: Hydrothermal Vent
-HydrothermalVent1x2.MapEntry: Hydrothermal Vent
-HydrothermalVent1x3.MapEntry: Hydrothermal Vent
-
-OceanPirateChest: {
-	MapEntry: Pirate Chest
-	ContainerName: Pirate Chest
-}
-
-OceanPirateChest_Locked.MapEntry: Locked Pirate Chest
-Pillar1Tile.MapEntry: Pillar
-Pillar2Tile.MapEntry: Pillar
-Pillar3Tile.MapEntry: Pillar
-Pillar4Tile.MapEntry: Pillar
-Pillar5Tile.MapEntry: Pillar
-Pillar6Tile.MapEntry: Pillar
-Pillar7Tile.MapEntry: Pillar
-Pillar8Tile.MapEntry: Pillar
-PottedSakuraTile.MapEntry: Sakura Bonsai
-PottedWillowTile.MapEntry: Yellow Willow Bonsai
+IceBatHostile.MapEntry: Замороженная летучая мышь
+IceFlinxHostile.MapEntry: Замороженный снежный флинкс
+IceVikingHostile.MapEntry: Замороженный нежить-викинг
+IceWheezerHostile.MapEntry: Замороженный пыхтельник
+IceBatPassive.MapEntry: Замороженная летучая мышь
+IceFlinxPassive.MapEntry: Замороженный снежный флинкс
+IceVikingPassive.MapEntry: Замороженный нежить-викинг
+IceWheezerPassive.MapEntry: Замороженный пыхтельник
+GlowingPlant.MapEntry: Светящиеся растение
+HydrothermalVent.MapEntry: Гидротермальное жерло
+MarblePillar.MapEntry: Колонна
+BonsaiTrees.MapEntry: Bonsai
 PrimePrint.MapEntry: Blueprint
 ProbePrint.MapEntry: Blueprint
 ReachGrass1.MapEntry: Spiky Grass

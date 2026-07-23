@@ -1202,7 +1202,7 @@ CoconutSlimeBanner: {
 }
 
 CracklingCoreBanner: {
-	DisplayName: Crackling Core Banner
+	DisplayName: Знамя искрящегося ядра
 	Tooltip: ""
 }
 
@@ -1577,7 +1577,7 @@ StardancerBanner: {
 }
 
 StymphalianBatBanner: {
-	DisplayName: Stymphalian Bat Banner
+	DisplayName: Знамя стимфалийской летяги
 	Tooltip: ""
 }
 
@@ -5252,7 +5252,7 @@ HerosMemorialStatue: {
 }
 
 IceBatSculpture: {
-	DisplayName: Замороженная скульптура ледяной летучей мыши
+	DisplayName: Скульптура замороженной ледяной летучей мыши
 	Tooltip: ""
 }
 
@@ -5262,22 +5262,22 @@ IceDeitySculpture: {
 }
 
 IceFlinxSculpture: {
-	DisplayName: Замороженная скульптура снежного флинкса
+	DisplayName: Скульптура замороженного снежного флинкса
 	Tooltip: ""
 }
 
 IceVikingSculpture: {
-	DisplayName: Замороженная скульптура нежити-викинга
+	DisplayName: Скульптура замороженного нежити-викинга
 	Tooltip: ""
 }
 
 IceWheezerSculpture: {
-	DisplayName: Замороженная скульптура пыхтельника
+	DisplayName: Скульптура замороженного пыхтельника
 	Tooltip: ""
 }
 
 WinterbornSculpture: {
-	DisplayName: Замороженная скульптура зиморождённого
+	DisplayName: Скульптура замороженного зиморождённого
 	Tooltip: ""
 }
 
