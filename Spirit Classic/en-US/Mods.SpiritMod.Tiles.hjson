@@ -22,25 +22,12 @@ GlowingPlant.MapEntry: Glowing Plant
 HydrothermalVent.MapEntry: Hydrothermal Vent
 MarblePillar.MapEntry: Pillar
 BonsaiTrees.MapEntry: Bonsai
-PrimePrint.MapEntry: Blueprint
-ProbePrint.MapEntry: Blueprint
+Blueprint.MapEntry: Blueprint
 ReachGrass1.MapEntry: Spiky Grass
-ScarabIdol.MapEntry: Scarab Idol
-Shrine1_Tile.MapEntry: Ancient Shrine
-Shrine2_Tile.MapEntry: Ancient Shrine
-Shrine3_Tile.MapEntry: Ancient Shrine
+AncientShrine.MapEntry: Ancient Shrine
 SkullPile1.MapEntry: Bone Pile
-SkullPile2.MapEntry: Bone Pile
 SkullStick.MapEntry: Skull on a Stick
-SkullStick3.MapEntry: Skull Stick
-SkullStick3Flip.MapEntry: Skull Stick
-SkullStickFlip.MapEntry: Skull Stick
-BlueShardBig.MapEntry: Giant Crystal
-GreenShardBig.MapEntry: Giant Crystal
-PurpleShardBig.MapEntry: Giant Crystal
-StarBeacon.MapEntry: Astralite Beacon
-TwinsPrint.MapEntry: Blueprint
-BannerTile.MapEntry: Banner
+GiantCrystal.MapEntry: Giant Crystal
 Black_Stone.MapEntry: Blackrock
 BlastStone.MapEntry: Bedrock
 SepulchreBrick.MapEntry: Sepulchre Roofing

@@ -206,18 +206,18 @@ AuroraStag: {
 }
 
 AutomataCreeper: {
-	DisplayName: Arachmaton
-	Entry: Forged from brass, a sturdy metal. Makes a lasting frame. A core from marble, containing untapped magic. This gives it mind. And at last, the spark of life. Roam free, new friend.
+	DisplayName: Арахматон
+	Entry: «Сначала куём прочный корпус из латуни. Затем берём мраморное ядро с безупречно чистой магией — это придаст нашему созданию разум. Наконец, добавляем щепотку жизни. Готово. Ступай же, друг мой, теперь ты свободен».
 }
 
 AutomataSpinner: {
-	DisplayName: Trochmaton
-	Entry: Times grow dire, and I must hurry. Dual blades, for attack. Four legs, for stability. Extra plating, for resistance. A marble core and at last the spark of life. Make haste o' guardian, you know your task. Defend these caves we call home.
+	DisplayName: Трохматон
+	Entry: «Времена приближаются тяжёлые, я должен торопиться. Добавляем сдвоенные клинки для смертоносности. Четыре ноги — для надёжной опоры. Дополнительный слой покрытия — для прочности. Как обычно, мраморное ядро и щепотку жизни. Готово. Поспеши, защитник мой, в тебе уже нуждаются».
 }
 
 Beholder: {
 	DisplayName: Созерцатель
-	Entry: These beasts roam the marble pits found within the world, judging you with each one of their many eyes.
+	Entry: Эти создания бесцельно летают по мраморным ущельям, осуждающе оглядывая всех каждым своим глазом.
 	BossChecklistIntegration.SpawnInfo: Изредка появляется в мраморных пещерах после победы над Пожирателем миров или Мозгом Ктулху.
 }
 
@@ -749,8 +749,8 @@ IllusionistSpectre: {
 }
 
 GladiatorSpirit: {
-	DisplayName: Gladiator Spirit
-	Entry: Be wary of this spirit, they have the unique ability to fortify their nonexistent bodies, making them resistant to damage, destroy their armor and release their soul!
+	DisplayName: Дух гладиатора
+	Entry: У этих духов есть уникальная способность: они умеют резко закалять свои несуществующие тела, становясь почти неуязвимыми к урону. Сломайте их броню и освободите их души! 
 }
 
 GloopGloop: {

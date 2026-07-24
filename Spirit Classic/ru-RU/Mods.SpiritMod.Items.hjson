@@ -1097,7 +1097,7 @@ AntlionAssassinBanner: {
 }
 
 ArachmatonBanner: {
-	DisplayName: Arachmaton Banner
+	DisplayName: Знамя арахматона
 	Tooltip: ""
 }
 
@@ -1287,7 +1287,7 @@ GladeWraithBanner: {
 }
 
 GladiatorSpiritBanner: {
-	DisplayName: Gladiator Spirit Banner
+	DisplayName: Знамя души гладиатора
 	Tooltip: ""
 }
 
@@ -1587,7 +1587,7 @@ ThornStalkerBanner: {
 }
 
 TrochmatonBanner: {
-	DisplayName: Trochmaton Banner
+	DisplayName: Знамя трохматона
 	Tooltip: ""
 }
 
