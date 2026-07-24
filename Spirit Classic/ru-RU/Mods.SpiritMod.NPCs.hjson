@@ -163,7 +163,7 @@ CopperChestBottom.DisplayName: Медный ларец
 GoldChestBottom.DisplayName: Золотой ларец
 PlatinumChestBottom.DisplayName: Платиновый ларец
 SilverChestBottom.DisplayName: Серебряный ларец
-StardustBombNPC.DisplayName: Supernova
+StardustBombNPC.DisplayName: Сверхновая
 
 Alien: {
 	DisplayName: Чужой
@@ -185,8 +185,8 @@ CrimsonTrapper: {
 	Entry: These beating organs are vital to the crimson's ensured survival - they pump blood into the biome's squelching stone, granting it the strength to spread and support its extremities.
 }
 
-AsteroidDebris.DisplayName: Debris
-GoldDebris.DisplayName: Debris
+AsteroidDebris.DisplayName: Обломки
+GoldDebris.DisplayName: Обломки
 
 AstralAdventurer: {
 	DisplayName: Astral Adventurer
@@ -237,8 +237,8 @@ BlizzardNimbus: {
 }
 
 Spewer: {
-	DisplayName: Bloater
-	Entry: A particularly foul beast. It builds up pressure by sucking in air with the organs on its back and propels gastric fluids at anything it deems threatening.
+	DisplayName: Вздутень
+	Entry: Необычайно мерзкие чудища. Завидев опасность, они вдыхают воздух жабрами на спине, надуваются и выстреливают струями желудочного сока под большим давлением.
 }
 
 SwollenFish: {
@@ -301,7 +301,7 @@ Dusking: {
 	BossChecklistIntegration.SpawnInfo: Используйте [i:SpiritMod/DuskCrown] ночью.
 }
 
-ShadowBall.DisplayName: Penumbral Sphere
+ShadowBall.DisplayName: Светотеневая сфера
 
 Shadowflamer: {
 	DisplayName: Полутеневой череп
@@ -340,7 +340,7 @@ OccultistBoss: {
 	BossChecklistIntegration.SpawnInfo: Изредка появляется во время кровавой луны, если в мире был побеждён хотя бы один пре-хардмодный босс.
 }
 
-ExplodingSpore.DisplayName: Exploding Spore
+ExplodingSpore.DisplayName: Взрывающаяся спора
 
 ReachBoss: {
 	DisplayName: Гневоплющ
@@ -368,7 +368,7 @@ Scarabeus: {
 }
 
 SwarmScarab.DisplayName: Скарабей
-ArcadeProbe.DisplayName: Starfarer
+ArcadeProbe.DisplayName: Звёздоплаватель
 LaserBase.DisplayName: Laser Launcher
 SteamRaiderBody.DisplayName: Звёздопанцирный странник
 SteamRaiderBody2.DisplayName: Звёздопанцирный странник
@@ -378,15 +378,15 @@ SteamRaiderHead: {
 	Entry: A strange automaton of unknown origin, designed for mining a precious metal from the stars. It utilizes the untapped energy found within the ore to power itself and perpetuate an endless search.
 	BossChecklistIntegration.SpawnInfo: Используйте [i:SpiritMod/StarWormSummon] ночью на астралитовом маяке, который можно найти в поле астероидов.
 	Spawn: Звёздопанцирный странник пробуждается!
-	Laser: Initiating Laser Protocol
-	Detected: Instability Detected
-	Engaged: Target Engaged
+	Laser: Запуск лазерного протокола
+	Detected: Обнаружена нестабильность
+	Engaged: Цель установлена
 }
 
 SteamRaiderHeadDeath.DisplayName: Звёздопанцирный странник
 SteamRaiderTail.DisplayName: Звёздопанцирный странник
-SuicideLaser.DisplayName: Laser Bomber
-TailProbe.DisplayName: Starfarer
+SuicideLaser.DisplayName: Лазерный бомбардировщик
+TailProbe.DisplayName: Звёздоплаватель
 
 BottomFeeder: {
 	DisplayName: Bottom Feeder
@@ -439,8 +439,8 @@ AtlanticCod: {
 }
 
 Bladetongue: {
-	DisplayName: Bladetongue
-	Entry: If you can manage to capture one, it may make for an excellent weapon. But do so carefully, for its fatal ichor spit can leave you defenseless.
+	DisplayName: "{$ItemName.Bladetongue}"
+	Entry: Если сумеете поймать такого, то он может послужить вам отличным оружием. Но будьте осторожны: даже капля его ихорной слюны с лёгкостью прожигают броню, оставляя вас без должной защиты.
 }
 
 Blossmoon: {
@@ -534,13 +534,13 @@ HailSnail: {
 }
 
 Hemoglob: {
-	DisplayName: Hemoglob
-	Entry: A descendant of royalty and a wandering king. He observes your every action while moving with grace and dignity.
+	DisplayName: Гемоглобик
+	Entry: Блуждающий король и наследник королевской крови. С изящной и гордой походкой расхаживает по миру, наблюдая за вашими движениями.
 }
 
 Hemoglorb: {
-	DisplayName: Hemoglorb
-	Entry: The forgotten kin of the Crimson, cast aside due to his abnormal shape and size. He never could, and likely never will, find love nor acceptance in this cruel world.
+	DisplayName: Гемоглёбик
+	Entry: Забытый отпрыск багрянца, отвергнутый из-за своей странной формы и размера. Он никогда не мог, и вероятнее всего не сможет, найти любви и признания в этом жестоком мире.
 }
 
 Lardfish: {
@@ -651,11 +651,11 @@ CrystalDrifter: {
 }
 
 Cystal: {
-	DisplayName: Cystal
+	DisplayName: Кисталл
 	Entry: A ghastly creature that patrols the murky depths of the Corruption. Their crystalline bodies emit a disorienting, sense-obscuring frequency, so steer clear!
 }
 
-Cystal_Shield.DisplayName: Cystal Shield
+Cystal_Shield.DisplayName: Щит кисталла
 
 DarkfeatherMage: {
 	DisplayName: Темнопёрый маг
@@ -702,7 +702,7 @@ Enchanted_Armor: {
 	Entry: These suits of armor were given life by cursed souls connected to the dark sepulchers' treasure. Now they wait frozen and inanimate for a brave adventurer to wander inside.
 }
 
-ExplosiveBarrel.DisplayName: Explosive Barrel
+ExplosiveBarrel.DisplayName: Взрывная бочка
 
 FallenAngel: {
 	DisplayName: Падший ангел
@@ -750,7 +750,7 @@ IllusionistSpectre: {
 
 GladiatorSpirit: {
 	DisplayName: Дух гладиатора
-	Entry: У этих духов есть уникальная способность: они умеют резко закалять свои несуществующие тела, становясь почти неуязвимыми к урону. Сломайте их броню и освободите их души! 
+	Entry: У этих духов есть уникальная способность: они умеют резко закалять свои несуществующие тела, становясь почти неуязвимыми к урону. Сломайте их броню и освободите их души!
 }
 
 GloopGloop: {
@@ -1046,7 +1046,7 @@ SoulCrusher: {
 }
 
 SoulOrb: {
-	DisplayName: Soul Orb
+	DisplayName: Сфера духов
 	Entry: A soft, flickering light anomaly drifting about the Spirit. They are said to be the wandering souls of departed travelers.
 }
 
@@ -1092,7 +1092,7 @@ CogTrapperHead: {
 	Entry: Strange mechanical constructs assemble around a beacon, calling attention to precious astral metals. It seems you aren't the only one who wants it.
 }
 
-CogTrapperTail.DisplayName: Stardancer
+CogTrapperTail.DisplayName: Звёздовёртка
 
 StymphalianBat: {
 	DisplayName: Cтимфалийская летяга
@@ -1314,7 +1314,7 @@ Gambler: {
 		'''
 }
 
-Ghost.DisplayName: Ghost
+Ghost.DisplayName: Привидение
 
 Oracle: {
 	DisplayName: Оракул
@@ -1498,7 +1498,7 @@ WinterbornMelee: {
 	Entry: Одни из немногих оставшихся представителей давно вымершего племени, что до сих пор слоняются по тундре в поисках остатков своей цивилизации. Неизвестное проклятие покрыло их тела ледяными наростами.
 }
 
-IceBoltNPC.DisplayName: Ice Bolt
+IceBoltNPC.DisplayName: Ледяной заряд
 
 WinterbornMagic: {
 	DisplayName: Зиморождённый-вестник
@@ -1521,6 +1521,6 @@ SailorZombie: {
 }
 
 TridentZombie.DisplayName: "{$NPCName.Zombie}"
-AsclepiusBoonOrb.DisplayName: Asclepius Boon Orb
+AsclepiusBoonOrb.DisplayName: Сфера Асклепия
 Fathomless_Chest_Gold.DisplayName: ""
 Fathomless_Chest_Mimic.DisplayName: ""

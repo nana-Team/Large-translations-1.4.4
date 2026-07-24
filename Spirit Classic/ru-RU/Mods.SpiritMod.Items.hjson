@@ -1327,7 +1327,7 @@ GranitecTurretBanner: {
 }
 
 GraniteSlimeBanner: {
-	DisplayName: Granite Slime Banner
+	DisplayName: Знамя гранитного слизня
 	Tooltip: ""
 }
 
@@ -2150,17 +2150,17 @@ FlyerBag: {
 }
 
 SkeletalonStaff: {
-	DisplayName: Skeletalon Staff
+	DisplayName: Скелекогтиный посох
 	Tooltip:
 		'''
-		5 summon tag damage
-		Summons an army of temporary fossilized birds to fight for you
+		5 ед. урона от метки призывателя
+		Призывает временную армию окаменелых птиц сражаться за вас
 		'''
 }
 
 SoaringScapula: {
-	DisplayName: Soaring Scapula
-	Tooltip: Pulls enemies towards the ground, causing them to take additional damage on collision
+	DisplayName: Летучая лопатка
+	Tooltip: Обрушивает находящихся в воздухе врагов на землю, нанося дополнительный урон
 }
 
 TalonBlade: {
@@ -2365,14 +2365,14 @@ Trophy4: {
 }
 
 Cornucopion: {
-	DisplayName: Cornucop-ion
+	DisplayName: Рог ионобилия
 	Tooltip:
 		'''
-		Hold to charge up lightning that strikes nearby enemies
-		Charging up for longer periods creates more strikes
-		Charging up for too long electrifies the player
-		Can only be used on the surface or higher
-		'Shockingly effective'
+		Удерживайте, чтобы зарядить молнию, которая поразит ближайших врагов 
+		Чем дольше вы заряжаете атаку, тем мощнее она будет
+		Накладывает на вас дебафф «{$BuffName.Electrified}», если заряжать атаку слишком долго
+		Нельзя использовать под землёй
+		«Разряжает обстановку»
 		'''
 }
 
@@ -2401,8 +2401,8 @@ MJWMask: {
 }
 
 MJWPetItem: {
-	DisplayName: Curious Lightbulb
-	Tooltip: Summons a Moon Jelly Lightbulb
+	DisplayName: Необычная лампочка
+	Tooltip: Призывает лунную медузу-лампочку
 }
 
 MJWTrophy: {
@@ -2411,39 +2411,38 @@ MJWTrophy: {
 }
 
 MoonjellySummonStaff: {
-	DisplayName: Lunazoa Staff
+	DisplayName: Посох луназои
 	Tooltip:
 		'''
-		Summons a Moonlight Preserver
-		Moonlight Preservers summon smaller jellyfish that explode
-		Only one Moonlight Preserver can exist at once
-		Using the staff multiple times takes up summon slots, but increases jellyfish spawn rates
+		Призывает луносветную носительницу, которая создаёт маленьких взрывающихся медуз
+		Одновременно может существовать только одна луносветная носительница
+		Повторные использования посоха увеличивают частоту появления взрывающихся медуз, но занимают слоты миньонов
 		'''
 }
 
 Moonshot: {
-	DisplayName: Moonshot
+	DisplayName: Лунострел
 	Tooltip:
 		'''
-		Drains energy from tiny lunazoas for ammo
-		33% chance to not consume ammo
-		'Aim for the stars!'
-		'I wonder if the Arms Dealer can scrounge up some more lunazoas...'
+		Использует энергию маленьких луназой в качестве боеприпасов
+		33% шанс не потратить боеприпасы
+		«Из пушки на Луну!»
+		«Может быть, у оружейника найдутся ещё луназои...»
 		'''
 }
 
 NautilusClub: {
-	DisplayName: Nautilobber
-	Tooltip: Generates a cascade of bubbles at the collision zone
+	DisplayName: Наутилолупитель
+	Tooltip: Оставляет наносящие урон пузыри в месте удара
 }
 
 Handball: {
-	DisplayName: Grasp
+	DisplayName: Хватка
 	Tooltip:
 		'''
 		Накладывает на врагов дебафф «{$Buffs.BloodInfusion.DisplayName}»
 		Критические удары также накладывают «{$BuffName.ShadowFlame}»
-		'And so I said, 'Catch these hands''
+		«И тогда я сказал: “Принимай кулаки”»
 		'''
 }
 
@@ -2453,11 +2452,11 @@ OccultistPetItem: {
 }
 
 SacrificialDagger: {
-	DisplayName: Sacrificial Dagger
+	DisplayName: Жертвенный кинжал
 	Tooltip:
 		'''
-		Your summons will target focus enemies
-		Summons that hit tagged enemies may deal extra strikes of damage
+		{$CommonItemTooltip.Whips}
+		Атаки миньонов по отмеченным врагам могут нанести дополнительный урон
 		'''
 }
 
@@ -2799,20 +2798,20 @@ LoungeChairItem: {
 }
 
 Glowpear: {
-	DisplayName: Glowpear
+	DisplayName: Груша-лампочка
 	Tooltip:
 		'''
 		{$BuffDescription.WellFed}
-		'It looks hollow?'
+		«Она... полая?»
 		'''
 }
 
 LuminBerry: {
-	DisplayName: Lumin Berry
+	DisplayName: Люминка
 	Tooltip:
 		'''
 		{$BuffDescription.WellFed}
-		'They feel almost glassy...'
+		«Они словно хрустальные...»
 		'''
 }
 
@@ -3026,11 +3025,11 @@ FishFingers: {
 }
 
 GhostPepper: {
-	DisplayName: Ghost Pepper
+	DisplayName: Перец-призрак
 	Tooltip:
 		'''
 		{$BuffDescription.WellFed}
-		'Will you take the risk?'
+		«Рискнёте попробовать?»
 		'''
 }
 
@@ -3103,11 +3102,11 @@ Popsicle: {
 }
 
 Ramen: {
-	DisplayName: Ramen
+	DisplayName: Рамэн
 	Tooltip:
 		'''
 		{$BuffDescription.WellFed}
-		'It'll warm you right up!'
+		«Самое то, чтобы согреться!»
 		'''
 }
 
@@ -3131,11 +3130,11 @@ Sushi: {
 }
 
 TofuSatay: {
-	DisplayName: Tofu Satay
+	DisplayName: Сатай из тофу
 	Tooltip:
 		'''
 		{$BuffDescription.WellFed}
-		'Fresh and fried!'
+		«С пылу с жару!»
 		'''
 }
 
@@ -3165,12 +3164,12 @@ HailSnailItem: {
 }
 
 HemoglobItem: {
-	DisplayName: Hemoglob
+	DisplayName: Гемоглобик
 	Tooltip: ""
 }
 
 HemoglorbItem: {
-	DisplayName: Hemoglorb
+	DisplayName: Гемогёбик
 	Tooltip: ""
 }
 
@@ -3215,12 +3214,8 @@ OliveBranch: {
 }
 
 PirateCrate: {
-	DisplayName: Pirate Loot Crate
-	Tooltip:
-		'''
-		{$CommonItemTooltip.RightClickToOpen}
-		'Contains booty!'
-		'''
+	DisplayName: Ящик с пиратскими сокровищами
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 BismitePotion: {
@@ -3451,13 +3446,13 @@ SatchelReward: {
 }
 
 MJWPainting: {
-	DisplayName: Moonlit Mischief
-	Tooltip: "'M. Joon'"
+	DisplayName: Картина «Бедствие под светилом ночи»
+	Tooltip: «Л. Мелисса»
 }
 
 SadSlimePainting: {
-	DisplayName: The Other Side
-	Tooltip: "'P. Polaris'"
+	DisplayName: Картина «По ту сторону»
+	Tooltip: «П. Полярис»
 }
 
 ScarabIdol: {
@@ -4204,7 +4199,7 @@ TatteredScript: {
 }
 
 PinBlue: {
-	DisplayName: Булавка следопыта (синяя)
+	DisplayName: Синяя булавка следопыта
 	Tooltip:
 		'''
 		Позволяет установить и передвигать синюю булавку на карте
@@ -4214,7 +4209,7 @@ PinBlue: {
 }
 
 PinCopperCoin: {
-	DisplayName: Булавка следопыта (медная)
+	DisplayName: Медная булавка следопыта
 	Tooltip:
 		'''
 		Позволяет установить и передвигать медную булавку на карте
@@ -4224,7 +4219,7 @@ PinCopperCoin: {
 }
 
 PinGoldCoin: {
-	DisplayName: Булавка следопыта (золотая)
+	DisplayName: Золотая булавка следопыта
 	Tooltip:
 		'''
 		Позволяет установить и передвигать золотую булавку на карте
@@ -4234,7 +4229,7 @@ PinGoldCoin: {
 }
 
 PinGreen: {
-	DisplayName: Булавка следопыта (зелёная)
+	DisplayName: Зелёная булавка следопыта
 	Tooltip:
 		'''
 		Позволяет установить и передвигать зелёную булавку на карте
@@ -4244,7 +4239,7 @@ PinGreen: {
 }
 
 PinMoonjelly: {
-	DisplayName: Булавка следопыта (лунно-медузная)
+	DisplayName: Медузная булавка следопыта
 	Tooltip:
 		'''
 		Позволяет установить и передвигать лунно-медузную булавку на карте
@@ -4254,7 +4249,7 @@ PinMoonjelly: {
 }
 
 PinRed: {
-	DisplayName: Булавка следопыта (красная)
+	DisplayName: Красная булавка следопыта
 	Tooltip:
 		'''
 		Позволяет установить и передвигать красную булавку на карте
@@ -4264,7 +4259,7 @@ PinRed: {
 }
 
 PinScarab: {
-	DisplayName: Булавка следопыта (скарабейная)
+	DisplayName: Булавка-скарабей следопыта
 	Tooltip:
 		'''
 		Позволяет установить и передвигать скарабейную булавку на карте
@@ -4274,7 +4269,7 @@ PinScarab: {
 }
 
 PinSilverCoin: {
-	DisplayName: Булавка следопыта (серебряная)
+	DisplayName: Серебряная булавка следопыта
 	Tooltip:
 		'''
 		Позволяет установить и передвигать серебряную булавку на карте
@@ -4284,7 +4279,7 @@ PinSilverCoin: {
 }
 
 PinStar: {
-	DisplayName: Булавка следопыта (звёздная)
+	DisplayName: Булавка-звезда следопыта
 	Tooltip:
 		'''
 		Позволяет установить и передвигать звёздную булавку на карте
@@ -4294,7 +4289,7 @@ PinStar: {
 }
 
 PinTree: {
-	DisplayName: Булавка следопыта (древесная)
+	DisplayName: Булавка-дерево следопыта
 	Tooltip:
 		'''
 		Позволяет установить и передвигать древесную булавку на карте
@@ -4304,7 +4299,7 @@ PinTree: {
 }
 
 PinYellow: {
-	DisplayName: Булавка следопыта (жёлтая)
+	DisplayName: Жёлтая булавка следопыта
 	Tooltip:
 		'''
 		Позволяет установить и передвигать жёлтую булавку на карте
@@ -4500,7 +4495,7 @@ FishingPainting: {
 
 FloppaPainting: {
 	DisplayName: Картина «Двойственность человека»
-	Tooltip: «Тикс А. Луна»
+	Tooltip: «Тикс А. Лун»
 }
 
 ForagerTableItem: {
@@ -4509,8 +4504,8 @@ ForagerTableItem: {
 }
 
 ForgottenKingStatueItem: {
-	DisplayName: Forgotten King Statue
-	Tooltip: "'A memorial of an ancient conquerer'"
+	DisplayName: Статуя забытого короля
+	Tooltip: «Памятник древнему завоевателю»
 }
 
 GiantAnglerStatue: {
@@ -4569,8 +4564,8 @@ HourglassItem: {
 }
 
 MarbleObeliskItem: {
-	DisplayName: Enchanted Marble Obelisk
-	Tooltip: Emits ancient symbols
+	DisplayName: Зачарованный мраморный обелиск
+	Tooltip: Источает древние символы
 }
 
 Pillar1: {
@@ -4783,68 +4778,68 @@ OldTelescope: {
 }
 
 AdvPainting1: {
-	DisplayName: Sunset Spire
-	Tooltip: "'S. Yaki'"
+	DisplayName: Картина «Шпиль на закате»
+	Tooltip: «С. Яки»
 }
 
 AdvPainting10: {
-	DisplayName: Luminous Willows
-	Tooltip: "'S. Yaki'"
+	DisplayName: Картина «Светящиеся ивы»
+	Tooltip: «С. Яки»
 }
 
 AdvPainting11: {
-	DisplayName: Gazing Upon the Void
-	Tooltip: "'S. Yaki'"
+	DisplayName: Картина «Взгляд в пустоту»
+	Tooltip: «С. Яки»
 }
 
 AdvPainting12: {
-	DisplayName: Drowning Deluge
-	Tooltip: "'S. Yaki'"
+	DisplayName: Картина «Топящее наводнение»
+	Tooltip: «С. Яки»
 }
 
 AdvPainting13: {
-	DisplayName: Misty Rainforest
-	Tooltip: "'S. Yaki'"
+	DisplayName: Картина «Туман в тропическом лесу»
+	Tooltip: «С. Яки»
 }
 
 AdvPainting14: {
-	DisplayName: Marsh Flats
-	Tooltip: "'S. Yaki'"
+	DisplayName: Картина «Топкие равнины»
+	Tooltip: «С. Яки»
 }
 
 AdvPainting15: {
-	DisplayName: Dancing Spirits, Starlit Sky
-	Tooltip: "'S. Yaki'"
+	DisplayName: Картина «Звёздный небосвод и кружащие духи»
+	Tooltip: «С. Яки»
 }
 
 AdvPainting16: {
-	DisplayName: Red Sun's Dawn
-	Tooltip: "'S. Tony'"
+	DisplayName: Картина «Заря красного солнца»
+	Tooltip: «С. Тони»
 }
 
 AdvPainting17: {
-	DisplayName: Dreams of a World Beyond
-	Tooltip: "'P. Otat'"
+	DisplayName: Картина «Сны о неизведанном мире»
+	Tooltip: «К. Артофель»
 }
 
 AdvPainting18: {
-	DisplayName: Bloodstone Enclave
-	Tooltip: "'E. Sibelius'"
+	DisplayName: Картина «Урочище кровокамня»
+	Tooltip: «Е. Сибелиус»
 }
 
 AdvPainting19: {
-	DisplayName: Beyond the Walls
-	Tooltip: "'S. Yaki'"
+	DisplayName: Картина «За стенами»
+	Tooltip: «С. Яки»
 }
 
 AdvPainting2: {
-	DisplayName: Rolling Plains
-	Tooltip: "'S. Yaki'"
+	DisplayName: Картина «Холмистые равнины»
+	Tooltip: «С. Яки»
 }
 
 AdvPainting20: {
-	DisplayName: Terrarian Above a Sea of Fog
-	Tooltip: "'S. Yaki'"
+	DisplayName: Картина «Террариец над морем тумана»
+	Tooltip: «С. Яки»
 }
 
 AdvPainting21: {
@@ -4853,48 +4848,48 @@ AdvPainting21: {
 }
 
 AdvPainting22: {
-	DisplayName: Moonrise Over the Ocean
-	Tooltip: "'S. Yaki'"
+	DisplayName: Картина «Заходящее над океаном солнце»
+	Tooltip: «С. Яки»
 }
 
 AdvPainting23: {
-	DisplayName: Monk by the Sea
-	Tooltip: "'S. Yaki'"
+	DisplayName: Картина «Монах у моря»
+	Tooltip: «С. Яки»
 }
 
 AdvPainting3: {
-	DisplayName: Tidal Bluffs
-	Tooltip: "'S. Yaki'"
+	DisplayName: Картина «Прилив на утёсе»
+	Tooltip: «С. Яки»
 }
 
 AdvPainting4: {
-	DisplayName: Desolate Moor
-	Tooltip: "'S. Yaki'"
+	DisplayName: Картина «Одинокая топь»
+	Tooltip: «С. Яки»
 }
 
 AdvPainting5: {
-	DisplayName: Shrouded Woodland
-	Tooltip: "'S. Yaki'"
+	DisplayName: Картина «Скрытая чаща»
+	Tooltip: «С. Яки»
 }
 
 AdvPainting6: {
-	DisplayName: Felled Beast
-	Tooltip: "'S. Yaki'"
+	DisplayName: Картина «Поверженный зверь»
+	Tooltip: «С. Яки»
 }
 
 AdvPainting7: {
-	DisplayName: Windswept Heath
-	Tooltip: "'S. Yaki'"
+	DisplayName: Картина «Ураган в степи»
+	Tooltip: «С. Яки»
 }
 
 AdvPainting8: {
-	DisplayName: Isolated Steppe
-	Tooltip: "'S. Yaki'"
+	DisplayName: Картина «Одинокая степь»
+	Tooltip: «С. Яки»
 }
 
 AdvPainting9: {
-	DisplayName: Clouded Shoreline
-	Tooltip: "'S. Yaki'"
+	DisplayName: Картина «Облачное побережье»
+	Tooltip: «С. Яки»
 }
 
 ScrunklyPaintingItem: {
@@ -5052,22 +5047,22 @@ ReachPainting: {
 }
 
 GraniteSculpture1x2Item: {
-	DisplayName: Ominous Granite Sculpture
+	DisplayName: Зловещая гранитная скульптура
 	Tooltip: ""
 }
 
 GraniteSculpture2x3Item: {
-	DisplayName: Wavy Granite Sculpture
+	DisplayName: Волнообразная гранитная скульптура
 	Tooltip: ""
 }
 
 GraniteSculpture3x3Item: {
-	DisplayName: Exotic Granite Sculpture
+	DisplayName: Экзотичная гранитная скульптура
 	Tooltip: ""
 }
 
 GraniteSculpture3x5Item: {
-	DisplayName: Angular Granite Sculpture
+	DisplayName: Пирамидальная гранитная скульптура
 	Tooltip: ""
 }
 
@@ -5107,42 +5102,42 @@ SepulchrePotItem2: {
 }
 
 ShiverbarkChair: {
-	DisplayName: Shiverbark Chair
+	DisplayName: Стул из студёной коры
 	Tooltip: ""
 }
 
 ShiverbarkFlag: {
-	DisplayName: Shiverbark Flag
+	DisplayName: Флаг из студёной коры
 	Tooltip: ""
 }
 
 ShiverbarkTable: {
-	DisplayName: Shiverbark Table
+	DisplayName: Стол из студёной коры
 	Tooltip: ""
 }
 
 ShiverbarkTotem: {
-	DisplayName: Shiverbark Totem
+	DisplayName: Тотем из студёной коры
 	Tooltip: ""
 }
 
 Shrine1: {
-	DisplayName: Ancient Shrine (Hachiman)
+	DisplayName: Древнее святилище (Хатиман)
 	Tooltip: ""
 }
 
 Shrine2: {
-	DisplayName: Ancient Shrine (Kumano)
+	DisplayName: Древнее святилище (Кумано)
 	Tooltip: ""
 }
 
 Shrine3: {
-	DisplayName: Ancient Shrine (Yasaka)
+	DisplayName: Древнее святилище (Ясака)
 	Tooltip: ""
 }
 
 SkullPile: {
-	DisplayName: Pile of Skulls
+	DisplayName: Груда черепов
 	Tooltip: ""
 }
 
@@ -5157,8 +5152,8 @@ SpiritBedItem: {
 }
 
 SpiritBiomePainting: {
-	DisplayName: Polaris Psyche
-	Tooltip: "'V. Kaiya'"
+	DisplayName: Картина «Северное сияние души»
+	Tooltip: «В. Каия»
 }
 
 SpiritChairItem: {
@@ -5177,11 +5172,11 @@ SpiritDoorItem: {
 }
 
 SpiritPainting: {
-	DisplayName: The Milestone
+	DisplayName: Картина «Рубеж»
 	CustomTooltip:
 		'''
-		"'Quite a milestone indeed!"
-		"Things can only look up from here'"
+		«Это по-настоящему важная отметка!
+		Дальше — только выше!»
 		'''
 	Tooltip: ""
 }
@@ -5197,8 +5192,8 @@ SpiritWorkbench: {
 }
 
 StarplatePainting: {
-	DisplayName: Grand Light Show
-	Tooltip: "'M. Sicano'"
+	DisplayName: Картина «Грандиозное световое шоу»
+	Tooltip: «М. Зикано»
 }
 
 StreamScaleBench: {
@@ -5232,8 +5227,8 @@ SynthwaveHeadItem: {
 }
 
 TreasureChest: {
-	DisplayName: Loot Chest
-	Tooltip: "'It's already filled to the brim!'"
+	DisplayName: Сундук с сокровищами
+	Tooltip: «Он уже полон до краёв!»
 }
 
 WheezerPainting: {
@@ -5537,7 +5532,7 @@ VinewrathRelicItem: {
 }
 
 SamuraiStatueItem: {
-	DisplayName: Samurai Statue
+	DisplayName: Статуя самурая
 	Tooltip: ""
 }
 
@@ -5581,8 +5576,8 @@ BriarGrassSeeds: {
 }
 
 CreepingIce: {
-	DisplayName: Creeping Ice
-	Tooltip: Slows down nearby players and enemies
+	DisplayName: Сковывающий лёд
+	Tooltip: Замедляет наступивших на него врагов и игроков
 }
 
 HalloweenGrass: {
@@ -6330,8 +6325,8 @@ RageBlazeDecapitator: {
 }
 
 SporeClub: {
-	DisplayName: Sporebreaker
-	Tooltip: Charged strikes release a field of toxins
+	DisplayName: Спорщик
+	Tooltip: Создаёт ядовитое облако при полном заряде
 }
 
 WoodenClub: {
@@ -6475,27 +6470,27 @@ WaasephiVanity: {
 }
 
 BrightbloodDye: {
-	DisplayName: Brightblood Hair Dye
+	DisplayName: Краска для волос цвета светлой крови
 	Tooltip: ""
 }
 
 CystalDye: {
-	DisplayName: Мерзкая краска для волос
+	DisplayName: Мерзка краска для волос
 	Tooltip: ""
 }
 
 MeteorDye: {
-	DisplayName: Flare Hair Dye
+	DisplayName: Пылающая краска для волос
 	Tooltip: ""
 }
 
 SeafoamDye: {
-	DisplayName: Seafoam Hair Dye
+	DisplayName: Краска для волос цвета морской пены
 	Tooltip: ""
 }
 
 SnowMirageDye: {
-	DisplayName: Mirage Hair Dye
+	DisplayName: Миражная краска для волос
 	Tooltip: ""
 }
 
@@ -6621,7 +6616,7 @@ MessageBottle: {
 }
 
 SunkenTreasure: {
-	DisplayName: Затонувшее сокровище
+	DisplayName: Затонувшие сокровища
 	Tooltip:
 		'''
 		{$CommonItemTooltip.RightClickToOpen}
@@ -7522,11 +7517,11 @@ UrchinStaff: {
 }
 
 RlyehianMountItem: {
-	DisplayName: Eldritch Cloak
+	DisplayName: Потусторонний плащ
 	Tooltip:
 		'''
-		Summons an eldritch cloak to carry you around
-		Holding jump allows you to float higher, damaging enemies who pass below
+		Призывает летающий потусторонний плащ
+		Удерживайте клавишу прыжка, чтобы взлететь выше и атаковать врагов под вами
 		'''
 }
 
@@ -8264,11 +8259,11 @@ OrbiterStaff: {
 }
 
 SnapsporeStaff: {
-	DisplayName: Snapspore Wand
+	DisplayName: Жезл цепкоспоры
 	Tooltip:
 		'''
-		Summons a Snapspore to fight for you
-		Snapspores bounce toward enemies and emits poison clouds
+		Призывает цепкоспору сражаться за вас
+		Цепкоспоры таранят врагов, оставляя облака яда
 		'''
 }
 
@@ -8411,11 +8406,11 @@ Ancient: {
 }
 
 BeholderYoyo: {
-	DisplayName: Eye of the Beholder
+	DisplayName: Глаз созерцателя
 	Tooltip:
 		'''
-		Consumes 10 mana per second
-		Right click to cast fireballs at foes, consuming 10 additional mana
+		Использует 10 ед. маны в секунду
+		Нажмите ПКМ, чтобы запустить во врагов огненный шар, расходуя ещё 10 ед. маны
 		'''
 }
 
@@ -8816,8 +8811,8 @@ VibeshroomJarItem: {
 }
 
 FestivalLanternItem: {
-	DisplayName: Festival Lantern
-	Tooltip: Starts a lantern festival nearby when placed
+	DisplayName: Фонарь фестиваля
+	Tooltip: Разместите, чтобы начать фестиваль фонарей
 }
 
 BriarFountainItem: {
@@ -8851,18 +8846,18 @@ DragonStatueItem: {
 }
 
 SlotMachine: {
-	DisplayName: Slot Machine
+	DisplayName: Игровой автомат
 	Tooltip: ""
 
 	Win: {
-		1: You win a bell!
-		2: You win a...jelly?
-		3: You win lemons!
-		4: You win diamonds!
-		5: You win a...bomb!
-		6: You win a ch- apple!
-		7: You win a brick of gold!
-		8: You win the JACKPOT!
+		1: Вы выиграли колокольчик!
+		2: Вы выиграли... медузу?
+		3: Вы выиграли лимоны!
+		4: Вы выиграли алмазы!
+		5: Вы выиграли... бомбу!
+		6: Вы выиграли ви- яблоко!
+		7: Вы выиграли брусок золота!
+		8: Вы выиграли ДЖЕКПОТ!
 	}
 }
 
@@ -8893,16 +8888,6 @@ ScrapItem5: {
 
 ScrapItem6: {
 	DisplayName: Космический металлолом
-	Tooltip: ""
-}
-
-VolleyballCourtItem: {
-	DisplayName: Volleyball Court
-	Tooltip: ""
-}
-
-VolleyballNetItem: {
-	DisplayName: Volleyball Net
 	Tooltip: ""
 }
 
@@ -8982,11 +8967,11 @@ SepulchrePlatformItem: {
 }
 
 ToxicTooth: {
-	DisplayName: Toxic Tooth
+	DisplayName: Ядовитый клык
 	Tooltip:
 		'''
-		Increases armor penetration by 3 and melee speed by 5%
-		Melee attacks occasionally strike enemies twice and release poisonous gas
+		Увеличивает пробивание брони на 3 ед. и скорость атаки ближнего боя на 5%
+		Оружие ближнего боя иногда будет атаковать дважды за взмах и выпускать облако ядовитого газа
 		'''
 }
 
@@ -8996,8 +8981,8 @@ ScarabeusAnatomyItem: {
 }
 
 ToweringStactus: {
-	DisplayName: Towering Stactus
-	Tooltip: "'A. Knight'"
+	DisplayName: Картина «Возвышающийся стактус»
+	Tooltip: «А. Найт»
 }
 
 GildJellyItem: {

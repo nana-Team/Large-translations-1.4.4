@@ -8861,16 +8861,6 @@ ScrapItem6: {
 	Tooltip: ""
 }
 
-VolleyballCourtItem: {
-	DisplayName: Volleyball Court
-	Tooltip: ""
-}
-
-VolleyballNetItem: {
-	DisplayName: Volleyball Net
-	Tooltip: ""
-}
-
 CursedArmorItem: {
 	DisplayName: Draugr Statue
 	Tooltip: "'Take caution...'"
