@@ -4038,7 +4038,7 @@ Lollipop: {
 }
 
 ManaCandy: {
-	DisplayName: Манная конфетка
+	DisplayName: Конфетка маны
 	Tooltip: Увеличивает максимальный запас маны
 }
 
@@ -7443,12 +7443,12 @@ BetrayersChains: {
 }
 
 Eleutherios: {
-	DisplayName: Eleutherios
+	DisplayName: Елевферий
 	Tooltip:
 		'''
-		Reduces healing item effectiveness by 15%
-		Using a healing item gives a temporary damage bonus that decays to 0 over 15 seconds,
-		Initial strength depends on the healing value of the consumable
+		Снижает эффективность лечебных предметов на 15%
+		Использование лечебных предметов даёт временный бонус к урону, который опускается до 0 в течение 15 секунд
+		Изначальный бонус к урону зависит от количества полученного исцеления
 		'''
 }
 

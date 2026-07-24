@@ -180,7 +180,7 @@ ElectrifiedV2: {
 }
 
 EleutheriosBuff: {
-	DisplayName: Eleutherios' Strength
+	DisplayName: Сила Елевферия
 	Description: Наносимый урон увеличен на {0}%
 }
 
@@ -191,7 +191,7 @@ FateBlessing: {
 
 Frozen: {
 	DisplayName: Заморозка
-	Description: Превратились в ледышку!
+	Description: Вы певратились в ледышку!
 }
 
 BurningRage: {
