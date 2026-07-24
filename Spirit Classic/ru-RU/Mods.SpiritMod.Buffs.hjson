@@ -1,6 +1,6 @@
 AceOfDiamondsBuff: {
 	DisplayName: Туз бубен
-	Description: Урон увеличен на 20%
+	Description: Наносимый урон увеличен на 20%
 }
 
 AngelLight: {
@@ -17,7 +17,7 @@ ExplorerFight: {
 	DisplayName: Сила удара
 	Description:
 		'''
-		Вы начинаете осваиваться!
+		У вас начинает получаться!
 		Наносимый урон увеличен на {0}%
 		'''
 }
@@ -75,13 +75,13 @@ BloodInfusion: {
 }
 
 CandyBuff: {
-	DisplayName: Сахарная передозировка
+	DisplayName: Сахарная лихорадка
 	Description: Все характеристики немного увеличены
 }
 
 ChocolateBuff: {
 	DisplayName: Шоколад
-	Description: Скорость передвижения увеличена 10%
+	Description: Скорость передвижения увеличена на 10%
 }
 
 HealthBuffC: {
@@ -95,7 +95,7 @@ LollipopBuff: {
 }
 
 ManaBuffC: {
-	DisplayName: Манная конфетка
+	DisplayName: Конфетка маны
 	Description: Максимальный запас маны увеличен на 40 ед.
 }
 
@@ -111,7 +111,7 @@ ClockBuff: {
 
 CouchPotato: {
 	DisplayName: Ленивая картошка
-	Description: «Перестать быть настолько ленивым!»
+	Description: «Перестань быть таким ленивым!»
 }
 
 CourtCooldown: {
@@ -166,7 +166,7 @@ FesteringWounds: {
 
 DrainLife: {
 	DisplayName: Похищение жизни
-	Description: Ваша жизненная энергия становится их
+	Description: Ваша жизненная энергия уходит другому
 }
 
 DynastyFanBuff: {
@@ -181,17 +181,17 @@ ElectrifiedV2: {
 
 EleutheriosBuff: {
 	DisplayName: Eleutherios' Strength
-	Description: Damage increased by {0}%
+	Description: Наносимый урон увеличен на {0}%
 }
 
 FateBlessing: {
-	DisplayName: Fate's Blessing
-	Description: You are protected by the fates
+	DisplayName: Благоволение судьбы
+	Description: Судьба снисходительна к вам
 }
 
 Frozen: {
-	DisplayName: Frozen
-	Description: Frozen solid!
+	DisplayName: Заморозка
+	Description: Превратились в ледышку!
 }
 
 BurningRage: {
@@ -324,11 +324,11 @@ OnyxWind: {
 }
 
 OracleBoonBuff: {
-	DisplayName: Heresy
+	DisplayName: Ересь
 	Description:
 		'''
-		The gods accept your challenge
-		Enchanted enemies appear more often
+		Боги принимают ваш вызов
+		Шанс появления зачарованных врагов увеличен
 		'''
 }
 
@@ -414,7 +414,7 @@ OverseerPetBuff: {
 
 PhantomPetBuff: {
 	DisplayName: Фантом
-	Description: «Растворяется в мраке ночи»
+	Description: «Растворяется во мраке ночи»
 }
 
 SaucerPetBuff: {
