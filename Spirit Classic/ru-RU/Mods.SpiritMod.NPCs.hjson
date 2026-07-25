@@ -181,8 +181,8 @@ AntlionAssassin: {
 }
 
 CrimsonTrapper: {
-	DisplayName: Arterial Grasper
-	Entry: These beating organs are vital to the crimson's ensured survival - they pump blood into the biome's squelching stone, granting it the strength to spread and support its extremities.
+	DisplayName: Артериальная присоска
+	Entry: Эти органы необходимы для поддержания жизни багрянца — они качают кровь в ненасытную породу биома, придавая ей сил для распространения и укоренения.
 }
 
 AsteroidDebris.DisplayName: Обломки
@@ -540,7 +540,7 @@ Hemoglob: {
 
 Hemoglorb: {
 	DisplayName: Гемоглёбик
-	Entry: Забытый отпрыск багрянца, отвергнутый из-за своей странной формы и размера. Он никогда не мог, и вероятнее всего не сможет, найти любви и признания в этом жестоком мире.
+	Entry: Забытый отпрыск багрянца отвергнутый из-за своей странной формы и размера. Он никогда не мог и, вероятнее всего, не сможет найти любви и признания в этом жестоком мире.
 }
 
 Lardfish: {
@@ -559,8 +559,8 @@ Luvdisc: {
 }
 
 Maggotfly: {
-	DisplayName: Maggotfly
-	Entry: A massive maggot that's somehow matured and grown wings, nasty little thing.
+	DisplayName: Крылатая личинка
+	Entry: Огромных размеров личинка, отрастившая себе пару крыльев. Та ещё мерзость.
 }
 
 NeonTetra: {
@@ -652,10 +652,10 @@ CrystalDrifter: {
 
 Cystal: {
 	DisplayName: Кисталл
-	Entry: A ghastly creature that patrols the murky depths of the Corruption. Their crystalline bodies emit a disorienting, sense-obscuring frequency, so steer clear!
+	Entry: Жуткое создание, преграждающее спуск в тёмные глубины искажения. Держитесь от них как можно дальше: от их кристаллических тел исходит вредное излучение, поражающее органы чувств.
 }
 
-Cystal_Shield.DisplayName: Щит кисталла
+Cystal_Shield.DisplayName: Кистальный щит
 
 DarkfeatherMage: {
 	DisplayName: Темнопёрый маг
@@ -715,13 +715,13 @@ Falling_Asteroid: {
 }
 
 Vilemoth: {
-	DisplayName: Festerfly
-	Entry: The putrid scent of the corruption was bound to attract flies, and sure enough, it did. Now corrupted and ravenous, they follow the scent of any fresh meat they can find.
+	DisplayName: Гнойная муха
+	Entry: На гнилостный запах искажения мухи слетаются целыми тысячами, там же они мутируют в ненасытных хищников, а затем отправляются охотиться на ещё свежую добычу.
 }
 
 VileWasp: {
-	DisplayName: Pesterfly
-	Entry: These pests infest the innards of the abominable Festerfly. If you flex hard enough while one is biting you, it might explode.
+	DisplayName: Гнойная мушка
+	Entry: Эти паразиты поселяются во внутренностях гнойных мух. Если достаточно сильно напрячь руку, пока мушка кусает вас, она может лопнуть.
 }
 
 FleshHound: {
@@ -932,8 +932,8 @@ Pokey_Body: {
 }
 
 Teratoma: {
-	DisplayName: Putroma
-	Entry: Made up of multiple organisms, they clump together with the rotting remains of other beasts to survive falling down the chasms that litter the corruption.
+	DisplayName: Гнилотома
+	Entry: Наглядный пример того, как некоторые организмы научились выживать после падений в разломы искажения, — слипаясь с гниющими останками животных в один огромный комок.
 }
 
 BlossomHound: {

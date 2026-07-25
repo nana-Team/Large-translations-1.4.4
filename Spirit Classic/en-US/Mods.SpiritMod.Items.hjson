@@ -1861,7 +1861,7 @@ Book_Blossmoon: {
 		by Calvin Reyes, Researcher
 		It contains notes about cute little Blossmoons
 		'''
-	ImagePath: SpiritMod/Items/Books/UI/en-US/BlossmoonPage
+	ImagePath: SpiritMod/Localization/BooksUI/en-US/BlossmoonPage
 }
 
 Book_BriarArt: {
@@ -1872,7 +1872,7 @@ Book_BriarArt: {
 		It seems to be a page torn from a book about the Briar
 		Contains an intricate diagram of Briar ecology
 		'''
-	ImagePath: SpiritMod/Items/Books/UI/en-US/TheBriar
+	ImagePath: SpiritMod/Localization/BooksUI/en-US/TheBriar
 }
 
 Book_Soulbloom: {
@@ -1883,7 +1883,7 @@ Book_Soulbloom: {
 		It details the anatomy and uses of an extremely rare herb
 		'Where could she have found this?'
 		'''
-	ImagePath: SpiritMod/Items/Books/UI/en-US/SoulbloomPage
+	ImagePath: SpiritMod/Localization/BooksUI/en-US/SoulbloomPage
 }
 
 Book_SpiritArt: {
@@ -1894,7 +1894,7 @@ Book_SpiritArt: {
 		It seems to be a page of notes about the unknown Spirit Biome
 		'There is a lot to be learned from this mysterious place'
 		'''
-	ImagePath: SpiritMod/Items/Books/UI/en-US/TheSpirit
+	ImagePath: SpiritMod/Localization/BooksUI/en-US/TheSpirit
 }
 
 Book_LuminousArt: {
@@ -1904,7 +1904,7 @@ Book_LuminousArt: {
 		By an unknown explorer
 		It seems to be a sketch of some strange ocurrance at coastal regions
 		'''
-	ImagePath: SpiritMod/Items/Books/UI/en-US/LuminousOcean
+	ImagePath: SpiritMod/Localization/BooksUI/en-US/LuminousOcean
 }
 
 Book_Lumoth: {
@@ -1914,7 +1914,7 @@ Book_Lumoth: {
 		by Calvin Reyes, Researcher
 		It explains the mechanisms behind bright Lumoths
 		'''
-	ImagePath: SpiritMod/Items/Books/UI/en-US/LumothPage
+	ImagePath: SpiritMod/Localization/BooksUI/en-US/LumothPage
 }
 
 BismitePage: {
@@ -1924,7 +1924,7 @@ BismitePage: {
 		by Professor Alex Tannis
 		Contains information on a toxic ore fond around the caverns
 		'''
-	ImagePath: SpiritMod/Items/Books/UI/en-US/BismiteMaterialPage
+	ImagePath: SpiritMod/Localization/BooksUI/en-US/BismiteMaterialPage
 }
 
 EnchantedLeafPage: {
@@ -1934,7 +1934,7 @@ EnchantedLeafPage: {
 		by Professor Alex Tannis
 		Contains information on mystical leaves found in the Briar
 		'''
-	ImagePath: SpiritMod/Items/Books/UI/en-US/EnchantedLeafMaterialPage
+	ImagePath: SpiritMod/Localization/BooksUI/en-US/EnchantedLeafMaterialPage
 }
 
 FrigidFragmentPage: {
@@ -1944,7 +1944,7 @@ FrigidFragmentPage: {
 		by Professor Alex Tannis
 		Contains information on an icy crystal found in the frozen tundra
 		'''
-	ImagePath: SpiritMod/Items/Books/UI/en-US/FrigidFragmentMaterialPage
+	ImagePath: SpiritMod/Localization/BooksUI/en-US/FrigidFragmentMaterialPage
 }
 
 GlowrootPage: {
@@ -1954,7 +1954,7 @@ GlowrootPage: {
 		by Professor Alex Tannis
 		Contains information on a strange root found at the base of tall mushroom trees
 		'''
-	ImagePath: SpiritMod/Items/Books/UI/en-US/GlowrootPage
+	ImagePath: SpiritMod/Localization/BooksUI/en-US/GlowrootPage
 }
 
 GranitePage: {
@@ -1964,7 +1964,7 @@ GranitePage: {
 		by Professor Alex Tannis
 		Contains information on a strange ore found in Granite Caverns
 		'''
-	ImagePath: SpiritMod/Items/Books/UI/en-US/GraniteMaterialPage
+	ImagePath: SpiritMod/Localization/BooksUI/en-US/GraniteMaterialPage
 }
 
 HeartScalePage: {
@@ -1974,7 +1974,7 @@ HeartScalePage: {
 		by Professor Alex Tannis
 		Contains information on a glimmering scale often found near Ardorfish
 		'''
-	ImagePath: SpiritMod/Items/Books/UI/en-US/HeartScaleMaterialPage
+	ImagePath: SpiritMod/Localization/BooksUI/en-US/HeartScaleMaterialPage
 }
 
 MarblePage: {
@@ -1984,7 +1984,7 @@ MarblePage: {
 		by Professor Alex Tannis
 		Contains information on a strange ore found in Marble Caverns
 		'''
-	ImagePath: SpiritMod/Items/Books/UI/en-US/MarbleMaterialPage
+	ImagePath: SpiritMod/Localization/BooksUI/en-US/MarbleMaterialPage
 }
 
 ArcaneGeyser: {

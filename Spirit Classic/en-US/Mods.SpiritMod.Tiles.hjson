@@ -1,33 +1,103 @@
+KoiTotem_Tile.MapEntry: Koi Totem
+OpalFrog_Tile.MapEntry: Opal Frog
+Trophy8Tile.MapEntry: Atlas Trophy
+Trophy2Tile.MapEntry: Ancient Avian Trophy
+Trophy6Tile.MapEntry: Dusking Trophy
+Trophy4Tile.MapEntry: Infernon Trophy
+MJWTrophyTile.MapEntry: Moon Jelly Wizard Trophy
+Trophy1Tile.MapEntry: Scarabeus Trophy
 Glowstone.MapEntry: Astralite
-BismiteCrystalOre.MapEntry: Bismite
-CryoliteOreTile.MapEntry: Cryolite
-FloranOreTile.MapEntry: Floran
-GraniteOre.MapEntry: Enchanted Granite
-MarbleOre.MapEntry: Ancient Marble
+Trophy3Tile.MapEntry: Starplate Voyager Trophy
+Trophy5Tile.MapEntry: Vinewrath Bane Trophy
+BismiteCrystalOre.MapEntry: Bismite Crystal
+CoilEnergizerTile.MapEntry: Coiled Energizer
+CryoliteOreTile.MapEntry: Cryolite Ore
+Driftwood1Tile.MapEntry: Driftwood
+Driftwood2Tile.MapEntry: Driftwood
+Driftwood3Tile.MapEntry: Driftwood
+FishLureTile.MapEntry: Lure
+SunkenTreasureTile.MapEntry: Sunken Treasure
+FloranOreTile.MapEntry: Floran Ore
+GraniteOre.MapEntry: Enchanted Granite Chunk
+MarbleOre.MapEntry: Ancient Marble Chunk
+OlympiumToken_Tile.MapEntry: Olympium Token
+Trophy10Tile.MapEntry: R'lyehian Trophy
 SpiritOreTile.MapEntry: Spirit Ore
+Fathomless_Chest.MapEntry: Fathomless Vase
 AvianEgg.MapEntry: Avian Egg
 Blaststone_Grave.MapEntry: Gravestone
 SkullGrave.MapEntry: Gravestone
 Canvas_Tile.MapEntry: Canvas
-GraniteFormation.MapEntry: Granite Formation
+Coral1x2.MapEntry: Coral
+Coral2x2.MapEntry: Coral
+Coral3x3.MapEntry: Coral
+CrystalFlower.MapEntry: Crystal Flower
+Cloudstalk.MapEntry: Cloudstalk
+GoblinStandardTile.MapEntry: Goblin Battle Standard
+GoblinStatueTile.MapEntry: Goblin Statue
+Spike1Tile.MapEntry: Granite Formation
+Spike2Tile.MapEntry: Granite Formation
+Spike3Tile.MapEntry: Granite Formation
+Spike4Tile.MapEntry: Granite Formation
+Spike5Tile.MapEntry: Granite Formation
+Spike6Tile.MapEntry: Granite Formation
+Hourglass.MapEntry: Hourglass
 IceBatHostile.MapEntry: Frozen Ice Bats
 IceFlinxHostile.MapEntry: Frozen Snow Flinx
 IceVikingHostile.MapEntry: Frozen Undead Viking
 IceWheezerHostile.MapEntry: Frozen Wheezer
+IceBatDecor.MapEntry: Ice Bat Sculpture
 IceBatPassive.MapEntry: Frozen Ice Bats
+IceDeityDecor.MapEntry: Ice Deity Sculpture
+IceFlinxDecor.MapEntry: Frozen Snow Flinx Sculpture
 IceFlinxPassive.MapEntry: Frozen Snow Flinx
+IceVikingDecor.MapEntry: Undead Viking Sculpture
 IceVikingPassive.MapEntry: Frozen Undead Viking
+IceWheezerDecor.MapEntry: Frozen Wheezer Sculpture
 IceWheezerPassive.MapEntry: Frozen Wheezer
-GlowingPlant.MapEntry: Glowing Plant
-HydrothermalVent.MapEntry: Hydrothermal Vent
-MarblePillar.MapEntry: Pillar
-BonsaiTrees.MapEntry: Bonsai
-Blueprint.MapEntry: Blueprint
+WinterbornDecor.MapEntry: Winterborn Sculpture
+Kelp1x2.MapEntry: Kelp
+Kelp2x2.MapEntry: Kelp
+Kelp2x3.MapEntry: Kelp
+Breakable1x2Vent.MapEntry: Hydrothermal Vent
+Breakable1x3Vent.MapEntry: Hydrothermal Vent
+HydrothermalVent1x2.MapEntry: Hydrothermal Vent
+HydrothermalVent1x3.MapEntry: Hydrothermal Vent
+
+OceanPirateChest: {
+	MapEntry: Pirate Chest
+	ContainerName: Pirate Chest
+}
+
+Pillar1Tile.MapEntry: Pillar
+Pillar2Tile.MapEntry: Pillar
+Pillar3Tile.MapEntry: Pillar
+Pillar4Tile.MapEntry: Pillar
+Pillar5Tile.MapEntry: Pillar
+Pillar6Tile.MapEntry: Pillar
+Pillar7Tile.MapEntry: Pillar
+Pillar8Tile.MapEntry: Pillar
+PottedSakuraTile.MapEntry: Sakura Bonsai
+PottedWillowTile.MapEntry: Yellow Willow Bonsai
+PrimePrint.MapEntry: Blueprint
+ProbePrint.MapEntry: Blueprint
 ReachGrass1.MapEntry: Spiky Grass
-AncientShrine.MapEntry: Ancient Shrine
+ScarabIdol.MapEntry: Scarab Idol
+Shrine1_Tile.MapEntry: Ancient Shrine
+Shrine2_Tile.MapEntry: Ancient Shrine
+Shrine3_Tile.MapEntry: Ancient Shrine
 SkullPile1.MapEntry: Bone Pile
+SkullPile2.MapEntry: Bone Pile
 SkullStick.MapEntry: Skull on a Stick
-GiantCrystal.MapEntry: Giant Crystal
+SkullStick3.MapEntry: Skull Stick
+SkullStick3Flip.MapEntry: Skull Stick
+SkullStickFlip.MapEntry: Skull Stick
+BlueShardBig.MapEntry: Giant Crystal
+GreenShardBig.MapEntry: Giant Crystal
+PurpleShardBig.MapEntry: Giant Crystal
+StarBeacon.MapEntry: Astralite Beacon
+TwinsPrint.MapEntry: Blueprint
+BannerTile.MapEntry: Banner
 Black_Stone.MapEntry: Blackrock
 BlastStone.MapEntry: Bedrock
 SepulchreBrick.MapEntry: Sepulchre Roofing
@@ -122,10 +192,8 @@ YellowLightsSmall.MapEntry: Fairy Lights
 YellowNeonCandle.MapEntry: Neon Candle
 YellowNeonPlant.MapEntry: Neon Plant
 OccultistMapTile.MapEntry: Occult Wall Scroll
+OldTelescopeTile.MapEntry: Old Telescope
 PirateCrate.MapEntry: Crate
-AsteroidPylonTile.MapEntry: Asteroid Pylon
-BriarPylonTile.MapEntry: Briar Pylon
-SpiritPylonTile.MapEntry: Spirit Pylon
 
 ReachChest1: {
 	MapEntry: Elderbark Chest

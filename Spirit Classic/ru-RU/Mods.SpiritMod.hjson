@@ -14,7 +14,7 @@ Misc: {
 	SpiritSpread: По земле разливаются духи...
 	Cursed: Проклято!
 	Unlocked: Открыто!
-	RemainingS: (Осталось {0}с)
+	RemainingS: (Осталось {0} с)
 }
 
 RecipeGroup: {

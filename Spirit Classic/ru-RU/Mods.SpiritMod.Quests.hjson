@@ -22,13 +22,13 @@ Explore: "Исследовать "
 Retrieve: Получить: {1} ({0} шт.)
 Catch: Поймать: {1} ({0} шт.)
 Kill: Убить: {1} ({0} шт.)
-PluralSuffix: ""
-Comma: ", "
-Or: " или "
 Craft: Создать: {1} ({0} шт.)
 Capture: Поймать: {1} ({0} шт.)
 Harvest: Собрать: {1} ({0} шт.)
 OptionalGather: Собрать: {1} ({0} шт.) (необязательно)
+PluralSuffix: ""
+Comma: ", "
+Or: " или "
 Objectives: Задачи
 Activate: Начать
 Deactivate: Отменить
@@ -40,7 +40,6 @@ Client: "Заказчик: "
 Rewards: Награды
 # Used for chat quest snippets.
 ViewQuest: Нажмите, чтобы посмотреть это задание в книге!
-QuesTime: "{0}м {1}с"
 
 Buttons: {
 	# Quest states

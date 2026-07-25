@@ -1102,7 +1102,7 @@ ArachmatonBanner: {
 }
 
 ArterialGrasperBanner: {
-	DisplayName: Arterial Grasper Banner
+	DisplayName: Знамя артериальной присоски
 	Tooltip: ""
 }
 
@@ -1137,7 +1137,7 @@ BlizzardNimbusBanner: {
 }
 
 BloaterBanner: {
-	DisplayName: Bloater Banner
+	DisplayName: Знамя вздутеня
 	Tooltip: ""
 }
 
@@ -1257,7 +1257,7 @@ FallingAsteroidBanner: {
 }
 
 FesterflyBanner: {
-	DisplayName: Festerfly Banner
+	DisplayName: Знамя гнойной мухи
 	Tooltip: ""
 }
 
@@ -1502,7 +1502,7 @@ PokeyBanner: {
 }
 
 PutromaBanner: {
-	DisplayName: Putroma Banner
+	DisplayName: Знамя гнилотомы
 	Tooltip: ""
 }
 
@@ -1874,7 +1874,7 @@ Book_Blossmoon: {
 		by Calvin Reyes, Researcher
 		It contains notes about cute little Blossmoons
 		'''
-	ImagePath: SpiritMod/Items/Books/UI/en-US/BlossmoonPage
+	ImagePath: SpiritMod/Localization/BooksUI/en-US/BlossmoonPage
 }
 
 Book_BriarArt: {
@@ -1885,7 +1885,7 @@ Book_BriarArt: {
 		Похоже на страницу, вырванную из книги о терновнике
 		Содержит нарисованную от руки иллюстрацию к биому и неразборчивые заметки о нём
 		'''
-	ImagePath: SpiritMod/Items/Books/UI/ru-RU/TheBriar
+	ImagePath: SpiritMod/Localization/BooksUI/ru-RU/TheBriar
 }
 
 Book_Soulbloom: {
@@ -1896,7 +1896,7 @@ Book_Soulbloom: {
 		It details the anatomy and uses of an extremely rare herb
 		'Where could she have found this?'
 		'''
-	ImagePath: SpiritMod/Items/Books/UI/en-US/SoulbloomPage
+	ImagePath: SpiritMod/Localization/BooksUI/en-US/SoulbloomPage
 }
 
 Book_SpiritArt: {
@@ -1907,7 +1907,7 @@ Book_SpiritArt: {
 		Похоже на страницу с чьими-то заметками о незнакомом биоме
 		«Об этом месте ещё многое предстоит узнать»
 		'''
-	ImagePath: SpiritMod/Items/Books/UI/ru-RU/TheSpirit
+	ImagePath: SpiritMod/Localization/BooksUI/ru-RU/TheSpirit
 }
 
 Book_LuminousArt: {
@@ -1917,7 +1917,7 @@ Book_LuminousArt: {
 		от неизвестного исследователя
 		Это, по всей видимости, набросок какого-то необычного явления на пляже
 		'''
-	ImagePath: SpiritMod/Items/Books/UI/ru-RU/LuminousOcean
+	ImagePath: SpiritMod/Localization/BooksUI/ru-RU/LuminousOcean
 }
 
 Book_Lumoth: {
@@ -1927,7 +1927,7 @@ Book_Lumoth: {
 		by Calvin Reyes, Researcher
 		It explains the mechanisms behind bright Lumoths
 		'''
-	ImagePath: SpiritMod/Items/Books/UI/ru-RU/LumothPage
+	ImagePath: SpiritMod/Localization/BooksUI/ru-RU/LumothPage
 }
 
 BismitePage: {
@@ -1937,7 +1937,7 @@ BismitePage: {
 		by Professor Alex Tannis
 		Contains information on a toxic ore fond around the caverns
 		'''
-	ImagePath: SpiritMod/Items/Books/UI/en-US/BismiteMaterialPage
+	ImagePath: SpiritMod/Localization/BooksUI/en-US/BismiteMaterialPage
 }
 
 EnchantedLeafPage: {
@@ -1947,7 +1947,7 @@ EnchantedLeafPage: {
 		by Professor Alex Tannis
 		Contains information on mystical leaves found in the Briar
 		'''
-	ImagePath: SpiritMod/Items/Books/UI/en-US/EnchantedLeafMaterialPage
+	ImagePath: SpiritMod/Localization/BooksUI/en-US/EnchantedLeafMaterialPage
 }
 
 FrigidFragmentPage: {
@@ -1957,7 +1957,7 @@ FrigidFragmentPage: {
 		by Professor Alex Tannis
 		Contains information on an icy crystal found in the frozen tundra
 		'''
-	ImagePath: SpiritMod/Items/Books/UI/en-US/FrigidFragmentMaterialPage
+	ImagePath: SpiritMod/Localization/BooksUI/en-US/FrigidFragmentMaterialPage
 }
 
 GlowrootPage: {
@@ -1967,7 +1967,7 @@ GlowrootPage: {
 		by Professor Alex Tannis
 		Contains information on a strange root found at the base of tall mushroom trees
 		'''
-	ImagePath: SpiritMod/Items/Books/UI/en-US/GlowrootPage
+	ImagePath: SpiritMod/Localization/BooksUI/en-US/GlowrootPage
 }
 
 GranitePage: {
@@ -1977,7 +1977,7 @@ GranitePage: {
 		by Professor Alex Tannis
 		Contains information on a strange ore found in Granite Caverns
 		'''
-	ImagePath: SpiritMod/Items/Books/UI/en-US/GraniteMaterialPage
+	ImagePath: SpiritMod/Localization/BooksUI/en-US/GraniteMaterialPage
 }
 
 HeartScalePage: {
@@ -1987,7 +1987,7 @@ HeartScalePage: {
 		by Professor Alex Tannis
 		Contains information on a glimmering scale often found near Ardorfish
 		'''
-	ImagePath: SpiritMod/Items/Books/UI/en-US/HeartScaleMaterialPage
+	ImagePath: SpiritMod/Localization/BooksUI/en-US/HeartScaleMaterialPage
 }
 
 MarblePage: {
@@ -1997,7 +1997,7 @@ MarblePage: {
 		by Professor Alex Tannis
 		Contains information on a strange ore found in Marble Caverns
 		'''
-	ImagePath: SpiritMod/Items/Books/UI/en-US/MarbleMaterialPage
+	ImagePath: SpiritMod/Localization/BooksUI/en-US/MarbleMaterialPage
 }
 
 ArcaneGeyser: {
@@ -2271,8 +2271,8 @@ EyeOfTheInferno: {
 }
 
 InfernalAppendage: {
-	DisplayName: Torment Shard
-	Tooltip: "'Filled with suffering'"
+	DisplayName: Мучительный обломок
+	Tooltip: «Пропитан страданиями»
 }
 
 InfernalJavelin: {
@@ -2285,12 +2285,12 @@ InfernalJavelin: {
 }
 
 InfernalPact: {
-	DisplayName: Infernal Pact
+	DisplayName: Инфернальный пакт
 	Tooltip:
 		'''
-		4% increased damage
-		Reduces your defense to 0
-		Increases damage by 0.75% per defense point lost
+		Увеличивает урон на 4%
+		Снижает защиту до 0
+		Увеличивает урон на 0,75% за каждую потерянную единицу защиты
 		'''
 }
 
@@ -2639,12 +2639,12 @@ DroneController: {
 }
 
 SteamplateBow: {
-	DisplayName: Starcharger
+	DisplayName: Звёздный зарядник
 	Tooltip:
 		'''
-		Left-click to shoot a swift volley of weak Positive Arrows
-		Right-click to shoot a powerful Negative Arrow
-		Oppositely charged arrows explode upon touching each other
+		Нажмите ЛКМ, чтобы быстро выпустить несколько слабых положительно заряженных стрел
+		Нажмите ПКМ, чтобы выпустить мощную отрицательно заряженную стрелу
+		Противоположно заряженные стрелы взрываются при контакте друг с другом
 		'''
 }
 
@@ -3189,7 +3189,7 @@ LuvdiscItem: {
 }
 
 MaggotflyItem: {
-	DisplayName: Maggotfly
+	DisplayName: Крылатая личинка
 	Tooltip: ""
 }
 
@@ -7239,12 +7239,11 @@ MagicDeck: {
 }
 
 NightSkyStaff: {
-	DisplayName: Nova's Spark
+	DisplayName: Искра новой
 	Tooltip:
 		'''
-		Shoots out a fast laser of starry energy
-		Every fifth strike on foes summons a more powerful homing beam of stars
-		That beam rains down homing bolts from the sky
+		Выпускает быстрый луч звёздной энергии
+		Каждая девятая атака выпускает усиленный луч, обрушивающий с неба самонаводящиеся заряды
 		'''
 }
 
@@ -7906,12 +7905,12 @@ SpiritStar: {
 }
 
 Starblade: {
-	DisplayName: Starblade
+	DisplayName: Звездорез
 	Tooltip:
 		'''
-		'Harness the night sky'
-		Every third swing causes the blade to release multiple bright stars
-		Each star explodes into homing star wisps
+		«Черпает силу ночного неба»
+		Каждый третий взмах запускает несколько ярких звёзд
+		Такие звёзды взрывается самонаводящимися сгустками звёздной энергии
 		'''
 }
 
