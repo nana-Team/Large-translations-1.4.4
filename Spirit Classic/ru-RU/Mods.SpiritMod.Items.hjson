@@ -52,7 +52,7 @@ Bauble: {
 		'''
 		Увеличивает сопротивление урону на 10% и скорость передвижения на 5%, когда у вас менее половины здоровья
 		Когда ваш уровень здоровья опускается ниже половины, вы на 6 секунд получаете щит, отражающий снаряды
-		Эта способность перезаряжается 1 минуту
+		Перезаряжается 1 минуту
 		'''
 }
 
@@ -234,7 +234,7 @@ IllusionistEye: {
 		'''
 		При получении смертельного урона телепортирует вас домой вместо смерти
 		Эффект не сработает, если поблизости есть босс
-		Эта способность перезаряжается 10 минут
+		Перезаряжается 10 минут
 		«Иллюзионист без дома - всего лишь призрак»
 		'''
 }
@@ -2257,16 +2257,16 @@ UmbraStaff: {
 }
 
 DiabolicHorn: {
-	DisplayName: Diabolic Horn
-	Tooltip: Provides a fiery platform to fly on
+	DisplayName: Дьявольский рог
+	Tooltip: Призывает летающую огненную платформу
 }
 
 EyeOfTheInferno: {
-	DisplayName: Eye of the Inferno
+	DisplayName: Глаз инферно
 	Tooltip:
 		'''
-		Hit foes combust, with successful hits increasing the power of the debuff. 
-		Also shoots out a spiky ball
+		Поджигает поражённых врагов и усиливает их горение с повторными попаданиями
+		Запускает колючий шар вместе с йо-йо
 		'''
 }
 
@@ -2276,11 +2276,11 @@ InfernalAppendage: {
 }
 
 InfernalJavelin: {
-	DisplayName: Infernal Javelin
+	DisplayName: Инфернальное метательное копьё
 	Tooltip:
 		'''
-		'A spear forged with fire'
-		Combusts hit foes, with additional hits causing the flame to intensify.
+		«Копьё, закалённое в пламени»
+		Поджигает поражённых врагов и усиливает их горение с повторными попаданиями
 		'''
 }
 
@@ -2295,17 +2295,21 @@ InfernalPact: {
 }
 
 InfernalStaff: {
-	DisplayName: Seal of Torment
+	DisplayName: Печать мучений
 	Tooltip:
 		'''
-		Shoots three exploding, homing, fiery souls
-		3 second cooldown
+		Выпускает 3 огненные, взрывающиеся и самонаводящиеся души
+		Перезаряжается 3 секунды
 		'''
 }
 
 InfernalSword: {
-	DisplayName: Char Fury
-	Tooltip: Shoots out two blazes that cause foes to combust, multiple hits causing the combustion to deal more damage
+	DisplayName: Жгучая ярость
+	Tooltip:
+		'''
+		Выпускает два пламенных заряда
+		Поджигает поражённых врагов и усиливает их горение с повторными попаданиями
+		'''
 }
 
 InfernalBreastplate: {
@@ -2355,8 +2359,8 @@ InfernonPetItem: {
 }
 
 SevenSins: {
-	DisplayName: The Seven Sins
-	Tooltip: Occasionally shoots out a volley of flames
+	DisplayName: Семь грехов
+	Tooltip: Иногда выпускает веер огней
 }
 
 Trophy4: {
@@ -2614,7 +2618,7 @@ StarMap: {
 	Tooltip:
 		'''
 		Телепортирует вас в точку курсора
-		Эта способность перезаряжается {N} секунд
+		Перезаряжается {N} секунд
 		'''
 }
 
@@ -2667,7 +2671,7 @@ DeathRose: {
 	Tooltip:
 		'''
 		Дважды нажмите клавишу {0}, чтобы вырастить ловушку для врагов в точке курсора
-		Эта способность перезаряжается 4 секунды
+		Перезаряжается 4 секунды
 		'''
 }
 
@@ -2793,8 +2797,12 @@ BuoyItem: {
 }
 
 LoungeChairItem: {
-	DisplayName: Lounge Chair
-	Tooltip: "'So comfortable you may just fall asleep! Lay in the shade to avoid sunburns.'"
+	DisplayName: Шезлонг
+	Tooltip:
+		'''
+		«Настолько удобный, что можно и заснуть!
+		Но лучше отдыхать в тени, чтобы не получить солнечный ожог»
+		'''
 }
 
 Glowpear: {
@@ -2923,7 +2931,7 @@ FateToken: {
 	Tooltip:
 		'''
 		Защищает вас от смертельного урона в течение 1 минуты
-		Эта способность перезаряжается 2 минуты
+		Перезаряжается 2 минуты
 		'''
 }
 
@@ -5277,8 +5285,8 @@ WinterbornSculpture: {
 }
 
 JumpPadItem: {
-	DisplayName: Jump Pad
-	Tooltip: "'Take to the skies!'"
+	DisplayName: Батут
+	Tooltip: «Взмывай в небеса!»
 }
 
 AshfallBox: {
@@ -5715,21 +5723,21 @@ CloakOfHealing: {
 }
 
 CrystalFlowerItem: {
-	DisplayName: Crystal Flower
-	Tooltip: Enemies have a chance to explode into damaging crystals on death
+	DisplayName: Кристальный цветок
+	Tooltip: Убитые враги иногда будут оставлять кристальный взрыв
 }
 
 Dustbound_Ring: {
-	DisplayName: Dustbound Ring
-	Tooltip: Shows the location of treasure and ore
+	DisplayName: Пылевой перстень
+	Tooltip: Отображает местоположение руды и сокровищ
 }
 
 EyeOfTheSorcererItem: {
-	DisplayName: Eye of the Sorcerer
+	DisplayName: Глаз волшебника
 	Tooltip:
 		'''
-		Gain crit chance based on the amount of mana you have
-		At full mana gain an additional 10% crit
+		Увеличивает шанс критического удара в зависимости от количества маны
+		Дополнительно увеличивает шанс критического удара на 10% при полном запасе маны
 		'''
 }
 
@@ -6144,11 +6152,11 @@ ReachBoomerang: {
 }
 
 ReachBrooch: {
-	DisplayName: Forsworn Pendant
+	DisplayName: Отринутый кулон
 	Tooltip:
 		'''
-		Generates a bright glow around the player
-		Gives increased vision in the Briar at night or underground
+		Вы будите излучать ауру света
+		Улучшает зрение в терновнике ночью или под землёй
 		'''
 }
 
@@ -6163,8 +6171,8 @@ ThornHook: {
 }
 
 ThornyRod: {
-	DisplayName: Thorny Rod
-	Tooltip: Creates briar grass on dirt
+	DisplayName: Колючий жезл
+	Tooltip: Выращивает траву терновника на земле
 }
 
 AnodyneHat: {
@@ -6252,8 +6260,8 @@ BassSlapper: {
 }
 
 Blasphemer: {
-	DisplayName: The Blasphemer
-	Tooltip: Charged strikes create a fiery geyser
+	DisplayName: Богохульник
+	Tooltip: Полностью заряженные удары извергают огненный гейзер
 }
 
 BoneClub: {
@@ -6766,7 +6774,7 @@ FunnyFirework: {
 }
 
 GildedMustache: {
-	DisplayName: Gilded Mustache
+	DisplayName: Позолоченные усы
 	Tooltip: ""
 }
 
@@ -6794,7 +6802,7 @@ PlatinumChest: {
 }
 
 RegalCane: {
-	DisplayName: Gilded Cane
+	DisplayName: Позолоченная трость
 	Tooltip: ""
 }
 
@@ -6832,7 +6840,7 @@ GranitechMaterial: {
 }
 
 GranitechStaffItem: {
-	DisplayName: Focus M-II
+	DisplayName: Фокус M-II
 	Tooltip: ""
 }
 
@@ -7186,7 +7194,7 @@ StopWatch: {
 	Tooltip:
 		'''
 		Ненадолго замораживает вокруг вас время
-		Эта способность перезаряжается 60 секунд
+		Перезаряжается 60 секунд
 		'''
 }
 
@@ -7234,7 +7242,7 @@ AkaviriStaff: {
 }
 
 MagicDeck: {
-	DisplayName: Magic Deck
+	DisplayName: Магическая колода
 	Tooltip: ""
 }
 
@@ -7712,7 +7720,7 @@ DuskLance: {
 }
 
 GhostJellyBomb: {
-	DisplayName: Ghost Jelly Bomb
+	DisplayName: Призрачная бомба-медуза
 	Tooltip: ""
 }
 
@@ -7728,7 +7736,7 @@ NetherCrystal: {
 
 NetherWings: {
 	DisplayName: Nether Wings
-	Tooltip: Allows for flight and slow fall.
+	Tooltip: "{$CommonItemTooltip.FlightAndSlowfall}"
 }
 
 PossessedBook: {
@@ -7752,8 +7760,8 @@ StarCutter: {
 }
 
 StoneOfSpiritsPast: {
-	DisplayName: Stone of Spirits Past
-	Tooltip: Creates orbiting souls to hurt nearby enemies
+	DisplayName: Камень духов прошлого
+	Tooltip: Вокруг вас будет кружиться душа, атакующие ближайших врагов
 }
 
 PhantomArc: {
@@ -8034,17 +8042,17 @@ Whirltide: {
 }
 
 GemPickaxe: {
-	DisplayName: Brilliant Harvester
+	DisplayName: Блестящий добытчик
 	Tooltip:
 		'''
-		Mining stone may also yield gems and ores
-		Can mine Demonite and Crimtane
+		При добыче камня иногда также будет выпадать руда и самоцветы
+		Может добывать багротан и демонит
 		'''
 }
 
 UnfellerOfEvergreens: {
-	DisplayName: Evergreen
-	Tooltip: Plants saplings when it chops trees down
+	DisplayName: Вечнозелёный
+	Tooltip: Сажает жёлуди при вырубке деревьев
 }
 
 AdamantiteWarhammer: {
@@ -8088,8 +8096,12 @@ GoldenEgg: {
 }
 
 Matriarch_Wings: {
-	DisplayName: Matriarch Wings
-	Tooltip: Hold down to dive
+	DisplayName: Крылья матриарха
+	Tooltip:
+		'''
+		{$CommonItemTooltip.FlightAndSlowfall}
+		Удерживайте ВНИЗ, чтобы увеличить скорость падения
+		'''
 }
 
 Sovereign_Talon: {
