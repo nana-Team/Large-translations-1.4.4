@@ -56,9 +56,9 @@ IceVikingPassive.MapEntry: Замороженный нежить-викинг
 IceWheezerDecor.MapEntry: "{$Items.IceWheezerSculpture.DisplayName}"
 IceWheezerPassive.MapEntry: Замороженный пыхтельник
 WinterbornDecor.MapEntry: "{$Items.WinterbornSculpture.DisplayName}"
-Kelp1x2.MapEntry: Светящиеся растение
-Kelp2x2.MapEntry: Светящиеся растение
-Kelp2x3.MapEntry: Светящиеся растение
+Kelp1x2.MapEntry: Светящееся растение
+Kelp2x2.MapEntry: Светящееся растение
+Kelp2x3.MapEntry: Светящееся растение
 Breakable1x2Vent.MapEntry: Гидротермальное жерло
 Breakable1x3Vent.MapEntry: Гидротермальное жерло
 HydrothermalVent1x2.MapEntry: Гидротермальное жерло
