@@ -25,7 +25,7 @@ VanillaDialogue: {
 		Gambler: Слушай, {N} стала бы отличным пиратом. Хьяр... золото она-то любит!
 		Halloween0: Йо-хо-хо и бутылка... конфет. Вот, хватай одну!
 		Halloween1: За эту конфету пришлось побрататься с морским дьяволом. Ешь давай, пока не бросил тебя акулам на корм!
-		Halloween2: Аррр! Поговорка есть такая: «Пират делает что вздумается, ведь никто ему не указ». Уверен, это значит, что и конфет могу есть, сколько захочу!
+		Halloween2: Ар-р-р! Поговорка есть такая: «Пират делает что вздумается, ведь никто ему не указ». Уверен, это значит, что и конфет могу есть, сколько захочу!
 	}
 
 	GoblinTinkerer: {
@@ -189,8 +189,8 @@ AsteroidDebris.DisplayName: Обломки
 GoldDebris.DisplayName: Обломки
 
 AstralAdventurer: {
-	DisplayName: Astral Adventurer
-	Entry: A spectacle of alien life, composed of a substance beyond our understanding! Despite their small stature and gelatinous form, sturdy stones somehow orbit this strange body.
+	DisplayName: Звёздный разведчик
+	Entry: Оказывается, не только вам интересны метеориты. Эти стрелки уже долгое время гонятся за ними и не остановятся ни перед чем, чтобы выкачать из них все драгоценные материалы. 
 }
 
 AstralAmalgam: {
@@ -309,7 +309,7 @@ Shadowflamer: {
 }
 
 FrostSaucer: {
-	DisplayName: Snow Monger
+	DisplayName: Снегомётчик
 	Entry: A dangerous hovercraft made of spine-chillingly cold metal, and powered by Frost Cores. Playtime's over, no more mister ice guy!
 	BossChecklistIntegration.SpawnInfo: Изредка появляется во время Морозного легиона.
 }
@@ -331,8 +331,8 @@ MoonWizard: {
 	BossChecklistIntegration.SpawnInfo: Используйте [i:SpiritMod/DreamlightJellyItem] ночью на поверхности. Её можно поймать сачком во время Медузного наводнения.
 }
 
-AzureGemProj.DisplayName: Azure Gem
-MysticMJWClone.DisplayName: Mystic Clone
+AzureGemProj.DisplayName: Лазурный самоцвет
+MysticMJWClone.DisplayName: Таинственная копия
 
 OccultistBoss: {
 	DisplayName: Оккультист
@@ -369,7 +369,7 @@ Scarabeus: {
 
 SwarmScarab.DisplayName: Скарабей
 ArcadeProbe.DisplayName: Звёздоплаватель
-LaserBase.DisplayName: Laser Launcher
+LaserBase.DisplayName: Лазерная установка
 SteamRaiderBody.DisplayName: Звёздопанцирный странник
 SteamRaiderBody2.DisplayName: Звёздопанцирный странник
 
@@ -606,8 +606,8 @@ Rockfish: {
 }
 
 Rotslug: {
-	DisplayName: Rotslug
-	Entry: Corruption has maimed and tainted this otherwise mundane mollusk. It makes for harmless and effective bait, despite its ghastly appearance.
+	DisplayName: Гниляк
+	Entry: Искажение изуродовало и испортило этого моллюска до неузнаваемого. Несмотря на свой жуткий вид, рыбы с охотой клюют на него.
 }
 
 SawtoothShark: {
@@ -678,18 +678,18 @@ DiseasedSlime: {
 }
 
 DungeonCubeBlue: {
-	DisplayName: Blue Dungeon Cube
-	Entry: Mindless stone automatons built to be aware of their surroundings and attack on sight.
+	DisplayName: Куб синей Темницы
+	Entry: Кирпичные механизмы, ума у которых хватает лишь на то, чтобы бросаться на чужаков, не врезаясь при этом в стены Темницы. 
 }
 
 DungeonCubeGreen: {
-	DisplayName: Green Dungeon Cube
-	Entry: Mindless stone automatons built to be aware of their surroundings and attack on sight.
+	DisplayName: Куб зелёной Темницы
+	Entry: Кирпичные механизмы, ума у которых хватает лишь на то, чтобы бросаться на чужаков, не врезаясь при этом в стены Темницы. 
 }
 
 DungeonCubePink: {
-	DisplayName: Pink Dungeon Cube
-	Entry: Mindless stone automatons built to be aware of their surroundings and attack on sight.
+	DisplayName: Куб розовой Темницы
+	Entry: Кирпичные механизмы, ума у которых хватает лишь на то, чтобы бросаться на чужаков, не врезаясь при этом в стены Темницы. 
 }
 
 ElectricEel: {
@@ -739,13 +739,13 @@ WintrySoul: {
 }
 
 Illusionist: {
-	DisplayName: Ghast
-	Entry: A master of illusionary spiritual arts. They will summon violent apparitions in an attempt to distract and overwhelm you.
+	DisplayName: Гаст
+	Entry: Мастер чёрной магии по призыву духов. Раз за разом будет отчаянно пытаться натравить на вас столько призраков, сколько сможет, лишь бы вас одолеть.
 }
 
 IllusionistSpectre: {
-	DisplayName: Ghast's Spectre
-	Entry: A convincing apparition summoned by Ghasts, made to do their bidding. It's merely a mirror image of the real deal, don't be fooled!
+	DisplayName: Призрак гаста
+	Entry: Внушительного вида призрак, слепленный по образу и подобию того, кто его призвал. Не стоит отвлекаться на них: в бою с гастом ваша цель — сам гаст, а не его многочисленные прислужники.
 }
 
 GladiatorSpirit: {
@@ -822,8 +822,8 @@ Mangrove_Defender: {
 }
 
 Masticator: {
-	DisplayName: Masticator
-	Entry: What once began as a small rodent quickly formed into a vile amalgamation with an insatiable appetite for flesh.
+	DisplayName: Перемалыватель
+	Entry: То, что когда-то было обычным грызуном, теперь превратилось в ненасытную мерзкую массу из существ, жаждущую плоти.
 }
 
 Mecromancer: {
@@ -848,8 +848,8 @@ WoodCrateMimic: {
 }
 
 Molten_Core: {
-	DisplayName: Molten Core
-	Entry: A bubbling mess that escaped from within the meteorite. It appears to have basic spatial awareness and even some sentience. Perhaps it was chased by the invaders to the meteor?
+	DisplayName: Расплавленное ядро
+	Entry: Месиво из кипящего метеоритного вещества, судя по всему, обладающее даже каким-то примитивным разумом. Быть может, именно это ядро и искали те звёздные разведчики?
 }
 
 DistressJelly: {
@@ -922,8 +922,8 @@ PirateLobber: {
 }
 
 PlagueDoctor: {
-	DisplayName: Dark Alchemist
-	Entry: These bringers of plague roam the shadows of the dungeon. Don't let yourself be caught taking one of their many workplaces strewn about, lest you suffer acid burns.
+	DisplayName: Тёмный алхимик
+	Entry: Эти разносчики чумы бродят по тёмным коридорам Темницы. Даже не вздумайте пытаться прихватить оттуда одну из их лабораторий — они тут же плеснут в вас обжигающей кислотой.
 }
 
 Pokey_Body: {

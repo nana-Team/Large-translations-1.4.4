@@ -7353,18 +7353,6 @@ MarbleStaff: {
 	Tooltip: Rains down gilded stalactites from the sky
 }
 
-CorruptDyeMaterial: {
-	DisplayName: Violet Crystal
-	CustomTooltip: "'The crystal is both beautiful and disgusting to look at'"
-	Tooltip: ""
-}
-
-CrimsonDyeMaterial: {
-	DisplayName: Bloody Tumor
-	CustomTooltip: "'The disgusting organ makes strange pulsating motions'"
-	Tooltip: ""
-}
-
 IceDeityShard1: {
 	DisplayName: Hyperborean Relic
 	CustomTooltip: "'A shard of something much larger'"
@@ -7378,12 +7366,6 @@ IceDeityShard2: {
 
 IceDeityShard3: {
 	DisplayName: Hyperborean Artifact
-	Tooltip: ""
-}
-
-MeteorDyeMaterial: {
-	DisplayName: Photosphere Shard
-	CustomTooltip: "'The embers within the rock still burn'"
 	Tooltip: ""
 }
 

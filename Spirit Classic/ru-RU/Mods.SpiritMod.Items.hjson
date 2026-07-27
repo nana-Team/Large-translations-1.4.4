@@ -40,8 +40,7 @@ AssassinMagazine: {
 	DisplayName: Обойма наёмника
 	Tooltip:
 		'''
-		Позволяет менять используемые боеприпасы двойным нажатием клавиши {0},
-		если у вас в руках есть стрелковое оружие
+		Дважды нажмите клавишу {0}, держа стрелковое оружие, чтобы сменить используемые боеприпасы
 		Работает даже в инвентаре
 		'''
 }
@@ -1107,7 +1106,7 @@ ArterialGrasperBanner: {
 }
 
 AstralAdventurerBanner: {
-	DisplayName: Astral Adventurer Banner
+	DisplayName: Знамя звёздного разведчика
 	Tooltip: ""
 }
 
@@ -1157,7 +1156,7 @@ BlossomHoundBanner: {
 }
 
 BlueDungeonCubeBanner: {
-	DisplayName: Blue Dungeon Cube Banner
+	DisplayName: Знамя куба синей Темницы
 	Tooltip: ""
 }
 
@@ -1217,12 +1216,12 @@ CrystalDrifterBanner: {
 }
 
 CystalBanner: {
-	DisplayName: Cystal Banner
+	DisplayName: Знамя кисталла
 	Tooltip: ""
 }
 
 DarkAlchemistBanner: {
-	DisplayName: Dark Alchemist Banner
+	DisplayName: Знамя тёмного алхимика
 	Tooltip: ""
 }
 
@@ -1272,7 +1271,7 @@ FurnaceMawBanner: {
 }
 
 GhastBanner: {
-	DisplayName: Ghast Banner
+	DisplayName: Знамя гаста
 	Tooltip: ""
 }
 
@@ -1332,7 +1331,7 @@ GraniteSlimeBanner: {
 }
 
 GreenDungeonCubeBanner: {
-	DisplayName: Green Dungeon Cube Banner
+	DisplayName: Знамя куба зелёной Темницы
 	Tooltip: ""
 }
 
@@ -1342,7 +1341,7 @@ HauntedTomeBanner: {
 }
 
 HemaphoraBanner: {
-	DisplayName: Hemaphora Banner
+	DisplayName: Знамя гемофоры
 	Tooltip: ""
 }
 
@@ -1432,7 +1431,7 @@ MangroveDefenderBanner: {
 }
 
 MasticatorBanner: {
-	DisplayName: Masticator Banner
+	DisplayName: Знамя перемалывателя
 	Tooltip: ""
 }
 
@@ -1442,7 +1441,7 @@ MechromancerBanner: {
 }
 
 MoltenCoreBanner: {
-	DisplayName: Molten Core Banner
+	DisplayName: Знамя расплавленного ядра
 	Tooltip: ""
 }
 
@@ -1487,7 +1486,7 @@ PhantomSamuraiBanner: {
 }
 
 PinkDungeonCubeBanner: {
-	DisplayName: Pink Dungeon Cube Banner
+	DisplayName: Знамя куба розовой Темницы
 	Tooltip: ""
 }
 
@@ -2888,7 +2887,7 @@ CrinoidItem: {
 }
 
 CursedCloth: {
-	DisplayName: Pain Caller
+	DisplayName: Вестник боли
 	Tooltip: Призывает Инфернона при использовании в преисподней
 }
 
@@ -3090,12 +3089,12 @@ Nigiri: {
 }
 
 PopRocks: {
-	DisplayName: Pop Rocks
+	DisplayName: Шипучка
 	Tooltip:
 		'''
 		{$BuffDescription.WellFed}
-		Emits an aura of light
-		'It zips around your mouth!'
+		Вы будите излучать ауру света
+		«Взрывается прямо у тебя во рту!»
 		'''
 }
 
@@ -3177,7 +3176,7 @@ HemoglobItem: {
 }
 
 HemoglorbItem: {
-	DisplayName: Гемогёбик
+	DisplayName: Гемоглёбик
 	Tooltip: ""
 }
 
@@ -3440,7 +3439,7 @@ ReachCrate: {
 }
 
 RotSlugItem: {
-	DisplayName: Rotslug
+	DisplayName: Гниляк
 	Tooltip: ""
 }
 
@@ -3473,13 +3472,13 @@ ScarabIdol: {
 }
 
 SeedBag: {
-	DisplayName: Floral Seed Bag
-	Tooltip: Contains exotic grass seeds
+	DisplayName: Мешочек с семенами трав
+	Tooltip: Содержит семена экзотичных трав
 }
 
 SoulOrbItem: {
-	DisplayName: Soul Orb
-	Tooltip: "'Legend says touching it gives good luck'"
+	DisplayName: Сфера духов
+	Tooltip: «Согласно легенде, дотронувшегося её ждёт удача»
 }
 
 SpiritCrate: {
@@ -3551,17 +3550,17 @@ CloakOfTheDesertKing: {
 }
 
 DemonSheath: {
-	DisplayName: Demon Sheath
+	DisplayName: Демонические ножны
 	Tooltip:
 		'''
-		Summons a possessed katana that floats above you
-		Points towards rare enemies in range
+		Призывает одержимую катану, летающую вокруг вас
+		Подсвечивает редких врагов поблизости
 		'''
 }
 
 DemonTail: {
-	DisplayName: Demon Tail
-	Tooltip: Summons an eldritch abomination to follow you
+	DisplayName: Хвост демона
+	Tooltip: Призывает ужасающую мерзость, следующую за вами
 }
 
 DodgeBall: {
@@ -3608,11 +3607,11 @@ ShiverWind: {
 }
 
 SnowmongerMountItem: {
-	DisplayName: Robotic Arm
+	DisplayName: Роботизированная рука
 	Tooltip:
 		'''
-		Summons an airborne mech with the ability to dash forward
-		Dashes launch a downward barrage of damaging ice beams
+		Призывает летающего меха, способного совершать рывок
+		Во время рывков обрушивает под себя шквал ледяных лучей
 		'''
 }
 
@@ -3707,21 +3706,20 @@ SandsOfTime: {
 }
 
 SolarRattle: {
-	DisplayName: Solar Rattle
+	DisplayName: Солнечная погремушка
 	Tooltip:
 		'''
-		Summons a Drakomire into battle
-		When riding the Drakomire, defense is increased by 40
-		A fiery trail is left behind and knockback is ignored
-		The Drakomire also builds up stamina, allowing for a dash every 10 seconds.
+		Призывает дракотопа биться за вас
+		Дракотоп оставляет за собой огненный след, неуязвим к отбрасыванию,
+		увеличивает вашу защиту на 40 ед. и может совершать рывок раз в 10 секунд
 		'''
 }
 
 ZiplineGun: {
-	DisplayName: Рельсострел
+	DisplayName: Тросомёт
 	Tooltip:
 		'''
-		Нажатием ЛКМ и ПКМ создаёт трос, по которому могут перемещаться игроки
+		Нажимайте ЛКМ и ПКМ, чтобы создать трос, по которому могут перемещаться игроки
 		Трос можно убрать, наведя курсор на его конец
 		'''
 }
@@ -4162,12 +4160,12 @@ SynthMaterial: {
 }
 
 CagedMoonlight: {
-	DisplayName: Caged Moonlight
+	DisplayName: Заключённый луносвет
 	Tooltip:
 		'''
-		Summons a faerie to protect you
-		'Here resides a being comprised of pure starfire.'
-		'Thine enemies shall be harassed by luminous lances.'
+		Призывает фею, защищающую вас
+		«Обитель существа, состоящего из чистого звёздного пламени»
+		«Враги твои будут пронзены его лучезарными копьями»
 		'''
 }
 
@@ -4187,13 +4185,13 @@ PowerRing: {
 }
 
 SaucerBeacon: {
-	DisplayName: Support Beacon
-	Tooltip: Calls in Martian Reinforcements!
+	DisplayName: Устройство вызова поддержки
+	Tooltip: Вызывает подкрепление марсиан!
 }
 
 ShadowCollar: {
-	DisplayName: Shadow Collar
-	Tooltip: Summons a Shadow Pup companion
+	DisplayName: Теневой ошейник
+	Tooltip: Призывает теневого щенка-компаньона
 }
 
 SuspiciousLookingMeatballs: {
@@ -4202,8 +4200,8 @@ SuspiciousLookingMeatballs: {
 }
 
 TatteredScript: {
-	DisplayName: Tattered Script
-	Tooltip: Summons an Unbound Mask to follow the player!
+	DisplayName: Потрёпанная рукопись
+	Tooltip: Призывает освобождённую маску, следующую за вами!
 }
 
 PinBlue: {
@@ -4482,8 +4480,8 @@ BismiteTableItem: {
 }
 
 BlueprintTwins: {
-	DisplayName: Twins Blueprint
-	Tooltip: They can't kill what they can't see... They see everything.
+	DisplayName: Чертёж Близнецов
+	Tooltip: «Они не могут убить только то, что не видят... а они видят всё»
 }
 
 BriarFlowerItem: {
@@ -4747,13 +4745,13 @@ SmallTechCrate: {
 }
 
 Synthpalm: {
-	DisplayName: Synthpalm Wall Panel
-	Tooltip: "'A mix of natural and digital'"
+	DisplayName: Настенная панель «Синтвейв-пальма»
+	Tooltip: «Слияние природы с цифрой»
 }
 
 VaporwaveItem: {
-	DisplayName: Retrofuturistic Wall Panel
-	Tooltip: "'A mix of the past and present'"
+	DisplayName: Настенная панель «Ретрофутуризм»
+	Tooltip: «Слияние прошлого с современностью»
 }
 
 YellowFairyLights: {
@@ -4926,13 +4924,13 @@ PottedWillow: {
 }
 
 PrintPrime: {
-	DisplayName: Skeletron Prime Blueprint
-	Tooltip: Fore-Warned is Four-Armed.
+	DisplayName: Чертёж Скелетрона Прайма
+	Tooltip: «Четыре головы хорошо, а четыре руки лучше»
 }
 
 PrintProbe: {
-	DisplayName: Destroyer Blueprint
-	Tooltip: WARNING: Release may cause seismic anomalies exceeding 10f.
+	DisplayName: Чертёж Уничтожителя
+	Tooltip: «ПРЕДУПРЕЖДЕНИЕ: Может вызывать сейсмические аномалии, превышающие 10 баллов»
 }
 
 ReachBedItem: {
@@ -5500,7 +5498,7 @@ DuskingRelicItem: {
 }
 
 FrostSaucerRelicItem: {
-	DisplayName: Snow Monger Relic
+	DisplayName: Реликвия снегомётчика
 	Tooltip: ""
 }
 
@@ -6226,8 +6224,8 @@ BubbleMine: {
 }
 
 Coral_Catcher: {
-	DisplayName: Coral Catcher
-	Tooltip: Detects hooked fish
+	DisplayName: Коралолов
+	Tooltip: Отображает рыбу, попадавшуюся на крючок
 }
 
 DeepCascadeShard: {
@@ -6343,37 +6341,41 @@ WoodenClub: {
 }
 
 CoilEnergizerItem: {
-	DisplayName: Coiled Energizer
-	Tooltip: Creates an electric field that energizes nearby players, greatly increasing movement speed and melee speed
+	DisplayName: Проводной энергофикатор
+	Tooltip:
+		'''
+		Создаёт электрическое поле, которое заряжает энергией ближайших игроков
+		Заряд энергии увеличивает скорость передвижения и скорость атаки ближнего боя
+		'''
 }
 
 CoilHook: {
-	DisplayName: Coil Hook
+	DisplayName: Проводной крюк
 	Tooltip: ""
 }
 
 CoilPistol: {
-	DisplayName: Coil Pistol
-	Tooltip: Converts regular bullets into electrified bullets that chain from enemy to enemy
+	DisplayName: Проводной пистолет
+	Tooltip: Превращает мушкетные пули в электрические заряды, отскакивающие от врага к врагу
 }
 
 CoilSummonStaff: {
-	DisplayName: Coiled Rod
+	DisplayName: Проводной жезл
 	Tooltip:
 		'''
-		Summons a stationary electric turret
-		This turret shoots beams of lightning that jump from enemy to enemy
+		Призывает электрическую турель-стража
+		Электрическая турель стреляет электрическими зарядами, отскакивающими от врага к врагу
 		'''
 }
 
 CoilSword: {
-	DisplayName: Coiled Blade
-	Tooltip: Every six successful hits on an enemy releases an electrical explosion
+	DisplayName: Проводной клинок
+	Tooltip: Каждая шестая атака по врагу вызывает электрический взрыв
 }
 
 TechDrive: {
-	DisplayName: Tech Drive
-	Tooltip: "'Strangely advanced circuitry'"
+	DisplayName: Технопривод
+	Tooltip: «Необычайно продвинутая электронная деталь»
 }
 
 CryoGun: {
@@ -6760,11 +6762,11 @@ Champagne: {
 }
 
 CopperChest: {
-	DisplayName: Copper Chest
+	DisplayName: Медный сундучок
 	Tooltip:
 		'''
 		{$CommonItemTooltip.RightClickToOpen}
-		'May contain a fortune'
+		«Внутри может оказаться состояние... если повезёт»
 		'''
 }
 
@@ -6779,11 +6781,11 @@ GildedMustache: {
 }
 
 GoldChest: {
-	DisplayName: Gold Coffer
+	DisplayName: Золотой ларец
 	Tooltip:
 		'''
 		{$CommonItemTooltip.RightClickToOpen}
-		'May contain a fortune'
+		«Внутри может оказаться состояние... если повезёт»
 		'''
 }
 
@@ -6793,11 +6795,11 @@ Jem: {
 }
 
 PlatinumChest: {
-	DisplayName: Platinum Strongbox
+	DisplayName: Платиновый сейф
 	Tooltip:
 		'''
 		{$CommonItemTooltip.RightClickToOpen}
-		'May contain a fortune'
+		«Внутри может оказаться состояние... если повезёт»
 		'''
 }
 
@@ -6807,11 +6809,11 @@ RegalCane: {
 }
 
 SilverChest: {
-	DisplayName: Silver Lockbox
+	DisplayName: Серебряный ящик
 	Tooltip:
 		'''
 		{$CommonItemTooltip.RightClickToOpen}
-		'May contain a fortune'
+		«Внутри может оказаться состояние... если повезёт»
 		'''
 }
 
@@ -7175,13 +7177,13 @@ IronBomber: {
 }
 
 LibertyItem: {
-	DisplayName: Liberty
-	Tooltip: Charges up to fire a rocket
+	DisplayName: Свобода
+	Tooltip: Зарядите, чтобы выпустить ракету
 }
 
 Sharkbones: {
-	DisplayName: Sharkbones
-	Tooltip: Fires homing rockets
+	DisplayName: Скелетница
+	Tooltip: Запускает самонаводящиеся ракеты
 }
 
 ArcLash: {
@@ -7403,18 +7405,18 @@ CrimsonDyeMaterial: {
 }
 
 IceDeityShard1: {
-	DisplayName: Hyperborean Relic
-	CustomTooltip: "'A shard of something much larger'"
+	DisplayName: Гиперборейская реликвия
+	CustomTooltip: «Часть чего-то гораздо большего»
 	Tooltip: ""
 }
 
 IceDeityShard2: {
-	DisplayName: Hyperborean Fragment
+	DisplayName: Гиперборейский фрагмент
 	Tooltip: ""
 }
 
 IceDeityShard3: {
-	DisplayName: Hyperborean Artifact
+	DisplayName: Гиперборейский артефакт
 	Tooltip: ""
 }
 
@@ -7863,8 +7865,8 @@ FairyWhistleItem: {
 }
 
 PigronStaffItem: {
-	DisplayName: Pigron Staff
-	Tooltip: "'Bacon now fights for you'"
+	DisplayName: Посох свинрона
+	Tooltip: «Бекон будет сражаться за вас»
 }
 
 RodofDunes: {
@@ -7884,7 +7886,7 @@ SanguineFlayerItem: {
 
 SoulDagger: {
 	DisplayName: Soul Dagger
-	Tooltip: "Summons a soul dagger to fight for you "
+	Tooltip: Summons a soul dagger to fight for you
 }
 
 ToucaneItem: {
@@ -8081,8 +8083,8 @@ PalladiumWarhammer: {
 }
 
 ShellHammer: {
-	DisplayName: Shell Hammer
-	Tooltip: "'Lobs shells duuuude!'"
+	DisplayName: Панцирный молот
+	Tooltip: «Он запускает панцири, чувак!»
 }
 
 TitaniumWarhammer: {
@@ -8479,11 +8481,11 @@ Mystical_Dice: {
 }
 
 MarbleMinecartItem: {
-	DisplayName: Nemean Chariot
+	DisplayName: Немейская колесница
 	Tooltip:
 		'''
-		When charging, you gain defense.
-		"A good lookin' ride, to be sure" - Professor Temp. O. Rary
+		Увеличивает вашу защиту по мере увлечения скорости
+		«Неплохая повозка, надо сказать» — профессор Врем. Н. Ный
 		'''
 }
 
