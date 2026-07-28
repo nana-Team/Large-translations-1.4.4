@@ -6322,12 +6322,8 @@ PlatinumClub: {
 }
 
 RageBlazeDecapitator: {
-	DisplayName: Unstable Adze
-	Tooltip:
-		'''
-		Charges rapidly
-		Charged strikes create an energy shockwave on impact
-		'''
+	DisplayName: Нестабильное тесло
+	Tooltip: При полном заряде создаёт ударную волну, протягивающуюся по земле
 }
 
 SporeClub: {
@@ -6832,13 +6828,13 @@ OakHeart: {
 }
 
 GranitechGun: {
-	DisplayName: Vector .109
+	DisplayName: Вектор .109
 	Tooltip: ""
 }
 
 GranitechMaterial: {
 	DisplayName: Детали G-TEK
-	Tooltip: "'An impressive combination of magic and science'"
+	Tooltip: «Впечатляющие сочетание магии и науки»
 }
 
 GranitechStaffItem: {
@@ -6847,17 +6843,16 @@ GranitechStaffItem: {
 }
 
 GranitechSaberItem: {
-	DisplayName: Technobrand
-	Tooltip: Swinging creates additional holographic blades
+	DisplayName: Техноклинок
+	Tooltip: При взмахе создаёт дополнительные голографические клинки
 }
 
 GtechGrenade: {
-	DisplayName: G-TEK Grenade
+	DisplayName: Граната G-TEK
 	Tooltip:
 		'''
-		Slows and electrocutes enemies in its aura
-		Can be destroyed by the player
-		Destroying it causes an explosion
+		Создаёт поле, замедляющие и электризующее врагов
+		Поле может быть уничтожено атаками игрока, вызывая преждевременный взрыв
 		'''
 }
 
@@ -6896,11 +6891,11 @@ GraniteChunk: {
 }
 
 GraniteFlail: {
-	DisplayName: Unstable Star
+	DisplayName: Нестабильная звезда
 	Tooltip:
 		'''
-		Builds momentum as it spins
-		Creates a damaging blast when colliding at full momentum
+		Накапливает импульс по мере раскручивания 
+		Создаёт взрывную волну при попадании с максимальным импульсом
 		'''
 }
 
@@ -7364,11 +7359,11 @@ MarbleHelm: {
 }
 
 MarbleBident: {
-	DisplayName: Gilded Bident
+	DisplayName: Злачёный двузубец
 	Tooltip:
 		'''
-		Occasionally inflicts 'Midas', causing enemies to drop more gold
-		Hitting an enemy that has 'Midas' may release a fountain of gold
+		Может наложить на врага дебафф «{$BuffName.Midas}», увеличивая количество выпадаемых с него монет
+		Атаки по врагам с этим дебаффом иногда будут создавать фонтан золота
 		'''
 }
 
@@ -7388,20 +7383,8 @@ MarblePick: {
 }
 
 MarbleStaff: {
-	DisplayName: Gilded Tome
-	Tooltip: Rains down gilded stalactites from the sky
-}
-
-CorruptDyeMaterial: {
-	DisplayName: Violet Crystal
-	CustomTooltip: "'The crystal is both beautiful and disgusting to look at'"
-	Tooltip: ""
-}
-
-CrimsonDyeMaterial: {
-	DisplayName: Bloody Tumor
-	CustomTooltip: "'The disgusting organ makes strange pulsating motions'"
-	Tooltip: ""
+	DisplayName: Злачёный том
+	Tooltip: Обрушивает с неба мраморные сталактиты
 }
 
 IceDeityShard1: {
@@ -7417,12 +7400,6 @@ IceDeityShard2: {
 
 IceDeityShard3: {
 	DisplayName: Гиперборейский артефакт
-	Tooltip: ""
-}
-
-MeteorDyeMaterial: {
-	DisplayName: Photosphere Shard
-	CustomTooltip: "'The embers within the rock still burn'"
 	Tooltip: ""
 }
 
@@ -7617,8 +7594,8 @@ ScreamingTome: {
 }
 
 GlowSting: {
-	DisplayName: Seraph's Strike
-	Tooltip: Right-click to release a flurry of strikes
+	DisplayName: Удар серафима
+	Tooltip: Нажмите ПКМ, чтобы использовать как клинок
 }
 
 MoonStone: {
@@ -7642,12 +7619,12 @@ SeraphLegs: {
 }
 
 StarBow: {
-	DisplayName: Seraph's Storm
-	Tooltip: Launches bolts of sporadic lunar energy
+	DisplayName: Шквал серафима
+	Tooltip: Выпускает заряды хаотичной лунной энергии
 }
 
 WayfinderTorch: {
-	DisplayName: Seraph's Light
+	DisplayName: Огонь серафима
 	Tooltip: ""
 }
 
@@ -7693,8 +7670,8 @@ FieryMagicLauncher: {
 }
 
 FierySummonStaff: {
-	DisplayName: Slagtern Staff
-	Tooltip: Summons a hovering slag lantern that lobs lava at nearby foes
+	DisplayName: Посох шлакового фонаря
+	Tooltip: Призывает парящий шлаковый фонарь, обливающий лавой ближайших врагов
 }
 
 PossessedHammer: {
@@ -7703,12 +7680,8 @@ PossessedHammer: {
 }
 
 SlagHammer: {
-	DisplayName: Slag Breaker
-	Tooltip:
-		'''
-		Hold down and release to throw the Hammer like a boomerang
-		Can be wound up to deal increased damage
-		'''
+	DisplayName: Шлаковый крушитель
+	Tooltip: Зарядите, чтобы метнуть молот как бумеранг
 }
 
 BambooHalberd: {
