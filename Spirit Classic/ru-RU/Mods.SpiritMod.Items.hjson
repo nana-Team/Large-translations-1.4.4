@@ -157,7 +157,7 @@ Flying_Fish_Fin: {
 }
 
 ForbiddenKnowledgeTome: {
-	DisplayName: Гримуар запретных знаний
+	DisplayName: Фолиант запретных знаний
 	Tooltip: Убийства врагов будут выпускать самонаводящиеся призрачные черепа
 }
 
@@ -214,7 +214,7 @@ HighGravityBoots: {
 	Tooltip:
 		'''
 		Нормализует гравитацию в космосе
-		Удерживайте ВНИЗ, чтобы увеличить инерцию и скорость падения
+		Удерживайте клавишу ВНИЗ, чтобы увеличить инерцию и скорость падения
 		'''
 }
 
@@ -635,7 +635,7 @@ RubberBullet: {
 
 SpectreBullet: {
 	DisplayName: Спектральная пуля
-	Tooltip: Самонаводящийся призрачный снаряд, который иногда высасывает здоровье у врагов
+	Tooltip: Самонаводящийся спектральный снаряд, который иногда высасывает здоровье у врагов
 }
 
 FaerieStar: {
@@ -1086,7 +1086,7 @@ AncientApostleBanner: {
 }
 
 AncientSpectreBanner: {
-	DisplayName: Ancient Spectre Banner
+	DisplayName: Знамя древнего умертвия
 	Tooltip: ""
 }
 
@@ -1111,7 +1111,7 @@ AstralAdventurerBanner: {
 }
 
 AstralAmalgamBanner: {
-	DisplayName: Astral Amalgam Banner
+	DisplayName: Знамя астральной амальгамы
 	Tooltip: ""
 }
 
@@ -1251,7 +1251,7 @@ FallenAngelBanner: {
 }
 
 FallingAsteroidBanner: {
-	DisplayName: Falling Asteroid Banner
+	DisplayName: Знамя падающего астероида
 	Tooltip: ""
 }
 
@@ -1461,7 +1461,7 @@ MyceliumBotanistBanner: {
 }
 
 NetherbaneBanner: {
-	DisplayName: Netherbane Banner
+	DisplayName: Знамя загробины
 	Tooltip: ""
 }
 
@@ -1471,7 +1471,7 @@ OccultistBanner: {
 }
 
 OrbititeBanner: {
-	DisplayName: Orbitite Banner
+	DisplayName: Знамя орбитника
 	Tooltip: ""
 }
 
@@ -1521,7 +1521,7 @@ ScreechOwlBanner: {
 }
 
 ShockhopperBanner: {
-	DisplayName: Shockhopper Banner
+	DisplayName: Знамя электрошокового скакателя
 	Tooltip: ""
 }
 
@@ -1531,17 +1531,17 @@ SkeletonBruteBanner: {
 }
 
 SoulCrusherBanner: {
-	DisplayName: Soul Crusher Banner
+	DisplayName: Знамя душегуба
 	Tooltip: ""
 }
 
 SpiritBatBanner: {
-	DisplayName: Spirit Bat Banner
+	DisplayName: Знамя призрачной летучей мыши
 	Tooltip: ""
 }
 
 SpiritFloaterBanner: {
-	DisplayName: Spirit Floater Banner
+	DisplayName: Знамя порхателя духов
 	Tooltip: ""
 }
 
@@ -1556,12 +1556,12 @@ SpiritMummyBanner: {
 }
 
 SpiritSkullBanner: {
-	DisplayName: Spirit Skull Banner
+	DisplayName: Знамя черепа духов
 	Tooltip: ""
 }
 
 SpiritTomeBanner: {
-	DisplayName: Ancient Tome Banner
+	DisplayName: Знамя древнего фолианта
 	Tooltip: ""
 }
 
@@ -2537,7 +2537,7 @@ LocustCrook: {
 
 RadiantCane: {
 	DisplayName: Скипетр рассвета
-	Tooltip: Вызывает миниатюрное солнце, медленно следующий за курсором
+	Tooltip: Призывает миниатюрное солнце, медленно следующий за курсором
 }
 
 ScarabPendant: {
@@ -2868,11 +2868,11 @@ BriarmothItem: {
 }
 
 ChaosPearl: {
-	DisplayName: Windshear Pearl
+	DisplayName: Жемчуг порыва ветра
 	Tooltip:
 		'''
-		Teleports you to the projectile's landing position
-		Your body cannot sustain multiple uses
+		Телепортирует вас к месту приземления снаряда
+		Ваше тело не выдержит слишком частого использования этого предмета
 		'''
 }
 
@@ -3207,11 +3207,11 @@ MapScroll: {
 }
 
 MartianTransmitter: {
-	DisplayName: Martian Transmitter
+	DisplayName: Марсианский передатчик
 	Tooltip:
 		'''
-		Summons the martian invasion 
-		'Broadcasting on strange frequencies'
+		Вызывает Марсианское безумие
+		«Транслирует сигнал на странных частотах»
 		'''
 }
 
@@ -3444,11 +3444,11 @@ RotSlugItem: {
 }
 
 SatchelReward: {
-	DisplayName: Mysterious Satchel
+	DisplayName: Загадочный портфель
 	Tooltip:
 		'''
-		'The Painter's been feeling inspired!'
-		Contains two random paintings
+		«Маляра посетило вдохновение!»
+		Содержит 2 случайные картины
 		'''
 }
 
@@ -3505,14 +3505,14 @@ StoneSkin: {
 }
 
 SurrenderBell: {
-	DisplayName: Surrender Bell
+	DisplayName: Колокольчик перемирия
 	Tooltip:
 		'''
-		Stops any invasion when used
-		Can only be used when the invasion has arrived, not when the invasion is approaching
-		'A heavenly chime'
+		Останавливает любое вторжение при использовании
+		Можно использовать только после полноценного начала вторжения
+		«Небесный перезвон»
 		'''
-	Message: The invaders have called off their attack!
+	Message: Вторженцы отступают!
 }
 
 TinyCrabItem: {
@@ -3531,8 +3531,8 @@ TubewormItem: {
 }
 
 VibeshroomItem: {
-	DisplayName: Quivershroom
-	Tooltip: "'It bounces back and forth'"
+	DisplayName: Плясогриб
+	Tooltip: «Вечно скачет из стороны в сторону»
 }
 
 BladeofYouKai: {
@@ -4435,8 +4435,8 @@ AcidTable: {
 }
 
 AdventurerMap: {
-	DisplayName: Adventurer's Treasure Map
-	Tooltip: "'South of Whiterun, east of Pelagia Farm'"
+	DisplayName: Карта сокровищ приключенца
+	Tooltip: «К югу от Вайтрана, к востоку от фермы Пелагио»
 }
 
 AsteroidChest: {
@@ -4770,8 +4770,8 @@ YellowNeonSign: {
 }
 
 OccultistMap: {
-	DisplayName: Occult Wall Scroll
-	Tooltip: "'The ink is of questionable origin'"
+	DisplayName: Оккультный настенный свиток
+	Tooltip: «Чернила, которыми он написан, явно имеют сомнительное происхождение»
 }
 
 OldTelescope: {
@@ -4899,18 +4899,18 @@ AdvPainting9: {
 }
 
 ScrunklyPaintingItem: {
-	DisplayName: The Scrunkly
-	Tooltip: "'B. F. Jinx'"
+	DisplayName: Картина «Придурошная»
+	Tooltip: «Б. Ф. Джинкс»
 }
 
 TheBadPaintingItem: {
-	DisplayName: The Bad
-	Tooltip: "'Professor Jones'"
+	DisplayName: Картина «Зло»
+	Tooltip: «Профессор Джонс»
 }
 
 TheGoodPaintingItem: {
-	DisplayName: The Good
-	Tooltip: "'Professor Jones'"
+	DisplayName: Картина «Добро»
+	Tooltip: «Профессор Джонс»
 }
 
 PottedSakura: {
@@ -5553,11 +5553,11 @@ StarBeaconItem: {
 }
 
 SuperSunFlowerItem: {
-	DisplayName: Pureglow
+	DisplayName: Чистосвет
 	Tooltip:
 		'''
-		Places a large plant able to halt the spread of evil and Hallow
-		This effect extends horizontally in a 5 block radius around the flower, and has an infinite vertical reach
+		Большое растение, способное остановить распространение заражения и освещения
+		Этот эффект распространяется на 5 блоков вокруг цветка по горизонтали и неограничен по вертикали
 		'''
 }
 
@@ -6035,29 +6035,29 @@ DreamstrideEssence: {
 }
 
 FangTome: {
-	DisplayName: Tome of the Thousand Fangs
+	DisplayName: Фолиант тысячи клыков
 	Tooltip:
 		'''
-		Summon a set of gnashing teeth
-		Inflicts 'Surging Anguish', slowly depleting enemy life
+		Призывает скрежещущие челюсти
+		Накладывает на врагов дебафф «{$Buffs.SurgingAnguish.DisplayName}», медленно наносящий урон
 		'''
 }
 
 Headsplitter: {
-	DisplayName: Headsplitter
+	DisplayName: Раскольник
 	Tooltip:
 		'''
-		Strikes inflict 'Surging Anguish', slowly depleting enemy life
-		Right click grants empowerement for a short time, dealing bonus damage to anguished foes
+		Накладывает на врагов дебафф «{$Buffs.SurgingAnguish.DisplayName}», медленно наносящий урон
+		Атака ПКМ наносит больше урона по врагам с этим дебаффом
 		'''
 }
 
 Heartstrike: {
-	DisplayName: Heartstrike
+	DisplayName: Удар в сердце
 	Tooltip:
 		'''
-		Successful hits grant charges, which can be fired using right click
-		Fired charges inflict 'Surging Anguish', slowly depleting enemy life
+		Попадания по врагам накапливают заряд, который можно выпустить с помощью ПКМ
+		Заряженные атаки накладывают на врагов дебафф «{$Buffs.SurgingAnguish.DisplayName}», медленно наносящий урон
 		'''
 }
 
@@ -6126,11 +6126,11 @@ Morningtide: {
 }
 
 Ornament_Bow: {
-	DisplayName: Bow of Ornaments
+	DisplayName: Лук драгоценностей
 	Tooltip:
 		'''
-		Turns wooden arrows into ornament arrows
-		Ornament Arrows create assorted gem arrows upon shattering
+		Превращает деревянные стрелы в драгоценные
+		Драгоценные стрелы призывают стрелы из всех самоцветов при попадании по врагу
 		'''
 }
 
@@ -6159,8 +6159,8 @@ ReachBrooch: {
 }
 
 ReachChestMagic: {
-	DisplayName: Leafstrike Staff
-	Tooltip: Summons a sharp leaf that can be controlled with the cursor
+	DisplayName: Остролистный посох
+	Tooltip: Запускает управляемый острый лист
 }
 
 ThornHook: {
@@ -6273,31 +6273,32 @@ BruteHammer: {
 }
 
 ClubMealFour: {
-	DisplayName: Club Meal
-	Tooltip: You shouldn't see this
+	DisplayName: Крошка сэндвича
+	Tooltip: Вы не должны были это видеть
 }
 
 ClubMealOne: {
-	DisplayName: Club Meal
-	Tooltip: You shouldn't see this
+	DisplayName: Крошка сэндвича
+	Tooltip: Вы не должны были это видеть
 }
 
 ClubMealThree: {
-	DisplayName: Club Meal
-	Tooltip: You shouldn't see this
+	DisplayName: Крошка сэндвича
+	Tooltip: Вы не должны были это видеть
 }
 
 ClubMealTwo: {
-	DisplayName: Club Meal
-	Tooltip: You shouldn't see this
+	DisplayName: Крошка сэндвича
+	Tooltip: Вы не должны были это видеть
 }
 
 ClubSandwich: {
-	DisplayName: Club Sandwich
+	DisplayName: Чёрствый сэндвич
 	Tooltip:
 		'''
-		Fully charged slams release sandwich bits
-		Collect bits to boost stats
+		Разбрасывает крошки при полном заряде
+		Подбор крошек увеличивает ваши характеристики
+		«Настолько очерствел, что им убить можно»
 		'''
 }
 
@@ -6375,11 +6376,11 @@ TechDrive: {
 }
 
 CryoGun: {
-	DisplayName: Winter's Wake
+	DisplayName: Зимний след
 	Tooltip:
 		'''
-		Converts rockets into flake rockets, which inflict 'Cryo Crush'
-		Cryo Crush deals increased damage to weakened enemies
+		Превращает ракеты в ракеты-снежинки, накладывающие на врагов дебафф «{$Buffs.CryoCrush.DisplayName}»
+		Этот дебафф наносит тем больше урона, чем меньше здоровья у врага
 		'''
 }
 
@@ -6423,26 +6424,26 @@ CryoPick: {
 }
 
 CryoStaff: {
-	DisplayName: Cryo Staff
+	DisplayName: Крио-посох
 	Tooltip:
 		'''
-		Casts a spread of icy magic bolts, which inflict 'Cryo Crush'
-		Cryo Crush deals increased damage to weakened enemies
+		Выпускает случайное количество магических ледяных зарядов, накладывающих дебафф «{$Buffs.CryoCrush.DisplayName}»
+		Этот дебафф наносит тем больше урона, чем меньше здоровья у врага
 		'''
 }
 
 CryoSword: {
-	DisplayName: Rimehowl
+	DisplayName: Морозный вой
 	Tooltip:
 		'''
-		Every third swing creates a cryonic wave, which inflicts 'Cryo Crush'
-		Cryo Crush deals increased damage to weakened enemies
+		Каждый третий взмах выпускает крио-волну, накладывающую дебафф «{$Buffs.CryoCrush.DisplayName}»
+		Этот дебафф наносит тем больше урона, чем меньше здоровья у врага
 		'''
 }
 
 AnimeSword: {
 	DisplayName: Аниме-меч
-	Tooltip: Удерживайте, чтобы совершить рывок, разрубающий врагов на пути
+	Tooltip: Зарядите, чтобы совершить рывок, разрубающий врагов на пути
 }
 
 BambooKendoBlade: {
@@ -6452,7 +6453,7 @@ BambooKendoBlade: {
 
 BladeOfTheDragon: {
 	DisplayName: Клинок дракона
-	Tooltip: Удерживайте, чтобы совершить рывок, разрубающий врагов на пути
+	Tooltip: Зарядите, чтобы совершить рывок, разрубающий врагов на пути
 }
 
 LightNovasVanity: {
@@ -6753,8 +6754,8 @@ IcySpear: {
 }
 
 Champagne: {
-	DisplayName: Champagne
-	Tooltip: Hold down and release to pop the cork
+	DisplayName: Шампанское
+	Tooltip: Удерживайте и отпустите, чтобы выстрелить пробкой
 }
 
 CopperChest: {
@@ -6834,7 +6835,7 @@ GranitechGun: {
 
 GranitechMaterial: {
 	DisplayName: Детали G-TEK
-	Tooltip: «Впечатляющие сочетание магии и науки»
+	Tooltip: «Впечатляющее сочетание магии и науки»
 }
 
 GranitechStaffItem: {
@@ -6851,8 +6852,8 @@ GtechGrenade: {
 	DisplayName: Граната G-TEK
 	Tooltip:
 		'''
-		Создаёт поле, замедляющие и электризующее врагов
-		Поле может быть уничтожено атаками игрока, вызывая преждевременный взрыв
+		Создаёт поле, замедляющее и электризующее врагов
+		Поле может быть уничтожено атаками игрока, что вызовет преждевременный взрыв
 		'''
 }
 
@@ -6877,11 +6878,11 @@ GraniteAxe: {
 }
 
 GraniteBow: {
-	DisplayName: Unstable Boltcaster
+	DisplayName: Нестабильный энергострел
 	Tooltip:
 		'''
-		Converts wooden arrows into Unstable Bolts which stick to hit enemies
-		Killing stuck enemies causes them to explode into damaging energy wisps
+		Превращает деревянные стрелы в нестабильные энергострелы, застревающие в поражённых врагах
+		Из врагов, в которых застряли энергострелы, при смерти будут вылетать сгустки энергии
 		'''
 }
 
@@ -6910,11 +6911,11 @@ GranitePickaxe: {
 }
 
 GraniteWand: {
-	DisplayName: Unstable Conduit
+	DisplayName: Нестабильный проводник
 	Tooltip:
 		'''
-		Creates a fountain of energy at the ground near the Cursor Position
-		Killing enemies with this weapon causes them to explode into damaging energy wisps
+		Испускает фонтан энергии из земли под вашим курсором
+		Из убитых врагов будут вылетать сгустки энергии
 		'''
 }
 
@@ -6985,7 +6986,7 @@ HeavenFleet: {
 	Tooltip:
 		'''
 		Использует звёзды в качестве боеприпасов
-		Удерживайте, чтобы совершить более сильный выстрел
+		Зарядите, чтобы совершить более сильный выстрел
 		'''
 }
 
@@ -7201,35 +7202,35 @@ AdamantiteStaff: {
 }
 
 CobaltStaff: {
-	DisplayName: Cobalt Staff
-	Tooltip: Summons magnetized cobalt shards at the cursor
+	DisplayName: Кобальтовый посох
+	Tooltip: Призывает кобальтовые осколки в точке курсора, которые притягиваются к вам
 }
 
 MythrilStaff: {
-	DisplayName: Mythril Staff
-	Tooltip: Shoots homing bolts that occasionally strike enemies twice
+	DisplayName: Мифриловый посох
+	Tooltip: Выпускает самонаводящиеся снаряды, которые иногда будут атаковать врага дважды за раз
 }
 
 OrichalcumStaff: {
-	DisplayName: Orichalcum Staff
-	Tooltip: Summons homing orichalcum blooms at the cursor positon
+	DisplayName: Орихалковый посох
+	Tooltip: Призывает самонаводящиеся орихалковые цветы в точке курсора
 }
 
 PalladiumStaff: {
-	DisplayName: Palladium Staff
+	DisplayName: Палладиевый посох
 	Tooltip:
 		'''
-		Summons a runic pillar at the cursor position
-		If below 1/3 HP, step inside the pillar to rapidly regenerate health
+		Призывает рунический луч под точкой курсора
+		Войдите в радиус луча, когда у вас меньше 33% здоровья, чтобы значительно ускорить регенерацию
 		'''
 }
 
 TitaniumStaff: {
-	DisplayName: Titanium Staff
+	DisplayName: Титановый посох
 	Tooltip:
 		'''
-		Surrounds the player in blades
-		Hold left-click to release a barrage of blades
+		Окружает вас титановыми лезвиями
+		Удерживайте, чтобы управлять лезвиями с помощью курсора
 		'''
 }
 
@@ -7253,85 +7254,85 @@ NightSkyStaff: {
 }
 
 Ornament_Staff: {
-	DisplayName: Staff of Ornaments
-	Tooltip: Casts a bunch of gems that will track your cursor position
+	DisplayName: Посох драгоценностей
+	Tooltip: Выпускает залп из самоцветов, летящих в сторону курсора
 }
 
 BloodStaff: {
-	DisplayName: Vessel Drainer
-	Tooltip: Summons a blood tentacle that splits into life-stealing blood clots
+	DisplayName: Кровосток
+	Tooltip:
+		'''
+		Выпускает кровавое щупальце
+		щупальца оставляют после себя капли крови, высасывающие здоровье врагов
+		'''
 }
 
 CorruptStaff: {
-	DisplayName: Vile Wand
+	DisplayName: Поганый посох
 	Tooltip:
 		'''
-		Shoots clumps of diseased spit
-		Killing enemies with diseased spit releases homing eaters
+		Выпускает сгустки противной слюны
+		Убийства врагов слюной высвобождают самонаводящихся пожирателей
 		'''
 }
 
 CrimsonStaff: {
-	DisplayName: Bloodletter
+	DisplayName: Кровопускатель
 	Tooltip:
 		'''
-		Spurts a tentacle of blood from the player
-		Critical hits steal a small amount of life
+		Выпускает из вас кровавое щупальце
+		Критические удары высасывает из врагов небольшое количество здоровья
 		'''
 }
 
 DungeonStaff: {
-	DisplayName: Skullspray Staff
-	Tooltip:
-		'''
-		Summons a skull at the cursor position
-		The skull erupts into four bolts of energy
-		'''
+	DisplayName: Посох водяных черепов
+	Tooltip: Призывает в точке курсора череп, выпускающий четыре заряда энергии
 }
 
 HallowedStaff: {
-	DisplayName: Hallowed Staff
-	Tooltip: Rains down a barrage of magical swords
+	DisplayName: Освящённый посох
+	Tooltip: Обрушивает с неба шквал магических мечей
 }
 
 HellStaff: {
-	DisplayName: Flarespark Staff
-	Tooltip: Summons a geyser of flame
+	DisplayName: Жезл огненной вспышки
+	Tooltip: Создаёт гейзер пламени
 }
 
 JungleStaff: {
-	DisplayName: Rosevine Staff
-	Tooltip: Shoots a bouncing mass of vines and flowers
+	DisplayName: Посох колючей розы
+	Tooltip: Выпускает комки лоз и цветов, отскакивающие от блоков
 }
 
 NightStaff: {
-	DisplayName: Horizon's Edge
+	DisplayName: Грань горизонта
 	Tooltip:
 		'''
-		Summons a portal at the cursor position that shoots homing energy at enemies
-		Right click to cause all portals to explode into a shower of stars
-		Up to 2 portals can exist at once
+		Призывает в точке курсора портал, выпускающий самонаводящиеся сгустки энергии
+		Нажмите ПКМ, чтобы все призванные порталы взорвались, оставляя за собой падающие звёзды
+		Может призывать до 2 порталов за раз
 		'''
 }
 
 TerraStaff: {
-	DisplayName: Terra Scepter
-	Tooltip: "'May the Wrath of the Elements consume your foes.'"
+	DisplayName: Терра-скипетр
+	Tooltip: «Да поглотит ваших врагов ярость стихий»
 }
 
 TrueBloodStaff: {
-	DisplayName: True Vessel Drainer
-	Tooltip: Shoots a clot that gathers power over time
+	DisplayName: Истинный кровосток
+	Tooltip: Призывает выпускающие снаряды облако крови, которое становится сильнее со временем
 }
 
 TrueDarkStaff: {
-	DisplayName: True Horizon's Edge
-	Tooltip: Shoots out a splitting volley of homing pestilence and cursed fire.
+	DisplayName: Истинная грань горизонта
+	Tooltip: Выпускает залп из самонаводящихся снарядов заразы и проклятого пламени, взрывающихся при столкновении
 }
 
 TrueHallowedStaff: {
-	DisplayName: True Hallowed Staff
-	Tooltip: Shoots out multiple swords with different effects.
+	DisplayName: Истинный освящённый посох
+	Tooltip: Обрушивает с неба шквал мечей с различными эффектами
 }
 
 BreathOfTheZephyr: {
@@ -7362,7 +7363,7 @@ MarbleBident: {
 	DisplayName: Злачёный двузубец
 	Tooltip:
 		'''
-		Может наложить на врага дебафф «{$BuffName.Midas}», увеличивая количество выпадаемых с него монет
+		Может наложить на врага дебафф «{$BuffName.Midas}», увеличивающий количество выпадающих с него монет
 		Атаки по врагам с этим дебаффом иногда будут создавать фонтан золота
 		'''
 }
@@ -7383,7 +7384,7 @@ MarblePick: {
 }
 
 MarbleStaff: {
-	DisplayName: Злачёный том
+	DisplayName: Злачёный фолиант
 	Tooltip: Обрушивает с неба мраморные сталактиты
 }
 
@@ -7489,7 +7490,7 @@ ReefSpear: {
 
 SkullSentry: {
 	DisplayName: Червивый череп
-	Tooltip: Призывает череп-стража, заражённый червями-плотоядками, который стреляет красной слизью во врагов
+	Tooltip: Призывает череп-стража, заражённого червями-плотоядками, которые стреляют красной слизью во врагов
 }
 
 SulfurDeposit: {
@@ -7532,8 +7533,8 @@ Trophy10: {
 }
 
 Rune: {
-	DisplayName: Ancient Rune
-	Tooltip: "'It's inscribed in some archaic language'"
+	DisplayName: Древняя руна
+	Tooltip: «Написана на неизвестном древнем языке»
 }
 
 RunicGreaves: {
@@ -7552,11 +7553,11 @@ RunicPlate: {
 }
 
 SpiritRune: {
-	DisplayName: Spirit Rune
+	DisplayName: Руна духов
 	Tooltip:
 		'''
-		'Contains ancient energy'
-		Shoots out an ancient book filled with dangerous runes
+		«Наполнена древней энергией»
+		Выпускает древние книги, заполненные запретными рунами
 		'''
 }
 
@@ -7595,7 +7596,7 @@ ScreamingTome: {
 
 GlowSting: {
 	DisplayName: Удар серафима
-	Tooltip: Нажмите ПКМ, чтобы использовать как клинок
+	Tooltip: Нажмите ПКМ, чтобы использовать как кинжал
 }
 
 MoonStone: {
@@ -7705,12 +7706,12 @@ Gravehunter: {
 }
 
 NetherCrystal: {
-	DisplayName: Nether Crystal
-	Tooltip: "'Brimming with bright souls'"
+	DisplayName: Загробный кристалл
+	Tooltip: «Наполнен яркими душами»
 }
 
 NetherWings: {
-	DisplayName: Nether Wings
+	DisplayName: Загробные крылья
 	Tooltip: "{$CommonItemTooltip.FlightAndSlowfall}"
 }
 
@@ -7725,8 +7726,8 @@ SoulWeaver: {
 }
 
 SpiritFlameStaff: {
-	DisplayName: Spiritflame Staff
-	Tooltip: Shoots out a spirit bolt that explodes in 4 directions
+	DisplayName: Посох пламени духов
+	Tooltip: Выпускает призрачный заряд, разделяющийся на 4 волны при столкновении
 }
 
 StarCutter: {
@@ -7868,12 +7869,12 @@ ToucaneItem: {
 }
 
 MimeSummon: {
-	DisplayName: Two-Faced Mask
+	DisplayName: Двуликая маска
 	Tooltip:
 		'''
-		Summons a stationary Soul of Happiness or Sadness at the cursor position with a left or right click
-		The Soul of Happiness shoots out beams at foes
-		The Soul of Sadness shoots out homing tears at foes
+		Призывает стражей-души счастья и грусти при нажатии ЛКМ и ПКМ соответственно
+		Душа счастья выпускает лучи во врагов
+		Душа грусти пускает слёзы, самонаводящиеся на врагов
 		'''
 }
 
@@ -7898,11 +7899,11 @@ Starblade: {
 }
 
 CurseBreaker: {
-	DisplayName: Cursebreaker
+	DisplayName: Расклинатель
 	Tooltip:
 		'''
-		Every third swing curses nearby enemies
-		Strike again to break the curse, dealing extra damage
+		Каждый третий взмах проклинает ближайших врагов
+		Атаки по проклятым врагам снимают с них проклятие, но наносят больше урона
 		'''
 }
 
@@ -7969,7 +7970,7 @@ PumpBubbleGun: {
 	Tooltip:
 		'''
 		Использует 20 ед. маны в секунду
-		Удерживайте, чтобы выпустить больше пузырей
+		Зарядите, чтобы выпустить больше пузырей
 		'''
 }
 
@@ -8075,25 +8076,21 @@ Matriarch_Wings: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
-		Удерживайте ВНИЗ, чтобы увеличить скорость падения
+		Удерживайте клавишу ВНИЗ, чтобы увеличить скорость падения
 		'''
 }
 
 Sovereign_Talon: {
-	DisplayName: Sovereign Talon
-	Tooltip:
-		'''
-		Thrusting continuously charges the talon
-		An arcane wave will be cast at full charge
-		'''
+	DisplayName: Властный коготь
+	Tooltip: Зарядите, чтобы выпустить магическую волну
 }
 
 Tome_of_the_Great_Scavenger: {
-	DisplayName: Tome of the Great Scavenger
+	DisplayName: Фолиант великого падальщика
 	Tooltip:
 		'''
-		Casts a torrent of sharp, armor penetrating feathers
-		Hit enemies may drop more gold
+		Выпускает ураган из острых перьев, пробивающих защиту врага
+		При попадании по врагу иногда будут выпадать монеты
 		'''
 }
 
@@ -8202,8 +8199,8 @@ ButterflyStaff: {
 }
 
 CrawlerockStaff: {
-	DisplayName: Crawlerock Staff
-	Tooltip: Summons bouncing mini crawlers to fight for you
+	DisplayName: Посох пещерного ползунчика
+	Tooltip: Призывает маленького прыгающего ползуна сражаться за вас
 }
 
 ElectricGun: {
@@ -8221,11 +8218,11 @@ EngineeringRod: {
 }
 
 GateStaff: {
-	DisplayName: Gate Staff
+	DisplayName: Шлюзовой посох
 	Tooltip:
 		'''
-		Summons a stationary electric field node, which links to other nodes
-		Right click to remove summoned nodes
+		Призывает стационарный электрический узел, который устанавливает соединение с другими узлами
+		Нажмите ПКМ, чтобы убрать все призванные узлы
 		'''
 }
 
@@ -8240,8 +8237,8 @@ JadeStaff: {
 }
 
 OrbiterStaff: {
-	DisplayName: Orbiter Staff
-	Tooltip: Summons a mini meteor to charge at foes
+	DisplayName: Посох орбитника
+	Tooltip: Призывает маленький метеор, влетающий во врагов
 }
 
 SnapsporeStaff: {
@@ -8254,12 +8251,11 @@ SnapsporeStaff: {
 }
 
 StardustBomb: {
-	DisplayName: Supernova
+	DisplayName: Сверхновая
 	Tooltip:
 		'''
-		Summons a collapsing star
-		The star can be targeted
-		Deal summon damage to the star to release a powerful explosion
+		Призывает коллапсар, на который могут нацелиться миньоны
+		Получение звездой урона призывателя вызывает мощный взрыв
 		'''
 }
 
@@ -8364,25 +8360,25 @@ SkeletronHand: {
 }
 
 SpectreKnife: {
-	DisplayName: Spectre Knife
-	Tooltip: Upon hitting enemies or tiles, Spectre bolts are released
+	DisplayName: Спектральный нож
+	Tooltip: Высвобождает духов при столкновении
 }
 
 TargetBottle: {
-	DisplayName: Target Bottle
+	DisplayName: Банка-мишень
 	Tooltip:
 		'''
-		Hit it with a bullet in the air to do high bullet damage for a short time after
-		'Take a crack at this bottle!'
+		Попадите пулей по брошенной банке, чтобы получить кратковременный бонус к урону огнестрельного оружия
+		«Разбей меня, если сможешь!»
 		'''
 }
 
 TargetCan: {
-	DisplayName: Target Can
+	DisplayName: Жестянка-мишень
 	Tooltip:
 		'''
-		Hit it with a bullet in the air to do extremely high damage 
-		'Let's see what kind of a shot ya are, pilgrim!'
+		Попадите пулей по брошенной банке, чтобы нанести чрезвычайно большой урон
+		«Ну-ка, покажи, насколько ты меткий, путник!»
 		'''
 }
 
@@ -8434,8 +8430,8 @@ Tao: {
 }
 
 TheFireball: {
-	DisplayName: Fireball
-	Tooltip: Shoots out bouncing fireballs
+	DisplayName: Фаербол
+	Tooltip: Выпускает огненные шары
 }
 
 Typhoon: {
@@ -8792,7 +8788,7 @@ TubewormBowl: {
 }
 
 VibeshroomJarItem: {
-	DisplayName: Quivershroom Jar
+	DisplayName: Банка с плясогрибом
 	Tooltip: ""
 }
 

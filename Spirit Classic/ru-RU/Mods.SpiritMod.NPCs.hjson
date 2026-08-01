@@ -194,8 +194,8 @@ AstralAdventurer: {
 }
 
 AstralAmalgam: {
-	DisplayName: Astral Amalgam
-	Entry: A spectacle of alien life, composed of a substance beyond our understanding! Despite their small stature and gelatinous form, sturdy stones somehow orbit this strange body.
+	DisplayName: Астральная амальгама
+	Entry: Настоящее чудо инопланетной природы, не поддающееся никакому разумному объяснению. Несмотря на свой небольшой размер и странное склизкое тело, это создание каким-то образом заставляет твёрдые камни вращаться вокруг себя.Shockhopper
 }
 
 SpaceShield.DisplayName: Astral Buffer
@@ -285,7 +285,7 @@ AncientFlyer: {
 
 Atlas: {
 	DisplayName: Атлант
-	Entry: A fractured sentinel built millenia ago to protect the land from those who would dare to scar its natural form. Now, it seems you have made yourself its target.
+	Entry: Расколотый страж, сооружённый тысячелетия тому назад, дабы защищать природу от тех, кто посмеет её уродовать — от таких как вы, судя по всему.
 	BossChecklistIntegration.SpawnInfo: Используйте [i:SpiritMod/StoneSkin].
 }
 
@@ -297,7 +297,7 @@ CobbledEye3.DisplayName: Каменный глаз
 
 Dusking: {
 	DisplayName: Сумеречный король
-	Entry: The nightmarish consequence of a failed seance by goblin warlocks. This abominable spirit remains a burning reminder of the chaos shadowflame magic can bring.
+	Entry: Чудовищное последствие одного ритуала гоблинов, не увенчавшегося успехом. Этот ужасающий дух теперь веками будет служить горьким напоминанием о том, какой хаос способна порождать магия теневого пламени.
 	BossChecklistIntegration.SpawnInfo: Используйте [i:SpiritMod/DuskCrown] ночью.
 }
 
@@ -305,7 +305,7 @@ ShadowBall.DisplayName: Светотеневая сфера
 
 Shadowflamer: {
 	DisplayName: Полутеневой череп
-	Entry: End of dawns, bringer of nights, may the king of darkness rise to fight! May you cast the world to darkness and forever seal the light! O' king hear my cry, for may victory be yours tonight!
+	Entry: «О ночи повелитель, о света умерщвитель, вставай на смертный бой, о сумрака король! Да запечатай солнце, да погрузить весь мир во тьму ты соизволь! О сумрака король, услышь наш зов, зов рьяных наших слов, врагов всех этой ночью обезволь!»
 }
 
 FrostSaucer: {
@@ -375,7 +375,7 @@ SteamRaiderBody2.DisplayName: Звёздопанцирный странник
 
 SteamRaiderHead: {
 	DisplayName: Звёздопанцирный странник
-	Entry: A strange automaton of unknown origin, designed for mining a precious metal from the stars. It utilizes the untapped energy found within the ore to power itself and perpetuate an endless search.
+	Entry: Машина для добычи полезных ископаемых из звёзд, что использует избыток энергии добываемой руды для зарядки своих батарей. Происхождение этой машины по сей день остаётся загадкой.
 	BossChecklistIntegration.SpawnInfo: Используйте [i:SpiritMod/StarWormSummon] ночью на астралитовом маяке, который можно найти в поле астероидов.
 	Spawn: Звёздопанцирный странник пробуждается!
 	Laser: Запуск лазерного протокола
@@ -641,7 +641,7 @@ TubeWorm: {
 }
 
 Vibeshroom: {
-	DisplayName: Quivershroom
+	DisplayName: Плясогриб
 	Entry: This little guy's playlist consists of 80% lofi beats and hyperwave. Although some judge his taste, that won't stop him from dancing.
 }
 
@@ -710,8 +710,8 @@ FallenAngel: {
 }
 
 Falling_Asteroid: {
-	DisplayName: Falling Asteroid
-	Entry: What appears to be a sentient rock is really a small critter using a chunk of the meteor as a shell. It's able to float around with ease, despite the weight.
+	DisplayName: Падающий астероид
+	Entry: На первый взгляд кажется, что это оживший камень, но на самом деле это маленькое существо, прячущееся под панцирем из куска метеорита. Несмотря на вес панциря, в воздухе это существо умеет держаться без особых усилий.
 }
 
 Vilemoth: {
@@ -754,8 +754,8 @@ GladiatorSpirit: {
 }
 
 GloopGloop: {
-	DisplayName: Gloop
-	Entry: No one's quite sure what these things are made of. Whatever it is, it doesn't taste good.
+	DisplayName: Жижка
+	Entry: Никто не знает из чего состоит это существо. Единственное, что о нём известно: на вкус оно очень отвратительное.
 }
 
 Goblin_Grenadier: {
@@ -893,8 +893,8 @@ OceanSlime: {
 }
 
 Mineroid: {
-	DisplayName: Orbitite
-	Entry: This insignificant asteroid orbits a larger body, but will one day leave the nest and drift into the vast universe.
+	DisplayName: Орбитник
+	Entry: Этот ещё маленький астероид пока только вращается вокруг большего тела, но однажды ему всё-таки придётся отправиться бороздить открытый космос в одиночку.
 }
 
 SamuraiHostile: {
@@ -1005,8 +1005,8 @@ Sea_Mandrake: {
 }
 
 DeepspaceHopper: {
-	DisplayName: Shockhopper
-	Entry: Originally mistaken for machines, these shock happy organisms travel near asteroid belts to feed off the abundance of exposed minerals.
+	DisplayName: Электрошоковый скакатель
+	Entry: Неусидчивые организмы, поедающие различные минералы, которыми полнятся поля астероидов. Когда-то их ошибочно считали механизмами из-за их необычной способности к телепортации. 
 }
 
 Skeleton_Brute: {
@@ -1021,63 +1021,63 @@ Snaptrapper: {
 }
 
 AncientDemon: {
-	DisplayName: Ancient Specter
-	Entry: Found only in the deepest depths of Spirit-touched Caverns, these malevolent wraiths hold one simple goal: Purloin the souls of living things.
+	DisplayName: Древнее умертвие
+	Entry: Эти коварные призраки жаждут лишь одного: высосать жизненную силу из очередного создания, забредшего в самые глубины подземелья духов.
 }
 
 HauntedBook: {
-	DisplayName: Ancient Tome
-	Entry: A mysterious tome possessed by ancient spirits. Each contains a strange set of pages written in an indecipherable language.
+	DisplayName: Древний фолиант
+	Entry: Загадочная книга, в которую вселились древние духи. Язык, которым исписаны все страницы таких фолиантов, расшифровать не удаётся.
 }
 
 NetherBane: {
-	DisplayName: Netherbane
-	Entry: An ethereal winged beast that soars through the spirit biome. Legend has it that every flap of its wings signifies another soul dying.
+	DisplayName: Загробина
+	Entry: Бестелесные подобия некого крылатого зверя, какими кишит весь лес духов. По одной легенде, с каждым взмахом их крыльев очередная душа отходит в мир иной.
 }
 
 SeerBat: {
-	DisplayName: Spirit Bat
-	Entry: Chunks of spirit-infused metal concentrated into the vague shape of a bat. Likely a lost soul's attempt to emulate the common flying mammal.
+	DisplayName: Призрачная летучая мышь
+	Entry: Кусок руды духов, из которого слепили нечто, отдалённо напоминающее летучую мышь. Должно быть, какая-то блуждающая душа пыталась скопировать образ незнакомого для себя животного.
 }
 
 SoulCrusher: {
-	DisplayName: Soul Crusher
-	Entry: Stones given life by thousands of souls, they angrily ram into any nearby disturbances, as it is sensitive to them. It shares the senses and thoughts of every soul that composes it, causing it great pain.
+	DisplayName: Душегуб
+	Entry: Каменная глыба, ожившая благодаря тысячам вселившихся в неё душ, пытающихся чем-то раздавить всех живых существ вокруг. Душегубы всё время пребывают в агонии, поскольку в полной мере ощущают страдания и переживания каждой души внутри себя.
 }
 
 SoulOrb: {
 	DisplayName: Сфера духов
-	Entry: A soft, flickering light anomaly drifting about the Spirit. They are said to be the wandering souls of departed travelers.
+	Entry: Мерцающие световые аномалии, медленно плывущие по воздуху в лесу духов и под ним. Поговаривают, что каждая такая сфера — неупокоенная душа скончавшегося в этом месте путника.
 }
 
 SpiritGhoul: {
 	DisplayName: Теневой упырь
-	Entry: Ghouls reanimated by the Spirit now leak ectoplasm from every crevice. Their bites have a chance of confusing their foes by briefly showing them glimpses of their former lives.
+	Entry: Ожившие благодаря духам упыри, из которых то и дело сочится эктоплазма. Пережившие их укус часто рассказывают, что на мгновение увидели воспоминания из своей прошлой жизни.
 }
 
 SpiritMummy: {
 	DisplayName: Сумрачная мумия
-	Entry: Afflicted by ethereal powers, these carcasses are now vessels for not their own souls, but countless others in need of a corporeal form.
+	Entry: В теле этой мумии уже не осталось её собственной души — потусторонние силы выгнали её оттуда и затолкали бесчисленное множество чужих душ, нуждающихся в собственном материальном вместилище. 
 }
 
 SpiritSkull: {
-	DisplayName: Spirit Skull
-	Entry: They only look like skulls, but in actuality are once again stones carved many centuries ago. These stones seem to be carved in such a way for souls to be able to inhabit it, yet there's seemingly no record of the Spirit existing prior to its release.
+	DisplayName: Череп духов
+	Entry: Высеченная давным-давно поделка из камня, похожая на настоящий череп. Судя по всему, она как раз и предназначалась для того, чтобы в неё вселялись чужие души.
 }
 
 SpiritVulture: {
-	DisplayName: Spirit Floater
-	Entry: Floating slabs of runic stone now given sentience by the Spirit. Despite seeming hostile, it only wishes for peace to lay and rest eternally once more.
+	DisplayName: Порхатель духов
+	Entry: Парящий кусок рунического камня, обрётший сознание благодаря влиянию духов. Выглядит, конечно, грозно, но будь на то его воля, он бы спокойно лежал себе на земле и дальше.
 }
 
 UnstableWisp: {
-	DisplayName: Unstable Wisp
-	Entry: A cluster of souls that was unable to find a vessel to inhabit. It is unable to hold itself together and any slight touch will cause it to explode, releasing the many clumped souls.
+	DisplayName: Нестабильный дух
+	Entry: Скопление душ, что не смогли найти, в кого вселиться. Настолько нестабильно, что тронь ты этого духа пальцем — тут же взорвётся, а все души вырвутся на свободу.
 }
 
 WanderingSoul: {
 	DisplayName: Блуждающая душа
-	Entry: Now being free from its slumber, it aimlessly wanders, forever lost in a world it no longer recognizes.
+	Entry: Теперь, когда эта душа очнулась от своего тысячелетнего сна, ей только и остаётся, что бесцельно блуждать по уже чуждому для себя миру.
 }
 
 SporeWheezer: {

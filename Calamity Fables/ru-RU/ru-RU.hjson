@@ -2814,7 +2814,7 @@ Mods: {
 			}
 
 			ElectrifiedBloodBuff: {
-				DisplayName: Электрофицированная кровь
+				DisplayName: Электризованная кровь
 				Description: Атаковавший вас враг получит удар электрическим разрядом
 			}
 

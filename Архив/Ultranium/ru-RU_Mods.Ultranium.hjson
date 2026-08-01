@@ -7,11 +7,11 @@ Event: {
 
 Buffs: {
 	DarkDebuff: {
-		DisplayName: Eldritch Decay
+		DisplayName: Потустороннее разложение
 		Description:
 			'''
-			Nullified life regeneration and decreased damage
-			Rapidly loosing life
+			Здоровье не восстанавливается, а урон снижен
+			Быстрая потеря здоровья
 			'''
 	}
 
@@ -25,28 +25,45 @@ Buffs: {
 	}
 
 	EldritchCooldown: {
-		DisplayName: Eldritch Cool Down
-		Description: You can't use your eldrich empowerment
+		DisplayName: Потусторонняя перезарядка
+		Description: Вы не можете использовать потусторонние усиление
 	}
 
 	EldritchMagicBuff: {
-		DisplayName: Eldritch Mage Empowerment
-		Description: 1.3x Magic damage, magic weapons cost no mana
+		DisplayName: Потустороннее усиление мага
+		Description:
+			'''
+			Магический урон увеличен в 1,3 раза
+			Магическое оружие не расходует ману
+			'''
 	}
 
 	EldritchMeleeBuff: {
-		DisplayName: Eldritch Warrior Empowerment
-		Description: 1.5x melee damage, however you take 1.3x damage
+		DisplayName: Потустороннее усиление воина
+		Description:
+			'''
+			Урон ближнего боя увеличен в 1,5 раза
+			Сопротивление урону снижено в 1,3 раза
+			'''
 	}
 
 	EldritchRangedBuff: {
-		DisplayName: Eldritch Ranger Empowerment
-		Description: 1.3x Ranged damage, 25% chance to not consume ammo
+		DisplayName: Потустороннее усиление стрелка
+		Description:
+			'''
+			Стрелковый урон увеличен в 1,3 раза
+			25% шанс не потратить боеприпасы
+			'''
 	}
 
 	EldritchSummonBuff: {
-		DisplayName: Eldritch Summon Empowerment
-		Description: 1.5x summon damage, abyssal eye is empowered
+		DisplayName: Потустороннее усиление призывателя
+		Description:
+			'''
+			Урон призывателя увеличен в 1,5 раза
+			Потусторонний монолит усилен
+			'''
+		
 	}
 
 	EtherealCooldown: {
@@ -197,8 +214,8 @@ Biomes: {
 	}
 
 	ShadowBiome: {
-		DisplayName: Беспросветие
-		TownNPCDialogueName: Беспросветие
+		DisplayName: Темень
+		TownNPCDialogueName: Темень
 	}
 }
 
@@ -320,10 +337,10 @@ Items: {
 			Увеличивает максимальный запас здоровья на 60 ед. и максимальный запас маны на 30 ед.
 			Даёт невосприимчивость к дебаффу «{$Buffs.DarkDebuff.DisplayName}»
 			Даёт некоторые бонусы, в зависимости от вашего оставшегося здоровья:
-			При здоровье ниже 75%, увеличивает шанс критического удара на 15%
-			При здоровье ниже 50%, увеличивает урон на 15%
-			При здоровье ниже 25%, увеличивает защиту на 15 ед.
-			Все эти эффекты складываются друг с другом
+			- при здоровье ниже 75%, увеличивает шанс критического удара на 15%
+			- при здоровье ниже 50%, увеличивает урон на 15%
+			- при здоровье ниже 25%, увеличивает защиту на 15 ед.
+			Все эффекты суммируются друг с другом
 			'''
 	}
 
@@ -516,7 +533,7 @@ Items: {
 		Tooltip:
 			'''
 			Shoots spreads of homing shadow stars
-			~Dedicated Item~
+			~Посвящённый предмет~
 			'''
 	}
 
@@ -524,7 +541,7 @@ Items: {
 		Tooltip:
 			'''
 			Imagine Pew pew in Terraria, HHHHHHHHHHHHHH im smart as frick.
-			~Developer Item~
+			~Предмет разработчика~
 			'''
 		DisplayName: Ray Gun
 	}
@@ -534,7 +551,7 @@ Items: {
 		Tooltip:
 			'''
 			When played, the flute will create a phantom claw that will home in on enemies
-			~Developer Item~
+			~Предмет разработчика~
 			'''
 	}
 
@@ -550,7 +567,7 @@ Items: {
 
 	DreadSummon: {
 		DisplayName: Посох Ужаса
-		Tooltip: Призывает ужаса-миньона
+		Tooltip: Призывает Ужаса-миньона
 	}
 
 	DreadSword: {
@@ -630,7 +647,7 @@ Items: {
 	}
 
 	HorrorVisor: {
-		DisplayName: Кошмарный визор
+		DisplayName: Кошмарное забрало
 		Tooltip: Увеличивает шанс стрелкового критического удара на 12%
 		SetBonus:
 			'''
@@ -736,47 +753,47 @@ Items: {
 	}
 
 	EldritchAegis: {
-		DisplayName: Erebus Bulwark
+		DisplayName: Бастион Эреба
 		Tooltip:
 			'''
-			Grants immunity to most debuffs and knockback
-			Damage taken from lava is reduced and you can walk on fire blocks
-			Grants you the ice barrier buff when below 25% hp, which reduces damage taken by 25%
-			Grants you the ability to dash
-			Disabling the visibility will disable the dash
+			Даёт невосприимчивость к отбрасыванию, огненным блокам и большинству дебаффов
+			Снижает урон, получаемый при контакте с лавой
+			Окружает панцирем, который увеличивает сопротивление урону на 25%, если ваше здоровье ниже 50%
+			Позволяет совершать рывок
+			Отключите видимость аксессуара, чтобы выключить возможность совершать рывок
 			'''
 	}
 
 	EldritchBoots: {
-		DisplayName: Eldritch Tracers
+		DisplayName: Потусторонние бегуны
 		Tooltip:
 			'''
-			Allows flight and slow fall
-			Allows super fast running and extra mobility on ice
-			10% increased movement speed
-			Grants the ability to walk on water and lava
-			Grants immunity to fire blocks and 10 seconds of immunity to lava
+			{$CommonItemTooltip.FlightAndSlowfall}
+			Позволяет очень быстро бегать и увеличивает подвижность на льду
+			Увеличивает скорость передвижения на 10%
+			Позволяет ходить по воде, мёду и лаве
+			Даёт невосприимчивость к огненным блокам и 10 секунд невосприимчивости к лаве
 			'''
 	}
 
 	EldritchFlower: {
-		DisplayName: Weeping Rose
+		DisplayName: Плачущая роза
 		Tooltip:
 			'''
-			15% increased magic damage
-			Automatically consumes mana potions when needed
-			Increases pick up range for mana stars
-			Magic projectiles inflict the eldritch decay debuff
+			Увеличивает магический урон на 15%
+			Автоматически использует зелья маны при необходимости
+			Увеличивает дальность подбора звёзд маны
+			Магические снаряды будут накладывать дебафф «{$Buffs.DarkDebuff.DisplayName}»
 			'''
 	}
 
 	EldritchScroll: {
-		DisplayName: Scroll of the Abyss
+		DisplayName: Свиток бездны
 		Tooltip:
 			'''
-			15% increased summon damage and minion knockback
-			+2 max minions
-			Minions inflict the eldritch decay debuff
+			Увеличивает урон призывателя на 15% и отбрасывание призывателя
+			Увеличивает максимальное количество миньонов на 2
+			Атаки миньонов будут накладывать дебафф «{$Buffs.DarkDebuff.DisplayName}»
 			'''
 	}
 
@@ -825,7 +842,7 @@ Items: {
 			Увеличивает стрелковый урон на 10% и даёт 20% шанс не потратить боеприпасы
 			Увеличивает максимальный запас здоровья на 10 ед.
 			Нажмите клавишу «Особая способность», чтобы получить бафф «{$Buffs.EldritchRangedBuff.DisplayName}»
-			Этот бафф увеличивает урон стрелкового оружия в 1,3 раза, а также даёт 25% шанс не потратить боеприпасы
+			Этот бафф увеличивает стрелковый урон в 1,3 раза, а также даёт 25% шанс не потратить боеприпасы
 			Эта способность имеет 40 секунд перезарядки
 			'''
 	}
@@ -843,7 +860,7 @@ Items: {
 			Увеличивает урон и скорость атаки ближнего боя на 10%
 			Увеличивает максимальный запас здоровья на 10 ед.
 			Нажмите клавишу «Особая способность», чтобы получить бафф «{$Buffs.EldritchMeleeBuff.DisplayName}»
-			Этот бафф увеличивает урон оружия ближнего боя в 1,5 раза, но вы также будете получать в 1,3 раза больше урона
+			Этот бафф увеличивает урон ближнего боя в 1,5 раза, но вы также будете получать в 1,3 раза больше урона
 			Эта способность имеет 40 секунд перезарядки
 			'''
 	}
@@ -861,8 +878,7 @@ Items: {
 			Увеличивает магический урон на 10% и снижает расход маны на 20%
 			Увеличивает максимальный запас здоровья и маны на 10 ед.
 			Нажмите клавишу «Особая способность», чтобы получить бафф «{$Buffs.EldritchMagicBuff.DisplayName}»
-			This buff will cause all magic weapons to deal 1.3x damage,
-			and makes magic weapons cost no mana
+			Этот бафф увеличивает магический урон в 1,3 раза и отключает расход маны
 			Эта способность имеет 40 секунд перезарядки
 			'''
 	}
@@ -892,7 +908,7 @@ Items: {
 			Pressing the Special Ability hotkey will grant you the eldritch summon empowerment buff
 			This buff will cause all summons to deal 1.5x damage,
 			as well as causing your monolith to become stronger and shoot faster
-			This ability has a 40 second cool down";
+			This ability has a 40 second cool down
 			'''
 	}
 
@@ -1104,8 +1120,8 @@ Items: {
 	}
 
 	XenanisWings: {
-		DisplayName: Ethereal Wings
-		Tooltip: Allows flight and slow fall
+		DisplayName: Эфемерные крылья
+		Tooltip: "{$CommonItemTooltip.FlightAndSlowfall}"
 	}
 
 	FakeWhoopieCushion: {
@@ -1118,8 +1134,8 @@ Items: {
 	}
 
 	DepthCrate: {
-		DisplayName: Depths Crate
-		Tooltip: Right click to open
+		DisplayName: Ящик пучин
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	HuskmireMaw: {
@@ -1138,33 +1154,33 @@ Items: {
 	}
 
 	BrokenIgnodiumSummon: {
-		DisplayName: Ancient Hell Relic
+		DisplayName: Древняя адская реликвия
 		Tooltip:
 			'''
-			An ancient artifact of hell
-			Increases melee and ranged damage by 7%
-			+10 max life
+			Древний артефакт ада
+			Увеличивает стрелковый урон и урон ближнего боя на 7%
+			Увеличивает максимальный запас здоровья на 10 ед.
 			'''
 	}
 
 	BrokenUltrumSummon: {
-		DisplayName: Ancient Nature Relic
+		DisplayName: Древняя природная реликвия
 		Tooltip:
 			'''
-			An ancient artifact of nature
-			Increases magic and summon damage by 7%
-			+20 max mana and +1 max minions
+			Древний артефакт природы
+			Увеличивает магический урон и урон призывателя на 7%
+			Увеличивает максимальный запас маны на 20 ед. и максимальное количество миньонов на 1
 			'''
 	}
 
 	GuardianShield: {
-		DisplayName: Shield of the Deities
+		DisplayName: Щит Божеств
 		Tooltip:
 			'''
-			Grants immunity to most debuffs and knockback
-			Damage taken from lava is reduced and you can walk on fire blocks
-			Grants you the ability to dash
-			Disabling the visibility will disable the dash
+			Даёт невосприимчивость к отбрасыванию, огненным блокам и большинству дебаффов
+			Снижает урон, получаемый при контакте с лавой
+			Позволяет совершать рывок
+			Отключите видимость аксессуара, чтобы выключить возможность совершать рывок
 			'''
 	}
 
@@ -1204,8 +1220,8 @@ Items: {
 	}
 
 	HellShard: {
-		DisplayName: Ignodium Essence Shard
-		Tooltip: '''"An ancient energy of hell resides within this fragment"'''
+		DisplayName: Частица сущности Игнодиума
+		Tooltip: «В этом фрагменте заключена энергия ада»
 	}
 
 	HellStaff: {
@@ -1278,8 +1294,8 @@ Items: {
 	}
 
 	UltrumShard: {
-		DisplayName: Фрагмент сущности Ультрума
-		Tooltip: '''"An ancient energy of nature resides within this fragment"'''
+		DisplayName: Частица сущности Ультрума
+		Tooltip: «В этом фрагменте заключена энергия природы»
 	}
 
 	IceBody: {
@@ -1609,7 +1625,7 @@ Items: {
 		Tooltip:
 			'''
 			Summons a pet cacodemon
-			~Developer Item~
+			~Предмет разработчика~
 			'''
 	}
 
@@ -1623,7 +1639,7 @@ Items: {
 		Tooltip:
 			'''
 			Summons a horrifying demon
-			~Dedicated Item~
+			~Посвящённый предмет~
 			'''
 	}
 
@@ -2002,17 +2018,17 @@ Items: {
 	}
 
 	AldinBody: {
-		DisplayName: Cosmic Mage's Body
+		DisplayName: Нагрудник мага космоса
 		Tooltip: ""
 	}
 
 	AldinHood: {
-		DisplayName: Cosmic Mage's Hood
+		DisplayName: Капюшон мага космоса
 		Tooltip: ""
 	}
 
 	AldinRobe: {
-		DisplayName: Cosmic Mage's Robe
+		DisplayName: Мантия мага космоса
 		Tooltip: ""
 	}
 
@@ -2057,62 +2073,62 @@ Items: {
 	}
 
 	FutabaBody: {
-		DisplayName: Futaba Body
-		Tooltip: ~Developer item~
+		DisplayName: Тело Futaba
+		Tooltip: ~Предмет разработчика~
 	}
 
 	FutabaHead: {
-		DisplayName: Futaba Head
-		Tooltip: ~Developer item~
+		DisplayName: Голова Futaba
+		Tooltip: ~Предмет разработчика~
 	}
 
 	FutabaLegs: {
-		DisplayName: Futaba Legs
-		Tooltip: ~Developer item~
+		DisplayName: Ноги Futaba
+		Tooltip: ~Предмет разработчика~
 	}
 
 	LuxBody: {
-		DisplayName: Lux's Body
-		Tooltip: ~Developer item~
+		DisplayName: Тело Lux
+		Tooltip: ~Предмет разработчика~
 	}
 
 	LuxHead: {
-		DisplayName: Lux's Head
-		Tooltip: ~Developer item~
+		DisplayName: Голова Lux
+		Tooltip: ~Предмет разработчика~
 	}
 
 	LuxLegs: {
-		DisplayName: Lux's Legs
-		Tooltip: ~Developer item~
+		DisplayName: Ноги Lux
+		Tooltip: ~Предмет разработчика~
 	}
 
 	LuxWings: {
-		DisplayName: Lux's Wings
+		DisplayName: Крылья Lux
 		Tooltip:
 			'''
-			Allows flight and slow fall
-			~Developer item~
+			{$CommonItemTooltip.FlightAndSlowfall}
+			~Предмет разработчика~
 			'''
 	}
 
 	PoisonBody: {
-		DisplayName: Pois1x's Chestmail
-		Tooltip: ~Developer item~
+		DisplayName: Нагрудник Pois1x
+		Tooltip: ~Предмет разработчика~
 	}
 
 	PoisonHead: {
-		DisplayName: Pois1x's Hood
-		Tooltip: ~Developer item~
+		DisplayName: Капюшон Pois1x
+		Tooltip: ~Предмет разработчика~
 	}
 
 	PoisonLegs: {
-		DisplayName: Pois1x's Leggings
-		Tooltip: ~Developer item~
+		DisplayName: Штаны Pois1x
+		Tooltip: ~Предмет разработчика~
 	}
 
 	RockMask: {
-		DisplayName: RockWizard5's Mask
-		Tooltip: ~Developer item~
+		DisplayName: Маска RockWizard5
+		Tooltip: ~Предмет разработчика~
 	}
 
 	DepthSnailItem: {
@@ -2216,147 +2232,147 @@ Items: {
 
 	AbyssalAnglerBanner: {
 		DisplayName: Abyssal Angler Banner
-		Tooltip: Nearby players get a bonus against: Abyssal Angler
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Abyssal Angler"
 	}
 
 	AbyssEelBanner: {
 		DisplayName: Abyssal Eel Banner
-		Tooltip: Nearby players get a bonus against: Abyssal Eel
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Abyssal Eel"
 	}
 
 	AbyssJellyBanner: {
 		DisplayName: Abyss Jelly Banner
-		Tooltip: Nearby players get a bonus against: Abyssal Jelly
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Abyssal Jelly"
 	}
 
 	AbyssSharkBanner: {
 		DisplayName: Abyssal Goblin Shark Banner
-		Tooltip: Nearby players get a bonus against: Abyssal Goblin Shark
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Abyssal Goblin Shark"
 	}
 
 	DepthCrawlerBanner: {
 		DisplayName: Depth Crawler Banner
-		Tooltip: Nearby players get a bonus against: Depth Crawler
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Depth Crawler"
 	}
 
 	DepthMongerBanner: {
 		DisplayName: Depth Monger Banner
-		Tooltip: Nearby players get a bonus against: Depth Monger
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Depth Monger"
 	}
 
 	DepthSlimeBanner: {
 		DisplayName: Tenebris Mass Banner
-		Tooltip: Nearby players get a bonus against: Tenebris Mass
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Tenebris Mass"
 	}
 
 	DepthsMimicBanner: {
 		DisplayName: Depths Mimic Banner
-		Tooltip: Nearby players get a bonus against: Depths Mimic
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Depths Mimic"
 	}
 
 	ShadeBatBanner: {
 		DisplayName: Shade Bat Banner
-		Tooltip: Nearby players get a bonus against: Depth Bat
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Depth Bat"
 	}
 
 	ShroomMonsterBanner: {
 		DisplayName: Shroom Monster Banner
-		Tooltip: Nearby players get a bonus against: Shroom Monster
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Shroom Monster"
 	}
 
 	DreadApparitionBanner: {
 		DisplayName: Dread Apparition Banner
-		Tooltip: Nearby players get a bonus against: Dread Apparition
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Dread Apparition"
 	}
 
 	DreadChaserBanner: {
 		DisplayName: Dread Chaser Banner
-		Tooltip: Nearby players get a bonus against: Dread Chaser
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Dread Chaser"
 	}
 
 	OrcaBanner: {
 		DisplayName: Orca Banner
-		Tooltip: Nearby players get a bonus against: Orca
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Orca"
 	}
 
 	StellarChaserBanner: {
 		DisplayName: Stellar Chaser Banner
-		Tooltip: Nearby players get a bonus against: Stellar Chaser
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Stellar Chaser"
 	}
 
 	StellarSlimeBanner: {
 		DisplayName: Stellar Slime Banner
-		Tooltip: Nearby players get a bonus against: Stellar Slime
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Stellar Slime"
 	}
 
 	DarkDemonBanner: {
 		DisplayName: Dark Demon Banner
-		Tooltip: Nearby players get a bonus against: Dark Demon
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Dark Demon"
 	}
 
 	EldritchCasterBanner: {
 		DisplayName: Eldritch Caster Banner
-		Tooltip: Nearby players get a bonus against: Eldritch Caster
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Eldritch Caster"
 	}
 
 	ShadeGhoulBanner: {
 		DisplayName: Shade Ghoul Banner
-		Tooltip: Nearby players get a bonus against: Shade Ghoul
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Shade Ghoul"
 	}
 
 	ShadowBatBanner: {
 		DisplayName: Shadow Bat Banner
-		Tooltip: Nearby players get a bonus against: Shadow Bat
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Shadow Bat"
 	}
 
 	TenebrisSlimeBanner: {
 		DisplayName: Tenebris Slime Banner
-		Tooltip: Nearby players get a bonus against: Tenebris Slime
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Tenebris Slime"
 	}
 
 	AbyssalCultistBanner: {
 		DisplayName: Abyssal Cultist Banner
-		Tooltip: Nearby players get a bonus against: Abyssal Cultist
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Abyssal Cultist"
 	}
 
 	AbyssalWraithBanner: {
 		DisplayName: Abyssal Wraith Banner
-		Tooltip: Nearby players get a bonus against: Abyssal Wraith
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Abyssal Wraith"
 	}
 
 	AbyssBruteBanner: {
 		DisplayName: Abyssal Brute Banner
-		Tooltip: Nearby players get a bonus against: Abyssal Brute
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Abyssal Brute"
 	}
 
 	FlayerWraithBanner: {
 		DisplayName: Flayer Wraith Banner
-		Tooltip: Nearby players get a bonus against: Flayer Wraith
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Flayer Wraith"
 	}
 
 	MotherPhantomBanner: {
 		DisplayName: Mother Phantom Banner
-		Tooltip: Nearby players get a bonus against: Mother Phantom
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Mother Phantom"
 	}
 
 	PhantomBanner: {
 		DisplayName: Phantom Banner
-		Tooltip: Nearby players get a bonus against: Phantom
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Phantom"
 	}
 
 	Scp2521Banner: {
 		DisplayName: Abyss Strider Banner
-		Tooltip: Nearby players get a bonus against: Abyss Strider
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Abyss Strider"
 	}
 
 	ShadeMassBanner: {
 		DisplayName: Shade Mass Banner
-		Tooltip: Nearby players get a bonus against: Shade Mass
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Shade Mass"
 	}
 
 	ShadeSpiritBanner: {
 		DisplayName: Shade Spirit Banner
-		Tooltip: Nearby players get a bonus against: Shade Spirit
+		Tooltip: "{$CommonItemTooltip.BannerBonus}Shade Spirit"
 	}
 
 	DepthSnailCageItem: {
@@ -2365,72 +2381,72 @@ Items: {
 	}
 
 	ShadowBedItem: {
-		DisplayName: Eldritch Bed
+		DisplayName: Потусторонняя кровать
 		Tooltip: ""
 	}
 
 	ShadowBookcaseItem: {
-		DisplayName: Eldritch Bookcase
+		DisplayName: Потусторонний книжный шкаф
 		Tooltip: ""
 	}
 
 	ShadowChairItem: {
-		DisplayName: Eldritch Chair
+		DisplayName: Потусторонний стул
 		Tooltip: ""
 	}
 
 	ShadowChestItem: {
-		DisplayName: Eldritch Chest
+		DisplayName: Потусторонний сундук
 		Tooltip: ""
 	}
 
 	ShadowClockItem: {
-		DisplayName: Eldritch Clock
+		DisplayName: Потусторонние напольные часы
 		Tooltip: ""
 	}
 
 	ShadowDoorItem: {
-		DisplayName: Eldritch Door
+		DisplayName: Потусторонняя дверь
 		Tooltip: ""
 	}
 
 	ShadowDresserItem: {
-		DisplayName: Eldritch Dresser
+		DisplayName: Потусторонний комод
 		Tooltip: ""
 	}
 
 	ShadowLampItem: {
-		DisplayName: Eldritch Lamp
+		DisplayName: Потусторонняя напольная лампа
 		Tooltip: ""
 	}
 
 	ShadowLanternItem: {
-		DisplayName: Eldritch Lantern
+		DisplayName: Потусторонний фонарь
 		Tooltip: ""
 	}
 
 	ShadowPlatformItem: {
-		DisplayName: Eldritch Wood Platform
+		DisplayName: Платформа из потусторонней древесины
 		Tooltip: ""
 	}
 
 	ShadowTableItem: {
-		DisplayName: Eldritch Table
+		DisplayName: Потусторонний стол
 		Tooltip: ""
 	}
 
 	IgnodiumShrineItem: {
-		DisplayName: Ignodium Shrine
+		DisplayName: Святыня Игнодиума
 		Tooltip: ""
 	}
 
 	ShrineChestItem: {
-		DisplayName: Guardian Chest
+		DisplayName: Сундук хранителей
 		Tooltip: ""
 	}
 
 	UltrumShrineItem: {
-		DisplayName: Ultrum Shrine
+		DisplayName: Святыня Ультрума
 		Tooltip: ""
 	}
 
@@ -2490,7 +2506,7 @@ Items: {
 	}
 
 	ShadowMusicBox: {
-		DisplayName: Музыкальная шкатулка (Беспросветие)
+		DisplayName: Музыкальная шкатулка (Темень)
 		Tooltip: ""
 	}
 
@@ -2524,17 +2540,17 @@ Items: {
 	}
 
 	EldritchShingleItem: {
-		DisplayName: Eldritch Shingle
+		DisplayName: Потусторонняя черепица
 		Tooltip: ""
 	}
 
 	ShadowWood: {
-		DisplayName: Eldritch Wood
+		DisplayName: Потусторонняя древесина
 		Tooltip: ""
 	}
 
 	ShadowWoodWallItem: {
-		DisplayName: Eldritch Wood Wall
+		DisplayName: Стена из потустороннего дерева
 		Tooltip: ""
 	}
 
@@ -2549,22 +2565,22 @@ Items: {
 	}
 
 	ShadowOre: {
-		DisplayName: Tenebris Ore
-		Tooltip: "'Pulses with abyssal energy'"
+		DisplayName: Тенебрисовая руда
+		Tooltip: «Пульсирует пустотной энергией»
 	}
 
 	ShadowStone: {
-		DisplayName: Shadow Stone
+		DisplayName: Теневой камень
 		Tooltip: ""
 	}
 
 	IgnodiumRockItem: {
-		DisplayName: Ignodium Rock
+		DisplayName: Игнодиумый камень
 		Tooltip: ""
 	}
 
 	UltrumRockItem: {
-		DisplayName: Ultrum Rock
+		DisplayName: Ультрумый камень
 		Tooltip: ""
 	}
 
@@ -2627,8 +2643,8 @@ NPCs: {
 		SpawnInfo: Используйте [i:Ultranium/DreadBeacon] ночью.
 	}
 
-	DreadBossP2.DisplayName: Dread
-	DreadHook.DisplayName: Dread Hook
+	DreadBossP2.DisplayName: Ужас
+	DreadHook.DisplayName: Крюк Ужаса
 	DreadOrbiter.DisplayName: Dread Orbiter
 	DepthSnail.DisplayName: Tenebris Snail
 	SpectreFish.DisplayName: Spectre Fish
@@ -2643,7 +2659,7 @@ NPCs: {
 	DepthsMimic.DisplayName: Depths Mimic
 	ShadeBat.DisplayName: Shade Bat
 	ShroomMonster.DisplayName: Shroom Monster
-	DreadApparition.DisplayName: Dread Apparition
+	DreadApparition.DisplayName: Призрак Ужаса
 	DreadChaser.DisplayName: Dread Chaser
 	Orca.DisplayName: Orca
 	DarkDemon.DisplayName: Dark Demon
@@ -2659,8 +2675,8 @@ NPCs: {
 		SpawnInfo: Используйте [i:Ultranium/EtherealLantern] ночью.
 	}
 
-	XenanisClone1.DisplayName: Xenanis Apparition
-	XenanisClone2.DisplayName: Xenanis Apparition
+	XenanisClone1.DisplayName: Призрак Ксенаниса
+	XenanisClone2.DisplayName: Призрак Ксенаниса
 
 	IceDragon: {
 		DisplayName: Ледникон
@@ -2680,26 +2696,26 @@ NPCs: {
 	AbyssalCultist.DisplayName: Abyssal Cultist
 	AbyssalWraith.DisplayName: Abyssal Wraith
 	FlayerWraith.DisplayName: Flayer Wraith
-	MindFlayer.DisplayName: Mind Flayer
-	MindFlayerClone.DisplayName: Mind Flayer
+	MindFlayer.DisplayName: Свежатель разума
+	MindFlayerClone.DisplayName: Свежатель разума
 	MotherPhantom.DisplayName: Mother Phantom
 	Phantom.DisplayName: Phantom
 	Scp2521.DisplayName: Abyss Strider
 	ShadeMass.DisplayName: Darkmatter Mass
 	ShadeSpirit.DisplayName: Shade Spirit
 	Warden.DisplayName: Abyssal Brute
-	ErebusBody.DisplayName: Erebus
+	ErebusBody.DisplayName: Эреб
 
 	ErebusHead: {
 		DisplayName: Эреб
 		SpawnInfo: Используйте [i:Ultranium/ErebusFood] во время Пустотного армагедонна или дождитесь самостоятельного появления босса в конце события.
 	}
 
-	ErebusTail.DisplayName: Erebus
+	ErebusTail.DisplayName: Эреб
 	RestlessSoul.DisplayName: Restless Soul
 
 	Keeper: {
-		DisplayName: Keeper
+		DisplayName: Хранитель
 
 		Dialogue: {
 			Talk1: I'm not that short shut up
@@ -2717,11 +2733,11 @@ NPCs: {
 			Hype: Y E S
 		}
 
-		Currency: Glow Shrooms
-		Aldin: Aldin
+		Currency: Светящиеся грибы
+		Aldin: Алдин
 
 		Buttons: {
-			Mushrooms: Mushrooms
+			Mushrooms: Грибы
 			Prompt: ???
 		}
 
@@ -2739,8 +2755,8 @@ NPCs: {
 		Census.SpawnCondition: Conditions unknown
 	}
 
-	FakeDread.DisplayName: Dread???
-	FakeDreadHook.DisplayName: Dread Hook
+	FakeDread.DisplayName: Ужас???
+	FakeDreadHook.DisplayName: Крюк Ужаса
 	TrueDreadOrbiter.DisplayName: Dread Orbiter
 
 	TrueDread: {
@@ -3044,45 +3060,45 @@ Projectiles: {
 }
 
 Tiles: {
-	DarkDepthsBanners.MapEntry: Dark Depths Banners
-	MiscBanners.MapEntry: Misc Banners
-	ShadowBanners.MapEntry: Shadow Banners
-	ShadowEventBanners.MapEntry: Shadow Event Banners
-	DepthCrateTile.MapEntry: Depth Crate Tile
+	DarkDepthsBanners.MapEntry: Знамя
+	MiscBanners.MapEntry: Знамя
+	ShadowBanners.MapEntry: Знамя
+	ShadowEventBanners.MapEntry: Знамя
+	DepthCrateTile.MapEntry: ""
 	DepthSnailCage.MapEntry: Depth Snail Cage
-	ShadowBed.MapEntry: Shadow Bed
-	ShadowChair.MapEntry: Shadow Chair
-	ShadowChest.MapEntry: Shadow Chest
-	ShadowClock.MapEntry: Shadow Clock
-	ShadowDoorClosed.MapEntry: Shadow Door Closed
-	ShadowDoorOpen.MapEntry: Shadow Door Open
-	ShadowLantern.MapEntry: Shadow Lantern
-	ShrineChest.MapEntry: Shrine Chest
-	AldinMusicBoxTile.MapEntry: Aldin Music Box Tile
-	DepthMusicBoxTile.MapEntry: Depth Music Box Tile
-	DreadMusicBoxTile.MapEntry: Dread Music Box Tile
-	ErebusMusicBoxTile.MapEntry: Erebus Music Box Tile
-	EtherealMusicBoxTile.MapEntry: Ethereal Music Box Tile
-	FlayerMusicBoxTile.MapEntry: Flayer Music Box Tile
-	GuardianPhase1BoxTile.MapEntry: Guardian Phase1 Box Tile
-	GuardianPhase2BoxTile.MapEntry: Guardian Phase2 Box Tile
-	IceMusicBoxTile.MapEntry: Ice Music Box Tile
-	ShadowEventBoxTile.MapEntry: Shadow Event Box Tile
-	ShadowEventBoxTile2.MapEntry: Shadow Event Box Tile2
-	ShadowMusicBoxTile.MapEntry: Shadow Music Box Tile
-	TrueDreadBoxTile.MapEntry: True Dread Box Tile
-	ZephyrMusicBoxTile.MapEntry: Zephyr Music Box Tile
-	ShadowOreTile.MapEntry: Shadow Ore Tile
+	ShadowBed.MapEntry: Кровать
+	ShadowChair.MapEntry: Стул
+	ShadowChest.MapEntry: Потусторонний сундук
+	ShadowClock.MapEntry: Напольные часы
+	ShadowDoorClosed.MapEntry: Дверь
+	ShadowDoorOpen.MapEntry: Дверь
+	ShadowLantern.MapEntry: Напольная лампа
+	ShrineChest.MapEntry: Сундук хранителей
+	AldinMusicBoxTile.MapEntry: Музыкальная шкатулка
+	DepthMusicBoxTile.MapEntry: Музыкальная шкатулка
+	DreadMusicBoxTile.MapEntry: Музыкальная шкатулка
+	ErebusMusicBoxTile.MapEntry: Музыкальная шкатулка
+	EtherealMusicBoxTile.MapEntry: Музыкальная шкатулка
+	FlayerMusicBoxTile.MapEntry: Музыкальная шкатулка
+	GuardianPhase1BoxTile.MapEntry: Музыкальная шкатулка
+	GuardianPhase2BoxTile.MapEntry: Музыкальная шкатулка
+	IceMusicBoxTile.MapEntry: Музыкальная шкатулка
+	ShadowEventBoxTile.MapEntry: Музыкальная шкатулка
+	ShadowEventBoxTile2.MapEntry: Музыкальная шкатулка
+	ShadowMusicBoxTile.MapEntry: Музыкальная шкатулка
+	TrueDreadBoxTile.MapEntry: Музыкальная шкатулка
+	ZephyrMusicBoxTile.MapEntry: Музыкальная шкатулка
+	ShadowOreTile.MapEntry: Теневая руда
 	ShadowTreeSapling.MapEntry: Shadow Tree Sapling
-	AldinTrophy.MapEntry: Aldin Trophy
-	DreadTrophy.MapEntry: Dread Trophy
-	ErebusTrophy.MapEntry: Erebus Trophy
-	FlayerTrophy.MapEntry: Flayer Trophy
-	IceDragonTrophy.MapEntry: Ice Dragon Trophy
-	IgnodiumTrophy.MapEntry: Ignodium Trophy
-	SquidTrophy.MapEntry: Squid Trophy
-	UltrumTrophy.MapEntry: Ultrum Trophy
-	XenanisTrophy.MapEntry: Xenanis Trophy
+	AldinTrophy.MapEntry: Трофей
+	DreadTrophy.MapEntry: Трофей
+	ErebusTrophy.MapEntry: Трофей
+	FlayerTrophy.MapEntry: Трофей
+	IceDragonTrophy.MapEntry: Трофей
+	IgnodiumTrophy.MapEntry: Трофей
+	SquidTrophy.MapEntry: Трофей
+	UltrumTrophy.MapEntry: Трофей
+	XenanisTrophy.MapEntry: Трофей
 }
 
 Status: {
@@ -3107,11 +3123,11 @@ Status: {
 Achievements: {
 	DreadAchievement: {
 		FriendlyName: Это был ужасный день
-		Description: Одержать победу над Ужасом — физическим воплощением страха.
+		Description: Одержать победу над Ужасом - физическим воплощением страха.
 	}
 
 	ErebusAchievement: {
-		FriendlyName: A Spooky Future
+		FriendlyName: Пред-Хэллоуинский сезон
 		Description: Одержать победу над Эребом — кошмарным чудищем из разлома.
 	}
 
@@ -3131,8 +3147,8 @@ Achievements: {
 	}
 
 	MushroomAchievement: {
-		FriendlyName: Multiversal Mycologist
-		Description: Collect all of the strange fungi throughout the world and give them to the Keeper.
+		FriendlyName: Всевселенский грибник
+		Description: Найти по миру все странные игры и отдать их хранителю.
 	}
 
 	SquidAchievement: {
@@ -3156,12 +3172,12 @@ Achievements: {
 	}
 
 	ShadowAchievement: {
-		FriendlyName: The Dark World
-		Description: Triumph over the Abyssal Armageddon, when creatures from another world break through the sky to destroy.
+		FriendlyName: Царство тьмы
+		Description: Остановить Пустотный армагеддон — нашествие иномирных существ, желающих лишь тотального уничтожения.
 	}
 
 	AldinAchievement: {
 		FriendlyName: ???
-		Description: Secret slayer.
+		Description: Убить одного неизвестного.
 	}
 }
