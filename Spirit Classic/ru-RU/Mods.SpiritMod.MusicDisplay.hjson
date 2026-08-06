@@ -186,5 +186,5 @@ ReachNighttime: {
 
 CrimsonNight: {
 	DisplayName: Ночной багрянец: Razor's Edge
-	Author: "{$BySalvati}, {$Sbubby}"
+	Author: "{$BySalvati} и {$Sbubby}"
 }

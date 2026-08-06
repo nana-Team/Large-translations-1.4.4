@@ -295,7 +295,7 @@ Items: {
 	}
 
 	FlayerBrain: {
-		DisplayName: Разум Свежателя разума
+		DisplayName: Разум свежеватель разума
 		Tooltip:
 			'''
 			Увеличивает урон и шанс критического удара на 10%
@@ -2053,7 +2053,7 @@ Items: {
 	}
 
 	MindFlayerMask: {
-		DisplayName: Маска Свежателя разума
+		DisplayName: Маска свежевателя разума
 		Tooltip: ""
 	}
 
@@ -2476,7 +2476,7 @@ Items: {
 	}
 
 	FlayerMusicBox: {
-		DisplayName: Музыкальная шкатулка (Свежатель разума)
+		DisplayName: Музыкальная шкатулка (Свежеватель разума)
 		Tooltip: ""
 	}
 
@@ -2600,7 +2600,7 @@ Items: {
 	}
 
 	FlayerTrophyItem: {
-		DisplayName: Трофей Свежателя разума
+		DisplayName: Трофей свежевателя разума
 		Tooltip: ""
 	}
 
@@ -2696,8 +2696,8 @@ NPCs: {
 	AbyssalCultist.DisplayName: Abyssal Cultist
 	AbyssalWraith.DisplayName: Abyssal Wraith
 	FlayerWraith.DisplayName: Flayer Wraith
-	MindFlayer.DisplayName: Свежатель разума
-	MindFlayerClone.DisplayName: Свежатель разума
+	MindFlayer.DisplayName: Свежеватель разума
+	MindFlayerClone.DisplayName: Свежеватель разума
 	MotherPhantom.DisplayName: Mother Phantom
 	Phantom.DisplayName: Phantom
 	Scp2521.DisplayName: Abyss Strider
@@ -3127,7 +3127,7 @@ Achievements: {
 	}
 
 	ErebusAchievement: {
-		FriendlyName: Пред-Хэллоуинский сезон
+		FriendlyName: Пред-хэллоуинский сезон
 		Description: Одержать победу над Эребом — кошмарным чудищем из разлома.
 	}
 
@@ -3143,7 +3143,7 @@ Achievements: {
 
 	MindFlayerAchievement: {
 		FriendlyName: Что это вообще такое???
-		Description: Одержать победу над Свежателем разума.
+		Description: Одержать победу над свежевателем разума.
 	}
 
 	MushroomAchievement: {

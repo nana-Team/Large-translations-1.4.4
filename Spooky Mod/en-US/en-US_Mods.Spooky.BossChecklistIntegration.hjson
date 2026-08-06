@@ -1,0 +1,19 @@
+PandoraBox: {
+	EntryName: Pandora's Box
+	SpawnInfo: Use an [i:Spooky/EMFReader] nearby the locked pandora's chest in the lower catacombs.
+}
+
+EggEvent: {
+	EntryName: Egg Incursion
+	SpawnInfo: Use the [i:Spooky/Concoction] to pour acid on the giant egg in the valley of eyes if you haven't completed the event yet. Use a [i:Spooky/StrangeCyst] nearby the giant egg if you have completed the event already.
+}
+
+SpiderWar: {
+	EntryName: Spider War
+	SpawnInfo: Assassinate the archduke spider in the spider grotto, who spawns after golem has been defeated.
+}
+
+SporeEvent: {
+	EntryName: Spore Storm
+	SpawnInfo: Occurs randomly in the spider grotto during hardmode, or can be started by using a [i:Spooky/SporeEventStarter] in the spider grotto.
+}

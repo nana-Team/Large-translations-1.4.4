@@ -1,0 +1,739 @@
+LittleBone: {
+	Awaken: Oh, you must be new around here! You can call me little bone, and I can offer advice on what stuff you can do next. Just stop by if you want to talk with me!
+	//advice
+	SpookyBiome: It seems you are still beginning your adventure. Just search around the spooky forest, there are a lot of different things you can find and make!
+	RotGourd: Now that you have some decent gear, I have heard stories that an old rotting gourd the size of a house once looked over this biome! Breaking the pumpkins that grow here might allow you to find him.
+	CemeteryBiome: If you go past the tropical jungle, there is a dark and foggy cemetery. You can probably search for some loot there!
+	SpiderGrotto: There's a giant grotto infested with spider-like creatures out in the world somewhere. You may just be strong enough to explore it, you can find it deep underground.
+	SpookySpirit: I have heard rumors that a giant, powerful spirit who resides in the swampy cemetery challenges those who it deems worthy, and I think you might be worthy enough with your current strength.
+	CatacombLayer1: Now that you have access into the catacombs, you should explore it. I've heard there is a lot of lost loot down there! You can find it below one of the buildings in that foggy cemetery past the jungle.
+	EyeValley: Down in the underworld underneath the jungle, you can find a really creepy biome filled with eyes! I do not like it there because it feels like I am being watched, but you look strong enough to explore it.
+	CatacombLayer2: Now that you have defeated the flesh wall, you should return to the catacombs. Apparently if you can wake up and defeat the guardian of the deep catacombs, she will allow you to explore further.
+	OrroBoro: Now that you have defeated all of those giant robots, you can probably return to the creepy eye valley. Apparently there is a skilled alchemist who resides in the creepy eye place who can create a special substance.
+	BigBone: Since you have access into the catacombs arena, you can finally confront the one causing all the chaos down there.
+	NoAdvice: Sorry, I do not have any advice to offer right now.
+	//transport
+	Transport: Here, take my magical transportation pot. When you use this, it will allow you to bring me anywhere on your adventures! I was hoping I could tag along and help you when you need.
+	NoTransport: It looks like you already have my magical flower pot.
+	//default
+	Default1: Why am I dancing, you ask? Because it's fun, You should try it sometime.
+	Default2: When is spooky season? It's always spooky season! Well, from my perspective anyway.
+	Default3: Wow, you look like you're in the halloween spirit!
+	Default4: It's fun going on adventures, too bad I can't move in this flower pot.
+	Default5: Being a plant isn't so bad, at least I can enjoy the scenery!
+	Default6: ...
+	//biomes
+	SpookyBiome1: Sometimes I like to talk to the other skull plants that pop up around here, but they don't seem to respond back.
+	SpookyBiome2: The spooky forest is such a wonderful place to live! Well, aside from those weird zomboids at night.
+	SpookyBiome3: Apparently underneath this place is a large cavern filled with strange mushrooms, sounds like it'd be fun to explore!
+	SpookyHell1: You know, for a place that exists in the underworld, it is oddly cold here.
+	SpookyHell2: This place gives me the creeps! Somehow I feel like I am being stalked even when nothing is nearby.
+	SpookyHell3: There are so many nasty organs and tentacles growing in this biome, it's grossing me out.
+	SpookyHell4: The creatures that live here are so much different than anywhere else, and how are some of them even alive?
+	Cemetery1: This place is really foggy and spooky, I love it!
+	Cemetery2: Be aware of your surroundings, I have heard there are ghosts here that can potentially possess unsuspecting humans.
+	Cemetery3: The cemetery is a strange area, where zombies and other undead monsters come to life. Be careful around here!
+	CatacombFirstLayer1: There's an awful lot of plants down here for an underground catacomb that has no sunlight...
+	CatacombFirstLayer2: Careful, I have heard rumors of explorers getting crushed by giant rolling skulls!
+	CatacombFirstLayer3: Something about this place is strange. The undead creatures here are very odd compared to everywhere else.
+	CatacombSecondLayer1: There seems to be an infestation of strange plants down here. Some of them are even sentient!
+	CatacombSecondLayer2: I wonder how there is so much plant life down here, with absolutely no sunlight.
+	CatacombSecondLayer3: Something about this place is strange. These plant creatures seem weirdly familiar.
+	SpiderGrotto1: This place is a lot darker than I thought, I wonder what kind of people used to live down here?
+	SpiderGrotto2: There's so many glowing eyes everywhere! I hope you don't get bitten by any deadly poisonous spiders.
+	SpiderGrotto3: Ewww!!! There's so much sticky cobweb here, can we leave here soon?
+	Forest1: This forest is like the spooky forest... but where did all the spooky go?
+	Forest2: This is a nice area you've found! Very calm and peaceful.
+	Forest3: I like this place. This nice forest makes me feel at home, even outside of the spooky forest.
+	Snow1: Brrrr, this is a very cold forest!
+	Snow2: This place looks a bit spooky, but it's awfully cold here!
+	Desert1: What is this horrible place? It's nothing but sand and awfully hot weather. I don't like this area.
+	Desert2: Ouch! Why are there so many painful prickly plants here? I thought plants were supposed to be nice and friendly!
+	Desert3: Can we go somewhere else? Sand keeps getting inside my flower pot!
+	Jungle1: This is a really dense and humid forest. Very groovy!
+	Jungle2: Why is everything here so unfriendly? Even the plants here try to eat you!
+	Mushroom1: This place looks really nice, but why are you looking at me like that?
+	Mushroom2: I have heard of such strange places before, but I never thought you would actually find one!
+	Dungeon: This dungeon is so spooky! I wonder if those other skeletons in the distance are coming to us to spread halloween cheer?
+	Shimmer1: This is the most pretty lake I have ever seen!
+	Shimmer2: What a mystical and sparkly lake, I wonder what would happen when you jump in it?
+	Corruption1: This place is kind of cool, too bad I keep hearing that it's evil and corrupts anything it touches.
+	Corruption2: The creatures here are so gross, I hate looking at them!
+	Crimson1: EW EW EW EW EW!!! What kind of wretched place is this?!
+	Crimson2: Oh my goodness, how could such a horrible thing exist in this land? This is too spooky, even for me.
+	Hallow1: Whoa, this place is so sparkly and bright! I don't think this was here before, was it?
+	Hallow2: For an area that looks very nice and peaceful, there sure are a lot of deadly fairies in it!
+	//buttons
+	Button1: Advice
+	Button2: Transport
+}
+
+PartySkeleton: {
+	Dialogue1: Bro I'm dead.
+	Dialogue2: Dance till you drop dead!
+	Dialogue3: WOOOOOOO!!!
+	Dialogue4: This party's killer!
+	Dialogue5: I forgot my car keys I can't get back home, please help.
+	Dialogue6: I'm the life of the party.
+	Dialogue7: Tibia honest I'm getting very tired of skeleton puns.
+	Dialogue8: When the beat drops, I'm going to die.
+	Dialogue9: What are you doing? You should be partying! Not talking silly!
+	Dialogue10: Aaaaaaaaaaaugh...
+	Dialogue11: I drank too much and now I can taste the colors!
+	Dialogue12: Always nice to take a break from guarding those catacombs.
+	Dialogue13: We should form a union for better catacomb guarding wages!
+	Dialogue14: I'd stay clear from that guy in the black sweater. He gives me the creeps.
+	Dialogue15: I thought the guy in the sweater would sell me some sweet zaza. Now I'm seeing shadow people.
+	Dialogue16: I'm a normal skeleton, nothing to see here.
+	Dialogue17: I LOVE PARTYING!! GRAAAAAH!!!!!
+	Dialogue18: Where's the music? Aren't parties supposed to have mu- oh right, I don't have ears I'm dead as hell.
+	Dialogue19: It's not a party without some necromancy.
+	Dialogue20: Crazy party huh? It's nice to be able to do something that isn't laying still under the ground.
+	Dialogue21: So tired of the catacomb skeletons bragging about being able to live down there. Can they party like this? Didn't think so.
+	Dialogue22: Hmm, you aren't from around here? Well you look pretty stressed, you should stick around! These parties don't happen all that often.
+	Dialogue23: Some guy just ran up to me and shouted CURSE OF RAH. What the hell does that mean?
+	Dialogue24: Ever wonder how skeletons get drunk? Don't, you wouldn't be able to handle the answer.
+	Dialogue25: I've been waiting for my favorite video game to come out... before I even became a skeleton.
+	Dialogue26: What do you mean you can see us now? We've been here the entire time.
+	Dialogue27: Where do those giant light beams even come from? I dunno either, but it's such a vibe!
+	Dialogue28: I'm the real soul of this party. Being the life of the party? Pathetic!
+	Dialogue29: SHUT UP! my dad works for valve and will use your decomposing corpse for a model texture!
+	Dialogue30: They say I'm debased and bone-pilled.
+	Dialogue31: Transforming from a zomboid into a skeletoid is such a magical thing. We have risen from the lowest and became the most respected!
+}
+
+SkeletonBouncer: {
+	Dialogue1: You must be new around here. I don't wanna see you getting into any trouble, these parties take a lot of time and effort to set up.
+	Dialogue2: Move along, go have fun and party. Just don't go bothering anyone.
+	Dialogue3: These parties are super fun. Just don't go around committing crimes or I'll have to murder you with my machine pistol.
+	Dialogue4: Companies been supplying us with these new otherworldly guns. They claim its better than what we had before but I don't know, I swear I heard it scream.
+	Dialogue5: ...
+}
+
+SuspiciousSkeleton: {
+	Dialogue1: Ey kid, you want some of em nightmare fuel? Hits the spot just right.
+	Dialogue2: My brother Tony's the supplier. Apparently it's easier to get the stuff whenever them big guys ye've been fighting get beaten to a pulp. Don't ask me how it works, cuz I don't know.
+	Dialogue3: Ey kid! Yer too slow! Just sold someone a big golden ring earlier. Haven't heard from em in a minute though
+	Dialogue4: Sorry kid, I ain't got much to give ya right now. Ye've gotta beat up some big fellas before Tony can get his hands on the good stuff, ye see what I'm sayin?
+	Dialogue5: Yer asking me if I've tried the stuff? My brother in christ, I'm not stupid enough to. You are. Now buy more of my stuff.
+	Dialogue6: The sweater? I won it at the arcade, where I played this weird arcade machine. Some men in black gave it to me for free!
+	Dialogue7: You want some weird contraband? Ye probably come to the right place. Some of the people who buy my crap never return though.
+	Dialogue8: Do I like pizza? Kid, last time I had pizza I almost got mauled by a cast of colorful pizzeria mascots. Pizza tastes bitter now.
+	Dialogue9: Ye know ma brother Tony used to be the one selling the stuff too. So happens that horrors beyond your comprehension don't really like him selling the goods, so this is our workaround.
+	Dialogue10: Never trust them 'VHS' tapes kid. Not only is it outdated tech, but if someone is selling you one directly, its probably got a demon in it.
+	Dialogue11: How do I know if this stuff is safe? I don't.
+	Dialogue12: I've heard there's actually some stuff similar to what I sell lying around here. No idea how ye get it, Tony's been trying. If ye come across anythin real weird let me know ey?
+	Dialogue13: I hate parties but they do a good job at hiding my business.
+	Dialogue14: Ey, I don't sell no bone meal. That stuff is REAL nasty you hear me? Stay away from it if ye wanna keep your noggin.
+	Dialogue15: Ye know Tony told me apparently some of the stuff he gets from his ventures has this kind of weird magnetism. Ye know they stick together like glue and what not? Oughta mean something.
+	Dialogue16: If ye wanna get more goods, make sure ye go and kill some of them big fellas around. Gives Tony enough time to smuggle the stuff without bringing unwanted attention.
+	Dialogue17: Tony loves parties. Sucks that I don't, but I gotta do what I gotta do.
+	Dialogue18: Some of this stuff's apparently got a lot of familial sentimental value to some folks. Not any folks here, mind you, I ain't got time to be family counselor. If they wanted the stuff should've gotten it before Tony.
+	Dialogue19: You snooze, you lose. That's my motto kid, so get yer stuff while I'm here!
+	Dialogue20: Ye know one time ma brother Tony got lost in this weird town faaar away from here. Real foggy, couldn't see a thing, and it was filled with some real nasty ghouls. Not like us, more like, say the ones from the stuff I'm selling ye. Tony couldn't nab nothing from the place cause this cone-head freak kept chasing him around with a claymore.
+	Dialogue21: The real horror would be not buying the goods while ye got the chance to.
+}
+
+Daffodil: {
+	PreDefeatIntro1: Excuse you!
+	PreDefeatIntro2: Just who do you think you are waking me?!
+	PreDefeatIntro3: Fine, then let's see if you're worthy!
+	PostDefeatIntro1: Ugh, why do you keep waking me?
+	PostDefeatIntro2: Fine, then let's battle again...
+	PreDefeatPhaseTransition1: Alright then, I see how it is...
+	PreDefeatPhaseTransition2: Let's see if you're worthy now!
+	PostDefeatPhaseTransition1: So you're just as good as before huh...
+	PostDefeatPhaseTransition2: Then I am sure you can handle this!
+	PreDefeatOutro1: So, you really are powerful...
+	PreDefeatOutro2: Fine, then you may advance into the deeper catacombs
+	PostDefeatOutro1: You are still powerful...
+	PostDefeatOutro2: Not sure why you keep waking me, but whatever.
+	BackToSleep: Stop interrupting my beauty sleep.
+}
+
+NoseBrute: {
+	Dialogue1: Hrnnngg...
+	Dialogue2: Grunt...
+	Dialogue3: Snoooort...
+}
+
+NoseGrunt: {
+	Dialogue1: Sniffle...
+	Dialogue2: Moco... The great one...
+	Dialogue3: All hail Moco!
+	Dialogue4: The great one will arrive if we keep up these rituals.
+	Dialogue5: I don't know what our leader does with the snot we give him, but it is probably for the greater good.
+}
+
+NoseGunner: {
+	Dialogue1: My gun speaks to me and tells me the holy nose will come soon. I am grateful.
+	Dialogue2: The great one's snot has allowed us to make and use these weapons, and together we will repay the favor.
+	Dialogue3: Being sacrificed into a booger blaster is the greatest experience one could ever imagine. I hope one day Noseferatu will let me become one.
+	Dialogue4: Jealous? Maybe if you keep up your rituals, you can wield a booger blaster yourself.
+}
+
+NoseLeader: {
+	NoseBlessing: Here my little follower, for you a blessing straight from my nose. Use it wisely...
+	Dialogue: My little disciple, have you come to sacrifice yourself for the holy one? Or perhaps give an offering of snot? It looks like you do not have any... thou is unworthy.
+}
+
+NoseMage: {
+	Dialogue1: I am trying to focus on my magic, I cannot talk now.
+	Dialogue2: We are worshipping, I am channeling my power, and you will ascend with us someday.
+	Dialogue3: Leave me to my arcane practices, please.
+	Dialogue4: Moco is the great one. It is the being that first brought snot to our land, and for that we thank it with our praise.
+	Dialogue5: Perhaps you yourself could harvest the arcane power and ascend further to become a snot mage.
+	Dialogue6: You look weak. A disciplined disciple of the nose will eventually be given the blessing of snot magic.
+}
+
+NoseWinged: {
+	Dialogue1: Our wings allow us to get closer to the great moco.
+	Dialogue2: The cult is powerful, and our rituals are increasing the great one's power.
+	Dialogue3: The great moco allows us to use its snot to further our power, as long as we return the favor with our rituals.
+	Dialogue4: These wings took me years to obtain. After getting in favor with our leader, he created them for me.
+}
+
+PandoraBox: {
+	Button: Open
+	Dialogue: It's a strange box with a weird aura emanating from it. Perhaps the paranormal energy can be unleashed with a special ghost-hunting device...
+}
+
+SentientCap: {
+	Dialogue1: Hi Hi Hi!
+	Dialogue2: NIGHTMARE
+	Dialogue3: I love sitting on your head
+	Dialogue4: I'm cappin!
+	Dialogue5: Isn't this so silly?
+	Dialogue6: Glurrrg...
+}
+
+TheMan: {
+	One: One
+	Two: Two
+	Three: Three
+	Four: Four
+	Five: Five
+}
+
+KrampusDialogue: {
+	//quest 1
+	Dialogue1-1: Finally! After nine months one of you finally made it to the interview!
+	PlayerResponse1-1: Uhhhh...
+	Dialogue1-2: What, are ya nervous? BAHAHA! You are already hired, kid. In fact, I need you to do a delivery right now!
+	PlayerResponse1-2: ...You have the wrong person dude.
+	Dialogue1-3: WHAT?! Kid, you can't do this to me. Come on, I'll even pay you!
+	PlayerResponse1-3: MONEY?!
+	Dialogue1-4: Yes.
+	PlayerResponse1-4: SIGN. ME. UP!
+	Dialogue1-5: Great! Just take this, and deliver it to some townsfolk. If you do a good enough job you might only get one piece of coal this year.
+	PlayerResponse1-5: Ok.
+	//quest 2
+	Dialogue2-1: Oh, you are actually back? I thought you ran off or something.
+	PlayerResponse2-1: Nah.
+	Dialogue2-2: Perfect! Well, how did it go? Spread a lot of christmas cheer? Make someone's day better?
+	PlayerResponse2-2: Bro your present killed someone.
+	Dialogue2-3: I'm sorry, WHAT?!
+	PlayerResponse2-3: Yeah.
+	Dialogue2-4: I JUST started mass producing those things! I thought that... I have MILLIONS of them. All USELESS!
+	PlayerResponse2-4: Ok do I get paid now?
+	Dialogue2-5: Yes, you get paid... if you deliver another present!
+	PlayerResponse2-5: Bruh.
+	Dialogue2-6: BAHAHA! Take your pay, and your delivery. I’ve got a feeling this one will go much better, so long as YOU don’t screw it up!
+	PlayerResponse2-6: Ok, fine.
+	//quest 3
+	Dialogue3-1: There you are! You didn't mess up the delivery this time, yes?
+	PlayerResponse3-1: I didn't mess it up the other times.
+	Dialogue3-2: Sure! It must have gone so much better now that you have experience, yes?
+	PlayerResponse3-2: Nah it went worse.
+	Dialogue3-3: WHAT!
+	PlayerResponse3-3: The person I gave your gift to needs a closed casket funeral.
+	Dialogue3-4: WHAT?!
+	PlayerResponse3-4: You kinda suck at this.
+	Dialogue3-5: Have you NEVER been taught any manners, kid?! You are lucky you are the ONLY postman I have. Now, take your pay and go do your job.
+	PlayerResponse3-5: Fine bro.
+	Dialogue3-6: This time, this time I am SURE they'll love this gift. It’ll be a gift they'll NEVER forget! BAHAHAHAHA!
+	PlayerResponse3-6: Whatever you say.
+	//quest 4
+	Dialogue4-1: Ah, perfect! I was just waiting for you, I’ve got ten-thousand more of those ready to be delivered TODAY!
+	PlayerResponse4-1: Ummm...
+	Dialogue4-2: Come on kid! Don't keep me waiting! Give me ALL the details!
+	PlayerResponse4-2: Ok so, first it hurled itself at the person, then it tore off their nose, then it-
+	Dialogue4-3: NO NO NO! Nevermind...
+	PlayerResponse4-3: Ok whatever.
+	Dialogue4-4: GODAMNIT! Now I have to blast all of these things to HELL! It'll be fine, I STILL have one more thing. It has to work, It will SAVE christmas. I WILL save christmas!
+	PlayerResponse4-4: Dude its october.
+	Dialogue4-5: Yes it is october you IMBECILE! It's been october for the past three YEARS! And unless you want to make christmas even more ruined than it already is, you better take this and scram!
+	PlayerResponse4-5: Ok Ok, jeez...
+	Dialogue4-6: This WILL work, It HAS to...
+	PlayerResponse4-6: ...
+	//quest 5
+	Dialogue5-1: ...
+	PlayerResponse5-1: It didn't work.
+	Dialogue5-2: PERFECT! what a surprise...
+	PlayerResponse5-2: You suck at your job.
+	Dialogue5-3: IT'S NOT MY JOB! Or well... It shouldn't be. Somebody has been messing EVERYTHING up and now Nick can't get here anymore.
+	PlayerResponse5-3: Ok.
+	Dialogue5-4: Damnit, I knew that I couldn't do it. I guess I can’t be much more than Krampus...
+	PlayerResponse5-4: Give me my money.
+	Dialogue5-5: Yes, yes... there is one more delivery I have for you. After that you are free to not come back. Ever.
+	PlayerResponse5-5: Sure.
+	Dialogue5-6: PLEASE just, go. And make sure no one dies this time...
+	PlayerResponse5-6: Sure.
+	//post final quest
+	Dialogue6-1: Did you do the delivery?
+	PlayerResponse6-1: Yes, but...
+	Dialogue6-2: Do not bother. Take your pay, and leave me be.
+	PlayerResponse6-2: Ok but-
+	Dialogue6-3: WHAT?
+	PlayerResponse6-3: ...Little eye liked your gift.
+	Dialogue6-4: WHAT?!
+	PlayerResponse6-4: Yeah, he said it awes-
+	Dialogue6-5: YES! YES! I DID IT! I have finally DONE IT! I have made something that someone ACTUALLY likes! Oh kid you have just made me the happiest demon in the world!
+	PlayerResponse6-5: Wait you're a demon?
+	Dialogue6-6: MINIONS! Get sawing, knitting, welding, and weaving! Christmas is not over yet, and it'll be christmas MY way! BAHAHAHAHAHA!
+	PlayerResponse6-6: Uh, ok so-
+	Dialogue6-7: And YOU! You've got a lot of delivering to do now!
+	PlayerResponse6-7: ...Oh no.
+	//the player lost the present somehow
+	DialogueNoPresent-1: Hm? Back so soon?
+	PlayerNoPresent-1: I need another present.
+	DialogueNoPresent-2: Ah, trying to multitask? Commendable kid, reminds me of Nick.
+	PlayerNoPresent-2: No I lost the present.
+	DialogueNoPresent-3: What? HOW!?
+	PlayerNoPresent-3: I dunno.
+	DialogueNoPresent-4: You are LUCKY that I have another gift ready. Take it, and don't lose it.
+	PlayerNoPresent-4: Ok!
+	//the player has the present already
+	DialoguePresent-1: Ah, did you deliver the gift?
+	PlayerPresent-1: No.
+	DialoguePresent-2: Then... why are you here?
+	PlayerPresent-2: I don't know.
+	DialoguePresent-3: Ok?
+	PlayerPresent-3: ...
+	DialoguePresent-4: Go do the job I'm paying you for, NOW!
+	PlayerPresent-4: Ok ok jeez...
+	//the players inventory is full
+	DialogueInvFull-1: ...Uhh, kid I don't think you can carry this.
+	PlayerInvFull-1: What do you mean?
+	DialogueInvFull-2: There is nowhere this can fit on your person, kid.
+	PlayerInvFull-2: Nah I can do it.
+	DialogueInvFull-3: I'll just leave it on the floor for now I guess.
+	PlayerInvFull-3: ...
+	//little eye krampus quest dialogue
+	LittleEye1: Whoa! What's this thing?!
+	PlayerLittleEye1: Uhhh, some gift from krampus?
+	LittleEye2: Well whatever it is, it's amazing! I've always wanted a giant teddy bear to keep me company down here!
+	PlayerLittleEye2: So... you like the gift?
+	LittleEye3: Yes of course! This is the most awesome thing ever! I think I'll name him Cornelius!
+	PlayerLittleEye3: Alright... I guess I'll go let krampus know you like it then.
+	//daily quests
+	DailyQuest1-1: Alright kid, I've got a new present I think that little eye guy will quite like!
+	PlayerDailyQuest1-1: How psychotic is it this time?
+	DailyQuest1-2: PSYCHOTIC? Not at all, BAHAHAHAHA! Alright, make sure little eye gets this soon.
+	PlayerDailyQuest1-2: Alright.
+	DailyQuest2-1: Hey kid, I've been mass producing this one toy again! I think it'll be a huge hit in... wherever that eyeball fella lives!
+	PlayerDailyQuest2-1: Uhhh... sure.
+	DailyQuest2-2: Alright kid, I'm relying on you, make sure he gets this one pronto!
+	PlayerDailyQuest2-2: Ok.
+	//daily quest complete
+	DailyQuestComplete: Nice job on the delivery! Here's another reward for your troubles.
+	PlayerDailyQuestComplete: Yay!
+	//no daily quest available
+	NoDailyQuestDay: Sorry kid, still working on the next gift! Come back tonight and it'll be ready.
+	NoDailyQuestNight: Next one's still work in progress, sorry kid. I should have it done tomorrow morning!
+	PlayerNoDailyQuest: Ok.
+}
+
+LittleEyeDialogue: {
+	//intro dialogue
+	Intro1: Oh me, oh my! A visitor? A guest? A guinea pig? A gift from the valley, so kind!
+	IntroPlayerResponse1: Huh what?
+	Intro2: Oh me, I'm sorry, I'm a little eye, the little eye! A humble witch, I won't bite! You look for power, is that right?
+	IntroPlayerResponse2: I'm not getting cursed by your muju juju.
+	Intro3: Oh my, you misunderstand! I curse not you, but what you have! Your tools and trinkets, they are weak and frail! I can breathe new life into them with a cauldron's spell!
+	IntroPlayerResponse3: Ok, and then what? The items curse me or something?
+	Intro4: Uh, no I curse them and they get stronger that's the whole thing I just explained!
+	IntroPlayerResponse4: Oh... why didn't you just say that?
+	Intro5: It was pretty clear to me, just told in rhymes. That's no easy task, I'm sure you understand.
+	IntroPlayerResponse5: Sure yeah whatever you say dude.
+	//cauldron dialogue
+	Cauldron1: Eager are we? But not so fast, for this to work, I'll need a beating heart!
+	CauldronPlayerResponse1: Dude I'm not giving you my heart.
+	Cauldron2: Not yours, my guinea pig, yours is frail! I need monstrous heart, one that weeps and flails!
+	CauldronPlayerResponse2: And how do I get one? Also if you call me that again I will poke your eye.
+	Cauldron3: Well my guest, they are not easy to find, a heart so monstrous belongs to something vile. Vile things hide beneath the valley's veil, and their power is one to be feared as well!
+	CauldronPlayerResponse3: ...
+	Cauldron4: But oh me, oh my, are they worth the tears! Mixed with your weapons, their power will run free! So go on my guest, find a monstrous heart, a weapon you value, and in the cauldron as one they'll rise!
+	CauldronPlayerResponse4: Alright.
+	//bounty mission intro
+	BountyIntro1: ...
+	BountyIntroPlayerResponse1: So... you do anything else?
+	BountyIntro2: Oh my, of course! I do many things. Although, most of them run far far away, hmph.
+	BountyIntroPlayerResponse2: I meant like, anything normal.
+	BountyIntro3: Now that you mention it, perhaps you and your weapons could be of use. I'd reward you of course, given my requests would be so obtuse.
+	BountyIntroPlayerResponse3: I did not mention requests at all.
+	BountyIntro4: Here, guest, I've made a list for you! My creations that have ran far from view! They hide from me, oh me oh my.
+	BountyIntroPlayerResponse4: Why's that?
+	BountyIntro5: I'll tell you more once you pick! Surprises are more fun after all! but... I will need you find all of them.
+	BountyIntroPlayerResponse5: Alright, fine.
+	BountyIntro6: Teehee!
+	BountyIntroPlayerResponse6: ...
+	//frank the goblin quest
+	Quest1-1: One time, I ripped the skin clean off of thirty goblins!
+	PlayerQuest1-1: Who starts a conversation like that?
+	Quest1-2: I needed a guardian for my humble home, but he proved too hard too control! he ran-
+	PlayerQuest1-2: I'm not letting you try and rhyme after that. Just tell me what to do.
+	Quest1-3: Oh... but, but it was a cool rhyme, you would have loved it!
+	PlayerQuest1-3: I do not like being around you.
+	Quest1-4: Oh my... fine, off to the spooky forest he went! Use red velvet cake, frank will catch its scent! with a slash and a snip, cut off his tongue! bring it back to me, while the day is young!
+	PlayerQuest1-4: Whatever.
+	//frank the goblin quest complete
+	QuestComplete1-1: There you are, my guest!
+	PlayerQuestComplete1-1: I got the tongue, you freak.
+	QuestComplete1-2: Hurray! You've saved the day, my friend! As promised, I gift you needle and thread! Be careful, its sharp, and laced with bacteria! One poke and your enemies will catch tetanus!
+	PlayerQuestComplete1-2: That one didn't even rhyme.
+	QuestComplete1-3: You try and rhyme tetanus with anything then.
+	PlayerQuestComplete1-3: You have tetanus, and uh... uranus...
+	QuestComplete1-4: See?
+	PlayerQuestComplete1-4: Fine, point proven.
+	//frank the goblin lost item
+	QuestNewItem1-1: ...
+	PlayerQuestNewItem1-1: Hey do you have any more of that red velvet cake?
+	QuestNewItem1-2: Oh me! how rude of me, have some my guest, it is free!
+	PlayerQuestNewItem1-2: I am not eating it, I do not trust you.
+	QuestNewItem1-3: Oh.
+	PlayerQuestNewItem1-3: I lost the cake you gave me and I need another one.
+	QuestNewItem1-4: Alright, I have a lot of it, if you ever change your mind! It tastes very good, it'd be rude to decline.
+	PlayerQuestNewItem1-4: ...
+	//tome of spirits quest
+	Quest2-1: This one differs from the others, in many ways! It's something I didn't make! A book I ordered off of a shady site, and it was filled with ghosts inside! I need them gone so I may read the tome, and unlock the secrets within its folds!
+	PlayerQuest2-1: So how exactly do I find this book?
+	Quest2-2: You can bait the ghosts with money!
+	PlayerQuest2-2: Oh... wait why?
+	Quest2-3: Use the money to bait the ghosts!
+	PlayerQuest2-3: Yeah but how does that work?
+	Quest2-4: Ghosts love money! They'll go for it, for sure!
+	PlayerQuest2-4: The way you talk annoys me.
+	//tome of spirits quest complete
+	QuestComplete2-1: Greetings!
+	PlayerQuestComplete2-1: Alright, here's the book, tome, whatever you called it.
+	QuestComplete2-2: I called it both things actually, I felt a little silly that day!
+	PlayerQuestComplete2-2: You are actually brain damaged.
+	QuestComplete2-3: Let's see here... oh me, oh my! Finally I'll glimpse what this manuscript hides!
+	PlayerQuestComplete2-3: Uh-huh.
+	QuestComplete2-4: ...
+	PlayerQuestComplete2-4: So uh...
+	QuestComplete2-5: Eh, I've read better here you can have it.
+	PlayerQuestComplete2-5: Dude what?
+	QuestComplete2-6: Here I'll even bring back the ghosts in it so they can help you or something I guess. I wasn't really planning on giving you a reward for this one so it works out!
+	PlayerQuestComplete2-6: Sure, yeah, whatever I guess.
+	//tome of spirits lost item
+	QuestNewItem2-1: ...
+	PlayerQuestNewItem2-1: Hey I lost that gold you gave me earlier.
+	QuestNewItem2-2: Oh my, don't worry, I've got plenty to spare! If you ever need some yourself, I'm ready to share!
+	PlayerQuestNewItem2-2: Wait you'd share the gold? Hell yeah give me some.
+	QuestNewItem2-3: I mean, do you really need extra gold right now?
+	PlayerQuestNewItem2-3: Maybe.
+	QuestNewItem2-4: ...
+	PlayerQuestNewItem2-4: Ok fine, just give me the gold I need for the ghosts.
+	//stitches quest
+	Quest3-1: You asked me what else I could do, beyond my malevolent witches' brew. And tell you I will! I've started to knit! But my craft has started a coup!
+	PlayerQuest3-1: Uh-huh.
+	Quest3-2: Deep in the dark, where the spiders lurk, my creation marks it's domain! Lure in it like a shark, with this beetle in view, and its escape will have been in vain!
+	PlayerQuest3-2: You kinda scare me.
+	Quest3-3: Tehee!
+	PlayerQuest3-3: I dislike you.
+	//stitches quest complete
+	QuestComplete3-1: Hi!
+	PlayerQuestComplete3-1: Alright its done.
+	QuestComplete3-2: You are back! Oh joy! you've subdued my beast! have you brought it here, back to me?
+	PlayerQuestComplete3-2: What?
+	QuestComplete3-3: You know, bring it back here... like I said, in the rhyme earlier, the one about the beetle and not escaping your grasp!
+	PlayerQuestComplete3-3: Oh I wasn't supposed to kill it?
+	QuestComplete3-4: W-what?! That cannot be! D-do you have any idea how long it took me to sew stitches together?!
+	PlayerQuestComplete3-4: No.
+	QuestComplete3-5: Ugh, I suppose you did at least bring back part of him. I'll salvage what I can into something you can drag along with you, but don't brag, in the end it'll just be tattered rags.
+	PlayerQuestComplete3-5: Ok.
+	//stitches lost item
+	QuestNewItem3-1: ...
+	PlayerQuestNewItem3-1: That weird ass beetle flew away I need another one.
+	QuestNewItem3-2: Oh don't worry I've got quite a few of these!
+	PlayerQuestNewItem3-2: Uh-huh.
+	QuestNewItem3-3: You know, I have a farm of them. I have hobbies beyond witch stuff!
+	PlayerQuestNewItem3-3: Have mercy on those poor bugs.
+	//bigger eye quest
+	Quest4-1: ...
+	PlayerQuest4-1: Alright what do you need me to do now?
+	Quest4-2: I need you to KILL ME!
+	PlayerQuest4-2: Oh sweet.
+	Quest4-3: No no! Not me, the other me.
+	PlayerQuest4-3: Ugh...
+	Quest4-4: Oh me, I was just tired of working so hard, I needed someone to give me a hand! But then I thought, if there was just another me, I could rest and watch him work away with glee! but something went wrong, and now he's gone mad, thinking he's better than me! He's nothing but a fad!
+	PlayerQuest4-4: Who could have seen that coming?
+	Quest4-5: He calls himself bigger eye too! Oh me oh my, that just won't do. Draw him in with these drops, he'll fall for them fast. Off with his head! he won't even have a chance!
+	PlayerQuest4-5: Sure, I guess.
+	//bigger eye quest complete
+	QuestComplete4-1: Did you get him!?
+	PlayerQuestComplete4-1: Yeah, I got him.
+	QuestComplete4-2: I knew he was lesser, but his magic was still strong. With his stinky ugly head, I could make an orb!
+	PlayerQuestComplete4-2: Uh... ok?
+	QuestComplete4-3: Here! its for you!
+	PlayerQuestComplete4-3: Why is it slimy what the hell?!
+	QuestComplete4-4: It's freshly made!
+	PlayerQuestComplete4-4: I hope you get a cataract.
+	//bigger eye lost item
+	QuestNewItem4-1: Did you need something?
+	PlayerQuestNewItem4-1: Hey uh, do you have any more eye drops?
+	QuestNewItem4-2: What?
+	PlayerQuestNewItem4-2: What do you mean, what?
+	QuestNewItem4-3: I'm called little eye.
+	PlayerQuestNewItem4-3: Yeah but...
+	QuestNewItem4-4: I have the other stuff, but did you think I'd give away my only eye drops?
+	PlayerQuestNewItem4-4: You are going to make me pop a vein.
+	QuestNewItem4-5: Ok here's the eye drops bye bye!
+	PlayerQuestNewItem4-5: ...
+	//egg incursion quest
+	Quest5-1: Hey can you make me an omelette?
+	PlayerQuest5-1: I am not making you an omelette.
+	Quest5-2: Oh me, oh my, but it's special you see! Made from that giant egg, not too far from here!
+	PlayerQuest5-2: I'm not convinced.
+	Quest5-3: Ah, but you see, this egg holds a prize! Riches that would let you settle down for life! The valley protects it, so it won't go down with ease; but I'll let you keep the riches, as long as you give the egg to me!
+	PlayerQuest5-3: That doesn't sound too bad actually.
+	Quest5-4: Once the valley tires its many offenses, use this vial of acid to breach the egg's defenses! There's enough in there, so no need to come back, not until you've seen what's inside the egg once it cracks!
+	PlayerQuest5-4: Alright, I'll do it.
+	Quest5-5: Hip hip hooray! You won't regret it, friend!
+	PlayerQuest5-5: ...
+	//egg incursion quest complete
+	QuestComplete5-1: Oh, you are back? What a pleasant surprise! I didn-
+	PlayerQuestComplete5-1: You lying dumbass, that egg did NOT hold riches of any kind.
+	QuestComplete5-2: Now hold on-
+	PlayerQuestComplete5-2: It didn't even have any yolk. You sent me on a suicide mission!
+	QuestComplete5-3: Oh I would never, not without reason. You were bound to win, your power precedes you! And rewards you did get, after slaying the beast, so there's no need to complain my guinea p-
+	PlayerQuestComplete5-3: ...
+	QuestComplete5-4: AAAAUAAUUUGH!
+	PlayerQuestComplete5-4: I told you I would poke you if you called me that again.
+	QuestComplete5-5: OH MY GOD OH MY EYE! OW OW OW OW!
+	PlayerQuestComplete5-5: ...
+	QuestComplete5-6: OH MY GOD I CAN'T SEE! I CAN'T SEE IT BURNS SO BAD!
+	PlayerQuestComplete5-6: Anyways I'll see you later when I need another sentient weapon.
+	QuestComplete5-7: AGH, OH MY GOD IT HURTS AAAAAGH!
+	PlayerQuestComplete5-7: ...
+	//little eye is poked
+	LittleEyePoked: AGH, IT HURTS...
+	PlayerLittleEyePoked: ...
+	//normal dialogue 1
+	LittleEyeTalk1-1: ...
+	PlayerLittleEyeTalk1-1: Have you ever left this place before?
+	LittleEyeTalk1-2: Oh me, I do! I often visit the blood pit, and the snot temple too!
+	PlayerLittleEyeTalk1-2: No I mean this entire area.
+	LittleEyeTalk1-3: Oh my, why would I? I have everything I need here!
+	PlayerLittleEyeTalk1-3: I guess, just think its weird.
+	LittleEyeTalk1-4: That is called culture shock my friend!
+	PlayerLittleEyeTalk1-4: I just don't see any of you freaks anywhere else
+	LittleEyeTalk1-5: Huh... I guess that is quite odd, my friend!
+	PlayerLittleEyeTalk1-5: Whatever.
+	//normal dialogue 2
+	LittleEyeTalk2-1: Have you ever wondered, or pondered, the name? Why do we call it the eye valley, a title of fame!
+	PlayerLittleEyeTalk2-1: It's called the eye valley?
+	LittleEyeTalk2-2: Uhh, yeah? I thought you knew that? It's pretty well known!
+	PlayerLittleEyeTalk2-2: Oh I've just been calling it the purple.
+	LittleEyeTalk2-3: ...Just purple?
+	PlayerLittleEyeTalk2-3: Yeah! I'll just say "Yo, I'm headed to the purple" and they'll know.
+	LittleEyeTalk2-4: My my, you are quite strange, you know that?
+	PlayerLittleEyeTalk2-4: That's rich coming from you.
+	//normal dialogue 3
+	LittleEyeTalk3-1: Hello there!
+	PlayerLittleEyeTalk3-1: So what's up with that weird temple?
+	LittleEyeTalk3-2: My friend, If you are wise, follow my advice. Stay far from that temple, or you'll be torn apart! They worship a false god, a mere common pest, but their numbers, and madness, even I cannot contest!
+	PlayerLittleEyeTalk3-2: I mean if they are just monsters It should be no big deal.
+	LittleEyeTalk3-3: Oh no no, They are no mere monsters born of the valley's mold. They are intruders who have carved into its form! With their foreign magic, they refuse to rot! And now their obsession has turned them to snot!
+	PlayerLittleEyeTalk3-3: Oh hell nah, don't tell me they are booger nose things!
+	LittleEyeTalk3-4: Yeah. They are really gross. Unless you really want their admittedly strong magic, I'd steer clear from that place.
+	PlayerLittleEyeTalk3-4: Gross. Noted.
+	//normal dialogue 4
+	LittleEyeTalk4-1: ...
+	PlayerLittleEyeTalk4-1: I think I'm going to seal up that weird blood pit.
+	LittleEyeTalk4-2: What?! You can't!
+	PlayerLittleEyeTalk4-2: Dude its so weird. I do not want to even think about what's in there.
+	LittleEyeTalk4-3: Oh me, oh my, you misunderstand! Do you not see the opportunity at hand? Yes, monstrous things lurk in the pit... but their power could be yours, all you need to do is fish!
+	PlayerLittleEyeTalk4-3: Huh, never thought about that.
+	LittleEyeTalk4-4: You can even catch the sludge!
+	PlayerLittleEyeTalk4-4: The what?
+	LittleEyeTalk4-5: ...
+	PlayerLittleEyeTalk4-5: Ok I guess.
+	//normal dialogue 5
+	LittleEyeTalk5-1: ...
+	PlayerLittleEyeTalk5-1: How come not every monster has a monster heart?
+	LittleEyeTalk5-2: A monster in my eye is not a mere beast! A monster has power from which it feasts! Their hearts beat a million times a minute at least. An important distinction, for my alchemical lists!
+	PlayerLittleEyeTalk5-2: Yeah but isn't that kind of subjective?
+	LittleEyeTalk5-3: Subjective?! Oh me! That it could never be. Witchcraft this precise requires a key! Knowledge beyond a mediocre degree. And all of this knowledge? It all comes from me.
+	PlayerLittleEyeTalk5-3: ..So, the definition is just up to you?
+	LittleEyeTalk5-4: Yes! This is called a monopoly. I am the only alchemist down here!
+	PlayerLittleEyeTalk5-4: Whatever man.
+	//normal dialogue 6
+	LittleEyeTalk6-1: Hey have you seen any fleshy storage-like creatures around?
+	PlayerLittleEyeTalk6-1: No and I don't want to.
+	LittleEyeTalk6-2: Are you sure? Kinda looks like your weird containers made of wood.
+	PlayerLittleEyeTalk6-2: Oh those, yeah I've seen one. Why?
+	LittleEyeTalk6-3: I stored some extra materials in them and was wondering if you had taken a peek or two at the flesh chest at all.
+	PlayerLittleEyeTalk6-3: No I haven't touched at all.
+	LittleEyeTalk6-4: Oh my, thank goodness. If you happen to see who might have stolen from me, let me know! I have been looking to try a curse of eternal flesh discomfort for a while but haven't found a flimsy-enough excuse to do it.
+	PlayerLittleEyeTalk6-4: Yeah sure you got it buddy.
+}
+
+DumbZomboidDialogue: {
+	Dialogue1: Uurrgghh...
+	DialoguePlayer1: What?
+	Dialogue2: Gurhhh?
+	DialoguePlayer2: Excuse me?
+	Dialogue3: Huurgg?!
+	DialoguePlayer3: Who even are you?
+}
+
+OldHunterBoss: {
+	Intro1: wh... who in tarnation are you?
+	Intro2: Scram or I'll leave ya dead as a door nail!
+	IntroPlayer2: Uhh what?
+	Intro3: Yer funeral then!
+	PostDefeatIntro1: You wanna tussle again?
+	PostDefeatIntro2: I'll take ya outta my home by yer rear!
+	Phase2-1: Fine, ya put up a good frolic.
+	Phase2-2: But I ain't gone up the fume just yet!
+}
+
+OldHunterDialogue: {
+	//corpse dialogue
+	OldHunterCorpse: It's an old dead skeleton. Perhaps he can revived if his soul is returned to his body.
+	//defeated dialogue
+	Defeat1: Alright, ye've got me over head and ears, least I'm dying with my boots on.
+	PlayerDefeat1: I'm not trying to kill you.
+	Defeat2: What?
+	PlayerDefeat2: Yeah.
+	Defeat3: Oh. I'm sorry chap, didn't mean to be a hard case barkin' at a knot. Woke up confused, but that don’t mean I should've caused all this hellabaloo.
+	PlayerDefeat3: Its fine? Sorry you are hard to understand.
+	Defeat4: Heh, never thought I'd be an old pod. I've still got the mind to do the clean thing and hash this out with ya.
+	PlayerDefeat4: Yeah alright, got most of that I think. Sure.
+	Defeat5: Let me cut a new figure; I'm an old hunter, master at the sling. You put up a good fit there, and I've got plenty'o riches if yer willing to do some jobs for me.
+	PlayerDefeat5: Sure, why not I guess.
+	//tick quest
+	Quest1-1: One time, me and the buddies were jawing at the husking bee, and chap I tell ya the juice was somethin else. Got knocked into a cocked hat, full as a tick, and started a milling so bad we hid among the willows for a whole month.
+	PlayerQuest1-1: Full tick... I think I know just where and when I can find a large tick.
+	Quest1-2: Pardon?
+	PlayerQuest1-2: Don't worry I got you. Just need to wait for the mites and ticks.
+	//tick quest done
+	QuestComplete1-1: Pardon?
+	PlayerQuestComplete1-1: I got the tick that was full.
+	QuestComplete1-2: Uhh, ok? I reckon I could find a use for this I guess.
+	PlayerQuestComplete1-2: What do you mean? You asked me to find this thing.
+	QuestComplete1-3: Nohow chap, yer speakin' humbu- oh wait, yer talking about when I got shitface drunk?
+	PlayerQuestComplete1-3: Please just give me a reward.
+	//harold quest
+	Quest2-1: I know this might be all-standin, but think ya can get me some cloth? My thatchs starting to look mean, and I ain't in no shape to paddle off and get it myself.
+	PlayerQuest2-1: Sure, any preferences?
+	Quest2-2: Well, now that you mention, ya think you could get it in white? Back in my day when ya wanted to rag proper, ye wore white. Get me that, and I reckon it'll pan out. Just don't go getting it from any strange places. I've dealt with enough haunts in that graveyard.
+	PlayerQuest2-2: Uhh... ok I guess?
+	//harold quest done
+	QuestComplete2-1: Hmm, don't mean to row up yer good deed, but there's something off with this rag... where did ya get it?
+	PlayerQuestComplete2-1: I got it from a ghost.
+	QuestComplete2-2: WHAT! I tell ya to get a normal rag and ya bamboozle me by bringing back a spectre into my home! Why I oughta-
+	PlayerQuestComplete2-2: You are undead. I got your soul from a box of ghosts, under a graveyard full of ghosts. Please just take the cloth.
+	QuestComplete2-3: ...Alrighty.
+	PlayerQuestComplete2-3: ...
+	//chudshroom quest
+	Quest3-1: I've heard tall tales of a shroom up in the spooky forest. Plenty of yapping 'bout how it never got along with the rest of em critters. Ya make anything of it?
+	PlayerQuest3-1: Sounds kinda like a chud. Should be easy.
+	Quest3-2: Yer speakin' nothin' but boulderdash.
+	PlayerQuest3-2: Ok whatever.
+	//chudshroom quest done
+	QuestComplete3-1: What's all this?
+	PlayerQuestComplete3-1: I caught a chudshroom.
+	QuestComplete3-2: Ya can't expect me to understand a lick of what yer yapping!
+	PlayerQuestComplete3-2: You know, a chudshroom?
+	QuestComplete3-3: Whatever, just gimme it and take a hike!
+	PlayerQuestComplete3-3: You're a chud. Just give me my rewards.
+	//triplets quest
+	Quest4-1: I've heard tales of something lurkin' deep down below. Some of the boys on the shoot would venture to find it and come back cryin' and hollerin'. Always spoke balderdash 'bout a triple-eyed beast with a wicked stare. I think it's a no-count story, but what do ya make out of it?
+	PlayerQuest4-1: I mean, I've heard, seen, and killed weirder things.
+	Quest4-2: Hrm, ya know what chap? I'm still on the fence 'bout it, but if ya can get me back one of them wicked creatures, I might have enough coin to make it worth yer while.
+	PlayerQuest4-2: Ok, count me in.
+	//triplets quest done
+	QuestComplete4-1: There you are.
+	PlayerQuestComplete4-1: Here's the eyes you wanted.
+	QuestComplete4-2: Well, there you ain't. This is not what I was lookin' for chap.
+	PlayerQuestComplete4-2: What? This is a pair of eyes I killed, what else do you want?
+	QuestComplete4-3: That's the issue right there. I asked for all the pieces and ya brought back twins instead of triplets. I'll still toss in some coins but ya ain't getting no big treasure for a bunch of humbug.
+	PlayerQuestComplete4-3: Fine, whatever.
+	//putty quest
+	Quest5-1: The old rats would keep tellin' this story 'bout a monstrous slimy beast. They said the thing was gigantic! Apparently it kept eating some of their cattle! Gather anythin' from it?
+	PlayerQuest5-1: Honestly sounds pretty plausible.
+	Quest5-2: I reckoned. The tales as tall as they were always had some truth to them. Cattle did keep disappearing, especially up above in the autumn forest. If ya can kill that thing, bring back somethin' from it and I'll make it worth your while.
+	PlayerQuest5-2: Alright, sure thing.
+	//putty quest done
+	QuestComplete5-1: Howdy chap! Ya didn't flunk out right? Ya give that slimy beast what it had coming?
+	PlayerQuestComplete5-1: Yep, here's the left over putty.
+	QuestComplete5-2: Oh, putty? Uhh, I think ya got the wrong monster chap.
+	PlayerQuestComplete5-2: What?
+	QuestComplete5-3: I was thinking ya'd bring back like, a crown of some kind. Did I not talk about the crown on the monster? Ah whatever, here's something for the trouble anyhow.
+	PlayerQuestComplete5-3: You are so old.
+	//potato gator quest
+	Quest6-1: Ya know I've been kinda craving for some tater. Not fun to be hungry when yer dead but hey, maybe seeing taters might make me feel a bit better.
+	PlayerQuest6-1: Some... Tater?
+	Quest6-2: Oh come on chap, ya know! Taters! Like, whatchamacallit. Potatoes! That's at least what them sophisticated folk would call 'em.
+	PlayerQuest6-2: Oh yeah sure, I can get you a potato.
+	//potato gator quest done
+	QuestComplete6-1: There ya are! Thanks chap. I might not be able to eat anymore but ya made me one happy old feller.
+	PlayerQuestComplete6-1: No problem, I got it from some kind of potato alligator.
+	QuestComplete6-2: Ya mean a gater tater?
+	PlayerQuestComplete6-2: No, a potato gator. Like a gator that's a potato.
+	QuestComplete6-3: So a tater gater then.
+	PlayerQuestComplete6-3: I'm just gonna leave now.
+	//christmas tree quest
+	Quest7-1: Heh, I remember when I was just knee-high to a lamb my mom got me a teddy bear for christmas. Long way from back then, but I can say my memories are sweet. I'm thinking of celebratin' again for old times sake.
+	PlayerQuest7-1: Uhh, might be difficult given it hasn't been christmas in years.
+	Quest7-2: What in tarnation?! Ye can't just tell me ya haven't seen that old lubber saint nick in years! Let's make it worth your while. Bring me a Christmas tree. Ya better bring me the whole thing! Lock, stock, and barrel!
+	PlayerQuest7-2: Alright, I can probably find a way.
+	//christmas tree quest done
+	QuestComplete7-1: Heya chap! Now I know that what I told you wasn't moonshine or anythin' given what you told me. Still, do ya reckon ye've got that tree I asked for?
+	PlayerQuestComplete7-1: The tree attacked me.
+	QuestComplete7-2: Why do ya keep spoutin' gammon? What actually happened?
+	PlayerQuestComplete7-2: The tree ATTACKED me. I only managed to get this.
+	QuestComplete7-3: Lemme see there. Hm, didn't expect ya to find a ribbon. Guess I can at least get some use out of this, so I'll give ya somethin' at least. Ya gotta stop speakin' humbug all the time chap.
+	PlayerQuestComplete7-3: Yeah whatever man.
+	//tar pig quest
+	Quest8-1: Hm, ya ever hearn of head-cheese chap? I've been thinking of makin' some, just like I used to make back with the old rats.
+	PlayerQuest8-1: What the hell is head-cheese?
+	Quest8-2: Yer mind must be all higgledy-piggledy from just the name! It's a simple meal we used to make back when this was our home. I've got some axle grease, so all's I need is a hog. If I remember right, should be easy enough to find some in those big desert caves.
+	PlayerQuest8-2: Ok, doesn't sound too bad. I'll get that for you.
+	//tar pig quest done
+	QuestComplete8-1: Howdy chap. Did ya get that hog I mentioned earlier? Gotta be the one from the desert or else the dish will be ruined.
+	PlayerQuestComplete8-1: Uhh, well yes, kind of?
+	QuestComplete8-2: Are you just dilly-dallying or is this some no-good deviltry yer up to?
+	PlayerQuestComplete8-2: The hog you wanted me to find went extinct. I only found its bones.
+	QuestComplete8-3: Damn it, no this won't do chap. Yer fine, just wish ya could have had a taste of the dish. I'm telling ya there's nothin' as delicious as cut up hog ears and feet boiled and pressed into a cheese jelly.
+	PlayerQuestComplete8-3: I think this is the objectively best outcome for me.
+	//spider war
+	SpiderWar1: ...
+	PlayerSpiderWar1: Hey uh, I found this poster. Thought you might know what its for.
+	SpiderWar2: Grumble grumble...
+	PlayerSpiderWar2: Alright pops what's got you angry this time?
+	SpiderWar3: What's got me mad as a hare is that the devils still kicking! I thought that by now he'd be six feet underground but I saw that monster again while scouting the house! Hasn't even aged a day!
+	PlayerSpiderWar3: I mean I could just kill it. That's kinda what I've been doing for you this whole time.
+	SpiderWar4: Really? Wait, yes you could... Alright chap ya've got a deal. This feller is another one of 'em good for nothin spiders. 'Bout as tall as you and me, has a bit of a beard, and looks even older than I am. Ya should be able to dry gulch him but, just so ya know ye might be starting the candlelight caboodle all over again.
+	PlayerSpiderWar4: Yeah whatever you say I'll get it done.
+	//spider war complete
+	PostSpiderWar1: Goodness chap! I thought you'd be six feet under but looks like you capped the climax! I knew ya could-
+	PlayerPostSpiderWar1: What the hell did you make me do?
+	PostSpiderWar2: Well chap I-
+	PlayerPostSpiderWar2: Tell it to me properly. What just happened?
+	PostSpiderWar3: Fine, I'll explain. Back when me and the rest of us hunters were alive, we all used to live here. That was until that monster and his army leveled us all to the ground. I couldn't stand a chance against you when we fought, and I definitely didn't stand a chance against them. I can't remember how I went out, but, I know the rest of the hunters went down with me.
+	PlayerPostSpiderWar3: Oh damn...
+	PostSpiderWar4: I'm sorry chap I-It just didn't sit right with me to see him again. I shouldn't have dragged you into all of this without making it clear what would happen.
+	PlayerPostSpiderWar4: Yeah no kidding- wait are you speaking normally?
+	PostSpiderWar5: What do ya mean chap?
+	PlayerPostSpiderWar5: Huh?
+	PostSpiderWar6: Yer speakin' humbug again aren't yah? Still, glad ya ain't down the gutter.
+	PlayerPostSpiderWar6: I guess bro.
+	//no quests available
+	NoQuest: Sorry chap, I ain't got anymore new jobs for ya to do right now.
+	PlayerNoQuest: Ok.
+}

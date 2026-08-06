@@ -167,7 +167,7 @@ StardustBombNPC.DisplayName: Сверхновая
 
 Alien: {
 	DisplayName: Чужой
-	Entry: In space, no one can hear you make pop culture references.
+	Entry: В космосе нет звука — никто не услышит ваши отсылки на поп-культуру.
 }
 
 BoneHarpy: {
@@ -195,10 +195,10 @@ AstralAdventurer: {
 
 AstralAmalgam: {
 	DisplayName: Астральная амальгама
-	Entry: Настоящее чудо инопланетной природы, не поддающееся никакому разумному объяснению. Несмотря на свой небольшой размер и странное склизкое тело, это создание каким-то образом заставляет твёрдые камни вращаться вокруг себя.Shockhopper
+	Entry: Настоящее чудо инопланетной природы, не поддающееся никакому разумному объяснению. Несмотря на свой небольшой размер и странное склизкое тело, это создание каким-то образом заставляет твёрдые камни вращаться вокруг себя.
 }
 
-SpaceShield.DisplayName: Astral Buffer
+SpaceShield.DisplayName: Астральный смягчитель
 
 AuroraStag: {
 	DisplayName: Полярный олень
@@ -232,8 +232,8 @@ BlizzardBandit: {
 }
 
 BlizzardNimbus: {
-	DisplayName: Blizzard Nimbus
-	Entry: Having frozen over, this nimbus angrily rains down shards of ice in an attempt to expel all of it. What it doesn't know is that it could just leave the cold environment.
+	DisplayName: Бурановая туча
+	Entry: Замёрзшая туча, что отчаянно пытается согреться, выбрасывая тоннами сосульки из своего тела. А ведь она могла просто улететь в более тёплые края.
 }
 
 Spewer: {
@@ -247,33 +247,33 @@ SwollenFish: {
 }
 
 Bloomshroom: {
-	DisplayName: Bloomshroom
-	Entry: This aggressive mycelium only becomes lively once in a blue moon. They spread their spores to the skies, reproducing once they hit the ground or find a living host.
+	DisplayName: Плодогриб
+	Entry: Этот агрессивный гриб выходит из спячки только во время таинственной луны, чтобы выпустить в воздух свои споры. Оседая на земле или на других живых существах, из спор вырастают новые плодогрибы.
 }
 
 Glitterfly: {
-	DisplayName: Glitterfly
-	Entry: Glitterflies do not feed often, as their palette consists of a rare fungus. In addition, they possess a venomous sting that causes intense disorientation and vertigo.
+	DisplayName: Мушка-блестушка
+	Entry: Мушки-блестушки научились долгое время обходиться без пищи, поскольку их рацион целиком состоит из одного очень редкого вида грибов. А ещё у них есть жало, яд которого вызывает у жертвы головокружение и тошноту.
 }
 
 GlowToad: {
-	DisplayName: Glow Toad
-	Entry: Psychedelic fungus grows upon the back of this toad. They are lost in delirium, as they find themselves snacking on it frequently.
+	DisplayName: Светожаба
+	Entry: Светожабы целые дни напролёт проводят в бреду, поскольку то и дело поедают галлюциногенные грибы, растущие на их спинках.
 }
 
 Lumantis: {
-	DisplayName: Lumantis
-	Entry: Colossal bugs that attack with scythe-like claws. When threatened, as a warning to predators, they puff their underbellies.
+	DisplayName: Богомол-фонарик
+	Entry: Огроменные жуки, что не побоятся иной раз использовать свои острые клешни. Чувствуя угрозу, они могут надуть своё брюшко, чтобы отпугнуть хищников. 
 }
 
 LunarSlime: {
-	DisplayName: Stargazer Slime
-	Entry: Gelatinous nectar from the stars. Stargazer Slimes may be aggressive, but the oil they secrete makes for a delicious spread.
+	DisplayName: Слизень-звездочёт
+	Entry: Слизистый сок самих звёзд, пускай и враждебный ко всем вокруг. Если намазать их слизь на хлеб, то получится очень даже вкусный бутерброд.
 }
 
 MadHatter: {
-	DisplayName: Mad Hatter
-	Entry: They've been driven mad, completely bonkers! But all the best people are.
+	DisplayName: Безумный шляпник
+	Entry: Он с ума сошёл, совсем с катушек слетел! Вот, что происходит со всеми хорошими людьми.
 }
 
 AncientFlyer: {
@@ -310,7 +310,7 @@ Shadowflamer: {
 
 FrostSaucer: {
 	DisplayName: Снегомётчик
-	Entry: A dangerous hovercraft made of spine-chillingly cold metal, and powered by Frost Cores. Playtime's over, no more mister ice guy!
+	Entry: Опасное воздушное судно, работающее на морозных ядрах. От одного его вида кровь стынет в жилах, а по спине пробегает холод, ведь прилетает он как снег на голову.
 	BossChecklistIntegration.SpawnInfo: Изредка появляется во время Морозного легиона.
 }
 
@@ -327,7 +327,7 @@ InfernoSkull.DisplayName: Череп инферно
 
 MoonWizard: {
 	DisplayName: Лунная медуза-волшебник
-	Entry: Эти лунные медузы куда смышлённей, чем кажутся. Дай им немного слаженности и чувства стиля, и они тут же станут в разы более грозным противником, чем любая другая медуза.
+	Entry: Эти лунные медузы куда смышлёней, чем кажутся. Дай им немного слаженности и чувства стиля, и они тут же станут в разы более грозным противником, чем любая другая медуза.
 	BossChecklistIntegration.SpawnInfo: Используйте [i:SpiritMod/DreamlightJellyItem] ночью на поверхности. Её можно поймать сачком во время Медузного наводнения.
 }
 
@@ -336,7 +336,7 @@ MysticMJWClone.DisplayName: Таинственная копия
 
 OccultistBoss: {
 	DisplayName: Оккультист
-	Entry: An undead dream demon obsessed with the practice and perfection of so-called 'blood corruption.' For this practice, he only reveals himself when the moon shimmers sanguine.
+	Entry: Мёртвый демон прямиком из кошмаров, безумно увлечённый искусством так называемого «искажения крови». Застать его можно только во время кровавых лун — он не упустит такую возможность поупражняться в использовании этой необычной магии.
 	BossChecklistIntegration.SpawnInfo: Изредка появляется во время кровавой луны, если в мире был побеждён хотя бы один пре-хардмодный босс.
 }
 
@@ -389,8 +389,8 @@ SuicideLaser.DisplayName: Лазерный бомбардировщик
 TailProbe.DisplayName: Звёздоплаватель
 
 BottomFeeder: {
-	DisplayName: Bottom Feeder
-	Entry: A nasty bile sits in their guts, waiting to be unleashed. Exercise caution as they shamble toward you, and be prepared for a flood of sludge and soot.
+	DisplayName: Омутовый падальщик
+	Entry: Их кишки полны отвратительной желчи, которая вот-вот вырвется наружу. Будьте осторожны и не подпускайте их слишком близко, иначе они зальют вас слизью и копотью.
 }
 
 Boulder_Termagant: {
@@ -405,7 +405,7 @@ CavernBandit: {
 
 CavernCrawler: {
 	DisplayName: Пещерный ползун
-	Entry: Despite a timid outward appearance, these curious cave-dwellers should not be underestimated.
+	Entry: Несмотря на скромный внешний вид этих любопытных обитателей пещер, недооценивать их точно не стоит.
 }
 
 ChainedSinner: {
@@ -470,12 +470,12 @@ CrystalSerpent: {
 
 CyberflyBlue: {
 	DisplayName: Кибермошка
-	Entry: Small digital wisps that flutter about cyberspace.
+	Entry: Крохотные цифровые огоньки, которые только и делают, что носятся по киберпространству. 
 }
 
 CyberflyPink: {
 	DisplayName: Кибермошка
-	Entry: Small digital wisps that flutter about cyberspace.
+	Entry: "{$NPCs.CyberflyBlue.Entry}"
 }
 
 Damselfish: {
@@ -484,8 +484,8 @@ Damselfish: {
 }
 
 DreamstrideWisp: {
-	DisplayName: Dreamstride Wisp
-	Entry: The essence of a nightmare, often appearing during the practice of 'blood corruption'. They wheeze and moan in silent pain.
+	DisplayName: Дух кошмара
+	Entry: Кошмарные сущности, появлением которых обычно сопровождается использование магии «искажения крови». Хрипят и стонут в своей молчаливой агонии.
 }
 
 Ebonkoi: {
@@ -499,8 +499,8 @@ FrostMinnow: {
 }
 
 GaleSnail: {
-	DisplayName: Gale Snail
-	Entry: A modest little nimbus that can't get enough of the rain. Even its shell produces rain, when it gathers enough moisture.
+	DisplayName: Улитка-дождинка
+	Entry: Крохотная туча, которая очень сильно обожает дожди. Даже её раковина начинает течь, как дождь, когда собирает достаточно влаги.
 }
 
 GildJelly: {
@@ -529,8 +529,8 @@ Gulper: {
 }
 
 HailSnail: {
-	DisplayName: Hail Snail
-	Entry: A small living snowball that can't get enough of the cold. It can get colder and colder, but it will never freeze.
+	DisplayName: Улитка-вихринка
+	Entry: Крохотная снежинка, которая очень сильно обожает морозы. Как бы холодно вокруг не было, она никогда не простудится.
 }
 
 Hemoglob: {
@@ -616,7 +616,7 @@ SawtoothShark: {
 }
 
 SpecularFish: {
-	DisplayName: Specular Fish
+	DisplayName: "{$ItemName.SpecularFish}"
 	Entry: Alchemists regard that there's never enough of this fish to go around in the heat of battle, as the potions they produce tend to empty fast.
 }
 
@@ -642,7 +642,7 @@ TubeWorm: {
 
 Vibeshroom: {
 	DisplayName: Плясогриб
-	Entry: This little guy's playlist consists of 80% lofi beats and hyperwave. Although some judge his taste, that won't stop him from dancing.
+	Entry: Плейлист этого паренька состоит в основном из лоу-фай битов и гипервейва. И ему всё равно, что вы скажете про его музыкальный вкус, он всё равно будет и дальше плясать под свои любимые треки.
 }
 
 CrystalDrifter: {
@@ -673,8 +673,8 @@ DeadArcher: {
 }
 
 DiseasedSlime: {
-	DisplayName: Noxious Slime
-	Entry: Bismite toxins flow through the gel of this diseased mass, causing any contact to erode the skin and inflame open wounds.
+	DisplayName: Тлетворный слизень
+	Entry: В геле этих слизней содержится огромное количество бисмитовых токсинов, что при попадании на чью-нибудь кожу с лёгкостью разъедят её и оставят ужасную гноящуюся рану.
 }
 
 DungeonCubeBlue: {
@@ -698,8 +698,8 @@ ElectricEel: {
 }
 
 Enchanted_Armor: {
-	DisplayName: Draugr
-	Entry: These suits of armor were given life by cursed souls connected to the dark sepulchers' treasure. Now they wait frozen and inanimate for a brave adventurer to wander inside.
+	DisplayName: Драуг
+	Entry: Эти латные доспехи ожили благодаря проклятым душам, желающим защитить сокровища тёмных склепов. Притворяясь обычной стойкой с бронёй, они выжидают момент, чтобы наброситься на очередного смельчака, спустившегося в это захоронение.
 }
 
 ExplosiveBarrel.DisplayName: Взрывная бочка
@@ -725,8 +725,8 @@ VileWasp: {
 }
 
 FleshHound: {
-	DisplayName: Flesh Hound
-	Entry: A nasty prowling canine that rears its head only under the vermillion light of a Blood Moon. Though it may feed, the hunger will always remain.
+	DisplayName: Мясная гончая
+	Entry: Мерзкая собака, выходящая на охоту лишь при алом свете кровавой луны. Сколько бы она ни пожирала, утолить свой голод она никогда не сможет.
 }
 
 WintrySoul: {
@@ -759,8 +759,8 @@ GloopGloop: {
 }
 
 Goblin_Grenadier: {
-	DisplayName: Goblin Grenadier
-	Entry: When spiky balls aren't cutting it, good old fashioned shrapnel-spitting explosives should do the trick.
+	DisplayName: Гоблин-подрывник
+	Entry: Когда колючие шары перестают одолевать врагов, на помощь гоблинам приходят старые добрые осколочные гранаты.
 }
 
 GraniteSentry: {
@@ -770,12 +770,12 @@ GraniteSentry: {
 
 GraniteSlime: {
 	DisplayName: Гранитный слизень
-	Entry: A gelatinous creature that's roamed the Granite caves for a long while, accumulating enough pebbles and dust to become one with the stone.
+	Entry: Склизное создание, что бродило по гранитным пещерам настолько долго и поглотило настолько много пыли и минералов, что теперь его не отличить от камней вокруг.
 }
 
 HauntedTome: {
 	DisplayName: Одержимый фолиант
-	Entry: A warding glyph was placed on this tome to protect it from improper use. Unfortunately for you, that means staring down a book with 20 canines.
+	Entry: На этот фолиант был наложен защитный глиф, не позволяющий никому использовать его не по назначению. Увы, это значит, что вам действительно придётся сражаться против книги с двадцатью здоровенными клыками.
 	BossChecklistIntegration.SpawnInfo: Провзаимодействуйте с одним из предметов в тёмном склепе.
 }
 
@@ -812,8 +812,8 @@ HydraHead: {
 }
 
 LostMime: {
-	DisplayName: Lost Mime
-	Entry: What you really fought was the mask puppeting what's left of a man. These masks are rumored to whisper to their hosts, taking over anyone unfortunate enough to fall to their allure.
+	DisplayName: Потерявшийся мим
+	Entry: На самом деле, никакой это не мим, а лишь проклятая маска, подчинившая себе тело несчастного человека. Ходят слухи, что такие маски шёпотом подталкивают своих жертв надеть себя, после чего превращают их в своих марионеток.
 }
 
 Mangrove_Defender: {
@@ -827,24 +827,24 @@ Masticator: {
 }
 
 Mecromancer: {
-	DisplayName: Mechromancer
-	Entry: One of the greatest minds among the Goblin Army's arsenal. A Mechromancer’s tinkering talents are nearly unmatched.
+	DisplayName: Мехромант
+	Entry: Один из лучших умов в гоблинской армии. Мало кто на этом свете обладает таким же инженерным талантом, как мехроманты.
 	BossChecklistIntegration.SpawnInfo: Изредка появляется во время Армии гоблинов после победы над Глазом Ктулху.
 }
 
 GoldCrateMimic: {
-	DisplayName: Golden Crate Mimic
-	Entry: While you may not enjoy their aggressive nature, you do respect their eye for fashion...at least, until you take it.
+	DisplayName: Мимик золотого ящика
+	Entry: Вам может не нравиться агрессивное поведение этих существ, но согласитесь, ящик на них смотрится довольно стильно... пока вы не заберёте его себе.
 }
 
 IronCrateMimic: {
-	DisplayName: Iron Crate Mimic
-	Entry: A fisherman is not alone in their hunt for the sea's vast riches. A slippery octopus seems to have beaten you to the punch.
+	DisplayName: Мимик железного ящика
+	Entry: Рыбаки не единственные, кто хочет поживиться сокровищами морей. Хитрые осьминоги утёрли вам нос в этом деле.
 }
 
 WoodCrateMimic: {
-	DisplayName: Wooden Crate Mimic
-	Entry: These inconspicuous imposters are rather suspicious. Exercise caution before approaching them for what lies within.
+	DisplayName: Мимик деревянного ящика
+	Entry: Эти неприметные самозванцы вызывают подозрения. Проявляйте осторожность, когда подходите к ним посмотреть, что внутри.
 }
 
 Molten_Core: {
@@ -898,18 +898,18 @@ Mineroid: {
 }
 
 SamuraiHostile: {
-	DisplayName: Phantom Samurai
-	Entry: The spirit of a deadly warrior that once lived many moons ago. Punished for breaking his honor code, he now swears to defend what's left of his dynasty to seek redemption.
+	DisplayName: Фантом самурая
+	Entry: Дух искусного воина, жившего на этой земле много лет тому назад. Однажды нарушив свой кодекс чести, он поклялся искупить свою вину, даже после смерти защищая остатки своей династии.
 }
 
-SamuraiPassive.DisplayName: Phantom Samurai
+SamuraiPassive.DisplayName: Фантом самурая
 
 PagodaGhostHostile: {
-	DisplayName: Disturbed Yuurei
-	Entry: Guardians of an abandoned skyward shrine. Despite being long forgotten, they fight with surprising agility.
+	DisplayName: Потревоженный юрэй
+	Entry: Стражи давно заброшенного небесного святилища. Хоть до этого момента им не приходилось сражаться целыми веками, свою удивительную проворность они не утратили.
 }
 
-PagodaGhostPassive.DisplayName: Yuurei
+PagodaGhostPassive.DisplayName: Юрэй
 
 Phantom: {
 	DisplayName: Фантом
@@ -917,8 +917,8 @@ Phantom: {
 }
 
 PirateLobber: {
-	DisplayName: Pirate Lobber
-	Entry: This pirate had found rolling to be a much more effective way to transport barrels along the deck. Funnily enough, it works pretty well on foes too!
+	DisplayName: Пират-швырятель 
+	Entry: Этот пират однажды догадался, что катить бочки по земле гораздо проще и целесообразнее, чем тащить на спине. К счастью для него, этот приём хорошо работает и в бою.
 }
 
 PlagueDoctor: {
@@ -938,7 +938,7 @@ Teratoma: {
 
 BlossomHound: {
 	DisplayName: Цветущая гончая
-	Entry: Кусок цветущего бузинного дерева, которому резьбой придали форму гончей. Ей движит лишь неутолимое желание охотиться и удобрять цветы на своём теле чужой кровью.
+	Entry: Кусок цветущего бузинного дерева, которому резьбой придали форму гончей. Ей движет лишь неутолимое желание охотиться и удобрять цветы на своём теле чужой кровью.
 }
 
 Blubby: {
@@ -1006,12 +1006,12 @@ Sea_Mandrake: {
 
 DeepspaceHopper: {
 	DisplayName: Электрошоковый скакатель
-	Entry: Неусидчивые организмы, поедающие различные минералы, которыми полнятся поля астероидов. Когда-то их ошибочно считали механизмами из-за их необычной способности к телепортации. 
+	Entry: Неусидчивые организмы, поедающие различные минералы, которыми полнятся поля астероидов. Когда-то их ошибочно считали механизмами из-за их необычной способности к телепортации.
 }
 
 Skeleton_Brute: {
-	DisplayName: Skeleton Brute
-	Entry: As a specimen, yes, they're intimidating. In a swinging match, nobody swings like a Skeleton Brute.
+	DisplayName: Скелет-громила
+	Entry: Даже один такой скелет внушает страх, да ещё какой! Никто на свете не умеет размахивать оружием с такой силой, с какой это делает скелет-громила.
 }
 
 Snaptrapper: {
@@ -1057,7 +1057,7 @@ SpiritGhoul: {
 
 SpiritMummy: {
 	DisplayName: Сумрачная мумия
-	Entry: В теле этой мумии уже не осталось её собственной души — потусторонние силы выгнали её оттуда и затолкали бесчисленное множество чужих душ, нуждающихся в собственном материальном вместилище. 
+	Entry: В теле этой мумии уже не осталось её собственной души — потусторонние силы выгнали её оттуда и затолкали бесчисленное множество чужих душ, нуждающихся в собственном материальном вместилище.
 }
 
 SpiritSkull: {
@@ -1089,7 +1089,7 @@ CogTrapperBody.DisplayName: Звёздовёртка
 
 CogTrapperHead: {
 	DisplayName: Звёздовёртка
-	Entry: Strange mechanical constructs assemble around a beacon, calling attention to precious astral metals. It seems you aren't the only one who wants it.
+	Entry: Странные механические конструкции, что собираются группами вокруг маяка, будто привлекая чьё-то внимание к астральным металлам. Похоже, не только вы хотите заполучить их. 
 }
 
 CogTrapperTail.DisplayName: Звёздовёртка

@@ -1,0 +1,145 @@
+CemeteryBiomeChest: {
+	MapEntry0: Swampy Cemetery Chest
+	MapEntry1: Locked Swampy Cemetery Chest
+}
+
+SpiderCaveChest: {
+	MapEntry0: Spider Grotto Chest
+	MapEntry1: Locked Spider Grotto Chest
+}
+
+SpookyBiomeChest: {
+	MapEntry0: Spooky Forest Chest
+	MapEntry1: Locked Spooky Forest Chest
+}
+
+SpookyHellChest: {
+	MapEntry0: Eye Valley Chest
+	MapEntry1: Locked Eye Valley Chest
+}
+
+EyeDresser: {
+	ContainerName: Living Flesh Dresser
+	MapEntry: Dresser
+}
+
+CultistDresser: {
+	ContainerName: Occultist Dresser
+	MapEntry: Dresser
+}
+
+ChristmasDresser: {
+	ContainerName: Yuletide Wood Dresser
+	MapEntry: Dresser
+}
+
+GlowshroomDresser: {
+	ContainerName: Glowshroom Dresser
+	MapEntry: Dresser
+}
+
+GlowshroomYellowDresser: {
+	ContainerName: Yellow Glowshroom Dresser
+	MapEntry: Dresser
+}
+
+UpperCatacombDresser: {
+	ContainerName: Catacomb Dresser
+	MapEntry: Dresser
+}
+
+LowerCatacombDresser: {
+	ContainerName: Overgrown Dresser
+	MapEntry: Dresser
+}
+
+BirchDresser: {
+	ContainerName: Old Birch Dresser
+	MapEntry: Dresser
+}
+
+TarCactusDresser: {
+	ContainerName: Tar Cactus Dresser
+	MapEntry: Dresser
+}
+
+OldWoodDresser: {
+	ContainerName: Old Wood Dresser
+	MapEntry: Dresser
+}
+
+UpperCatacombChest: {
+	MapEntry0: Catacomb Chest
+	MapEntry1: Locked Catacomb Chest
+}
+
+LowerCatacombChest: {
+	MapEntry0: Lower Catacomb Chest
+	MapEntry1: Locked Lower Catacomb Chest
+}
+
+//blooms
+CemeteryBloomPlant.MapEntry: Withered Bloom
+DandelionBloomPlant.MapEntry: Dandelion Bloom
+DragonfruitBloomPlant.MapEntry: Diva Bloom
+FallBloomPlant.MapEntry: Pumpkin Bloom
+FossilBloomPlant.MapEntry: Fossil Bloom
+SeaBloomPlant.MapEntry: Depths Bloom
+SpringBloomPlant.MapEntry: Pollen Bloom
+SummerBloomPlant.MapEntry: Solar Bloom
+VegetableBloomPlant.MapEntry: Genetically-Modified Bloom
+WinterBloomPlant.MapEntry: Berry Bush Bloom
+FungusBloomPlant.MapEntry: Fungus Bloom
+TomatoBloomPlant.MapEntry: Tomato Bloom
+//other tiles
+SpiritAltar.MapEntry: Spirit Altar
+CemeterySapling.MapEntry: Sapling
+CemeteryPylon.MapEntry: Swampy Cemetery Pylon
+SpiderCavePylon.MapEntry: Spider Grotto Pylon
+SpookyBiomePylon.MapEntry: Spooky Forest Pylon
+SpookyHellPylon.MapEntry: Eye Valley Pylon
+KrampusPylon.MapEntry: Krampus' Home-made Pylon
+FlyBigJar.MapEntry: Big Fly Jar
+FlySmallJar.MapEntry: Fly Jar
+OldWoodChest.MapEntry: Old Wood Chest
+GiantShroom.MapEntry: Giant Glowshroom
+SpookySapling.MapEntry: Sapling
+SpookySaplingGreen.MapEntry: Sapling
+Cauldron.MapEntry: Creepy Cauldron
+EyeChest.MapEntry: Monster Chest
+EyeSapling.MapEntry: Stalk Sapling
+EyeTree.MapEntry: Eye Stalk
+BigFlower.MapEntry: Big Flower
+MysteriousTombstone.MapEntry: Mysterious Tombstone
+GiantRoot.MapEntry: Giant Root
+GraveShovelTile.MapEntry: Grave Shovel Tile
+TallMushroom.MapEntry: Tall Mushroom
+TinyGhostJar.MapEntry: Tiny Ghost Jar
+TinyMushroomCage.MapEntry: Tiny Mushroom Cage
+CultistChest.MapEntry: Occultist Chest
+TempleTrapdoor.MapEntry: Temple Trapdoor
+CatacombTrapdoor1.MapEntry: Locked Trapdoor
+CatacombTrapdoor2.MapEntry: Locked Trapdoor
+CatacombTrapdoor3.MapEntry: Locked Trapdoor
+Broccoli.MapEntry: Giant Broccoli
+GiantShroomYellow.MapEntry: Giant Glowshroom
+TarPitCactus.MapEntry: Cactus
+ChristmasChest.MapEntry: Yuletide Chest
+GlowshroomChest.MapEntry: Glowshroom Chest
+GlowshroomYellowChest.MapEntry: Glowshroom Chest
+SinisterSnailCage.MapEntry: Sinister Snail Cage
+BoneFishTree.MapEntry: Fish Spine
+BoneFishTreeHanging.MapEntry: Fish Spine
+TubeWorm.MapEntry: Tube Worm
+LabSafe.MapEntry: Rusty Safe
+EyeTreeShort.MapEntry: Eye Stalk
+LittleSpiderJar.MapEntry: Little Spider Jar
+GrottoTree1.MapEntry: Grotto Tree
+GrottoTree2.MapEntry: Grotto Tree
+GrottoTree3.MapEntry: Grotto Tree
+GrottoTreeSapling.MapEntry: Sapling
+SporeShroomTreeSapling.MapEntry: Sapling
+BirchChest.MapEntry: Old Birch Chest
+BroccoliSapling.MapEntry: Broccoli Sapling
+TubeWormSapling.MapEntry: Tube Worm Polyp
+TarCactusChest.MapEntry: Tar Cactus Chest
