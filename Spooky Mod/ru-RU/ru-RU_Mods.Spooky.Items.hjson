@@ -9,8 +9,8 @@ DaylightSavings: {
 }
 
 FarmerGlove: {
-	DisplayName: Farmer's Glove
-	Tooltip: Grants 10% increased attack speed for each bloom buff you have
+	DisplayName: Садовые перчатки
+	Tooltip: Увеличивает скорость атаки на 10% за каждое активное цветенье
 }
 
 HerbShaker: {
@@ -19,16 +19,16 @@ HerbShaker: {
 }
 
 TheMask: {
-	DisplayName: Strange Mask
-	Tooltip: Gain 5 defense for each bloom buff you have
+	DisplayName: Странная маска
+	Tooltip: Увеличивает защиту на 5 ед. за каждое активное цветенье
 }
 
 Wormy: {
-	DisplayName: Wormy Charles
+	DisplayName: Чарли червячок
 	Tooltip:
 		'''
-		Summons a friendly worm to fight with you
-		Each bloom buff you have will increase his damage
+		Призывает дружелюбного червяка сражаться за вас
+		Каждое активное цветенье увеличивает его урон
 		'''
 }
 
@@ -455,12 +455,12 @@ WinterStrawberry: {
 }
 
 DaffodilHairpin: {
-	DisplayName: Flower Hairpin
+	DisplayName: Заколка-цветочек
 	Tooltip:
 		'''
-		Constantly generate flower petals that orbit around you, up to 6 total
-		Taking damage will cause all existing petals home in on nearby enemies
-		The petals will deal damage equal to how much damage you took with a minimum of 40
+		Вокруг вас будут появляться вращающиеся лепестки, вплоть до 6 штук
+		Лепестки атакуют ближайших врагов при получении вами урона
+		Урон лепестков зависит от урона атаки, активизировавших их, но не может быть менее 40 ед.
 		'''
 }
 
@@ -476,21 +476,21 @@ FlowerPotShoe: {
 }
 
 FlyCharm: {
-	DisplayName: Charm of the Flies
+	DisplayName: Очарование мухов
 	Tooltip:
 		'''
-		Summons a swarm of flies around you over time, up to 10 total
-		Each active fly will give you one extra point of defense
-		When you get hit, the flies will die and respawn after thirty seconds
+		Вокруг вас будет постепенно собираться рой из мух, вплоть до 10 особей
+		Каждая муха увеличивает вашу защиту на 1 ед.
+		Все мухи умрут при получении вами урона и начнут появляться снова только через 30 секунд
 		'''
 }
 
 HunterScarf: {
-	DisplayName: Old Hunter's Scarf
+	DisplayName: Шарф Старого охотника
 	Tooltip:
 		'''
-		Enemies nearby you will be marked 
-		Marked enemies will take 25% more damage from your attacks
+		Отмечает врагов поблизости
+		Отмеченные враги получают от вас на 25% больше урона
 		'''
 }
 
@@ -526,11 +526,11 @@ PumpkinSpiceLatte: {
 }
 
 SpiritAmulet: {
-	DisplayName: Spirit Amulet
+	DisplayName: Призрачный амулет
 	Tooltip:
 		'''
-		Sometimes summon friendly cemetery ghosts when you attack enemies
-		The damage the ghosts deal scales based on how much damage you did
+		Может призывать дружелюбное приведение кладбища при попадании по врагу
+		Урон приведения зависит от урона атаки, призвавшей его
 		'''
 }
 
@@ -540,7 +540,7 @@ BossBagBigBone: {
 }
 
 BossBagDaffodil: {
-	DisplayName: Treasure Bag (Daffodil)
+	DisplayName: Мешок с сокровищами (Нарцисс)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
@@ -550,7 +550,7 @@ BossBagMoco: {
 }
 
 BossBagOldHunter: {
-	DisplayName: Treasure Bag (Old Hunter)
+	DisplayName: Мешок с сокровищами (Старый охотник)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
@@ -560,7 +560,7 @@ BossBagOrroboro: {
 }
 
 BossBagRotGourd: {
-	DisplayName: Treasure Bag (Rot Gourd)
+	DisplayName: Мешок с сокровищами (Тухлая тыква)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
@@ -570,34 +570,30 @@ BossBagSpookFishron: {
 }
 
 BossBagSpookySpirit: {
-	DisplayName: Treasure Bag (Spooky Spirit)
+	DisplayName: Мешок с сокровищами (Призрак-пугало)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 CranberryJelly: {
-	DisplayName: Cranberry Jelly
+	DisplayName: Брусничное варенье
 	Tooltip:
 		'''
-		Will be consumed automatically if you fall below half health
-		Has half the sickness duration of regular healing potions
+		Автоматически используется, когда ваше здоровье опускается ниже 50%
+		Вызываемая послезельевая болезнь будет в 2 раза короче обычного
 		'''
 }
 
 CranberryJuice: {
-	DisplayName: Cranberry Juice
-	Tooltip:
-		'''
-		Will be consumed automatically if you fall below half health
-		Has half the sickness duration of regular healing potions
-		'''
+	DisplayName: Брусничный сок
+	Tooltip: "{$Items.CranberryJelly.Tooltip}"
 }
 
 Brick: {
-	DisplayName: Heavy Brick
+	DisplayName: Тяжёлый кирпич
 	Tooltip:
 		'''
-		Can be thrown at lazy things to wake them up
-		Awakens Daffodil if thrown at her
+		Можно бросить в кого-нибудь спящего, чтобы разбудить его
+		Пробуждает Нарцисс, если попасть по ней
 		'''
 }
 
@@ -627,17 +623,17 @@ CowBell: {
 }
 
 EMFReader: {
-	DisplayName: EMF Reader
+	DisplayName: Детектор ЭМП
 	Tooltip:
 		'''
-		A device used to find paranormal entities
-		Use nearby strange objects in the world to unleash them
+		Устройство, способное обнаруживать паранормальные явления
+		Используйте рядом со странными объектами в мире, чтобы высвободить эти явления
 		'''
 }
 
 EMFReaderBroke: {
-	DisplayName: Broken EMF Reader
-	Tooltip: Can be repaired to find ghosts
+	DisplayName: Сломанный детектор ЭМП
+	Tooltip: Почините, чтобы использовать для охоты на привидений
 }
 
 Fertilizer: {
@@ -650,20 +646,20 @@ Fertilizer: {
 }
 
 OldHunterSoul: {
-	DisplayName: Old Hunter's Soul
+	DisplayName: Душа Старого охотника
 	Tooltip:
 		'''
-		Belongs to the dead old hunter
-		Use nearby his corpse to return this soul to his body
+		Принадлежит покойному Старому охотнику
+		Используйте рядом с трупом Старого охотника, чтобы вернуть душу в его тело
 		'''
 }
 
 RottenSeed: {
-	DisplayName: Rotten Seed
+	DisplayName: Прогнившее семя
 	Tooltip:
 		'''
-		Summons Rot Gourd when used in the spooky forest
-		Can be dropped on turkies to feed and tame them
+		Призывает Тухлую тыкву при использовании в жутком лесу
+		Можно бросить на прикорм индюку, чтобы приручить его
 		'''
 }
 
@@ -717,18 +713,18 @@ CatacombChestKeyUpper: {
 }
 
 CatacombKey1: {
-	DisplayName: Yellow Barrier Key
-	Tooltip: Unlocks the yellow catcombs barrier
+	DisplayName: Ключ от жёлтого люка
+	Tooltip: Отпирает люк с жёлтым замком в Катакомбах
 }
 
 CatacombKey2: {
-	DisplayName: Red Barrier Key
-	Tooltip: Unlocks the red catcombs barrier
+	DisplayName: Ключ от красного люка
+	Tooltip: Отпирает люк с красным замком в Катакомбах
 }
 
 CatacombKey3: {
-	DisplayName: Orange Barrier Key
-	Tooltip: Unlocks the orange catacombs barrier
+	DisplayName: Ключ от оранжевого люка
+	Tooltip: Отпирает люк с оранжевым замком в Катакомбах
 }
 
 PlantChunk: {
@@ -737,11 +733,11 @@ PlantChunk: {
 }
 
 Slot3Unlocker: {
-	DisplayName: Bone Spade
+	DisplayName: Костяная лопатка
 	Tooltip:
 		'''
-		Clears the thorn infestation away from your third bloom slot
-		Allows you to have up to 3 bloom buffs at once!
+		Очищает заросли с третьего слота эффектов цветений
+		Позволяет активировать три цветенья за раз!
 		'''
 }
 
@@ -804,30 +800,30 @@ CrossCharm: {
 }
 
 DaffodilBlade: {
-	DisplayName: Thorn Dagger
-	Tooltip: A quick dagger that can sometimes poison enemies
+	DisplayName: Колючий кинжал
+	Tooltip: Быстрый кинжал, который может наложить на врага дебафф «{$BuffName.Poisoned}»
 }
 
 DaffodilBow: {
-	DisplayName: Fly Shot
+	DisplayName: Мухобой
 	Tooltip:
 		'''
-		A slow bow that fires out a spread of arrows
-		Converts wooden arrows into homing flies
+		Медленный лук, запускающий несколько стрел за раз
+		Превращает деревянные стрелы в самонаводящихся мух
 		'''
 }
 
 DaffodilRod: {
-	DisplayName: Sunflower Rod
-	Tooltip: Casts flowers that can home on enemies and bounce off surfaces
+	DisplayName: Жезл подсолнуха
+	Tooltip: Выпускает самонаводящиеся цветы подсолнуха, отскакивающие от блоков
 }
 
 DaffodilStaff: {
-	DisplayName: Plant Puncher Staff
+	DisplayName: Посох стебля-боксёра
 	Tooltip:
 		'''
-		Summons powerful plant hands to punch nearby enemies
-		Each hand requires one minion slot, but only up to 2 can be active at once
+		Призывает сильные руки-растения, бьющие своими кулаками ближайших врагов
+		Каждая рука занимает 1 слот миньонов, но одновременно можно призвать только две руки
 		'''
 }
 
@@ -913,46 +909,45 @@ PandoraAmalgam: {
 }
 
 PandoraChalice: {
-	DisplayName: Unholy Grail
+	DisplayName: Несвятой Грааль
 	Tooltip:
 		'''
-		You will spawn a blob of ectoplasm whenever you restore mana, up to 6 total
-		The ectoplasm blobs will fly away and home in on nearby enemies after a few seconds
-		The damage of each blob scales based on how much mana you restored
-		'Don't drive after this!'
+		При восстановлении маны будут призываться сгустки эктоплазмы, вплоть до 6 штук
+		Через некоторое время сгустки эктоплазмы разлетаются и самонаводятся на ближайших врагов
+		Чем больше маны было восстановлено, тем больше сгустки нанесут урона
+		«Вам не стоит садится за руль после этого»
 		'''
 }
 
 PandoraCross: {
-	DisplayName: The Cross
+	DisplayName: Крест
 	Tooltip:
 		'''
-		Press the Accessory Hotkey to release powerful sound around you for 5 seconds
-		The sound will deal damage to surrounding enemies and push them away
-		This ability has a 40 second cooldown before it can be used again
-		'Heart-crushing Bass'
+		Нажмите клавишу «Навык аксессуара», чтобы выпустить очередь из звуковых волн
+		Звуковые волны наносят урон и отбрасывают врагов на большое расстояние
+		Эта способность перезаряжается 40 секунд
+		«Душераздирающий бас»
 		'''
 }
 
 PandoraCuffs: {
-	DisplayName: Samson's Cuffs
+	DisplayName: Кандалы Самсона
 	Tooltip:
 		'''
-		Every 15 seconds, a chain will attach itself to a nearby enemy for 5 seconds
-		Enemies attached to the chain will take 25% more damage
-		The chain will also prioritize bosses over normal enemies
-		'Suffering builds character'
+		Каждые 15 секунд цепляют на 5 секунд на ближайшего врага кандалы, увеличивающие получаемый этим врагом урон на 25%
+		Кандалы в первую очередь будут стараться зацепиться за боссов, нежели на обычных врагов
+		«Страдания закаляют душу»
 		'''
 }
 
 PandoraRosary: {
-	DisplayName: Ghastly Rosary
+	DisplayName: Призрачный розарий
 	Tooltip:
 		'''
-		You will spawn ghost hands around you every few seconds, up to 5 total
-		When you are damaged, the hands will chase you, and will heal your life when they touch you
-		After being hit, the hands cannot respawn again for 12 seconds
-		'Spooky sundays'
+		Каждые 5 секунд вокруг вас будут появляются призрачные руки, вплоть до 5 штук
+		Эти руки будут восстанавливающие ваше здоровье при получении вами урона
+		Руки не смогут появляться ещё 12 секунд после получения удара
+		«Жуткие воскресенья»
 		'''
 }
 
@@ -1012,23 +1007,23 @@ LegalShotgun: {
 }
 
 RustedBullet: {
-	DisplayName: Rusted Bullet
-	Tooltip: Splits into shrapnel on impact
+	DisplayName: Проржавевший патрон
+	Tooltip: Разбивается на осколки при столкновении
 }
 
 SpiritHorsemanBody: {
-	DisplayName: Spirit Horseman's Chestmail
-	Tooltip: 15% increased damage
+	DisplayName: Латы призрачного всадника
+	Tooltip: Увеличивает урон на 13%
 }
 
 SpiritHorsemanHead: {
-	DisplayName: Spirit Horseman's Pumpkin
-	Tooltip: 12% increased critical strike chance
+	DisplayName: Тыква призрачного всадника
+	Tooltip: Увеличивает шанс критического удара на 12%
 }
 
 SpiritHorsemanLegs: {
-	DisplayName: Spirit Horseman's Greaves
-	Tooltip: 20% increased movement speed
+	DisplayName: Поножи призрачного всадника
+	Tooltip: Увеличивает скорость передвижения на 20%
 }
 
 BackroomsCorpse: {
@@ -1201,8 +1196,8 @@ Creepypasta: {
 }
 
 CemeteryKey: {
-	DisplayName: Swampy Cemetery Key
-	Tooltip: Unlocks a cemetery chest in the catacombs
+	DisplayName: Болотный ключ
+	Tooltip: Отпирает болотный сундук в Катакомбах
 }
 
 CemeterySolution: {
@@ -1220,8 +1215,8 @@ DiscoSkull: {
 }
 
 GraveDiggerShovel: {
-	DisplayName: Cemetery Digger's Shovel
-	Tooltip: Bash enemies with a rusty shovel
+	DisplayName: Лопата гробовщика
+	Tooltip: Разбейте врагов ржавой лопатой!
 }
 
 PartyNailgun: {
@@ -1235,26 +1230,26 @@ PartyNailgun: {
 }
 
 SpiritHandStaff: {
-	DisplayName: Rod of Hands
+	DisplayName: Жезл рук
 	Tooltip:
 		'''
-		Casts spooky hands out of nearby surfaces
-		Hands cannot be summoned if your cursor is too far from any surfaces
+		Призывает пугающие руки из земли
+		Руки не могут быть призваны, если ваш курсор находится слишком далеко от какой-либо твёрдой поверхности
 		'''
 }
 
 SpiritScroll: {
-	DisplayName: Spooky Scroll
+	DisplayName: Пугающий папирус
 	Tooltip:
 		'''
-		Conjures pumpkin heads that will charge at nearby enemies
-		They do not take up minion slots, but you cannot have more than 5 at once
+		Призывает самонаводящиеся тыквенные головы
+		Они не занимают слоты миньонов, но вы не сможете призывать более 5 голов за раз
 		'''
 }
 
 SpiritSword: {
-	DisplayName: Spooky Buster
-	Tooltip: Launches an explosive skull on enemy hits
+	DisplayName: Пугающий громила
+	Tooltip: Выпускает взрывающиеся черепа при попадании по врагу
 }
 
 BananalizardHead: {
@@ -1308,7 +1303,7 @@ ChristmasOutfitHeadRed: {
 }
 
 DaffodilMask: {
-	DisplayName: Daffodil Mask
+	DisplayName: Маска Нарцисс
 	Tooltip: ""
 }
 
@@ -1358,7 +1353,7 @@ NoseCultistRobe: {
 }
 
 OldHunterHat: {
-	DisplayName: Old Hunter Hat
+	DisplayName: Шляпа Старого охотника
 	Tooltip: ""
 }
 
@@ -1378,7 +1373,7 @@ DandyHead: {
 }
 
 RotGourdMask: {
-	DisplayName: Rot Gourd Mask
+	DisplayName: Маска Тухлой тыквы
 	Tooltip: ""
 }
 
@@ -1398,7 +1393,7 @@ SpookFishronMask: {
 }
 
 SpookySpiritMask: {
-	DisplayName: Spooky Spirit Mask
+	DisplayName: Маска Призрака-пугала
 	Tooltip: ""
 }
 
@@ -1418,8 +1413,8 @@ WaasephiHead: {
 }
 
 WarlockHood: {
-	DisplayName: Warlock Hood
-	Tooltip: "'We love casting spells!'"
+	DisplayName: Капюшон колдуна
+	Tooltip: «We love casting spells!»
 }
 
 ZomboidNecromancerHood: {
@@ -1433,32 +1428,32 @@ ZomboidPyromancerHood: {
 }
 
 CatacombCrate: {
-	DisplayName: Bone Crate
+	DisplayName: Костяной ящик
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 CatacombCrate2: {
-	DisplayName: Skull Crate
+	DisplayName: Черепной ящик
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 GrottoCrate: {
-	DisplayName: Grotto Crate
+	DisplayName: Ящик грота
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 GrottoCrate2: {
-	DisplayName: Root Crate
+	DisplayName: Ящик из корней
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 SpookyCrate: {
-	DisplayName: Spooky Crate
+	DisplayName: Жуткий ящик
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 SpookyCrate2: {
-	DisplayName: Scary Crate
+	DisplayName: Жутчайший ящик
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
@@ -1488,8 +1483,8 @@ CarrotFish: {
 }
 
 DumboOctopoid: {
-	DisplayName: Dumbo Octopoid
-	Tooltip: "'Caught in Underground Spooky Forest'"
+	DisplayName: Глупый октопоид
+	Tooltip: «Водится в жутком подземелье»
 }
 
 OrroEel: {
@@ -1498,18 +1493,18 @@ OrroEel: {
 }
 
 PumpkinBobber: {
-	DisplayName: Pumpkin Bobber
-	Tooltip: Increases fishing power by 10
+	DisplayName: Тыквенный поплавок
+	Tooltip: Увеличивает навык рыбной ловли на 10 ед.
 }
 
 FishingSpiderRod: {
-	DisplayName: Fishing Spider Rod
+	DisplayName: Удочка паука-рыболова
 	Tooltip: ""
 }
 
 GourdFish: {
-	DisplayName: Moldy Gourd Fish
-	Tooltip: "'Caught in Spooky Forest'"
+	DisplayName: Проплесневевшая тыкворыба
+	Tooltip: «Водится в жутком лесу»
 }
 
 HibiscusFish: {
@@ -1518,13 +1513,13 @@ HibiscusFish: {
 }
 
 SphiderFish: {
-	DisplayName: Sphider Fish
-	Tooltip: "'Caught in Spider Grotto'"
+	DisplayName: Паукруглая рыба
+	Tooltip: «Водится в паучьем гроте»
 }
 
 SpookySpiritFish: {
-	DisplayName: Spirit Cod
-	Tooltip: "'Caught in Swampy Cemetery'"
+	DisplayName: Призрак трески
+	Tooltip: «Водится на заболоченном кладбище»
 }
 
 TarGar: {
@@ -1538,8 +1533,8 @@ Tarpon: {
 }
 
 ZomboidFish: {
-	DisplayName: Zomboid Fish
-	Tooltip: "'Caught in Spooky Forest'"
+	DisplayName: Рыба-зомбоид
+	Tooltip: «Водится в жутком лесу»
 }
 
 BlackLicorice: {
@@ -1552,29 +1547,29 @@ BlackLicorice: {
 }
 
 CandyCorn: {
-	DisplayName: Candy Corn
+	DisplayName: Кэнди-корн
 	Tooltip:
 		'''
-		Minor improvements to all stats
-		'The best halloween candy'
+		{$BuffDescription.WellFed}
+		«Лучшая хэллоуинская конфета»
 		'''
 }
 
 CaramelApple: {
-	DisplayName: Caramel Apple
+	DisplayName: Яблоко в карамели
 	Tooltip:
 		'''
-		Minor improvements to all stats
-		'Don't know how the apple got caramel on it'
+		{$BuffDescription.WellFed}
+		«Без понятия, откуда на этом яблоке появилась карамель»
 		'''
 }
 
 EyeChocolate: {
-	DisplayName: Eye Chocolate
+	DisplayName: Шоколадный глаз
 	Tooltip:
 		'''
-		Minor improvements to all stats
-		'Very soft and chewy'
+		{$BuffDescription.WellFed}
+		«Мягкая жевательная конфетка»
 		'''
 }
 
@@ -1589,29 +1584,29 @@ EyeFruit: {
 }
 
 FrankenMarshmallow: {
-	DisplayName: Franken Marshmallow
+	DisplayName: Франкеншмэллоу
 	Tooltip:
 		'''
-		Minor improvements to all stats
-		'A chewy abomination'
+		{$BuffDescription.WellFed}
+		«Жевательная мерзость»
 		'''
 }
 
 GoofyPretzel: {
-	DisplayName: Goofy Pretzel
+	DisplayName: Странный крендель
 	Tooltip:
 		'''
-		Minor improvements to all stats
-		'It looks disturbed, hope it isn't alive'
+		{$BuffDescription.WellFed}
+		«Выглядит неправильно. Надеюсь, оно не живое»
 		'''
 }
 
 VampireGummy: {
-	DisplayName: Vampire Gummy
+	DisplayName: Жевательные клыки вампира
 	Tooltip:
 		'''
-		Minor improvements to all stats
-		'Put it in your mouth and scare people!'
+		{$BuffDescription.WellFed}
+		«Засуньте их себе в рот и пугайте людей!»
 		'''
 }
 
@@ -2234,21 +2229,21 @@ BrownieOrganic: {
 }
 
 CatEyes: {
-	DisplayName: Evil Eyes
-	Tooltip: Summons a pet black kitten
+	DisplayName: Зловещие глаза
+	Tooltip: Призывают чёрного котёнка
 }
 
 ChalupoPepper: {
-	DisplayName: Odd Spicy Pepper
-	Tooltip: Summons chalupo and chalupa
+	DisplayName: Странный острый перчик
+	Tooltip: Призывает Чалупо и Чалупу
 }
 
 DissolvedBone: {
-	DisplayName: Slightly Dissolved Bone
+	DisplayName: Немного растворённая кость
 	Tooltip:
 		'''
-		Summons a mysterious pile of goo to follow you
-		'Its covered in nasty goop, gross!'
+		Призывает таинственного слизняка, преследующего вас
+		«Он покрыт какой-то липкой слизью, отвратительно!»
 		'''
 }
 
@@ -2278,8 +2273,8 @@ Honeycomb: {
 }
 
 InchwormApple: {
-	DisplayName: Old Apple
-	Tooltip: Summons a pet Inchworm
+	DisplayName: Старое яблоко
+	Tooltip: Призывает ручную гусеницу
 }
 
 MocoTissue: {
@@ -2297,12 +2292,8 @@ OddBrain: {
 }
 
 TrapdoorSpiderSaddle: {
-	DisplayName: Old Saddle
-	Tooltip:
-		'''
-		Summons a rideable trapdoor spider mount
-		Allows you to traverse on walls and ceilings
-		'''
+	DisplayName: Старое седло
+	Tooltip: Призывает ездового тарантула, который может ползать по стенам и потолку
 }
 
 OrroboroRing: {
@@ -2315,8 +2306,8 @@ OrroboroRing: {
 }
 
 PandoraBean: {
-	DisplayName: Ghastly Bean
-	Tooltip: Summons Von Anguston VI, heir to the throne of the king bean
+	DisplayName: Призрачный боб
+	Tooltip: Призывает фон Ангустона VI, наследника трона короля бобов
 }
 
 PetscopTool1: {
@@ -2340,11 +2331,11 @@ PuttyCup: {
 }
 
 RottenGourd: {
-	DisplayName: Rotten Gourd
+	DisplayName: Протухшая тыква
 	Tooltip:
 		'''
-		Summons a squishy little gourd to follow you
-		'Its small, but smells awful'
+		Призывает маленькую и хлипкую тыковку, следующую за вами
+		«Она ещё молодая, но уже ужасно пахнет»
 		'''
 }
 
@@ -2373,26 +2364,26 @@ SkullSeed: {
 }
 
 SmallDaffodil: {
-	DisplayName: Daffodil Sprout
+	DisplayName: Росток нарцисса
 	Tooltip:
 		'''
-		Summons Cornelious
-		'It smells very yummy!'
+		Призывает Корнелиуса
+		«Очень вкусно пахнет!»
 		'''
 }
 
 SpiritLamp: {
-	DisplayName: Spirit Lantern
+	DisplayName: Одержимый фонарь
 	Tooltip:
 		'''
-		Summons a mini spirit to light the way
-		'What kind of spirit possesses a lantern?'
+		Призывает маленького призрака, который будет освещать ваш путь
+		«Какой призрак будет вселяться в фонарь?»
 		'''
 }
 
 StickyEye: {
-	DisplayName: Glow In The Dark Sticky Eye
-	Tooltip: Summons a sticky eye ball that glows in the dark
+	DisplayName: Светящийся в темноте липкий глаз
+	Tooltip: Призывает липкое глазное яблоко, светящееся в темноте
 }
 
 TheSludge: {
@@ -2420,34 +2411,34 @@ ArchdukeBounty: {
 		'''
 		It reads: Wanted! Archduke spider
 		Bring back dead or very, very dead
-		The Old Hunter may be interested in this
+		Может заинтересовать Старого охотника
 		'''
 }
 
 BountyItem1: {
-	DisplayName: Goblin's Tongue
+	DisplayName: Язык гоблина
 	Tooltip:
 		'''
-		An abnormally long human-like tongue
-		Little Eye may be interested in this
+		Ненормально длинный человекоподобный язык
+		Может заинтересовать Глазика
 		'''
 }
 
 BountyItem2: {
-	DisplayName: Tattered Tome
+	DisplayName: Потрёпанный фолиант
 	Tooltip:
 		'''
-		Should probably never be opened ever again
-		Little Eye may be interested in this
+		Наверное, его больше никогда не стоит открывать
+		Может заинтересовать Глазика
 		'''
 }
 
 BountyItem3: {
-	DisplayName: Stitched Fabric
+	DisplayName: Сшитый платок
 	Tooltip:
 		'''
-		Little Eye's extremely expensive fabric
-		Little Eye may be interested in this
+		Очень дорогой платок Глазика
+		Может заинтересовать Глазика
 		'''
 }
 
@@ -2456,7 +2447,7 @@ BountyItem4: {
 	Tooltip:
 		'''
 		It's Bigger Eye's... head?
-		Little Eye may be interested in this
+		Может заинтересовать Глазика
 		'''
 }
 
@@ -2515,11 +2506,11 @@ OldHunterBag: {
 }
 
 OldHunterCloth: {
-	DisplayName: Haunted Cloth
+	DisplayName: Кусок одержимой ткани
 	Tooltip:
 		'''
-		It is oddly clean, it feels off...
-		The Old Hunter may be interested in this
+		Она подозрительно чистая...
+		Может заинтересовать Старого охотника
 		'''
 }
 
@@ -2528,16 +2519,16 @@ OldHunterEyes: {
 	Tooltip:
 		'''
 		Two of the three triplets except they're dead
-		The Old Hunter may be interested in this
+		Может заинтересовать Старого охотника
 		'''
 }
 
 OldHunterMushroom: {
-	DisplayName: Chud Cap
+	DisplayName: Чуд-шляпа
 	Tooltip:
 		'''
-		A strange spore left behind by an angry mushroom
-		The Old Hunter may be interested in this
+		Странная спора, оставленная разъярённым грибом
+		Может заинтересовать Старого охотника
 		'''
 }
 
@@ -2546,7 +2537,7 @@ OldHunterTinsel: {
 	Tooltip:
 		'''
 		Just holding it makes you feel jolly!
-		The Old Hunter may be interested in this
+		Может заинтересовать Старого охотника
 		'''
 }
 
@@ -2555,7 +2546,7 @@ OldHunterPigBone: {
 	Tooltip:
 		'''
 		The bone from an extinct species of swine
-		The Old Hunter may be interested in this
+		Может заинтересовать Старого охотника
 		'''
 }
 
@@ -2564,16 +2555,16 @@ OldHunterPotatoes: {
 	Tooltip:
 		'''
 		Goes great with some gravy on top!
-		The Old Hunter may be interested in this
+		Может заинтересовать Старого охотника
 		'''
 }
 
 OldHunterPutty: {
-	DisplayName: Putty Core
+	DisplayName: Тянучее ядро
 	Tooltip:
 		'''
-		A chunk of the fused together putty
-		The Old Hunter may be interested in this
+		Кусок перемешанной тянучки
+		Может заинтересовать Старого охотника
 		'''
 }
 
@@ -2582,7 +2573,7 @@ OldHunterSac: {
 	Tooltip:
 		'''
 		It is still leaking blood... gross
-		The Old Hunter may be interested in this
+		Может заинтересовать Старого охотника
 		'''
 }
 
@@ -2629,12 +2620,12 @@ SummonItem4: {
 
 BottomlessPebbleBag: {
 	Tooltip: ""
-	DisplayName: Bottomless Pebble Bag
+	DisplayName: Сумка с бесконечными камешками
 }
 
 BouncyBall: {
-	DisplayName: Bouncy Ball
-	Tooltip: Bounces off of surfaces and enemies
+	DisplayName: Прыгучий мячик
+	Tooltip: Отскакивает от блоков и врагов
 }
 
 EyeballAmmo: {
@@ -2643,17 +2634,17 @@ EyeballAmmo: {
 }
 
 MoldyPellet: {
-	DisplayName: Moldy Pellet
-	Tooltip: Creates nasty flies on impact
+	DisplayName: Заплесневевшая пулька
+	Tooltip: Призывает противных мух при ударе
 }
 
 MossyBoulder: {
-	DisplayName: Mossy Boulder
-	Tooltip: An even larger mossy pebble
+	DisplayName: Замшелая глыба
+	Tooltip: Более большой замшелый камешек
 }
 
 MossyPebble: {
-	DisplayName: Mossy Pebble
+	DisplayName: Замшелый камешек
 	Tooltip: ""
 }
 
@@ -2673,11 +2664,11 @@ TomatoAmmo: {
 }
 
 ArachnidSlingshot: {
-	DisplayName: Greg The Arachnid
+	DisplayName: Арахнид Грэг
 	Tooltip:
 		'''
-		An archnid that produces stretchy web, good for flinging things
-		Converts Mossy Pebbles into baby spiders that stick to enemies and inflict venom
+		Этот арахнид делает паутину, достаточно эластичную для использования её в качестве рогатки
+		Превращает замшелые камушки в паучков, которые застревают во врагах и накладывают на них дебафф «{$BuffName.Venom}»
 		'''
 }
 
@@ -2706,8 +2697,8 @@ EyeSlingshot: {
 }
 
 GourdSlingshot: {
-	DisplayName: Stinky Slinger
-	Tooltip: Converts Mossy Pebbles into mold pellets that spawn flies
+	DisplayName: Смердящий стрелок
+	Tooltip: Превращает замшелые камушки в заплесневевшие пульки, призывающие мух
 }
 
 HighVelocitySlingshot: {
@@ -2725,8 +2716,8 @@ MiteSlingshot: {
 }
 
 OldWoodSlingshot: {
-	DisplayName: Old Wood Slingshot
-	Tooltip: A basic wooden slingshot
+	DisplayName: Рогатка из старого дерева
+	Tooltip: Простая деревянная рогатка
 }
 
 OpalSlingshot: {
@@ -2744,16 +2735,16 @@ ProSlingshot: {
 }
 
 SpiderSlingshot: {
-	DisplayName: Web Flinger
-	Tooltip: Converts Mossy Pebbles into webs that hatches a baby spider
+	DisplayName: Паутинометатель
+	Tooltip: Превращает замшелые камушки в комки паутины, призывающие паучков
 }
 
 SpiritSlingshot: {
-	DisplayName: Ghostly Slingshot
+	DisplayName: Призрачная рогатка
 	Tooltip:
 		'''
-		Converts Mossy Pebbles into homing souls
-		Every 3 shots the soul will split into ghastly bolts on hit
+		Превращает замшелые камушки в самонаводящиеся души
+		Каждая третья выпущенная душа распадается на призрачные снаряды при попадании
 		'''
 }
 
@@ -2800,44 +2791,44 @@ MortarLegs: {
 }
 
 RootBody: {
-	DisplayName: Root Body Plate
-	Tooltip: 12% increased ranged damage
+	DisplayName: Латы из корней
+	Tooltip: Увеличивает стрелковый урона на 12%
 }
 
 RootHead: {
-	DisplayName: Root Mask
-	Tooltip: 5% increased ranged critical strike chance
+	DisplayName: Маска из корней
+	Tooltip: Увеличивает шанс стрелкового критического удара на 5%
 }
 
 RootLegs: {
-	DisplayName: Root Garments
+	DisplayName: Одеяние из корней
 	Tooltip: ""
 }
 
 SpiderBody: {
-	DisplayName: Spi-Ops Bodyplate
+	DisplayName: Бронепластина паука-опера
 	Tooltip:
 		'''
-		3% increased critical strike chance
-		Taking a large amount of damage will give you a short speed boost
+		Увеличивает шанс критического удара на 3%
+		Ваша скорость ненадолго увеличится после получения урона
 		'''
 }
 
 SpiderHead: {
-	DisplayName: Spi-Ops Visor
+	DisplayName: Визор паука-опера
 	Tooltip:
 		'''
-		10% increased damage
-		Gives you night vision
+		Увеличивает урон на 10%
+		Улучшает ночное зрение
 		'''
 }
 
 SpiderLegs: {
-	DisplayName: Spi-Ops Leggings
+	DisplayName: Ботинки паука-опера
 	Tooltip:
 		'''
-		15% increased movement speed
-		Increases your movement acceleration and jump height
+		Увеличивает скорость передвижения на 15%
+		Увеличивает ускорение и высоту прыжка
 		'''
 }
 
@@ -2857,22 +2848,22 @@ SporeShroomLegs: {
 }
 
 GrottoCompass: {
-	DisplayName: Rusted Compass
-	Tooltip: Points to the location of the spider-infested grotto when held in your hotbar
+	DisplayName: Проржавевший компас
+	Tooltip: Указывает на местоположение подземного грота, кишащего пауками, когда находится в руках
 }
 
 InchwormBlackItem: {
-	DisplayName: Black Inchworm
+	DisplayName: Чёрная гусеница
 	Tooltip: ""
 }
 
 InchwormGreenItem: {
-	DisplayName: Green Inchworm
+	DisplayName: Зелёная гусеница
 	Tooltip: ""
 }
 
 InchwormOrangeItem: {
-	DisplayName: Orange Inchworm
+	DisplayName: Оранжевая гусеница
 	Tooltip: ""
 }
 
@@ -2882,30 +2873,30 @@ MiteMandibles: {
 }
 
 SpiderChitin: {
-	DisplayName: Spider Chitin
+	DisplayName: Паучий хитин
 	Tooltip: ""
 }
 
 SpiderKey: {
-	DisplayName: Spider Grotto Key
-	Tooltip: Unlocks a spider chest in the catacombs
+	DisplayName: Паучий ключ
+	Tooltip: Отпирает паучий сундук в Катакомбах
 }
 
 AntSpiderBoomerang: {
-	DisplayName: Ant Spider Head
+	DisplayName: Голова паука-муравьеда
 	Tooltip:
 		'''
-		Throw a returning ant spider head with sharp mandibles
-		Slashes enemies it hits multiple times
+		Бросает возвращающуюся клыкастую голову муравьеда-паука
+		Наносит несколько ударов врагу за бросок
 		'''
 }
 
 GlaggleOrb: {
-	DisplayName: Glaggle Orb
+	DisplayName: Шар смайликов
 	Tooltip:
 		'''
-		Conjures magic glaggle orbs
-		The glaggle orbs will explode and fling smaller glaggles around
+		Выпускает магические шары-смайлики
+		Шары-смайлики взрываются и оставляют после себя более маленьких смайликов
 		'''
 }
 
@@ -2971,49 +2962,49 @@ MortarWings: {
 }
 
 OrbWeaverBoomerang: {
-	DisplayName: Weaverang
+	DisplayName: Паутиноранг
 	Tooltip:
 		'''
-		Throws a returning orb weaver spike that can bounce off of surfaces
-		The boomerang will fly out for longer whenever it bounces off a surface
+		Бросает возвращающийся паутинный шип, отскакивающий от блоков
+		Бумеранг будет возвращаться по кривой линии после отскока
 		'''
 }
 
 OrbWeaverGiantStaff: {
-	DisplayName: Scepter of the Weaver
+	DisplayName: Скипетр ткача
 	Tooltip:
 		'''
-		Summons a large orb weaver sentry to shoot spikes all around itself
-		The orb weaver will sometimes jump towards its target
+		Призывает большого шароткача-стража, разбрасывающего шипы вокруг себя
+		Шароткач иногда будет прыгать в сторону своей цели
 		'''
 }
 
 OrbWeaverShield: {
-	DisplayName: Spike Shell Shield
-	Tooltip: Attackers will take damage when they hit you
+	DisplayName: Шипастый хитиновый щит
+	Tooltip: Наносит урон атакующим вас врагам
 }
 
 OrbWeaverStaff: {
-	DisplayName: Staff of the Weaver
-	Tooltip: Summons an orb weaver spider sentry to shoot spikes around it
+	DisplayName: Посох ткача
+	Tooltip: Призывает стража-шароткача, разбрасывающего шипы вокруг себя
 }
 
 PeacockSpiderMask: {
-	DisplayName: Peacock Oni Mask
+	DisplayName: Павлинья маска они
 	Tooltip:
 		'''
-		When you get hit, all nearby enemies will be intimidated
-		Intimidated enemies take 15% more damage
+		Запугивает ближайших врагов при получении вами урона
+		Запуганные враги получают на 15% больше урона
 		'''
 }
 
 PheromoneWhip: {
-	DisplayName: Pheromone Stinger
+	DisplayName: Жало с феромонами
 	Tooltip:
 		'''
-		Your summons will focus struck enemies
-		Hitting enemies will inflict them with the spider pheromones debuff
-		This makes them take 20% more damage and 10% critical strike chance from spider minions
+		{$CommonItemTooltip.Whips}
+		Попадание по врагу оставит на нём след феромонов
+		Паукообразные миньоны получают бонус в 20% урона и 10% шанса критического удара против врагов, покрытых феромонами
 		'''
 }
 
@@ -3029,46 +3020,46 @@ PossessedCrown: {
 }
 
 SphiderFlail: {
-	DisplayName: Swingable Sphider
-	Tooltip: Spits out web blobs while being swung
+	DisplayName: Поворотливый паукруг
+	Tooltip: Разбрасывает комки паутины при раскручивании
 }
 
 SpiderAntHead: {
-	DisplayName: Spider Ant Head
-	Tooltip: Its fangs can set enemies ablaze
+	DisplayName: Голова муравья-паукоеда
+	Tooltip: Вызывает жгучую боль у врагов
 }
 
 SpiderCrossbow: {
-	DisplayName: Poison Crossbow
-	Tooltip: Converts wooden arrows into piercing poisonous darts
+	DisplayName: Ядовитый самострел
+	Tooltip: Превращает деревянные стрелы в отравляющие и пробивающие врагов дротики
 }
 
 SpiderEggCannon: {
-	DisplayName: Spider Egg Cannon
+	DisplayName: Паукояичная пушка
 	Tooltip:
 		'''
-		Shoots out silky spider eggs
-		Every 5 shots will fire a larger egg that summons an attack spider
+		Выпускает шёлковые паучьи яйца
+		Каждый 5 выстрел будет выпускать более крупное яйцо, призывающие атакующего паука
 		'''
 }
 
 SpiderLegStaff: {
-	DisplayName: Arachnid Leg Wand
-	Tooltip: Rapidly cast out short-lived magic spider legs
+	DisplayName: Лапка арахнида
+	Tooltip: Быстро выпускает временные магические паучьи лапки
 }
 
 SpiderSummonEgg: {
-	DisplayName: Strange Spider Egg
+	DisplayName: Странное паучье яйцо
 	Tooltip:
 		'''
-		Throw an egg that hatches into some baby spider minions
-		Each baby spider only takes half of a minion slot
+		Бросает яйцо, из которого вылупляются паучки-миньоны
+		Каждый паучок занимает половину слота миньонов
 		'''
 }
 
 SpiderSword: {
-	DisplayName: Spider Stabber
-	Tooltip: Can sometimes inflict enemies with venom
+	DisplayName: Паучий пронзатель
+	Tooltip: Может наложить на врага дебафф «{$BuffName.Venom}»
 }
 
 SpiderWarDreamcatcher: {
@@ -3124,20 +3115,20 @@ SporeWand: {
 }
 
 TarantulaHawkBow: {
-	DisplayName: Spider-Wing Longbow
+	DisplayName: Паукокрылый длинный лук
 	Tooltip:
 		'''
-		Converts wooden arrows into winged arrows that chase enemies
-		The longer you use it, the faster it shoots
+		Превращает деревянные стрелы в крылатые стрелы, самонаводящимися на врагов
+		Чем дольше вы стреляете, тем выше становится скорость стрельбы
 		'''
 }
 
 TatantulaFlyTome: {
-	DisplayName: Grimoire of the Flies
+	DisplayName: Гримуар мух
 	Tooltip:
 		'''
-		Conjures flies that follow your cursor while continously using the grimoire
-		Releasing while having 10 flies around your cursor causes them to home in on enemies
+		Призывает мух, которые следуют за вашим курсором пока вы используете гримуар
+		Если отпустить кнопку, когда уже призвано 10 мух, они быстро влетят в ближайших врагов
 		'''
 }
 
@@ -3156,8 +3147,8 @@ VenomHarpoon: {
 }
 
 WolfSpiderStaff: {
-	DisplayName: Wolf Spider Staff
-	Tooltip: Summons wolf spiders to fight with you
+	DisplayName: Посох паука-волка
+	Tooltip: Призывает паука-волка сражаться за вас
 }
 
 WrestlingBelt: {
@@ -3170,116 +3161,116 @@ WrestlingBelt: {
 }
 
 GourdBody: {
-	DisplayName: Rotten Gourd Breastplate
-	Tooltip: 12% increased melee damage
+	DisplayName: Нагрудник прогнившей тыквы
+	Tooltip: Увеличивает урон ближнего боя на 12%
 }
 
 GourdHead: {
-	DisplayName: Rotten Gourd Head
-	Tooltip: 10% increased melee critical strike chance
+	DisplayName: Маска прогнившей тыквы
+	Tooltip: Увеличивает шанс критического удара ближнего боя на 10%
 }
 
 GourdLegs: {
-	DisplayName: Rotten Gourd Leggings
-	Tooltip: 10% increased melee speed
+	DisplayName: Штаны прогнившей тыквы
+	Tooltip: Увеличивает скорость атаки ближнего боя на 10%
 }
 
 OldWoodBody: {
-	DisplayName: Old Wood Breastplate
+	DisplayName: Нагрудник из старого дерева
 	Tooltip: ""
 }
 
 OldWoodHead: {
-	DisplayName: Old Wood Mask
+	DisplayName: Маска из старого дерева
 	Tooltip: ""
 }
 
 OldWoodLegs: {
-	DisplayName: Old Wood Greaves
+	DisplayName: Поножи из старого дерева
 	Tooltip: ""
 }
 
 WizardGangsterBody: {
-	DisplayName: Gilded Mage Tunic
-	Tooltip: 10% increased magic damage
+	DisplayName: Позолоченная туника мага
+	Tooltip: Увеличивает магический урон на 10%
 }
 
 WizardGangsterHead: {
-	DisplayName: Gilded Wizard Hat
-	Tooltip: 5% increased magic critical strike chance
+	DisplayName: Позолоченная шляпа волшебника
+	Tooltip: Увеличивает шанс магического критического удара на 5%
 }
 
 WizardGangsterHead2: {
-	DisplayName: Gilded Magician Hat
-	Tooltip: 5% increased magic damage
+	DisplayName: Позолоченная шляпа чародея
+	Tooltip: Увеличивает магический урон на 5%
 }
 
 WizardGangsterLegs: {
-	DisplayName: Gilded Mage Robe
-	Tooltip: Increases maximum mana by 20
+	DisplayName: Позолоченная мантия мага
+	Tooltip: Увеличивает максимальный запас маны на 20 ед.
 }
 
 FlyBigItem: {
-	DisplayName: Giant Fly
+	DisplayName: "{$NPCs.FlyBig.DisplayName}"
 	Tooltip: ""
 }
 
 FlySmallItem: {
-	DisplayName: Fly
+	DisplayName: "{$NPCs.FlySmall.DisplayName}"
 	Tooltip: ""
 }
 
 LittleBonePot: {
-	DisplayName: Little Bone's Flower Pot
+	DisplayName: Переносной горшок Черепка
 	Tooltip:
 		'''
-		A magical flower pot that belongs to little bone
-		Use to summon Little Bone to your location
+		Магический цветочный горшок, который дал вам Черепок
+		Вы можете использовать его в любом месте, чтобы призвать Черепка
 		'''
 }
 
 LittleSpiderItem: {
-	DisplayName: Little Spider
+	DisplayName: "{$NPCs.LittleSpider.DisplayName}"
 	Tooltip: ""
 }
 
 PumpkinCarvingKit: {
-	DisplayName: Gourd Carving Kit
+	DisplayName: Набор для вырезки тыкв
 	Tooltip:
 		'''
-		Right click spooky forest gourds while holding this to carve them
-		You can also place Old Wax Candles in them to light them up
+		Нажмите ПКМ набором по тыквам из жуткого леса, чтобы вырезать им лицо
+		Вы также можете разместить в них старые восковые свечи, чтобы сделать из них фонарь
 		'''
 }
 
 RottenChunk: {
-	DisplayName: Moldy Chunk
-	Tooltip: "'It smells foul'"
+	DisplayName: Проплесневевший кусочек
+	Tooltip: «Воняет»
 }
 
 ShroomHopperItem: {
-	DisplayName: Shroom Hopper
+	DisplayName: "{$NPCs.ShroomHopper.DisplayName}"
 	Tooltip: ""
 }
 
 SinisterSnailItem: {
-	DisplayName: Sinister Snail
+	DisplayName: "{$NPCs.SinisterSnail.DisplayName}"
 	Tooltip: ""
 }
 
 SpookyBiomeKey: {
-	DisplayName: Spooky Forest Key
-	Tooltip: Unlocks a spooky chest in the catacombs
+	DisplayName: Жуткий ключ
+	Tooltip: Отпирает жуткий сундук в Катакомбах
 }
 
 SpookyGlowshroom: {
-	DisplayName: Glowshroom
-	Tooltip: "'Emits a cool blue glow'"
+	DisplayName: Светогриб
+	Tooltip: «Излучает холодное голубое свечение»
 }
 
 SpookyGlowshroomYellow: {
-	DisplayName: Yellow Glowshroom
-	Tooltip: "'Emits a warm golden glow'"
+	DisplayName: Жёлтый светогриб
+	Tooltip: «Излучает тёплое золотое свечение»
 }
 
 SpookySolution: {
@@ -3292,42 +3283,42 @@ SpookySolution: {
 }
 
 TinyGhostItem: {
-	DisplayName: Tiny Ghost
+	DisplayName: "{$NPCs.TinyGhost1.DisplayName}"
 	Tooltip: ""
 }
 
 TinyMushroomItem: {
-	DisplayName: Tiny Mushroom
+	DisplayName: "{$NPCs.TinyMushroom.DisplayName}"
 	Tooltip: ""
 }
 
 AutumnLeaf: {
-	DisplayName: Dead Razorleaf
-	Tooltip: Melee weapons have a chance to shoot out razor leaves
+	DisplayName: Мёртвый остролист
+	Tooltip: Оружие ближнего боя иногда будет выпускать острые листья
 }
 
 BustlingGlowshroom: {
-	DisplayName: Bustling Glowshroom
-	Tooltip: Greatly increases life regeneration while standing still
+	DisplayName: Оживляющий светогриб
+	Tooltip: Значительно ускоряет регенерацию здоровья, пока вы не двигаетесь
 }
 
 CandyBag: {
-	DisplayName: Bag 'O Treats
+	DisplayName: Мешочек со сладостями
 	Tooltip:
 		'''
-		Summons a magical bag of candy to follow you
-		Hitting enemies with summon weapons will spawn homing candy out of the bag
+		Призывает магический мешочек с конфетами, который будет летать за вами
+		При атаках оружием призывателя по врагам из мешка будут вылетать самонаводящиеся конфеты
 		'''
 }
 
 CreepyCandle: {
-	DisplayName: Creepy Candle
-	Tooltip: Magic projectiles will sometimes ignite enemies
+	DisplayName: Страшная свеча
+	Tooltip: Снаряды магического оружия иногда будут поджигать поражённых врагов
 }
 
 EggCarton: {
-	DisplayName: Carton of Eggs
-	Tooltip: Every 6 shots, ranged weapons will shoot a high-velocity egg
+	DisplayName: Упаковка для яиц
+	Tooltip: Каждое шестое использование стрелкового оружие запустит высокоскоростное яйцо
 }
 
 ElGourdo: {
@@ -3336,125 +3327,117 @@ ElGourdo: {
 }
 
 GourdBook: {
-	DisplayName: Jerry's Book of Stinkology
-	Tooltip: Casts a smelly blast that makes enemies stinky
+	DisplayName: Книга Джерри о вонючестях
+	Tooltip: Выпускает вонючие газы, делающие вонючими поражённых врагов
 }
 
 GourdFlail: {
-	DisplayName: Rotty's Wrath
+	DisplayName: Ярость Гнилька
 	Tooltip:
 		'''
-		Spawns flies around you after being swung for a bit
-		Releasing the flail will launch the flies
+		Постепенно призывает вокруг вас мух, пока вы раскручиваете оружие
+		Вместе с броском кистеня в ту же сторону полетит и рой мух
 		'''
 }
 
 GourdStaff: {
-	DisplayName: Branch of Gourd
-	Tooltip: Summons gourd goobers that will slam on enemies
+	DisplayName: Ветка тыквы
+	Tooltip: Призывает тыквенных тупиц, напрыгивающих на врагов
 }
 
 LeafBlower: {
-	DisplayName: Pump-Action Leaf Blower
+	DisplayName: Насосная воздуходувка
 	Tooltip:
 		'''
-		Rapidly fires different colored autumn leaves
-		'It's like a leaf blower, but it creates more leaves!'
+		Быстро стреляет разноцветными осенними листьями
+		«Это как уборка, приводящая к ещё большому беспорядку!»
 		'''
 }
 
 MoldBalloon: {
-	DisplayName: Mold in a Balloon
-	Tooltip:
-		'''
-		Allows the holder to double jump
-		Increases jump height
-		'''
+	DisplayName: Плесень в надувном шарике
+	Tooltip: "{$ItemTooltip.CloudinaBalloon}"
 }
 
 MoldBalloonHorseshoe: {
-	DisplayName: Purple Horseshoe Balloon
-	Tooltip:
-		'''
-		Allows the holder to double jump
-		Increases jump height and negates fall damage
-		'''
+	DisplayName: Фиолетовый надувной шарик с подковой
+	Tooltip: "{$ItemTooltip.BlueHorseshoeBalloon}"
 }
 
 MoldJar: {
-	DisplayName: Mold in a Jar
+	DisplayName: Плесень в банке
 	Tooltip:
 		'''
-		Allows the holder to double jump
-		'Do not open this'
+		{$ItemTooltip.CloudinaBottle}
+		«Ни за что не открывать»
 		'''
 }
 
 NecromancyTome: {
-	DisplayName: Necromancy for Dummies
+	DisplayName: Некромантия для чайников
 	Tooltip:
 		'''
-		Conjures various zombie parts that bounce everywhere
-		'Not quite strong enough to summon full zombies'
+		Выпускает части тела зомби, отскакивающие от блоков
+		«Вы ещё не настолько сильны, чтобы призывать полноценных зомби»
 		'''
 }
 
 OldMossBow: {
-	DisplayName: Old Moss Bow
-	Tooltip: Deals even more damage when used with Old Wood Arrows
+	DisplayName: Старый замшелый лук
+	Tooltip: Наносит больше урона при использовании со стрелами из старого дерева
 }
 
 OldWoodArrow: {
-	DisplayName: Old Wood Arrow
-	Tooltip: May sometimes stick to enemies on hit
+	DisplayName: Стрела из старого дерева
+	Tooltip: Может застать в поражённом враге
 }
 
 OldWoodBow: {
-	DisplayName: Old Wood Bow
+	DisplayName: Лук из старого дерева
 	Tooltip: ""
 }
 
 OldWoodGreatsword: {
-	DisplayName: Old Wood Greatsword
-	Tooltip: "'It's more of a club than a sword'"
+	DisplayName: Двуручный меч из старого дерева
+	Tooltip: «Он больше похож на дубину, чем на меч»
 }
 
 OldWoodHammer: {
-	DisplayName: Old Wood Hammer
+	DisplayName: Молот из старого дерева
 	Tooltip: ""
 }
 
 OldWoodStaff: {
-	DisplayName: Old Wood Staff
-	Tooltip: Casts magic shadow orbs
+	DisplayName: Посох из старого дерева
+	Tooltip: Выпускает магические теневые шары
 }
 
 OldWoodSword: {
-	DisplayName: Old Wood Sword
+	DisplayName: Меч из старого дерева
 	Tooltip: ""
 }
 
 ShroomFlail: {
-	DisplayName: Fungal Flail
+	DisplayName: Кордицепсовый кистень
 	Tooltip: ""
 }
 
 ShroomWhip: {
-	DisplayName: Spore Smacker
+	DisplayName: Секущий споровик
 	Tooltip:
 		'''
-		3 summon tag damage
-		Your summons will focus stuck enemies
-		Hitting enemies will sometimes create lingering spores
+		3 ед. урона от метки призывателя
+		{$CommonItemTooltip.Whips}
+		Попадания по врагу иногда будет призывать медленно парящие споры
 		'''
 }
 
 SkullWispStaff: {
-	DisplayName: Zomboid Warlock's Skull
+	DisplayName: Череп зомбоида-колдуна
 	Tooltip:
 		'''
-		Summons skull wisps to fight with you
-		'Did you really need to take its arm off too?'
+		Призывает призрачные черепа, сражающиеся за вас
+		«Неужели тебе нужно было оторвать и его руку?»
 		'''
 }
 
@@ -3509,26 +3492,26 @@ SpookFishronWings: {
 }
 
 ToiletPaper: {
-	DisplayName: Toilet Paper
+	DisplayName: Туалетная бумага
 	Tooltip:
 		'''
-		Throws rolls of toilet paper
-		'The perfect thing for some nefarious halloween pranks'
+		Бросает рулон туалетной бумаги
+		«Идеально подходит для злых пранков на Хэллоуин»
 		'''
 }
 
 WarlockRobe: {
-	DisplayName: Warlock's Cloak
+	DisplayName: Плащ колдуна
 	Tooltip:
 		'''
-		Increases your max number of minions by 1
-		5% increased movement speed
+		Увеличивает максимальное количество миньонов на 1
+		Увеличивает скорость передвижения на 5%
 		'''
 }
 
 WarlockWalkers: {
-	DisplayName: Warlock Walkers
-	Tooltip: The wearer can run super fast
+	DisplayName: Калоши колдуна
+	Tooltip: "{$ItemTooltip.HermesBoots}"
 }
 
 WarlockJesterBoots: {
@@ -4272,8 +4255,8 @@ TortumorYoyo: {
 }
 
 BloomSoilItem: {
-	DisplayName: Bloom Soil
-	Tooltip: Allows blooms to be planted and grown on it
+	DisplayName: Плодородная почва
+	Tooltip: Позволяет сажать и выращивать цветенья
 }
 
 CemeterySeed: {
@@ -4305,11 +4288,11 @@ DragonfruitSeed: {
 }
 
 FallSeed: {
-	DisplayName: Pumpkin Guts
+	DisplayName: Внутренности тыквы
 	Tooltip:
 		'''
-		Places a plant that grows various gourd blooms
-		Requires a flat ground of Bloom Soil to be planted on
+		Позволяет вырастить одно из возможных тыквенных цветений
+		Необходимо сажать на ровной поверхности из плодородной почвы
 		'''
 }
 
@@ -4342,11 +4325,11 @@ SeaSeed: {
 }
 
 SpringSeed: {
-	DisplayName: Puff of Pollen
+	DisplayName: Цветочная пыльца
 	Tooltip:
 		'''
-		Places a plant that grows various flower blooms
-		Requires a flat ground of Bloom Soil to be planted on
+		Позволяет вырастить одно из возможных цветочных цветений
+		Необходимо сажать на ровной поверхности из плодородной почвы
 		'''
 }
 
@@ -4392,17 +4375,17 @@ BigBoneStatueItem: {
 }
 
 CatacombBrickPlatform1Item: {
-	DisplayName: Gray Catacomb Brick Platform
+	DisplayName: Кирпичная платформа серых Катакомб
 	Tooltip: ""
 }
 
 CatacombBrickPlatform2Item: {
-	DisplayName: Brown Catacomb Brick Platform
+	DisplayName: Кирпичная платформа коричневых Катакомб
 	Tooltip: ""
 }
 
 GiantCoffinItem: {
-	DisplayName: Old Wood Casket
+	DisplayName: Гроб из старого дерева
 	Tooltip: ""
 }
 
@@ -4432,97 +4415,97 @@ GoldStatue4Item: {
 }
 
 LowerCatacombBathtubItem: {
-	DisplayName: Lower Catacomb Bathtub
+	DisplayName: Ванна коричневых Катакомб
 	Tooltip: ""
 }
 
 LowerCatacombBedItem: {
-	DisplayName: Lower Catacomb Bed
+	DisplayName: Кровать коричневых Катакомб
 	Tooltip: ""
 }
 
 LowerCatacombBenchItem: {
-	DisplayName: Lower Catacomb Bench
+	DisplayName: Скамья коричневых Катакомб
 	Tooltip: ""
 }
 
 LowerCatacombBookcaseItem: {
-	DisplayName: Lower Catacomb Bookcase
+	DisplayName: Книжный шкаф коричневых Катакомб
 	Tooltip: ""
 }
 
 LowerCatacombCandelabraItem: {
-	DisplayName: Lower Catacomb Candelabra
+	DisplayName: Подсвечник коричневых Катакомб
 	Tooltip: ""
 }
 
 LowerCatacombCandleItem: {
-	DisplayName: Lower Catacomb Candle
+	DisplayName: Свеча коричневых Катакомб
 	Tooltip: ""
 }
 
 LowerCatacombChairItem: {
-	DisplayName: Lower Catacomb Chair
+	DisplayName: Стул коричневых Катакомб
 	Tooltip: ""
 }
 
 LowerCatacombChandelierItem: {
-	DisplayName: Lower Catacomb Chandelier
+	DisplayName: Люстра коричневых Катакомб
 	Tooltip: ""
 }
 
 LowerCatacombChestItem: {
-	DisplayName: Lower Catacomb Chest
+	DisplayName: Сундук коричневых Катакомб
 	Tooltip: ""
 }
 
 LowerCatacombClockItem: {
-	DisplayName: Lower Catacomb Clock
+	DisplayName: Напольные часы коричневых Катакомб
 	Tooltip: ""
 }
 
 LowerCatacombDoorItem: {
-	DisplayName: Lower Catacomb Door
+	DisplayName: Дверь коричневых Катакомб
 	Tooltip: ""
 }
 
 LowerCatacombDresserItem: {
-	DisplayName: Lower Catacomb Dresser
+	DisplayName: Комод коричневых Катакомб
 	Tooltip: ""
 }
 
 LowerCatacombLampItem: {
-	DisplayName: Lower Catacomb Lamp
+	DisplayName: Напольная лампа коричневых Катакомб
 	Tooltip: ""
 }
 
 LowerCatacombLanternItem: {
-	DisplayName: Lower Catacomb Lantern
+	DisplayName: Фонарь коричневых Катакомб
 	Tooltip: ""
 }
 
 LowerCatacombPianoItem: {
-	DisplayName: Lower Catacomb Piano
+	DisplayName: Пианино коричневых Катакомб
 	Tooltip: ""
 }
 
 LowerCatacombSinkItem: {
-	DisplayName: Lower Catacomb Sink
+	DisplayName: Раковина коричневых Катакомб
 	Tooltip: ""
 }
 
 LowerCatacombTableItem: {
-	DisplayName: Lower Catacomb Table
+	DisplayName: Стол коричневых Катакомб
 	Tooltip: ""
 }
 
 LowerCatacombToiletItem: {
-	DisplayName: Lower Catacomb Toilet
+	DisplayName: Унитаз коричневых Катакомб
 	Tooltip: ""
 }
 
 LowerCatacombWorkBenchItem: {
-	DisplayName: Lower Catacomb Work Bench
+	DisplayName: Верстак коричневых Катакомб
 	Tooltip: ""
 }
 
@@ -4562,132 +4545,132 @@ SkeletoidCatacomb2Item: {
 }
 
 UpperCatacombBathtubItem: {
-	DisplayName: Catacomb Bathtub
+	DisplayName: Ванна серых Катакомб
 	Tooltip: ""
 }
 
 UpperCatacombBookcaseItem: {
-	DisplayName: Catacomb Bookcase
+	DisplayName: Книжный шкаф серых Катакомб
 	Tooltip: ""
 }
 
 UpperCatacombBedItem: {
-	DisplayName: Catacomb Bed
+	DisplayName: Кровать серых Катакомб
 	Tooltip: ""
 }
 
 UpperCatacombCandelabraItem: {
-	DisplayName: Catacomb Candelabra
+	DisplayName: Подсвечник серых Катакомб
 	Tooltip: ""
 }
 
 UpperCatacombCandleItem: {
-	DisplayName: Catacomb Candle
+	DisplayName: Свеча серых Катакомб
 	Tooltip: ""
 }
 
 UpperCatacombChairItem: {
-	DisplayName: Catacomb Chair
+	DisplayName: Стул серых Катакомб
 	Tooltip: ""
 }
 
 UpperCatacombChandelierItem: {
-	DisplayName: Catacomb Chandelier
+	DisplayName: Люстра серых Катакомб
 	Tooltip: ""
 }
 
 UpperCatacombChestItem: {
-	DisplayName: Catacomb Chest
+	DisplayName: Сундук серых Катакомб
 	Tooltip: ""
 }
 
 UpperCatacombClockItem: {
-	DisplayName: Catacomb Clock
+	DisplayName: Напольные часы серых Катакомб
 	Tooltip: ""
 }
 
 UpperCatacombDoorItem: {
-	DisplayName: Catacomb Door
+	DisplayName: Дверь серых Катакомб
 	Tooltip: ""
 }
 
 UpperCatacombDresserItem: {
-	DisplayName: Catacomb Dresser
+	DisplayName: Комод серых Катакомб
 	Tooltip: ""
 }
 
 UpperCatacombLampItem: {
-	DisplayName: Catacomb Lamp
+	DisplayName: Напольная лампа серых Катакомб
 	Tooltip: ""
 }
 
 UpperCatacombLanternItem: {
-	DisplayName: Catacomb Lantern
+	DisplayName: Фонарь серых Катакомб
 	Tooltip: ""
 }
 
 UpperCatacombPianoItem: {
-	DisplayName: Catacomb Piano
+	DisplayName: Пианино серых Катакомб
 	Tooltip: ""
 }
 
 UpperCatacombSinkItem: {
-	DisplayName: Catacomb Sink
+	DisplayName: Раковина серых Катакомб
 	Tooltip: ""
 }
 
 UpperCatacombSofaItem: {
-	DisplayName: Catacomb Sofa
+	DisplayName: Диван серых Катакомб
 	Tooltip: ""
 }
 
 UpperCatacombTableItem: {
-	DisplayName: Catacomb Table
+	DisplayName: Стол серых Катакомб
 	Tooltip: ""
 }
 
 UpperCatacombToiletItem: {
-	DisplayName: Catacomb Toilet
+	DisplayName: Унитаз серых Катакомб
 	Tooltip: ""
 }
 
 UpperCatacombWorkBenchItem: {
-	DisplayName: Catacomb Work Bench
+	DisplayName: Верстак серых Катакомб
 	Tooltip: ""
 }
 
 CatacombBrick1Item: {
-	DisplayName: Gray Catacomb Brick
+	DisplayName: Кирпич серых Катакомб
 	Tooltip: ""
 }
 
 CatacombBrick2Item: {
-	DisplayName: Brown Catacomb Brick
+	DisplayName: Кирпич коричневых Катакомб
 	Tooltip: ""
 }
 
 CatacombBrickWall1Item: {
-	DisplayName: Gray Catacomb Brick Wall
+	DisplayName: Кирпичная стена серых Катакомб
 	Tooltip: ""
 }
 
 CatacombBrickWall1UnsafeItem: {
-	DisplayName: Evil Gray Catacomb Brick Wall
-	Tooltip: An evil segment of catacomb wall that will spawn monsters
+	DisplayName: Злая кирпичная стена серых Катакомб
+	Tooltip: Злой участок стены Катакомб, из которого появляются монстры
 }
 
 CatacombBrickWall2Item: {
-	DisplayName: Brown Catacomb Brick Wall
+	DisplayName: Кирпичная стена коричневых Катакомб
 	Tooltip: ""
 }
 
 CatacombBrickWall2UnsafeItem: {
-	DisplayName: Evil Brown Catacomb Brick Wall
-	Tooltip: An evil segment of catacomb wall that will spawn monsters
+	DisplayName: Злая коричневая стена серых Катакомб
+	Tooltip: Злой участок стены Катакомб, из которого появляются монстры
 }
 
 CatacombFlooringItem: {
-	DisplayName: Catacomb Floor Brick
+	DisplayName: Напольный кирпич Катакомб
 	Tooltip: ""
 }
 
@@ -4697,12 +4680,12 @@ GildedBrickItem: {
 }
 
 CemeteryBiomeChestItem: {
-	DisplayName: Swampy Cemetery Chest
+	DisplayName: Болотный сундук
 	Tooltip: ""
 }
 
 CemeteryLampItem: {
-	DisplayName: Cemetery Street Lamp
+	DisplayName: Уличный фонарь кладбища
 	Tooltip: ""
 }
 
@@ -4712,56 +4695,56 @@ RaveyardMonolithItem: {
 }
 
 CemeteryDirtItem: {
-	DisplayName: Swampy Mud
+	DisplayName: Болотистая грязь
 	Tooltip: ""
 }
 
 CemeteryDirtWallItem: {
-	DisplayName: Swampy Mud Wall
+	DisplayName: Стена из болотистой грязи
 	Tooltip: ""
 }
 
 CemeteryGrassSeeds: {
-	DisplayName: Cemetery Grass Seeds
+	DisplayName: Семена травы кладбища
 	Tooltip:
 		'''
-		Plants grass on Swamp Soil
-		Plants moss on Catacomb Bricks
+		Сажает траву на болотистой грязи
+		Сажает мох на кирпичах Катакомб
 		'''
 }
 
 CemeteryGrassWallItem: {
-	DisplayName: Cemetery Grass Wall
+	DisplayName: Стена из травы кладбища
 	Tooltip: ""
 }
 
 CemeteryStoneItem: {
-	DisplayName: Swamp Rock
+	DisplayName: Болотный булыжник
 	Tooltip: ""
 }
 
 ChristmasBathtubItem: {
-	DisplayName: Yuletide Wood Bathtub
+	DisplayName: Ванна из йольского дерева
 	Tooltip: ""
 }
 
 ChristmasBedItem: {
-	DisplayName: Yuletide Wood Bed
+	DisplayName: Кровать из йольского дерева
 	Tooltip: ""
 }
 
 ChristmasBookcaseItem: {
-	DisplayName: Yuletide Wood Bookcase
+	DisplayName: Книжный шкаф из йольского дерева
 	Tooltip: ""
 }
 
 ChristmasCandelabraItem: {
-	DisplayName: Yuletide Ice Candelabra
+	DisplayName: Ледяной подсвечник из йольского дерева
 	Tooltip: ""
 }
 
 ChristmasCandleItem: {
-	DisplayName: Yuletide Ice Candle
+	DisplayName: Ледяная свеча из йольского дерева
 	Tooltip: ""
 }
 
@@ -4771,72 +4754,72 @@ ChristmasChainItem: {
 }
 
 ChristmasChairItem: {
-	DisplayName: Yuletide Wood Chair
+	DisplayName: Стул из йольского дерева
 	Tooltip: ""
 }
 
 ChristmasChandelierItem: {
-	DisplayName: Yuletide Ice Chandelier
+	DisplayName: Ледяная люстра из йольского дерева
 	Tooltip: ""
 }
 
 ChristmasChestItem: {
-	DisplayName: Yuletide Chest
+	DisplayName: Сундук из йольского дерева
 	Tooltip: ""
 }
 
 ChristmasClockItem: {
-	DisplayName: Yuletide Wood Grandfather Clock
+	DisplayName: Напольные часы из йольского дерева
 	Tooltip: ""
 }
 
 ChristmasDoorItem: {
-	DisplayName: Yuletide Wood Door
+	DisplayName: Дверь из йольского дерева
 	Tooltip: ""
 }
 
 ChristmasDresserItem: {
-	DisplayName: Yuletide Wood Dresser
+	DisplayName: Комод из йольского дерева
 	Tooltip: ""
 }
 
 ChristmasLampItem: {
-	DisplayName: Yuletide Ice Lamp
+	DisplayName: Ледяная напольная лампа из йольского дерева
 	Tooltip: ""
 }
 
 ChristmasLanternItem: {
-	DisplayName: Yuletide Ice Lantern
+	DisplayName: Ледяной фонарь из йольского дерева
 	Tooltip: ""
 }
 
 ChristmasPianoItem: {
-	DisplayName: Yuletide Keyboard
+	DisplayName: Синтезатор из йольского дерева
 	Tooltip: ""
 }
 
 ChristmasPlatformItem: {
-	DisplayName: Yuletide Wood Platform
+	DisplayName: Платформа из йольского дерева
 	Tooltip: ""
 }
 
 ChristmasSinkItem: {
-	DisplayName: Yuletide Wood Sink
+	DisplayName: Раковина из йольского дерева
 	Tooltip: ""
 }
 
 ChristmasSofaItem: {
-	DisplayName: Yuletide Wood Sofa
+	DisplayName: Диван из йольского дерева
 	Tooltip: ""
 }
 
 ChristmasTableItem: {
-	DisplayName: Yuletide Wood Table
+	DisplayName: Стол из йольского дерева
 	Tooltip: ""
 }
 
 ChristmasWorkBenchItem: {
-	DisplayName: Yuletide Wood Work Bench
+	DisplayName: Верстак из йольского дерева
 	Tooltip: ""
 }
 
@@ -4926,12 +4909,12 @@ ChristmasWindowItem: {
 }
 
 ChristmasWoodItem: {
-	DisplayName: Yuletide Wood
+	DisplayName: Йольская древесина
 	Tooltip: ""
 }
 
 ChristmasWoodWallItem: {
-	DisplayName: Yuletide Wood Wall
+	DisplayName: Стена из йольского дерева
 	Tooltip: ""
 }
 
@@ -5197,406 +5180,406 @@ JungleSoilWallItem: {
 
 BigBoneBox: {
 	DisplayName: Music Box (Big Bone)
-	Tooltip: "[c/FF8D00:Doom Abloom] by BananaLizard"
+	Tooltip: Проигрывает [c/FF8D00:«Doom Abloom»] от BananaLizard
 }
 
 CatacombBox: {
-	DisplayName: Music Box (Upper Catacomb)
-	Tooltip: "[c/FF8D00:Tomb Crawlin'] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Мрачные катакомбы)
+	Tooltip: Проигрывает [c/FF8D00:«Tomb Crawlin'»] от BananaLizard
 }
 
 CatacombBox2: {
-	DisplayName: Music Box (Lower Catacomb)
-	Tooltip: "[c/FF8D00:Deep Dive To The Catacombs] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Мрачнейшие катакомбы)
+	Tooltip: Проигрывает [c/FF8D00:«Deep Dive To The Catacombs»] от BananaLizard
 }
 
 CemeteryBox: {
-	DisplayName: Music Box (Swampy Cemetery Day)
-	Tooltip: "[c/FF8D00:A Boneyard Too Far] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Дневное заболоченное кладбище)
+	Tooltip: Проигрывает [c/FF8D00:«A Boneyard Too Far»] от BananaLizard
 }
 
 CemeteryNightBox: {
-	DisplayName: Music Box (Swampy Cemetery Night)
-	Tooltip: "[c/FF8D00:Boneyard Fo Real] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Ночное заболоченное кладбище)
+	Tooltip: Проигрывает [c/FF8D00:«Boneyard Fo Real»] от BananaLizard
 }
 
 ChristmasDungeonBox: {
-	DisplayName: Music Box (Krampus' Workshop)
-	Tooltip: "[c/FF8D00:Tapioca Motel] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Мастерская Крампуса)
+	Tooltip: Проигрывает [c/FF8D00:«Tapioca Motel»] от BananaLizard
 }
 
 DaffodilBox: {
-	DisplayName: Music Box (Daffodil)
-	Tooltip: "[c/FF8D00:To A Floral Demise] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Нарцисс)
+	Tooltip: Проигрывает [c/FF8D00:«To A Floral Demise»] от BananaLizard
 }
 
 EggEventBox: {
-	DisplayName: Music Box (Egg Incursion)
-	Tooltip: "[c/FF8D00:The Evolution Of Evil] by Rockwizard5"
+	DisplayName: Музыкальная шкатулка (Яичное нашествие)
+	Tooltip: Проигрывает [c/FF8D00:«The Evolution Of Evil»] от Rockwizard5
 }
 
 GramophoneBlueBox: {
-	DisplayName: Music Box (Sneaky)
-	Tooltip: "[c/FF8D00:Sneaky] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Хитрая)
+	Tooltip: Проигрывает [c/FF8D00:«Sneaky»] от BananaLizard
 }
 
 GramophoneGreenBox: {
-	DisplayName: Music Box (Lazy)
-	Tooltip: "[c/FF8D00:Lazy] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Ленивая)
+	Tooltip: Проигрывает [c/FF8D00:«Lazy»] от BananaLizard
 }
 
 GramophoneOrangeBox: {
-	DisplayName: Music Box (Sleepy)
-	Tooltip: "[c/FF8D00:Sleepy] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Сонная)
+	Tooltip: Проигрывает [c/FF8D00:«Sleepy»] от BananaLizard
 }
 
 GramophonePurpleBox: {
-	DisplayName: Music Box (Mysterious)
-	Tooltip: "[c/FF8D00:Mysterious] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Загадочная)
+	Tooltip: Проигрывает [c/FF8D00:«Mysterious»] от BananaLizard
 }
 
 GramophoneYellowBox: {
-	DisplayName: Music Box (Alley)
-	Tooltip: "[c/FF8D00:Alley] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Аллея)
+	Tooltip: Проигрывает [c/FF8D00:«Alley»] от BananaLizard
 }
 
 MocoBox: {
-	DisplayName: Music Box (Moco)
-	Tooltip: "[c/FF8D00:And Yet The Snot-Nosed Bug Remains] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Моко)
+	Tooltip: Проигрывает [c/FF8D00:«And Yet The Snot-Nosed Bug Remains»] от BananaLizard
 }
 
 NoseTempleBox: {
-	DisplayName: Music Box (Temple of Moco)
-	Tooltip: "[c/FF8D00:Grand Sinus Corridors] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Храм Моко)
+	Tooltip: Проигрывает [c/FF8D00:«Grand Sinus Corridors»] от BananaLizard
 }
 
 OrroboroBox: {
-	DisplayName: Music Box (Orro & Boro)
-	Tooltip: "[c/FF8D00:The All Is One] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Орро и Боро)
+	Tooltip: Проигрывает [c/FF8D00:«The All Is One»] от BananaLizard
 }
 
 PandoraEventBox: {
-	DisplayName: Music Box (Pandora's Box)
-	Tooltip: "[c/FF8D00:You Should Know Better] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Ящик Пандоры)
+	Tooltip: Проигрывает [c/FF8D00:«You Should Know Better»] от BananaLizard
 }
 
 RaveyardBox: {
-	DisplayName: Music Box (Raveyard)
+	DisplayName: Музыкальная шкатулка (Посмертная туса)
 	Tooltip:
 		'''
-		Can only be placed on ceilings
-		[c/FF8D00:Raveyard Medley] by BananaLizard
+		Можно повесить только на потолок
+		Проигрывает [c/FF8D00:«Raveyard Medley»] от BananaLizard
 		'''
 }
 
 RaveyardCyanBox: {
-	DisplayName: Music Box (Raveyard - Legacy Song 2)
+	DisplayName: Музыкальная шкатулка (Посмертная туса: старая песня 2)
 	Tooltip:
 		'''
-		Can only be placed on ceilings
-		[c/FF8D00:Deathrattlin' Raving] by Luxcapacitor
+		Можно повесить только на потолок
+		Проигрывает [c/FF8D00:«Deathrattlin' Raving»] от Luxcapacitor
 		'''
 }
 
 RaveyardLimeBox: {
-	DisplayName: Music Box (Raveyard - Legacy Song 1)
+	DisplayName: Музыкальная шкатулка (Посмертная туса: старая песня 1)
 	Tooltip:
 		'''
-		Can only be placed on ceilings
-		[c/FF8D00:Graveyard Without The G (Legacy Version)] by BananaLizard & Lurak
+		Можно повесить только на потолок
+		Проигрывает [c/FF8D00:«Graveyard Without The G (Legacy Version)»] от BananaLizard и Lurak
 		'''
 }
 
 RaveyardOrangeBox: {
-	DisplayName: Music Box (Raveyard - Song 1)
+	DisplayName: Музыкальная шкатулка (Посмертная туса: песня 1)
 	Tooltip:
 		'''
-		Can only be placed on ceilings
-		[c/FF8D00:Graveyard Without The G] by BananaLizard
+		Можно повесить только на потолок
+		Проигрывает [c/FF8D00:«Graveyard Without The G»] от BananaLizard
 		'''
 }
 
 RaveyardPurpleBox: {
-	DisplayName: Music Box (Raveyard - Song 2)
+	DisplayName: Музыкальная шкатулка (Посмертная туса: песня 2)
 	Tooltip:
 		'''
-		Can only be placed on ceilings
-		[c/FF8D00:Neo Alkahouse] by BananaLizard
+		Можно повесить только на потолок
+		Проигрывает [c/FF8D00:«Neo Alkahouse»] от BananaLizard
 		'''
 }
 
 RotGourdBox: {
-	DisplayName: Music Box (Rot Gourd)
-	Tooltip: "[c/FF8D00:Funky Pumpkin] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Тухлая тыква)
+	Tooltip: Проигрывает [c/FF8D00:«Funky Pumpkin»] от BananaLizard
 }
 
 SpiderCaveBox: {
-	DisplayName: Music Box (Spider Grotto)
-	Tooltip: "[c/FF8D00:It's Just Spider Stuff] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Паучий грот)
+	Tooltip: Проигрывает [c/FF8D00:«It's Just Spider Stuff»] от BananaLizard
 }
 
 SpookFishronBox: {
 	DisplayName: Music Box (Spook Fishron)
-	Tooltip: "[c/FF8D00:Bad Sushi] by BananaLizard"
+	Tooltip: Проигрывает [c/FF8D00:«Bad Sushi»] от BananaLizard
 }
 
 SpookyBiomeDayBox: {
-	DisplayName: Music Box (Spooky Forest Day)
-	Tooltip: "[c/FF8D00:Dead Trees...] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Дневной жуткий лес)
+	Tooltip: Проигрывает [c/FF8D00:«Dead Trees...»] от BananaLizard
 }
 
 SpookyBiomeNightBox: {
-	DisplayName: Music Box (Spooky Forest Night)
-	Tooltip: "[c/FF8D00:...And Yellow Grass] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Ночной жуткий лес)
+	Tooltip: Проигрывает [c/FF8D00:«...And Yellow Grass»] от BananaLizard
 }
 
 SpookyBiomeRainBox: {
-	DisplayName: Music Box (Spooky Forest Rain)
-	Tooltip: "[c/FF8D00:Harvest Rainfall] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Дождь в жутком лесу)
+	Tooltip: Проигрывает [c/FF8D00:«Harvest Rainfall»] от BananaLizard
 }
 
 SpookyBiomeUGBox: {
-	DisplayName: Music Box (Spooky Forest Underground)
-	Tooltip: "[c/FF8D00:Spooky Spelunking] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Жуткое подземелье)
+	Tooltip: Проигрывает [c/FF8D00:«Spooky Spelunking»] от BananaLizard
 }
 
 SpookyBloodmoonBox: {
-	DisplayName: Music Box (Spooky Blood Moon)
-	Tooltip: "[c/FF8D00:Too Groovy, Very Spooky] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Жуткая кровавая луна)
+	Tooltip: Проигрывает [c/FF8D00:«Too Groovy, Very Spooky»] от BananaLizard
 }
 
 SpookyHellBox: {
-	DisplayName: Music Box (Valley of Eyes)
-	Tooltip: "[c/FF8D00:Eyeballs] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Глазастая долина)
+	Tooltip: Проигрывает [c/FF8D00:«Eyeballs»] от BananaLizard
 }
 
 SpookyMenuBox: {
-	DisplayName: Music Box (Spooky Mod Menu)
-	Tooltip: "[c/FF8D00:Welcome To Spooky Mod] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Заглавная тема Spooky Mod)
+	Tooltip: Проигрывает [c/FF8D00:«Welcome To Spooky Mod»] от BananaLizard
 }
 
 SpookySpiritBox: {
-	DisplayName: Music Box (Spooky Spirit)
-	Tooltip: "[c/FF8D00:Groovy Geist] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Призрак-пугало)
+	Tooltip: Проигрывает [c/FF8D00:«Groovy Geist»] от BananaLizard
 }
 
 SpookyTownDayBox: {
-	DisplayName: Music Box (Spooky Town Day)
-	Tooltip: "[c/FF8D00:Hollow's Eve] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Дневной город в жутком лесу)
+	Tooltip: Проигрывает [c/FF8D00:«Hollow's Eve»] от BananaLizard
 }
 
 SpookyTownNightBox: {
-	DisplayName: Music Box (Spooky Town Night)
-	Tooltip: "[c/FF8D00:Hollow's Ween] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Ночной город в жутком лесу)
+	Tooltip: Проигрывает [c/FF8D00:«Hollow's Ween»] от BananaLizard
 }
 
 SporeEventBox: {
 	DisplayName: Music Box (Spore Storm)
-	Tooltip: "[c/FF8D00:The Fog Is Coming] by BananaLizard"
+	Tooltip: Проигрывает [c/FF8D00:«The Fog Is Coming»] от BananaLizard
 }
 
 TarPitsBox: {
 	DisplayName: Music Box (Tar Pits)
-	Tooltip: "[c/FF8D00:T-Funk] by BananaLizard"
+	Tooltip: Проигрывает [c/FF8D00:«T-Funk»] от BananaLizard
 }
 
 TurkeyBox: {
-	DisplayName: Music Box (Turkey Riding)
-	Tooltip: "[c/FF8D00:Turkeytime] by BananaLizard"
+	DisplayName: Музыкальная шкатулка (Езда на индюке)
+	Tooltip: Проигрывает [c/FF8D00:«Turkeytime»] от BananaLizard
 }
 
 VegetableBiomeBox: {
 	DisplayName: Music Box (Fetid Farms)
-	Tooltip: "[c/FF8D00:Something Smells Funky] by BananaLizard"
+	Tooltip: Проигрывает [c/FF8D00:«Something Smells Funky»] от BananaLizard
 }
 
 ZombieOceanBox: {
 	DisplayName: Music Box (Rotten Depths)
-	Tooltip: "[c/FF8D00:Where Divers Don't Dare] by BananaLizard"
+	Tooltip: Проигрывает [c/FF8D00:«Where Divers Don't Dare»] от BananaLizard
 }
 
 CultistBathtubItem: {
-	DisplayName: Occultist Bathtub
+	DisplayName: Оккультная ванна
 	Tooltip: ""
 }
 
 CultistBedItem: {
-	DisplayName: Occultist Bed
+	DisplayName: Оккультная кровать
 	Tooltip: ""
 }
 
 CultistBookcaseItem: {
-	DisplayName: Occultist Bookcase
+	DisplayName: Оккультный книжный шкаф
 	Tooltip: ""
 }
 
 CultistCandelabraItem: {
-	DisplayName: Occultist Candelabra
+	DisplayName: Оккультный подсвечник
 	Tooltip: ""
 }
 
 CultistCandleItem: {
-	DisplayName: Occultist Candle
+	DisplayName: Оккультная свеча
 	Tooltip: ""
 }
 
 CultistChairItem: {
-	DisplayName: Occultist Chair
+	DisplayName: Оккультный стул
 	Tooltip: ""
 }
 
 CultistChandelierItem: {
-	DisplayName: Occultist Chandelier
+	DisplayName: Оккультная люстра
 	Tooltip: ""
 }
 
 CultistChestItem: {
-	DisplayName: Occultist Chest
+	DisplayName: Оккультный сундук
 	Tooltip: ""
 }
 
 CultistClockItem: {
-	DisplayName: Occultist Clock
+	DisplayName: Оккультные напольные часы
 	Tooltip: ""
 }
 
 CultistDoorItem: {
-	DisplayName: Occultist Door
+	DisplayName: Оккультная дверь
 	Tooltip: ""
 }
 
 CultistDresserItem: {
-	DisplayName: Occultist Dresser
+	DisplayName: Оккультный комод
 	Tooltip: ""
 }
 
 CultistLampItem: {
-	DisplayName: Occultist Lamp
+	DisplayName: Оккультная напольная лампа
 	Tooltip: ""
 }
 
 CultistLanternItem: {
-	DisplayName: Occultist Lantern
+	DisplayName: Оккультный фонарь
 	Tooltip: ""
 }
 
 CultistSinkItem: {
-	DisplayName: Occultist Sink
+	DisplayName: Оккультная раковина
 	Tooltip: ""
 }
 
 CultistSofaItem: {
-	DisplayName: Occultist Sofa
+	DisplayName: Оккультный диван
 	Tooltip: ""
 }
 
 CultistTableItem: {
-	DisplayName: Occultist Table
+	DisplayName: Оккультный стол
 	Tooltip: ""
 }
 
 CultistWorkBenchItem: {
-	DisplayName: Occultist Work Bench
+	DisplayName: Оккультный верстак
 	Tooltip: ""
 }
 
 NoseTemplePlatformGreenItem: {
-	DisplayName: Green Occultist Platform
+	DisplayName: Зелёная оккультная платформа
 	Tooltip: ""
 }
 
 NoseTemplePlatformPurpleItem: {
-	DisplayName: Purple Occultist Platform
+	DisplayName: Фиолетовая оккультная платформа
 	Tooltip: ""
 }
 
 NoseTemplePlatformGrayItem: {
-	DisplayName: Gray Occultist Platform
+	DisplayName: Серая оккультная платформа
 	Tooltip: ""
 }
 
 NoseTemplePlatformRedItem: {
-	DisplayName: Red Occultist Platform
+	DisplayName: Красная оккультная платформа
 	Tooltip: ""
 }
 
 NoseTempleBrickGreenItem: {
-	DisplayName: Green Occultist Brick
+	DisplayName: Зелёный оккультный кирпич
 	Tooltip: ""
 }
 
 NoseTempleBrickPurpleItem: {
-	DisplayName: Purple Occultist Brick
+	DisplayName: Фиолетовый оккультный кирпич
 	Tooltip: ""
 }
 
 NoseTempleBrickGrayItem: {
-	DisplayName: Gray Occultist Brick
+	DisplayName: Серый оккультный кирпич
 	Tooltip: ""
 }
 
 NoseTempleBrickRedItem: {
-	DisplayName: Red Occultist Brick
+	DisplayName: Красный оккультный кирпич
 	Tooltip: ""
 }
 
 NoseTempleFancyBrickGreenItem: {
-	DisplayName: Green Occultist Slab
+	DisplayName: Зелёная оккультная плита
 	Tooltip: ""
 }
 
 NoseTempleFancyBrickPurpleItem: {
-	DisplayName: Purple Occultist Slab
+	DisplayName: Фиолетовая оккультная плита
 	Tooltip: ""
 }
 
 NoseTempleFancyBrickGrayItem: {
-	DisplayName: Gray Occultist Slab
+	DisplayName: Серая оккультная плита
 	Tooltip: ""
 }
 
 NoseTempleFancyBrickRedItem: {
-	DisplayName: Red Occultist Slab
+	DisplayName: Красная оккультная плита
 	Tooltip: ""
 }
 
 NoseTempleFancyWallGreenItem: {
-	DisplayName: Green Occultist Slab Wall
+	DisplayName: Зелёная оккультная плиточная стена
 	Tooltip: ""
 }
 
 NoseTempleFancyWallPurpleItem: {
-	DisplayName: Purple Occultist Slab Wall
+	DisplayName: Фиолетовая оккультная плиточная стена
 	Tooltip: ""
 }
 
 NoseTempleFancyWallGrayItem: {
-	DisplayName: Gray Occultist Slab Wall
+	DisplayName: Серая оккультная плиточная стена
 	Tooltip: ""
 }
 
 NoseTempleFancyWallRedItem: {
-	DisplayName: Red Occultist Slab Wall
+	DisplayName: Красная оккультная плиточная стена
 	Tooltip: ""
 }
 
 NoseTempleWallGreenItem: {
-	DisplayName: Green Occultist Brick Wall
+	DisplayName: Зелёная оккультная кирпичная стена
 	Tooltip: ""
 }
 
 NoseTempleWallPurpleItem: {
-	DisplayName: Purple Occultist Brick Wall
+	DisplayName: Фиолетовая оккультная кирпичная стена
 	Tooltip: ""
 }
 
 NoseTempleWallGrayItem: {
-	DisplayName: Gray Occultist Brick Wall
+	DisplayName: Серая оккультная кирпичная стена
 	Tooltip: ""
 }
 
 NoseTempleWallRedItem: {
-	DisplayName: Red Occultist Brick Wall
+	DisplayName: Красная оккультная кирпичная стена
 	Tooltip: ""
 }
 
@@ -5676,8 +5659,8 @@ MonalumboItem: {
 }
 
 OldHunterPaintingItem: {
-	DisplayName: The War
-	Tooltip: "'Dawnables'"
+	DisplayName: Картина «Священная война»
+	Tooltip: «Dawnables»
 }
 
 RedMistPaintingItem: {
@@ -5876,12 +5859,8 @@ PumpkinPaintingItem: {
 }
 
 CemeteryPylonItem: {
-	DisplayName: Swampy Cemetery Pylon
-	Tooltip:
-		'''
-		Teleport to another pylon when 2 villagers are nearby
-		You can only place one per type and in the matching biome
-		'''
+	DisplayName: Пилон заболоченного кладбища
+	Tooltip: "{$CommonItemTooltip.TeleportationPylon}"
 }
 
 KrampusPylonItem: {
@@ -5894,21 +5873,13 @@ KrampusPylonItem: {
 }
 
 SpiderCavePylonItem: {
-	DisplayName: Spider Grotto Pylon
-	Tooltip:
-		'''
-		Teleport to another pylon when 2 villagers are nearby
-		You can only place one per type and in the matching biome
-		'''
+	DisplayName: Пилон паучьего грота
+	Tooltip: "{$CommonItemTooltip.TeleportationPylon}"
 }
 
 SpookyBiomePylonItem: {
-	DisplayName: Spooky Forest Pylon
-	Tooltip:
-		'''
-		Teleport to another pylon when 2 villagers are nearby
-		You can only place one per type and in the matching biome
-		'''
+	DisplayName: Пилон жуткого леса
+	Tooltip: "{$CommonItemTooltip.TeleportationPylon}"
 }
 
 SpookyHellPylonItem: {
@@ -5921,7 +5892,7 @@ SpookyHellPylonItem: {
 }
 
 BanditBookRelicItem: {
-	DisplayName: Tome of Spirits Relic
+	DisplayName: Реликвия фолианта духов
 	Tooltip: ""
 }
 
@@ -5931,7 +5902,7 @@ BigBoneRelicItem: {
 }
 
 DaffodilRelicItem: {
-	DisplayName: Daffodil Relic
+	DisplayName: Реликвия Нарцисс
 	Tooltip: ""
 }
 
@@ -5946,7 +5917,7 @@ EyeWizardRelicItem: {
 }
 
 FrankenGoblinRelicItem: {
-	DisplayName: Frank the Goblin Relic
+	DisplayName: Реликвия гоблина Франка
 	Tooltip: ""
 }
 
@@ -5961,12 +5932,12 @@ OrroboroRelicItem: {
 }
 
 OldHunterRelicItem: {
-	DisplayName: Old Hunter Relic
+	DisplayName: Реликвия Старого охотника
 	Tooltip: ""
 }
 
 RotGourdRelicItem: {
-	DisplayName: Rot Gourd Relic
+	DisplayName: Реликвия Тухлой тыквы
 	Tooltip: ""
 }
 
@@ -5976,107 +5947,107 @@ SpookFishronRelicItem: {
 }
 
 SpookySpiritRelicItem: {
-	DisplayName: Spooky Spirit Relic
+	DisplayName: Реликвия Призрака-пугала
 	Tooltip: ""
 }
 
 StitchSpiderRelicItem: {
-	DisplayName: Stitches Relic
+	DisplayName: Реликвия сшивателя
 	Tooltip: ""
 }
 
 BirchBathtubItem: {
-	DisplayName: Old Birch Bathtub
+	DisplayName: Ванна из старой берёзы
 	Tooltip: ""
 }
 
 BirchBedItem: {
-	DisplayName: Old Birch Bed
+	DisplayName: Кровать из старой берёзы
 	Tooltip: ""
 }
 
 BirchBookcaseItem: {
-	DisplayName: Old Birch Bookcase
+	DisplayName: Книжный шкаф из старой берёзы
 	Tooltip: ""
 }
 
 BirchCandelabraItem: {
-	DisplayName: Old Birch Candelabra
+	DisplayName: Подсвечник из старой берёзы
 	Tooltip: ""
 }
 
 BirchCandleItem: {
-	DisplayName: Old Birch Candle
+	DisplayName: Свеча из старой берёзы
 	Tooltip: ""
 }
 
 BirchChairItem: {
-	DisplayName: Old Birch Chair
+	DisplayName: Стул из старой берёзы
 	Tooltip: ""
 }
 
 BirchChandelierItem: {
-	DisplayName: Old Birch Chandelier
+	DisplayName: Люстра из старой берёзы
 	Tooltip: ""
 }
 
 BirchChestItem: {
 	Tooltip: ""
-	DisplayName: Old Birch Chest
+	DisplayName: Сундук из старой берёзы
 }
 
 BirchClockItem: {
-	DisplayName: Old Birch Clock
+	DisplayName: Напольные часы из старой берёзы
 	Tooltip: ""
 }
 
 BirchDoorItem: {
-	DisplayName: Old Birch Door
+	DisplayName: Дверь из старой берёзы
 	Tooltip: ""
 }
 
 BirchDresserItem: {
-	DisplayName: Old Birch Dresser
+	DisplayName: Комод из старой берёзы
 	Tooltip: ""
 }
 
 BirchLampItem: {
-	DisplayName: Old Birch Lamp
+	DisplayName: Напольная лампа из старой берёзы
 	Tooltip: ""
 }
 
 BirchLanternItem: {
-	DisplayName: Old Birch Lantern
+	DisplayName: Фонарь из старой берёзы
 	Tooltip: ""
 }
 
 BirchPlatformItem: {
-	DisplayName: Old Birch Platform
+	DisplayName: Платформа из старой берёзы
 	Tooltip: ""
 }
 
 BirchSinkItem: {
-	DisplayName: Old Birch Sink
+	DisplayName: Раковина из старой берёзы
 	Tooltip: ""
 }
 
 BirchSofaItem: {
-	DisplayName: Old Birch Sofa
+	DisplayName: Диван из старой берёзы
 	Tooltip: ""
 }
 
 BirchPianoItem: {
-	DisplayName: Old Birch Piano
+	DisplayName: Пианино из старой берёзы
 	Tooltip: ""
 }
 
 BirchTableItem: {
-	DisplayName: Old Birch Table
+	DisplayName: Стол из старой берёзы
 	Tooltip: ""
 }
 
 BirchWorkBenchItem: {
-	DisplayName: Old Birch Work Bench
+	DisplayName: Верстак из старой берёзы
 	Tooltip: ""
 }
 
@@ -6101,7 +6072,7 @@ GnomeHouse4Item: {
 }
 
 SpiderCaveChestItem: {
-	DisplayName: Spider Grotto Chest
+	DisplayName: Паучий сундук
 	Tooltip: ""
 }
 
@@ -6111,700 +6082,701 @@ SporeMonolithItem: {
 }
 
 BirchWoodItem: {
-	DisplayName: Old Birch Wood
+	DisplayName: Древесина старой берёзы
 	Tooltip: ""
 }
 
 BirchWoodWallItem: {
-	DisplayName: Old Birch Wood Wall
+	DisplayName: Стена из старой берёзы
 	Tooltip: ""
 }
 
 DampGrassSeeds: {
-	DisplayName: Damp Grass Seeds
-	Tooltip: Plants grass on Damp Soil
+	DisplayName: Семена сырой травы
+	Tooltip: Сажает траву на сырую почву
 }
 
 DampGrassWallItem: {
-	DisplayName: Damp Grass Wall
+	DisplayName: Стена из сырой травы
 	Tooltip: ""
 }
 
 DampMushroomGrassSeeds: {
-	DisplayName: Mycelium Seeds
-	Tooltip: Plants mycelium grass on Damp Soil
+	DisplayName: Семена мицелия
+	Tooltip: Сажает мицелий на сырую почву
 }
 
 DampSoilItem: {
-	DisplayName: Damp Soil
+	DisplayName: Сырая почва
 	Tooltip: ""
 }
 
 DampSoilWallItem: {
-	DisplayName: Damp Soil Wall
+	DisplayName: Стена из сырой почвы
 	Tooltip: ""
 }
 
 DampStoneItem: {
-	DisplayName: Mossless Stone
-	Tooltip: Like regular stone, but without moss
+	DisplayName: Размшелый камень
+	Tooltip: Как обычный камень, но без мха
 }
 
 DampStoneBricksItem: {
-	DisplayName: Mossless Stone Brick
+	DisplayName: Размшелый каменный кирпич
 	Tooltip: ""
 }
 
 DampStoneBricksWallItem: {
-	DisplayName: Mossless Stone Brick Wall
+	DisplayName: Размшелая каменная кирпичная стена
 	Tooltip: ""
 }
 
 RootWoodItem: {
-	DisplayName: Root Block
+	DisplayName: Корень
 	Tooltip: ""
 }
 
 RootWoodWallItem: {
-	DisplayName: Root Block Wall
+	DisplayName: Стена из корней
 	Tooltip: ""
 }
 
 WebBlockItem: {
-	DisplayName: Spider Web Block
+	DisplayName: Прочная паутина
 	Tooltip: ""
 }
 
 WebBlockWallItem: {
-	DisplayName: Spider Web Wall
+	DisplayName: Прочная паутинная стена
 	Tooltip: ""
 }
 
 CandleItem: {
-	DisplayName: Old Wax Candle
+	DisplayName: Старая восковая свеча
 	Tooltip:
 		'''
-		Provides a small amount of light
-		Right click a carved gourd while holding this to light it up
+		Излучает небольшое количество света
+		Нажмите ПКМ свечой по вырезанной тыкве, чтобы сделать из неё фонарь
 		'''
 }
 
 FlyBigJarItem: {
-	DisplayName: Big Fly Jar
+	DisplayName: Банка с огромной мухой
 	Tooltip: ""
 }
 
 FlySmallJarItem: {
-	DisplayName: Fly Jar
+	DisplayName: Банка с мухой
 	Tooltip: ""
 }
 
 GlowshroomBathtubItem: {
-	DisplayName: Glowshroom Bathtub
+	DisplayName: Ванна из светогриба
 	Tooltip: ""
 }
 
 GlowshroomBedItem: {
-	DisplayName: Glowshroom Bed
+	DisplayName: Кровать из светогриба
 	Tooltip: ""
 }
 
 GlowshroomBenchItem: {
-	DisplayName: Glowshroom Bench
+	DisplayName: Скамья из светогриба
 	Tooltip: ""
 }
 
 GlowshroomBookcaseItem: {
-	DisplayName: Glowshroom Bookcase
+	DisplayName: Книжный шкаф из светогриба
 	Tooltip: ""
 }
 
 GlowshroomCandelabraItem: {
-	DisplayName: Glowshroom Candelabra
+	DisplayName: Подсвечник из светогриба
 	Tooltip: ""
 }
 
 GlowshroomCandleItem: {
-	DisplayName: Glowshroom Candle
+	DisplayName: Свеча из светогриба
 	Tooltip: ""
 }
 
 GlowshroomChairItem: {
-	DisplayName: Glowshroom Chair
+	DisplayName: Стул из светогриба
 	Tooltip: ""
 }
 
 GlowshroomChandelierItem: {
-	DisplayName: Glowshroom Chandelier
+	DisplayName: Люстра из светогриба
 	Tooltip: ""
 }
 
 GlowshroomChestItem: {
-	DisplayName: Glowshroom Chest
+	DisplayName: Сундук из светогриба
 	Tooltip: ""
 }
 
 GlowshroomClockItem: {
-	DisplayName: Glowshroom Clock
+	DisplayName: Напольные часы из светогриба
 	Tooltip: ""
 }
 
 GlowshroomDoorItem: {
-	DisplayName: Glowshroom Door
+	DisplayName: Дверь из светогриба
 	Tooltip: ""
 }
 
 GlowshroomDresserItem: {
-	DisplayName: Glowshroom Dresser
+	DisplayName: Комод из светогриба
 	Tooltip: ""
 }
 
 GlowshroomLampItem: {
-	DisplayName: Glowshroom Lamp
+	DisplayName: Напольная лампа из светогриба
 	Tooltip: ""
 }
 
 GlowshroomLanternItem: {
-	DisplayName: Glowshroom Lantern
+	DisplayName: Фонарь из светогриба
 	Tooltip: ""
 }
 
 GlowshroomPianoItem: {
-	DisplayName: Glowshroom Piano
+	DisplayName: Пианино из светогриба
 	Tooltip: ""
 }
 
 GlowshroomPlatformItem: {
-	DisplayName: Glowshroom Platform
+	DisplayName: Платформа из светогриба
 	Tooltip: ""
 }
 
 GlowshroomSinkItem: {
-	DisplayName: Glowshroom Sink
+	DisplayName: Раковина из светогриба
 	Tooltip: ""
 }
 
 GlowshroomTableItem: {
-	DisplayName: Glowshroom Table
+	DisplayName: Стол из светогриба
 	Tooltip: ""
 }
 
 GlowshroomWorkBenchItem: {
-	DisplayName: Glowshroom Work Bench
+	DisplayName: Верстак из светогриба
 	Tooltip: ""
 }
 
 GlowshroomYellowBathtubItem: {
-	DisplayName: Yellow Glowshroom Bathtub
+	DisplayName: Ванна из жёлтого светогриба
 	Tooltip: ""
 }
 
 GlowshroomYellowBedItem: {
-	DisplayName: Yellow Glowshroom Bed
+	DisplayName: Кровать из жёлтого светогриба
 	Tooltip: ""
 }
 
 GlowshroomYellowBenchItem: {
-	DisplayName: Yellow Glowshroom Bench
+	DisplayName: Скамья из жёлтого светогриба
 	Tooltip: ""
 }
 
 GlowshroomYellowBookcaseItem: {
-	DisplayName: Yellow Glowshroom Bookcase
+	DisplayName: Книжный шкаф из жёлтого светогриба
 	Tooltip: ""
 }
 
 GlowshroomYellowCandelabraItem: {
-	DisplayName: Yellow Glowshroom Candelabra
+	DisplayName: Подсвечник из жёлтого светогриба
 	Tooltip: ""
 }
 
 GlowshroomYellowCandleItem: {
-	DisplayName: Yellow Glowshroom Candle
+	DisplayName: Свеча из жёлтого светогриба
 	Tooltip: ""
 }
 
 GlowshroomYellowChairItem: {
-	DisplayName: Yellow Glowshroom Chair
+	DisplayName: Стул из жёлтого светогриба
 	Tooltip: ""
 }
 
 GlowshroomYellowChandelierItem: {
-	DisplayName: Yellow Glowshroom Chandelier
+	DisplayName: Люстра из жёлтого светогриба
 	Tooltip: ""
 }
 
 GlowshroomYellowChestItem: {
-	DisplayName: Yellow Glowshroom Chest
+	DisplayName: Сундук из жёлтого светогриба
 	Tooltip: ""
 }
 
 GlowshroomYellowClockItem: {
-	DisplayName: Yellow Glowshroom Clock
+	DisplayName: Напольные часы из жёлтого светогриба
 	Tooltip: ""
 }
 
 GlowshroomYellowDoorItem: {
-	DisplayName: Yellow Glowshroom Door
+	DisplayName: Дверь из жёлтого светогриба
 	Tooltip: ""
 }
 
 GlowshroomYellowDresserItem: {
-	DisplayName: Yellow Glowshroom Dresser
+	DisplayName: Комод из жёлтого светогриба
 	Tooltip: ""
 }
 
 GlowshroomYellowLampItem: {
-	DisplayName: Yellow Glowshroom Lamp
+	DisplayName: Напольная лампа из жёлтого светогриба
 	Tooltip: ""
 }
 
 GlowshroomYellowLanternItem: {
-	DisplayName: Yellow Glowshroom Lantern
+	DisplayName: Фонарь из жёлтого светогриба
 	Tooltip: ""
 }
 
 GlowshroomYellowPianoItem: {
-	DisplayName: Yellow Glowshroom Piano
+	DisplayName: Пианино из жёлтого светогриба
 	Tooltip: ""
 }
 
 GlowshroomYellowPlatformItem: {
-	DisplayName: Yellow Glowshroom Platform
+	DisplayName: Платформа из жёлтого светогриба
 	Tooltip: ""
 }
 
 GlowshroomYellowSinkItem: {
-	DisplayName: Yellow Glowshroom Sink
+	DisplayName: Раковина из жёлтого светогриба
 	Tooltip: ""
 }
 
 GlowshroomYellowTableItem: {
-	DisplayName: Yellow Glowshroom Table
+	DisplayName: Стол из жёлтого светогриба
 	Tooltip: ""
 }
 
 GlowshroomYellowWorkBenchItem: {
-	DisplayName: Yellow Glowshroom Work Bench
+	DisplayName: Верстак из жёлтого светогриба
 	Tooltip: ""
 }
 
 LittleBoneStatueItem: {
-	DisplayName: Little Bone Statue
+	DisplayName: Статуя Черепка
 	Tooltip: ""
 }
 
 LittleSpiderJarItem: {
-	DisplayName: Little Spider Jar
+	DisplayName: Банка с крошечным пауком
 	Tooltip: ""
 }
 
 OldWoodBathtubItem: {
-	DisplayName: Old Wood Bathtub
+	DisplayName: Ванна из старого дерева
 	Tooltip: ""
 }
 
 OldWoodBedItem: {
-	DisplayName: Old Wood Bed
+	DisplayName: Кровать из старого дерева
 	Tooltip: ""
 }
 
 OldWoodBookcaseItem: {
-	DisplayName: Old Wood Bookcase
+	DisplayName: Книжный шкаф из старого дерева
 	Tooltip: ""
 }
 
 OldWoodCandleItem: {
-	DisplayName: Old Wood Candle
+	DisplayName: Свеча из старого дерева
 	Tooltip: ""
 }
 
 OldWoodChairItem: {
-	DisplayName: Old Wood Chair
+	DisplayName: Стул из старого дерева
 	Tooltip: ""
 }
 
 OldWoodChestItem: {
-	DisplayName: Old Wood Chest
+	DisplayName: Сундук из старого дерева
 	Tooltip: ""
 }
 
 OldWoodDoorItem: {
-	DisplayName: Old Wood Door
+	DisplayName: Дверь из старого дерева
 	Tooltip: ""
 }
 
 OldWoodOrganItem: {
-	DisplayName: Old Wood Organ
+	DisplayName: Орган из старого дерева
 	Tooltip:
 		'''
-		Right click to play the organ
-		But, it can only play Toccata and Fugue in D minor
+		Нажмите ПКМ по органу, чтобы сыграть на нём «Токкату и фуга ре минор»
+		И... ничего более
 		'''
 }
 
 OldWoodPlatformItem: {
-	DisplayName: Old Wood Platform
+	DisplayName: Платформа из старого дерева
 	Tooltip: ""
 }
 
 OldWoodSofaItem: {
-	DisplayName: Old Wood Sofa
+	DisplayName: Диван из старого дерева
 	Tooltip: ""
 }
 
 OldWoodTableItem: {
-	DisplayName: Old Wood Table
+	DisplayName: Стол из старого дерева
 	Tooltip: ""
 }
 
 OldWoodWorkBenchItem: {
-	DisplayName: Old Wood Work Bench
+	DisplayName: Верстак из старого дерева
 	Tooltip: ""
 }
 
 OldWoodCandelabraItem: {
-	DisplayName: Old Wood Candelabra
+	DisplayName: Подсвечник из старого дерева
 	Tooltip: ""
 }
 
 OldWoodChandelierItem: {
-	DisplayName: Old Wood Chandelier
+	DisplayName: Люстра из старого дерева
 	Tooltip: ""
 }
 
 OldWoodClockItem: {
-	DisplayName: Old Wood Clock
+	DisplayName: Напольные часы из старого дерева
 	Tooltip: ""
 }
 
 OldWoodDresserItem: {
-	DisplayName: Old Wood Dresser
+	DisplayName: Комод из старого дерева
 	Tooltip: ""
 }
 
 OldWoodLampItem: {
-	DisplayName: Old Wood Lamp
+	DisplayName: Напольная лампа из старого дерева
 	Tooltip: ""
 }
 
 OldWoodLanternItem: {
-	DisplayName: Old Wood Lantern
+	DisplayName: Фонарь из старого дерева
 	Tooltip: ""
 }
 
 OldWoodSinkItem: {
-	DisplayName: Old Wood Sink
+	DisplayName: Раковина из старого дерева
 	Tooltip: ""
 }
 
 SinisterSnailCageItem: {
-	DisplayName: Sinister Snail Cage
+	DisplayName: Террариум со зловещей улиткой
 	Tooltip: ""
 }
 
 SpookyBiomeChestItem: {
-	DisplayName: Spooky Forest Chest
+	DisplayName: Жуткий сундук
 	Tooltip: ""
 }
 
 SwoleMushroomStatueItem: {
-	DisplayName: Mushroom God Statue
+	DisplayName: Статуя грибного бога
 	Tooltip: ""
 }
 
 TinyGhostJarItem: {
-	DisplayName: Tiny Ghost Jar
+	DisplayName: Банка с приведеньецем
 	Tooltip: ""
 }
 
 TinyMushroomCageItem: {
-	DisplayName: Tiny Mushroom Cage
+	DisplayName: Террариум с грибочком
 	Tooltip: ""
 }
 
 GourdBlockGreenItem: {
-	DisplayName: Green Gourd Block
+	DisplayName: Зелёная тыква
 	Tooltip: ""
 }
 
 GourdBlockGreenPlatformItem: {
-	DisplayName: Green Gourd Platform
+	DisplayName: Зелёная тыквенная платформа
 	Tooltip: ""
 }
 
 GourdBlockGreenWallItem: {
-	DisplayName: Green Gourd Wall
+	DisplayName: Зелёная тыквенная стена
 	Tooltip: ""
 }
 
 GourdBlockLimeItem: {
-	DisplayName: Lime Gourd Block
+	DisplayName: Салатовая тыква
 	Tooltip: ""
 }
 
 GourdBlockLimePlatformItem: {
-	DisplayName: Lime Gourd Platform
+	DisplayName: Салатовая тыквенная платформа
 	Tooltip: ""
 }
 
 GourdBlockLimeWallItem: {
-	DisplayName: Lime Gourd Wall
+	DisplayName: Салатовая тыквенная стена
 	Tooltip: ""
 }
 
 GourdBlockLimeOrangeItem: {
-	DisplayName: Lime-Orange Gourd Block
+	DisplayName: Салатово-оранжевая тыква
 	Tooltip: ""
 }
 
 GourdBlockLimeOrangePlatformItem: {
-	DisplayName: Lime-Orange Gourd Platform
+	DisplayName: Салатово-оранжевая тыквенная платформа
 	Tooltip: ""
 }
 
 GourdBlockLimeOrangeWallItem: {
-	DisplayName: Lime-Orange Gourd Wall
+	DisplayName: Салатово-оранжевая тыквенная стена
 	Tooltip: ""
 }
 
 GourdBlockOrangeItem: {
-	DisplayName: Orange Gourd Block
+	DisplayName: Оранжевая тыква
 	Tooltip: ""
 }
 
 GourdBlockOrangePlatformItem: {
-	DisplayName: Orange Gourd Platform
+	DisplayName: Оранжевая тыквенная платформа
 	Tooltip: ""
 }
 
 GourdBlockOrangeWallItem: {
-	DisplayName: Orange Gourd Wall
+	DisplayName: Оранжевая тыквенная стена
 	Tooltip: ""
 }
 
 GourdBlockRedItem: {
-	DisplayName: Red Gourd Block
+	DisplayName: Красная тыква
 	Tooltip: ""
 }
 
 GourdBlockRedPlatformItem: {
-	DisplayName: Red Gourd Platform
+	DisplayName: Красная тыквенная платформа
 	Tooltip: ""
 }
 
 GourdBlockRedWallItem: {
-	DisplayName: Red Gourd Wall
+	DisplayName: Красная тыквенная стена
 	Tooltip: ""
 }
 
 GourdBlockWhiteItem: {
-	DisplayName: White Gourd Block
+	DisplayName: Белая тыква
 	Tooltip: ""
 }
 
 GourdBlockWhitePlatformItem: {
-	DisplayName: White Gourd Platform
+	DisplayName: Белая тыквенная платформа
 	Tooltip: ""
 }
 
 GourdBlockWhiteWallItem: {
-	DisplayName: White Gourd Wall
+	DisplayName: Белая тыквенная стена
 	Tooltip: ""
 }
 
 GourdBlockYellowGreenItem: {
-	DisplayName: Yellow-Green Gourd Block
+	DisplayName: Жёлто-зелёная тыква
 	Tooltip: ""
 }
 
 GourdBlockYellowGreenPlatformItem: {
-	DisplayName: Yellow-Green Gourd Platform
+	DisplayName: Жёлто-зелёная тыквенная платформа
 	Tooltip: ""
 }
 
 GourdBlockYellowGreenWallItem: {
-	DisplayName: Yellow-Green Gourd Wall
+	DisplayName: Жёлто-зелёная тыквенная стена
 	Tooltip: ""
 }
 
 GourdBlockYellowItem: {
-	DisplayName: Yellow Gourd Block
+	DisplayName: Жёлтая тыква
 	Tooltip: ""
 }
 
 GourdBlockYellowPlatformItem: {
-	DisplayName: Yellow Gourd Platform
+	DisplayName: Желтая тыквенная платформа
 	Tooltip: ""
 }
 
 GourdBlockYellowWallItem: {
-	DisplayName: Yellow Gourd Wall
+	DisplayName: Желтая тыквенная стена
 	Tooltip: ""
 }
 
 GourdGreenCarvedItem: {
-	DisplayName: Green Carved Gourd
+	DisplayName: Зелёная вырезанная тыква
 	Tooltip: ""
 }
 
 GourdGreenCarvedLitItem: {
-	DisplayName: Green Gourd 'O Lantern
+	DisplayName: Фонарь из зелёной тыквы
 	Tooltip: ""
 }
 
 GourdLimeCarvedItem: {
-	DisplayName: Lime Carved Gourd
+	DisplayName: Салатовая вырезанная тыква
 	Tooltip: ""
 }
 
 GourdLimeCarvedLitItem: {
-	DisplayName: Lime Gourd 'O Lantern
+	DisplayName: Фонарь из салатовой тыквы
 	Tooltip: ""
 }
 
 GourdLimeOrangeCarvedItem: {
-	DisplayName: Lime-Orange Carved Gourd
+	DisplayName: Салатово-оранжевая вырезанная тыква
 	Tooltip: ""
 }
 
 GourdLimeOrangeCarvedLitItem: {
-	DisplayName: Lime-Orange Gourd 'O Lantern
+	DisplayName: Фонарь из салатово-оранжевой тыквы
 	Tooltip: ""
 }
 
 GourdOrangeCarvedItem: {
-	DisplayName: Orange Carved Gourd
+	DisplayName: Оранжевая вырезанная тыква
 	Tooltip: ""
 }
 
 GourdOrangeCarvedLitItem: {
-	DisplayName: Orange Gourd 'O Lantern
+	DisplayName: Фонарь из оранжевой тыквы
 	Tooltip: ""
 }
 
 GourdRedCarvedItem: {
-	DisplayName: Red Carved Gourd
+	DisplayName: Красная вырезанная тыква
 	Tooltip: ""
 }
 
 GourdRedCarvedLitItem: {
-	DisplayName: Red Gourd 'O Lantern
+	DisplayName: Фонарь из красной тыквы
 	Tooltip: ""
 }
 
 GourdRottenCarvedItem: {
-	DisplayName: Rotten Carved Gourd
+	DisplayName: Прогнившая вырезанная тыква
 	Tooltip: ""
 }
 
 GourdRottenCarvedLitItem: {
-	DisplayName: Rotten Gourd 'O Lantern
+	DisplayName: Фонарь из прогнившей тыквы
 	Tooltip: ""
 }
 
 GourdWhiteCarvedItem: {
-	DisplayName: White Carved Gourd
+	DisplayName: Белая вырезанная тыква
 	Tooltip: ""
 }
 
 GourdWhiteCarvedLitItem: {
-	DisplayName: White Gourd 'O Lantern
+	DisplayName: Фонарь из белой тыквы
 	Tooltip: ""
 }
 
 GourdYellowCarvedItem: {
-	DisplayName: Yellow Carved Gourd
+	DisplayName: Жёлтая вырезанная тыква
 	Tooltip: ""
 }
 
 GourdYellowCarvedLitItem: {
-	DisplayName: Yellow Gourd 'O Lantern
+	DisplayName: Фонарь из жёлтой тыквы
 	Tooltip: ""
 }
 
 GourdYellowGreenCarvedItem: {
-	DisplayName: Yellow-Green Carved Gourd
+	DisplayName: Жёлто-зелёная вырезанная тыква
 	Tooltip: ""
 }
 
 GourdYellowGreenCarvedLitItem: {
-	DisplayName: Yellow-Green Gourd 'O Lantern
+	DisplayName: Фонарь из жёлто-зелёной тыквы
 	Tooltip: ""
 }
 
+
 GlowshroomWallItem: {
-	DisplayName: Glowshroom Wall
+	DisplayName: Стена из светогриба
 	Tooltip: ""
 }
 
 GlowshroomYellowWallItem: {
-	DisplayName: Yellow Glowshroom Wall
+	DisplayName: Стена из жёлтого светогриба
 	Tooltip: ""
 }
 
 MushroomMossSeeds: {
-	DisplayName: Mushroom Moss Seeds
-	Tooltip: Plants mushroom moss on Mossy Stone
+	DisplayName: Семена грибного мха
+	Tooltip: Сажает грибной мох на замшелый камень
 }
 
 SpookyDirtItem: {
-	DisplayName: Spooky Dirt
+	DisplayName: Жуткая земля
 	Tooltip: ""
 }
 
 SpookyDirtWallItem: {
-	DisplayName: Spooky Dirt Wall
+	DisplayName: Стена из жуткой земли
 	Tooltip: ""
 }
 
 SpookyGrassWallItem: {
-	DisplayName: Orange Grass Wall
+	DisplayName: Оранжевая травяная стена
 	Tooltip: ""
 }
 
 SpookySeedsGreen: {
-	DisplayName: Green Spooky Seeds
-	Tooltip: Plants green grass on Spooky Dirt
+	DisplayName: Семена зелёной жуткой травы
+	Tooltip: Сажает зелёную траву на жуткую землю
 }
 
 SpookySeedsOrange: {
-	DisplayName: Orange Spooky Seeds
-	Tooltip: Plants orange grass on Spooky Dirt
+	DisplayName: Семена оранжевой жуткой травы
+	Tooltip: Сажает оранжевую траву на жуткую землю
 }
 
 SpookyStoneItem: {
-	DisplayName: Mossy Stone
+	DisplayName: Замшелый камень
 	Tooltip: ""
 }
 
 SpookyStoneWallItem: {
-	DisplayName: Mossy Stone Wall
+	DisplayName: Замшелая каменная стена
 	Tooltip: ""
 }
 
 SpookyStoneBricksItem: {
-	DisplayName: Mossy Stone Brick
+	DisplayName: Замшелый каменный кирпич
 	Tooltip: ""
 }
 
 SpookyStoneBricksWallItem: {
-	DisplayName: Mossy Stone Brick Wall
+	DisplayName: Замшелая каменная кирпичная стена
 	Tooltip: ""
 }
 
 SpookyWoodItem: {
-	DisplayName: Old Wood
+	DisplayName: Древесина старого дерева
 	Tooltip: ""
 }
 
 SpookyWoodWallItem: {
-	DisplayName: Old Wood Wall
+	DisplayName: Стена из старого дерева
 	Tooltip: ""
 }
 
 SpookyWoodFenceItem: {
-	DisplayName: Old Wood Fence
+	DisplayName: Забор из старого дерева
 	Tooltip: ""
 }
 
@@ -6819,92 +6791,92 @@ SpookyHellChestItem: {
 }
 
 EyeBathtubItem: {
-	DisplayName: Living Flesh Bathtub
+	DisplayName: Ванна из ожившей плоти
 	Tooltip: ""
 }
 
 EyeBedItem: {
-	DisplayName: Living Flesh Bed
+	DisplayName: Кровать из ожившей плоти
 	Tooltip: ""
 }
 
 EyeBookcaseItem: {
-	DisplayName: Living Flesh Bookcase
+	DisplayName: Книжный шкаф из ожившей плоти
 	Tooltip: ""
 }
 
 EyeCandelabraItem: {
-	DisplayName: Living Flesh Candelabra
+	DisplayName: Подсвечник из ожившей плоти
 	Tooltip: ""
 }
 
 EyeCandleItem: {
-	DisplayName: Living Flesh Candle
+	DisplayName: Свеча из ожившей плоти
 	Tooltip: ""
 }
 
 EyeChairItem: {
-	DisplayName: Living Flesh Chair
+	DisplayName: Стул из ожившей плоти
 	Tooltip: ""
 }
 
 EyeChandelierItem: {
-	DisplayName: Living Flesh Chandelier
+	DisplayName: Люстра из ожившей плоти
 	Tooltip: ""
 }
 
 EyeClockItem: {
-	DisplayName: Living Flesh Clock
+	DisplayName: Напольные часы из ожившей плоти
 	Tooltip: ""
 }
 
 EyeDoorItem: {
-	DisplayName: Living Flesh Door
+	DisplayName: Дверь из ожившей плоти
 	Tooltip: ""
 }
 
 EyeDresserItem: {
-	DisplayName: Living Flesh Dresser
+	DisplayName: Комод из ожившей плоти
 	Tooltip: ""
 }
 
 EyeLampItem: {
-	DisplayName: Living Flesh Lamp
+	DisplayName: Напольная лампа из ожившей плоти
 	Tooltip: ""
 }
 
 EyeLanternItem: {
-	DisplayName: Living Flesh Lantern
+	DisplayName: Фонарь из ожившей плоти
 	Tooltip: ""
 }
 
 EyePianoItem: {
-	DisplayName: Living Flesh Piano
+	DisplayName: Пианино из ожившей плоти
 	Tooltip: ""
 }
 
 EyePlatformItem: {
-	DisplayName: Living Flesh Platform
+	DisplayName: Платформа из ожившей плоти
 	Tooltip: ""
 }
 
 EyeSinkItem: {
-	DisplayName: Living Flesh Sink
+	DisplayName: Раковина из ожившей плоти
 	Tooltip: ""
 }
 
 EyeSofaItem: {
-	DisplayName: Living Flesh Sofa
+	DisplayName: Диван из ожившей плоти
 	Tooltip: ""
 }
 
 EyeTableItem: {
-	DisplayName: Living Flesh Table
+	DisplayName: Стол из ожившей плоти
 	Tooltip: ""
 }
 
 EyeWorkBenchItem: {
-	DisplayName: Living Flesh Work Bench
+	DisplayName: Верстак из ожившей плоти
 	Tooltip: ""
 }
 
@@ -6984,7 +6956,7 @@ BoroTrophyItem: {
 }
 
 DaffodilTrophyItem: {
-	DisplayName: Daffodil Trophy
+	DisplayName: Трофей Нарцисс
 	Tooltip: ""
 }
 
@@ -6999,7 +6971,7 @@ OrroTrophyItem: {
 }
 
 RotGourdTrophyItem: {
-	DisplayName: Rot Gourd Trophy
+	DisplayName: Трофей Тухлой тыквы
 	Tooltip: ""
 }
 
@@ -7009,7 +6981,7 @@ SpookFishronTrophyItem: {
 }
 
 SpookySpiritTrophyItem: {
-	DisplayName: Spooky Spirit Trophy
+	DisplayName: Трофей Призрака-пугала
 	Tooltip: ""
 }
 
@@ -7039,32 +7011,32 @@ CamelColonelTrophyItem: {
 }
 
 OldHunterTrophyItem: {
-	DisplayName: Old Hunter Trophy
+	DisplayName: Трофей Старого охотника
 	Tooltip: ""
 }
 
 CatacombTorch1Item: {
-	DisplayName: Creepy Catacombs Torch
+	DisplayName: Факел Мрачных катакомб
 	Tooltip: ""
 }
 
 CatacombTorch2Item: {
-	DisplayName: Lower Catacombs Torch
+	DisplayName: Факел Мрачнейших катакомб
 	Tooltip: ""
 }
 
 CemeteryBiomeTorchItem: {
-	DisplayName: Swampy Cemetery Torch
+	DisplayName: Факел заболоченного кладбища
 	Tooltip: ""
 }
 
 SpiderBiomeTorchItem: {
-	DisplayName: Spider Grotto Torch
+	DisplayName: Факел паучьего грота
 	Tooltip: ""
 }
 
 SpookyBiomeTorchItem: {
-	DisplayName: Spooky Forest Torch
+	DisplayName: Факел жуткого леса
 	Tooltip: ""
 }
 
@@ -7226,10 +7198,10 @@ OldHunterQuestReset: {
 }
 
 PetCommander: {
-	DisplayName: Turkey Command Whistle
+	DisplayName: Индюшиный дрессировочный свисток
 	Tooltip:
 		'''
-		Click on any nearby tamed turkey while holding this to give it commands
-		Allows the turkey to roam freely, follow you, or stay put
+		Нажмите по прирученному индюку, держа предмет в руках, чтобы отдать ему команду
+		Позволяет заставить индюка следовать за вами, стоять на месте или снова свободно бродить
 		'''
 }

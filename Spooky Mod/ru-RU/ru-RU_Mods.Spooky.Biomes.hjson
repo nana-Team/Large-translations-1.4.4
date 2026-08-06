@@ -1,66 +1,66 @@
 SpookyBiome: {
-	DisplayName: Spooky Forest
-	TownNPCDialogueName: Spooky Forest
+	DisplayName: Жуткий лес
+	TownNPCDialogueName: Жуткий лес
 }
 
 SpookyBiomeUg: {
-	DisplayName: Spooky Underground
-	TownNPCDialogueName: Underground Spooky Forest
+	DisplayName: Жуткое подземелье
+	TownNPCDialogueName: Жуткое подземелье
 }
 
 CemeteryBiome: {
-	DisplayName: Swampy Cemetery
-	TownNPCDialogueName: Swampy Cemetery
+	DisplayName: Заболоченное кладбище
+	TownNPCDialogueName: Заболоченное кладбище
 }
 
 RaveyardBiome: {
-	DisplayName: Raveyard
-	TownNPCDialogueName: Raveyard
+	DisplayName: Посмертная туса
+	TownNPCDialogueName: Посмертная туса
 }
 
 CatacombBiome: {
-	DisplayName: Creepy Catacombs
-	TownNPCDialogueName: Creepy Catacombs
+	DisplayName: Мрачные катакомбы
+	TownNPCDialogueName: Мрачные катакомбы
 }
 
 CatacombBiome2: {
-	DisplayName: Lower Catacombs
-	TownNPCDialogueName: Lower Catacombs
+	DisplayName: Мрачнейшие катакомбы
+	TownNPCDialogueName: Мрачнейшие катакомбы
 }
 
 NoseTempleBiome: {
-	DisplayName: Temple of Moco
-	TownNPCDialogueName: the Temple of Moco
+	DisplayName: Храм Моко
+	TownNPCDialogueName: Храм Моко
 }
 
 PandoraBoxBiome: {
-	DisplayName: Pandora's Box
-	TownNPCDialogueName: Pandora's Box
+	DisplayName: Ящик Пандоры
+	TownNPCDialogueName: Ящик Пандоры
 }
 
 SpookyHellBiome: {
-	DisplayName: Valley of Eyes
-	TownNPCDialogueName: Valley of Eyes
+	DisplayName: Глазастая долина
+	TownNPCDialogueName: Глазастая долина
 }
 
 SpookyHellEventBiome: {
-	DisplayName: Egg Incursion
-	TownNPCDialogueName: Egg Incursion
+	DisplayName: Яичное нашествие
+	TownNPCDialogueName: Яичное нашествие
 }
 
 SpookyHellLake: {
-	DisplayName: Lake of Blood
-	TownNPCDialogueName: Lake of Blood
+	DisplayName: Озеро крови
+	TownNPCDialogueName: Озеро крови
 }
 
 SpiderCaveBiome: {
-	DisplayName: Spider Grotto
-	TownNPCDialogueName: Spider Grotto
+	DisplayName: Паучий грот
+	TownNPCDialogueName: Паучий грот
 }
 
 HallucinationZone: {
-	DisplayName: Hallucination Encounter
-	TownNPCDialogueName: Hallucination Encounter
+	DisplayName: Зона галлюцинации
+	TownNPCDialogueName: Зона галлюцинации
 }
 
 VegetableBiome: {

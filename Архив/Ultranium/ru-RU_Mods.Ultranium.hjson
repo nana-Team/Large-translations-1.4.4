@@ -3123,7 +3123,7 @@ Status: {
 Achievements: {
 	DreadAchievement: {
 		FriendlyName: Это был ужасный день
-		Description: Одержать победу над Ужасом - физическим воплощением страха.
+		Description: Одержать победу над Ужасом — физическим воплощением страха.
 	}
 
 	ErebusAchievement: {

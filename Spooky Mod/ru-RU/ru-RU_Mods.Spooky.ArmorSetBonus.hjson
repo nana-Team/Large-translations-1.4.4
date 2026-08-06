@@ -1,13 +1,13 @@
-OldWoodArmor: 1 defense
+OldWoodArmor: Увеличивает защиту на 1 ед.
 WizardGangsterArmor:
 	'''
-	Grants 2% increased magic damage for each gold coin you have
-	This stops scaling after you have more than 10 gold coins
+	Увеличивает магический урон на 2% за каждую золотую монету в инвентаре
+	Этот эффект может увеличить урон максимум на 20%
 	'''
 WizardGangsterArmor2:
 	'''
-	Grants 2% decreased mana usage for each gold coin you have
-	This stops scaling after you have more than 10 gold coins
+	Снижает расход маны на 2% за каждую золотую монету в инвентаре
+	Этот эффект может снизить расход маны максимум на 20%
 	'''
 BroccoliArmor: Minions will sometimes plant damaging broccoli on enemies
 GoldrushArmor: All of your attacks inflict midas, causing enemies to drop more money
@@ -24,17 +24,17 @@ SharkBoneArmor:
 	'''
 GourdArmor:
 	'''
-	Weapons may inflict decay on enemies sometimes 
-	Decay damages enemies over time and lowers their defense
+	Атаки по врагам иногда будет вызывать у них разложение
+	Разложение наносит врагам постепенный урон и снижает их защиту
 	'''
-RootArmor: Your ranged projectiles have a chance to heal you
+RootArmor: Попадания стрелковым оружием по врагам иногда будут восстанавливать вам немного здоровья
 SpiderArmor:
 	'''
-	Double tap Down to enter spider stealth for 10 seconds
-	While in spider stealth your damage reduction is increased by 12%
-	This ability has a 2 minute cooldown before you can use it again
+	Нажмите клавишу ВНИЗ, чтобы войти в состояние паучьей скрытности на 10 секунд
+	Паучья скрытность увеличивает ваше сопротивление урону на 12%
+	Эта способность перезаряжается 2 минуты
 	'''
-SpiritHorsemanArmor: Your own head will now fight with you!
+SpiritHorsemanArmor: Ваша же голова сражается за вас!
 EyeArmor:
 	'''
 	15% increased whip range

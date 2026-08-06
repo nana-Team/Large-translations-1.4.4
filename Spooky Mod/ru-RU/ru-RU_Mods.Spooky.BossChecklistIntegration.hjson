@@ -1,6 +1,6 @@
 PandoraBox: {
-	EntryName: Pandora's Box
-	SpawnInfo: Use an [i:Spooky/EMFReader] nearby the locked pandora's chest in the lower catacombs.
+	EntryName: Ящик Пандоры
+	SpawnInfo: Используйте [i:Spooky/EMFReader] рядом с закрытым ящиком Пандоры в Мрачнейших катакомбах.
 }
 
 EggEvent: {
