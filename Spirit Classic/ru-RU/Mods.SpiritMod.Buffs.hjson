@@ -175,8 +175,8 @@ DynastyFanBuff: {
 }
 
 ElectrifiedV2: {
-	DisplayName: Electrified
-	Description: The sequel we - wait
+	DisplayName: "{$BuffName.Electrified}"
+	Description: Продолжение, которое мы... подождите
 }
 
 EleutheriosBuff: {
@@ -191,7 +191,7 @@ FateBlessing: {
 
 Frozen: {
 	DisplayName: Заморозка
-	Description: Вы певратились в ледышку!
+	Description: Вы превратились в ледышку!
 }
 
 BurningRage: {
@@ -199,22 +199,9 @@ BurningRage: {
 	Description: Вы получаете урон
 }
 
-CollapsingVoid.DisplayName: Collapsing Void
-DevouringVoid.DisplayName: Devouring Void
-
 DivineStrike: {
 	DisplayName: Божественный удар
 	Description: Ваша следующая атака нанесёт больше урона
-}
-
-PhantomVeil: {
-	DisplayName: Phantom Veil
-	Description: The next attack will be blocked
-}
-
-SanguineBleed: {
-	DisplayName: Crimson Bleed
-	Description: You are rapidly losing blood
 }
 
 SanguineRegen: {
@@ -231,21 +218,14 @@ TemporalShift: {
 		'''
 }
 
-WanderingPlague.DisplayName: Wandering Plague
-
-WindBurst: {
-	DisplayName: Wind Burst
-	Description: Knockback is amplified
-}
-
 GraniteArrow_Debuff: {
-	DisplayName: Granite Arrow Debuff
+	DisplayName: Дебафф гранитной стрелы
 	Description: ""
 }
 
 GreekFire: {
-	DisplayName: Greek Fire
-	Description: Set ablaze by the Gods themselves
+	DisplayName: Греческий огонь
+	Description: В огне самих богов
 }
 
 HighGravityBuff: {
@@ -316,11 +296,6 @@ NebulaFlame: {
 OliveBranchBuff: {
 	DisplayName: Peaceful Resolution
 	Description: "'Make peace with your enemies'"
-}
-
-OnyxWind: {
-	DisplayName: Onyx Whirlwind
-	Description: 10% increased movement speed
 }
 
 OracleBoonBuff: {
@@ -699,11 +674,6 @@ LowGravZoneBuff: {
 LowGravZoneTimer: {
 	DisplayName: Зона низкой гравитации
 	Description: Зона низкой гравитации активна!
-}
-
-RepulsionZoneTimer: {
-	DisplayName: Repulsion Zone
-	Description: The Repulsion Zone is up!
 }
 
 ShieldZoneTimer: {

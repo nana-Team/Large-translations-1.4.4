@@ -234,7 +234,7 @@ IllusionistEye: {
 		При получении смертельного урона телепортирует вас домой вместо смерти
 		Эффект не сработает, если поблизости есть босс
 		Перезаряжается 10 минут
-		«Иллюзионист без дома - всего лишь призрак»
+		«Иллюзионист без дома — всего лишь призрак»
 		'''
 }
 
@@ -3146,7 +3146,7 @@ TofuSatay: {
 }
 
 GaleSnailItem: {
-	DisplayName: Gale Snail
+	DisplayName: Улитка-дождинка
 	Tooltip: ""
 }
 
@@ -3166,7 +3166,7 @@ GulperItem: {
 }
 
 HailSnailItem: {
-	DisplayName: Hail Snail
+	DisplayName: Улитка-вихринка
 	Tooltip: ""
 }
 
@@ -3734,7 +3734,7 @@ FisheyeGem: {
 }
 
 BeeGlyph: {
-	DisplayName: Пчелиный глиф
+	DisplayName: Глиф пчелы
 	Tooltip:
 		'''
 		Убийство врага даёт бафф «{$BuffName.Honey}»
@@ -3745,7 +3745,7 @@ BeeGlyph: {
 }
 
 BlazeGlyph: {
-	DisplayName: Пылающий глиф
+	DisplayName: Глиф пламени
 	Tooltip:
 		'''
 		{$Items.BlazeGlyph.Addendum}
@@ -3757,14 +3757,14 @@ BlazeGlyph: {
 }
 
 ChaosGlyph: {
-	DisplayName: Хаотичный глиф
+	DisplayName: Глиф хаоса
 	Tooltip: Оружие периодически переключается между эффектами глифов
 	Addendum: "{$Items.ChaosGlyph.Tooltip}"
 	Effect: Нестабильный
 }
 
 FrostGlyph: {
-	DisplayName: Морозный глиф
+	DisplayName: Глиф мороза
 	Tooltip: Атаки могут ненадолго заморозить поражённого врага
 	Addendum: "{$Items.FrostGlyph.Tooltip}"
 	Effect: Замораживающий
@@ -3787,7 +3787,7 @@ NullGlyph: {
 }
 
 PhaseGlyph: {
-	DisplayName: Фазовый глиф
+	DisplayName: Глиф сдвига
 	Tooltip:
 		'''
 		Урон оружия увеличивается по мере роста вашей скорости, но снижается при медленном движении
@@ -3798,7 +3798,7 @@ PhaseGlyph: {
 }
 
 RadiantGlyph: {
-	DisplayName: Лучистый глиф
+	DisplayName: Глиф сияния
 	Tooltip:
 		'''
 		Накапливает лучистую энергию, пока вы не наносите урон
@@ -3809,14 +3809,14 @@ RadiantGlyph: {
 }
 
 RageGlyph: {
-	DisplayName: Яростный глиф
+	DisplayName: Глиф ярости
 	Tooltip: Лишний урон, нанесённый при добивающей атаке, сохранится и будет нанесёт при следующей атаке
 	Addendum: "{$Items.RageGlyph.Tooltip}"
 	Effect: Неистовый
 }
 
 SanguineGlyph: {
-	DisplayName: Кровавый глиф
+	DisplayName: Глиф крови
 	Tooltip:
 		'''
 		{$Items.SanguineGlyph.Addendum}
@@ -3827,28 +3827,28 @@ SanguineGlyph: {
 }
 
 StormGlyph: {
-	DisplayName: Штормовой глиф
+	DisplayName: Глиф шторма
 	Tooltip: Атаки периодически выпускают сильный порыв ветра
 	Addendum: "{$Items.StormGlyph.Tooltip}"
 	Effect: Взмывающий
 }
 
 UnholyGlyph: {
-	DisplayName: Нечестивый глиф
+	DisplayName: Глиф скверны
 	Tooltip: Из убитых врагов будут вылетать проклятые фантомы
 	Addendum: "{$Items.UnholyGlyph.Tooltip}"
 	Effect: Проклятый
 }
 
 VeilGlyph: {
-	DisplayName: Заслоночный глиф
+	DisplayName: Глиф заслона
 	Tooltip: Нанесение урона создаёт вокруг игрока защитный заслон
 	Addendum: "{$Items.VeilGlyph.Tooltip}"
 	Effect: Охранный
 }
 
 VoidGlyph: {
-	DisplayName: Пустотный глиф
+	DisplayName: Глиф пустоты
 	Tooltip: Атаки периодически накладывают суммирующийся эффект коллапса пустоты
 	Addendum: "{$Items.VoidGlyph.Tooltip}"
 	Effect: Пустой
@@ -6030,8 +6030,8 @@ BloodCourtLeggings: {
 }
 
 DreamstrideEssence: {
-	DisplayName: Dreamstride Essence
-	Tooltip: "'The stuff of nightmares'"
+	DisplayName: Эссенция кошмара
+	Tooltip: «Материя худших снов»
 }
 
 FangTome: {
@@ -6522,8 +6522,8 @@ HeartilleryBeacon: {
 }
 
 PesterflyCane: {
-	DisplayName: Pesterfly Cane
-	Tooltip: Summons pesterflies that swarm around hit enemies
+	DisplayName: Жезл гнойный мух
+	Tooltip: Призывает гнойных мух, которые будут кружиться вокруг поражённых врагов
 }
 
 BismiteGrenade: {
@@ -7236,8 +7236,8 @@ TitaniumStaff: {
 }
 
 AkaviriStaff: {
-	DisplayName: Lightspire
-	Tooltip: "'Any amount of light is enough'"
+	DisplayName: Игла света
+	Tooltip: «Даже немного света достаточно»
 }
 
 MagicDeck: {
@@ -8229,8 +8229,8 @@ GateStaff: {
 }
 
 GloomgusStaff: {
-	DisplayName: Glumshroom Staff
-	Tooltip: Summons temporary explosive mushrooms
+	DisplayName: Посох плодогриба
+	Tooltip: Призывает временный взрывающийся гриб
 }
 
 JadeStaff: {
@@ -8262,8 +8262,8 @@ StardustBomb: {
 }
 
 StarlightStaff: {
-	DisplayName: Starlight Staff
-	Tooltip: Summons a stationary twinkle popper
+	DisplayName: Звёздосветный посох
+	Tooltip: Призывает стража-мерцашкоплюя
 }
 
 HollowNail: {
@@ -8272,20 +8272,20 @@ HollowNail: {
 }
 
 Punching_Bag: {
-	DisplayName: Punching Bag
+	DisplayName: Боксёрский мешок
 	Tooltip:
 		'''
-		Shoots a barrage of fists
-		'The number one undead strength training method'
+		Выпускает шквал ударов
+		«Главный способ силовой тренировки среди нежити»
 		'''
 }
 
 BoCShuriken: {
-	DisplayName: Creeping Shuriken
+	DisplayName: Сюрикен-ползун
 	Tooltip:
 		'''
-		Shoots a revolving creeper
-		'Fashioned after yet another fleshy eyeball'
+		Бросает вращающихся ползунов
+		«Выполнен в пресловутой тематике плоти и глаз»
 		'''
 }
 
@@ -8332,8 +8332,8 @@ Kunai_Throwing: {
 }
 
 MartianGrenade: {
-	DisplayName: Electrosphere Grenade
-	Tooltip: "'WARNING- HIGH VOLTAGE'"
+	DisplayName: Электросферная граната
+	Tooltip: «ВЫСОКОЕ НАПРЯЖЕНИЕ. ОПАСНО ДЛЯ ЖИЗНИ!»
 }
 
 MimeBomb: {
@@ -8342,23 +8342,23 @@ MimeBomb: {
 }
 
 PiecesOfEight: {
-	DisplayName: Pieces of Eight
-	Tooltip: Critical hits cause enemies to drop more coins
+	DisplayName: Восьмерики
+	Tooltip: Критические удары накладывают на врагов дебафф «{$BuffName.Midas}»
 }
 
 PlagueVial: {
-	DisplayName: Plague Vial
+	DisplayName: Колба чумы
 	Tooltip:
 		'''
-		A noxious mixture of flammable toxins
-		Explodes into cursed embers upon hitting foes
-		'We could make a class out of this!'
+		Ядовитая смесь из легковоспламеняющихся токсинов
+		Взрывается исками проклятого пламени при попадании по врагу
+		«Из этого можно было бы сделать полноценный класс!»
 		'''
 }
 
 SkeletronHand: {
-	DisplayName: Bone Cutter
-	Tooltip: Dashes through the air in rapid bursts
+	DisplayName: Костяной резак
+	Tooltip: Делает небольшие рыки в воздухе
 }
 
 SpectreKnife: {
@@ -8876,8 +8876,8 @@ ScrapItem6: {
 }
 
 CursedArmorItem: {
-	DisplayName: Draugr Statue
-	Tooltip: "'Take caution...'"
+	DisplayName: Статуя драуга
+	Tooltip: «Будьте осторожны...»
 }
 
 SepulchreChandelierItem: {

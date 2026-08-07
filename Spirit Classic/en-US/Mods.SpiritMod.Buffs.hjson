@@ -199,22 +199,9 @@ BurningRage: {
 	Description: You're taking damage
 }
 
-CollapsingVoid.DisplayName: Collapsing Void
-DevouringVoid.DisplayName: Devouring Void
-
 DivineStrike: {
 	DisplayName: Divine Strike
 	Description: Your next attack will deal increased damage
-}
-
-PhantomVeil: {
-	DisplayName: Phantom Veil
-	Description: The next attack will be blocked
-}
-
-SanguineBleed: {
-	DisplayName: Crimson Bleed
-	Description: You are rapidly losing blood
 }
 
 SanguineRegen: {
@@ -225,13 +212,6 @@ SanguineRegen: {
 TemporalShift: {
 	DisplayName: Temporal Shift
 	Description: Double tap to dash and gain a temporary speed boost
-}
-
-WanderingPlague.DisplayName: Wandering Plague
-
-WindBurst: {
-	DisplayName: Wind Burst
-	Description: Knockback is amplified
 }
 
 GraniteArrow_Debuff: {
@@ -312,11 +292,6 @@ NebulaFlame: {
 OliveBranchBuff: {
 	DisplayName: Peaceful Resolution
 	Description: "'Make peace with your enemies'"
-}
-
-OnyxWind: {
-	DisplayName: Onyx Whirlwind
-	Description: 10% increased movement speed
 }
 
 OracleBoonBuff: {
@@ -695,11 +670,6 @@ LowGravZoneBuff: {
 LowGravZoneTimer: {
 	DisplayName: Low Gravity Zone
 	Description: The Low Gravity Zone is up!
-}
-
-RepulsionZoneTimer: {
-	DisplayName: Repulsion Zone
-	Description: The Repulsion Zone is up!
 }
 
 ShieldZoneTimer: {
