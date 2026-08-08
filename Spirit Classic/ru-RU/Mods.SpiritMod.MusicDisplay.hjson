@@ -125,7 +125,7 @@ SpiritLayer1: {
 }
 
 Starplate: {
-	DisplayName: Звездопанцирный странник: Lost Voyager
+	DisplayName: Звёздопанцирный странник: Lost Voyager
 	Author: "{$BySalvati}"
 }
 
